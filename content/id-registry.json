@@ -1,0 +1,1216 @@
+{
+  "schema_version": "1.0.0",
+  "edition": "2026-10-28",
+  "entries": {
+    "eyes:1": {
+      "id": "eyes-001",
+      "import_title": "看不清先验光 别靠少戴眼镜或故意配低度数 养眼"
+    },
+    "eyes:2": {
+      "id": "eyes-002",
+      "import_title": "给连续近距离任务插入休息 眼痒时减少用力揉按"
+    },
+    "eyes:3": {
+      "id": "eyes-003",
+      "import_title": "不为减轻普通屏幕疲劳优先加钱买防蓝光镜"
+    },
+    "eyes:4": {
+      "id": "eyes-004",
+      "import_title": "不把叶黄素和AREDS2配方当成年轻人的通用护眼任务"
+    },
+    "eyes:5": {
+      "id": "eyes-005",
+      "import_title": "眼红和流泪先辨原因 疼痛 怕光或视力变化时及时就诊"
+    },
+    "eyes:6": {
+      "id": "eyes-006",
+      "import_title": "温敷按问题使用 眼睑小包不自己挤破"
+    },
+    "eyes:7": {
+      "id": "eyes-007",
+      "import_title": "干涩时考虑人工泪液 不把 清凉去红 当成日常保养"
+    },
+    "eyes:8": {
+      "id": "eyes-008",
+      "import_title": "把框架镜 软镜和OK镜按用途选 隐形眼镜单独验配"
+    },
+    "eyes:9": {
+      "id": "eyes-009",
+      "import_title": "按说明更换镜片 把日抛的便利与复用护理负担一起比较"
+    },
+    "eyes:10": {
+      "id": "eyes-010",
+      "import_title": "买美瞳先查注册和适配 不凭色素或工艺口号判安全"
+    },
+    "eyes:11": {
+      "id": "eyes-011",
+      "import_title": "普通日戴软镜睡前取下 洗澡 游泳前也摘掉"
+    },
+    "eyes:12": {
+      "id": "eyes-012",
+      "import_title": "用新液完成消毒 过氧化氢系统先中和 异常红痛就停戴"
+    },
+    "nose:1": {
+      "id": "nose-001",
+      "import_title": "只修剪伸出鼻孔的鼻毛 不要连根拔或用鼻毛蜡清空"
+    },
+    "nose:2": {
+      "id": "nose-002",
+      "import_title": "鼻屎结硬时先湿润鼻孔入口 不要反复抠挖和用力擤鼻"
+    },
+    "nose:3": {
+      "id": "nose-003",
+      "import_title": "先分清皮脂丝和黑头 不要用鼻贴和吸黑头仪追求一个点都没有"
+    },
+    "nose:4": {
+      "id": "nose-004",
+      "import_title": "有鼻炎症状时再考虑盐水冲洗 并用合格的水和干净的器具"
+    },
+    "nose:5": {
+      "id": "nose-005",
+      "import_title": "鼻塞和打喷嚏反复影响睡眠时就诊 不要长期靠通鼻喷雾硬撑"
+    },
+    "nose:6": {
+      "id": "nose-006",
+      "import_title": "流鼻血时身体前倾 捏紧鼻翼软部持续十到十五分钟"
+    },
+    "lips:1": {
+      "id": "lips-001",
+      "import_title": "先选一款不刺激的润唇产品 按干燥程度补涂"
+    },
+    "lips:2": {
+      "id": "lips-002",
+      "import_title": "用补涂代替反复舔唇和撕皮 唇膜只按保湿体验购买"
+    },
+    "lips:3": {
+      "id": "lips-003",
+      "import_title": "户外给嘴唇补一份防晒 吃喝和擦拭后按说明补涂"
+    },
+    "lips:4": {
+      "id": "lips-004",
+      "import_title": "反复红裂时暂停可疑产品 把产品和照片带去就诊"
+    },
+    "lips:5": {
+      "id": "lips-005",
+      "import_title": "先辨认成簇水疱 再讨论早期抗病毒治疗"
+    },
+    "oral:1": {
+      "id": "oral-001",
+      "import_title": "早晚用含氟牙膏刷牙 把睡前那次保留下来"
+    },
+    "oral:2": {
+      "id": "oral-002",
+      "import_title": "按清洁能力和使用体验选牙刷 刷毛磨损时换掉"
+    },
+    "oral:3": {
+      "id": "oral-003",
+      "import_title": "每天清一次牙缝 出血时同时检查方法和牙龈"
+    },
+    "oral:4": {
+      "id": "oral-004",
+      "import_title": "把水牙线当辅助工具 别仅凭冲出残渣就替代其他清洁"
+    },
+    "oral:5": {
+      "id": "oral-005",
+      "import_title": "先看漱口水的活性成分 再决定是否需要购买"
+    },
+    "oral:6": {
+      "id": "oral-006",
+      "import_title": "按疗程使用氯己定 别把长期杀菌当作日常保养"
+    },
+    "oral:7": {
+      "id": "oral-007",
+      "import_title": "按牙石和牙周状况安排洗牙 把检查日期也约清楚"
+    },
+    "oral:8": {
+      "id": "oral-008",
+      "import_title": "温和清洁舌面 口臭持续时先检查原因"
+    },
+    "oral:9": {
+      "id": "oral-009",
+      "import_title": "想变白先辨认着色 按具体版本使用美白牙贴"
+    },
+    "oral:10": {
+      "id": "oral-010",
+      "import_title": "做贴面或烤瓷冠前 问清磨牙量和今后更换的代价"
+    },
+    "oral:11": {
+      "id": "oral-011",
+      "import_title": "根据疾病和邻牙风险决定拔不拔智齿 保留时继续复查"
+    },
+    "oral:12": {
+      "id": "oral-012",
+      "import_title": "成年后仍可评估正畸 先找负责医生再选牙套"
+    },
+    "ears:1": {
+      "id": "ears-001",
+      "import_title": "日常洗外耳就够了 不把棉签 挖耳勺伸进耳道"
+    },
+    "ears:2": {
+      "id": "ears-002",
+      "import_title": "耳屎堵塞先确认原因 再按条件选软化用品"
+    },
+    "ears:3": {
+      "id": "ears-003",
+      "import_title": "进水后让耳朵朝下排水 疼痒流液时停止自行清理"
+    },
+    "ears:4": {
+      "id": "ears-004",
+      "import_title": "耳机同时降音量 减时长 演唱会另用合适的听力防护"
+    },
+    "ears:5": {
+      "id": "ears-005",
+      "import_title": "突然听不清立即就诊 持续耳鸣先评估再买用品"
+    },
+    "skin:1": {
+      "id": "skin-001",
+      "import_title": "用温水轻洗 洗后干燥就保湿 别追求搓到发涩"
+    },
+    "skin:2": {
+      "id": "skin-002",
+      "import_title": "按彩妆和防晒的配方卸除 别把 双重清洁 设成每天的必做题"
+    },
+    "skin:3": {
+      "id": "skin-003",
+      "import_title": "把防晒用在实际日晒中 优先选自己愿意持续使用的配方"
+    },
+    "skin:4": {
+      "id": "skin-004",
+      "import_title": "为面膜和喷雾的短时舒适付费 别把它们当作修复熬夜的必需品"
+    },
+    "skin:5": {
+      "id": "skin-005",
+      "import_title": "新产品逐个加入 持续红痒灼痛就暂停 别硬撑 排毒期"
+    },
+    "skin:6": {
+      "id": "skin-006",
+      "import_title": "长痘先用有证据的治疗思路 别靠猛洗 挤压和不断换酸来试错"
+    },
+    "skin:7": {
+      "id": "skin-007",
+      "import_title": "把痘印 痘坑和不明色斑分开 别指望淡斑精华把凹陷填平"
+    },
+    "skin:8": {
+      "id": "skin-008",
+      "import_title": "把均衡饮食当作痤疮治疗的辅助 别为 抗糖 把主食和奶都一刀切"
+    },
+    "skin:9": {
+      "id": "skin-009",
+      "import_title": "想试烟酰胺就看目标和耐受 别把10%自动当作5%的升级版"
+    },
+    "skin:10": {
+      "id": "skin-010",
+      "import_title": "想用维A类改善光老化 先分清药物维A酸和化妆品视黄醇"
+    },
+    "skin:11": {
+      "id": "skin-011",
+      "import_title": "先分清眼周是干 黑 肿还是凹 再决定眼霜值得买多少"
+    },
+    "skin:12": {
+      "id": "skin-012",
+      "import_title": "胶原与抗糖补剂先留在可选项 别把统计学改善当成值得长期买单"
+    },
+    "skin:13": {
+      "id": "skin-013",
+      "import_title": "需要时温和剃须和修整细毛 别为了 越刮越干净 反复刮擦"
+    },
+    "skin:14": {
+      "id": "skin-014",
+      "import_title": "买家用美容仪先核对具体用途 别把红蓝光的研究借给所有 抗老仪"
+    },
+    "skin:15": {
+      "id": "skin-015",
+      "import_title": "做医美前核对机构 医生与具体项目 把恢复期和风险一起问清"
+    },
+    "hair:1": {
+      "id": "hair-001",
+      "import_title": "头皮油了脏了就洗 不要靠硬撑几天不洗来养头皮"
+    },
+    "hair:2": {
+      "id": "hair-002",
+      "import_title": "反复头屑先选有对应成分的产品 明显红痛或四周不改善就检查"
+    },
+    "hair:3": {
+      "id": "hair-003",
+      "import_title": "不要只为无硅油或氨基酸标签多花钱 先看整瓶配方是否适合自己"
+    },
+    "hair:4": {
+      "id": "hair-004",
+      "import_title": "发尾毛躁先用护发素 不必默认每次再叠发膜"
+    },
+    "hair:5": {
+      "id": "hair-005",
+      "import_title": "护发油和胶囊先少量涂在发段 不要拿顺滑效果当生发效果"
+    },
+    "hair:6": {
+      "id": "hair-006",
+      "import_title": "为焗油和键合修护先问清效果持续多久 不要仅凭修复二字购买套餐"
+    },
+    "hair:7": {
+      "id": "hair-007",
+      "import_title": "吹头发时降低温度并移动风口 不要贴着同一处反复烘"
+    },
+    "hair:8": {
+      "id": "hair-008",
+      "import_title": "想让头顶蓬松先调整剪裁和发根产品 再决定要不要烫发"
+    },
+    "hair:9": {
+      "id": "hair-009",
+      "import_title": "干洗喷雾只作临时吸油 使用后仍要正常水洗"
+    },
+    "hair:10": {
+      "id": "hair-010",
+      "import_title": "持续变稀或突然大量掉发先查原因 不要先囤防脱洗发水和生发软糖"
+    },
+    "hair:11": {
+      "id": "hair-011",
+      "import_title": "白发需要遮盖就选择合适染发 不要反复拔或指望乌发食品保证转黑"
+    }
+  },
+  "units": {
+    "eyes-u1": {
+      "id": "eyes-u1",
+      "import_title": "先按实际视力安排用眼 少靠传言做决定"
+    },
+    "eyes-u2": {
+      "id": "eyes-u2",
+      "import_title": "把护眼消费的目标说清楚"
+    },
+    "eyes-u3": {
+      "id": "eyes-u3",
+      "import_title": "先验配 再比较镜片周期和颜色"
+    },
+    "eyes-u4": {
+      "id": "eyes-u4",
+      "import_title": "把取戴和护理做好 出现异常及时停戴"
+    },
+    "nose-u1": {
+      "id": "nose-u1",
+      "import_title": "先减少修剪和清洁造成的损伤"
+    },
+    "nose-u2": {
+      "id": "nose-u2",
+      "import_title": "把鼻子表面的油脂与鼻腔问题分开处理"
+    },
+    "nose-u3": {
+      "id": "nose-u3",
+      "import_title": "出血时先做正确的止血动作"
+    },
+    "lips-u1": {
+      "id": "lips-u1",
+      "import_title": "先照顾干燥和反复的小动作"
+    },
+    "lips-u2": {
+      "id": "lips-u2",
+      "import_title": "把防晒 接触过敏和水疱分别处理"
+    },
+    "oral-u1": {
+      "id": "oral-u1",
+      "import_title": "先把牙面和牙缝清洁到位"
+    },
+    "oral-u2": {
+      "id": "oral-u2",
+      "import_title": "按目的使用漱口水 按检查安排专业护理"
+    },
+    "oral-u3": {
+      "id": "oral-u3",
+      "import_title": "先比较保留牙体的美白 再考虑修复外形"
+    },
+    "oral-u4": {
+      "id": "oral-u4",
+      "import_title": "把智齿和正畸的收益 风险一起谈"
+    },
+    "ears-u1": {
+      "id": "ears-u1",
+      "import_title": "先让耳道少受刺激 再处理真正的堵塞"
+    },
+    "ears-u2": {
+      "id": "ears-u2",
+      "import_title": "控制声音暴露 出现听力变化及时检查"
+    },
+    "skin-u1": {
+      "id": "skin-u1",
+      "import_title": "把日常护理做稳 洗得舒服 保住水分 安排防晒"
+    },
+    "skin-u2": {
+      "id": "skin-u2",
+      "import_title": "出现痘斑和不适 先认清问题 再给处理方案时间"
+    },
+    "skin-u3": {
+      "id": "skin-u3",
+      "import_title": "比较功效产品 看人体验证 别只看成分名与浓度"
+    },
+    "skin-u4": {
+      "id": "skin-u4",
+      "import_title": "打理和专业项目 先看操作 再看设备与资质"
+    },
+    "hair-u1": {
+      "id": "hair-u1",
+      "import_title": "按头皮状态洗头 有头屑时另选处理方法"
+    },
+    "hair-u2": {
+      "id": "hair-u2",
+      "import_title": "把护发效果与生发承诺分开判断"
+    },
+    "hair-u3": {
+      "id": "hair-u3",
+      "import_title": "用较少的热和拉扯完成日常造型"
+    },
+    "hair-u4": {
+      "id": "hair-u4",
+      "import_title": "头发变少或变白时 别只在洗护货架上找答案"
+    }
+  },
+  "sources": {
+    "ROOT_HANDBOOK15": {
+      "id": "src-6415628bee64",
+      "identity": "url:https://www.cochrane.org/authors/handbooks-and-manuals/handbook/current/chapter-15",
+      "legacy_number": 1
+    },
+    "E001": {
+      "id": "src-715b8e1cf4ef",
+      "identity": "url:https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/refractive-errors/eyeglasses-refractive-errors",
+      "legacy_number": 2
+    },
+    "E003": {
+      "id": "src-e013467d1a62",
+      "identity": "doi:10.1016/j.clae.2022.101744",
+      "legacy_number": 3
+    },
+    "E005": {
+      "id": "src-c19a7d3b319f",
+      "identity": "doi:10.1038/s41433-023-02739-x",
+      "legacy_number": 4
+    },
+    "E002": {
+      "id": "src-073f63dd37cc",
+      "identity": "url:https://www.moorfields.nhs.uk/about-us/news-and-blogs/news/world-sight-day-2023-looking-after-your-eyes-at-work",
+      "legacy_number": 5
+    },
+    "E004": {
+      "id": "src-45b11b3759b1",
+      "identity": "url:https://www.royaldevon.nhs.uk/media/wbgjomgx/patient-information-leaflet-keratoconus-rde-18-121-002.pdf",
+      "legacy_number": 6
+    },
+    "E006": {
+      "id": "src-9edafe35e197",
+      "identity": "doi:10.1002/14651858.cd013244.pub2",
+      "legacy_number": 7
+    },
+    "E007": {
+      "id": "src-9441d25a7879",
+      "identity": "url:https://www.zeiss.com.cn/vision-care/need-new-lenses/blueguard.html",
+      "legacy_number": 8
+    },
+    "E008": {
+      "id": "src-4cc99c887a1a",
+      "identity": "doi:10.1001/jama.2013.4997",
+      "legacy_number": 9
+    },
+    "E009": {
+      "id": "src-ece276be129a",
+      "identity": "url:https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/age-related-macular-degeneration/nutritional-supplements-age-related-macular-degeneration",
+      "legacy_number": 10
+    },
+    "E010": {
+      "id": "src-b255e614b6c8",
+      "identity": "url:https://www.nhs.uk/symptoms/dry-eyes",
+      "legacy_number": 11
+    },
+    "E011": {
+      "id": "src-69bfaa3ff171",
+      "identity": "url:https://www.nhs.uk/symptoms/red-eye",
+      "legacy_number": 12
+    },
+    "E030": {
+      "id": "src-32d4a2191452",
+      "identity": "url:https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/retinal-detachment",
+      "legacy_number": 13
+    },
+    "E013": {
+      "id": "src-0cdb8d2bd122",
+      "identity": "doi:10.1186/s12886-024-03642-z",
+      "legacy_number": 14
+    },
+    "E014": {
+      "id": "src-7fb82ed50e21",
+      "identity": "doi:10.1002/14651858.cd007742.pub4",
+      "legacy_number": 15
+    },
+    "E012": {
+      "id": "src-90f2804c54b5",
+      "identity": "url:https://www.nhs.uk/conditions/stye",
+      "legacy_number": 16
+    },
+    "E015": {
+      "id": "src-bd1b62be48f7",
+      "identity": "url:https://www.kao.com/cn/products/kaoeyemask",
+      "legacy_number": 17
+    },
+    "E016": {
+      "id": "src-310c8870afbc",
+      "identity": "url:https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/dry-eye",
+      "legacy_number": 18
+    },
+    "E017": {
+      "id": "src-853e25793c5b",
+      "identity": "doi:10.1002/14651858.cd009729.pub2",
+      "legacy_number": 19
+    },
+    "E018": {
+      "id": "src-243ecee7bcfb",
+      "identity": "url:https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3222b6d6-adb6-4747-b764-84a19bd5cc34",
+      "legacy_number": 20
+    },
+    "E019": {
+      "id": "src-859bde34b7d5",
+      "identity": "url:https://www.fda.gov/medical-devices/contact-lenses/types-contact-lenses",
+      "legacy_number": 21
+    },
+    "E020": {
+      "id": "src-639343c94146",
+      "identity": "url:https://www.fda.gov/medical-devices/contact-lenses/contact-lens-prescription",
+      "legacy_number": 22
+    },
+    "E021": {
+      "id": "src-fd6b2e291d71",
+      "identity": "url:https://www.nei.nih.gov/eye-health-information/healthy-vision/contact-lenses",
+      "legacy_number": 23
+    },
+    "E022": {
+      "id": "src-7591fd76e514",
+      "identity": "doi:10.1016/j.ophtha.2022.08.002",
+      "legacy_number": 24
+    },
+    "E023": {
+      "id": "src-23f104c31aa7",
+      "identity": "url:https://www.samr.gov.cn/xw/mtjj/art/2023/art_ef43ce0f58a242faabba42a59800856b.html",
+      "legacy_number": 25
+    },
+    "E024": {
+      "id": "src-2049cfcc59bc",
+      "identity": "url:https://www.fda.gov/consumers/consumer-updates/colored-and-decorative-contact-lenses-prescription-must",
+      "legacy_number": 26
+    },
+    "E025": {
+      "id": "src-38e670efc1d4",
+      "identity": "url:https://www.cdc.gov/contact-lenses/prevention/index.html",
+      "legacy_number": 27
+    },
+    "E026": {
+      "id": "src-403d2a80b863",
+      "identity": "url:https://www.cdc.gov/contact-lenses/about/healthy-habits-keeping-water-away-from-contact-lenses.html",
+      "legacy_number": 28
+    },
+    "E027": {
+      "id": "src-537054270e41",
+      "identity": "url:https://www.fda.gov/medical-devices/contact-lenses/hydrogen-peroxide-solution",
+      "legacy_number": 29
+    },
+    "E028": {
+      "id": "src-d2fe1a31e710",
+      "identity": "url:https://www.fda.gov/medical-devices/contact-lenses/contact-lens-risks",
+      "legacy_number": 30
+    },
+    "E029": {
+      "id": "src-365a650a6e2f",
+      "identity": "url:https://www.fda.gov/consumers/womens-health-topics/contact-lens-care",
+      "legacy_number": 31
+    },
+    "N001": {
+      "id": "src-269ba6da23a1",
+      "identity": "url:https://wexnermedical.osu.edu/our-stories/should-i-trim-nose-hair",
+      "legacy_number": 32
+    },
+    "N002": {
+      "id": "src-b3606f723c5d",
+      "identity": "doi:10.1016/j.diagmicrobio.2017.06.007",
+      "legacy_number": 33
+    },
+    "N003": {
+      "id": "src-dbe62c864727",
+      "identity": "url:https://www.philips.com.cn/c-p/NT5175_16/nose-trimmer-series-5000-gentle-nose-neck-sideburns-trimmer",
+      "legacy_number": 34
+    },
+    "N004": {
+      "id": "src-bf4065d908cf",
+      "identity": "url:https://www.nhs.uk/conditions/nosebleed",
+      "legacy_number": 35
+    },
+    "N006": {
+      "id": "src-ec241335bde7",
+      "identity": "doi:10.1002/14651858.cd012597.pub2",
+      "legacy_number": 36
+    },
+    "N007": {
+      "id": "src-3f4c05fb6407",
+      "identity": "url:https://www.fda.gov/consumers/consumer-updates/rinsing-your-sinuses-neti-pots-safe",
+      "legacy_number": 37
+    },
+    "N005": {
+      "id": "src-ff0ec36d15c3",
+      "identity": "url:https://my.clevelandclinic.org/health/diseases/24571-sebaceous-filaments",
+      "legacy_number": 38
+    },
+    "N008": {
+      "id": "src-8f822472662d",
+      "identity": "url:https://bikele.net/product",
+      "legacy_number": 39
+    },
+    "N009": {
+      "id": "src-d9f2c909233d",
+      "identity": "url:https://www.nhs.uk/conditions/allergic-rhinitis",
+      "legacy_number": 40
+    },
+    "N010": {
+      "id": "src-29f0e1abfeba",
+      "identity": "url:https://www.nhs.uk/medicines/decongestants",
+      "legacy_number": 41
+    },
+    "ROOT_NASAL_STEROID": {
+      "id": "src-ebb4cdfa65a9",
+      "identity": "url:https://www.nhs.uk/medicines/steroids",
+      "legacy_number": 42
+    },
+    "N011": {
+      "id": "src-c9cdee24864d",
+      "identity": "doi:10.1177/0194599819890327",
+      "legacy_number": 43
+    },
+    "L001": {
+      "id": "src-61b6ea97dfe1",
+      "identity": "url:https://www.aad.org/public/everyday-care/skin-care-basics/dry/heal-dry-chapped-lips",
+      "legacy_number": 44
+    },
+    "L002": {
+      "id": "src-0597078ce7ca",
+      "identity": "doi:10.2147/ccid.s179430",
+      "legacy_number": 45
+    },
+    "L003": {
+      "id": "src-2b48f8dcc1ad",
+      "identity": "url:https://www.vaseline.com/us/en/p/vaseline-original-healing-jelly-tube.html/00305210049246",
+      "legacy_number": 46
+    },
+    "L005": {
+      "id": "src-bb9cd94d3ade",
+      "identity": "url:https://www.nhs.uk/symptoms/sore-or-dry-lips",
+      "legacy_number": 47
+    },
+    "L004": {
+      "id": "src-f408dcf01213",
+      "identity": "url:https://us.laneige.com/collections/new/products/lip-sleeping-mask?variant=31760703160372",
+      "legacy_number": 48
+    },
+    "ORALLIP_A02": {
+      "id": "src-a8643284bb9c",
+      "identity": "url:https://www.fda.gov/drugs/understanding-over-counter-medicines/sunscreen-how-help-protect-your-skin-sun",
+      "legacy_number": 49
+    },
+    "L007": {
+      "id": "src-9e75d5ed9a4e",
+      "identity": "doi:10.1002/14651858.cd010095.pub2",
+      "legacy_number": 50
+    },
+    "L006": {
+      "id": "src-2d8fb1284eb2",
+      "identity": "url:https://www.aquaphorus.com/products/aquaphor/aquaphor-lip-repair-stick-sunscreen",
+      "legacy_number": 51
+    },
+    "L009": {
+      "id": "src-0c60418e40e6",
+      "identity": "url:https://dermnetnz.org/topics/allergic-contact-cheilitis",
+      "legacy_number": 52
+    },
+    "ORALLIP_A03": {
+      "id": "src-70ac79646e81",
+      "identity": "url:https://dermnetnz.org/topics/patch-tests",
+      "legacy_number": 53
+    },
+    "L008": {
+      "id": "src-6195af04a652",
+      "identity": "doi:10.1097/der.0000000000000524",
+      "legacy_number": 54
+    },
+    "L010": {
+      "id": "src-a759cba238b3",
+      "identity": "url:https://www.nhs.uk/conditions/cold-sores",
+      "legacy_number": 55
+    },
+    "L012": {
+      "id": "src-fb4793f34270",
+      "identity": "url:https://www.nhs.uk/conditions/herpes-simplex-eye-infections",
+      "legacy_number": 56
+    },
+    "L011": {
+      "id": "src-d7a65bd47c20",
+      "identity": "doi:10.1002/14651858.cd015216.pub2",
+      "legacy_number": 57
+    },
+    "O002": {
+      "id": "src-ebf18e8b152c",
+      "identity": "url:https://www.nhs.uk/live-well/healthy-teeth-and-gums/how-to-keep-your-teeth-clean",
+      "legacy_number": 58
+    },
+    "O003": {
+      "id": "src-4ef6f6e45a3b",
+      "identity": "url:https://www.ada.org/resources/ada-library/oral-health-topics/toothbrushes",
+      "legacy_number": 59
+    },
+    "ORALLIP_A01": {
+      "id": "src-7f4e522fd57b",
+      "identity": "url:https://www.ada.org/resources/ada-library/oral-health-topics/toothpastes",
+      "legacy_number": 60
+    },
+    "O001": {
+      "id": "src-b9b1ccbc54d7",
+      "identity": "doi:10.1002/14651858.cd007868.pub3",
+      "legacy_number": 61
+    },
+    "O015": {
+      "id": "src-8dafbea7c486",
+      "identity": "url:https://www.nhc.gov.cn/ylyjs/gzdt/202409/fb0739ef18ae42329bac79154355fdf8/files/1733882287580_93496.pdf",
+      "legacy_number": 62
+    },
+    "O004": {
+      "id": "src-7625549df643",
+      "identity": "doi:10.1002/14651858.cd002281.pub3",
+      "legacy_number": 63
+    },
+    "O005": {
+      "id": "src-5be652de666c",
+      "identity": "url:https://oralb.com/en-us/products/io-series-3-rechargeable-electric-toothbrush-icy-blue-dd",
+      "legacy_number": 64
+    },
+    "O006": {
+      "id": "src-a65332cac12a",
+      "identity": "doi:10.1002/14651858.cd012018.pub2",
+      "legacy_number": 65
+    },
+    "O007": {
+      "id": "src-bb69e0a027e7",
+      "identity": "url:https://www.nhs.uk/conditions/gum-disease",
+      "legacy_number": 66
+    },
+    "O008": {
+      "id": "src-137cb4157592",
+      "identity": "url:https://www.waterpik.com/products/dental-water-flosser/counter-top",
+      "legacy_number": 67
+    },
+    "O010": {
+      "id": "src-1dbb35a1f8ee",
+      "identity": "url:https://www.ada.org/resources/ada-library/oral-health-topics/mouthrinse-mouthwash",
+      "legacy_number": 68
+    },
+    "O009": {
+      "id": "src-99cdf72ff2b6",
+      "identity": "doi:10.1111/idh.12843",
+      "legacy_number": 69
+    },
+    "O011": {
+      "id": "src-05653f0dd18b",
+      "identity": "url:https://www.listerine.com.sg/listerine-total-care-zero",
+      "legacy_number": 70
+    },
+    "O013": {
+      "id": "src-5a8a71d2ae61",
+      "identity": "url:https://www.nhs.uk/medicines/chlorhexidine/how-and-when-to-use-chlorhexidine",
+      "legacy_number": 71
+    },
+    "O012": {
+      "id": "src-538597ad2b2a",
+      "identity": "doi:10.1002/14651858.cd008676.pub2",
+      "legacy_number": 72
+    },
+    "O014": {
+      "id": "src-a6d83170b3f9",
+      "identity": "doi:10.1002/14651858.cd004625.pub5",
+      "legacy_number": 73
+    },
+    "O016": {
+      "id": "src-4cd4a40c831a",
+      "identity": "url:https://www.nhs.uk/live-well/healthy-teeth-and-gums/dental-check-ups",
+      "legacy_number": 74
+    },
+    "O032": {
+      "id": "src-f38a661531c7",
+      "identity": "url:https://www.nhs.uk/conditions/dental-abscess",
+      "legacy_number": 75
+    },
+    "O018": {
+      "id": "src-47049c8dd20a",
+      "identity": "url:https://www.nhs.uk/symptoms/bad-breath",
+      "legacy_number": 76
+    },
+    "O017": {
+      "id": "src-51429fe811ea",
+      "identity": "doi:10.1002/14651858.cd012213.pub2",
+      "legacy_number": 77
+    },
+    "O019": {
+      "id": "src-ee0a69f119ef",
+      "identity": "url:https://www.nhs.uk/conditions/mouth-cancer/symptoms",
+      "legacy_number": 78
+    },
+    "O021": {
+      "id": "src-3f0f89610a5c",
+      "identity": "url:https://www.ada.org/resources/ada-library/oral-health-topics/whitening",
+      "legacy_number": 79
+    },
+    "O020": {
+      "id": "src-0d36c8435e07",
+      "identity": "doi:10.1002/14651858.cd006202.pub2",
+      "legacy_number": 80
+    },
+    "O022": {
+      "id": "src-9f43addb3ad6",
+      "identity": "url:https://crest.com/en-us/oral-care-products/whitening-treatments",
+      "legacy_number": 81
+    },
+    "O024": {
+      "id": "src-7846734d48ef",
+      "identity": "url:https://www.mouthhealthy.org/all-topics-a-z/veneers",
+      "legacy_number": 82
+    },
+    "O025": {
+      "id": "src-5ce32500c4aa",
+      "identity": "url:https://www.nhs.uk/live-well/healthy-teeth-and-gums/dental-treatments",
+      "legacy_number": 83
+    },
+    "O023": {
+      "id": "src-f0139230e249",
+      "identity": "doi:10.3390/jcm10051074",
+      "legacy_number": 84
+    },
+    "O027": {
+      "id": "src-22f767618353",
+      "identity": "url:https://www.nhs.uk/tests-and-treatments/wisdom-tooth-removal",
+      "legacy_number": 85
+    },
+    "O026": {
+      "id": "src-07b7e5c9f659",
+      "identity": "doi:10.1002/14651858.cd003879.pub5",
+      "legacy_number": 86
+    },
+    "O028": {
+      "id": "src-c937bf29ee18",
+      "identity": "url:https://bos.org.uk/patients/treatments/orthodontics-for-adults",
+      "legacy_number": 87
+    },
+    "O031": {
+      "id": "src-3adfe962e801",
+      "identity": "url:https://www.nhs.uk/tests-and-treatments/braces",
+      "legacy_number": 88
+    },
+    "O029": {
+      "id": "src-8cc229da939c",
+      "identity": "url:https://www.gdc-uk.org/standards-guidance/standards-and-guidance/gdc-guidance-for-dental-professionals/direct-to-consumer-orthodontics",
+      "legacy_number": 89
+    },
+    "O030": {
+      "id": "src-22247b956555",
+      "identity": "url:https://bos.org.uk/patients/retainers",
+      "legacy_number": 90
+    },
+    "U001": {
+      "id": "src-3cb3e8911982",
+      "identity": "url:https://www.nhs.uk/conditions/earwax-build-up",
+      "legacy_number": 91
+    },
+    "U002": {
+      "id": "src-1988ad5442b1",
+      "identity": "url:https://www.canada.ca/en/health-canada/services/medical-procedures/ear-candling.html",
+      "legacy_number": 92
+    },
+    "U003": {
+      "id": "src-3b66dbde629f",
+      "identity": "doi:10.1002/14651858.cd012171.pub2",
+      "legacy_number": 93
+    },
+    "U004": {
+      "id": "src-f075558cf188",
+      "identity": "url:https://www.cdc.gov/healthy-swimming/prevention/preventing-swimmers-ear.html",
+      "legacy_number": 94
+    },
+    "U005": {
+      "id": "src-da94ff890c47",
+      "identity": "url:https://www.who.int/news-room/questions-and-answers/item/deafness-and-hearing-loss-safe-listening",
+      "legacy_number": 95
+    },
+    "U006": {
+      "id": "src-f5c90ce9c88c",
+      "identity": "url:https://www.who.int/publications-detail-redirect/9789241515276",
+      "legacy_number": 96
+    },
+    "U007": {
+      "id": "src-1d7968cc043d",
+      "identity": "doi:10.1001/jamaoto.2016.0225",
+      "legacy_number": 97
+    },
+    "U008": {
+      "id": "src-203b5007a601",
+      "identity": "url:https://www.nidcd.nih.gov/health/sudden-deafness",
+      "legacy_number": 98
+    },
+    "U009": {
+      "id": "src-aa34e94d5459",
+      "identity": "url:https://www.nidcd.nih.gov/health/tinnitus",
+      "legacy_number": 99
+    },
+    "S001": {
+      "id": "src-070918c1401b",
+      "identity": "url:https://www.aad.org/public/everyday-care/skin-care-basics/care/face-washing-101",
+      "legacy_number": 100
+    },
+    "S002": {
+      "id": "src-b1766e9caa49",
+      "identity": "url:https://www.aad.org/public/everyday-care/skin-care-secrets/face/treat-large-pores",
+      "legacy_number": 101
+    },
+    "S003": {
+      "id": "src-a3bbada7b9da",
+      "identity": "url:https://www.aad.org/public/everyday-care/skin-care-basics/care/skin-care-in-your-20s",
+      "legacy_number": 102
+    },
+    "SKIN_A01": {
+      "id": "src-5c3c6493b810",
+      "identity": "url:https://health.clevelandclinic.org/skin-barrier",
+      "legacy_number": 103
+    },
+    "S004": {
+      "id": "src-eab17e109987",
+      "identity": "doi:10.1111/jocd.12995",
+      "legacy_number": 104
+    },
+    "S005": {
+      "id": "src-402c3fdb5d00",
+      "identity": "doi:10.7326/0003-4819-158-11-201306040-00002",
+      "legacy_number": 105
+    },
+    "S006": {
+      "id": "src-921a56f775de",
+      "identity": "url:https://www.aad.org/public/everyday-care/sun-protection/shade-clothing-sunscreen/how-to-apply-sunscreen",
+      "legacy_number": 106
+    },
+    "SKIN_A02": {
+      "id": "src-db548f633bc6",
+      "identity": "url:https://www.fda.gov/drugs/understanding-over-counter-medicines/sun-and-your-medicine",
+      "legacy_number": 107
+    },
+    "S007": {
+      "id": "src-c480a6de50f2",
+      "identity": "doi:10.1016/j.jtv.2024.06.012",
+      "legacy_number": 108
+    },
+    "S008": {
+      "id": "src-be7358b2ab66",
+      "identity": "url:https://pubmed.ncbi.nlm.nih.gov/38553920",
+      "legacy_number": 109
+    },
+    "S009": {
+      "id": "src-6e71106e3e07",
+      "identity": "url:https://www.laroche-posay.us/our-products/face/face-toner/thermal-spring-water-face-mist-thermalspringwater.html",
+      "legacy_number": 110
+    },
+    "S010": {
+      "id": "src-eae5bb19dfbd",
+      "identity": "url:https://www.aad.org/public/everyday-care/skin-care-secrets/prevent-skin-problems/test-skin-care-products",
+      "legacy_number": 111
+    },
+    "S011": {
+      "id": "src-78aab4f1d60e",
+      "identity": "url:https://www.aad.org/public/everyday-care/skin-care-secrets/anti-aging/wrinkle-remedies",
+      "legacy_number": 112
+    },
+    "S012": {
+      "id": "src-e71fb8f4142b",
+      "identity": "url:https://www.nhs.uk/conditions/acne",
+      "legacy_number": 113
+    },
+    "S013": {
+      "id": "src-6dad22d2f72b",
+      "identity": "url:https://medlineplus.gov/ency/article/001367.htm",
+      "legacy_number": 114
+    },
+    "S014": {
+      "id": "src-e17a23697457",
+      "identity": "doi:10.1370/afm.2995",
+      "legacy_number": 115
+    },
+    "S015": {
+      "id": "src-37c2b6aa5126",
+      "identity": "doi:10.1016/j.jaad.2023.12.017",
+      "legacy_number": 116
+    },
+    "S016": {
+      "id": "src-f080ab67fe4c",
+      "identity": "url:https://www.aad.org/public/diseases/acne/diy/adult-acne-treatment",
+      "legacy_number": 117
+    },
+    "S017": {
+      "id": "src-d887557c61a4",
+      "identity": "url:https://www.ema.europa.eu/is/news/updated-measures-pregnancy-prevention-during-retinoid-use",
+      "legacy_number": 118
+    },
+    "S037": {
+      "id": "src-61ff0f4cb16b",
+      "identity": "url:https://health.clevelandclinic.org/how-to-get-rid-of-blackheads",
+      "legacy_number": 119
+    },
+    "S038": {
+      "id": "src-613891e24cb7",
+      "identity": "url:https://healthcare.utah.edu/healthfeed/2024/04/should-you-vacuum-your-pores",
+      "legacy_number": 120
+    },
+    "S026": {
+      "id": "src-b6aa3fa849de",
+      "identity": "url:https://www.aad.org/public/everyday-care/skin-care-secrets/anti-aging/retinoid-retinol",
+      "legacy_number": 121
+    },
+    "SKIN_A03": {
+      "id": "src-7a4c9490d3d5",
+      "identity": "url:https://www.aad.org/public/diseases/acne/derm-treat/treat",
+      "legacy_number": 122
+    },
+    "S018": {
+      "id": "src-1198002bb25c",
+      "identity": "url:https://www.aad.org/public/diseases/acne/really-acne/symptoms",
+      "legacy_number": 123
+    },
+    "S019": {
+      "id": "src-c2d980d417b6",
+      "identity": "url:https://www.nhs.uk/conditions/scars",
+      "legacy_number": 124
+    },
+    "S020": {
+      "id": "src-93e518e5cdad",
+      "identity": "url:https://www.aad.org/public/cosmetic/age-spots-marks/get-rid-spots",
+      "legacy_number": 125
+    },
+    "S030": {
+      "id": "src-47f9684dfdc3",
+      "identity": "doi:10.1016/j.jdin.2022.02.012",
+      "legacy_number": 126
+    },
+    "S031": {
+      "id": "src-259120104da9",
+      "identity": "doi:10.1093/ajcn/86.1.107",
+      "legacy_number": 127
+    },
+    "SKIN_A10": {
+      "id": "src-208903a0f702",
+      "identity": "doi:10.1093/ajcn/88.1.251",
+      "legacy_number": 128
+    },
+    "S021": {
+      "id": "src-833fa12ed20d",
+      "identity": "doi:10.1111/j.1524-4725.2005.31732",
+      "legacy_number": 129
+    },
+    "S022": {
+      "id": "src-395c74a2922a",
+      "identity": "url:https://theordinary.com/en-us/niacinamide-10-zinc-1-serum-100436.html",
+      "legacy_number": 130
+    },
+    "S023": {
+      "id": "src-2b785e5f8663",
+      "identity": "url:https://fgw.sh.gov.cn/ys-zhengcewenjian/20240415/e2907d036ef443fd8d93cc37ca365848.html",
+      "legacy_number": 131
+    },
+    "SKIN_A04": {
+      "id": "src-d079fff481e2",
+      "identity": "doi:10.3390/antiox10081315",
+      "legacy_number": 132
+    },
+    "S024": {
+      "id": "src-85aabad6efa8",
+      "identity": "doi:10.1097/jw9.0000000000000003",
+      "legacy_number": 133
+    },
+    "S025": {
+      "id": "src-3b4dd26c22d0",
+      "identity": "url:https://pubmed.ncbi.nlm.nih.gov/34980969",
+      "legacy_number": 134
+    },
+    "SKIN_A05": {
+      "id": "src-c29123f92606",
+      "identity": "doi:10.5826/dpc.1504a5172",
+      "legacy_number": 135
+    },
+    "S027": {
+      "id": "src-f4ac57e19e09",
+      "identity": "doi:10.1097/dss.0000000000002484",
+      "legacy_number": 136
+    },
+    "S028": {
+      "id": "src-59540982d3a2",
+      "identity": "url:https://www.mayoclinic.org/symptoms/dark-circles-under-eyes/basics/causes/sym-20050624",
+      "legacy_number": 137
+    },
+    "S029": {
+      "id": "src-10394308cc83",
+      "identity": "doi:10.1016/j.amjmed.2025.04.034",
+      "legacy_number": 138
+    },
+    "SKIN_A06": {
+      "id": "src-7677484dae5c",
+      "identity": "doi:10.1016/j.heliyon.2023.e14961",
+      "legacy_number": 139
+    },
+    "SKIN_A12": {
+      "id": "src-5106f792e5bf",
+      "identity": "doi:10.4161/derm.22028",
+      "legacy_number": 140
+    },
+    "S035": {
+      "id": "src-4bc578cd41e4",
+      "identity": "url:https://www.aad.org/public/everyday-care/skin-care-basics/hair/how-to-shave",
+      "legacy_number": 141
+    },
+    "S036": {
+      "id": "src-dc6b3f95d3f5",
+      "identity": "url:https://www.mayoclinic.org/healthy-lifestyle/adult-health/expert-answers/hair-removal/faq-20058427",
+      "legacy_number": 142
+    },
+    "S032": {
+      "id": "src-a55dc25b2a41",
+      "identity": "doi:10.1001/jamadermatol.2025.0019",
+      "legacy_number": 143
+    },
+    "S033": {
+      "id": "src-f18d4f0ebc6b",
+      "identity": "url:https://www.fda.gov/medical-devices/safety-communications/potential-risks-certain-uses-radiofrequency-rf-microneedling-fda-safety-communication",
+      "legacy_number": 144
+    },
+    "SKIN_A11": {
+      "id": "src-24dd19cb2c5e",
+      "identity": "url:https://www.aad.org/public/cosmetic/safety/red-light-therapy",
+      "legacy_number": 145
+    },
+    "S034": {
+      "id": "src-edc4973e797d",
+      "identity": "url:https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/ggjgs/art/2023/art_ab97d5643ddc45ae861e7f351842f512.html",
+      "legacy_number": 146
+    },
+    "SKIN_A07": {
+      "id": "src-b8f0e38d70f7",
+      "identity": "url:https://www.aad.org/public/cosmetic/wrinkles/botulinum-toxin-faqs",
+      "legacy_number": 147
+    },
+    "SKIN_A08": {
+      "id": "src-bc9a339683c1",
+      "identity": "url:https://www.fda.gov/medical-devices/aesthetic-cosmetic-devices/dermal-fillers-soft-tissue-fillers",
+      "legacy_number": 148
+    },
+    "SKIN_A09": {
+      "id": "src-09bb859106ba",
+      "identity": "url:https://dermnetnz.org/topics/intense-pulsed-light-therapy",
+      "legacy_number": 149
+    },
+    "H001": {
+      "id": "src-1ef96c523b57",
+      "identity": "doi:10.1159/000512786",
+      "legacy_number": 150
+    },
+    "H002": {
+      "id": "src-4b0aec708320",
+      "identity": "url:https://www.aad.org/public/everyday-care/hair-scalp-care/hair/healthy-hair-tips",
+      "legacy_number": 151
+    },
+    "H003": {
+      "id": "src-cf9b6749a6a5",
+      "identity": "doi:10.1002/14651858.cd008138.pub3",
+      "legacy_number": 152
+    },
+    "H004": {
+      "id": "src-54db6afa46b1",
+      "identity": "url:https://www.aad.org/public/everyday-care/hair-scalp-care/scalp/treat-dandruff",
+      "legacy_number": 153
+    },
+    "H020": {
+      "id": "src-8407152e1451",
+      "identity": "url:https://www.nhs.uk/conditions/dandruff",
+      "legacy_number": 154
+    },
+    "H005": {
+      "id": "src-c9138061f006",
+      "identity": "doi:10.4103/0974-7753.153450",
+      "legacy_number": 155
+    },
+    "H007": {
+      "id": "src-590792409a4d",
+      "identity": "url:https://pubmed.ncbi.nlm.nih.gov/12715094",
+      "legacy_number": 156
+    },
+    "H008": {
+      "id": "src-ee4659fe0672",
+      "identity": "url:https://kino.co.id/id/article/ellips-bantu-kembalikan-kondisi-rambut-yang-rusak-karena-hair-styling",
+      "legacy_number": 157
+    },
+    "H018": {
+      "id": "src-4481d5f8ef82",
+      "identity": "url:https://www.k18hairpro.com/pages/disclaimers",
+      "legacy_number": 158
+    },
+    "ROOT_HAIR_STRUCTURE": {
+      "id": "src-35c3d5f5359e",
+      "identity": "url:https://my.clevelandclinic.org/health/body/23140-terminal-hair",
+      "legacy_number": 159
+    },
+    "H010": {
+      "id": "src-876a37db3bec",
+      "identity": "url:https://www.aad.org/public/diseases/hair-loss/insider/stop-damage",
+      "legacy_number": 160
+    },
+    "H009": {
+      "id": "src-df7a0fc6fe0f",
+      "identity": "url:https://www.k18hair.com/collections/treatment-routine/products/leave-in-molecular-repair-hair-mask-50-ml",
+      "legacy_number": 161
+    },
+    "H011": {
+      "id": "src-a4e11ab2d9f2",
+      "identity": "doi:10.5021/ad.2011.23.4.455",
+      "legacy_number": 162
+    },
+    "H012": {
+      "id": "src-60211bb8ebb9",
+      "identity": "url:https://www-img.dyson.cn/upload/file/hd16_02.pdf",
+      "legacy_number": 163
+    },
+    "H013": {
+      "id": "src-2bba70a0d7ab",
+      "identity": "url:https://www.aad.org/public/everyday-care/hair-scalp-care/hair/dry-shampoo-best-results",
+      "legacy_number": 164
+    },
+    "H014": {
+      "id": "src-50fb7d3ffa65",
+      "identity": "url:https://www.aad.org/public/diseases/hair-loss/treatment/diagnosis-treat",
+      "legacy_number": 165
+    },
+    "H016": {
+      "id": "src-080bb5fbec32",
+      "identity": "doi:10.5826/dpc.0701a01",
+      "legacy_number": 166
+    },
+    "H017": {
+      "id": "src-a25307a24159",
+      "identity": "url:https://ods.od.nih.gov/factsheets/Biotin-Consumer",
+      "legacy_number": 167
+    },
+    "H015": {
+      "id": "src-3a290990fa5c",
+      "identity": "url:https://scjgj.gz.gov.cn/zmhd/cjwt/pthzpba/content/post_10607886.html",
+      "legacy_number": 168
+    },
+    "H019": {
+      "id": "src-b2fbc355d44c",
+      "identity": "url:https://www.aad.org/public/everyday-care/hair-scalp-care/hair/gray-hair-causes",
+      "legacy_number": 169
+    },
+    "ROOT_HANDBOOK14": {
+      "id": "src-4fa74c43838a",
+      "identity": "url:https://www.cochrane.org/authors/handbooks-and-manuals/handbook/current/chapter-14",
+      "legacy_number": 170
+    }
+  }
+}

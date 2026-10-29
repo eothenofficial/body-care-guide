@@ -1,0 +1,2514 @@
+[
+  {
+    "id": "src-6415628bee64",
+    "number": 1,
+    "citation": "Schünemann HJ, Vist GE, Higgins JP, Santesso N, Deeks JJ, Glasziou P, et al. Chapter 15: Interpreting results and drawing conclusions. In: Higgins JP, Thomas J, Chandler J, Cumpston M, Li T, Page MJ, et al., editors. Cochrane Handbook for Systematic Reviews of Interventions. Version 6.5 [Internet]. Cochrane; 2024 [cited 2026 Oct 28]. Available from: https://www.cochrane.org/authors/handbooks-and-manuals/handbook/current/chapter-15",
+    "url": "https://www.cochrane.org/authors/handbooks-and-manuals/handbook/current/chapter-15",
+    "type": "结果解读方法",
+    "support": "相对/绝对效果、置信区间、临床重要性和适用性分开解读。",
+    "limitations": "未据此替读者确诊或宣称个体收益概率。",
+    "legacy_id": "ROOT_HANDBOOK15",
+    "legacy_aliases": [
+      "ROOT_HANDBOOK15"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-715b8e1cf4ef",
+    "number": 2,
+    "citation": "National Eye Institute. Eyeglasses for refractive errors [Internet]. [cited 2026 Oct 27]. Available from: https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/refractive-errors/eyeglasses-refractive-errors",
+    "url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/refractive-errors/eyeglasses-refractive-errors",
+    "type": "机构患者教育",
+    "support": "框架镜通过光学聚焦矫正屈光问题，戴合适眼镜不使眼睛变弱；看不清时验光并按需要检查、复查。",
+    "limitations": "不是成人检查频率的随机试验，不据此要求所有年轻人每年做完整散瞳检查；美国配镜流程未写成中国法律。",
+    "legacy_id": "E001",
+    "legacy_aliases": [
+      "E001"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-e013467d1a62",
+    "number": 3,
+    "citation": "Talens-Estarelles C, Cerviño A, García-Lázaro S, Fogelton A, Sheppard A, Wolffsohn JS. The effects of breaks on digital eye strain, dry eye and binocular vision: testing the 20-20-20 rule. Cont Lens Anterior Eye. 2023;46(2):101744. doi:10.1016/j.clae.2022.101744.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/35963776/",
+    "type": "人体前后对照研究",
+    "support": "29名有症状电脑使用者使用提醒两周，主观不适减轻，但眼表和泪膜指标未明显改变，停止提醒一周后症状改善不维持。",
+    "limitations": "小样本、未随机设置平行对照，不能排除期望效应及行为同步变化；不证明最佳休息剂量。作者、年份、卷期、文章号和DOI由PubMed核对。",
+    "legacy_id": "E003",
+    "legacy_aliases": [
+      "E003"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-c19a7d3b319f",
+    "number": 4,
+    "citation": "Lin Z, Xiao F, Cheng W. Eye exercises for myopia prevention and control: a comprehensive systematic review and meta-analysis of controlled trials. Eye (Lond). 2024;38(3):473-480. doi:10.1038/s41433-023-02739-x.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/37740051/",
+    "type": "系统综述与荟萃分析",
+    "support": "11项研究、921人，视力与屈光等结局不一致、研究存在偏差，不能承诺眼部练习逆转近视。",
+    "limitations": "多为儿童青少年，不将其直接外推为成人治疗结论；综述不能弥补基础研究质量。元数据由PubMed核对。",
+    "legacy_id": "E005",
+    "legacy_aliases": [
+      "E005"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-073f63dd37cc",
+    "number": 5,
+    "citation": "Moorfields Eye Hospital NHS Foundation Trust. World Sight Day 2023: looking after your eyes at work [Internet]. [cited 2026 Oct 27]. Available from: https://www.moorfields.nhs.uk/about-us/news-and-blogs/news/world-sight-day-2023-looking-after-your-eyes-at-work",
+    "url": "https://www.moorfields.nhs.uk/about-us/news-and-blogs/news/world-sight-day-2023-looking-after-your-eyes-at-work",
+    "type": "医院患者教育",
+    "support": "持续屏幕任务中眨眼减少，推荐定期暂停、看远及20-20-20提醒。",
+    "limitations": "护理建议不是20分钟、20秒为最优治疗剂量的证明；未用来声称能逆转近视。",
+    "legacy_id": "E002",
+    "legacy_aliases": [
+      "E002"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-45b11b3759b1",
+    "number": 6,
+    "citation": "Royal Devon University Healthcare NHS Foundation Trust. Keratoconus: patient information [Internet]. [cited 2026 Oct 27]. Available from: https://www.royaldevon.nhs.uk/media/wbgjomgx/patient-information-leaflet-keratoconus-rde-18-121-002.pdf",
+    "url": "https://www.royaldevon.nhs.uk/media/wbgjomgx/patient-information-leaflet-keratoconus-rde-18-121-002.pdf",
+    "type": "医院患者教育",
+    "support": "圆锥角膜与揉眼有关，患者应避免揉眼；过敏和眼痒应处理诱因。",
+    "limitations": "关联不能改写为所有揉眼都会致病，未给出一般年轻人每次揉眼的绝对风险。",
+    "legacy_id": "E004",
+    "legacy_aliases": [
+      "E004"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-9edafe35e197",
+    "number": 7,
+    "citation": "Singh S, Keller PR, Busija L, McMillan P, Makrai E, Lawrenson JG, et al. Blue-light filtering spectacle lenses for visual performance, sleep, and macular health in adults. Cochrane Database Syst Rev. 2023;8(8):CD013244. doi:10.1002/14651858.CD013244.pub2.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/37593770/",
+    "type": "Cochrane系统综述",
+    "support": "17项RCT、619人，短期电脑视疲劳可能没有优势，相关证据低确定性；睡眠效果不确定，长期黄斑保护缺少相应试验结局。",
+    "limitations": "随访不足一天至五周，无试验在全部偏差领域均为低风险；不能写成所有用途已证实无效，亦不能据此单独判定某一在售型号。元数据由PubMed核对。",
+    "legacy_id": "E006",
+    "legacy_aliases": [
+      "E006"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-9441d25a7879",
+    "number": 8,
+    "citation": "蔡司光学. 蔡司防蓝光Plus [Internet]. [cited 2026 Oct 27]. Available from: https://www.zeiss.com.cn/vision-care/need-new-lenses/blueguard.html",
+    "url": "https://www.zeiss.com.cn/vision-care/need-new-lenses/blueguard.html",
+    "type": "产品官方页，仅核对类别与产品存在",
+    "support": "核对中国官网存在防蓝光Plus产品及相关宣传，作为防蓝光镜片的具体识别例子。",
+    "limitations": "商业产品介绍不是独立疗效证据；未把材料反射或过滤参数当成人体疲劳改善，也未声称热度、销量或品牌排名。",
+    "legacy_id": "E007",
+    "legacy_aliases": [
+      "E007"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-4cc99c887a1a",
+    "number": 9,
+    "citation": "Age-Related Eye Disease Study 2 Research Group. Lutein + zeaxanthin and omega-3 fatty acids for age-related macular degeneration: the Age-Related Eye Disease Study 2 (AREDS2) randomized clinical trial. JAMA. 2013;309(19):2005-2015. doi:10.1001/jama.2013.4997.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/23644932/",
+    "type": "多中心随机对照试验",
+    "support": "4203名50—85岁特定AMD风险者，中位随访五年；在基础AREDS配方上追加叶黄素等的主要比较未显著进一步减少进展。",
+    "limitations": "对象不是健康年轻人，比较不是所有叶黄素产品对完全不补剂；不把它写成通用年轻人护眼试验或所有叶黄素研究的最终否定。元数据由PubMed核对。",
+    "legacy_id": "E008",
+    "legacy_aliases": [
+      "E008"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-ece276be129a",
+    "number": 10,
+    "citation": "National Eye Institute. AREDS 2 supplements for age-related macular degeneration (AMD) [Internet]. [cited 2026 Oct 27]. Available from: https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/age-related-macular-degeneration/nutritional-supplements-age-related-macular-degeneration",
+    "url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/age-related-macular-degeneration/nutritional-supplements-age-related-macular-degeneration",
+    "type": "机构患者教育与试验适用性说明",
+    "support": "AREDS2配方用于特定阶段AMD，剂量与其他药物、既往吸烟等问题需要核对，不是人人必补的普通护眼配方。",
+    "limitations": "未作为所有年轻人营养或全部叶黄素产品的系统综述。",
+    "legacy_id": "E009",
+    "legacy_aliases": [
+      "E009"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-b255e614b6c8",
+    "number": 11,
+    "citation": "National Health Service. Dry eyes [Internet]. [cited 2026 Oct 27]. Available from: https://www.nhs.uk/symptoms/dry-eyes/",
+    "url": "https://www.nhs.uk/symptoms/dry-eyes/",
+    "type": "机构患者教育",
+    "support": "干眼可以伴流泪、异物感、红眼或模糊；休息、屏幕位置及避免直接风吹的环境调整。",
+    "limitations": "症状用于提醒检查，不作为个体确诊；未复制英国电话号码和就诊系统。",
+    "legacy_id": "E010",
+    "legacy_aliases": [
+      "E010"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-69bfaa3ff171",
+    "number": 12,
+    "citation": "National Health Service. Red eye [Internet]. [cited 2026 Oct 27]. Available from: https://www.nhs.uk/symptoms/red-eye/",
+    "url": "https://www.nhs.uk/symptoms/red-eye/",
+    "type": "机构患者教育与分诊",
+    "support": "明显疼痛、怕光、视力变化及其他警示需及时就医，戴镜后的红眼需评估感染。",
+    "limitations": "分诊依据不能直接给出病因；国内路径改为眼科或急诊，没有照搬英国热线。",
+    "legacy_id": "E011",
+    "legacy_aliases": [
+      "E011"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-32d4a2191452",
+    "number": 13,
+    "citation": "National Eye Institute. Retinal detachment [Internet]. [updated 2025 Nov 5; cited 2026 Oct 27]. Available from: https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/retinal-detachment",
+    "url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/retinal-detachment",
+    "type": "机构患者教育与分诊",
+    "support": "突然增加的大量飞蚊、闪光或视野黑幕遮挡可能提示视网膜脱离，需要立即接受眼科或急诊检查。",
+    "limitations": "是急症识别建议，不表示出现这些症状必定为视网膜脱离，也不将所有长期稳定飞蚊归为急症。",
+    "legacy_id": "E030",
+    "legacy_aliases": [
+      "E030"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-0cdb8d2bd122",
+    "number": 14,
+    "citation": "Wang DH, Guo H, Xu W, Liu XQ. Efficacy and safety of the disposable eyelid warming masks in the treatment of dry eye disease due to Meibomian gland dysfunction. BMC Ophthalmol. 2024;24(1):376. doi:10.1186/s12886-024-03642-z.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/39187788/",
+    "type": "随机对照试验",
+    "support": "144人比较指定一次性加热眼罩与热毛巾、随访12周，眼罩组部分症状体征改善较多。",
+    "limitations": "未设盲、134人完成；两组都有人工泪液和睑缘清洁，且排除多类患者。试验产品为Shanghai Warmyou指定产品，不是花王美舒律，不能替其他版本背书。元数据由PubMed核对，合并治疗和产品信息由期刊PMC全文核对。",
+    "legacy_id": "E013",
+    "legacy_aliases": [
+      "E013"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-7fb82ed50e21",
+    "number": 15,
+    "citation": "Lindsley K, Nichols JJ, Dickersin K. Non-surgical interventions for acute internal hordeolum. Cochrane Database Syst Rev. 2017;1(1):CD007742. doi:10.1002/14651858.CD007742.pub4.",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5370090/",
+    "type": "Cochrane系统综述",
+    "support": "急性内麦粒肿温敷等非手术疗法未找到合格随机试验，不能声称其疗效有高确定性量化证据。",
+    "limitations": "检索截至2016年，无合格试验不等于已证实无效；结论针对急性内麦粒肿，不能替代普通患者的临床判断。期刊PMC全文与NCBI记录核对作者、年卷期、文章号和DOI。",
+    "legacy_id": "E014",
+    "legacy_aliases": [
+      "E014"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-90f2804c54b5",
+    "number": 16,
+    "citation": "National Health Service. Stye [Internet]. [cited 2026 Oct 27]. Available from: https://www.nhs.uk/conditions/stye/",
+    "url": "https://www.nhs.uk/conditions/stye/",
+    "type": "机构患者教育",
+    "support": "普通麦粒肿可温敷5—10分钟每日2—4次，不挤、不拔睫毛；明显肿痛、视力受影响或扩散应就诊。",
+    "limitations": "这是护理实践，不等于温敷已有高确定性疗效试验；眼睑肿物未必都是麦粒肿。",
+    "legacy_id": "E012",
+    "legacy_aliases": [
+      "E012"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-bd1b62be48f7",
+    "number": 17,
+    "citation": "花王中国. MegRhythm 美舒律 [Internet]. [cited 2026 Oct 27]. Available from: https://www.kao.com/cn/products/kaoeyemask/",
+    "url": "https://www.kao.com/cn/products/kaoeyemask/",
+    "type": "产品官方页，仅核对产品类别与存在",
+    "support": "核对中国官网的美舒律消费型蒸汽眼罩产品，帮助读者识别所比较类别。",
+    "limitations": "品牌放松宣传不是人体临床疗效证据；不能与指定其他产品的试验互换，未声称畅销或排名。旧品牌网址已跳转到此页。",
+    "legacy_id": "E015",
+    "legacy_aliases": [
+      "E015"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-310c8870afbc",
+    "number": 18,
+    "citation": "National Eye Institute. Dry eye [Internet]. [cited 2026 Oct 27]. Available from: https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/dry-eye",
+    "url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/dry-eye",
+    "type": "机构患者教育",
+    "support": "人工泪液常用于轻度干眼，治疗结合原因与严重程度。",
+    "limitations": "不据此给具体品牌排名、统一频次或个体处方；未把所有眼干都诊断为同一种疾病。",
+    "legacy_id": "E016",
+    "legacy_aliases": [
+      "E016"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-853e25793c5b",
+    "number": 19,
+    "citation": "Pucker AD, Ng SM, Nichols JJ. Over the counter (OTC) artificial tear drops for dry eye syndrome. Cochrane Database Syst Rev. 2016;2(2):CD009729. doi:10.1002/14651858.CD009729.pub2.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/26905373/",
+    "type": "Cochrane系统综述",
+    "support": "人工泪液可能安全有效，但试验设计、结局报告和发表偏差使整体证据质量低，不能稳健确认成品间普遍优劣。",
+    "limitations": "检索截至2015年，不能作为2026年所有新配方的完整审查；不以‘未见显著差异’证明所有产品等效。元数据由PubMed与Cochrane摘要核对。",
+    "legacy_id": "E017",
+    "legacy_aliases": [
+      "E017"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-243ecee7bcfb",
+    "number": 20,
+    "citation": "DailyMed, National Library of Medicine. Redness reliever—tetrahydrozoline HCl liquid: drug label [Internet]. [cited 2026 Oct 27]. Available from: https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3222b6d6-adb6-4747-b764-84a19bd5cc34",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3222b6d6-adb6-4747-b764-84a19bd5cc34",
+    "type": "药品说明标签",
+    "support": "部分含四氢唑啉的去红眼产品标签警示过用可能增加发红，疼痛或视力变化应停止并咨询。",
+    "limitations": "标签不是品牌优劣对照试验，也不等同FDA逐项审批背书；未将该产品的美国用法直接移给中国同名或其他配方。",
+    "legacy_id": "E018",
+    "legacy_aliases": [
+      "E018"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-859bde34b7d5",
+    "number": 21,
+    "citation": "US Food and Drug Administration. Types of contact lenses [Internet]. [cited 2026 Oct 27]. Available from: https://www.fda.gov/medical-devices/contact-lenses/types-contact-lenses",
+    "url": "https://www.fda.gov/medical-devices/contact-lenses/types-contact-lenses",
+    "type": "监管机构患者教育",
+    "support": "软镜和OK镜用途不同；夜戴型OK镜暂时改变角膜形状，需要维持；日戴时长与计划更换周期不同。",
+    "limitations": "不把美国许可、处方要求移作中国法律；不涉及儿童近视控制效应或对个体选OK镜的推荐。",
+    "legacy_id": "E019",
+    "legacy_aliases": [
+      "E019"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-639343c94146",
+    "number": 22,
+    "citation": "US Food and Drug Administration. Contact lens prescription [Internet]. [cited 2026 Oct 27]. Available from: https://www.fda.gov/medical-devices/contact-lenses/contact-lens-prescription",
+    "url": "https://www.fda.gov/medical-devices/contact-lenses/contact-lens-prescription",
+    "type": "监管机构验配信息",
+    "support": "隐形验配信息包括度数、基弧、直径、材质或品牌等，不只是框架眼镜度数。",
+    "limitations": "参数用途不等同于中国处方销售法规，未给出网购自选参数方法。",
+    "legacy_id": "E020",
+    "legacy_aliases": [
+      "E020"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-fd6b2e291d71",
+    "number": 23,
+    "citation": "National Eye Institute. Contact lenses [Internet]. [cited 2026 Oct 27]. Available from: https://www.nei.nih.gov/eye-health-information/healthy-vision/contact-lenses",
+    "url": "https://www.nei.nih.gov/eye-health-information/healthy-vision/contact-lenses",
+    "type": "机构患者教育",
+    "support": "日抛一次用后丢弃；复用片需清洁消毒；验配观察贴合，适时复查。",
+    "limitations": "网页举例并非中国市场全部产品清单；具体半年抛等产品回到获批说明和验配方案，没有按‘体质’分配周期。",
+    "legacy_id": "E021",
+    "legacy_aliases": [
+      "E021"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-7591fd76e514",
+    "number": 24,
+    "citation": "Carnt N, Minassian DC, Dart JKG. Acanthamoeba keratitis risk factors for daily wear contact lens users: a case-control study. Ophthalmology. 2023;130(1):48-55. doi:10.1016/j.ophtha.2022.08.002.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/35952937/",
+    "type": "病例对照研究",
+    "support": "83病例与122对照中，复用软镜相对日抛的调整OR为3.84（95%CI 1.75—8.43）；日抛重复用、淋浴、过夜等也与风险相关。",
+    "limitations": "英国一个区域就医样本、回忆及残余混杂，OR不等于绝对概率或风险比；仅特定病原体，不能形成全部镜片安全排名。元数据与数字由PubMed核对。",
+    "legacy_id": "E022",
+    "legacy_aliases": [
+      "E022"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-23f104c31aa7",
+    "number": 25,
+    "citation": "国家药品监督管理局. 选购使用装饰性彩色平光隐形眼镜（美瞳）的提示 [Internet]. [cited 2026 Oct 27]. Available from: https://www.samr.gov.cn/xw/mtjj/art/2023/art_ef43ce0f58a242faabba42a59800856b.html",
+    "url": "https://www.samr.gov.cn/xw/mtjj/art/2023/art_ef43ce0f58a242faabba42a59800856b.html",
+    "type": "中国监管依据，市场监管总局转载",
+    "support": "装饰性彩色平光隐形眼镜按第三类医疗器械管理，应核对注册、经营资质、中文标签说明和来源。",
+    "limitations": "注册不等于人人适合或零风险；未从器械分类推导某种色素全部有毒或全部无毒，也不提高疗效等级。",
+    "legacy_id": "E023",
+    "legacy_aliases": [
+      "E023"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-2049cfcc59bc",
+    "number": 26,
+    "citation": "US Food and Drug Administration. Colored and decorative contact lenses: a prescription is a must [Internet]. [cited 2026 Oct 27]. Available from: https://www.fda.gov/consumers/consumer-updates/colored-and-decorative-contact-lenses-prescription-must",
+    "url": "https://www.fda.gov/consumers/consumer-updates/colored-and-decorative-contact-lenses-prescription-must",
+    "type": "监管机构患者教育",
+    "support": "零度装饰镜片也要测量适配，不是一种尺寸适合所有人；可有感染与角膜损伤。",
+    "limitations": "美国必须处方的销售规定未作为中国法定流程；未比较某种夹层工艺和其他工艺的毒性。",
+    "legacy_id": "E024",
+    "legacy_aliases": [
+      "E024"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-38e670efc1d4",
+    "number": 27,
+    "citation": "Centers for Disease Control and Prevention. Preventing eye infections when wearing contacts [Internet]. [cited 2026 Oct 27]. Available from: https://www.cdc.gov/contact-lenses/prevention/index.html",
+    "url": "https://www.cdc.gov/contact-lenses/prevention/index.html",
+    "type": "公共卫生预防建议",
+    "support": "避免无医嘱过夜；取戴前洗手擦干；使用新液、护理镜盒、按要求更换及准备备用镜。",
+    "limitations": "不同护理系统必须分开处理；未把普通多功能护理系统的镜盒流程套用过氧化氢系统，也未编出统一降低感染的百分比。",
+    "legacy_id": "E025",
+    "legacy_aliases": [
+      "E025"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-403d2a80b863",
+    "number": 28,
+    "citation": "Centers for Disease Control and Prevention. Healthy habits: keeping water away from contact lenses [Internet]. [cited 2026 Oct 27]. Available from: https://www.cdc.gov/contact-lenses/about/healthy-habits-keeping-water-away-from-contact-lenses.html",
+    "url": "https://www.cdc.gov/contact-lenses/about/healthy-habits-keeping-water-away-from-contact-lenses.html",
+    "type": "公共卫生预防建议",
+    "support": "镜片避水，洗澡游泳前取下，不用自来水清洗储存；沾水后取下并按类型丢弃或处理。",
+    "limitations": "不是每次水接触感染概率的估计；不保证某护理系统能灭活全部病原。",
+    "legacy_id": "E026",
+    "legacy_aliases": [
+      "E026"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-537054270e41",
+    "number": 29,
+    "citation": "US Food and Drug Administration. Hydrogen peroxide solution [Internet]. [cited 2026 Oct 27]. Available from: https://www.fda.gov/medical-devices/contact-lenses/hydrogen-peroxide-solution",
+    "url": "https://www.fda.gov/medical-devices/contact-lenses/hydrogen-peroxide-solution",
+    "type": "器械安全说明",
+    "support": "过氧化氢护理系统需配套装置、足够中和时间；未中和液不能直接滴眼或冲片后马上戴。",
+    "limitations": "不把一种系统的具体时长与镜盒要求推广给所有品牌；不是用过氧化氢给普通消费者自行配制护理液的指导。",
+    "legacy_id": "E027",
+    "legacy_aliases": [
+      "E027"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-d2fe1a31e710",
+    "number": 30,
+    "citation": "US Food and Drug Administration. Contact lens risks [Internet]. [cited 2026 Oct 27]. Available from: https://www.fda.gov/medical-devices/contact-lenses/contact-lens-risks/",
+    "url": "https://www.fda.gov/medical-devices/contact-lenses/contact-lens-risks/",
+    "type": "器械风险与患者教育",
+    "support": "异常红痛、怕光、视力变化等取镜不再戴回，联系眼科并保留用品帮助判断。",
+    "limitations": "警示症状不能直接确诊感染，严重表现按当地急诊路径处理。",
+    "legacy_id": "E028",
+    "legacy_aliases": [
+      "E028"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-365a650a6e2f",
+    "number": 31,
+    "citation": "US Food and Drug Administration. Contact lens care [Internet]. [cited 2026 Oct 27]. Available from: https://www.fda.gov/consumers/womens-health-topics/contact-lens-care",
+    "url": "https://www.fda.gov/consumers/womens-health-topics/contact-lens-care",
+    "type": "器械患者教育",
+    "support": "品牌材质形状可能不同，护理液有开封后期限，取戴和异常时求助。",
+    "limitations": "没有为中国所有产品规定统一开封天数；未将美国处方法规移作中国法律。",
+    "legacy_id": "E029",
+    "legacy_aliases": [
+      "E029"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-269ba6da23a1",
+    "number": 32,
+    "citation": "Ohio State Wexner Medical Center. Should I trim my nose hair? [Internet]. [cited 2026 Oct 27]. Available from:",
+    "url": "https://wexnermedical.osu.edu/our-stories/should-i-trim-nose-hair",
+    "type": "professional",
+    "support": "见相应条目的来源与限定",
+    "limitations": "机构或产品页面不等于独立临床试验；具体结论见正文",
+    "legacy_id": "N001",
+    "legacy_aliases": [
+      "N001"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-b3606f723c5d",
+    "number": 33,
+    "citation": "Lipschitz N, Yakirevitch A, Sagiv D, Migirov L, Talmi YP, Wolf M, et al. Nasal vestibulitis: etiology, risk factors, and clinical characteristics: A retrospective study of 118 cases. Diagn Microbiol Infect Dis. 2017;89(2):131-134. doi:10.1016/j.diagmicrobio.2017.06.007.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/28780999/",
+    "type": "paper",
+    "support": "鼻前庭炎患者中记录的局部创伤史",
+    "limitations": "回顾性住院病例，无未暴露对照，不能估计拔毛一次的风险",
+    "legacy_id": "N002",
+    "legacy_aliases": [
+      "N002"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-dbe62c864727",
+    "number": 34,
+    "citation": "Philips. Nose trimmer series 5000 NT5175/16 [Internet]. [cited 2026 Oct 27]. Available from:",
+    "url": "https://www.philips.com.cn/c-p/NT5175_16/nose-trimmer-series-5000-gentle-nose-neck-sideburns-trimmer",
+    "type": "product",
+    "support": "见相应条目的来源与限定",
+    "limitations": "机构或产品页面不等于独立临床试验；具体结论见正文",
+    "legacy_id": "N003",
+    "legacy_aliases": [
+      "N003"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-bf4065d908cf",
+    "number": 35,
+    "citation": "NHS. Nosebleed [Internet]. [cited 2026 Oct 27]. Available from:",
+    "url": "https://www.nhs.uk/conditions/nosebleed/",
+    "type": "professional",
+    "support": "见相应条目的来源与限定",
+    "limitations": "机构或产品页面不等于独立临床试验；具体结论见正文",
+    "legacy_id": "N004",
+    "legacy_aliases": [
+      "N004"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-ec241335bde7",
+    "number": 36,
+    "citation": "Head K, Snidvongs K, Glew S, Scadding G, Schilder AGM, Philpott C, et al. Saline irrigation for allergic rhinitis. Cochrane Database Syst Rev. 2018;6(6):CD012597. doi:10.1002/14651858.CD012597.pub2.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/29932206/",
+    "type": "paper",
+    "support": "鼻炎患者盐水冲洗可能减轻症状",
+    "limitations": "14项747人，低或很低确定性，无超过3个月随访；原专业摘要与公众摘要的成人/儿童分组人数不一致，本文不据该分组数字作判断；不支持全民每天洗鼻。",
+    "legacy_id": "N006",
+    "legacy_aliases": [
+      "N006"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-3f4c05fb6407",
+    "number": 37,
+    "citation": "US Food and Drug Administration. Is rinsing your sinuses with neti pots safe? [Internet]. [cited 2026 Oct 27]. Available from:",
+    "url": "https://www.fda.gov/consumers/consumer-updates/rinsing-your-sinuses-neti-pots-safe",
+    "type": "professional",
+    "support": "见相应条目的来源与限定",
+    "limitations": "机构或产品页面不等于独立临床试验；具体结论见正文",
+    "legacy_id": "N007",
+    "legacy_aliases": [
+      "N007"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-ff0ec36d15c3",
+    "number": 38,
+    "citation": "Cleveland Clinic. Sebaceous filaments [Internet]. [cited 2026 Oct 27]. Available from:",
+    "url": "https://my.clevelandclinic.org/health/diseases/24571-sebaceous-filaments",
+    "type": "professional",
+    "support": "见相应条目的来源与限定",
+    "limitations": "机构或产品页面不等于独立临床试验；具体结论见正文",
+    "legacy_id": "N005",
+    "legacy_aliases": [
+      "N005"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-8f822472662d",
+    "number": 39,
+    "citation": "鼻可乐. 产品中心 [Internet]. [cited 2026 Oct 27]. Available from:",
+    "url": "https://bikele.net/product/",
+    "type": "product",
+    "support": "见相应条目的来源与限定",
+    "limitations": "机构或产品页面不等于独立临床试验；具体结论见正文",
+    "legacy_id": "N008",
+    "legacy_aliases": [
+      "N008"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-d9f2c909233d",
+    "number": 40,
+    "citation": "NHS. Allergic rhinitis [Internet]. [cited 2026 Oct 27]. Available from:",
+    "url": "https://www.nhs.uk/conditions/allergic-rhinitis/",
+    "type": "professional",
+    "support": "见相应条目的来源与限定",
+    "limitations": "机构或产品页面不等于独立临床试验；具体结论见正文",
+    "legacy_id": "N009",
+    "legacy_aliases": [
+      "N009"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-29f0e1abfeba",
+    "number": 41,
+    "citation": "NHS. Decongestants [Internet]. [cited 2026 Oct 27]. Available from:",
+    "url": "https://www.nhs.uk/medicines/decongestants/",
+    "type": "professional",
+    "support": "见相应条目的来源与限定",
+    "limitations": "机构或产品页面不等于独立临床试验；具体结论见正文",
+    "legacy_id": "N010",
+    "legacy_aliases": [
+      "N010"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-ebb4cdfa65a9",
+    "number": 42,
+    "citation": "NHS. Steroids [Internet]. [cited 2026 Oct 28]. Available from: https://www.nhs.uk/medicines/steroids/",
+    "url": "https://www.nhs.uk/medicines/steroids/",
+    "type": "专业机构药物说明",
+    "support": "糖皮质激素为控制炎症的药物；鼻用制剂是其给药形式之一，不与减充血药的停用规则混同。",
+    "limitations": "说明类别与用途，不提供个人处方、剂量或统一停药时点。",
+    "legacy_id": "ROOT_NASAL_STEROID",
+    "legacy_aliases": [
+      "ROOT_NASAL_STEROID"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-c9cdee24864d",
+    "number": 43,
+    "citation": "Tunkel DE, Anne S, Payne SC, Ishman SL, Rosenfeld RM, Abramson PJ, et al. Clinical practice guideline: nosebleed (epistaxis). Otolaryngol Head Neck Surg. 2020;162(1_suppl):S1-S38. doi:10.1177/0194599819890327.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/31910111/",
+    "type": "paper",
+    "support": "鼻出血评估及持续压迫软部止血",
+    "limitations": "临床指南；公众压迫10—15分钟另据NHS，不编统一成功率",
+    "legacy_id": "N011",
+    "legacy_aliases": [
+      "N011"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-61b6ea97dfe1",
+    "number": 44,
+    "citation": "American Academy of Dermatology. 7 dermatologists' tips for healing dry, chapped lips [Internet]. [cited 2026 Oct 27]. Available from: https://www.aad.org/public/everyday-care/skin-care-basics/dry/heal-dry-chapped-lips",
+    "url": "https://www.aad.org/public/everyday-care/skin-care-basics/dry/heal-dry-chapped-lips",
+    "type": "专业机构患者资料",
+    "support": [
+      "简单、耐受的润唇护理，刺激后停用",
+      "户外SPF30或以上和补涂",
+      "持续干裂需要评估"
+    ],
+    "limitations": "专业共识性公众护理建议，不是特定润唇品、唇膜或防晒唇膏的随机比较，不能自动标为A级。",
+    "legacy_id": "L001",
+    "legacy_aliases": [
+      "L001"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-0597078ce7ca",
+    "number": 45,
+    "citation": "Gfeller CF, Wanser R, Mahalingam H, Moore DJ, Wang X, Lin CB, et al. A series of in vitro and human studies of a novel lip cream formulation for protecting against environmental triggers of recurrent herpes labialis. Clin Cosmet Investig Dermatol. 2019;12:193-208. doi:10.2147/CCID.S179430.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/30962701/",
+    "type": "体外研究与短期人体随机试验",
+    "support": [
+      "特定唇霜短期随机试验中，经皮失水、视觉干燥和部分主观症状改善"
+    ],
+    "limitations": "部分实验为体外模型，临床部分是特定配方对未处理组，随访短且有厂家人员参与；不能推广为白凡士林、所有润唇膏或唇膜具有相同效果，也未证明预防疱疹复发。",
+    "legacy_id": "L002",
+    "legacy_aliases": [
+      "L002"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-2b48f8dcc1ad",
+    "number": 46,
+    "citation": "Vaseline. Original Healing Jelly Tube [Internet]. [cited 2026 Oct 27]. Available from: https://www.vaseline.com/us/en/p/vaseline-original-healing-jelly-tube.html/00305210049246",
+    "url": "https://www.vaseline.com/us/en/p/vaseline-original-healing-jelly-tube.html/00305210049246",
+    "type": "品牌官方产品信息（非疗效证据）",
+    "support": [
+      "美国官网当前列售白凡士林封护产品，仅作类别实例"
+    ],
+    "limitations": "品牌官网仅用于核对当前列示产品、市场版本、功能或标签，不作为独立疗效证据；不证明国内同名产品配方相同，不引用价格、销量或商家比较疗效数字。",
+    "legacy_id": "L003",
+    "legacy_aliases": [
+      "L003"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-bb9cd94d3ade",
+    "number": 47,
+    "citation": "National Health Service. Sore or dry lips [Internet]. [cited 2026 Oct 27]. Available from: https://www.nhs.uk/symptoms/sore-or-dry-lips/",
+    "url": "https://www.nhs.uk/symptoms/sore-or-dry-lips/",
+    "type": "专业机构患者资料",
+    "support": [
+      "避免反复舔唇、撕咬脱皮，涂抹前洗手、不共用润唇品",
+      "干裂也可能涉及过敏、天气、脱水等"
+    ],
+    "limitations": "公众护理资料，多为临床经验；不能承诺纠正习惯后的固定痊愈天数，也不能据此断定所有症状都是缺水。",
+    "legacy_id": "L005",
+    "legacy_aliases": [
+      "L005"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-f408dcf01213",
+    "number": 48,
+    "citation": "LANEIGE. Lip Sleeping Mask [Internet]. [cited 2026 Oct 27]. Available from: https://us.laneige.com/collections/new/products/lip-sleeping-mask?variant=31760703160372",
+    "url": "https://us.laneige.com/collections/new/products/lip-sleeping-mask?variant=31760703160372",
+    "type": "品牌官方产品信息（非疗效证据）",
+    "support": [
+      "美国官网当前列售夜间唇膜；未用品牌自测证明优于基础润唇品"
+    ],
+    "limitations": "品牌官网仅用于核对当前列示产品、市场版本、功能或标签，不作为独立疗效证据；不证明国内同名产品配方相同，不引用价格、销量或商家比较疗效数字。",
+    "legacy_id": "L004",
+    "legacy_aliases": [
+      "L004"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-a8643284bb9c",
+    "number": 49,
+    "citation": "U.S. Food and Drug Administration. Sunscreen: How to help protect your skin from the sun [Internet]. [cited 2026 Oct 28]. Available from: https://www.fda.gov/drugs/understanding-over-counter-medicines/sunscreen-how-help-protect-your-skin-sun",
+    "url": "https://www.fda.gov/drugs/understanding-over-counter-medicines/sunscreen-how-help-protect-your-skin-sun",
+    "type": "监管机构官方科普",
+    "support": "SPF主要反映防晒伤/UVB保护，非时间倍数；广谱覆盖UVA和UVB，嘴唇用SPF唇膏。",
+    "limitations": "术语与标签解释，不据此给出唇癌或疱疹预防比例；SPF30建议仍引AAD42。",
+    "legacy_id": "ORALLIP_A02",
+    "legacy_aliases": [
+      "ORALLIP_A02"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-9e75d5ed9a4e",
+    "number": 50,
+    "citation": "Chi CC, Wang SH, Delamere FM, Wojnarowska F, Peters MC, Kanjirath PP. Interventions for prevention of herpes simplex labialis (cold sores on the lips). Cochrane Database Syst Rev. 2015;2015(8):CD010095. doi:10.1002/14651858.CD010095.pub2.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/26252373/",
+    "type": "人体研究系统综述",
+    "support": [
+      "防晒对实验紫外线诱发复发可能有效，日常阳光试验没有确认同样效果"
+    ],
+    "limitations": "只把防晒相关试验用于说明临床边界，不将实验紫外线结果推广为防癌或日常防疱疹承诺；研究人群为免疫功能正常者。",
+    "legacy_id": "L007",
+    "legacy_aliases": [
+      "L007"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-2d8fb1284eb2",
+    "number": 51,
+    "citation": "Aquaphor. Lip Repair Stick + Sunscreen [Internet]. [cited 2026 Oct 27]. Available from: https://www.aquaphorus.com/products/aquaphor/aquaphor-lip-repair-stick-sunscreen",
+    "url": "https://www.aquaphorus.com/products/aquaphor/aquaphor-lip-repair-stick-sunscreen",
+    "type": "品牌官方产品信息（非疗效证据）",
+    "support": [
+      "美国官网列售标示SPF30的唇用防晒产品；官网提示配方可能更新"
+    ],
+    "limitations": "品牌官网仅用于核对当前列示产品、市场版本、功能或标签，不作为独立疗效证据；不证明国内同名产品配方相同，不引用价格、销量或商家比较疗效数字。",
+    "legacy_id": "L006",
+    "legacy_aliases": [
+      "L006"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-0c60418e40e6",
+    "number": 52,
+    "citation": "DermNet. Allergic contact cheilitis [Internet]. [cited 2026 Oct 27]. Available from: https://dermnetnz.org/topics/allergic-contact-cheilitis",
+    "url": "https://dermnetnz.org/topics/allergic-contact-cheilitis",
+    "type": "专业机构患者资料",
+    "support": [
+      "反复唇炎需区分刺激、过敏等病因，按需斑贴试验并结合自用产品与病史"
+    ],
+    "limitations": "专业临床资料，不是治疗效果的独立随机试验；阳性斑贴反应的临床相关性仍须专业判断。",
+    "legacy_id": "L009",
+    "legacy_aliases": [
+      "L009"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-70ac79646e81",
+    "number": 53,
+    "citation": "DermNet. Patch tests [Internet]. [cited 2026 Oct 28]. Available from: https://dermnetnz.org/topics/patch-tests",
+    "url": "https://dermnetnz.org/topics/patch-tests",
+    "type": "专业皮肤科科普",
+    "support": "专业斑贴试验将适当浓度过敏原贴皮肤，按时判读迟发反应，主要用于过敏性接触皮炎。",
+    "limitations": "不是红裂所有病因的筛查；不能把自行试涂当成专业诊断。",
+    "legacy_id": "ORALLIP_A03",
+    "legacy_aliases": [
+      "ORALLIP_A03"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-6195af04a652",
+    "number": 54,
+    "citation": "Cheng HS, Konya J, Lobel E, Fernandez-Penas P. Patch testing for cheilitis: a 10-year series. Dermatitis. 2019;30(6):347-351. doi:10.1097/DER.0000000000000524.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/31609855/",
+    "type": "回顾性门诊病例系列",
+    "support": [
+      "91名经选择的唇炎斑贴试验患者约17%诊断为过敏性接触唇炎",
+      "自用产品、香料和防晒剂是部分相关反应来源"
+    ],
+    "limitations": "回顾性专科转诊样本，不能当作普通年轻人使用润唇品的过敏发生率，也不能由单个成分名字诊断个体过敏。",
+    "legacy_id": "L008",
+    "legacy_aliases": [
+      "L008"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-a759cba238b3",
+    "number": 55,
+    "citation": "National Health Service. Cold sores [Internet]. [cited 2026 Oct 27]. Available from: https://www.nhs.uk/conditions/cold-sores/",
+    "url": "https://www.nhs.uk/conditions/cold-sores/",
+    "type": "专业机构患者资料",
+    "support": [
+      "先兆到完全愈合期间的接触传播预防",
+      "很大很痛、十天未开始恢复、免疫受影响应求助",
+      "抗病毒乳膏适合尽早讨论使用，覆盖贴不是根治"
+    ],
+    "limitations": "患者教育，不能仅凭描述确诊疱疹，也不能将所有新式光疗设备视为证实有效；不把英国联系电话移入中国正文。",
+    "legacy_id": "L010",
+    "legacy_aliases": [
+      "L010"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-fb4793f34270",
+    "number": 56,
+    "citation": "National Health Service. Herpes simplex eye infections [Internet]. [cited 2026 Oct 27]. Available from: https://www.nhs.uk/conditions/herpes-simplex-eye-infections/",
+    "url": "https://www.nhs.uk/conditions/herpes-simplex-eye-infections/",
+    "type": "专业机构患者资料",
+    "support": [
+      "眼痛、恶化红眼或视力变化需及时专业检查，唇用乳膏不能自行用于眼内"
+    ],
+    "limitations": "用于就医提醒，不表示有唇疱疹和红眼就能远程诊断眼疱疹；眼部抗病毒剂型及治疗由眼科决定。",
+    "legacy_id": "L012",
+    "legacy_aliases": [
+      "L012"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-d7a65bd47c20",
+    "number": 57,
+    "citation": "Lin HS, Lin PT, Shih IC, Lu ML, Tsai YS, Chi CC. Interventions for treatment of herpes labialis (cold sores on the lips). Cochrane Database Syst Rev. 2026;9(9):CD015216. doi:10.1002/14651858.CD015216.pub2.",
+    "url": "https://doi.org/10.1002/14651858.CD015216.pub2",
+    "type": "人体研究系统综述",
+    "support": [
+      "阿昔洛韦乳膏七项试验3475人提示比安慰剂约缩短一天愈合时间",
+      "新式光疗、锌贴、蜂胶等依据有限"
+    ],
+    "limitations": "2026-09-30综述，检索至2025-09；多数纳入研究关注单次发作、成人和女性，东亚人群较少；部分研究由药企资助。疗程缩短的最小重要差异未建立，不能声称根除潜伏病毒。",
+    "legacy_id": "L011",
+    "legacy_aliases": [
+      "L011"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-ebf18e8b152c",
+    "number": 58,
+    "citation": "National Health Service. How to keep your teeth clean [Internet]. [cited 2026 Oct 27]. Available from: https://www.nhs.uk/live-well/healthy-teeth-and-gums/how-to-keep-your-teeth-clean/",
+    "url": "https://www.nhs.uk/live-well/healthy-teeth-and-gums/how-to-keep-your-teeth-clean/",
+    "type": "专业机构患者资料",
+    "support": [
+      "约两分钟刷牙，覆盖全部牙面",
+      "吐出牙膏后不立即用水漱口",
+      "牙线贴牙面作C形移动，适宜牙缝可用牙间隙刷",
+      "含氟漱口水与刷牙错开使用"
+    ],
+    "limitations": "公众护理建议，不证明每一种刷牙技术、工具或漱口水都同样有效；个体操作可由牙科人员指导。",
+    "legacy_id": "O002",
+    "legacy_aliases": [
+      "O002"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-4ef6f6e45a3b",
+    "number": 59,
+    "citation": "American Dental Association. Toothbrushes [Internet]. [cited 2026 Oct 27]. Available from: https://www.ada.org/resources/ada-library/oral-health-topics/toothbrushes",
+    "url": "https://www.ada.org/resources/ada-library/oral-health-topics/toothbrushes",
+    "type": "专业机构患者资料",
+    "support": [
+      "软毛、轻柔清洁牙龈线和全部牙面",
+      "手动和电动牙刷均可有效清洁",
+      "通常三至四个月或明显磨损时更换，冲净直立晾干",
+      "日常牙刷消毒的临床收益缺乏证据"
+    ],
+    "limitations": "专业机构资料综述；不能由细菌检测结果推出消毒设备能减少临床疾病，也不提供不同价位刷头的成本效果排名。",
+    "legacy_id": "O003",
+    "legacy_aliases": [
+      "O003"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-7f4e522fd57b",
+    "number": 60,
+    "citation": "American Dental Association. Toothpastes [Internet]. [cited 2026 Oct 28]. Available from: https://www.ada.org/resources/ada-library/oral-health-topics/toothpastes",
+    "url": "https://www.ada.org/resources/ada-library/oral-health-topics/toothpastes",
+    "type": "专业组织官方科普",
+    "support": "氟增强牙釉质、帮助早期再矿化；与有牙洞后的修复区分。",
+    "limitations": "机制与专业综述页，不作为新增A等级直接疗效证据。",
+    "legacy_id": "ORALLIP_A01",
+    "legacy_aliases": [
+      "ORALLIP_A01"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-b9b1ccbc54d7",
+    "number": 61,
+    "citation": "Walsh T, Worthington HV, Glenny AM, Marinho VCC, Jeroncic A. Fluoride toothpastes of different concentrations for preventing dental caries. Cochrane Database Syst Rev. 2019;3(3):CD007868. doi:10.1002/14651858.CD007868.pub3.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/30829399/",
+    "type": "人体研究系统综述",
+    "support": [
+      "成人三项试验中，1000或1100 ppm含氟牙膏较无氟牙膏减少DMFS增量，均差-0.53，95%CI -1.02至-0.04",
+      "含氟牙膏有临床防龋依据"
+    ],
+    "limitations": "成人分析2162人，为龋失补牙面的增量，不能换成蛀牙颗数或发病概率；成人比较证据中等，其他浓度、人群与结局的确定性不同，检索截至2018年。 所述成人随访12—24个月。",
+    "legacy_id": "O001",
+    "legacy_aliases": [
+      "O001"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-8dafbea7c486",
+    "number": 62,
+    "citation": "国家卫生健康委员会. 全生命周期口腔保健核心信息 [Internet]. [cited 2026 Oct 27]. Available from: https://www.nhc.gov.cn/ylyjs/gzdt/202409/fb0739ef18ae42329bac79154355fdf8/files/1733882287580_93496.pdf",
+    "url": "https://www.nhc.gov.cn/ylyjs/gzdt/202409/fb0739ef18ae42329bac79154355fdf8/files/1733882287580_93496.pdf",
+    "type": "中国官方保健信息",
+    "support": [
+      "含氟牙膏、每日至少两次刷牙和睡前刷牙",
+      "减少高糖食品饮料和睡前刷牙后进食",
+      "一般人群每年至少进行一次口腔检查"
+    ],
+    "limitations": "官方人群保健信息，不是针对每项问题的独立系统综述。检查和洁治频次建议与英国按风险安排的口径并不相同，不能替代个体复诊方案。",
+    "legacy_id": "O015",
+    "legacy_aliases": [
+      "O015"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-7625549df643",
+    "number": 63,
+    "citation": "Yaacob M, Worthington HV, Deacon SA, Deery C, Walmsley AD, Robinson PG, et al. Powered versus manual toothbrushing for oral health. Cochrane Database Syst Rev. 2014;(6):CD002281. doi:10.1002/14651858.CD002281.pub3.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/24934383/",
+    "type": "人体研究系统综述",
+    "support": [
+      "电动刷较手动刷一至三个月的菌斑指数降低约11%，牙龈炎指数降低约6%",
+      "结局为临床评分，长期保牙意义不确定"
+    ],
+    "limitations": "中等确定性但研究异质性较高，检索截至2014年；不能据该综述给当前所有机型排名，也不证明最贵型号最好。",
+    "legacy_id": "O004",
+    "legacy_aliases": [
+      "O004"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-5be652de666c",
+    "number": 64,
+    "citation": "Oral-B. Oral-B iO Series 3 Rechargeable Electric Toothbrush, Icy Blue [Internet]. [cited 2026 Oct 27]. Available from: https://oralb.com/en-us/products/io-series-3-rechargeable-electric-toothbrush-icy-blue-dd/",
+    "url": "https://oralb.com/en-us/products/io-series-3-rechargeable-electric-toothbrush-icy-blue-dd/",
+    "type": "品牌官方产品信息（非疗效证据）",
+    "support": [
+      "美国官网产品入口及计时、压力提示功能"
+    ],
+    "limitations": "品牌官网仅用于核对当前列示产品、市场版本、功能或标签，不作为独立疗效证据；不证明国内同名产品配方相同，不引用价格、销量或商家比较疗效数字。",
+    "legacy_id": "O005",
+    "legacy_aliases": [
+      "O005"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-a65332cac12a",
+    "number": 65,
+    "citation": "Worthington HV, MacDonald L, Poklepovic Pericic T, Sambunjak D, Johnson TM, Imai P, et al. Home use of interdental cleaning devices, in addition to toothbrushing, for preventing and controlling periodontal diseases and dental caries. Cochrane Database Syst Rev. 2019;4(4):CD012018. doi:10.1002/14651858.CD012018.pub2.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/30968949/",
+    "type": "人体研究系统综述",
+    "support": [
+      "牙线或牙间隙刷作为刷牙补充可能改善牙龈炎",
+      "冲牙器短期牙龈炎结果可能改善，菌斑和中期结局不一致"
+    ],
+    "limitations": "35项随机试验；总体低至极低确定性，多数随访一至六个月；没有试验评估龋齿，严重牙周病和长期保牙结局不足。",
+    "legacy_id": "O006",
+    "legacy_aliases": [
+      "O006"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-bb69e0a027e7",
+    "number": 66,
+    "citation": "National Health Service. Gum disease [Internet]. [cited 2026 Oct 27]. Available from: https://www.nhs.uk/conditions/gum-disease/",
+    "url": "https://www.nhs.uk/conditions/gum-disease/",
+    "type": "专业机构患者资料",
+    "support": [
+      "刷牙或牙线清洁时出血、牙龈红肿疼痛值得牙科检查",
+      "牙龈问题可进展至牙齿松动，护理仍需清洁牙面与牙缝"
+    ],
+    "limitations": "症状教育而非远程诊断；出血可能有其他原因，不能凭单一症状断定牙周病，也不能将操作损伤解释为必须忍耐的正常现象。",
+    "legacy_id": "O007",
+    "legacy_aliases": [
+      "O007"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-137cb4157592",
+    "number": 67,
+    "citation": "Water Pik, Inc. Countertop water flossers [Internet]. [cited 2026 Oct 27]. Available from: https://www.waterpik.com/products/dental-water-flosser/counter-top/",
+    "url": "https://www.waterpik.com/products/dental-water-flosser/counter-top/",
+    "type": "品牌官方产品信息（非疗效证据）",
+    "support": [
+      "美国官网列售Aquarius WP-660，仅作台式冲牙器实例"
+    ],
+    "limitations": "品牌官网仅用于核对当前列示产品、市场版本、功能或标签，不作为独立疗效证据；不证明国内同名产品配方相同，不引用价格、销量或商家比较疗效数字。",
+    "legacy_id": "O008",
+    "legacy_aliases": [
+      "O008"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-1dbb35a1f8ee",
+    "number": 68,
+    "citation": "American Dental Association. Mouthrinse (mouthwash) [Internet]. [cited 2026 Oct 27]. Available from: https://www.ada.org/resources/ada-library/oral-health-topics/mouthrinse-mouthwash",
+    "url": "https://www.ada.org/resources/ada-library/oral-health-topics/mouthrinse-mouthwash",
+    "type": "专业机构患者资料",
+    "support": [
+      "清新口气与治疗用途不同，漱口水不替代刷牙和牙缝清洁",
+      "按活性成分与目标选择，酒精本身不代表效果",
+      "口干者可考虑无酒精配方"
+    ],
+    "limitations": "作用依具体配方而异；不能由不含酒精推出所有无酒精产品都更有效，也未在正文据此声称含酒精漱口水致癌。",
+    "legacy_id": "O010",
+    "legacy_aliases": [
+      "O010"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-99cdf72ff2b6",
+    "number": 69,
+    "citation": "van Swaaij BWM, Van der Weijden GA, Smith RJ, Timmerman MF, Slot DE. Essential oils mouthwash with or without alcohol in relation to effect on parameters of plaque and gingivitis: a systematic review and meta-analysis. Int J Dent Hyg. 2025;23(1):186-202. doi:10.1111/idh.12843.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/39133629/",
+    "type": "人体研究系统综述",
+    "support": [
+      "含酒精与无酒精精油配方对菌斑、牙龈出血及牙龈指数的比较",
+      "无酒精配方的口味接受度可能更好"
+    ],
+    "limitations": "七篇比较研究，包含不刷牙的实验模型；菌斑结局小至中等确定性，出血和牙龈指数差异证据较弱。不能推广到所有成分或所有品牌。",
+    "legacy_id": "O009",
+    "legacy_aliases": [
+      "O009"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-05653f0dd18b",
+    "number": 70,
+    "citation": "LISTERINE. LISTERINE Total Care Mild Taste (Zero Alcohol) [Internet]. [cited 2026 Oct 27]. Available from: https://www.listerine.com.sg/listerine-total-care-zero",
+    "url": "https://www.listerine.com.sg/listerine-total-care-zero",
+    "type": "品牌官方产品信息（非疗效证据）",
+    "support": [
+      "新加坡官网列示无酒精、含氟产品类别；未引用其十效、除菌比例宣传"
+    ],
+    "limitations": "品牌官网仅用于核对当前列示产品、市场版本、功能或标签，不作为独立疗效证据；不证明国内同名产品配方相同，不引用价格、销量或商家比较疗效数字。",
+    "legacy_id": "O011",
+    "legacy_aliases": [
+      "O011"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-5a8a71d2ae61",
+    "number": 71,
+    "citation": "National Health Service. How and when to use chlorhexidine [Internet]. [cited 2026 Oct 27]. Available from: https://www.nhs.uk/medicines/chlorhexidine/how-and-when-to-use-chlorhexidine/",
+    "url": "https://www.nhs.uk/medicines/chlorhexidine/how-and-when-to-use-chlorhexidine/",
+    "type": "专业机构患者资料",
+    "support": [
+      "口腔氯己定适合按指定短疗程使用，可能导致牙齿染色",
+      "与刷牙错开，遵循产品说明及专业指导",
+      "含漱后吐掉，至少三十分钟不吃喝，未改善或加重需联系专业人员"
+    ],
+    "limitations": "NHS页面同时涉及多种剂型，正文只使用口腔制剂信息；不同配方和适应证的剂量、疗程及牙膏间隔不同，未把某一制剂用法推广到全部产品。",
+    "legacy_id": "O013",
+    "legacy_aliases": [
+      "O013"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-538597ad2b2a",
+    "number": 72,
+    "citation": "James P, Worthington HV, Parnell C, Harding M, Lamont T, Cheung A, et al. Chlorhexidine mouthrinse as an adjunctive treatment for gingival health. Cochrane Database Syst Rev. 2017;3(3):CD008676. doi:10.1002/14651858.CD008676.pub2.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/28362061/",
+    "type": "人体研究系统综述",
+    "support": [
+      "辅助氯己定可减少菌斑",
+      "轻度牙龈炎四至六周GI量表均差-0.21分，临床意义有限",
+      "四周以上使用增加外源性染色"
+    ],
+    "limitations": "牙龈炎和菌斑相应比较证据较可靠，但不能确定中重度牙龈炎获益量；多数试验偏倚风险高，结论不支持人人长期使用。 四周是部分试验观察时点，不是更短时间保证不染色的安全线。",
+    "legacy_id": "O012",
+    "legacy_aliases": [
+      "O012"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-a6d83170b3f9",
+    "number": 73,
+    "citation": "Lamont T, Worthington HV, Clarkson JE, Beirne PV. Routine scale and polish for periodontal health in adults. Cochrane Database Syst Rev. 2018;12(12):CD004625. doi:10.1002/14651858.CD004625.pub5.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/30590875/",
+    "type": "人体研究系统综述",
+    "support": [
+      "定期就诊且无严重牙周炎成人，固定常规洁治对牙龈炎等的额外改善有限"
+    ],
+    "limitations": "仅两项英国试验、1711人，随访二至三年；牙龈炎等部分结局高确定性，但不能用来否定牙石清除或牙周炎的系统治疗。",
+    "legacy_id": "O014",
+    "legacy_aliases": [
+      "O014"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-4cd4a40c831a",
+    "number": 74,
+    "citation": "National Health Service. Dental check-ups [Internet]. [cited 2026 Oct 27]. Available from: https://www.nhs.uk/live-well/healthy-teeth-and-gums/dental-check-ups/",
+    "url": "https://www.nhs.uk/live-well/healthy-teeth-and-gums/dental-check-ups/",
+    "type": "专业机构患者资料",
+    "support": [
+      "检查间隔由口腔现状和未来风险决定",
+      "常规复查日期不适用于等待处理已经出现的症状"
+    ],
+    "limitations": "英国服务体系中的公众建议，不是中国的法定规范；正文未把英国低风险最长间隔推荐给所有中国年轻人。",
+    "legacy_id": "O016",
+    "legacy_aliases": [
+      "O016"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-f38a661531c7",
+    "number": 75,
+    "citation": "National Health Service. Dental abscess [Internet]. [cited 2026 Oct 27]. Available from: https://www.nhs.uk/conditions/dental-abscess/",
+    "url": "https://www.nhs.uk/conditions/dental-abscess/",
+    "type": "专业机构患者资料",
+    "support": [
+      "牙痛伴脸颌肿胀、发热应尽快牙科评估",
+      "呼吸或吞咽困难是急诊信号"
+    ],
+    "limitations": "用于识别应求助的表现，不能靠本章判断脓肿、决定抗生素或替代引流等治疗；英国联系电话未移植到中国正文。",
+    "legacy_id": "O032",
+    "legacy_aliases": [
+      "O032"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-47049c8dd20a",
+    "number": 76,
+    "citation": "National Health Service. Bad breath [Internet]. [cited 2026 Oct 27]. Available from: https://www.nhs.uk/symptoms/bad-breath/",
+    "url": "https://www.nhs.uk/symptoms/bad-breath/",
+    "type": "专业机构患者资料",
+    "support": [
+      "可温和清洁舌面，不刮至出血",
+      "持续口臭及牙龈疼痛出血、牙痛等应看牙医",
+      "口干、牙病等可能参与口臭"
+    ],
+    "limitations": "公众护理建议，不证明刮舌能根治全部口臭；持续口臭的病因须评估，不能直接归为胃病或某种感染。",
+    "legacy_id": "O018",
+    "legacy_aliases": [
+      "O018"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-51429fe811ea",
+    "number": 77,
+    "citation": "Kumbargere Nagraj S, Eachempati P, Uma E, Singh VP, Ismail NM, Varghese E. Interventions for managing halitosis. Cochrane Database Syst Rev. 2019;12(12):CD012213. doi:10.1002/14651858.CD012213.pub2.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/31825092/",
+    "type": "人体研究系统综述",
+    "support": [
+      "刮舌及其他口臭干预的比较证据不足，不能确定哪种最好"
+    ],
+    "limitations": "44项试验多随访一至四周，整体低至极低确定性；主要研究口腔来源口臭，不能外推所有全身病因。",
+    "legacy_id": "O017",
+    "legacy_aliases": [
+      "O017"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-ee0a69f119ef",
+    "number": 78,
+    "citation": "National Health Service. Symptoms of mouth cancer [Internet]. [cited 2026 Oct 27]. Available from: https://www.nhs.uk/conditions/mouth-cancer/symptoms/",
+    "url": "https://www.nhs.uk/conditions/mouth-cancer/symptoms/",
+    "type": "专业机构患者资料",
+    "support": [
+      "口腔异常肿块、红白斑及长期溃疡需要检查",
+      "出现这些表现并不等于确诊癌症"
+    ],
+    "limitations": "症状识别资料，不能据外观诊断癌症；页面标注2023-06复核、2026-06待复核，本次核查时页面仍可访问。",
+    "legacy_id": "O019",
+    "legacy_aliases": [
+      "O019"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-3f0f89610a5c",
+    "number": 79,
+    "citation": "American Dental Association. Whitening [Internet]. [cited 2026 Oct 27]. Available from: https://www.ada.org/resources/ada-library/oral-health-topics/whitening",
+    "url": "https://www.ada.org/resources/ada-library/oral-health-topics/whitening",
+    "type": "专业机构患者资料",
+    "support": [
+      "漂白前评估牙病、敏感和修复体，天然牙与修复材料可能出现色差",
+      "诊室与专业指导下居家漂白均是方案",
+      "美白牙膏主要作用于表面着色",
+      "活性炭和自制美白的有效性安全性证据不足"
+    ],
+    "limitations": "专业资料综述，不同变色原因的效果不同；不支持高浓度一定更好，也不等于全部牙粉无效。正文对避免酸性食材、炭盐自制美白作保守消费建议。",
+    "legacy_id": "O021",
+    "legacy_aliases": [
+      "O021"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-0d36c8435e07",
+    "number": 80,
+    "citation": "Eachempati P, Kumbargere Nagraj S, Kiran Kumar Krishanappa S, Gupta P, Yaylali IE. Home-based chemically-induced whitening (bleaching) of teeth in adults. Cochrane Database Syst Rev. 2018;12(12):CD006202. doi:10.1002/14651858.CD006202.pub2.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/30562408/",
+    "type": "人体研究系统综述",
+    "support": [
+      "部分家用化学漂白方案比安慰剂改善两周至六个月的牙色",
+      "不能可靠确定各配方、浓度和用时优劣"
+    ],
+    "limitations": "71项试验整体低至极低确定性，方法差异大、长期资料不足；不能推广为任何网售牙贴都有效或全系列同浓度。",
+    "legacy_id": "O020",
+    "legacy_aliases": [
+      "O020"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-9f43addb3ad6",
+    "number": 81,
+    "citation": "Crest. Whitening treatments [Internet]. [cited 2026 Oct 27]. Available from: https://crest.com/en-us/oral-care-products/whitening-treatments",
+    "url": "https://crest.com/en-us/oral-care-products/whitening-treatments",
+    "type": "品牌官方产品信息（非疗效证据）",
+    "support": [
+      "美国官网列售3DWhitestrips Professional White等不同版本；未把旧名称Professional Effects与当前版本混同"
+    ],
+    "limitations": "品牌官网仅用于核对当前列示产品、市场版本、功能或标签，不作为独立疗效证据；不证明国内同名产品配方相同，不引用价格、销量或商家比较疗效数字。",
+    "legacy_id": "O022",
+    "legacy_aliases": [
+      "O022"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-7846734d48ef",
+    "number": 82,
+    "citation": "American Dental Association. Veneers [Internet]. [cited 2026 Oct 27]. Available from: https://www.mouthhealthy.org/all-topics-a-z/veneers",
+    "url": "https://www.mouthhealthy.org/all-topics-a-z/veneers",
+    "type": "专业机构患者资料",
+    "support": [
+      "贴面与牙冠覆盖范围不同",
+      "瓷贴面去除部分牙釉质，涉及不可逆改变",
+      "贴面可能需要维修更换，牙病与磨牙习惯影响适用性"
+    ],
+    "limitations": "贴面材料与预备量不同；未将所有树脂贴面和免预备方案等同于传统瓷贴面，也未把任何贴面一概判为不必要。",
+    "legacy_id": "O024",
+    "legacy_aliases": [
+      "O024"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-5ce32500c4aa",
+    "number": 83,
+    "citation": "National Health Service. Dental treatments [Internet]. [cited 2026 Oct 27]. Available from: https://www.nhs.uk/live-well/healthy-teeth-and-gums/dental-treatments/",
+    "url": "https://www.nhs.uk/live-well/healthy-teeth-and-gums/dental-treatments/",
+    "type": "专业机构患者资料",
+    "support": [
+      "牙冠覆盖整颗天然牙，安装需修整牙体",
+      "牙冠有修复受损牙齿的用途",
+      "部分贴面需磨除牙面而非全部免磨牙"
+    ],
+    "limitations": "面向患者的概览，不能决定某颗牙需要牙冠或贴面；英国支付与报销信息不适用于中国，正文未引用。",
+    "legacy_id": "O025",
+    "legacy_aliases": [
+      "O025"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-f0139230e249",
+    "number": 84,
+    "citation": "Alenezi A, Alsweed M, Alsidrani S, Chrcanovic BR. Long-term survival and complication rates of porcelain laminate veneers in clinical studies: a systematic review. J Clin Med. 2021;10(5):1074. doi:10.3390/jcm10051074.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/33807504/",
+    "type": "人体研究系统综述",
+    "support": [
+      "25项临床研究6500片瓷贴面的估计十年累计存留率95.5%"
+    ],
+    "limitations": "主要为观察性临床系列，病例、材料和失败定义不同；存留不等于无并发症，也不证明给健康牙做贴面比不做更划算。",
+    "legacy_id": "O023",
+    "legacy_aliases": [
+      "O023"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-22f767618353",
+    "number": 85,
+    "citation": "National Health Service. Wisdom tooth removal [Internet]. [cited 2026 Oct 27]. Available from: https://www.nhs.uk/tests-and-treatments/wisdom-tooth-removal/",
+    "url": "https://www.nhs.uk/tests-and-treatments/wisdom-tooth-removal/",
+    "type": "专业机构患者资料",
+    "support": [
+      "冠周炎、龋病、牙周问题、囊肿等可构成拔除考虑",
+      "需要检查并按需影像评估，未造成问题者可能留观",
+      "拔除存在神经损伤等并发症风险"
+    ],
+    "limitations": "英国患者信息，不是个体拔牙指征判定；是否能修复、邻牙情况和手术难度须由牙医评估。",
+    "legacy_id": "O027",
+    "legacy_aliases": [
+      "O027"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-07b7e5c9f659",
+    "number": 86,
+    "citation": "Ghaeminia H, Nienhuijs MEL, Toedtling V, Perry J, Tummers M, Hoppenreijs TJM, et al. Surgical removal versus retention for the management of asymptomatic disease-free impacted wisdom teeth. Cochrane Database Syst Rev. 2020;5(5):CD003879. doi:10.1002/14651858.CD003879.pub5.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/32368796/",
+    "type": "人体研究系统综述",
+    "support": [
+      "无症状无疾病阻生智齿的拔留比较证据不足",
+      "预防前牙拥挤的获益不明确，保留时需要监测"
+    ],
+    "limitations": "仅两项研究，低至极低确定性；不适用于已经患病的智齿，罕见风险与生活质量资料不足。",
+    "legacy_id": "O026",
+    "legacy_aliases": [
+      "O026"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-c937bf29ee18",
+    "number": 87,
+    "citation": "British Orthodontic Society. Orthodontics for adults [Internet]. [cited 2026 Oct 27]. Available from: https://bos.org.uk/patients/treatments/orthodontics-for-adults/",
+    "url": "https://bos.org.uk/patients/treatments/orthodontics-for-adults/",
+    "type": "专业机构患者资料",
+    "support": [
+      "成年人仍可考虑正畸，具体适用性需评估"
+    ],
+    "limitations": "专业学会公众说明，不保证任何成年人都适合、不提供个体牙套类型或拔牙方案。",
+    "legacy_id": "O028",
+    "legacy_aliases": [
+      "O028"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-3adfe962e801",
+    "number": 88,
+    "citation": "National Health Service. Braces [Internet]. [cited 2026 Oct 27]. Available from: https://www.nhs.uk/tests-and-treatments/braces/",
+    "url": "https://www.nhs.uk/tests-and-treatments/braces/",
+    "type": "专业机构患者资料",
+    "support": [
+      "正畸期间加强清洁牙齿和矫治器并继续常规牙科检查"
+    ],
+    "limitations": "护理细节依矫治器类型及治疗方案不同；英国成人付费信息与治疗年限未用于中国消费建议。",
+    "legacy_id": "O031",
+    "legacy_aliases": [
+      "O031"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-8cc229da939c",
+    "number": 89,
+    "citation": "General Dental Council. Direct-to-consumer orthodontics: information to support professional judgement [Internet]. [cited 2026 Oct 27]. Available from: https://www.gdc-uk.org/standards-guidance/standards-and-guidance/gdc-guidance-for-dental-professionals/direct-to-consumer-orthodontics",
+    "url": "https://www.gdc-uk.org/standards-guidance/standards-and-guidance/gdc-guidance-for-dental-professionals/direct-to-consumer-orthodontics",
+    "type": "英国监管与专业责任规范（非效果证据）",
+    "support": [
+      "完整口腔健康评估以实体临床检查为基础",
+      "应明确负责牙医并能直接联系，不以寄牙模或照片代替评估"
+    ],
+    "limitations": "英国监管要求用于说明临床评估与责任边界，不是中国法律条文；没有将全部远程随访等同于无医生负责的自行矫正。",
+    "legacy_id": "O029",
+    "legacy_aliases": [
+      "O029"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-22247b956555",
+    "number": 90,
+    "citation": "British Orthodontic Society. Retainers [Internet]. [cited 2026 Oct 27]. Available from: https://bos.org.uk/patients/retainers/",
+    "url": "https://bos.org.uk/patients/retainers/",
+    "type": "专业机构患者资料",
+    "support": [
+      "正畸后通常需要保持器维持牙位，佩戴和复查按专业安排"
+    ],
+    "limitations": "不同保持器与病例方案不同，不提供人人相同的佩戴时长或替换周期。",
+    "legacy_id": "O030",
+    "legacy_aliases": [
+      "O030"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-3cb3e8911982",
+    "number": 91,
+    "citation": "National Health Service. Earwax build-up [Internet]. [cited 2026 Oct 27]. Available from: https://www.nhs.uk/conditions/earwax-build-up/",
+    "url": "https://www.nhs.uk/conditions/earwax-build-up/",
+    "type": "机构患者教育",
+    "support": "耳屎通常自然排出，不把棉签伸进耳道；耳烛和吸耳屎工具缺乏清除证据，鼓膜穿孔不自行滴耳。",
+    "limitations": "未直接照搬英国药房推荐油品的用量或就医系统；手术、置管、疼痛流液等需要结合个体情况。",
+    "legacy_id": "U001",
+    "legacy_aliases": [
+      "U001"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-1988ad5442b1",
+    "number": 92,
+    "citation": "Health Canada. Ear candling [Internet]. [cited 2026 Oct 27]. Available from: https://www.canada.ca/en/health-canada/services/medical-procedures/ear-candling.html",
+    "url": "https://www.canada.ca/en/health-canada/services/medical-procedures/ear-candling.html",
+    "type": "卫生机构器械风险说明",
+    "support": "耳烛没有已证实的医疗好处，可造成烫伤、堵塞、鼓膜损伤等。",
+    "limitations": "不把加拿大与美国销售规则写成中国法规；风险报告没有提供每次使用的绝对风险。",
+    "legacy_id": "U002",
+    "legacy_aliases": [
+      "U002"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-3b66dbde629f",
+    "number": 93,
+    "citation": "Aaron K, Cooper TE, Warner L, Burton MJ. Ear drops for the removal of ear wax. Cochrane Database Syst Rev. 2018;7(7):CD012171. doi:10.1002/14651858.CD012171.pub2.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/30043448/",
+    "type": "Cochrane系统综述",
+    "support": "10项试验、623人；一项117只耳的五天比较中清除率22%与5%，但证据低；未证明某种商业软化剂普遍优越。",
+    "limitations": "研究多较旧、治疗与结局异质，可信区间宽；耳为单位不等于参加者人数；研究中的水对照不是人人自行灌水的安全建议。作者、年卷期、文章号及DOI由PubMed记录与Cochrane全文题录核对。",
+    "legacy_id": "U003",
+    "legacy_aliases": [
+      "U003"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-f075558cf188",
+    "number": 94,
+    "citation": "Centers for Disease Control and Prevention. Preventing swimmer's ear [Internet]. [cited 2026 Oct 27]. Available from: https://www.cdc.gov/healthy-swimming/prevention/preventing-swimmers-ear.html",
+    "url": "https://www.cdc.gov/healthy-swimming/prevention/preventing-swimmers-ear.html",
+    "type": "公共卫生预防建议",
+    "support": "保持耳道干燥、侧头排水、外耳擦干、不要向耳道塞物，耳痛流液等就医，特殊情况不用干耳滴液。",
+    "limitations": "护理共识不是某款耳塞或干耳剂的独立临床试验；未推荐自行配制酒精、醋滴液。",
+    "legacy_id": "U004",
+    "legacy_aliases": [
+      "U004"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-da94ff890c47",
+    "number": 95,
+    "citation": "World Health Organization. Deafness and hearing loss: safe listening [Internet]. 2026 Mar 6 [cited 2026 Oct 27]. Available from: https://www.who.int/news-room/questions-and-answers/item/deafness-and-hearing-loss-safe-listening",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/deafness-and-hearing-loss-safe-listening",
+    "type": "公共卫生建议",
+    "support": "成人参考80分贝每周40小时、90分贝约4小时；贴合与降噪可减少嘈杂环境中加音量的需要；演出用听力防护。",
+    "limitations": "参考暴露量不保证每人无风险，手机音量百分比不能等同真实入耳分贝，不把主动降噪等同专业防护认证。",
+    "legacy_id": "U005",
+    "legacy_aliases": [
+      "U005"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-f5c90ce9c88c",
+    "number": 96,
+    "citation": "World Health Organization, International Telecommunication Union. Safe listening devices and systems: a WHO-ITU standard [Internet]. 2019 Sep 18 [cited 2026 Oct 27]. Available from: https://www.who.int/publications-detail-redirect/9789241515276",
+    "url": "https://www.who.int/publications-detail-redirect/9789241515276",
+    "type": "公共卫生设备标准",
+    "support": "个人音频设备用声音剂量、水平与时长共同监测，成人参考80分贝每周40小时，提供限音量及个体反馈。",
+    "limitations": "不是某品牌耳机长期防耳聋试验；儿童参考值不同，本章使用成人口径。",
+    "legacy_id": "U006",
+    "legacy_aliases": [
+      "U006"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-1d7968cc043d",
+    "number": 97,
+    "citation": "Ramakers GGJ, Kraaijenga VJC, Cattani G, van Zanten GA, Grolman W. Effectiveness of earplugs in preventing recreational noise-induced hearing loss: a randomized clinical trial. JAMA Otolaryngol Head Neck Surg. 2016;142(6):551-558. doi:10.1001/jamaoto.2016.0225.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/27054284/",
+    "type": "随机对照试验",
+    "support": "51名正常听力成人参加约100分贝音乐节4.5小时；暂时听阈变化为耳塞组4/50只耳、无防护组22/52只耳。",
+    "limitations": "单次音乐节、小样本、短期且不能参与者盲法；耳为单位，不能直接当个人终身听力损失概率，也不能替任意耳塞品牌背书。元数据、样本及结局由PubMed和期刊核对。",
+    "legacy_id": "U007",
+    "legacy_aliases": [
+      "U007"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-203b5007a601",
+    "number": 98,
+    "citation": "National Institute on Deafness and Other Communication Disorders. Sudden deafness [Internet]. [cited 2026 Oct 27]. Available from: https://www.nidcd.nih.gov/health/sudden-deafness",
+    "url": "https://www.nidcd.nih.gov/health/sudden-deafness",
+    "type": "机构患者教育与分诊",
+    "support": "突发听力下降可伴耳闷、耳鸣、眩晕，需立即检查，拖延可能降低治疗效果；检查区分传导与内耳问题。",
+    "limitations": "不据此给个人自行使用激素的剂量或疗程，不以自然恢复比例作为等待理由。",
+    "legacy_id": "U008",
+    "legacy_aliases": [
+      "U008"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-aa34e94d5459",
+    "number": 99,
+    "citation": "National Institute on Deafness and Other Communication Disorders. Tinnitus [Internet]. [cited 2026 Oct 27]. Available from: https://www.nidcd.nih.gov/health/tinnitus",
+    "url": "https://www.nidcd.nih.gov/health/tinnitus",
+    "type": "机构患者教育",
+    "support": "耳鸣需要查原因和听力，部分声音干预、行为治疗或合适助听设备用于减轻困扰；未证明广告中维生素、草药或膳食补充剂可根治耳鸣。",
+    "limitations": "未逐个评价所有市场产品，不声称耳鸣都不能改善或所有设备均有效；具体治疗方案需个体评估。",
+    "legacy_id": "U009",
+    "legacy_aliases": [
+      "U009"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-070918c1401b",
+    "number": 100,
+    "citation": "American Academy of Dermatology. Face washing 101 [Internet]. [cited 2026 Oct 27]. Available from: https://www.aad.org/public/everyday-care/skin-care-basics/care/face-washing-101",
+    "url": "https://www.aad.org/public/everyday-care/skin-care-basics/care/face-washing-101",
+    "type": "医学机构患者教育",
+    "support": "温水、指腹、温和洁面；轻擦干；通常每日两次及大量出汗后清洗；干燥时保湿。",
+    "limitations": "操作建议，不是所有洁面配方的比较试验；不支持用清洁次数机械约束接受特殊治疗者。",
+    "legacy_id": "S001",
+    "legacy_aliases": [
+      "S001"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-b1766e9caa49",
+    "number": 101,
+    "citation": "American Academy of Dermatology. What can treat large facial pores? [Internet]. [cited 2026 Oct 27]. Available from: https://www.aad.org/public/everyday-care/skin-care-secrets/face/treat-large-pores",
+    "url": "https://www.aad.org/public/everyday-care/skin-care-secrets/face/treat-large-pores",
+    "type": "医学机构患者教育",
+    "support": "过热的水、搓洗与刺激可能使毛孔外观更明显；轻柔护理；不能据此保证永久缩毛孔。",
+    "limitations": "专家护理建议，不是冷水收缩毛孔的随机试验；文中维A类建议不替代孕哺期个体评估。",
+    "legacy_id": "S002",
+    "legacy_aliases": [
+      "S002"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-a3bbada7b9da",
+    "number": 102,
+    "citation": "American Academy of Dermatology. A dermatologist's guide to skin care in your 20s [Internet]. [cited 2026 Oct 27]. Available from: https://www.aad.org/public/everyday-care/skin-care-basics/care/skin-care-in-your-20s",
+    "url": "https://www.aad.org/public/everyday-care/skin-care-basics/care/skin-care-in-your-20s",
+    "type": "医学机构患者教育",
+    "support": "年轻成人先建立温和清洁、保湿和日晒保护，再按需要针对具体问题增加产品。",
+    "limitations": "科普主要以女性读者行文；基础原则不证明男女需要不同专属套装，也不提供成品比较。",
+    "legacy_id": "S003",
+    "legacy_aliases": [
+      "S003"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-5c3c6493b810",
+    "number": 103,
+    "citation": "Cleveland Clinic. Signs your skin barrier is damaged [Internet]. [cited 2026 Oct 28]. Available from: https://health.clevelandclinic.org/skin-barrier",
+    "url": "https://health.clevelandclinic.org/skin-barrier",
+    "type": "医学机构科普",
+    "support": "皮肤最外层角质层与脂质承担减少失水、阻挡部分外界物质的屏障功能；用于术语解释。",
+    "limitations": "不是所有修护成品的临床效果证明，也不能据症状自诊屏障损伤。",
+    "legacy_id": "SKIN_A01",
+    "legacy_aliases": [
+      "SKIN_A01"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-eab17e109987",
+    "number": 104,
+    "citation": "Chen W, He M, Xie L, Li L. The optimal cleansing method for the removal of sunscreen: Water, cleanser or cleansing oil? J Cosmet Dermatol. 2020;19(1):180-4. doi:10.1111/jocd.12995.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/31157512/",
+    "type": "人体清洁方法临床试验（随机分组未核实）",
+    "support": "20人测试中，受试非耐水防晒可用洁面产品较好清除；耐水防晒用卸妆油去除更充分；防晒不一律要求双重清洁。",
+    "limitations": "样本和配方有限，不能证明所有防晒、洁面产品效果一致，也没有长期皮炎或痤疮结局。",
+    "legacy_id": "S004",
+    "legacy_aliases": [
+      "S004"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-402c3fdb5d00",
+    "number": 105,
+    "citation": "Hughes MCB, Williams GM, Baker P, Green AC. Sunscreen and prevention of skin aging: a randomized trial. Ann Intern Med. 2013;158(11):781-90. doi:10.7326/0003-4819-158-11-201306040-00002.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/23732711/",
+    "type": "随机对照试验",
+    "support": "903名55岁以下成人、4.5年随访，规律防晒组皮纹老化进展少于随意使用组；报告相对优势比0.76。",
+    "limitations": "澳大利亚社区样本，部分结局缺失；不是中国年轻人特定产品试验；OR不能直接翻译为年轻程度或个人风险下降24%。 主要用手背皮纹模具分级评价，不能换算面部肉眼年轻程度。",
+    "legacy_id": "S005",
+    "legacy_aliases": [
+      "S005"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-921a56f775de",
+    "number": 106,
+    "citation": "American Academy of Dermatology. How to apply sunscreen [Internet]. [cited 2026 Oct 27]. Available from: https://www.aad.org/public/everyday-care/sun-protection/shade-clothing-sunscreen/how-to-apply-sunscreen",
+    "url": "https://www.aad.org/public/everyday-care/sun-protection/shade-clothing-sunscreen/how-to-apply-sunscreen",
+    "type": "医学机构患者教育",
+    "support": "广谱SPF30及以上；户外充分覆盖，约每两小时以及游泳、出汗后补涂；与衣帽遮阳搭配。",
+    "limitations": "不是室内不同场景的补涂试验；正文室内按实际暴露安排属于情境化建议，不给统一小时数。",
+    "legacy_id": "S006",
+    "legacy_aliases": [
+      "S006"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-db548f633bc6",
+    "number": 107,
+    "citation": "US Food and Drug Administration. The sun and your medicine [Internet]. [cited 2026 Oct 28]. Available from: https://www.fda.gov/drugs/understanding-over-counter-medicines/sun-and-your-medicine",
+    "url": "https://www.fda.gov/drugs/understanding-over-counter-medicines/sun-and-your-medicine",
+    "type": "监管机构公众教育",
+    "support": "广谱兼顾UVA/UVB，SPF主要反映防晒伤能力，不能换算为固定可晒小时。",
+    "limitations": "仅用于定义与使用条件；美国监管分类不是中国规定，也不证明某品牌抗老疗效。",
+    "legacy_id": "SKIN_A02",
+    "legacy_aliases": [
+      "SKIN_A02"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-c480a6de50f2",
+    "number": 108,
+    "citation": "Wang Y, Cao Y, Huang X, Zhang M, Hu JF, Li L, et al. Short-term skin reactions and changes in stratum corneum following different ways of facial sheet mask usage. J Tissue Viability. 2024;33(4):831-9. doi:10.1016/j.jtv.2024.06.012.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/38951050/",
+    "type": "随机对照短期试验",
+    "support": "84名19—40岁健康成人，三类面膜、四种停留时间；含水量先升后回落，较长敷用可增加干燥、发红。",
+    "limitations": "短期皮肤指标，不代表长期修复或所有品牌；部分受试补偿及一种面膜由企业提供；不把25分钟推广为通用安全阈值。作者、卷期页与DOI经PubMed索引及期刊页核对。",
+    "legacy_id": "S007",
+    "legacy_aliases": [
+      "S007"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-be7358b2ab66",
+    "number": 109,
+    "citation": "Faisal UA, Jamil A, Jaafar H, Aqma WS, Arumugam M. Effects of Malaysian thermal spring water as adjunct therapy for mild to moderate acne vulgaris - a prospective, randomised, controlled, split face study. Med J Malaysia. 2024;79(2):157-64.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/38553920/",
+    "type": "随机对照半脸试验",
+    "support": "31人入组、29人完成分析；6周、特定马来西亚泉水作为两侧共同药物治疗的辅助，部分干燥与耐受改善，痤疮严重程度未显示明确额外改善。",
+    "limitations": "小样本、特定泉水且同时用药；不可外推理肤泉或所有喷雾治痘；PubMed未列DOI，不补造。",
+    "legacy_id": "S008",
+    "legacy_aliases": [
+      "S008"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-6e71106e3e07",
+    "number": 110,
+    "citation": "La Roche-Posay. Thermal Spring Water Face Mist [Internet]. [cited 2026 Oct 27]. Available from: https://www.laroche-posay.us/our-products/face/face-toner/thermal-spring-water-face-mist-thermalspringwater.html",
+    "url": "https://www.laroche-posay.us/our-products/face/face-toner/thermal-spring-water-face-mist-thermalspringwater.html",
+    "type": "品牌官方产品信息",
+    "support": "核对美版在售产品名与成分表AQUA / WATER。",
+    "limitations": "仅用于产品身份和成分，不证明任何临床效果；不同地区版本按实物标签核对，未推断中国大陆配方完全相同。",
+    "legacy_id": "S009",
+    "legacy_aliases": [
+      "S009"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-eae5bb19dfbd",
+    "number": 111,
+    "citation": "American Academy of Dermatology. How to test skin care products [Internet]. [cited 2026 Oct 27]. Available from: https://www.aad.org/public/everyday-care/skin-care-secrets/prevent-skin-problems/test-skin-care-products",
+    "url": "https://www.aad.org/public/everyday-care/skin-care-secrets/prevent-skin-problems/test-skin-care-products",
+    "type": "医学机构患者教育",
+    "support": "普通护肤品小片区域按用法试7—10天；出现红痒肿等不良反应停用；严重或持续反应咨询皮肤科。",
+    "limitations": "不是诊断过敏的标准化斑贴试验，也不能排除日后过敏；不能替代处方药使用方案。",
+    "legacy_id": "S010",
+    "legacy_aliases": [
+      "S010"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-78aab4f1d60e",
+    "number": 112,
+    "citation": "American Academy of Dermatology. Wrinkle remedies: How to reduce the signs of aging [Internet]. [cited 2026 Oct 27]. Available from: https://www.aad.org/public/everyday-care/skin-care-secrets/anti-aging/wrinkle-remedies",
+    "url": "https://www.aad.org/public/everyday-care/skin-care-secrets/anti-aging/wrinkle-remedies",
+    "type": "医学机构患者教育",
+    "support": "保湿可改善部分细纹外观；普通抗老产品引起明显刺痛灼痛应停用，医生指导治疗另行调整。",
+    "limitations": "未证明所有眼霜优于基础保湿；未将所有短暂刺激一律诊断为过敏。",
+    "legacy_id": "S011",
+    "legacy_aliases": [
+      "S011"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-e71fb8f4142b",
+    "number": 113,
+    "citation": "NHS. Acne [Internet]. [cited 2026 Oct 27]. Available from: https://www.nhs.uk/conditions/acne/",
+    "url": "https://www.nhs.uk/conditions/acne/",
+    "type": "公共医疗机构患者教育",
+    "support": "常见痤疮表现，避免抠挤；深部疼痛、瘢痕或明显心理困扰值得提前就医。",
+    "limitations": "英国就医与销售路径不作为中国规定；正文未采纳补剂等附带表述。",
+    "legacy_id": "S012",
+    "legacy_aliases": [
+      "S012"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-6dad22d2f72b",
+    "number": 114,
+    "citation": "MedlinePlus. Milia [Internet]. [cited 2026 Oct 27]. Available from: https://medlineplus.gov/ency/article/001367.htm",
+    "url": "https://medlineplus.gov/ency/article/001367.htm",
+    "type": "医学百科患者教育",
+    "support": "粟丘疹是小囊肿，可见于成人面部，不等同普通痤疮闭口。",
+    "limitations": "页面有大量新生儿内容，正文仅使用适用于成人的概念；不能依文字给读者确诊。",
+    "legacy_id": "S013",
+    "legacy_aliases": [
+      "S013"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-e17a23697457",
+    "number": 115,
+    "citation": "Huang CY, Chang IJ, Bolick N, Hsu WT, Su CH, Hsieh TS, et al. Comparative efficacy of pharmacological treatments for acne vulgaris: a network meta-analysis of 221 randomized controlled trials. Ann Fam Med. 2023;21(4):358-69. doi:10.1370/afm.2995.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/37487721/",
+    "type": "系统综述与网状荟萃分析",
+    "support": "221项随机试验比较规范药物治疗，治疗中位时长12周；支持外用维A类、过氧化苯甲酰及合理联合治疗的有效方向。",
+    "limitations": "网络间接比较、异质性及较短疗程限制精确排名；正文不把口服异维A酸排名转为自行用药建议，也不把结果外推化妆品。",
+    "legacy_id": "S014",
+    "legacy_aliases": [
+      "S014"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-37c2b6aa5126",
+    "number": 116,
+    "citation": "Reynolds RV, Yeung H, Cheng CE, Cook-Bolden F, Desai SR, Druby KM, et al. Guidelines of care for the management of acne vulgaris. J Am Acad Dermatol. 2024;90(5):1006.e1-1006.e30. doi:10.1016/j.jaad.2023.12.017.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/38300170/",
+    "type": "循证临床指南",
+    "support": "外用过氧化苯甲酰和维A酸类的推荐与水杨酸等条件性推荐有区别；药物选择按适应证与耐受评估。",
+    "limitations": "国外指南不是中国销售规则，也不因指南身份自动归A级；不能据本文制定个体处方。",
+    "legacy_id": "S015",
+    "legacy_aliases": [
+      "S015"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-f080ab67fe4c",
+    "number": 117,
+    "citation": "American Academy of Dermatology. Adult acne treatment dermatologists recommend [Internet]. [cited 2026 Oct 27]. Available from: https://www.aad.org/public/diseases/acne/diy/adult-acne-treatment",
+    "url": "https://www.aad.org/public/diseases/acne/diy/adult-acne-treatment",
+    "type": "医学机构患者教育",
+    "support": "规范痤疮治疗一般需约6—8周见初步改善；深部疼痛、瘢痕等应就诊。",
+    "limitations": "不是所有成分的统一起效时间；症状加重无需等满时间；美国非处方药身份不外推到中国。",
+    "legacy_id": "S016",
+    "legacy_aliases": [
+      "S016"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-d887557c61a4",
+    "number": 118,
+    "citation": "European Medicines Agency. Updated measures for pregnancy prevention during retinoid use [Internet]. [cited 2026 Oct 27]. Available from: https://www.ema.europa.eu/is/news/updated-measures-pregnancy-prevention-during-retinoid-use",
+    "url": "https://www.ema.europa.eu/is/news/updated-measures-pregnancy-prevention-during-retinoid-use",
+    "type": "药品监管安全措施",
+    "support": "备孕和妊娠期禁用外用维A酸类药物；低系统吸收不等于建议使用。",
+    "limitations": "药品监管结论不直接回答所有化妆品或哺乳期具体部位；护肤品视黄醇孕期建议另参考AAD，不将意外外用表述为必然胎儿损害。",
+    "legacy_id": "S017",
+    "legacy_aliases": [
+      "S017"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-61ff0f4cb16b",
+    "number": 119,
+    "citation": "Cleveland Clinic. How to get rid of blackheads [Internet]. [cited 2026 Oct 27]. Available from: https://health.clevelandclinic.org/how-to-get-rid-of-blackheads",
+    "url": "https://health.clevelandclinic.org/how-to-get-rid-of-blackheads",
+    "type": "医学机构患者教育",
+    "support": "鼻贴可暂时移除部分栓塞，但不能解决底层问题或证明长期缩毛孔；反复操作可能刺激。",
+    "limitations": "专家科普而非鼻贴长期RCT；正文未采纳页面中的具体酸浓度、家庭组合或将去角质写成人人必需。",
+    "legacy_id": "S037",
+    "legacy_aliases": [
+      "S037"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-613891e24cb7",
+    "number": 120,
+    "citation": "University of Utah Health. Should you vacuum your pores? [Internet]. [cited 2026 Oct 27]. Available from: https://healthcare.utah.edu/healthfeed/2024/04/should-you-vacuum-your-pores",
+    "url": "https://healthcare.utah.edu/healthfeed/2024/04/should-you-vacuum-your-pores",
+    "type": "医学机构患者教育",
+    "support": "家用吸黑头仪对已松动黑头可能有有限作用，过强吸引可导致刺激、瘀伤或损伤，不能据此保证缩毛孔。",
+    "limitations": "专家实践性说明，非长期疗效试验；正文未采纳在家使用粉刺针的建议，也不把美国器械销售状态外推中国。",
+    "legacy_id": "S038",
+    "legacy_aliases": [
+      "S038"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-b6aa3fa849de",
+    "number": 121,
+    "citation": "American Academy of Dermatology. Retinoid or retinol? [Internet]. [cited 2026 Oct 27]. Available from: https://www.aad.org/public/everyday-care/skin-care-secrets/anti-aging/retinoid-retinol",
+    "url": "https://www.aad.org/public/everyday-care/skin-care-secrets/anti-aging/retinoid-retinol",
+    "type": "医学机构患者教育",
+    "support": "区分维A酸类药物与视黄醇护肤品，存在刺激及孕期避免使用等边界。",
+    "limitations": "美国销售分类不能作为中国规则；哺乳期按具体产品和部位核对，不以此列为全类永久禁用。",
+    "legacy_id": "S026",
+    "legacy_aliases": [
+      "S026"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-7a4c9490d3d5",
+    "number": 122,
+    "citation": "American Academy of Dermatology. Acne: Diagnosis and treatment [Internet]. [cited 2026 Oct 28]. Available from: https://www.aad.org/public/diseases/acne/derm-treat/treat",
+    "url": "https://www.aad.org/public/diseases/acne/derm-treat/treat",
+    "type": "医学机构患者教育",
+    "support": "过氧化苯甲酰、外用维A类和水杨酸的作用环节；医疗化学剥脱帮助去除堵塞的角质。",
+    "limitations": "用于简单机制解释，不借用美国处方/非处方及品牌列表指导中国购买；临床有效性分级由已引RCT与循证指南支持。",
+    "legacy_id": "SKIN_A03",
+    "legacy_aliases": [
+      "SKIN_A03"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-1198002bb25c",
+    "number": 123,
+    "citation": "American Academy of Dermatology. Acne: Signs and symptoms [Internet]. [cited 2026 Oct 27]. Available from: https://www.aad.org/public/diseases/acne/really-acne/symptoms",
+    "url": "https://www.aad.org/public/diseases/acne/really-acne/symptoms",
+    "type": "医学机构患者教育",
+    "support": "区分痤疮、痘后颜色改变及凹陷或隆起瘢痕；不能以淡印等同去坑。",
+    "limitations": "科普概念，不替代皮肤科诊断或证明任何祛痘印成品有效。",
+    "legacy_id": "S018",
+    "legacy_aliases": [
+      "S018"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-c2d980d417b6",
+    "number": 124,
+    "citation": "NHS. Scars [Internet]. [cited 2026 Oct 27]. Available from: https://www.nhs.uk/conditions/scars/",
+    "url": "https://www.nhs.uk/conditions/scars/",
+    "type": "公共医疗机构患者教育",
+    "support": "瘢痕有多种形态，治疗可改善而不保证完全消除。",
+    "limitations": "不能给不同瘢痕治疗提供统一成本收益或自行磨削依据。",
+    "legacy_id": "S019",
+    "legacy_aliases": [
+      "S019"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-93e518e5cdad",
+    "number": 125,
+    "citation": "American Academy of Dermatology. Age spots: Diagnosis and treatment [Internet]. [cited 2026 Oct 27]. Available from: https://www.aad.org/public/cosmetic/age-spots-marks/get-rid-spots",
+    "url": "https://www.aad.org/public/cosmetic/age-spots-marks/get-rid-spots",
+    "type": "医学机构患者教育",
+    "support": "淡斑或激光前识别色斑，部分外观相似病变需医学评估。",
+    "limitations": "不能推断年轻人的常见色斑多数为恶性；不把所有色斑都叫晒斑或一律激光。",
+    "legacy_id": "S020",
+    "legacy_aliases": [
+      "S020"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-47f9684dfdc3",
+    "number": 126,
+    "citation": "Meixiong J, Ricco C, Vasavda C, Ho BK. Diet and acne: a systematic review. JAAD Int. 2022;7:95-112. doi:10.1016/j.jdin.2022.02.012.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/35373155/",
+    "type": "系统综述",
+    "support": "高升糖饮食与痤疮有一定关联且有少量RCT支持；奶制品结果受人群差异影响，不支持统一戒奶。",
+    "limitations": "大量观察性资料与饮食混杂；不支持把食物关联写成人人因果，也不支持抗糖丸和排毒茶。",
+    "legacy_id": "S030",
+    "legacy_aliases": [
+      "S030"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-259120104da9",
+    "number": 127,
+    "citation": "Smith RN, Mann NJ, Braue A, Mäkeläinen H, Varigos GA. A low-glycemic-load diet improves symptoms in acne vulgaris patients: a randomized controlled trial. Am J Clin Nutr. 2007;86(1):107-15. doi:10.1093/ajcn/86.1.107.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/17616769/",
+    "type": "随机对照饮食试验",
+    "support": "54名年轻男性入组，按方案分析纳入43人。12周意向治疗分析按最初分组纳入全部54人，总痘损平均变化为低升糖负荷组-22.0、对照-10.9；43人的按方案数据为-23.5与-12.0，不能混用。",
+    "limitations": "饮食同时改变蛋白比例、体重等，不能把效果全归糖；不能直接外推女性、所有饮食模式或皮肤抗衰。 有失访及排除；意向治疗采用末次观测填补。另有正式重复发表通报，与JAAD同团队报告不可双计，不等于撤稿或数据已被证伪。",
+    "legacy_id": "S031",
+    "legacy_aliases": [
+      "S031"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-208903a0f702",
+    "number": 128,
+    "citation": "Notice of duplicate publication. Am J Clin Nutr. 2008;88(1):251. doi:10.1093/ajcn/88.1.251.",
+    "url": "https://ajcn.nutrition.org/article/S0002-9165%2823%2924054-X/fulltext",
+    "type": "期刊正式编辑通报",
+    "support": "Smith等AJCN 2007试验与同团队JAAD 2007试验报告实质重复，应按同一队列计数。",
+    "limitations": "这是重复发表通报，不是撤稿通报或数据已被证伪的认定；不能据此将同一试验全部自动删除，也不能双计增强证据。",
+    "legacy_id": "SKIN_A10",
+    "legacy_aliases": [
+      "SKIN_A10"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-833fa12ed20d",
+    "number": 129,
+    "citation": "Bissett DL, Oblong JE, Berge CA. Niacinamide: a B vitamin that improves aging facial skin appearance. Dermatol Surg. 2005;31(7 Pt 2):860-5; discussion 865. doi:10.1111/j.1524-4725.2005.31732.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/16029679/",
+    "type": "随机双盲半脸对照试验",
+    "support": "50名有光老化表现的白人女性使用5%烟酰胺配方12周，部分细纹、色素及肤色指标优于基质。",
+    "limitations": "由宝洁资助且作者为员工；人群、浓度和配方特定，不能外推10%更好或某品牌同效。期刊在线档案页列860—866及归档上线时间，书目采用PubMed的2005年卷期与讨论页记录；作者与研究方法由期刊页再次核对。",
+    "legacy_id": "S021",
+    "legacy_aliases": [
+      "S021"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-395c74a2922a",
+    "number": 130,
+    "citation": "The Ordinary. Niacinamide 10% + Zinc 1% [Internet]. [cited 2026 Oct 27]. Available from: https://theordinary.com/en-us/niacinamide-10-zinc-1-serum-100436.html",
+    "url": "https://theordinary.com/en-us/niacinamide-10-zinc-1-serum-100436.html",
+    "type": "品牌官方产品信息",
+    "support": "核对该产品名称、10%烟酰胺的品牌标示，以及成分表中的烟酰胺和锌PCA。",
+    "limitations": "只证明产品信息；不借用5%配方研究证明此成品疗效、不作热门程度或中国价格判断；各地区以实物标签为准。",
+    "legacy_id": "S022",
+    "legacy_aliases": [
+      "S022"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-2b785e5f8663",
+    "number": 131,
+    "citation": "上海市市场监督管理局, 上海市药品监督管理局. 上海市化妆品行业广告宣传合规指引 [Internet]. [cited 2026 Oct 27]. Available from: https://fgw.sh.gov.cn/ys-zhengcewenjian/20240415/e2907d036ef443fd8d93cc37ca365848.html",
+    "url": "https://fgw.sh.gov.cn/ys-zhengcewenjian/20240415/e2907d036ef443fd8d93cc37ca365848.html",
+    "type": "地方广告合规指引（政府网站转载）",
+    "support": "第十六、十八条强调功效宣传与注册备案、功效摘要对应，原料功效与成品宣称须充分关联；可据此组织消费者的查证问题。",
+    "limitations": "是上海行业广告合规指引，不作为全国所有产品的特别法律结论；合规不是临床疗效证明，也不能证明抗糖产品一概无效。",
+    "legacy_id": "S023",
+    "legacy_aliases": [
+      "S023",
+      "H006"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-d079fff481e2",
+    "number": 132,
+    "citation": "Boo YC. Mechanistic basis and clinical evidence for the applications of nicotinamide (niacinamide) to control skin aging and pigmentation. Antioxidants (Basel). 2021;10(8):1315. doi:10.3390/antiox10081315.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/34439563/",
+    "type": "机理与临床叙述性综述",
+    "support": "烟酰胺是B3的一种形式；皮肤脂质和色素过程的研究背景。",
+    "limitations": "仅为术语与机理背景，不把细胞结果转换成所有浓度或成品的临床收益，也不提高成品证据级别。",
+    "legacy_id": "SKIN_A04",
+    "legacy_aliases": [
+      "SKIN_A04"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-85aabad6efa8",
+    "number": 133,
+    "citation": "Sitohang IBS, Makes WI, Sandora N, Suryanegara J. Topical tretinoin for treating photoaging: a systematic review of randomized controlled trials. Int J Womens Dermatol. 2022;8(1):e003. doi:10.1097/JW9.0000000000000003.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/35620028/",
+    "type": "随机对照试验系统综述",
+    "support": "7项RCT、3—24个月观察，支持外用维A酸对部分光老化外观的改善。",
+    "limitations": "制剂、用量和结局不同，研究多为女性；不代表所有年轻人都需要，也不能等同化妆品视黄醇或给出个体处方浓度。",
+    "legacy_id": "S024",
+    "legacy_aliases": [
+      "S024"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-3b4dd26c22d0",
+    "number": 134,
+    "citation": "Spierings NMK. Evidence for the efficacy of over-the-counter vitamin A cosmetic products in the improvement of facial skin aging: a systematic review. J Clin Aesthet Dermatol. 2021;14(9):33-40.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/34980969/",
+    "type": "随机对照试验系统综述",
+    "support": "该综述纳入9项化妆品维A类研究，4项未显示显著差异，其余存在方法缺陷；支持不能把药物维A酸研究直接外推所有A醇化妆品。",
+    "limitations": "检索截至该文发表时期，不能代表此后所有新配方均无效；不使用作者的强措辞替代本书独立判断；PubMed未列DOI，不补造。",
+    "legacy_id": "S025",
+    "legacy_aliases": [
+      "S025"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-c29123f92606",
+    "number": 135,
+    "citation": "Huang HY, Lee LTJ. Tretinoin for photodamaged facial skin: systematic review and meta-analysis of randomized controlled trials. Dermatol Pract Concept. 2025;15(4):e20255172. doi:10.5826/dpc.1504a5172.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41236273/",
+    "type": "随机对照试验系统综述与荟萃分析",
+    "support": "8项基质对照试验，共1361名已有光损伤者，随访16周至2年，支持维A酸对面部皱纹的改善方向；刺激更多且细纹结果存在发表偏倚信号。",
+    "limitations": "纳入研究为1988—2006年的试验；不能当成全新1361人的试验或健康年轻人的预防证据。全文合并量纲不宜翻译成肉眼改善百分比。PubMed/PMC记录文章号e20255172，期刊首页自引5172，题名和DOI一致。",
+    "legacy_id": "SKIN_A05",
+    "legacy_aliases": [
+      "SKIN_A05"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-f4ac57e19e09",
+    "number": 136,
+    "citation": "Michelle L, Pouldar Foulad D, Ekelem C, Saedi N, Mesinkovska NA. Treatments of periorbital hyperpigmentation: a systematic review. Dermatol Surg. 2021;47(1):70-4. doi:10.1097/DSS.0000000000002484.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/32740208/",
+    "type": "系统综述",
+    "support": "39项研究；眼周黑眼圈原因包括色素、结构、血管及混合，干预需匹配原因，高质量证据不足。",
+    "limitations": "不代表任何眼霜、注射或激光都有效，亦不构成普通读者自行选择侵入性项目的建议；作者标准缩写由PubMed作者检索链接核对。",
+    "legacy_id": "S027",
+    "legacy_aliases": [
+      "S027"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-59540982d3a2",
+    "number": 137,
+    "citation": "Mayo Clinic. Dark circles under eyes: Causes [Internet]. [cited 2026 Oct 27]. Available from: https://www.mayoclinic.org/symptoms/dark-circles-under-eyes/basics/causes/sym-20050624",
+    "url": "https://www.mayoclinic.org/symptoms/dark-circles-under-eyes/basics/causes/sym-20050624",
+    "type": "医学机构患者教育",
+    "support": "黑眼圈可能涉及遗传、皮炎、色素、疲劳或结构阴影；单侧渐进变化应检查。",
+    "limitations": "不能以外观自行诊断成因，不能把熬夜或疲劳当作所有眼周问题的唯一解释。",
+    "legacy_id": "S028",
+    "legacy_aliases": [
+      "S028"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-10394308cc83",
+    "number": 138,
+    "citation": "Myung SK, Park Y. Effects of collagen supplements on skin aging: a systematic review and meta-analysis of randomized controlled trials. Am J Med. 2025;138(9):1264-77. doi:10.1016/j.amjmed.2025.04.034.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40324552/",
+    "type": "系统综述与荟萃分析",
+    "support": "23项RCT、1474人，总体合并有利；作者划分的高质量及未获药企资助亚组未达到统计显著，结果稳健性受限。",
+    "limitations": "亚组未显著不证明所有胶原绝对无效，资金来源本身不等于造假；不能对不同原料和复合产品作统一剂量或效果承诺。 一个亚组显著而另一个不显著，本身不能证明组间效果差异，更不能证明资助导致结果；不把药企资助分类扩大到所有企业。",
+    "legacy_id": "S029",
+    "legacy_aliases": [
+      "S029"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-7677484dae5c",
+    "number": 139,
+    "citation": "Campos LD, Santos Junior VA, Pimentel JD, Carregã GLF, Cazarin CBB. Collagen supplementation in skin and orthopedic diseases: a review of the literature. Heliyon. 2023;9(4):e14961. doi:10.1016/j.heliyon.2023.e14961.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/37064452/",
+    "type": "叙述性综述",
+    "support": "胶原蛋白的结构用途、由水解获得胶原肽及口服后的消化吸收背景。",
+    "limitations": "本次只用来解释术语。该综述整体评价偏积极且非独立效应量综合，不借此证明补剂值得买；人体效果另见原127。",
+    "legacy_id": "SKIN_A06",
+    "legacy_aliases": [
+      "SKIN_A06"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-5106f792e5bf",
+    "number": 140,
+    "citation": "Gkogkolou P, Böhm M. Advanced glycation end products: key players in skin aging? Dermatoendocrinol. 2012;4(3):259-70. doi:10.4161/derm.22028.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/23467327/",
+    "type": "机理叙述性综述",
+    "support": "解释糖化反应及抗糖宣传的生物学背景。",
+    "limitations": "不作为任何在售抗糖丸、精华的人体效果证明，不由糖化机理推出戒除所有碳水或补剂必要性。",
+    "legacy_id": "SKIN_A12",
+    "legacy_aliases": [
+      "SKIN_A12"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-4bc578cd41e4",
+    "number": 141,
+    "citation": "American Academy of Dermatology. Hair removal: How to shave [Internet]. [cited 2026 Oct 27]. Available from: https://www.aad.org/public/everyday-care/skin-care-basics/hair/how-to-shave",
+    "url": "https://www.aad.org/public/everyday-care/skin-care-basics/hair/how-to-shave",
+    "type": "医学机构患者教育",
+    "support": "湿润、剃须用品、顺生长方向、刀片维护；长痘时避免刮擦损伤。",
+    "limitations": "不是特定剃刀优效试验；不延伸为眼睑、睫毛附近可自行用刀的许可。",
+    "legacy_id": "S035",
+    "legacy_aliases": [
+      "S035"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-dc6b3f95d3f5",
+    "number": 142,
+    "citation": "Mayo Clinic. Shaving hair: Does shaved hair grow back thicker? [Internet]. [cited 2026 Oct 27]. Available from: https://www.mayoclinic.org/healthy-lifestyle/adult-health/expert-answers/hair-removal/faq-20058427",
+    "url": "https://www.mayoclinic.org/healthy-lifestyle/adult-health/expert-answers/hair-removal/faq-20058427",
+    "type": "医学机构患者教育",
+    "support": "剃毛不改变毛发粗细、颜色或生长速度，平钝毛端可暂时显得更粗；突然明显增多应评估。",
+    "limitations": "不证明各种脱毛工具都同样安全，不等同所有人毛量变化都与剃毛无关或不需检查。",
+    "legacy_id": "S036",
+    "legacy_aliases": [
+      "S036"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-a55dc25b2a41",
+    "number": 143,
+    "citation": "Ershadi S, Barbieri JS. At-home LED devices for the treatment of acne vulgaris: a systematic review and meta-analysis. JAMA Dermatol. 2025;161(5):552-5. doi:10.1001/jamadermatol.2025.0019.",
+    "url": "https://jamanetwork.com/journals/jamadermatology/fullarticle/2830694",
+    "type": "系统综述与荟萃分析",
+    "support": "6项RCT、216名12—50岁轻中度痤疮者；红蓝光设备总体改善，通常4—12周见效；试验未报告严重不良反应。",
+    "limitations": "随访最长12周、设备和对照不同、小样本；不能外推所有面罩、淡斑、提拉、长期抗老或零风险。",
+    "legacy_id": "S032",
+    "legacy_aliases": [
+      "S032"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-f18d4f0ebc6b",
+    "number": 144,
+    "citation": "US Food and Drug Administration. Potential risks with certain uses of radiofrequency (RF) microneedling: FDA safety communication [Internet]. [cited 2026 Oct 27]. Available from: https://www.fda.gov/medical-devices/safety-communications/potential-risks-certain-uses-radiofrequency-rf-microneedling-fda-safety-communication",
+    "url": "https://www.fda.gov/medical-devices/safety-communications/potential-risks-certain-uses-radiofrequency-rf-microneedling-fda-safety-communication",
+    "type": "医疗器械监管安全通报",
+    "support": "射频微针存在烧伤、瘢痕、脂肪丢失与神经损伤等报告，不应在家使用。",
+    "limitations": "针对射频微针，不等于全部家用射频或LED有相同风险；报告不能用于计算事件发生率。",
+    "legacy_id": "S033",
+    "legacy_aliases": [
+      "S033"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-24dd19cb2c5e",
+    "number": 145,
+    "citation": "American Academy of Dermatology. Is red light therapy right for your skin? [Internet]. [cited 2026 Oct 28]. Available from: https://www.aad.org/public/cosmetic/safety/red-light-therapy",
+    "url": "https://www.aad.org/public/cosmetic/safety/red-light-therapy",
+    "type": "医学机构患者教育",
+    "support": "光敏疾病、光敏用药先评估；按具体设备要求使用指定眼部保护，遵从使用条件。",
+    "limitations": "不采纳页面对所有FDA器械均只有clearance等过广表述；不把其抗老科普数字借给本文治痘LED试验或所有面罩。",
+    "legacy_id": "SKIN_A11",
+    "legacy_aliases": [
+      "SKIN_A11"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-edc4973e797d",
+    "number": 146,
+    "citation": "国家市场监督管理总局等. 关于进一步加强医疗美容行业监管工作的指导意见 [Internet]. [cited 2026 Oct 27]. Available from: https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/ggjgs/art/2023/art_ab97d5643ddc45ae861e7f351842f512.html",
+    "url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/ggjgs/art/2023/art_ab97d5643ddc45ae861e7f351842f512.html",
+    "type": "中国大陆监管文件",
+    "support": "医疗美容机构执业许可或诊所备案、医生执业信息与资质查询；生活美容机构不能开展医疗美容。",
+    "limitations": "监管要求不等于某项目疗效或性价比证明；正文书面询问清单为决策建议，不冒充逐项法定条文。",
+    "legacy_id": "S034",
+    "legacy_aliases": [
+      "S034"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-b8f0e38d70f7",
+    "number": 147,
+    "citation": "American Academy of Dermatology. Botulinum toxin therapy: FAQs [Internet]. [cited 2026 Oct 28]. Available from: https://www.aad.org/public/cosmetic/wrinkles/botulinum-toxin-faqs",
+    "url": "https://www.aad.org/public/cosmetic/wrinkles/botulinum-toxin-faqs",
+    "type": "医学机构患者教育",
+    "support": "肉毒毒素通过暂时放松特定肌肉改善部分皱纹，区别于填充。",
+    "limitations": "只是原理和用途解释，不把常见持续期作个人保证，不列为人人可做或必做的项目。",
+    "legacy_id": "SKIN_A07",
+    "legacy_aliases": [
+      "SKIN_A07"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-bc9a339683c1",
+    "number": 148,
+    "citation": "US Food and Drug Administration. Dermal fillers (soft tissue fillers) [Internet]. [cited 2026 Oct 28]. Available from: https://www.fda.gov/medical-devices/aesthetic-cosmetic-devices/dermal-fillers-soft-tissue-fillers",
+    "url": "https://www.fda.gov/medical-devices/aesthetic-cosmetic-devices/dermal-fillers-soft-tissue-fillers",
+    "type": "监管机构患者教育",
+    "support": "填充通过注入材料增加局部体积/改善某些凹陷与皱褶；与肉毒毒素机制不同。",
+    "limitations": "美国批准部位和年龄不是中国许可；未据定义推荐特定材料、部位、剂量或操作者。",
+    "legacy_id": "SKIN_A08",
+    "legacy_aliases": [
+      "SKIN_A08"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-09bb859106ba",
+    "number": 149,
+    "citation": "DermNet. Intense pulsed light therapy [Internet]. [cited 2026 Oct 28]. Available from: https://dermnetnz.org/topics/intense-pulsed-light-therapy",
+    "url": "https://dermnetnz.org/topics/intense-pulsed-light-therapy",
+    "type": "皮肤科机构专业科普",
+    "support": "IPL与激光不是同一光源；IPL含一段波长且用滤光片调整，借光能作用于特定皮肤目标。",
+    "limitations": "仅用于术语区分，不把机构概述当成所有光子项目的疗效比较或安全保证。",
+    "legacy_id": "SKIN_A09",
+    "legacy_aliases": [
+      "SKIN_A09"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-1ef96c523b57",
+    "number": 150,
+    "citation": "Punyani S, Tosti A, Hordinsky M, Yeomans D, Schwartz J. The impact of shampoo wash frequency on scalp and hair conditions. Skin Appendage Disord. 2021;7(3):183-193. doi:10.1159/000512786.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/34055906/",
+    "type": "paper",
+    "support": "较高洗头频率与部分头皮、头发体验改善",
+    "limitations": "1500人调查与60人先后阶段试验；指定去屑配方、企业参与，非随机平行对照，不可全面归因为频率",
+    "legacy_id": "H001",
+    "legacy_aliases": [
+      "H001"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-4b0aec708320",
+    "number": 151,
+    "citation": "American Academy of Dermatology Association. Tips for healthy hair [Internet]. [cited 2026 Oct 27]. Available from:",
+    "url": "https://www.aad.org/public/everyday-care/hair-scalp-care/hair/healthy-hair-tips",
+    "type": "professional",
+    "support": "见相应条目的来源与限定",
+    "limitations": "机构或产品页面不等于独立临床试验；具体结论见正文",
+    "legacy_id": "H002",
+    "legacy_aliases": [
+      "H002"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-cf9b6749a6a5",
+    "number": 152,
+    "citation": "Okokon EO, Verbeek JH, Ruotsalainen JH, Ojo OA, Bakhoya VN. Topical antifungals for seborrhoeic dermatitis. Cochrane Database Syst Rev. 2015;(5):CD008138. doi:10.1002/14651858.CD008138.pub3.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/25933684/",
+    "type": "paper",
+    "support": "部分外用抗真菌成分短期改善脂溢性皮炎",
+    "limitations": "51项9052人，多数短期，证据质量限制，不少企业参与，不可推广到任意去屑品牌",
+    "legacy_id": "H003",
+    "legacy_aliases": [
+      "H003"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-54db6afa46b1",
+    "number": 153,
+    "citation": "American Academy of Dermatology Association. How to treat dandruff [Internet]. [cited 2026 Oct 27]. Available from:",
+    "url": "https://www.aad.org/public/everyday-care/hair-scalp-care/scalp/treat-dandruff",
+    "type": "professional",
+    "support": "见相应条目的来源与限定",
+    "limitations": "机构或产品页面不等于独立临床试验；具体结论见正文",
+    "legacy_id": "H004",
+    "legacy_aliases": [
+      "H004"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-8407152e1451",
+    "number": 154,
+    "citation": "NHS. Dandruff [Internet]. [cited 2026 Oct 27]. Available from:",
+    "url": "https://www.nhs.uk/conditions/dandruff/",
+    "type": "professional",
+    "support": "见相应条目的来源与限定",
+    "limitations": "机构或产品页面不等于独立临床试验；具体结论见正文",
+    "legacy_id": "H020",
+    "legacy_aliases": [
+      "H020"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-c9138061f006",
+    "number": 155,
+    "citation": "Gavazzoni Dias MFR. Hair cosmetics: an overview. Int J Trichology. 2015;7(1):2-15. doi:10.4103/0974-7753.153450.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/25878443/",
+    "type": "paper",
+    "support": "调理成分、硅油和护发的物理作用",
+    "limitations": "叙述性综述，不能证明所有具体成品、价格或宣传效果；每条相关推断正文另说明",
+    "legacy_id": "H005",
+    "legacy_aliases": [
+      "H005"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-590792409a4d",
+    "number": 156,
+    "citation": "Rele AS, Mohile RB. Effect of mineral oil, sunflower oil, and coconut oil on prevention of hair damage. J Cosmet Sci. 2003;54(2):175-192.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/12715094/",
+    "type": "paper",
+    "support": "不同油类的发丝蛋白流失实验",
+    "limitations": "发束实验、企业背景，不是人体毛囊或生发试验；未查得DOI，不补造",
+    "legacy_id": "H007",
+    "legacy_aliases": [
+      "H007"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-ee4659fe0672",
+    "number": 157,
+    "citation": "PT Kino Indonesia Tbk. Ellips bantu kembalikan kondisi rambut yang rusak karena hair styling [Internet]. [cited 2026 Oct 27]. Available from:",
+    "url": "https://kino.co.id/id/article/ellips-bantu-kembalikan-kondisi-rambut-yang-rusak-karena-hair-styling/",
+    "type": "product",
+    "support": "见相应条目的来源与限定",
+    "limitations": "机构或产品页面不等于独立临床试验；具体结论见正文",
+    "legacy_id": "H008",
+    "legacy_aliases": [
+      "H008"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-4481d5f8ef82",
+    "number": 158,
+    "citation": "K18Hair PRO. Disclaimers [Internet]. [cited 2026 Oct 27]. Available from:",
+    "url": "https://www.k18hairpro.com/pages/disclaimers",
+    "type": "product",
+    "support": "见相应条目的来源与限定",
+    "limitations": "机构或产品页面不等于独立临床试验；具体结论见正文",
+    "legacy_id": "H018",
+    "legacy_aliases": [
+      "H018"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-35c3d5f5359e",
+    "number": 159,
+    "citation": "Cleveland Clinic. Terminal hair [Internet]. [cited 2026 Oct 28]. Available from: https://my.clevelandclinic.org/health/body/23140-terminal-hair",
+    "url": "https://my.clevelandclinic.org/health/body/23140-terminal-hair",
+    "type": "医学机构解剖说明",
+    "support": "外露毛干由角化死细胞和蛋白构成，用于说明不能像活组织自行修复。",
+    "limitations": "不说明所有具体修护产品都无效，也未用于生发或长期临床收益判断。",
+    "legacy_id": "ROOT_HAIR_STRUCTURE",
+    "legacy_aliases": [
+      "ROOT_HAIR_STRUCTURE"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-876a37db3bec",
+    "number": 160,
+    "citation": "American Academy of Dermatology Association. 10 hair-care habits that can damage your hair [Internet]. [cited 2026 Oct 27]. Available from:",
+    "url": "https://www.aad.org/public/diseases/hair-loss/insider/stop-damage",
+    "type": "professional",
+    "support": "见相应条目的来源与限定",
+    "limitations": "机构或产品页面不等于独立临床试验；具体结论见正文",
+    "legacy_id": "H010",
+    "legacy_aliases": [
+      "H010"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-df7a0fc6fe0f",
+    "number": 161,
+    "citation": "K18. Full-size leave-in molecular repair hair mask 50mL [Internet]. [cited 2026 Oct 27]. Available from:",
+    "url": "https://www.k18hair.com/collections/treatment-routine/products/leave-in-molecular-repair-hair-mask-50-ml",
+    "type": "product",
+    "support": "见相应条目的来源与限定",
+    "limitations": "机构或产品页面不等于独立临床试验；具体结论见正文",
+    "legacy_id": "H009",
+    "legacy_aliases": [
+      "H009"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-a4e11ab2d9f2",
+    "number": 162,
+    "citation": "Lee Y, Kim YD, Hyun HJ, Pi LQ, Jin X, Lee WS. Hair shaft damage from heat and drying time of hair dryer. Ann Dermatol. 2011;23(4):455-462. doi:10.5021/ad.2011.23.4.455.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/22148012/",
+    "type": "paper",
+    "support": "不同吹干温度距离与发束损伤",
+    "limitations": "5组30轮发束实验，不是真人临床，不支持具体高价吹风机防脱",
+    "legacy_id": "H011",
+    "legacy_aliases": [
+      "H011"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-60211bb8ebb9",
+    "number": 163,
+    "citation": "Dyson. HD16 Supersonic Nural 使用说明 [Internet]. [cited 2026 Oct 27]. Available from:",
+    "url": "https://www-img.dyson.cn/upload/file/hd16_02.pdf",
+    "type": "product",
+    "support": "见相应条目的来源与限定",
+    "limitations": "机构或产品页面不等于独立临床试验；具体结论见正文",
+    "legacy_id": "H012",
+    "legacy_aliases": [
+      "H012"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-2bba70a0d7ab",
+    "number": 164,
+    "citation": "American Academy of Dermatology Association. Dry shampoo: Dermatologists share tips for getting your best results [Internet]. [cited 2026 Oct 27]. Available from:",
+    "url": "https://www.aad.org/public/everyday-care/hair-scalp-care/hair/dry-shampoo-best-results",
+    "type": "professional",
+    "support": "见相应条目的来源与限定",
+    "limitations": "机构或产品页面不等于独立临床试验；具体结论见正文",
+    "legacy_id": "H013",
+    "legacy_aliases": [
+      "H013"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-50fb7d3ffa65",
+    "number": 165,
+    "citation": "American Academy of Dermatology Association. Hair loss: Diagnosis and treatment [Internet]. [cited 2026 Oct 27]. Available from:",
+    "url": "https://www.aad.org/public/diseases/hair-loss/treatment/diagnosis-treat/",
+    "type": "professional",
+    "support": "见相应条目的来源与限定",
+    "limitations": "机构或产品页面不等于独立临床试验；具体结论见正文",
+    "legacy_id": "H014",
+    "legacy_aliases": [
+      "H014"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-080bb5fbec32",
+    "number": 166,
+    "citation": "Guo EL, Katta R. Diet and hair loss: effects of nutrient deficiency and supplement use. Dermatol Pract Concept. 2017;7(1):1-10. doi:10.5826/dpc.0701a01.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/28243487/",
+    "type": "paper",
+    "support": "营养史评估及缺乏时纠正；一般人补剂获益未确立",
+    "limitations": "叙述性综述，不能当作白发转黑或任意补剂的直接比较试验",
+    "legacy_id": "H016",
+    "legacy_aliases": [
+      "H016"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-a25307a24159",
+    "number": 167,
+    "citation": "National Institutes of Health Office of Dietary Supplements. Biotin: Fact sheet for consumers [Internet]. [cited 2026 Oct 27]. Available from:",
+    "url": "https://ods.od.nih.gov/factsheets/Biotin-Consumer/",
+    "type": "professional",
+    "support": "见相应条目的来源与限定",
+    "limitations": "机构或产品页面不等于独立临床试验；具体结论见正文",
+    "legacy_id": "H017",
+    "legacy_aliases": [
+      "H017"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-3a290990fa5c",
+    "number": 168,
+    "citation": "广州市市场监督管理局. 普通化妆品备案问答 九十六期 [Internet]. [cited 2026 Oct 27]. Available from:",
+    "url": "https://scjgj.gz.gov.cn/zmhd/cjwt/pthzpba/content/post_10607886.html",
+    "type": "regulation",
+    "support": "见相应条目的来源与限定",
+    "limitations": "机构或产品页面不等于独立临床试验；具体结论见正文",
+    "legacy_id": "H015",
+    "legacy_aliases": [
+      "H015"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-b2fbc355d44c",
+    "number": 169,
+    "citation": "American Academy of Dermatology Association. What causes gray hair, and can I stop it? [Internet]. [cited 2026 Oct 27]. Available from:",
+    "url": "https://www.aad.org/public/everyday-care/hair-scalp-care/hair/gray-hair-causes",
+    "type": "professional",
+    "support": "见相应条目的来源与限定",
+    "limitations": "机构或产品页面不等于独立临床试验；具体结论见正文",
+    "legacy_id": "H019",
+    "legacy_aliases": [
+      "H019"
+    ],
+    "content_checked_at": "2026-10-28"
+  },
+  {
+    "id": "src-4fa74c43838a",
+    "number": 170,
+    "citation": "Schünemann HJ, Higgins JP, Vist GE, Glasziou P, Akl EA, Skoetz N, et al. Chapter 14: Completing summary of findings tables and grading the certainty of the evidence. In: Higgins JP, Thomas J, Chandler J, Cumpston M, Li T, Page MJ, et al., editors. Cochrane Handbook for Systematic Reviews of Interventions. Version 6.5 [Internet]. Cochrane; 2024 [cited 2026 Oct 28]. Available from: https://www.cochrane.org/authors/handbooks-and-manuals/handbook/current/chapter-14",
+    "url": "https://www.cochrane.org/authors/handbooks-and-manuals/handbook/current/chapter-14",
+    "type": "证据评价方法",
+    "support": "按结局评估确定性，考虑偏差、不一致、间接性、不精确与发表偏倚。",
+    "limitations": "是核查方法依据，不是本指南所有临床结论已获验证的证明。",
+    "legacy_id": "ROOT_HANDBOOK14",
+    "legacy_aliases": [
+      "ROOT_HANDBOOK14"
+    ],
+    "content_checked_at": "2026-10-28"
+  }
+]

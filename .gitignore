@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.test-tmp/
+.pytest_cache/
+.venv/
+node_modules/
+dist/
+reports/
+*.tar.gz
+*.zip
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+.openai/

@@ -1,0 +1,11 @@
+{
+  "title": "身体护理指南",
+  "repository_url": "https://github.com/eothenofficial/body-care-guide",
+  "site_url": "https://eothenofficial.github.io/body-care-guide/",
+  "planned_parts": [
+    {"id": "body-hygiene", "title": "身体与个人卫生", "status": "planned"},
+    {"id": "body-hair", "title": "身体毛发", "status": "planned"},
+    {"id": "hands-feet", "title": "手部与足部", "status": "planned"},
+    {"id": "lifestyle", "title": "生活方式", "status": "planned"}
+  ]
+}
