@@ -1,0 +1,55 @@
+name: 每周来源与复核提醒
+
+# Report only: no content edits, issue creation, PR creation or deployment.
+on:
+  schedule:
+    - cron: '17 2 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: maintenance-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - name: 链接可达性报告（不等于医学验证）
+        run: python scripts/check_links.py --output-dir reports --timeout 10 --workers 8
+      - name: 案头复核日期与临床待审清单
+        if: ${{ !cancelled() }}
+        run: python scripts/review_due.py --output-dir reports --interval-days 180
+      - name: 写入本次运行摘要
+        if: ${{ !cancelled() }}
+        env:
+          PYTHONIOENCODING: utf-8
+        run: |
+          python - <<'PY'
+          import os
+          from pathlib import Path
+          summary = Path(os.environ['GITHUB_STEP_SUMMARY'])
+          with summary.open('a', encoding='utf-8') as stream:
+              for name in ('link-health.md', 'review-due.md'):
+                  report = Path('reports') / name
+                  if report.is_file():
+                      stream.write(report.read_text(encoding='utf-8') + '\n')
+          PY
+      - name: 保留JSON与Markdown报告
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: maintenance-${{ github.run_id }}-${{ github.run_attempt }}
+          path: reports/
+          retention-days: 30
+          if-no-files-found: error
+
