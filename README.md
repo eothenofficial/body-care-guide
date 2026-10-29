@@ -4,17 +4,17 @@
 
 当前第一篇是**五官与头部**，含眼睛、鼻子、嘴唇、完整口腔、耳朵、面部皮肤与头发，共66条建议、170项来源。内容为2026年10月28日的研究修订版，经过案头资料与推导复核，**尚未完成临床医生逐条审阅**。
 
-本目录是可独立构建的网站项目，仓库为 [eothenofficial/body-care-guide](https://github.com/eothenofficial/body-care-guide)。本轮先跑通上传、自动检查与GitHub Pages发布；许可证尚待作者确定。不要将“可运行”或CI通过理解成“所有医学结论已获验证”。
+本目录是可独立构建的网站项目，公开仓库为 [eothenofficial/body-care-guide](https://github.com/eothenofficial/body-care-guide)，已通过[首次GitHub Pages发布](https://github.com/eothenofficial/body-care-guide/actions/runs/40822982762)。许可证尚待作者确定。不要将“可运行”或CI通过理解成“所有医学结论已获验证”。
 
 ## 直接阅读
 
-- 网站入口：[身体护理指南](https://eothenofficial.github.io/body-care-guide/)（首次部署通过后生效）。
+- 网站入口：[身体护理指南](https://eothenofficial.github.io/body-care-guide/)（已发布；首页、搜索、正文、来源与独立分享页已实际打开核验）。
 - 第一次发布或更新：[不写代码的GitHub操作步骤](docs/GITHUB_MVP.md)。
 - 本地阅读：构建后打开 `dist/index.html`，无需安装前端依赖。
 - 离线分享：发送 `dist/downloads/guide-offline.html`。它包含全部内容、检索和阅读界面。
 - 打印：在网站“项目与下载”选择“打印与另存PDF”，用浏览器打印完整正文。
 
-离线文件不会自动更新，应同时保留内容版本号。未配置公开仓库时，网站不会出现指向假地址的贡献按钮。
+离线文件不会自动更新，应同时保留内容版本号。仓库与网站网址已写入 `content/config.json`。
 
 ## 本地启动
 
@@ -79,9 +79,9 @@ API有 `schema_version` 与 `content_version`，条目使用稳定ID，例如 `e
 
 ## 发布与维护
 
-推荐以GitHub保存内容和代码，以GitHub Pages承载公开静态站。`.github/workflows/pages.yml` 已准备构建、测试及部署步骤，但仍需创建自己的仓库，在仓库设置中启用Pages的GitHub Actions发布源。
+本项目已用GitHub保存内容和代码，以GitHub Pages承载公开静态站。仓库的Pages发布来源已设为GitHub Actions，`.github/workflows/pages.yml` 已完成首次构建与部署。后续提交仍须分别确认自动检查和发布结果，首次成功不代表所有后续版本都已验收。
 
-首次公开前，确认仓库归属、内容许可、维护责任人和联系渠道，并在 `content/config.json` 填入实际仓库与站点网址。当前 `site_url` 为空，构建给首页和静态分享页加入 `noindex, nofollow`，不生成站点地图；配置正式HTTPS站点地址后，才生成分享页的规范网址和站点地图。`noindex` 不是访问权限控制，私人预览仍须由托管平台限制访问。[发布步骤与替代托管](docs/PUBLISHING.md)中区分了已准备的配置和需要GitHub管理员实际启用的保护规则。
+`content/config.json` 已填入实际仓库与HTTPS站点网址，构建会生成分享页的规范网址和站点地图；当前配置不再采用空网址预览的 `noindex, nofollow` 模式。许可证、维护分工、分支保护和专业审阅仍待落实。每周来源与复核报告已配置，尚未完成首次远端运行。[发布步骤与替代托管](docs/PUBLISHING.md)记录了已完成与待验证事项。
 
 自动化只检查机器能判断的事。链接可达不代表论文可信；到期提醒不代表结论已过时；CI通过不代表临床审核完成。医学更改先说明具体问题、证据与推理，再由维护者审查，不能自动爬取或让LLM静默替换结论。
 
@@ -96,4 +96,4 @@ API有 `schema_version` 与 `content_version`，条目使用稳定ID，例如 `e
 
 ## 许可状态
 
-当前未授予对外再分发许可。建议后续分别选择代码MIT与内容CC BY 4.0，但应由项目所有者在公开发布前确认，并加入正式许可证文件与署名方式。引用的论文、商标和机构页面各自保留原权利，不能替第三方材料授予许可。
+当前未授予对外再分发许可。建议后续分别选择代码MIT与内容CC BY 4.0，但须由项目所有者确认后加入正式许可证文件与署名方式；仓库公开不等于已经授予这些许可。引用的论文、商标和机构页面各自保留原权利，不能替第三方材料授予许可。
