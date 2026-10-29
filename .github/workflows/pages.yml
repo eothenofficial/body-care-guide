@@ -1,0 +1,64 @@
+name: 发布 GitHub Pages
+
+# Official action versions checked against GitHub's custom Pages workflow docs:
+# https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    # Production always comes from main, including a manual dispatch.
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: read
+      pages: read
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - name: 校验内容与本地资源
+        run: python scripts/build.py --check
+      - name: 标准库单元测试（不访问外网）
+        run: python -m unittest discover -s tests -v
+      - name: 构建所有静态产物
+        run: python scripts/build.py
+      - name: 读取已启用的 Pages 配置
+        uses: actions/configure-pages@v5
+        with:
+          enablement: 'false'
+      - name: 上传通过检查的站点
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: dist
+
+  deploy:
+    # A failed validation, unit test, build or artifact upload cannot deploy.
+    needs: build
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: 发布已检查产物
+        id: deployment
+        uses: actions/deploy-pages@v4
+
