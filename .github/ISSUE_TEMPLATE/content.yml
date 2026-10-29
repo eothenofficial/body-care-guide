@@ -1,0 +1,62 @@
+name: 内容纠错或证据更新
+description: 报告一般护理内容、适用条件、研究解释或引用的问题
+title: '[内容] '
+body:
+  - type: input
+    id: location
+    attributes:
+      label: 条目ID与位置
+      description: 优先填写稳定ID，例如 eyes-001，并标出字段或原句。
+    validations:
+      required: true
+  - type: textarea
+    id: claim
+    attributes:
+      label: 原文与问题
+      description: 写明哪句话有问题、为什么，以及建议的修改。
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 对应证据
+      description: 提供原论文或官方页面、题名、DOI或URL、核对日期；只有摘要时请注明。
+    validations:
+      required: true
+  - type: textarea
+    id: population
+    attributes:
+      label: 人群、具体干预与比较对象
+      description: 研究针对谁、用了什么，与什么比较；是否适用于本指南年轻读者。
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: 结局、效果与观察时间
+      description: 测量了什么、多久、结果与不确定性如何；无法确认时直接写明。
+    validations:
+      required: true
+  - type: textarea
+    id: risks
+    attributes:
+      label: 风险与边界
+      description: 不良反应、禁忌、需要就医的情况，以及证据不能支持的外推；不涉及时说明理由。
+    validations:
+      required: true
+  - type: dropdown
+    id: clinical-review
+    attributes:
+      label: 是否经过相关临床专业人员审阅
+      options:
+        - 未经过临床审阅
+        - 经过部分审阅（请在下方说明范围）
+        - 有可核实的临床审阅记录（请在下方提供）
+    validations:
+      required: true
+  - type: textarea
+    id: review-scope
+    attributes:
+      label: 临床审阅范围与记录（如有）
+      description: 记录审阅范围、日期与可核实依据；案头查证不自动算临床签审。
+

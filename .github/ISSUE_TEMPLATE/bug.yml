@@ -1,0 +1,25 @@
+name: 网站或导出故障
+description: 检索、引用跳转、显示、构建或下载问题
+title: '[网站] '
+body:
+  - type: input
+    id: version
+    attributes:
+      label: 内容版本或提交、浏览器与设备
+      description: 例如页面显示的内容版本、移动或桌面浏览器；离线文件注明下载版本。
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: 复现步骤
+      description: 附相关条目ID、页面地址或导出文件名称。
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 预期行为与实际结果
+    validations:
+      required: true
+
