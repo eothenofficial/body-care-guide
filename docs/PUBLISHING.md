@@ -1,6 +1,6 @@
 # 发布与托管方案
 
-当前状态：本地框架已完成，正在准备发布[所有者私人预览](https://body-care-guide-preview.sea.chatgpt.site)，尚未确认部署成功。公开 GitHub 仓库尚未创建，所有者、仓库名、许可证与正式公众网址仍待确认。以下为方案与操作顺序，不表示已经公开上线。平台文档核查日期：2026-10-29；开通时复核配额和账户可用功能。
+当前状态：公开仓库[eothenofficial/body-care-guide](https://github.com/eothenofficial/body-care-guide)已创建，42个源文件已齐，Pages来源已设为GitHub Actions。完整提交`b76e1e3c4510834db9635b1d07d6f5baf408243f`的[CI检查](https://github.com/eothenofficial/body-care-guide/actions/runs/40823536707)与[Pages发布](https://github.com/eothenofficial/body-care-guide/actions/runs/40823536658)均已成功。正式阅读网址为[身体护理指南](https://eothenofficial.github.io/body-care-guide/)，首页、搜索、正文、来源、分享页和线上离线HTML已实际打开，manifest接口内容已核对。许可证、维护分工、分支保护、临床专业签审及每周维护首次远端运行尚未完成。以下同时保留后续迁移或重新部署的操作说明，不表示所有设置和检查均已完成。平台文档核查日期：2026-10-29；另行开通服务时复核配额和账户可用功能。
 
 ## 建议先选一个发布入口
 
@@ -40,15 +40,15 @@ Cloudflare 构建镜像支持 Python，可通过 `PYTHON_VERSION` 或 `.python-v
 
 ## 正式网址与索引
 
-`content/config.json` 的 `site_url` 为空时，构建为首页、离线首页和66个静态分享页加入 `noindex, nofollow`，且不生成 `sitemap.xml`；如果输出目录中有旧站点地图，会移除该文件。该设置只是索引提示，不阻止知道网址的人访问。
+当前`content/config.json`已填写`repository_url: https://github.com/eothenofficial/body-care-guide`和`site_url: https://eothenofficial.github.io/body-care-guide/`。构建使用正式网址生成分享页的canonical、`og:url`及`sitemap.xml`，不采用空网址预览的`noindex, nofollow`模式；这不保证搜索引擎一定收录。
 
-确认正式 HTTPS 网址后再填写 `site_url`，包括项目站必要的子路径并重建。届时逐条分享页生成 canonical 和 `og:url`，站点地图列出站点根网址及全部分享页；当前构建不会给首页自动添加 canonical。搜索、章节等哈希路由不单独列入站点地图。私人预览地址不作为正式 `site_url` 写入内容配置。
+以后迁移网址时，`site_url`须保留项目站必要的子路径并重新构建。站点地图列出站点根网址及全部分享页；当前构建不会给首页自动添加canonical，搜索、章节等哈希路由也不单独列入站点地图。若为本地预览主动清空`site_url`，构建会给首页、离线首页和66个分享页加入`noindex, nofollow`并移除旧站点地图。索引提示不是访问权限控制，私人预览仍须由平台限制访问；私人预览地址不应取代正式网址。
 
 ## 工作流与维护报告
 
-`.github/workflows/ci.yml` 在主分支推送、PR 和手动运行时以只读权限执行校验、全部 unittest 和构建。`pages.yml` 只在 `main` 推送或手动触发，构建与部署任务也都限制在 `main`；构建依次通过校验、测试和生成后才上传 `dist/`，部署依赖构建成功。Pages 写入与身份令牌权限只给部署任务。工作流文件就绪不代表远端 Pages 已启用。
+`.github/workflows/ci.yml` 在主分支推送、PR 和手动运行时以只读权限执行校验、全部 unittest 和构建。`pages.yml` 只在 `main` 推送或手动触发，构建与部署任务也都限制在 `main`；构建依次通过校验、测试和生成后才上传 `dist/`，部署依赖构建成功。Pages写入与身份令牌权限只给部署任务。当前远端Pages已启用并完成首次部署；后续提交应查看各自运行结果。
 
-`maintenance.yml` 设定每周一02:17 UTC及手动运行，仅产生报告和保留30天的 artifact，不改医学正文、不创建 Issue 或 PR。也可在本地运行：
+`maintenance.yml` 已配置每周一10:17（Asia/Shanghai，即02:17 UTC）及手动入口，但尚未完成首次远端运行。它仅产生报告并保留30天的artifact，不改医学正文、不创建Issue或PR，也没有另设常驻自动化。可在本地运行：
 
 ```sh
 python scripts/check_links.py --output-dir reports
@@ -59,7 +59,7 @@ python scripts/review_due.py --output-dir reports --interval-days 180
 
 ## 发布权限与回退
 
-PR 检查只读仓库内容，无生产凭据；正式部署只使用已合并且通过检查的提交。抓取脚本、文献机器人、格式化工具和 LLM 均没有直接改主分支的权限。GitHub 保护规则与 CODEOWNERS 需要在远端实际启用，仅提交文件不会自动生效。[保护分支](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches)、[CODEOWNERS](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners)
+PR检查只读仓库内容，无生产凭据；现有Pages工作流发布`main`上通过其校验、测试和构建的提交，首次上传采用直接提交。远端分支保护和必需审阅尚未配置，因此目前不能声称所有改动都必须经PR批准。工作流本身不写回正文，不能给抓取脚本、文献机器人或LLM增加静默改写权限。GitHub保护规则和实际CODEOWNERS仍需管理员落实，仅提交文件不会自动生效。[保护分支](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches)、[CODEOWNERS](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners)
 
 GitHub Actions 使用最小权限，部署权限只给部署任务；不要在有高权限的 `pull_request_target` 等上下文检出并运行不可信 PR。依赖锁定并审查工作流改动。[GitHub Actions 安全使用](https://docs.github.com/en/actions/reference/security/secure-use)
 

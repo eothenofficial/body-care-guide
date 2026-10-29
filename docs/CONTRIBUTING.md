@@ -1,6 +1,6 @@
 # 参与编写与开发
 
-欢迎纠错、补充清楚的解释、核对来源、改善阅读与开发工具。正式仓库地址、负责人和许可证尚未确定；本文件先约定协作方式，实际贡献入口在仓库配置后补全。请先看[证据政策](EVIDENCE_POLICY.md)。
+欢迎纠错、补充清楚的解释、核对来源、改善阅读与开发工具。公开仓库为[eothenofficial/body-care-guide](https://github.com/eothenofficial/body-care-guide)，可从[Issues](https://github.com/eothenofficial/body-care-guide/issues)报告问题或提交PR；负责人分工与许可证仍待明确。请先看[证据政策](EVIDENCE_POLICY.md)。
 
 ## 先选对贡献类型
 

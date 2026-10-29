@@ -1,6 +1,6 @@
 # 网站与内容架构
 
-状态：本地建设稿；仓库所有者、正式仓库地址、许可证与域名尚未确定。首版只有五官与头部七章，内容为案头资料复核，未经临床专业人员签审。本文不表示远端保护规则或发布服务已经配置。平台事实核查日期：2026-10-29。
+状态：公开仓库[eothenofficial/body-care-guide](https://github.com/eothenofficial/body-care-guide)已创建，42个源文件已齐，完整提交`b76e1e3c4510834db9635b1d07d6f5baf408243f`已通过CI及Pages部署，网站为[身体护理指南](https://eothenofficial.github.io/body-care-guide/)。首版只有五官与头部七章，内容为案头资料复核，未经临床专业人员签审。许可证、维护分工与远端分支保护仍待落实；后续更改应单独检查对应运行。平台事实核查日期：2026-10-29。
 
 ## 让同一份内容支撑阅读与复用
 
@@ -77,8 +77,8 @@ flowchart LR
 
 ## 托管可替换，内容保持独立
 
-GitHub 作为拟议的主仓库；GitHub Pages 为首版默认发布路线，Cloudflare Pages 为可选的预览或替代托管。两者都应使用同一提交构建的产物，避免出现两个不同内容的“最新版”。GitHub Pages 本身提供静态托管，适用于本项目这一阶段。[官方说明](https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages)
+GitHub 已作为主仓库，GitHub Pages 已承载首版公开网站；Cloudflare Pages保留为可选替代托管方案，尚未为本项目另行配置。若以后增加镜像，应使用同一提交构建的产物，避免出现两个不同内容的“最新版”。GitHub Pages 本身提供静态托管，适用于本项目这一阶段。[官方说明](https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages)
 
-只选一个正式访问入口；镜像显示来源、版本与更新时间。域名尚未配置，代码不能写死假定域名；项目子路径、资源路径、条目直达和 404 都应在上线前验证。若以后增加实时服务，再单独评估服务器、隐私和维护责任，不借用静态接口之名直接加诊断功能。
+正式访问入口为`https://eothenofficial.github.io/body-care-guide/`，配置保留了项目子路径；未配置自定义域名。首页、搜索、正文、来源、分享页和线上离线HTML已实际打开，manifest接口返回7章、66条、170项来源及正确网址；其他网络、下载与404等检查按每次发布记录分别说明，不把当前成功扩展成所有功能和环境均已验证。若以后增加实时服务，再单独评估服务器、隐私和维护责任，不借用静态接口之名直接加诊断功能。
 
 配套文档：[证据政策](EVIDENCE_POLICY.md)、[发布方案](PUBLISHING.md)、[协作方式](CONTRIBUTING.md)、[路线图](ROADMAP.md)。

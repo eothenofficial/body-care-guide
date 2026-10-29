@@ -13,17 +13,21 @@
 - 以仓库子路径解析资源、分享页、接口和下载链接；没有要求从域名根路径部署。
 - 构建产物约1.8MB，不需要前端依赖、外部字体、分析服务或运行中的模型。
 
-## 准备好但尚未在GitHub运行
+## GitHub首次发布已验证
 
-已提交CI、Pages发布、每周链接及复核提醒的工作流配置。当前没有公开GitHub仓库，远端工作流、分支保护与贡献协作尚未演练。每周报告只有在仓库启用相应Actions后才会运行；没有另设常驻自动化。
+公开仓库为[eothenofficial/body-care-guide](https://github.com/eothenofficial/body-care-guide)，[首次Pages运行](https://github.com/eothenofficial/body-care-guide/actions/runs/40822982762)已成功。首次浏览器拖拽漏掉了点号开头文件，后续已逐项补传，完整42个源文件已齐。
+
+完整提交`b76e1e3c4510834db9635b1d07d6f5baf408243f`的[CI #4](https://github.com/eothenofficial/body-care-guide/actions/runs/40823536707)与[Pages #5](https://github.com/eothenofficial/body-care-guide/actions/runs/40823536658)均成功。已实际打开[线上网站](https://eothenofficial.github.io/body-care-guide/)并核验首页、搜索、正文、来源、独立分享页及线上离线HTML；manifest接口返回7章、66条、170项来源与正确仓库、站点网址。后续文档或内容更新仍须核对各自运行，不以本记录代替新提交的验收。
+
+每周来源与复核提醒仅完成配置，尚未首跑；远端分支保护、必需审阅、PR协作及回退尚未演练，没有另设常驻自动化。首次运行成功不能替代这些验收。
 
 链接检查器以模拟网络响应测试了重定向、404、403、429、超时和TLS错误；本轮没有对全部170项来源重新进行在线医学审读。自动检查通过不能代替内容专业复核。
 
-## 正式公开前
+## 后续仍需完成
 
-1. 确认仓库所有者、项目名称、内容与代码许可证，以及实际维护者。
-2. 填入`content/config.json`中的真实`repository_url`与`site_url`，生成正式规范网址和sitemap。
-3. 启用Pages、保护规则与必需检查，演练一次PR、部署及回退。
+1. 仓库归属已确认为`eothenofficial/body-care-guide`；继续确认内容与代码许可证，以及实际维护分工。
+2. 真实`repository_url`和`site_url`已填入`content/config.json`；对最新完整提交复核规范网址、sitemap及部署记录。
+3. Pages已启用；继续落实分支保护与必需检查，演练一次PR、后续更新部署及回退。
 4. 在目标读者的实际网络核验手机阅读、下载和外链；安排医学内容的专业复核与纠错入口。
 
-本轮Sites预览默认仅所有者可见，不等于面向公众上线。预览部署结果与源码提交由本轮交付说明单独记录；平台成功部署不会改变正文的医学审阅状态。
+公众阅读入口已转为GitHub Pages；此前所有者私有Sites预览不再作为正式入口。平台成功部署不会改变正文的医学审阅状态。
