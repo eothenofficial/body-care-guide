@@ -1,0 +1,41 @@
+{
+  "status": "author_checked_not_clinically_reviewed",
+  "checked_on": "2026-10-29",
+  "chapter_id": "neck",
+  "entries": 14,
+  "sources": 22,
+  "doi_sources": 3,
+  "summary_lengths": {
+    "neck-001": 117,
+    "neck-011": 117,
+    "neck-002": 113,
+    "neck-003": 112,
+    "neck-004": 115,
+    "neck-007": 121,
+    "neck-005": 119,
+    "neck-006": 119,
+    "neck-008": 116,
+    "neck-009": 116,
+    "neck-010": 123,
+    "neck-012": 121,
+    "neck-013": 119,
+    "neck-014": 120
+  },
+  "summary_out_of_range": [],
+  "all_source_tokens_resolve": true,
+  "source_scope_notes": [
+    "2025德国S3仅用于非特异性颈痛，不用它规定所有病因的治疗；2024 Cochrane按摩低确定性、不含急性研究，不能外推按摩枪或按摩椅",
+    "NCCIH2022背颈合并资料不当颈痛单独效果；针灸定位结合2025指南作条件性辅助，急性颈痛不按腰痛指南推荐",
+    "筋膜枪2023综述只实读PubMed摘要与题录；全文遇验证/429，没有绕过或冒称通读。安全边界另读HSS和Nebraska神经科原页",
+    "NHS与机构原文有不同数周复评或敷用时长，按具体部位/病程，不凑统一阈值；药品剂量与供应属性不照搬英国",
+    "OSHA、Health NZ、Ontario部分页403，未以搜索摘要承担关键结论，工位采用实际打开的CDC/NIOSH原页"
+  ],
+  "no_fabricated_prices": true,
+  "clinical_review_status": "not_clinically_reviewed",
+  "notes": "作者自检不等于独立AI复核或临床签审；需由整合者复核引用与关键安全边界。",
+  "final_safety_check": [
+    "补实读MedlinePlus辣椒素外用品，区分特定成分的加热限制与所有药品",
+    "补实读AAOS冻结肩主动/被动活动与治疗原文，防止凭肩痛自行确诊"
+  ],
+  "files_frozen_for_integration": true
+}

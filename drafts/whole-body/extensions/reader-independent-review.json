@@ -1,0 +1,101 @@
+{
+  "status": "passed_after_author_revision_not_clinically_reviewed",
+  "reviewed_on": "2026-10-29",
+  "reviewer": "independent_ai_whole_neck",
+  "extension": "reader",
+  "entries_reviewed": 9,
+  "edits_reviewed": [
+    "private-010"
+  ],
+  "source_records_reviewed": 13,
+  "blocking_unresolved": [],
+  "resolved_findings": [
+    {
+      "entry": "reader-001",
+      "finding": "BV抗菌治疗需避免读成无症状菌群检出一律用药。",
+      "resolution": "已实际重读最终正文，明确有症状且确诊BV；病因检查及不互分药保留。",
+      "status": "resolved"
+    },
+    {
+      "entry": "reader-006",
+      "finding": "EAU对寻求生育者避免含利多卡因/丙胺卡因局麻制剂建议可更明确。",
+      "resolution": "已实际重读，备孕先避免并讨论替代，保留谨慎建议不等于证明一用就不孕，不推广全部局麻药。",
+      "status": "resolved"
+    },
+    {
+      "entry": "reader-004",
+      "finding": "血精伴睾丸持续或突发痛与发热腰侧痛，不宜合并为模糊入口。",
+      "resolution": "已实际重读，睾丸痛直接急诊与发热寒战腰背侧痛当天评估分列。",
+      "status": "resolved"
+    },
+    {
+      "entry": "reader-009",
+      "finding": "NHS痛性标题不单独承担在家不能靠疼痛区分缺血类型的论断。",
+      "resolution": "已重读补入的READER-S13；实际核EAU缺血急症与血气/多普勒鉴别，无家庭自判或等满时长要求。",
+      "status": "resolved"
+    }
+  ],
+  "actually_read": {
+    "local_files": [
+      "reader-entries.json全部9条及001/004/006/009最终修订",
+      "reader-sources.json全部13项与PRIVATE解析上下文",
+      "reader-edits.json private010标题/摘要/表格/正文"
+    ],
+    "primary_sections": {
+      "READER-S01": "CDC2023 BV定义、症状/无症状可能与抗菌处理；旧伴侣一律不治不作为新RCT之后结论。",
+      "READER-S02": "PubMed40043236正式题录/前6作者/392(10):947-957/DOI，完整结构化摘要：开放RCT、单一男性伴侣、口服+局部联合、12周复发及提前停止/澳洲NHMRC资助。未取得付费全文。",
+      "READER-S03": "CDC滴虫相关病因、诊断与治疗、暂停接触到双方治疗完成且症状消退、女性复测/男性不足证据、当前伴侣同步；未用剂量或美国EPT法规。",
+      "READER-S04": "NHS2023尿道炎全页：新流液/尿痛、采样、伴侣、包括口交的暂停，用品清洁/新屏障和页脚日期。",
+      "READER-S05": "NHS2024阴茎皮损：正常变异/皮肤病/STI等可能，检查而非自诊、采样与按因治疗。",
+      "READER-S06": "NHS2023睾丸包块：无痛不排除需检查、超声、突发及持续静息痛急诊，核预计复审日期已过。",
+      "READER-S07": "NHS2025血精：红/褐、通常不严重但需检查、伴随线索、病因决定治疗，非人人抗生素。",
+      "READER-S08": "EAU5.4病史/体检/血糖血脂及晨间睾酮、5.6生活心理和PDE5选择、5.6.3.f.2硝酸酯/NO供体poppers/尼可地尔绝对禁忌。未输出通用处方剂量。",
+      "READER-S09": "EAU射精障碍定义/困扰/分型诊断及6.2.6局麻过敏、伴侣转移和备孕避免利多卡因/丙胺卡因；未重审所有试验。",
+      "READER-S10": "NHS异常勃起全页3至4小时、镰状细胞病痛性超过1小时急诊、不冰敷/继续性活动/酒精。",
+      "READER-S11": "Victoria2026定义、共同活动同意、频率与生活影响、误区不孕/失明、求助及23Apr2026复核；未把广泛益处当RCT治病结论。",
+      "READER-S12": "中国疾控2026Jun22全部11问：男性及具体产品/程序差异、免费资格分开、漏针不重启、预防非清除既感染、接种仍适龄筛查。未另核每款标签，正文亦未给具体品牌准入表。",
+      "READER-S13": "EAU10.1缺血急症时间、10.1.2病史疼痛及血气/超声鉴别；不教家庭穿刺/注射。",
+      "PRIVATE-S01/S15/S16": "本轮重新打开NHS2025睾丸痛/UTI与NIDDK2024成人感染，核急诊与当天求助边界。",
+      "PRIVATE-S02/S05/S06": "本轮重新打开NHS骨盆痛/分泌物和CDC阴道症状：周期正常变化、症状非确诊、pH非特异、镜检阴性不排全部感染、非感染刺激和急症；private010改稿相符。",
+      "PRIVATE-S20": "本轮重读NHS2025干涩异常出血，包括性交后、经期之间与绝经后；有症状不等筛查档期。",
+      "EAU版本": "从章内链接实际打开Introduction-2 1.4/1.5与Summary of Changes，明确2026有限更新2025，射精和priapism相关更新。"
+    },
+    "not_claimed": "未通读13页全部外链、原始试验全集和具体中国药品说明书；AI编辑复核不等于临床签审。"
+  },
+  "evidence_limits": [
+    "BV新RCT限单一稳定男性伴侣与特定联合方案、开放/提前停止/12周复发；没有外推所有阴道炎/伴侣或长期根治。",
+    "预计复审日过期的NHS页仅取稳定分流/检查/防护，不冒充最新处方疗效比较。",
+    "EAU主要成人；儿童只保留一般急症识别，不给予成人治疗。",
+    "自慰/护理为机构C指导；HPV按接种时年龄/具体产品和实际器官核，未宣称所有品牌全人群适用。"
+  ],
+  "structural_checks": {
+    "errors": [],
+    "all_source_tokens_resolve": true,
+    "all_local_sources_used": true,
+    "summary_lengths": {
+      "reader-001": 127,
+      "reader-002": 122,
+      "reader-003": 123,
+      "reader-004": 129,
+      "reader-005": 127,
+      "reader-006": 128,
+      "reader-007": 132,
+      "reader-008": 131,
+      "reader-009": 126
+    },
+    "all_not_clinically_reviewed": true,
+    "all_costs_blank": true
+  },
+  "edit_checks": {
+    "private010_source_tokens_resolve": true,
+    "private010_summary_length": 121,
+    "table_only_in_body": true
+  },
+  "input_sha256": {
+    "reader-entries.json": "e9f3b5560c58512b5309743ef300bd634a11a9cb2d00d04f8b7d8a38a63d1e02",
+    "reader-sources.json": "4daffbdcdccca991f57f08f729a46760872a2ef9d469fffdb420a24c91aa1d78",
+    "reader-edits.json": "a2488296d5eed92ff6a9df52876de8e072b18945dd70f56b03c9f3697c94efde"
+  },
+  "clinical_review_status": "not_clinically_reviewed",
+  "conclusion": "9条加private010改稿关键证据推导已核，所有提出的澄清均由作者采纳并实际重读验证；无未决阻断。"
+}

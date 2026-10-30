@@ -1,0 +1,12 @@
+{
+  "part": "neck",
+  "status": "passed_structural_and_export_checks",
+  "entries": 14,
+  "sources": 22,
+  "standalone_html_sha256": "d911e7e9559804f00ccb2ec8789badf9030f5b3bde3f9ed2106c1e1ea1054bd9",
+  "source_graph_resolves": true,
+  "export_data_equal": true,
+  "all_audience_ranges_retained": true,
+  "canonical_content_unchanged": true,
+  "clinical_review_status": "not_clinically_reviewed"
+}

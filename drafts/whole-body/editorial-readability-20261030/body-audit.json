@@ -1,0 +1,2347 @@
+{
+  "scope": "124条全部字段逐条阅读与表达重写；不是重新医学系统综述或临床签审。",
+  "entries": 124,
+  "original_plain_chars": 55322,
+  "new_plain_chars": 43870,
+  "checks": [
+    {
+      "id": "neck-001",
+      "original_fields_sha256": "e2dea2dd5ed437ddd2831d9cd08a29b85ef76d2f29ed30fb1bb5e93949142770",
+      "all_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "source_ids_preserved": [
+        "src-02a69f2095c5",
+        "src-5b4fe2965c62",
+        "src-d698b516e714"
+      ],
+      "original_plain_chars": 346,
+      "new_plain_chars": 312,
+      "audience_unchanged": true,
+      "evidence_and_source_fields_unchanged": true,
+      "numeric_tokens_removed": [],
+      "numeric_review": "移除引用hash与内部链接ID后逐条比对阿拉伯数字，原正文数值均保留；并手读保留单位、比较方向、时点与非统一阈值/适应人群条件。数字一致不是语义正确的自动证明。"
+    },
+    {
+      "id": "neck-002",
+      "original_fields_sha256": "bf444c883f992f8a41935d1b107f4df54225a1755ae03cabf26df64a8b803a8d",
+      "all_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "source_ids_preserved": [
+        "src-5b4fe2965c62",
+        "src-7b27e160bff3",
+        "src-f0bfa64be15d"
+      ],
+      "original_plain_chars": 385,
+      "new_plain_chars": 331,
+      "audience_unchanged": true,
+      "evidence_and_source_fields_unchanged": true,
+      "numeric_tokens_removed": [],
+      "numeric_review": "移除引用hash与内部链接ID后逐条比对阿拉伯数字，原正文数值均保留；并手读保留单位、比较方向、时点与非统一阈值/适应人群条件。数字一致不是语义正确的自动证明。"
+    },
+    {
+      "id": "neck-003",
+      "original_fields_sha256": "5ecfa6248d8f90ca2a371a272a1fb74183496277aab6ec7ab8ceb78c4fe5cfcd",
+      "all_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "source_ids_preserved": [
+        "src-47da6c654a67",
+        "src-f0bfa64be15d"
+      ],
+      "original_plain_chars": 351,
+      "new_plain_chars": 332,
+      "audience_unchanged": true,
+      "evidence_and_source_fields_unchanged": true,
+      "numeric_tokens_removed": [],
+      "numeric_review": "移除引用hash与内部链接ID后逐条比对阿拉伯数字，原正文数值均保留；并手读保留单位、比较方向、时点与非统一阈值/适应人群条件。数字一致不是语义正确的自动证明。"
+    },
+    {
+      "id": "neck-004",
+      "original_fields_sha256": "350017834e1e7fab4b1791a4d808d0d49ee5cc2bb47a721be2c56bf1ae614471",
+      "all_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "source_ids_preserved": [
+        "src-7b27e160bff3",
+        "src-f0bfa64be15d"
+      ],
+      "original_plain_chars": 316,
+      "new_plain_chars": 287,
+      "audience_unchanged": true,
+      "evidence_and_source_fields_unchanged": true,
+      "numeric_tokens_removed": [],
+      "numeric_review": "移除引用hash与内部链接ID后逐条比对阿拉伯数字，原正文数值均保留；并手读保留单位、比较方向、时点与非统一阈值/适应人群条件。数字一致不是语义正确的自动证明。"
+    },
+    {
+      "id": "neck-007",
+      "original_fields_sha256": "f02e50de89ea90b2ac514adfeaf28af8ada8533f66a75d70c97666eb681eafe8",
+      "all_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "source_ids_preserved": [
+        "src-5b4fe2965c62",
+        "src-9bd0ba6a8478",
+        "src-f0bfa64be15d"
+      ],
+      "original_plain_chars": 353,
+      "new_plain_chars": 280,
+      "audience_unchanged": true,
+      "evidence_and_source_fields_unchanged": true,
+      "numeric_tokens_removed": [],
+      "numeric_review": "移除引用hash与内部链接ID后逐条比对阿拉伯数字，原正文数值均保留；并手读保留单位、比较方向、时点与非统一阈值/适应人群条件。数字一致不是语义正确的自动证明。"
+    },
+    {
+      "id": "neck-005",
+      "original_fields_sha256": "37491b217988efd4e76cbc7a924f450ab80f223f4a3c1c5552c5d3b44fceeac9",
+      "all_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "source_ids_preserved": [
+        "src-6aa6f83f87c7",
+        "src-7b27e160bff3",
+        "src-7b5555491258"
+      ],
+      "original_plain_chars": 416,
+      "new_plain_chars": 363,
+      "audience_unchanged": true,
+      "evidence_and_source_fields_unchanged": true,
+      "numeric_tokens_removed": [],
+      "numeric_review": "移除引用hash与内部链接ID后逐条比对阿拉伯数字，原正文数值均保留；并手读保留单位、比较方向、时点与非统一阈值/适应人群条件。数字一致不是语义正确的自动证明。"
+    },
+    {
+      "id": "neck-006",
+      "original_fields_sha256": "098ea5a1018bd5413b6eaabff1f7429b82738867c0f57e0d8b937b7ce1645354",
+      "all_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "source_ids_preserved": [
+        "src-04d276b1c6cf",
+        "src-0bb01db05528",
+        "src-6aa6f83f87c7"
+      ],
+      "original_plain_chars": 385,
+      "new_plain_chars": 403,
+      "audience_unchanged": true,
+      "evidence_and_source_fields_unchanged": true,
+      "numeric_tokens_removed": [],
+      "numeric_review": "移除引用hash与内部链接ID后逐条比对阿拉伯数字，原正文数值均保留；并手读保留单位、比较方向、时点与非统一阈值/适应人群条件。数字一致不是语义正确的自动证明。"
+    },
+    {
+      "id": "neck-008",
+      "original_fields_sha256": "0dd560343fc5713cc1b1a94abdee4aa1c46875f5ee2cf4dccf8d99210c4e5f83",
+      "all_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "source_ids_preserved": [
+        "src-02a69f2095c5",
+        "src-09a6099719d8",
+        "src-beb156e93701"
+      ],
+      "original_plain_chars": 423,
+      "new_plain_chars": 345,
+      "audience_unchanged": true,
+      "evidence_and_source_fields_unchanged": true,
+      "numeric_tokens_removed": [],
+      "numeric_review": "移除引用hash与内部链接ID后逐条比对阿拉伯数字，原正文数值均保留；并手读保留单位、比较方向、时点与非统一阈值/适应人群条件。数字一致不是语义正确的自动证明。"
+    },
+    {
+      "id": "neck-009",
+      "original_fields_sha256": "39f629c49fe0528cc85e5a3d875c3404131ded54971a5daa5cd22436c2e54b14",
+      "all_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "source_ids_preserved": [
+        "src-5b4fe2965c62",
+        "src-dbe3c89ff22f"
+      ],
+      "original_plain_chars": 363,
+      "new_plain_chars": 307,
+      "audience_unchanged": true,
+      "evidence_and_source_fields_unchanged": true,
+      "numeric_tokens_removed": [],
+      "numeric_review": "移除引用hash与内部链接ID后逐条比对阿拉伯数字，原正文数值均保留；并手读保留单位、比较方向、时点与非统一阈值/适应人群条件。数字一致不是语义正确的自动证明。"
+    },
+    {
+      "id": "neck-010",
+      "original_fields_sha256": "d35900a97d789403a8271134cf75f489d8a6dc7c40eb7a5be434922220827ccd",
+      "all_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "source_ids_preserved": [
+        "src-7e6b65df712e",
+        "src-b488a25fa0ac",
+        "src-f4502f5e6cda"
+      ],
+      "original_plain_chars": 406,
+      "new_plain_chars": 345,
+      "audience_unchanged": true,
+      "evidence_and_source_fields_unchanged": true,
+      "numeric_tokens_removed": [],
+      "numeric_review": "移除引用hash与内部链接ID后逐条比对阿拉伯数字，原正文数值均保留；并手读保留单位、比较方向、时点与非统一阈值/适应人群条件。数字一致不是语义正确的自动证明。"
+    },
+    {
+      "id": "neck-011",
+      "original_fields_sha256": "b505611429e935f16c33996a028d2392b80c11f517faee491126daeae4597e3e",
+      "all_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "source_ids_preserved": [
+        "src-bfeca227110d"
+      ],
+      "original_plain_chars": 365,
+      "new_plain_chars": 293,
+      "audience_unchanged": true,
+      "evidence_and_source_fields_unchanged": true,
+      "numeric_tokens_removed": [],
+      "numeric_review": "移除引用hash与内部链接ID后逐条比对阿拉伯数字，原正文数值均保留；并手读保留单位、比较方向、时点与非统一阈值/适应人群条件。数字一致不是语义正确的自动证明。"
+    },
+    {
+      "id": "neck-012",
+      "original_fields_sha256": "8a4d5d0b531f276782c95d0f2cd75597fc812e5869016204ebe5181eeefa31d4",
+      "all_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "source_ids_preserved": [
+        "src-1a2d84d8e4ea",
+        "src-d6b1bf001ea9"
+      ],
+      "original_plain_chars": 383,
+      "new_plain_chars": 323,
+      "audience_unchanged": true,
+      "evidence_and_source_fields_unchanged": true,
+      "numeric_tokens_removed": [],
+      "numeric_review": "移除引用hash与内部链接ID后逐条比对阿拉伯数字，原正文数值均保留；并手读保留单位、比较方向、时点与非统一阈值/适应人群条件。数字一致不是语义正确的自动证明。"
+    },
+    {
+      "id": "neck-013",
+      "original_fields_sha256": "734a11946d04cde46b64e8d7fcb6212e3e77226b1aa23996e5fa33d69bb8f649",
+      "all_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "source_ids_preserved": [
+        "src-9bd0ba6a8478",
+        "src-de3333897cfc"
+      ],
+      "original_plain_chars": 365,
+      "new_plain_chars": 282,
+      "audience_unchanged": true,
+      "evidence_and_source_fields_unchanged": true,
+      "numeric_tokens_removed": [],
+      "numeric_review": "移除引用hash与内部链接ID后逐条比对阿拉伯数字，原正文数值均保留；并手读保留单位、比较方向、时点与非统一阈值/适应人群条件。数字一致不是语义正确的自动证明。"
+    },
+    {
+      "id": "neck-014",
+      "original_fields_sha256": "1d4daec8231773ccd81d908a043a7504b98de6d3ca6a00d3f4b6354d124e184a",
+      "all_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "source_ids_preserved": [
+        "src-3f948be03302",
+        "src-d698b516e714"
+      ],
+      "original_plain_chars": 399,
+      "new_plain_chars": 346,
+      "audience_unchanged": true,
+      "evidence_and_source_fields_unchanged": true,
+      "numeric_tokens_removed": [],
+      "numeric_review": "移除引用hash与内部链接ID后逐条比对阿拉伯数字，原正文数值均保留；并手读保留单位、比较方向、时点与非统一阈值/适应人群条件。数字一致不是语义正确的自动证明。"
+    },
+    {
+      "id": "hands-001",
+      "original_fields_sha256": "d3dfea25b78af239fff9f640de18d2ad4c2745ed832f69a89d125203dff1860c",
+      "all_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "source_ids_preserved": [
+        "src-226c677a41e3",
+        "src-bc930e9e5cc8"
+      ],
+      "original_plain_chars": 334,
+      "new_plain_chars": 311,
+      "audience_unchanged": true,
+      "evidence_and_source_fields_unchanged": true,
+      "numeric_tokens_removed": [],
+      "numeric_review": "移除引用hash与内部链接ID后逐条比对阿拉伯数字，原正文数值均保留；并手读保留单位、比较方向、时点与非统一阈值/适应人群条件。数字一致不是语义正确的自动证明。"
+    },
+    {
+      "id": "hands-002",
+      "original_fields_sha256": "325b7ab02b6ccb26d5fb1f30857444e7a1f51e20374d7bab90b770c25f223454",
+      "all_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "source_ids_preserved": [
+        "src-86ed6ce233f0",
+        "src-99cbddd76bb9",
+        "src-b04fd3928cfe"
+      ],
+      "original_plain_chars": 372,
+      "new_plain_chars": 359,
+      "audience_unchanged": true,
+      "evidence_and_source_fields_unchanged": true,
+      "numeric_tokens_removed": [],
+      "numeric_review": "移除引用hash与内部链接ID后逐条比对阿拉伯数字，原正文数值均保留；并手读保留单位、比较方向、时点与非统一阈值/适应人群条件。数字一致不是语义正确的自动证明。"
+    },
+    {
+      "id": "hands-003",
+      "original_fields_sha256": "08c3418939017866f0b588b90e55a30bdd264e701c2f95e2d3994ffc2ecbb3f1",
+      "all_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "source_ids_preserved": [
+        "src-813e34e09481",
+        "src-a813f43cc790",
+        "src-e6334e520e92"
+      ],
+      "original_plain_chars": 329,
+      "new_plain_chars": 296,
+      "audience_unchanged": true,
+      "evidence_and_source_fields_unchanged": true,
+      "numeric_tokens_removed": [],
+      "numeric_review": "移除引用hash与内部链接ID后逐条比对阿拉伯数字，原正文数值均保留；并手读保留单位、比较方向、时点与非统一阈值/适应人群条件。数字一致不是语义正确的自动证明。"
+    },
+    {
+      "id": "hands-004",
+      "original_fields_sha256": "cb5ee9cd8e8503bb2cfe554e49634e895e87632d9b19d4fb1c2d7ff5d713ab90",
+      "all_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "source_ids_preserved": [
+        "src-496bc889de91",
+        "src-813e34e09481",
+        "src-8f5128a11252"
+      ],
+      "original_plain_chars": 368,
+      "new_plain_chars": 338,
+      "audience_unchanged": true,
+      "evidence_and_source_fields_unchanged": true,
+      "numeric_tokens_removed": [],
+      "numeric_review": "移除引用hash与内部链接ID后逐条比对阿拉伯数字，原正文数值均保留；并手读保留单位、比较方向、时点与非统一阈值/适应人群条件。数字一致不是语义正确的自动证明。"
+    },
+    {
+      "id": "hands-005",
+      "original_fields_sha256": "3819685a5e24b286c5fb47ef3cdbc21e3af3bbe37e736efffe6e1b898450fe9d",
+      "all_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "source_ids_preserved": [
+        "src-813e34e09481",
+        "src-e6334e520e92"
+      ],
+      "original_plain_chars": 387,
+      "new_plain_chars": 318,
+      "audience_unchanged": true,
+      "evidence_and_source_fields_unchanged": true,
+      "numeric_tokens_removed": [],
+      "numeric_review": "移除引用hash与内部链接ID后逐条比对阿拉伯数字，原正文数值均保留；并手读保留单位、比较方向、时点与非统一阈值/适应人群条件。数字一致不是语义正确的自动证明。"
+    },
+    {
+      "id": "hands-006",
+      "original_fields_sha256": "cd88904a316c9fc1bc0939967d9ea2c4dc4035ccce4ecd3b66c35da83df003bc",
+      "all_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "source_ids_preserved": [
+        "src-1889465c9932",
+        "src-496bc889de91",
+        "src-6150996f7909"
+      ],
+      "original_plain_chars": 359,
+      "new_plain_chars": 329,
+      "audience_unchanged": true,
+      "evidence_and_source_fields_unchanged": true,
+      "numeric_tokens_removed": [],
+      "numeric_review": "移除引用hash与内部链接ID后逐条比对阿拉伯数字，原正文数值均保留；并手读保留单位、比较方向、时点与非统一阈值/适应人群条件。数字一致不是语义正确的自动证明。"
+    },
+    {
+      "id": "hands-007",
+      "original_fields_sha256": "f40a04c4f4bde89e75c91f930287b596bc1a603e637d84e88d2559b79c62c6b3",
+      "all_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "source_ids_preserved": [
+        "src-087bbbf74573",
+        "src-c7cc6db0d454",
+        "src-ca6816889903"
+      ],
+      "original_plain_chars": 382,
+      "new_plain_chars": 332,
+      "audience_unchanged": true,
+      "evidence_and_source_fields_unchanged": true,
+      "numeric_tokens_removed": [],
+      "numeric_review": "移除引用hash与内部链接ID后逐条比对阿拉伯数字，原正文数值均保留；并手读保留单位、比较方向、时点与非统一阈值/适应人群条件。数字一致不是语义正确的自动证明。"
+    },
+    {
+      "id": "hands-008",
+      "original_fields_sha256": "f1aad4c4b60a93e91ea9e3e1244504f70df7d15687d5d977fe7d725f52809859",
+      "all_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "source_ids_preserved": [
+        "src-1889465c9932",
+        "src-226c677a41e3",
+        "src-813e34e09481",
+        "src-bc930e9e5cc8"
+      ],
+      "original_plain_chars": 353,
+      "new_plain_chars": 334,
+      "audience_unchanged": true,
+      "evidence_and_source_fields_unchanged": true,
+      "numeric_tokens_removed": [],
+      "numeric_review": "移除引用hash与内部链接ID后逐条比对阿拉伯数字，原正文数值均保留；并手读保留单位、比较方向、时点与非统一阈值/适应人群条件。数字一致不是语义正确的自动证明。"
+    },
+    {
+      "id": "hands-009",
+      "original_fields_sha256": "c02a8fc3c586b781a495c577d4b23b7916c783fa81bb738562c969f1b67f0e7e",
+      "all_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "source_ids_preserved": [
+        "src-7e0e9e33c928",
+        "src-ea1bd9fa61df"
+      ],
+      "original_plain_chars": 382,
+      "new_plain_chars": 309,
+      "audience_unchanged": true,
+      "evidence_and_source_fields_unchanged": true,
+      "numeric_tokens_removed": [],
+      "numeric_review": "移除引用hash与内部链接ID后逐条比对阿拉伯数字，原正文数值均保留；并手读保留单位、比较方向、时点与非统一阈值/适应人群条件。数字一致不是语义正确的自动证明。"
+    },
+    {
+      "id": "hands-010",
+      "original_fields_sha256": "f63942f02ca584e9be9d3e0bfd28c89349a1a1b84ad7acb25a7787dfc3f1a491",
+      "all_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "source_ids_preserved": [
+        "src-2671bf917cb6",
+        "src-ca6816889903"
+      ],
+      "original_plain_chars": 325,
+      "new_plain_chars": 322,
+      "audience_unchanged": true,
+      "evidence_and_source_fields_unchanged": true,
+      "numeric_tokens_removed": [],
+      "numeric_review": "移除引用hash与内部链接ID后逐条比对阿拉伯数字，原正文数值均保留；并手读保留单位、比较方向、时点与非统一阈值/适应人群条件。数字一致不是语义正确的自动证明。"
+    },
+    {
+      "id": "hands-011",
+      "original_fields_sha256": "91d90bdedd8d88e40574545782360cb8b1399d648d511d0c6125dfd398eb2392",
+      "all_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "source_ids_preserved": [
+        "src-0add8214d755",
+        "src-1823a729721e",
+        "src-a5c92a6e0270"
+      ],
+      "original_plain_chars": 417,
+      "new_plain_chars": 379,
+      "audience_unchanged": true,
+      "evidence_and_source_fields_unchanged": true,
+      "numeric_tokens_removed": [],
+      "numeric_review": "移除引用hash与内部链接ID后逐条比对阿拉伯数字，原正文数值均保留；并手读保留单位、比较方向、时点与非统一阈值/适应人群条件。数字一致不是语义正确的自动证明。"
+    },
+    {
+      "id": "hands-012",
+      "original_fields_sha256": "1d6db0b7dc5c33382dbd33daf543cdc7e81c255f18c4833c3a50f0eae2744d0d",
+      "all_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "source_ids_preserved": [
+        "src-0add8214d755",
+        "src-1823a729721e",
+        "src-37f369479090",
+        "src-87ab48b820e5",
+        "src-a5c92a6e0270"
+      ],
+      "original_plain_chars": 458,
+      "new_plain_chars": 404,
+      "audience_unchanged": true,
+      "evidence_and_source_fields_unchanged": true,
+      "numeric_tokens_removed": [],
+      "numeric_review": "移除引用hash与内部链接ID后逐条比对阿拉伯数字，原正文数值均保留；并手读保留单位、比较方向、时点与非统一阈值/适应人群条件。数字一致不是语义正确的自动证明。"
+    },
+    {
+      "id": "legs-001",
+      "original_fields_sha256": "709e22bd14509432399fee2ffc2afff0d155579bb1b46112679a5cadc335d920",
+      "all_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "source_ids_preserved": [
+        "src-036ccb766bc2",
+        "src-0877e4032446"
+      ],
+      "original_plain_chars": 406,
+      "new_plain_chars": 348,
+      "audience_unchanged": true,
+      "evidence_and_source_fields_unchanged": true,
+      "numeric_tokens_removed": [],
+      "numeric_review": "移除引用hash与内部链接ID后逐条比对阿拉伯数字，原正文数值均保留；并手读保留单位、比较方向、时点与非统一阈值/适应人群条件。数字一致不是语义正确的自动证明。"
+    },
+    {
+      "id": "legs-003",
+      "original_fields_sha256": "5895ee00a92daedaf25fd268872610262a37ff65a5af621638f23697c0a2ab39",
+      "all_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "source_ids_preserved": [
+        "src-036ccb766bc2",
+        "src-0877e4032446"
+      ],
+      "original_plain_chars": 341,
+      "new_plain_chars": 340,
+      "audience_unchanged": true,
+      "evidence_and_source_fields_unchanged": true,
+      "numeric_tokens_removed": [],
+      "numeric_review": "移除引用hash与内部链接ID后逐条比对阿拉伯数字，原正文数值均保留；并手读保留单位、比较方向、时点与非统一阈值/适应人群条件。数字一致不是语义正确的自动证明。"
+    },
+    {
+      "id": "legs-004",
+      "original_fields_sha256": "3257e05cab3507cd6123e3003c7246ce6ef7f3903aef4e9f73e15a8aa172a71a",
+      "all_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "source_ids_preserved": [
+        "src-036ccb766bc2",
+        "src-0877e4032446",
+        "src-62b4891e211b"
+      ],
+      "original_plain_chars": 386,
+      "new_plain_chars": 319,
+      "audience_unchanged": true,
+      "evidence_and_source_fields_unchanged": true,
+      "numeric_tokens_removed": [],
+      "numeric_review": "移除引用hash与内部链接ID后逐条比对阿拉伯数字，原正文数值均保留；并手读保留单位、比较方向、时点与非统一阈值/适应人群条件。数字一致不是语义正确的自动证明。"
+    },
+    {
+      "id": "legs-005",
+      "original_fields_sha256": "6c8e43d6b4b19463b926854f20e7cb6b264f9bf3bd79dc98e767c1f7a15ebdff",
+      "all_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "source_ids_preserved": [
+        "src-748bced6f3ef"
+      ],
+      "original_plain_chars": 362,
+      "new_plain_chars": 300,
+      "audience_unchanged": true,
+      "evidence_and_source_fields_unchanged": true,
+      "numeric_tokens_removed": [],
+      "numeric_review": "移除引用hash与内部链接ID后逐条比对阿拉伯数字，原正文数值均保留；并手读保留单位、比较方向、时点与非统一阈值/适应人群条件。数字一致不是语义正确的自动证明。"
+    },
+    {
+      "id": "legs-002",
+      "original_fields_sha256": "717a5b26b4180dcc09ca8e798862c843792dd9e1f1b824970f7b8282755d49ba",
+      "all_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "source_ids_preserved": [
+        "src-bb1e4f8af841"
+      ],
+      "original_plain_chars": 330,
+      "new_plain_chars": 276,
+      "audience_unchanged": true,
+      "evidence_and_source_fields_unchanged": true,
+      "numeric_tokens_removed": [],
+      "numeric_review": "移除引用hash与内部链接ID后逐条比对阿拉伯数字，原正文数值均保留；并手读保留单位、比较方向、时点与非统一阈值/适应人群条件。数字一致不是语义正确的自动证明。"
+    },
+    {
+      "id": "legs-006",
+      "original_fields_sha256": "c12caf625456a6f0d6f305215e4a1aa7dbcc5c0b1013d54fede6a6d0fd2f24bf",
+      "all_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "source_ids_preserved": [
+        "src-613593a96a02",
+        "src-be8078e7f8a5"
+      ],
+      "original_plain_chars": 357,
+      "new_plain_chars": 304,
+      "audience_unchanged": true,
+      "evidence_and_source_fields_unchanged": true,
+      "numeric_tokens_removed": [],
+      "numeric_review": "移除引用hash与内部链接ID后逐条比对阿拉伯数字，原正文数值均保留；并手读保留单位、比较方向、时点与非统一阈值/适应人群条件。数字一致不是语义正确的自动证明。"
+    },
+    {
+      "id": "legs-007",
+      "original_fields_sha256": "3a1f071f8f28f4a30c84a95696cf77b3d24754bd57123c200341776d102f3430",
+      "all_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "source_ids_preserved": [
+        "src-986efd084292",
+        "src-bcaba0365fd3"
+      ],
+      "original_plain_chars": 383,
+      "new_plain_chars": 327,
+      "audience_unchanged": true,
+      "evidence_and_source_fields_unchanged": true,
+      "numeric_tokens_removed": [],
+      "numeric_review": "移除引用hash与内部链接ID后逐条比对阿拉伯数字，原正文数值均保留；并手读保留单位、比较方向、时点与非统一阈值/适应人群条件。数字一致不是语义正确的自动证明。"
+    },
+    {
+      "id": "legs-008",
+      "original_fields_sha256": "8eed21087b8533ca1bc023a4978483c404eaab647a56a483c521b72605d7d486",
+      "all_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "source_ids_preserved": [
+        "src-986efd084292",
+        "src-bcaba0365fd3"
+      ],
+      "original_plain_chars": 344,
+      "new_plain_chars": 304,
+      "audience_unchanged": true,
+      "evidence_and_source_fields_unchanged": true,
+      "numeric_tokens_removed": [],
+      "numeric_review": "移除引用hash与内部链接ID后逐条比对阿拉伯数字，原正文数值均保留；并手读保留单位、比较方向、时点与非统一阈值/适应人群条件。数字一致不是语义正确的自动证明。"
+    },
+    {
+      "id": "legs-009",
+      "original_fields_sha256": "ee1f4871ad8715beb3ad593efe20fdfe272c702bdba5b0997391eacb266d13c6",
+      "all_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "source_ids_preserved": [
+        "src-986efd084292",
+        "src-a1c903ed28da",
+        "src-bcaba0365fd3",
+        "src-cc272d22bfd6"
+      ],
+      "original_plain_chars": 436,
+      "new_plain_chars": 339,
+      "audience_unchanged": true,
+      "evidence_and_source_fields_unchanged": true,
+      "numeric_tokens_removed": [],
+      "numeric_review": "移除引用hash与内部链接ID后逐条比对阿拉伯数字，原正文数值均保留；并手读保留单位、比较方向、时点与非统一阈值/适应人群条件。数字一致不是语义正确的自动证明。"
+    },
+    {
+      "id": "legs-010",
+      "original_fields_sha256": "4c5b9f10052dbb186af44965a1f395236e492923727b402491da86530acfa71d",
+      "all_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "source_ids_preserved": [
+        "src-59cd0ff490b0",
+        "src-c35b4209b9ac",
+        "src-ec301098f442"
+      ],
+      "original_plain_chars": 361,
+      "new_plain_chars": 308,
+      "audience_unchanged": true,
+      "evidence_and_source_fields_unchanged": true,
+      "numeric_tokens_removed": [],
+      "numeric_review": "移除引用hash与内部链接ID后逐条比对阿拉伯数字，原正文数值均保留；并手读保留单位、比较方向、时点与非统一阈值/适应人群条件。数字一致不是语义正确的自动证明。"
+    },
+    {
+      "id": "legs-011",
+      "original_fields_sha256": "642ce2dc7b3fab6381e954ba2f3182ef70d60b0fa5bbbc4f08836c08f3b6e1d4",
+      "all_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "source_ids_preserved": [
+        "src-d798681a2a08"
+      ],
+      "original_plain_chars": 342,
+      "new_plain_chars": 293,
+      "audience_unchanged": true,
+      "evidence_and_source_fields_unchanged": true,
+      "numeric_tokens_removed": [],
+      "numeric_review": "移除引用hash与内部链接ID后逐条比对阿拉伯数字，原正文数值均保留；并手读保留单位、比较方向、时点与非统一阈值/适应人群条件。数字一致不是语义正确的自动证明。"
+    },
+    {
+      "id": "legs-012",
+      "original_fields_sha256": "9f4570fe7d563b5941deb2a3ee6e3748d6818dc53d498984a073fd54eac06a2a",
+      "all_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "source_ids_preserved": [
+        "src-194885a15a8a",
+        "src-9e2a0b12a708",
+        "src-bb1e4f8af841"
+      ],
+      "original_plain_chars": 418,
+      "new_plain_chars": 378,
+      "audience_unchanged": true,
+      "evidence_and_source_fields_unchanged": true,
+      "numeric_tokens_removed": [],
+      "numeric_review": "移除引用hash与内部链接ID后逐条比对阿拉伯数字，原正文数值均保留；并手读保留单位、比较方向、时点与非统一阈值/适应人群条件。数字一致不是语义正确的自动证明。"
+    },
+    {
+      "id": "feet-001",
+      "original_fields_sha256": "9d15342d03eeb1e70c30b815647cc3d1cae7b8313975092581d73830bac274f0",
+      "all_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "source_ids_preserved": [
+        "src-85d67426dfbd",
+        "src-96763e89b6c6",
+        "src-da6ab18d72e6"
+      ],
+      "original_plain_chars": 394,
+      "new_plain_chars": 356,
+      "audience_unchanged": true,
+      "evidence_and_source_fields_unchanged": true,
+      "numeric_tokens_removed": [],
+      "numeric_review": "移除引用hash与内部链接ID后逐条比对阿拉伯数字，原正文数值均保留；并手读保留单位、比较方向、时点与非统一阈值/适应人群条件。数字一致不是语义正确的自动证明。"
+    },
+    {
+      "id": "feet-002",
+      "original_fields_sha256": "76f557b0418132941eb058d3b6f63f6596998f7fc3ad4adb997de51a6727c1a5",
+      "all_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "source_ids_preserved": [
+        "src-4d5579f5dfff",
+        "src-ec00b07a7ed8"
+      ],
+      "original_plain_chars": 347,
+      "new_plain_chars": 296,
+      "audience_unchanged": true,
+      "evidence_and_source_fields_unchanged": true,
+      "numeric_tokens_removed": [],
+      "numeric_review": "移除引用hash与内部链接ID后逐条比对阿拉伯数字，原正文数值均保留；并手读保留单位、比较方向、时点与非统一阈值/适应人群条件。数字一致不是语义正确的自动证明。"
+    },
+    {
+      "id": "feet-003",
+      "original_fields_sha256": "92719139053254698e4ab24568000f7e63611bbe6a1372591ed32308763fd01d",
+      "all_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "source_ids_preserved": [
+        "src-4d5579f5dfff",
+        "src-cb40942c6836",
+        "src-ec00b07a7ed8"
+      ],
+      "original_plain_chars": 392,
+      "new_plain_chars": 355,
+      "audience_unchanged": true,
+      "evidence_and_source_fields_unchanged": true,
+      "numeric_tokens_removed": [],
+      "numeric_review": "移除引用hash与内部链接ID后逐条比对阿拉伯数字，原正文数值均保留；并手读保留单位、比较方向、时点与非统一阈值/适应人群条件。数字一致不是语义正确的自动证明。"
+    },
+    {
+      "id": "feet-004",
+      "original_fields_sha256": "58ebda6e198df4871e86ab2db249d65d2d36e6a50b381bddb4af95a9e686179b",
+      "all_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "source_ids_preserved": [
+        "src-4d5579f5dfff",
+        "src-ca4c8b1a356a",
+        "src-ec00b07a7ed8"
+      ],
+      "original_plain_chars": 332,
+      "new_plain_chars": 310,
+      "audience_unchanged": true,
+      "evidence_and_source_fields_unchanged": true,
+      "numeric_tokens_removed": [],
+      "numeric_review": "移除引用hash与内部链接ID后逐条比对阿拉伯数字，原正文数值均保留；并手读保留单位、比较方向、时点与非统一阈值/适应人群条件。数字一致不是语义正确的自动证明。"
+    },
+    {
+      "id": "feet-005",
+      "original_fields_sha256": "3902c9c878776c54aff11bd2850bddeb01c780c6882d150fc973e602f18133f6",
+      "all_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "source_ids_preserved": [
+        "src-0cc1bc768a11",
+        "src-876bce1c9bbf",
+        "src-ca4c8b1a356a"
+      ],
+      "original_plain_chars": 333,
+      "new_plain_chars": 288,
+      "audience_unchanged": true,
+      "evidence_and_source_fields_unchanged": true,
+      "numeric_tokens_removed": [],
+      "numeric_review": "移除引用hash与内部链接ID后逐条比对阿拉伯数字，原正文数值均保留；并手读保留单位、比较方向、时点与非统一阈值/适应人群条件。数字一致不是语义正确的自动证明。"
+    },
+    {
+      "id": "feet-006",
+      "original_fields_sha256": "d46b413362deb8893313f100281292c1673de2a571ff88c9a133295d9aa2c27b",
+      "all_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "source_ids_preserved": [
+        "src-5de089fc9815",
+        "src-5f7fab598388",
+        "src-da6ab18d72e6"
+      ],
+      "original_plain_chars": 389,
+      "new_plain_chars": 344,
+      "audience_unchanged": true,
+      "evidence_and_source_fields_unchanged": true,
+      "numeric_tokens_removed": [],
+      "numeric_review": "移除引用hash与内部链接ID后逐条比对阿拉伯数字，原正文数值均保留；并手读保留单位、比较方向、时点与非统一阈值/适应人群条件。数字一致不是语义正确的自动证明。"
+    },
+    {
+      "id": "feet-007",
+      "original_fields_sha256": "4c2c6d7b324cd03abb6412610770c6a9d584756ff9d95655e1cb4a2f1bcfb3c0",
+      "all_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "source_ids_preserved": [
+        "src-490a684cbb21",
+        "src-da6ab18d72e6"
+      ],
+      "original_plain_chars": 333,
+      "new_plain_chars": 301,
+      "audience_unchanged": true,
+      "evidence_and_source_fields_unchanged": true,
+      "numeric_tokens_removed": [],
+      "numeric_review": "移除引用hash与内部链接ID后逐条比对阿拉伯数字，原正文数值均保留；并手读保留单位、比较方向、时点与非统一阈值/适应人群条件。数字一致不是语义正确的自动证明。"
+    },
+    {
+      "id": "feet-008",
+      "original_fields_sha256": "e8962bde1478138c998e1b77c7826e6349c17b098b3671d34ddd5f081b212743",
+      "all_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "source_ids_preserved": [
+        "src-19ed9a4f013a",
+        "src-5f7fab598388",
+        "src-da6ab18d72e6"
+      ],
+      "original_plain_chars": 375,
+      "new_plain_chars": 341,
+      "audience_unchanged": true,
+      "evidence_and_source_fields_unchanged": true,
+      "numeric_tokens_removed": [],
+      "numeric_review": "移除引用hash与内部链接ID后逐条比对阿拉伯数字，原正文数值均保留；并手读保留单位、比较方向、时点与非统一阈值/适应人群条件。数字一致不是语义正确的自动证明。"
+    },
+    {
+      "id": "feet-012",
+      "original_fields_sha256": "9160e37fbef520fe8002f07b413fffe6a2918cd103e438ec3ac982cf968af1d2",
+      "all_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "source_ids_preserved": [
+        "src-26cdd394f193",
+        "src-99335a6b2a64"
+      ],
+      "original_plain_chars": 362,
+      "new_plain_chars": 325,
+      "audience_unchanged": true,
+      "evidence_and_source_fields_unchanged": true,
+      "numeric_tokens_removed": [],
+      "numeric_review": "移除引用hash与内部链接ID后逐条比对阿拉伯数字，原正文数值均保留；并手读保留单位、比较方向、时点与非统一阈值/适应人群条件。数字一致不是语义正确的自动证明。"
+    },
+    {
+      "id": "feet-013",
+      "original_fields_sha256": "a2f2c5512a4cddbcd0aa00987430b3867dcd531a7df6085bf106eaa6da7f3c86",
+      "all_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "source_ids_preserved": [
+        "src-0c3cc3485e25"
+      ],
+      "original_plain_chars": 334,
+      "new_plain_chars": 290,
+      "audience_unchanged": true,
+      "evidence_and_source_fields_unchanged": true,
+      "numeric_tokens_removed": [],
+      "numeric_review": "移除引用hash与内部链接ID后逐条比对阿拉伯数字，原正文数值均保留；并手读保留单位、比较方向、时点与非统一阈值/适应人群条件。数字一致不是语义正确的自动证明。"
+    },
+    {
+      "id": "feet-014",
+      "original_fields_sha256": "409699c6c28c1dc0f98c7b1d35595af669b9fd45d0d4927f6af9d9171a488699",
+      "all_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "source_ids_preserved": [
+        "src-7e5e6a967e1e"
+      ],
+      "original_plain_chars": 302,
+      "new_plain_chars": 268,
+      "audience_unchanged": true,
+      "evidence_and_source_fields_unchanged": true,
+      "numeric_tokens_removed": [],
+      "numeric_review": "移除引用hash与内部链接ID后逐条比对阿拉伯数字，原正文数值均保留；并手读保留单位、比较方向、时点与非统一阈值/适应人群条件。数字一致不是语义正确的自动证明。"
+    },
+    {
+      "id": "feet-009",
+      "original_fields_sha256": "4267ba8b60dc278375e3cc2db86ee8d0001db2fa903c488cba53f06a1b016e33",
+      "all_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "source_ids_preserved": [
+        "src-9a8ed1d02c2e"
+      ],
+      "original_plain_chars": 320,
+      "new_plain_chars": 270,
+      "audience_unchanged": true,
+      "evidence_and_source_fields_unchanged": true,
+      "numeric_tokens_removed": [],
+      "numeric_review": "移除引用hash与内部链接ID后逐条比对阿拉伯数字，原正文数值均保留；并手读保留单位、比较方向、时点与非统一阈值/适应人群条件。数字一致不是语义正确的自动证明。"
+    },
+    {
+      "id": "feet-010",
+      "original_fields_sha256": "695849833558eb3cb81ae0e941dbe9ace1e85c9e3fe88630087b1d501730ce65",
+      "all_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "source_ids_preserved": [
+        "src-df17e224d4ed",
+        "src-ea1bd9fa61df"
+      ],
+      "original_plain_chars": 377,
+      "new_plain_chars": 340,
+      "audience_unchanged": true,
+      "evidence_and_source_fields_unchanged": true,
+      "numeric_tokens_removed": [],
+      "numeric_review": "移除引用hash与内部链接ID后逐条比对阿拉伯数字，原正文数值均保留；并手读保留单位、比较方向、时点与非统一阈值/适应人群条件。数字一致不是语义正确的自动证明。"
+    },
+    {
+      "id": "feet-011",
+      "original_fields_sha256": "d399633002ea0fb9f850832f662cf64a40b85427b4afb414037878bd9b8e4e82",
+      "all_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "source_ids_preserved": [
+        "src-2671bf917cb6"
+      ],
+      "original_plain_chars": 239,
+      "new_plain_chars": 210,
+      "audience_unchanged": true,
+      "evidence_and_source_fields_unchanged": true,
+      "numeric_tokens_removed": [],
+      "numeric_review": "移除引用hash与内部链接ID后逐条比对阿拉伯数字，原正文数值均保留；并手读保留单位、比较方向、时点与非统一阈值/适应人群条件。数字一致不是语义正确的自动证明。"
+    },
+    {
+      "id": "bodyskin-001",
+      "original_fields_sha256": "c61c7b96bf0b2c3f43ad17408a05ae8b60a1193d03781e0567207a0007c4e69c",
+      "all_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "source_ids_preserved": [
+        "src-88043ced1f12",
+        "src-bc930e9e5cc8"
+      ],
+      "original_plain_chars": 262,
+      "new_plain_chars": 275,
+      "audience_unchanged": true,
+      "evidence_and_source_fields_unchanged": true,
+      "numeric_tokens_removed": [],
+      "numeric_review": "移除引用hash与内部链接ID后逐条比对阿拉伯数字，原正文数值均保留；并手读保留单位、比较方向、时点与非统一阈值/适应人群条件。数字一致不是语义正确的自动证明。"
+    },
+    {
+      "id": "bodyskin-002",
+      "original_fields_sha256": "ea4cd5b26f5e76745ffad0bed664eb7fa18ca182dd8ee1485ab100051dbc581d",
+      "all_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "source_ids_preserved": [
+        "src-22c3306dca0e",
+        "src-858d86c4ba5c",
+        "src-a813f43cc790"
+      ],
+      "original_plain_chars": 239,
+      "new_plain_chars": 234,
+      "audience_unchanged": true,
+      "evidence_and_source_fields_unchanged": true,
+      "numeric_tokens_removed": [],
+      "numeric_review": "移除引用hash与内部链接ID后逐条比对阿拉伯数字，原正文数值均保留；并手读保留单位、比较方向、时点与非统一阈值/适应人群条件。数字一致不是语义正确的自动证明。"
+    },
+    {
+      "id": "bodyskin-003",
+      "original_fields_sha256": "ab9eb4ded2f525be35b2de043eacb2b6f8114314f8bf8a211d36b6bc9986e56d",
+      "all_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "source_ids_preserved": [
+        "src-a813f43cc790"
+      ],
+      "original_plain_chars": 220,
+      "new_plain_chars": 212,
+      "audience_unchanged": true,
+      "evidence_and_source_fields_unchanged": true,
+      "numeric_tokens_removed": [],
+      "numeric_review": "移除引用hash与内部链接ID后逐条比对阿拉伯数字，原正文数值均保留；并手读保留单位、比较方向、时点与非统一阈值/适应人群条件。数字一致不是语义正确的自动证明。"
+    },
+    {
+      "id": "bodyskin-004",
+      "original_fields_sha256": "f2dcbea8c627bf897e3e05bd5838e5895f331f0229ca6caee31045ab4967116c",
+      "all_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "source_ids_preserved": [
+        "src-858d86c4ba5c"
+      ],
+      "original_plain_chars": 282,
+      "new_plain_chars": 295,
+      "audience_unchanged": true,
+      "evidence_and_source_fields_unchanged": true,
+      "numeric_tokens_removed": [],
+      "numeric_review": "移除引用hash与内部链接ID后逐条比对阿拉伯数字，原正文数值均保留；并手读保留单位、比较方向、时点与非统一阈值/适应人群条件。数字一致不是语义正确的自动证明。"
+    },
+    {
+      "id": "bodyskin-005",
+      "original_fields_sha256": "815a02d7ecc8857368eb99f59353e53afbf2f4b2c8dd208fbcd50afc45efda4f",
+      "all_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "source_ids_preserved": [
+        "src-0be67d6eecf6",
+        "src-9cd1b120393a"
+      ],
+      "original_plain_chars": 261,
+      "new_plain_chars": 359,
+      "audience_unchanged": true,
+      "evidence_and_source_fields_unchanged": true,
+      "numeric_tokens_removed": [],
+      "numeric_review": "移除引用hash与内部链接ID后逐条比对阿拉伯数字，原正文数值均保留；并手读保留单位、比较方向、时点与非统一阈值/适应人群条件。数字一致不是语义正确的自动证明。"
+    },
+    {
+      "id": "bodyskin-006",
+      "original_fields_sha256": "8e231e7383b51705967464832b46572f806d7663eb60f5b0e26207a06428643a",
+      "all_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "source_ids_preserved": [
+        "src-22c3306dca0e"
+      ],
+      "original_plain_chars": 241,
+      "new_plain_chars": 265,
+      "audience_unchanged": true,
+      "evidence_and_source_fields_unchanged": true,
+      "numeric_tokens_removed": [],
+      "numeric_review": "移除引用hash与内部链接ID后逐条比对阿拉伯数字，原正文数值均保留；并手读保留单位、比较方向、时点与非统一阈值/适应人群条件。数字一致不是语义正确的自动证明。"
+    },
+    {
+      "id": "bodyskin-007",
+      "original_fields_sha256": "5ab455f12d4b6b258ff889fc1f4746d9629ce9e668852220a6827dad91a3df74",
+      "all_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "source_ids_preserved": [
+        "src-3b08a09e6bfd",
+        "src-f1456035a647"
+      ],
+      "original_plain_chars": 253,
+      "new_plain_chars": 296,
+      "audience_unchanged": true,
+      "evidence_and_source_fields_unchanged": true,
+      "numeric_tokens_removed": [],
+      "numeric_review": "移除引用hash与内部链接ID后逐条比对阿拉伯数字，原正文数值均保留；并手读保留单位、比较方向、时点与非统一阈值/适应人群条件。数字一致不是语义正确的自动证明。"
+    },
+    {
+      "id": "bodyskin-008",
+      "original_fields_sha256": "1f54987ce08a24609b8605fb85d0c3c48e7c58888c25c6b11e76c27466e22b9d",
+      "all_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "source_ids_preserved": [
+        "src-ca48aa23ca40",
+        "src-cfa8da48dd7f"
+      ],
+      "original_plain_chars": 265,
+      "new_plain_chars": 240,
+      "audience_unchanged": true,
+      "evidence_and_source_fields_unchanged": true,
+      "numeric_tokens_removed": [],
+      "numeric_review": "移除引用hash与内部链接ID后逐条比对阿拉伯数字，原正文数值均保留；并手读保留单位、比较方向、时点与非统一阈值/适应人群条件。数字一致不是语义正确的自动证明。"
+    },
+    {
+      "id": "bodyskin-023",
+      "original_fields_sha256": "2e82a244bc4b0178477e6ab2f217fe61450713ebe659e63ecfe988966a070151",
+      "all_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "source_ids_preserved": [
+        "src-9835c354c916"
+      ],
+      "original_plain_chars": 323,
+      "new_plain_chars": 286,
+      "audience_unchanged": true,
+      "evidence_and_source_fields_unchanged": true,
+      "numeric_tokens_removed": [],
+      "numeric_review": "移除引用hash与内部链接ID后逐条比对阿拉伯数字，原正文数值均保留；并手读保留单位、比较方向、时点与非统一阈值/适应人群条件。数字一致不是语义正确的自动证明。"
+    },
+    {
+      "id": "bodyskin-024",
+      "original_fields_sha256": "7f6ad0f3c2c2128c3a8333c7bcccd5745f158322caf0f96ffe698a9273067504",
+      "all_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "source_ids_preserved": [
+        "src-dc72eedfaee8",
+        "src-ea641edee929",
+        "src-f8539224cb49"
+      ],
+      "original_plain_chars": 422,
+      "new_plain_chars": 328,
+      "audience_unchanged": true,
+      "evidence_and_source_fields_unchanged": true,
+      "numeric_tokens_removed": [],
+      "numeric_review": "移除引用hash与内部链接ID后逐条比对阿拉伯数字，原正文数值均保留；并手读保留单位、比较方向、时点与非统一阈值/适应人群条件。数字一致不是语义正确的自动证明。"
+    },
+    {
+      "id": "bodyskin-012",
+      "original_fields_sha256": "695488936e7ee6d0ccc69fca332ab819ea7ba09cddfc93a5e0bbb15cde10957f",
+      "all_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "source_ids_preserved": [
+        "src-32271a84417d",
+        "src-88043ced1f12",
+        "src-ae70be0aa294",
+        "src-f19dfee3ee0b"
+      ],
+      "original_plain_chars": 306,
+      "new_plain_chars": 325,
+      "audience_unchanged": true,
+      "evidence_and_source_fields_unchanged": true,
+      "numeric_tokens_removed": [],
+      "numeric_review": "移除引用hash与内部链接ID后逐条比对阿拉伯数字，原正文数值均保留；并手读保留单位、比较方向、时点与非统一阈值/适应人群条件。数字一致不是语义正确的自动证明。"
+    },
+    {
+      "id": "bodyskin-025",
+      "original_fields_sha256": "12692586182399516f8a8205a39cbe617dee39b3a8651c2fc9477f912a1a29b4",
+      "all_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "source_ids_preserved": [
+        "src-7cb5c2855f66",
+        "src-88043ced1f12"
+      ],
+      "original_plain_chars": 386,
+      "new_plain_chars": 333,
+      "audience_unchanged": true,
+      "evidence_and_source_fields_unchanged": true,
+      "numeric_tokens_removed": [],
+      "numeric_review": "移除引用hash与内部链接ID后逐条比对阿拉伯数字，原正文数值均保留；并手读保留单位、比较方向、时点与非统一阈值/适应人群条件。数字一致不是语义正确的自动证明。"
+    },
+    {
+      "id": "sleep-001",
+      "original_fields_sha256": "a4179d178db1fa8f7dbc00bb9b3a3196f1168608842d790db319285d7df78ec4",
+      "all_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "source_ids_preserved": [
+        "src-715a496c6365",
+        "src-893ef651a19a"
+      ],
+      "original_plain_chars": 237,
+      "new_plain_chars": 275,
+      "audience_unchanged": true,
+      "evidence_and_source_fields_unchanged": true,
+      "numeric_tokens_removed": [],
+      "numeric_review": "移除引用hash与内部链接ID后逐条比对阿拉伯数字，原正文数值均保留；并手读保留单位、比较方向、时点与非统一阈值/适应人群条件。数字一致不是语义正确的自动证明。"
+    },
+    {
+      "id": "basics-002",
+      "original_fields_sha256": "6b1b8ca80457f2f9aea4445b4e5173c9fdd9a1b3d2609440bb7b8f531ed96ea3",
+      "all_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "source_ids_preserved": [
+        "src-2abe6804263f",
+        "src-499f99e9405c",
+        "src-6668f337b3e8",
+        "src-79bf23ff9e46",
+        "src-cd4b7b6d016b"
+      ],
+      "original_plain_chars": 436,
+      "new_plain_chars": 361,
+      "audience_unchanged": true,
+      "evidence_and_source_fields_unchanged": true,
+      "numeric_tokens_removed": [],
+      "numeric_review": "移除引用hash与内部链接ID后逐条比对阿拉伯数字，原正文数值均保留；并手读保留单位、比较方向、时点与非统一阈值/适应人群条件。数字一致不是语义正确的自动证明。"
+    },
+    {
+      "id": "sleep-016",
+      "original_fields_sha256": "deeff1b6021ebb18aeb56e7456ec7340f30871c620f2f18cfd54d7ddd519b47c",
+      "all_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "source_ids_preserved": [
+        "src-038908e4e7c6",
+        "src-c014d3d86c94",
+        "src-f03398664368"
+      ],
+      "original_plain_chars": 430,
+      "new_plain_chars": 335,
+      "audience_unchanged": true,
+      "evidence_and_source_fields_unchanged": true,
+      "numeric_tokens_removed": [],
+      "numeric_review": "移除引用hash与内部链接ID后逐条比对阿拉伯数字，原正文数值均保留；并手读保留单位、比较方向、时点与非统一阈值/适应人群条件。数字一致不是语义正确的自动证明。"
+    },
+    {
+      "id": "basics-001",
+      "original_fields_sha256": "2cf98c1338de69ac97403984707dae7b5ea53984dc60f81338903c2f971aefce",
+      "all_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "source_ids_preserved": [
+        "src-4f6a7efe4cea",
+        "src-79bf23ff9e46"
+      ],
+      "original_plain_chars": 332,
+      "new_plain_chars": 277,
+      "audience_unchanged": true,
+      "evidence_and_source_fields_unchanged": true,
+      "numeric_tokens_removed": [],
+      "numeric_review": "移除引用hash与内部链接ID后逐条比对阿拉伯数字，原正文数值均保留；并手读保留单位、比较方向、时点与非统一阈值/适应人群条件。数字一致不是语义正确的自动证明。"
+    },
+    {
+      "id": "sleep-008",
+      "original_fields_sha256": "40079e3f64d1f4c50e079f6de770bb54451683981caffbcb1481affa5fb5edc1",
+      "all_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "source_ids_preserved": [
+        "src-2d9d78aa8728",
+        "src-861aa08775fa",
+        "src-aa0b8292eaef"
+      ],
+      "original_plain_chars": 326,
+      "new_plain_chars": 321,
+      "audience_unchanged": true,
+      "evidence_and_source_fields_unchanged": true,
+      "numeric_tokens_removed": [],
+      "numeric_review": "移除引用hash与内部链接ID后逐条比对阿拉伯数字，原正文数值均保留；并手读保留单位、比较方向、时点与非统一阈值/适应人群条件。数字一致不是语义正确的自动证明。"
+    },
+    {
+      "id": "sleep-005",
+      "original_fields_sha256": "e4f03cba1321fff281bfd0e10b59a73d978505b67cdda08698d4c8c746e98735",
+      "all_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "source_ids_preserved": [
+        "src-aa0b8292eaef",
+        "src-b2e57e10c6e3",
+        "src-c2a078d6da2a"
+      ],
+      "original_plain_chars": 293,
+      "new_plain_chars": 330,
+      "audience_unchanged": true,
+      "evidence_and_source_fields_unchanged": true,
+      "numeric_tokens_removed": [],
+      "numeric_review": "移除引用hash与内部链接ID后逐条比对阿拉伯数字，原正文数值均保留；并手读保留单位、比较方向、时点与非统一阈值/适应人群条件。数字一致不是语义正确的自动证明。"
+    },
+    {
+      "id": "sleep-006",
+      "original_fields_sha256": "e0876bf16ff0b4877f8574e05b54c7c08ebe0132c33ee57f921fd7dcd478007d",
+      "all_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "source_ids_preserved": [
+        "src-09bb56283492",
+        "src-aa0b8292eaef"
+      ],
+      "original_plain_chars": 384,
+      "new_plain_chars": 341,
+      "audience_unchanged": true,
+      "evidence_and_source_fields_unchanged": true,
+      "numeric_tokens_removed": [],
+      "numeric_review": "移除引用hash与内部链接ID后逐条比对阿拉伯数字，原正文数值均保留；并手读保留单位、比较方向、时点与非统一阈值/适应人群条件。数字一致不是语义正确的自动证明。"
+    },
+    {
+      "id": "sleep-009",
+      "original_fields_sha256": "27a02c7a9a1e9b874518df90af675a66e3bdccfd77e89e9137d24829b8663306",
+      "all_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "source_ids_preserved": [
+        "src-5afe9341967d",
+        "src-79bf23ff9e46",
+        "src-9b8c69f51225",
+        "src-aa0b8292eaef"
+      ],
+      "original_plain_chars": 688,
+      "new_plain_chars": 428,
+      "audience_unchanged": true,
+      "evidence_and_source_fields_unchanged": true,
+      "numeric_tokens_removed": [],
+      "numeric_review": "移除引用hash与内部链接ID后逐条比对阿拉伯数字，原正文数值均保留；并手读保留单位、比较方向、时点与非统一阈值/适应人群条件。数字一致不是语义正确的自动证明。"
+    },
+    {
+      "id": "sleep-010",
+      "original_fields_sha256": "a0bfb5ef26a0216b4635930882126737dd5e5f88ee39c398f4877f5d657f9f7d",
+      "all_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "source_ids_preserved": [
+        "src-34633915379e",
+        "src-58da6f6214a9",
+        "src-85f9f6822b04",
+        "src-a2f37bd89805",
+        "src-aa0b8292eaef",
+        "src-f7a1589039c6"
+      ],
+      "original_plain_chars": 687,
+      "new_plain_chars": 472,
+      "audience_unchanged": true,
+      "evidence_and_source_fields_unchanged": true,
+      "numeric_tokens_removed": [],
+      "numeric_review": "移除引用hash与内部链接ID后逐条比对阿拉伯数字，原正文数值均保留；并手读保留单位、比较方向、时点与非统一阈值/适应人群条件。数字一致不是语义正确的自动证明。"
+    },
+    {
+      "id": "sleep-011",
+      "original_fields_sha256": "f8e29a0c5394089351d54e8e9d48f5fa9b012c0b008f7d7b8ba6c01a0b3975cd",
+      "all_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "source_ids_preserved": [
+        "src-2254188f0992",
+        "src-5b742a0d2a1e",
+        "src-9edafe35e197",
+        "src-aa0b8292eaef",
+        "src-eb0c829a5a9b",
+        "src-ed707b93e933"
+      ],
+      "original_plain_chars": 701,
+      "new_plain_chars": 418,
+      "audience_unchanged": true,
+      "evidence_and_source_fields_unchanged": true,
+      "numeric_tokens_removed": [],
+      "numeric_review": "移除引用hash与内部链接ID后逐条比对阿拉伯数字，原正文数值均保留；并手读保留单位、比较方向、时点与非统一阈值/适应人群条件。数字一致不是语义正确的自动证明。"
+    },
+    {
+      "id": "sleep-014",
+      "original_fields_sha256": "e1c52e435363e15fa374383251270dc0c16857a334ae55c5f3131353138fdbf8",
+      "all_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "source_ids_preserved": [
+        "src-5b742a0d2a1e",
+        "src-931850f6c390",
+        "src-e2d9fb266822"
+      ],
+      "original_plain_chars": 483,
+      "new_plain_chars": 361,
+      "audience_unchanged": true,
+      "evidence_and_source_fields_unchanged": true,
+      "numeric_tokens_removed": [],
+      "numeric_review": "移除引用hash与内部链接ID后逐条比对阿拉伯数字，原正文数值均保留；并手读保留单位、比较方向、时点与非统一阈值/适应人群条件。数字一致不是语义正确的自动证明。"
+    },
+    {
+      "id": "sleep-002",
+      "original_fields_sha256": "d1a21e76da88fa7b44011c1c615fccdf77d5a8e0d5fe8d399746ba664a66c6d7",
+      "all_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "source_ids_preserved": [
+        "src-893ef651a19a",
+        "src-931850f6c390",
+        "src-c2a078d6da2a"
+      ],
+      "original_plain_chars": 299,
+      "new_plain_chars": 337,
+      "audience_unchanged": true,
+      "evidence_and_source_fields_unchanged": true,
+      "numeric_tokens_removed": [],
+      "numeric_review": "移除引用hash与内部链接ID后逐条比对阿拉伯数字，原正文数值均保留；并手读保留单位、比较方向、时点与非统一阈值/适应人群条件。数字一致不是语义正确的自动证明。"
+    },
+    {
+      "id": "sleep-003",
+      "original_fields_sha256": "e1e543b2d9b51921413bd419c2445b3abaaa2f8938ee11589c5f0a76e049466e",
+      "all_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "source_ids_preserved": [
+        "src-8c8dc6474201",
+        "src-98bacdc499e7",
+        "src-b2e57e10c6e3",
+        "src-e862e73c5608"
+      ],
+      "original_plain_chars": 582,
+      "new_plain_chars": 438,
+      "audience_unchanged": true,
+      "evidence_and_source_fields_unchanged": true,
+      "numeric_tokens_removed": [],
+      "numeric_review": "移除引用hash与内部链接ID后逐条比对阿拉伯数字，原正文数值均保留；并手读保留单位、比较方向、时点与非统一阈值/适应人群条件。数字一致不是语义正确的自动证明。"
+    },
+    {
+      "id": "sleep-004",
+      "original_fields_sha256": "324922ff6f3e98c6e88db84f14c44073146bdf6bb48d16fd3b1a87e5d0507894",
+      "all_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "source_ids_preserved": [
+        "src-724f76776522",
+        "src-e862e73c5608"
+      ],
+      "original_plain_chars": 327,
+      "new_plain_chars": 310,
+      "audience_unchanged": true,
+      "evidence_and_source_fields_unchanged": true,
+      "numeric_tokens_removed": [],
+      "numeric_review": "移除引用hash与内部链接ID后逐条比对阿拉伯数字，原正文数值均保留；并手读保留单位、比较方向、时点与非统一阈值/适应人群条件。数字一致不是语义正确的自动证明。"
+    },
+    {
+      "id": "sleep-015",
+      "original_fields_sha256": "cdeef0ac3e33dd2cc2ea710044c3cac3eaf6a4ddbdd09cdc72633b7fc87a7d01",
+      "all_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "source_ids_preserved": [
+        "src-30b3cb102619",
+        "src-6932c3116e83",
+        "src-baded08237e1",
+        "src-c7601dedb1ef"
+      ],
+      "original_plain_chars": 506,
+      "new_plain_chars": 414,
+      "audience_unchanged": true,
+      "evidence_and_source_fields_unchanged": true,
+      "numeric_tokens_removed": [],
+      "numeric_review": "移除引用hash与内部链接ID后逐条比对阿拉伯数字，原正文数值均保留；并手读保留单位、比较方向、时点与非统一阈值/适应人群条件。数字一致不是语义正确的自动证明。"
+    },
+    {
+      "id": "sleep-007",
+      "original_fields_sha256": "494e04b17c6e7752b5592e0fa403246c3c8e431e2675a8f1d699550d84fa5b84",
+      "all_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "source_ids_preserved": [
+        "src-332282837502",
+        "src-da94ff890c47",
+        "src-ec04bf22553a"
+      ],
+      "original_plain_chars": 429,
+      "new_plain_chars": 334,
+      "audience_unchanged": true,
+      "evidence_and_source_fields_unchanged": true,
+      "numeric_tokens_removed": [],
+      "numeric_review": "移除引用hash与内部链接ID后逐条比对阿拉伯数字，原正文数值均保留；并手读保留单位、比较方向、时点与非统一阈值/适应人群条件。数字一致不是语义正确的自动证明。"
+    },
+    {
+      "id": "sleep-012",
+      "original_fields_sha256": "32ae2d456a1d98aba14b22dc83a2b3cf42d5097ba882a899a6ad2e6e08120c9a",
+      "all_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "source_ids_preserved": [
+        "src-51e32635bdd8",
+        "src-715a496c6365",
+        "src-79bf23ff9e46",
+        "src-aa0b8292eaef",
+        "src-f7aa2541ac2a",
+        "src-fcae53dfe03b"
+      ],
+      "original_plain_chars": 746,
+      "new_plain_chars": 421,
+      "audience_unchanged": true,
+      "evidence_and_source_fields_unchanged": true,
+      "numeric_tokens_removed": [],
+      "numeric_review": "移除引用hash与内部链接ID后逐条比对阿拉伯数字，原正文数值均保留；并手读保留单位、比较方向、时点与非统一阈值/适应人群条件。数字一致不是语义正确的自动证明。"
+    },
+    {
+      "id": "sleep-013",
+      "original_fields_sha256": "de5a411fea1741ab6caadff109c8f760ddf0affd65ad93419dc826c107efac39",
+      "all_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "source_ids_preserved": [
+        "src-715a496c6365",
+        "src-a37215aef61c",
+        "src-e2abf4fe2ca6"
+      ],
+      "original_plain_chars": 649,
+      "new_plain_chars": 415,
+      "audience_unchanged": true,
+      "evidence_and_source_fields_unchanged": true,
+      "numeric_tokens_removed": [],
+      "numeric_review": "移除引用hash与内部链接ID后逐条比对阿拉伯数字，原正文数值均保留；并手读保留单位、比较方向、时点与非统一阈值/适应人群条件。数字一致不是语义正确的自动证明。"
+    },
+    {
+      "id": "nutrition-001",
+      "original_fields_sha256": "4ff5e7d94432843ebbeea95cabbd6d3e194e8980c01749ffdac39c786ba6ffc4",
+      "all_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "source_ids_preserved": [
+        "src-466f0e257781",
+        "src-b58c0847900b",
+        "src-d5762c33a4ee"
+      ],
+      "original_plain_chars": 475,
+      "new_plain_chars": 398,
+      "audience_unchanged": true,
+      "evidence_and_source_fields_unchanged": true,
+      "numeric_tokens_removed": [],
+      "numeric_review": "移除引用hash与内部链接ID后逐条比对阿拉伯数字，原正文数值均保留；并手读保留单位、比较方向、时点与非统一阈值/适应人群条件。数字一致不是语义正确的自动证明。"
+    },
+    {
+      "id": "basics-004",
+      "original_fields_sha256": "6716e8d2637968981dc67841fe62f9350f6b4d9877f01469ba433cf8be170328",
+      "all_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "source_ids_preserved": [
+        "src-207969b16db6",
+        "src-404fbb19296c",
+        "src-fbc69567b349"
+      ],
+      "original_plain_chars": 459,
+      "new_plain_chars": 343,
+      "audience_unchanged": true,
+      "evidence_and_source_fields_unchanged": true,
+      "numeric_tokens_removed": [],
+      "numeric_review": "移除引用hash与内部链接ID后逐条比对阿拉伯数字，原正文数值均保留；并手读保留单位、比较方向、时点与非统一阈值/适应人群条件。数字一致不是语义正确的自动证明。"
+    },
+    {
+      "id": "nutrition-013",
+      "original_fields_sha256": "ff23a1b0134052ad3bd9efb89f3a4fb7a7aeb4750c7cacf24565a0711e6592d2",
+      "all_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "source_ids_preserved": [
+        "src-207969b16db6",
+        "src-95c0e220b502",
+        "src-dc4a5a9176a3"
+      ],
+      "original_plain_chars": 855,
+      "new_plain_chars": 416,
+      "audience_unchanged": true,
+      "evidence_and_source_fields_unchanged": true,
+      "numeric_tokens_removed": [],
+      "numeric_review": "移除引用hash与内部链接ID后逐条比对阿拉伯数字，原正文数值均保留；并手读保留单位、比较方向、时点与非统一阈值/适应人群条件。数字一致不是语义正确的自动证明。"
+    },
+    {
+      "id": "nutrition-012",
+      "original_fields_sha256": "6c1db0afcbfb31394fdbd611fd3dcfc361789b48ba7d2b85cb7cf34a2c1eef2b",
+      "all_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "source_ids_preserved": [
+        "src-21eee6d9e9d4",
+        "src-3dff3effb388",
+        "src-4a92423a4f35",
+        "src-746d3f03bb45",
+        "src-81824f7eb6fa",
+        "src-8251845ef8f6",
+        "src-f04b7eb27f5b"
+      ],
+      "original_plain_chars": 834,
+      "new_plain_chars": 482,
+      "audience_unchanged": true,
+      "evidence_and_source_fields_unchanged": true,
+      "numeric_tokens_removed": [],
+      "numeric_review": "移除引用hash与内部链接ID后逐条比对阿拉伯数字，原正文数值均保留；并手读保留单位、比较方向、时点与非统一阈值/适应人群条件。数字一致不是语义正确的自动证明。"
+    },
+    {
+      "id": "nutrition-014",
+      "original_fields_sha256": "868dafa9d757c22e181fccdf5b74e5c3ed6cc1ec94a16d4b71e4eecb922ac218",
+      "all_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "source_ids_preserved": [
+        "src-1a16538e8280",
+        "src-207969b16db6",
+        "src-221ccaff8ebb",
+        "src-b74b601e3d56",
+        "src-c2e220e09b1e",
+        "src-c88f50a2fe8e"
+      ],
+      "original_plain_chars": 917,
+      "new_plain_chars": 469,
+      "audience_unchanged": true,
+      "evidence_and_source_fields_unchanged": true,
+      "numeric_tokens_removed": [],
+      "numeric_review": "移除引用hash与内部链接ID后逐条比对阿拉伯数字，原正文数值均保留；并手读保留单位、比较方向、时点与非统一阈值/适应人群条件。数字一致不是语义正确的自动证明。"
+    },
+    {
+      "id": "basics-005",
+      "original_fields_sha256": "a430f4c4472cd1555d41467a026a66c0937426884adf99c6ac2a051cc46853ff",
+      "all_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "source_ids_preserved": [
+        "src-04faeb0350fa",
+        "src-e8e2047cf43f"
+      ],
+      "original_plain_chars": 336,
+      "new_plain_chars": 290,
+      "audience_unchanged": true,
+      "evidence_and_source_fields_unchanged": true,
+      "numeric_tokens_removed": [],
+      "numeric_review": "移除引用hash与内部链接ID后逐条比对阿拉伯数字，原正文数值均保留；并手读保留单位、比较方向、时点与非统一阈值/适应人群条件。数字一致不是语义正确的自动证明。"
+    },
+    {
+      "id": "nutrition-015",
+      "original_fields_sha256": "fba3793aa7ade9df7136140e80759d0029aa25bb9486ac20132b74bd38812c53",
+      "all_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "source_ids_preserved": [
+        "src-051639c8f741",
+        "src-207969b16db6",
+        "src-9dba79aaa578",
+        "src-9f794f072fad",
+        "src-f7a1589039c6"
+      ],
+      "original_plain_chars": 774,
+      "new_plain_chars": 485,
+      "audience_unchanged": true,
+      "evidence_and_source_fields_unchanged": true,
+      "numeric_tokens_removed": [],
+      "numeric_review": "移除引用hash与内部链接ID后逐条比对阿拉伯数字，原正文数值均保留；并手读保留单位、比较方向、时点与非统一阈值/适应人群条件。数字一致不是语义正确的自动证明。"
+    },
+    {
+      "id": "nutrition-016",
+      "original_fields_sha256": "f709ce605f53fd33d7bc0863363776f5678e492972a6858d334198ed0433820c",
+      "all_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "source_ids_preserved": [
+        "src-01d4b2c80155",
+        "src-1f245ebec88e",
+        "src-647625dc1130",
+        "src-c44f601e1c37",
+        "src-cbf9d28a5de4",
+        "src-df9c16d9396f"
+      ],
+      "original_plain_chars": 948,
+      "new_plain_chars": 502,
+      "audience_unchanged": true,
+      "evidence_and_source_fields_unchanged": true,
+      "numeric_tokens_removed": [],
+      "numeric_review": "移除引用hash与内部链接ID后逐条比对阿拉伯数字，原正文数值均保留；并手读保留单位、比较方向、时点与非统一阈值/适应人群条件。数字一致不是语义正确的自动证明。"
+    },
+    {
+      "id": "nutrition-020",
+      "original_fields_sha256": "770048cf8bfa0c660eb4967a56be3a6f2448bdcd4a33baa250598208ef524337",
+      "all_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "source_ids_preserved": [
+        "src-6904e1acf609",
+        "src-d0934036c7c5",
+        "src-d9882eacf41f",
+        "src-e3cfea4fddb6"
+      ],
+      "original_plain_chars": 704,
+      "new_plain_chars": 443,
+      "audience_unchanged": true,
+      "evidence_and_source_fields_unchanged": true,
+      "numeric_tokens_removed": [],
+      "numeric_review": "移除引用hash与内部链接ID后逐条比对阿拉伯数字，原正文数值均保留；并手读保留单位、比较方向、时点与非统一阈值/适应人群条件。数字一致不是语义正确的自动证明。"
+    },
+    {
+      "id": "basics-010",
+      "original_fields_sha256": "c3b50ca2bb61816a9d6cb81acc246769dd3100bd5edab1eb89d969238e2c57cc",
+      "all_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "source_ids_preserved": [
+        "src-404fbb19296c"
+      ],
+      "original_plain_chars": 346,
+      "new_plain_chars": 295,
+      "audience_unchanged": true,
+      "evidence_and_source_fields_unchanged": true,
+      "numeric_tokens_removed": [],
+      "numeric_review": "移除引用hash与内部链接ID后逐条比对阿拉伯数字，原正文数值均保留；并手读保留单位、比较方向、时点与非统一阈值/适应人群条件。数字一致不是语义正确的自动证明。"
+    },
+    {
+      "id": "nutrition-021",
+      "original_fields_sha256": "66f955b660aaa359744b544a41e461a2453b3ea6579ee38f7b2884ae71616f1f",
+      "all_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "source_ids_preserved": [
+        "src-12c34e77dba9",
+        "src-a3cdd23488e2",
+        "src-e3cfea4fddb6"
+      ],
+      "original_plain_chars": 616,
+      "new_plain_chars": 463,
+      "audience_unchanged": true,
+      "evidence_and_source_fields_unchanged": true,
+      "numeric_tokens_removed": [],
+      "numeric_review": "移除引用hash与内部链接ID后逐条比对阿拉伯数字，原正文数值均保留；并手读保留单位、比较方向、时点与非统一阈值/适应人群条件。数字一致不是语义正确的自动证明。"
+    },
+    {
+      "id": "nutrition-022",
+      "original_fields_sha256": "4f5ea07143b474fa3000e66513a6b40925f052b11e5dd496f4f054898d054636",
+      "all_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "source_ids_preserved": [
+        "src-3f2015b913c3",
+        "src-533643c22211",
+        "src-e3cfea4fddb6"
+      ],
+      "original_plain_chars": 579,
+      "new_plain_chars": 362,
+      "audience_unchanged": true,
+      "evidence_and_source_fields_unchanged": true,
+      "numeric_tokens_removed": [],
+      "numeric_review": "移除引用hash与内部链接ID后逐条比对阿拉伯数字，原正文数值均保留；并手读保留单位、比较方向、时点与非统一阈值/适应人群条件。数字一致不是语义正确的自动证明。"
+    },
+    {
+      "id": "nutrition-023",
+      "original_fields_sha256": "905a5d707fde8c1ce97e486745baca1beb331581d869460556fe559c339f9beb",
+      "all_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "source_ids_preserved": [
+        "src-d88a9fb708b6"
+      ],
+      "original_plain_chars": 399,
+      "new_plain_chars": 284,
+      "audience_unchanged": true,
+      "evidence_and_source_fields_unchanged": true,
+      "numeric_tokens_removed": [],
+      "numeric_review": "移除引用hash与内部链接ID后逐条比对阿拉伯数字，原正文数值均保留；并手读保留单位、比较方向、时点与非统一阈值/适应人群条件。数字一致不是语义正确的自动证明。"
+    },
+    {
+      "id": "nutrition-002",
+      "original_fields_sha256": "07bcfb84e20122699596caccf06f69ede6696f7f8c848e15e0c52c4c1e8f853e",
+      "all_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "source_ids_preserved": [
+        "src-466f0e257781",
+        "src-5fdbd79006e0",
+        "src-60722c77deee",
+        "src-758a5119afce",
+        "src-b58c0847900b"
+      ],
+      "original_plain_chars": 527,
+      "new_plain_chars": 395,
+      "audience_unchanged": true,
+      "evidence_and_source_fields_unchanged": true,
+      "numeric_tokens_removed": [],
+      "numeric_review": "移除引用hash与内部链接ID后逐条比对阿拉伯数字，原正文数值均保留；并手读保留单位、比较方向、时点与非统一阈值/适应人群条件。数字一致不是语义正确的自动证明。"
+    },
+    {
+      "id": "nutrition-003",
+      "original_fields_sha256": "18d53172d138981ec39bfd06e0e02b8cf14498752d7f0e4e8eaeb5ee7dcfc55d",
+      "all_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "source_ids_preserved": [
+        "src-466f0e257781",
+        "src-60722c77deee",
+        "src-b58c0847900b",
+        "src-c14bb81a9b0f"
+      ],
+      "original_plain_chars": 447,
+      "new_plain_chars": 358,
+      "audience_unchanged": true,
+      "evidence_and_source_fields_unchanged": true,
+      "numeric_tokens_removed": [],
+      "numeric_review": "移除引用hash与内部链接ID后逐条比对阿拉伯数字，原正文数值均保留；并手读保留单位、比较方向、时点与非统一阈值/适应人群条件。数字一致不是语义正确的自动证明。"
+    },
+    {
+      "id": "nutrition-004",
+      "original_fields_sha256": "3b76ef7dec901775ab9f3ab2caf4773ba7ac962b8870bc1d70181d6919e3b8db",
+      "all_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "source_ids_preserved": [
+        "src-2691e48da729",
+        "src-404fbb19296c",
+        "src-60722c77deee"
+      ],
+      "original_plain_chars": 472,
+      "new_plain_chars": 402,
+      "audience_unchanged": true,
+      "evidence_and_source_fields_unchanged": true,
+      "numeric_tokens_removed": [],
+      "numeric_review": "移除引用hash与内部链接ID后逐条比对阿拉伯数字，原正文数值均保留；并手读保留单位、比较方向、时点与非统一阈值/适应人群条件。数字一致不是语义正确的自动证明。"
+    },
+    {
+      "id": "nutrition-008",
+      "original_fields_sha256": "c32141cd1ff207b5802da9ae33d19c9ed7eeb8afe65a0594dc1e9ae59f39ad6a",
+      "all_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "source_ids_preserved": [
+        "src-404fbb19296c",
+        "src-60722c77deee"
+      ],
+      "original_plain_chars": 426,
+      "new_plain_chars": 337,
+      "audience_unchanged": true,
+      "evidence_and_source_fields_unchanged": true,
+      "numeric_tokens_removed": [],
+      "numeric_review": "移除引用hash与内部链接ID后逐条比对阿拉伯数字，原正文数值均保留；并手读保留单位、比较方向、时点与非统一阈值/适应人群条件。数字一致不是语义正确的自动证明。"
+    },
+    {
+      "id": "nutrition-011",
+      "original_fields_sha256": "708564b18bda1b57aeeb39c189c60e8daeb1fd280d290af41f21f6df67289a28",
+      "all_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "source_ids_preserved": [
+        "src-648b8590d1ce",
+        "src-c877597c8b68"
+      ],
+      "original_plain_chars": 409,
+      "new_plain_chars": 294,
+      "audience_unchanged": true,
+      "evidence_and_source_fields_unchanged": true,
+      "numeric_tokens_removed": [],
+      "numeric_review": "移除引用hash与内部链接ID后逐条比对阿拉伯数字，原正文数值均保留；并手读保留单位、比较方向、时点与非统一阈值/适应人群条件。数字一致不是语义正确的自动证明。"
+    },
+    {
+      "id": "basics-007",
+      "original_fields_sha256": "fa19bc42e33bb24d65a674cf990a3dfa8c61cb077494ffa2a73b63ec443b71cd",
+      "all_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "source_ids_preserved": [
+        "src-3db4b9a0675c"
+      ],
+      "original_plain_chars": 341,
+      "new_plain_chars": 296,
+      "audience_unchanged": true,
+      "evidence_and_source_fields_unchanged": true,
+      "numeric_tokens_removed": [],
+      "numeric_review": "移除引用hash与内部链接ID后逐条比对阿拉伯数字，原正文数值均保留；并手读保留单位、比较方向、时点与非统一阈值/适应人群条件。数字一致不是语义正确的自动证明。"
+    },
+    {
+      "id": "nutrition-005",
+      "original_fields_sha256": "2c2ecf6a812286c174cbe8236029c118a224bf0dbe630787485faa64a85bf3a6",
+      "all_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "source_ids_preserved": [
+        "src-a6135c582001",
+        "src-b6653af7c3bb"
+      ],
+      "original_plain_chars": 455,
+      "new_plain_chars": 337,
+      "audience_unchanged": true,
+      "evidence_and_source_fields_unchanged": true,
+      "numeric_tokens_removed": [],
+      "numeric_review": "移除引用hash与内部链接ID后逐条比对阿拉伯数字，原正文数值均保留；并手读保留单位、比较方向、时点与非统一阈值/适应人群条件。数字一致不是语义正确的自动证明。"
+    },
+    {
+      "id": "nutrition-006",
+      "original_fields_sha256": "8c8406f3e54e33767574d572ed5c371509b80e41bd41c1b4ad895f2a7829c818",
+      "all_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "source_ids_preserved": [
+        "src-8d212480012f",
+        "src-a90ad798f241",
+        "src-b6653af7c3bb",
+        "src-d7fc40497e33"
+      ],
+      "original_plain_chars": 580,
+      "new_plain_chars": 424,
+      "audience_unchanged": true,
+      "evidence_and_source_fields_unchanged": true,
+      "numeric_tokens_removed": [],
+      "numeric_review": "移除引用hash与内部链接ID后逐条比对阿拉伯数字，原正文数值均保留；并手读保留单位、比较方向、时点与非统一阈值/适应人群条件。数字一致不是语义正确的自动证明。"
+    },
+    {
+      "id": "nutrition-007",
+      "original_fields_sha256": "f29048d3bab2a50bc495cc2471f8db9237e74e9507c9014dfe5064e9ae750ed5",
+      "all_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "source_ids_preserved": [
+        "src-a0969ba228d3",
+        "src-aeeac5955a4b",
+        "src-b6653af7c3bb"
+      ],
+      "original_plain_chars": 483,
+      "new_plain_chars": 338,
+      "audience_unchanged": true,
+      "evidence_and_source_fields_unchanged": true,
+      "numeric_tokens_removed": [],
+      "numeric_review": "移除引用hash与内部链接ID后逐条比对阿拉伯数字，原正文数值均保留；并手读保留单位、比较方向、时点与非统一阈值/适应人群条件。数字一致不是语义正确的自动证明。"
+    },
+    {
+      "id": "nutrition-009",
+      "original_fields_sha256": "84a5149e705efdc070aa326d93a2ffb3d5fbcd70c572701dffa9e8e903261208",
+      "all_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "source_ids_preserved": [
+        "src-6b0e3e1da079",
+        "src-704851d0c5f3",
+        "src-a0d311f14c6a",
+        "src-b26bf3573369",
+        "src-d9882eacf41f"
+      ],
+      "original_plain_chars": 723,
+      "new_plain_chars": 538,
+      "audience_unchanged": true,
+      "evidence_and_source_fields_unchanged": true,
+      "numeric_tokens_removed": [],
+      "numeric_review": "移除引用hash与内部链接ID后逐条比对阿拉伯数字，原正文数值均保留；并手读保留单位、比较方向、时点与非统一阈值/适应人群条件。数字一致不是语义正确的自动证明。"
+    },
+    {
+      "id": "nutrition-017",
+      "original_fields_sha256": "35c475704ae542686bcf2a6a98d218c27dddb2a63f76db7a569d4d00ca3c833a",
+      "all_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "source_ids_preserved": [
+        "src-4028138dc4d5",
+        "src-6b0e3e1da079",
+        "src-704851d0c5f3",
+        "src-9d7643fe0c2e",
+        "src-b26bf3573369",
+        "src-d9882eacf41f"
+      ],
+      "original_plain_chars": 1438,
+      "new_plain_chars": 987,
+      "audience_unchanged": true,
+      "evidence_and_source_fields_unchanged": true,
+      "numeric_tokens_removed": [],
+      "numeric_review": "移除引用hash与内部链接ID后逐条比对阿拉伯数字，原正文数值均保留；并手读保留单位、比较方向、时点与非统一阈值/适应人群条件。数字一致不是语义正确的自动证明。"
+    },
+    {
+      "id": "nutrition-018",
+      "original_fields_sha256": "d65693e5d2e975edceb493115456fbee98c89962c111d788879149e7055a94da",
+      "all_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "source_ids_preserved": [
+        "src-6b0e3e1da079",
+        "src-704851d0c5f3",
+        "src-a0d311f14c6a",
+        "src-b26bf3573369",
+        "src-d9882eacf41f"
+      ],
+      "original_plain_chars": 1443,
+      "new_plain_chars": 978,
+      "audience_unchanged": true,
+      "evidence_and_source_fields_unchanged": true,
+      "numeric_tokens_removed": [],
+      "numeric_review": "移除引用hash与内部链接ID后逐条比对阿拉伯数字，原正文数值均保留；并手读保留单位、比较方向、时点与非统一阈值/适应人群条件。数字一致不是语义正确的自动证明。"
+    },
+    {
+      "id": "nutrition-019",
+      "original_fields_sha256": "65d64dc5b112bd601553f5308f0d98e5f15ed1b34c73473aa4fca9e125491978",
+      "all_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "source_ids_preserved": [
+        "src-39062178e496",
+        "src-3fee11f9be8a",
+        "src-6b0e3e1da079",
+        "src-6e89c66826b0",
+        "src-704851d0c5f3",
+        "src-af79c1327276",
+        "src-b26bf3573369",
+        "src-d5e2e78b695f",
+        "src-d9882eacf41f"
+      ],
+      "original_plain_chars": 1236,
+      "new_plain_chars": 796,
+      "audience_unchanged": true,
+      "evidence_and_source_fields_unchanged": true,
+      "numeric_tokens_removed": [],
+      "numeric_review": "移除引用hash与内部链接ID后逐条比对阿拉伯数字，原正文数值均保留；并手读保留单位、比较方向、时点与非统一阈值/适应人群条件。数字一致不是语义正确的自动证明。"
+    },
+    {
+      "id": "nutrition-010",
+      "original_fields_sha256": "440bc3d81052050041b9e98a6fb3c9cf7abd6aabe68b521720d83c6db3a4a40e",
+      "all_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "source_ids_preserved": [
+        "src-2691e48da729",
+        "src-47b972704125"
+      ],
+      "original_plain_chars": 418,
+      "new_plain_chars": 324,
+      "audience_unchanged": true,
+      "evidence_and_source_fields_unchanged": true,
+      "numeric_tokens_removed": [],
+      "numeric_review": "移除引用hash与内部链接ID后逐条比对阿拉伯数字，原正文数值均保留；并手读保留单位、比较方向、时点与非统一阈值/适应人群条件。数字一致不是语义正确的自动证明。"
+    },
+    {
+      "id": "activity-001",
+      "original_fields_sha256": "d867358163ce63b1475123e6415468e20bb9e8ae8a4829f94ab6305b5b9f2d30",
+      "all_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "source_ids_preserved": [
+        "src-376e517e8cdf",
+        "src-853b7234a9c7"
+      ],
+      "original_plain_chars": 466,
+      "new_plain_chars": 351,
+      "audience_unchanged": true,
+      "evidence_and_source_fields_unchanged": true,
+      "numeric_tokens_removed": [],
+      "numeric_review": "移除引用hash与内部链接ID后逐条比对阿拉伯数字，原正文数值均保留；并手读保留单位、比较方向、时点与非统一阈值/适应人群条件。数字一致不是语义正确的自动证明。"
+    },
+    {
+      "id": "activity-002",
+      "original_fields_sha256": "5492e83a6f8df45ce7d26c0f495c3e6ab79535d4dfc2d5f0e0afa334f4b99204",
+      "all_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "source_ids_preserved": [
+        "src-31f3a3d6ae6c",
+        "src-5c93ab2ce47d",
+        "src-80d1fb58f88e"
+      ],
+      "original_plain_chars": 470,
+      "new_plain_chars": 359,
+      "audience_unchanged": true,
+      "evidence_and_source_fields_unchanged": true,
+      "numeric_tokens_removed": [],
+      "numeric_review": "移除引用hash与内部链接ID后逐条比对阿拉伯数字，原正文数值均保留；并手读保留单位、比较方向、时点与非统一阈值/适应人群条件。数字一致不是语义正确的自动证明。"
+    },
+    {
+      "id": "activity-003",
+      "original_fields_sha256": "294784eb056551cba38bb81ab538bf174f56b4dc9a3c131ad3930065ca4c9d26",
+      "all_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "source_ids_preserved": [
+        "src-6a09c472fd47",
+        "src-6ac0b43d8a6f"
+      ],
+      "original_plain_chars": 478,
+      "new_plain_chars": 356,
+      "audience_unchanged": true,
+      "evidence_and_source_fields_unchanged": true,
+      "numeric_tokens_removed": [],
+      "numeric_review": "移除引用hash与内部链接ID后逐条比对阿拉伯数字，原正文数值均保留；并手读保留单位、比较方向、时点与非统一阈值/适应人群条件。数字一致不是语义正确的自动证明。"
+    },
+    {
+      "id": "basics-006",
+      "original_fields_sha256": "91687892127087461fceb7135450a0c5bb7caad8394c917200737a4333407235",
+      "all_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "source_ids_preserved": [
+        "src-1a852970dfcd",
+        "src-2e724edc0daa"
+      ],
+      "original_plain_chars": 350,
+      "new_plain_chars": 290,
+      "audience_unchanged": true,
+      "evidence_and_source_fields_unchanged": true,
+      "numeric_tokens_removed": [],
+      "numeric_review": "移除引用hash与内部链接ID后逐条比对阿拉伯数字，原正文数值均保留；并手读保留单位、比较方向、时点与非统一阈值/适应人群条件。数字一致不是语义正确的自动证明。"
+    },
+    {
+      "id": "activity-004",
+      "original_fields_sha256": "de66801300ebf6f13807e1db92c38e2c020e22df8ce9cb4a2de64a708141140d",
+      "all_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "source_ids_preserved": [
+        "src-2a9964c6a4f4",
+        "src-c574bad1b284"
+      ],
+      "original_plain_chars": 426,
+      "new_plain_chars": 282,
+      "audience_unchanged": true,
+      "evidence_and_source_fields_unchanged": true,
+      "numeric_tokens_removed": [],
+      "numeric_review": "移除引用hash与内部链接ID后逐条比对阿拉伯数字，原正文数值均保留；并手读保留单位、比较方向、时点与非统一阈值/适应人群条件。数字一致不是语义正确的自动证明。"
+    },
+    {
+      "id": "activity-009",
+      "original_fields_sha256": "c5294c10677cc5c9c89288730d3745b0781d948c9a6806eaaa52f99dd599d3a9",
+      "all_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "source_ids_preserved": [
+        "src-84be9289366c"
+      ],
+      "original_plain_chars": 577,
+      "new_plain_chars": 325,
+      "audience_unchanged": true,
+      "evidence_and_source_fields_unchanged": true,
+      "numeric_tokens_removed": [],
+      "numeric_review": "移除引用hash与内部链接ID后逐条比对阿拉伯数字，原正文数值均保留；并手读保留单位、比较方向、时点与非统一阈值/适应人群条件。数字一致不是语义正确的自动证明。"
+    },
+    {
+      "id": "activity-005",
+      "original_fields_sha256": "6f4dbf0cd1513a48e0923c149236b7f2b06b3c172393f66e1418978131de9955",
+      "all_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "source_ids_preserved": [
+        "src-0c3a0dbaa46a",
+        "src-18505bf70d76",
+        "src-2a9964c6a4f4",
+        "src-6ac0b43d8a6f"
+      ],
+      "original_plain_chars": 488,
+      "new_plain_chars": 399,
+      "audience_unchanged": true,
+      "evidence_and_source_fields_unchanged": true,
+      "numeric_tokens_removed": [],
+      "numeric_review": "移除引用hash与内部链接ID后逐条比对阿拉伯数字，原正文数值均保留；并手读保留单位、比较方向、时点与非统一阈值/适应人群条件。数字一致不是语义正确的自动证明。"
+    },
+    {
+      "id": "activity-006",
+      "original_fields_sha256": "053a3b1645876b4f5d8bf929874f52ca0f4887283752bb8e5f19769ea0244197",
+      "all_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "source_ids_preserved": [
+        "src-3c1e1a7611ef",
+        "src-90ab3e226ca1",
+        "src-aa3a1fbf8358",
+        "src-aad096b472ff",
+        "src-d18f37438dec"
+      ],
+      "original_plain_chars": 615,
+      "new_plain_chars": 410,
+      "audience_unchanged": true,
+      "evidence_and_source_fields_unchanged": true,
+      "numeric_tokens_removed": [],
+      "numeric_review": "移除引用hash与内部链接ID后逐条比对阿拉伯数字，原正文数值均保留；并手读保留单位、比较方向、时点与非统一阈值/适应人群条件。数字一致不是语义正确的自动证明。"
+    },
+    {
+      "id": "activity-007",
+      "original_fields_sha256": "ce401e0867e37a0fc0e469c3c8877bbd322d84489456c2b0a012a12085823ed7",
+      "all_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "source_ids_preserved": [
+        "src-376e517e8cdf",
+        "src-58150fb396e5",
+        "src-642a568945fb",
+        "src-853b7234a9c7"
+      ],
+      "original_plain_chars": 475,
+      "new_plain_chars": 344,
+      "audience_unchanged": true,
+      "evidence_and_source_fields_unchanged": true,
+      "numeric_tokens_removed": [],
+      "numeric_review": "移除引用hash与内部链接ID后逐条比对阿拉伯数字，原正文数值均保留；并手读保留单位、比较方向、时点与非统一阈值/适应人群条件。数字一致不是语义正确的自动证明。"
+    },
+    {
+      "id": "activity-008",
+      "original_fields_sha256": "2fcd9ee45bd05f5922d629e9a829ad49709114c69fd5206d10a6646e7289c311",
+      "all_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "source_ids_preserved": [
+        "src-06ca1024654c",
+        "src-1f052e76b0dc",
+        "src-376e517e8cdf",
+        "src-42da6d695709",
+        "src-853b7234a9c7"
+      ],
+      "original_plain_chars": 624,
+      "new_plain_chars": 433,
+      "audience_unchanged": true,
+      "evidence_and_source_fields_unchanged": true,
+      "numeric_tokens_removed": [],
+      "numeric_review": "移除引用hash与内部链接ID后逐条比对阿拉伯数字，原正文数值均保留；并手读保留单位、比较方向、时点与非统一阈值/适应人群条件。数字一致不是语义正确的自动证明。"
+    },
+    {
+      "id": "basics-003",
+      "original_fields_sha256": "9d1ae6a1f58d4e64440e40de48b22e4349dccc6205bc2bbf09e2469a98a42e9a",
+      "all_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "source_ids_preserved": [
+        "src-3db4b9a0675c",
+        "src-3e68dcfeacb7"
+      ],
+      "original_plain_chars": 357,
+      "new_plain_chars": 299,
+      "audience_unchanged": true,
+      "evidence_and_source_fields_unchanged": true,
+      "numeric_tokens_removed": [],
+      "numeric_review": "移除引用hash与内部链接ID后逐条比对阿拉伯数字，原正文数值均保留；并手读保留单位、比较方向、时点与非统一阈值/适应人群条件。数字一致不是语义正确的自动证明。"
+    },
+    {
+      "id": "energy-002",
+      "original_fields_sha256": "e0aa71ab2e713248db143db796f89c2776d74ba3875945421d5bc58be6917a2f",
+      "all_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "source_ids_preserved": [
+        "src-11ed822e3f19"
+      ],
+      "original_plain_chars": 342,
+      "new_plain_chars": 303,
+      "audience_unchanged": true,
+      "evidence_and_source_fields_unchanged": true,
+      "numeric_tokens_removed": [],
+      "numeric_review": "移除引用hash与内部链接ID后逐条比对阿拉伯数字，原正文数值均保留；并手读保留单位、比较方向、时点与非统一阈值/适应人群条件。数字一致不是语义正确的自动证明。"
+    },
+    {
+      "id": "energy-001",
+      "original_fields_sha256": "4155e349ccea88b0bc4657dc3b27ea9c7005e251e09345375ac09ca090d667d8",
+      "all_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "source_ids_preserved": [
+        "src-51e32635bdd8",
+        "src-715a496c6365"
+      ],
+      "original_plain_chars": 408,
+      "new_plain_chars": 349,
+      "audience_unchanged": true,
+      "evidence_and_source_fields_unchanged": true,
+      "numeric_tokens_removed": [],
+      "numeric_review": "移除引用hash与内部链接ID后逐条比对阿拉伯数字，原正文数值均保留；并手读保留单位、比较方向、时点与非统一阈值/适应人群条件。数字一致不是语义正确的自动证明。"
+    },
+    {
+      "id": "basics-009",
+      "original_fields_sha256": "8945155c980ba47c2da0c323ee4dda7356fd4eb10839714d2b3b07d6d53d325f",
+      "all_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "source_ids_preserved": [
+        "src-22ce7a9b2a44",
+        "src-410e332402d4",
+        "src-a57fa94b609b",
+        "src-ddf86137cd94"
+      ],
+      "original_plain_chars": 348,
+      "new_plain_chars": 336,
+      "audience_unchanged": true,
+      "evidence_and_source_fields_unchanged": true,
+      "numeric_tokens_removed": [],
+      "numeric_review": "移除引用hash与内部链接ID后逐条比对阿拉伯数字，原正文数值均保留；并手读保留单位、比较方向、时点与非统一阈值/适应人群条件。数字一致不是语义正确的自动证明。"
+    },
+    {
+      "id": "basics-008",
+      "original_fields_sha256": "af9baf3152d7240c3bdc952614a13bdd01e69f346bfffe8e68a2ed98d699b4ab",
+      "all_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "source_ids_preserved": [
+        "src-c8a3ee731e7d"
+      ],
+      "original_plain_chars": 246,
+      "new_plain_chars": 252,
+      "audience_unchanged": true,
+      "evidence_and_source_fields_unchanged": true,
+      "numeric_tokens_removed": [],
+      "numeric_review": "移除引用hash与内部链接ID后逐条比对阿拉伯数字，原正文数值均保留；并手读保留单位、比较方向、时点与非统一阈值/适应人群条件。数字一致不是语义正确的自动证明。"
+    }
+  ],
+  "blocking_unresolved": [],
+  "clinical_review_status": "not_clinically_reviewed"
+}

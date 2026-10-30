@@ -1,0 +1,116 @@
+{
+  "reviewed_at": "2026-10-30",
+  "reviewer": "independent_research_agent_medications",
+  "scope": "nutrition-012至014及NFB-S01至15；独立逐段核对，未运行作者生成器。",
+  "input_sha256": {
+    "foundation-entries.json": "e1a6d2451510151c4a587db040b931c5a47c35db4055e01977796cfdbb42fdcb",
+    "foundation-sources.json": "164abb925161a499ee5b149124dc882a56f44eff3853254358688ebc8fa12c49"
+  },
+  "output_sha256": {
+    "foundation-entries.json": "bf817ddf1e9d6f089f7728138cdddce8cbd972715f903b4d7a218f6e8913aebf",
+    "foundation-sources.json": "644762b77198837284746f0cf69f140f1add0f1e1a4164a09ae62d362cd3ec61"
+  },
+  "corrections": [
+    {
+      "entry": "nutrition-012",
+      "change": "标题“先排除禁忌”改“先核排钾风险”；WHO未覆盖儿童孕妇与排钾受限排除分开表述，明确前两者因证据不足，不写成证实有害。",
+      "basis": [
+        "NFB-S01",
+        "NFB-S02"
+      ]
+    },
+    {
+      "entry": "nutrition-014",
+      "change": "“新增糖”改为“将糖、饱和脂肪列为强制标示项目”，避免误读为添加糖；保留2027-03-16实施与2026未标糖不等于无糖。",
+      "basis": [
+        "NFB-S15"
+      ]
+    },
+    {
+      "entry": "nutrition-014",
+      "change": "英国试验明确每套菜单各8周；不把整项交叉研究理解为总共8周，也不把整套菜单效应归因于一种添加剂。",
+      "basis": [
+        "NFB-S14"
+      ]
+    },
+    {
+      "sources": [
+        "NFB-S07",
+        "NFB-S08",
+        "NFB-S15"
+      ],
+      "change": "Internet参考文献发布日期/引用日期统一Vancouver英文月名格式，保留原作者、科室、题名与真实日期。"
+    },
+    {
+      "entry": "nutrition-014",
+      "source": "NFB-S15",
+      "change": "去掉本引用页未明确支持的“部分企业可提前执行”，保留正确且已核的过渡期不同版本与旧产品保质期规则。"
+    },
+    {
+      "entry": "nutrition-013",
+      "field": "notes",
+      "change": "追加公开文案修订：移除未采用原页等编辑过程语言，改为读者可执行的生重、熟重和可食部分辨识提醒。未新增食品克数、疗效阈值或特异医学量化承诺。",
+      "before": "以上成人食物目标用于查漏补缺，不是儿童、孕哺、运动员或疾病营养处方。未采用原页未说明生熟重的谷物/肉类总克数，不将“全谷物+杂豆”与“全谷物”两种统计口径混用。",
+      "after": "以上成人食物目标用于查漏补缺，不是儿童、孕哺、运动员或疾病营养处方。比较食物重量时先分清生重、熟重和可食部分，别拿熟饭的重量直接套生米的推荐量。",
+      "input_sha256": "a5167acd3865528da83a7e8f879266f5960d4e1a8fb135f4bb82c89e48202fc6",
+      "output_sha256": "bf817ddf1e9d6f089f7728138cdddce8cbd972715f903b4d7a218f6e8913aebf",
+      "reviewed_at": "2026-10-30"
+    }
+  ],
+  "checks": [
+    {
+      "topic": "含钾低钠盐",
+      "result": "通过",
+      "detail": "独立读取WHO官方Scope与2025发布材料。正式建议conditional；仅成人自加烹调/餐桌盐，排除肾功能损害、保钾利尿剂/补钾等排钾障碍；不扩展给儿童孕妇。"
+    },
+    {
+      "topic": "钠总量、换算、加碘与处方",
+      "result": "通过",
+      "detail": "独立核WHO2026事实表钠<2000mg/约盐5g，全部食物计入；NHS雷米普利/坎地沙坦钾盐风险，不能普遍套所有降压药；国家疾控局2024答复支持继续普遍加碘及地区个体例外。SSaSS摘要及DOI、人群核正确，不对健康年轻人承诺绝对获益。"
+    },
+    {
+      "topic": "基础食材",
+      "result": "通过",
+      "detail": "独立读2022中国核心推荐官网：蔬菜至少300g、深色一半、水果200–350g、奶折液态至少300ml。未加无根据的谷物肉类生熟重食谱。全谷/杂豆与全谷口径分开，份量不作疾病治疗处方。WHO2026支持无过量盐糖冷冻罐装可用、果汁非鲜果替代；NIDDK支持逐渐加纤维与个体补水。"
+    },
+    {
+      "topic": "精制、NOVA、超加工",
+      "result": "通过",
+      "detail": "独立核NOVA定义原作者摘要、NHS加工食品、Hall2019及Dicken2025原始摘要、卷期页码/DOI/利益披露。20人住院每菜单两周与55人随机/50人ITT每菜单八周没有混用；两套符合UK指南均减重，不能写超加工必然增重或所有添加剂致病。"
+    },
+    {
+      "topic": "中国食品标签",
+      "result": "通过",
+      "detail": "独立核淮南监管原页2026-08-25，文内落款8月24；GB28050-2025增加强制项为糖、饱和脂肪，不是添加糖，2027-03-16实施。未把尚未实施的规则当作2026普遍强制义务。"
+    },
+    {
+      "topic": "引用与发布",
+      "result": "通过",
+      "detail": "15源均为机构/原始研究或正式材料；题录三项DOI对应原刊；cost均空，三条summary长度为120/118/129，adult/older、sexes all且保留pregnant/medical限制；未称医生审校或100%确定。"
+    }
+  ],
+  "direct_sources_checked": [
+    "https://www.ncbi.nlm.nih.gov/sites/books/NBK612027/",
+    "https://cdn.who.int/media/docs/default-source/nutrition-and-food-safety/events/2025/launch-of-lsss-guideline-presentation-2-road-to-finalization.pdf?sfvrsn=e08be11_3",
+    "https://www.who.int/news-room/fact-sheets/detail/sodium-reduction",
+    "https://pubmed.ncbi.nlm.nih.gov/34459569/",
+    "https://www.nhs.uk/medicines/ramipril/common-questions-about-ramipril/",
+    "https://www.nhs.uk/medicines/candesartan/",
+    "https://www.ndcpa.gov.cn/jbkzzx/c100033/common/content/content_1863898536274939904.html",
+    "https://sfncc.caas.cn/xyyw/79c86454ef84437eb3e0df055deffd56.htm",
+    "https://www.who.int/news-room/fact-sheets/detail/healthy-diet",
+    "https://www.niddk.nih.gov/health-information/digestive-diseases/constipation/eating-diet-nutrition",
+    "https://www.nhs.uk/live-well/eat-well/how-to-eat-a-balanced-diet/what-are-processed-foods/",
+    "https://pubmed.ncbi.nlm.nih.gov/30744710/",
+    "https://pubmed.ncbi.nlm.nih.gov/31105044/",
+    "https://pubmed.ncbi.nlm.nih.gov/40760353/",
+    "https://scjgj.huainan.gov.cn/public/118319860/1261095742.html"
+  ],
+  "reading_limits": [
+    "独立复核未读取WHO整本指南证据表、SSaSS全文/全部附录、Hall勘误全文、Dicken2025完整正文/补充材料；不重复声称原始数据或全体参考文献均已审计。",
+    "Nature2025原刊直接打开进入cookie身份门，未绕过。作者曾检出2026方法学讨论，本次未独立读评论正文；保留原先保守局限，不推定争议已解决，也不因此否定随机菜单比较。",
+    "这次是证据与文字独立复核，不能替代营养科或临床药师的专业签字审阅。"
+  ],
+  "blocking_unresolved": [],
+  "status": "passed_with_documented_limits"
+}

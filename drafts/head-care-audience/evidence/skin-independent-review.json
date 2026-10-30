@@ -1,0 +1,176 @@
+{
+  "checked_on": "2026-10-29",
+  "review_type": "独立案头复核；非临床签审",
+  "clinical_review_status": "not_clinically_reviewed",
+  "scope": "只读skin20条与30来源；重点妊娠、痤疮/激素、医美风险、红旗和证据推论；5篇DOI作者及元数据逐项核对。",
+  "overall": "没有发现把胶原机制当确定人体收益、把阿达帕林当所有人最佳抗老药或把专业医美普遍称零风险的明显跳跃。需要修正填充剂异常疼痛的求助阈值与一位作者首字母，并补强两类安全判断的直接出处。",
+  "must_change": [
+    {
+      "id": "SK-R01",
+      "priority": "P1",
+      "target": "skin-015.fields.plain（并检查summary）",
+      "current": "出现异常剧痛",
+      "issue": "FDA用unusual pain，不要求已达到剧痛；当前译法提高了求助门槛。",
+      "suggested": "出现异常疼痛（不必等到剧痛）、皮肤发白灰蓝或视力变化，要立即医疗求助；突然说话困难、面或肢体无力等卒中信号同样立即急救。",
+      "basis": "FDA Patients段与Health Care Providers段均写unusual pain，且任一相关信号即可触发。",
+      "url": "https://www.fda.gov/medical-devices/aesthetic-cosmetic-devices/dermal-fillers-soft-tissue-fillers"
+    },
+    {
+      "id": "SK-R02",
+      "priority": "P2",
+      "target": "SKIN-S28.citation",
+      "current": "Hughes MC",
+      "suggested": "Hughes MCB",
+      "issue": "第一作者全名Maria Celia B Hughes，当前少B。其余3作者、题名、2013;158(11):781-790和DOI正确。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23732711/"
+    },
+    {
+      "id": "SK-R03",
+      "priority": "P2",
+      "target": "skin-006/skin-010/skin-018的备孕、孕期与化妆品视黄醇引用",
+      "issue": "当前AAD acne pregnancy支持妊娠停阿达帕林/维A酸和谨慎替代，但未直接覆盖计划怀孕及化妆品视黄醇两层外延。建议保留正确的预防做法，补直接材料。",
+      "suggested": "计划怀孕/外用药物维A类补EMA原页；妊娠避开含retinol护肤品补AAD2025孕期护肤原页。仍保留既往用过不等于能推断胎儿结局的备注。",
+      "urls": [
+        "https://www.ema.europa.eu/en/news/updated-measures-pregnancy-prevention-during-retinoid-use",
+        "https://www.aad.org/public/everyday-care/skin-care-secrets/routine/pregnancy-skin-care"
+      ]
+    },
+    {
+      "id": "SK-R04",
+      "priority": "P2",
+      "target": "skin-019对出血/结痂病变的引用",
+      "issue": "现用AAD moles-symptoms页实际主体为ABCDE，未直接写bleeding。出血要检查判断正确，应补直接NHS moles页以保持逐句追溯。",
+      "suggested": "出血、发炎、结痂或新异常点持续数周的就医句补NHS Moles；不把症状写成确诊，也不复制英国两周转诊承诺或收费。",
+      "url": "https://www.nhs.uk/conditions/moles/"
+    }
+  ],
+  "doi_checks": [
+    {
+      "source_id": "SKIN-S12",
+      "status": "pass",
+      "citation": "Bissett DL, Oblong JE, Berge CA. Niacinamide: A B vitamin that improves aging facial skin appearance. Dermatol Surg. 2005;31(7 Pt 2):860-865; discussion 865. doi:10.1111/j.1524-4725.2005.31732.",
+      "verified": "PubMed完整题录/摘要；3作者正确；50名白人女性、5%、12周半脸对照。页码discussion按PubMed成立，DOI尾部不应擅加.x。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16029679/"
+    },
+    {
+      "source_id": "SKIN-S13",
+      "status": "pass",
+      "citation": "Sitohang IBS, Makes WI, Sandora N, Suryanegara J. Topical tretinoin for treating photoaging: A systematic review of randomized controlled trials. Int J Womens Dermatol. 2022;8(1):e003. doi:10.1097/JW9.0000000000000003.",
+      "verified": "PMC全文题录与相关方法结果，4作者均正确；7RCT且女性为主，2020-11检索截止。不能用其5%剥脱浓度作家用日常建议，现稿未作此误用。",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9112391/"
+    },
+    {
+      "source_id": "SKIN-S14",
+      "status": "pass",
+      "citation": "Myung SK, Park Y. Effects of collagen supplements on skin aging: A systematic review and meta-analysis of randomized controlled trials. Am J Med. 2025;138(9):1264-1277. doi:10.1016/j.amjmed.2025.04.034.",
+      "verified": "初次直链仅回页脚；通过PubMed PMID查询入口打开完整题录和摘要后核实2作者、卷期页/DOI。23RCT、1474人、非药企资助和高质量子组摘要结论符合现稿；未声称已阅读全文。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40324552/"
+    },
+    {
+      "source_id": "SKIN-S27",
+      "status": "pass",
+      "citation": "Bassila C, Bassila JC, Slim M. Efficacy and safety of hydrolyzed collagen supplementation on skin health outcomes: a systematic literature review of randomized controlled trials. Eur J Clin Nutr. 2026;80(9):867-885. doi:10.1038/s41430-026-01778-3.",
+      "verified": "PubMed完整题录/摘要，3作者、2026 Sep卷期页与DOI均正确；25RCT，检索截至2023-04-01；多数高偏倚，QoL主要关节炎人群；M.S.披露Lumanity雇员，现稿均有边界。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42342959/"
+    },
+    {
+      "source_id": "SKIN-S28",
+      "status": "author_initial_correction_required",
+      "citation": "Hughes MCB, Williams GM, Baker P, Green AC. Sunscreen and prevention of skin aging: a randomized trial. Ann Intern Med. 2013;158(11):781-790. doi:10.7326/0003-4819-158-11-201306040-00002.",
+      "verified": "PubMed完整题录/摘要；903名55岁以下成人、4.5年、microtopography、缺失结局限制均可核；除首作者MCB之外现题录正确。没有把相对比值写成年轻24%，现稿处理正确。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23732711/"
+    }
+  ],
+  "clinical_and_inference_checks": [
+    {
+      "entry": "skin-006",
+      "finding": "AAD2024官方摘要直接支持过氧化苯甲酰/外用维A类较强推荐，水杨酸/壬二酸条件性推荐、限制抗生素并配过氧化苯甲酰；没有外推为所有成品同效。",
+      "url": "https://www.aad.org/news/updated-guidelines-acne-management"
+    },
+    {
+      "entry": "skin-008/skin-012",
+      "finding": "AAD明确dietary changes及vitamins/plant alternatives证据不足以推荐；现文未从此推出饮食对每个人零影响，也未宣称所有胶原已被证伪，符合证据不确定性。",
+      "url": "https://www.aad.org/news/updated-guidelines-acne-management"
+    },
+    {
+      "entry": "skin-006/skin-010",
+      "finding": "孕期维A类避免、壬二酸可讨论、BPO有限用量/水杨酸限制性使用并咨询，符合AAD；需要R03补备孕与cosmetic retinol直接依据。风险与预防禁用应与已使用后必然致畸分开，现notes已有此区分。",
+      "url": "https://www.aad.org/public/diseases/acne/derm-treat/pregnancy"
+    },
+    {
+      "entry": "skin-014/skin-015",
+      "finding": "FDA2025射频微针针/热能机制、严重事件及不居家使用可直接核；现稿没有把微针风险机械扩成所有LED或所有家用射频。填充剂损伤可严重且并非所有材料可简单逆转，现未承诺零风险/可完全逆转。",
+      "urls": [
+        "https://www.fda.gov/medical-devices/safety-communications/potential-risks-certain-uses-radiofrequency-rf-microneedling-fda-safety-communication",
+        "https://www.fda.gov/medical-devices/aesthetic-cosmetic-devices/dermal-fillers-soft-tissue-fillers"
+      ]
+    },
+    {
+      "entry": "skin-019",
+      "finding": "AAD ABCDE与小于6mm也可能异常直接支持，不需要凑齐所有条件才检查。照片记录不替代检查与不在不明病变上先美白/点除的顺序合理。",
+      "url": "https://www.aad.org/public/diseases/a-z/moles-symptoms"
+    },
+    {
+      "entry": "skin-017",
+      "finding": "明确避免面部自行长期强效激素及不明复方膏，保留专科短程抗炎；没有把所有抗炎激素一概写成有毒或所有脱屑一概真菌。"
+    }
+  ],
+  "optional_precision": [
+    {
+      "target": "skin-001.fields.notes",
+      "suggestion": "脂肪醇不等同常说酒精的提醒本身合理，但SKIN-S01洁面页并不直接论证脂肪醇用途。可删除该附加成分说明，或另外补明确成分资料，不让笼统引文背书未出现内容。"
+    },
+    {
+      "target": "skin-014.fields.evidence",
+      "suggestion": "红光B级主要透过AAD患者页间接归纳，尚未直接核具体设备试验。现已写明局限；若用户要求B级必须直链试验，可降为C或补确有审读的设备研究，不能把监管标签当疗效试验。"
+    },
+    {
+      "target": "skin-010.fields.plain",
+      "suggestion": "术语写“外用维A酸（tretinoin，全反式维A酸）”可避免与整个维A类统称混淆；现稿整体区分方向正确。"
+    }
+  ],
+  "suggested_source_additions": [
+    {
+      "id": "SKIN-ADD-01",
+      "citation": "European Medicines Agency. Updated measures for pregnancy prevention during retinoid use [Internet]. [cited 2026 Oct 29]. Available from: https://www.ema.europa.eu/en/news/updated-measures-pregnancy-prevention-during-retinoid-use",
+      "url": "https://www.ema.europa.eu/en/news/updated-measures-pregnancy-prevention-during-retinoid-use",
+      "type": "监管或专业机构原始指导",
+      "support": "外用维A类药物在妊娠和计划怀孕时避免使用；口服与外用的系统风险和预防要求不同。",
+      "limitations": "监管信息不直接移植为中国法律或统一停药等待时长；外用建议有预防性质，不等于每次暴露必然致畸。",
+      "reading_depth": "独立复核者已打开原页，审读患者及专业人员段；未从无日期摘取中猜年份。",
+      "content_checked_at": "2026-10-29"
+    },
+    {
+      "id": "SKIN-ADD-02",
+      "citation": "American Academy of Dermatology Association. Dermatologist-approved pregnancy skin care [Internet]. 2025 Jun 26 [cited 2026 Oct 29]. Available from: https://www.aad.org/public/everyday-care/skin-care-secrets/routine/pregnancy-skin-care",
+      "url": "https://www.aad.org/public/everyday-care/skin-care-secrets/routine/pregnancy-skin-care",
+      "type": "监管或专业机构原始指导",
+      "support": "妊娠避开维A类及含retinol护肤品，计划怀孕先核对正在用的药与护肤方案。",
+      "limitations": "仅取维A类与专业核对建议；原页把retinol与adapalene举例混杂，不能照抄成两者同一物，也不采其全部防腐剂泛泛限制。",
+      "reading_depth": "已打开原页并核读Ingredients to avoid、trying to become pregnant与Last updated日期。",
+      "content_checked_at": "2026-10-29"
+    },
+    {
+      "id": "SKIN-ADD-03",
+      "citation": "National Health Service. Moles [Internet]. 2023 Jul 4 [cited 2026 Oct 29]. Available from: https://www.nhs.uk/conditions/moles/",
+      "url": "https://www.nhs.uk/conditions/moles/",
+      "type": "监管或专业机构原始指导",
+      "support": "改变大小形色、出血结痂、发炎，或新异常点数周不退应检查。",
+      "limitations": "网页过计划复审日，不假定2026已复审；不复制英国转诊时限、收费或把所有痣判断为癌。",
+      "reading_depth": "已打开原页，审读Signs和See a GP段及实际最近审阅日期。",
+      "content_checked_at": "2026-10-29"
+    }
+  ],
+  "mechanical_checks": {
+    "entry_count": 20,
+    "source_count": 30,
+    "all_inline_citations_have_source_objects": true,
+    "missing_sources": [],
+    "doi_source_count": 5
+  },
+  "limitations": [
+    "未重做全部试验或重新统计meta；本次只核列明的高风险结论及5篇完整题录/相关摘要或方法结果。",
+    "不能把本次独立案头核对当临床专业签审。",
+    "只写本审阅JSON，不改其他代理正文或source表。"
+  ]
+}

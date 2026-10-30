@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-29",
+  "status": "independent_ai_editorial_review_passed",
+  "clinical_review_status": "not_clinically_reviewed",
+  "blocking_unresolved": [],
+  "scope": "root独立核读14条标题及高风险正文；重开2025 S3全文、Cochrane2024公众与扩展摘要、筋膜枪综述PubMed摘要/题录。未声称重新读完全部22项原始全文。",
+  "checks": [
+    "S3现行路径强调活动与教育；慢性针灸条件性辅助，不推急性普遍有效",
+    "按摩研究限亚急性/持续性颈痛，低确定性，不借此给筋膜枪疗效背书",
+    "筋膜枪综述短期活动度不能变成治颈椎病，风险叙述未编发生概率",
+    "3篇DOI题名卷期核查与作者前6名匹配",
+    "骤发神经变化等危险入口不因人口筛选隐藏，日常建议保留成人范围"
+  ],
+  "resolutions": [
+    {
+      "entry": "neck-007",
+      "issue": "标题理疗续命带夸张修辞",
+      "action": "改成别只反复拉伸或做理疗"
+    },
+    {
+      "entry": "neck-001",
+      "issue": "危险分流还应包含感染/系统性病因线索",
+      "action": "按已实读S3表1补发热寒战和不明消瘦的评估提示"
+    }
+  ]
+}

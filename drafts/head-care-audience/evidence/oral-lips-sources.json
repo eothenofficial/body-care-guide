@@ -1,0 +1,342 @@
+[
+  {
+    "id": "ORAL-S01",
+    "citation": "National Health Service. How to keep your teeth clean [Internet]. 2025 Jun 30 [cited 2026 Oct 29]. Available from: https://www.nhs.uk/live-well/healthy-teeth-and-gums/how-to-keep-your-teeth-clean/",
+    "url": "https://www.nhs.uk/live-well/healthy-teeth-and-gums/how-to-keep-your-teeth-clean/",
+    "type": "专业机构患者指导或专业实践指南",
+    "support": "成人含氟牙膏、约两分钟每日两次、睡前刷牙、吐泡沫而不立即大量漱水；清洁各个面。",
+    "limitations": "英国成人至少1350ppm建议作为实用选择，非中国牙膏法定浓度规则；不套用儿童用量。",
+    "reading_depth": "已直接打开机构页，审读刷牙、牙膏浓度、刷后漱口和清洁牙缝段；无明确核定更新日故不填写。；独立复核已核实页面审阅/更新日：2025 Jun 30。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "ORAL-S02",
+    "citation": "Walsh T, Worthington HV, Glenny AM, Marinho VCC, Jeroncic A. Fluoride toothpastes of different concentrations for preventing dental caries. Cochrane Database Syst Rev. 2019;3(3):CD007868. doi:10.1002/14651858.CD007868.pub3.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/30829399/",
+    "type": "系统综述与网络荟萃分析",
+    "support": "含氟与无氟牙膏防龋比较；成人永久牙含氟牙膏有直接中等确定性资料。",
+    "limitations": "研究检索截至2018年8月；各浓度比较和人群不同，不能认为高浓度对所有成人越高越好。正文不搬用儿童效应量。",
+    "reading_depth": "PubMed题录、作者、卷期文章号、DOI及完整摘要的成人结果和结论已读；未声称全文审读。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "ORAL-S03",
+    "citation": "Scottish Dental Clinical Effectiveness Programme. Oral hygiene aids [Internet]. [cited 2026 Oct 29]. Available from: https://www.periodontalcare.sdcep.org.uk/guidance/treatment-components/managing-risk-factors/oral-hygiene/oral-hygiene-aids/",
+    "url": "https://www.periodontalcare.sdcep.org.uk/guidance/treatment-components/managing-risk-factors/oral-hygiene/oral-hygiene-aids/",
+    "type": "专业机构患者指导或专业实践指南",
+    "support": "手动与充电电动牙刷均可；按能力偏好选择，磨损时换刷头；牙缝空间允许时用合适牙间刷，窄缝用牙线。",
+    "limitations": "专业实践路径，工具比较的确定性各异；不把电动小幅平均优势升级为所有人必须换。",
+    "reading_depth": "直接打开原指南页，审读Toothbrushes及Interdental cleaning aids的建议、依据与操作说明，未重做全部参考试验。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "ORAL-S04",
+    "citation": "Yaacob M, Worthington HV, Deacon SA, Deery C, Walmsley AD, Robinson PG, et al. Powered versus manual toothbrushing for oral health. Cochrane Database Syst Rev. 2014;2014(6):CD002281. doi:10.1002/14651858.CD002281.pub3.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/24934383/",
+    "type": "系统综述",
+    "support": "电动对手动在菌斑及牙龈炎指标上平均有优势；不能由此推出长期保牙年限。",
+    "limitations": "检索截至2014年1月；多项研究有厂家资助和方法限制。与现行SDCEP实践建议并用，不当2026新增机型评测。",
+    "reading_depth": "PubMed题录、前六作者及完整摘要已读，PMC直接访问返回验证页，未将搜索索引的全文片段冒称全文通读。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "ORAL-S05",
+    "citation": "Worthington HV, MacDonald L, Poklepovic Pericic T, Sambunjak D, Johnson TM, Imai P, et al. Home use of interdental cleaning devices, in addition to toothbrushing, for preventing and controlling periodontal diseases and dental caries. Cochrane Database Syst Rev. 2019;4(4):CD012018. doi:10.1002/14651858.CD012018.pub2.",
+    "url": "https://www.cochrane.org/evidence/CD012018_home-use-devices-cleaning-between-teeth-addition-toothbrushing-prevent-and-control-gum-diseases-and",
+    "type": "系统综述",
+    "support": "牙线、牙间刷、冲牙器加刷牙的短中期牙龈炎与菌斑结果；35项研究3929成人，证据低至很低确定性。",
+    "limitations": "没有研究龋齿结局，严重牙周病资料少；冲牙器结果不能直接推出完全替代其他清洁。",
+    "reading_depth": "直接打开Cochrane完整公众摘要并读研究特征、关键结果、确定性；PubMed 30968949题录、作者、期刊、卷期文章号和DOI另核。PMC验证页未通读。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "ORAL-S06",
+    "citation": "American Dental Association. Mouthrinse (mouthwash) [Internet]. [cited 2026 Oct 29]. Available from: https://www.ada.org/resources/ada-library/oral-health-topics/mouthrinse-mouthwash",
+    "url": "https://www.ada.org/resources/ada-library/oral-health-topics/mouthrinse-mouthwash",
+    "type": "专业机构患者指导或专业实践指南",
+    "support": "按活性成分区分防龋、抗菌斑、除口气与美容型；漱口水不能替代刷牙牙缝清洁；口干者优先考虑无酒精。",
+    "limitations": "美国处方/非处方和ADA标志不当中国法定规则；没有宣称所有含酒精配方致癌或所有无酒精更有效。",
+    "reading_depth": "直接打开原协会专题，审读Key Points、Types及Xerostomia、Oral Cancer Concern段；未通读原始参考文献。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "ORAL-S07",
+    "citation": "National Health Service. How and when to use chlorhexidine [Internet]. [cited 2026 Oct 29]. Available from: https://www.nhs.uk/medicines/chlorhexidine/how-and-when-to-use-chlorhexidine/",
+    "url": "https://www.nhs.uk/medicines/chlorhexidine/how-and-when-to-use-chlorhexidine/",
+    "type": "专业机构患者指导或专业实践指南",
+    "support": "口腔氯己定短期按疗程；可染色；牙膏可能影响药效，宜与刷牙错开；疗程结束或恶化需复评。",
+    "limitations": "不把英国具体毫升、浓度和4周方案一律移植中国；遵具体产品和医嘱，皮肤消毒剂不能当漱口液。",
+    "reading_depth": "原页直接打开并审读口腔剂型、刷牙错开、疗程与疗效不佳处理，不采用其他皮肤和含片剂量。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "ORAL-S08",
+    "citation": "National Institute of Dental and Craniofacial Research. Periodontal (gum) disease [Internet]. [cited 2026 Oct 29]. Available from: https://www.nidcr.nih.gov/health-info/gum-disease",
+    "url": "https://www.nidcr.nih.gov/health-info/gum-disease",
+    "type": "专业机构患者指导或专业实践指南",
+    "support": "出血、红肿、退缩、松动等牙周病信号；菌斑变牙石后需专业清理；探诊和影像用于分辨程度与决定治疗。",
+    "limitations": "信息源说明治疗路径，不能由出血一项自诊牙周炎；不保证日常清洁逆转已丢失的支持骨。",
+    "reading_depth": "已直接打开并审读Causes、Symptoms、Diagnosis、Treatment及Helpful Tips。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "ORAL-S09",
+    "citation": "National Health Service. Dental check-ups [Internet]. 2025 Apr 1. [cited 2026 Oct 29]. Available from: https://www.nhs.uk/live-well/healthy-teeth-and-gums/dental-check-ups/",
+    "url": "https://www.nhs.uk/live-well/healthy-teeth-and-gums/dental-check-ups/",
+    "type": "专业机构患者指导或专业实践指南",
+    "support": "复查频率按疾病和风险，不人人每半年； routine check-up与治疗随诊不同。",
+    "limitations": "英国成人3—24个月范围不是国内每个人的固定处方；不将检查间隔当洗牙间隔。",
+    "reading_depth": "直接打开全文主体及页脚，2025-04-01复审日已核。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "ORAL-S10",
+    "citation": "National Health Service. Bad breath [Internet]. [cited 2026 Oct 29]. Available from: https://www.nhs.uk/symptoms/bad-breath/",
+    "url": "https://www.nhs.uk/symptoms/bad-breath/",
+    "type": "专业机构患者指导或专业实践指南",
+    "support": "口臭先清洁牙齿牙缝，温和清舌；持续数周或伴出血牙痛检查，口干等可参与。",
+    "limitations": "不从口臭单一症状断定胃病；该页清舌建议与ADA对长期口臭证据的保留意见并列使用。",
+    "reading_depth": "已直接打开机构页，读自护、勿刷伤、原因与就医分支。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "ORAL-S11",
+    "citation": "American Dental Association. Tongue scrapers and cleaners [Internet]. [cited 2026 Oct 29]. Available from: https://www.mouthhealthy.org/all-topics-a-z/tongue-scrapers",
+    "url": "https://www.mouthhealthy.org/all-topics-a-z/tongue-scrapers",
+    "type": "专业机构患者指导或专业实践指南",
+    "support": "清舌可按舒适偏好选用，不是人人必做；不能承诺预防或治愈慢性口臭。",
+    "limitations": "协会患者页未提供详细系统综述，不据此宣称任何短时清舌效果均不存在。",
+    "reading_depth": "直接打开完整短页并审读必要性、收益边界及基础护理建议。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "ORAL-S12",
+    "citation": "American Dental Association. Whitening [Internet]. 2022 Aug 16. [cited 2026 Oct 29]. Available from: https://www.ada.org/resources/ada-library/oral-health-topics/whitening",
+    "url": "https://www.ada.org/resources/ada-library/oral-health-topics/whitening",
+    "type": "专业机构患者指导或专业实践指南",
+    "support": "过氧化物漂白、表面去渍区别；天然牙可变白而修复体不随之改变；敏感和牙龈刺激，炭粉与酸性DIY证据不足。",
+    "limitations": "页面标记更新2022-08-16，不冒充2026新指南；不照搬美国执业法律或把一种商品结果推全部品牌。",
+    "reading_depth": "已直接打开并审读原协会专题的原理、适应人群、不良反应与DIY段，页脚更新日已核。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "ORAL-S13",
+    "citation": "American Dental Association. Veneers [Internet]. [cited 2026 Oct 29]. Available from: https://www.mouthhealthy.org/all-topics-a-z/veneers",
+    "url": "https://www.mouthhealthy.org/all-topics-a-z/veneers",
+    "type": "专业机构患者指导或专业实践指南",
+    "support": "贴面覆盖牙面，与包覆整牙的冠不同；磨除釉质不可逆，先处理龋齿牙周病并考虑修理更换和磨牙影响。",
+    "limitations": "不说每个病例必须磨同样厚度；不把贴面和家用美白贴混同，不估算价格或寿命。",
+    "reading_depth": "直接打开协会患者页，审读定义、类型、before veneer及操作相关部分。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "ORAL-S14",
+    "citation": "National Health Service. Wisdom tooth removal [Internet]. [cited 2026 Oct 29]. Available from: https://www.nhs.uk/tests-and-treatments/wisdom-tooth-removal/",
+    "url": "https://www.nhs.uk/tests-and-treatments/wisdom-tooth-removal/",
+    "type": "专业机构患者指导或专业实践指南",
+    "support": "智齿是否拔除取决于位置、症状及疾病；检查影像、有问题时考虑去除、无问题通常监测；手术可能出血感染神经损伤。",
+    "limitations": "没有痛不保证无邻牙或影像问题；不把英国收费及麻醉恢复时间全部移植中国。",
+    "reading_depth": "直接打开机构页，审读拔除原因、检查、并发症及紧急处理段。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "ORAL-S15",
+    "citation": "National Health Service. Braces [Internet]. [cited 2026 Oct 29]. Available from: https://www.nhs.uk/tests-and-treatments/braces/",
+    "url": "https://www.nhs.uk/tests-and-treatments/braces/",
+    "type": "专业机构患者指导或专业实践指南",
+    "support": "成年人可评估正畸；牙套施加力量移动牙齿，清洁与定期调整，完成后需保持器避免复发。",
+    "limitations": "英国NHS资格、常规6—8周和1—2年不当中国所有方案固定频率或工期；不作品牌或矫治器疗效排名。",
+    "reading_depth": "直接打开原页，审读用途、固定牙套工作方式、保持和护理。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "ORAL-S16",
+    "citation": "Mayo Clinic. Sensitive teeth: what treatments are available? [Internet]. 2024 Jun 19. [cited 2026 Oct 29]. Available from: https://www.mayoclinic.org/healthy-lifestyle/adult-health/expert-answers/sensitive-teeth/faq-20057854",
+    "url": "https://www.mayoclinic.org/healthy-lifestyle/adult-health/expert-answers/sensitive-teeth/faq-20057854",
+    "type": "专业机构患者指导或专业实践指南",
+    "support": "敏感可能来自暴露牙本质，也可为龋、裂纹等；先排因，抗敏牙膏、氟化物与专业封闭等可分层讨论。",
+    "limitations": "不把短暂敏感等同所有牙痛，不承诺每个人几天见效或根治，不复制处方高氟。",
+    "reading_depth": "直接打开正文及2024-06-19日期，逐项读原因、治疗选择及刷牙建议。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "ORAL-S17",
+    "citation": "National Institute of Dental and Craniofacial Research. Tooth decay [Internet]. [cited 2026 Oct 29]. Available from: https://www.nidcr.nih.gov/health-info/tooth-decay",
+    "url": "https://www.nidcr.nih.gov/health-info/tooth-decay",
+    "type": "专业机构患者指导或专业实践指南",
+    "support": "早期龋可无症状，脱矿早期可通过氟和风险控制干预；形成牙洞需修复，持续进展可疼痛感染。",
+    "limitations": "不靠颜色自诊龋齿；不把日常含氟牙膏说成能填补已经形成的洞。",
+    "reading_depth": "原页已打开，读Overview、Symptoms、Diagnosis、Treatment及预防相关正文。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "ORAL-S18",
+    "citation": "National Health Service. Mouth ulcers [Internet]. 2024 Mar 11 [cited 2026 Oct 29]. Available from: https://www.nhs.uk/conditions/mouth-ulcers/",
+    "url": "https://www.nhs.uk/conditions/mouth-ulcers/",
+    "type": "专业机构患者指导或专业实践指南",
+    "support": "多数溃疡1—2周恢复；避免刺激、牙齿/矫治器创伤因素；超过3周、不寻常或其他伴随症状应检查。",
+    "limitations": "英国药房销售和剂量不照搬中国；维生素缺乏只是原因之一，不默认所有复发都缺B族。",
+    "reading_depth": "已直接打开原页并读自护、药师治疗类别、3周分流及原因段。；独立复核已核实页面审阅/更新日：2024 Mar 11。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "ORAL-S19",
+    "citation": "National Institute of Dental and Craniofacial Research. Dry mouth [Internet]. [cited 2026 Oct 29]. Available from: https://www.nidcr.nih.gov/health-info/dry-mouth",
+    "url": "https://www.nidcr.nih.gov/health-info/dry-mouth",
+    "type": "专业机构患者指导或专业实践指南",
+    "support": "唾液减少增加龋齿和感染风险；药物/疾病原因、补水、无糖口香糖、唾液替代品，医生可调整原药。",
+    "limitations": "未采用每日2—3L统一饮水量或酸味糖果选择；不能自行停药。",
+    "reading_depth": "直接打开并逐项读原因、症状、诊断、治疗和Helpful Tips。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "ORAL-S20",
+    "citation": "American Dental Association. Dental erosion [Internet]. 2025 Oct 22. [cited 2026 Oct 29]. Available from: https://www.ada.org/resources/ada-library/oral-health-topics/dental-erosion",
+    "url": "https://www.ada.org/resources/ada-library/oral-health-topics/dental-erosion",
+    "type": "专业机构患者指导或专业实践指南",
+    "support": "饮食酸/胃酸可造成非细菌性酸蚀；减少频繁接触和含漱，酸后清水，不立即用力刷；氟与软毛刷日常护理。",
+    "limitations": "没有给所有人固定等待刷牙分钟数；正常刷牙不等于必然酸蚀。",
+    "reading_depth": "已直接打开完整相关正文，审读定义、危险暴露及Patient Information；2025-10-22更新标记另核。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "ORAL-S21",
+    "citation": "National Institute of Dental and Craniofacial Research. Bruxism [Internet]. [cited 2026 Oct 29]. Available from: https://www.nidcr.nih.gov/health-info/bruxism",
+    "url": "https://www.nidcr.nih.gov/health-info/bruxism",
+    "type": "专业机构患者指导或专业实践指南",
+    "support": "清醒/睡眠磨牙与咬紧不同场景；识别磨损和颌痛，行为提醒、压力管理及牙垫保护作用。",
+    "limitations": "不把磨牙诊断成肠道寄生虫或保证牙垫消除原因；不以牙垫当无检查可自选的治疗。",
+    "reading_depth": "已直接打开并读Overview、Symptoms、Diagnosis、Treatment和Helpful Tips。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "ORAL-S22",
+    "citation": "National Health Service. Dental abscess [Internet]. 2026 Mar 18 [cited 2026 Oct 29]. Available from: https://www.nhs.uk/conditions/dental-abscess/",
+    "url": "https://www.nhs.uk/conditions/dental-abscess/",
+    "type": "专业机构患者指导或专业实践指南",
+    "support": "牙源性脓肿需紧急牙科治疗；呼吸吞咽说话困难、大范围肿胀等需急诊；引流/根管/拔牙而非只压疼痛。",
+    "limitations": "未照搬英国电话、支付或处方剂量；不承诺所有牙痛必须抗生素或所有脓肿只用一种处理。",
+    "reading_depth": "直接打开机构全文主体，审读紧急/急诊分流、候诊自护、病因和治疗。；独立复核已核实页面审阅/更新日：2026 Mar 18。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "LIP-S01",
+    "citation": "American Academy of Dermatology Association. 7 dermatologists' tips for healing dry, chapped lips [Internet]. [cited 2026 Oct 29]. Available from: https://www.aad.org/public/everyday-care/skin-care-basics/dry/heal-dry-chapped-lips",
+    "url": "https://www.aad.org/public/everyday-care/skin-care-basics/dry/heal-dry-chapped-lips",
+    "type": "专业机构患者指导或专业实践指南",
+    "support": "凡士林封护、避免刺激及舔撕，外出SPF30唇部防晒、2—3周不改善查原因。",
+    "limitations": "护理建议非全部唇膏成品比较；不把某种成分名字当对所有人有害，也不把SPF15一律认定无效。",
+    "reading_depth": "原机构全文已打开，读第1—7建议及就医段；未从版权年份推定更新日期。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "LIP-S02",
+    "citation": "National Health Service. Sore or dry lips [Internet]. 2025 Feb 13. [cited 2026 Oct 29]. Available from: https://www.nhs.uk/symptoms/sore-or-dry-lips/",
+    "url": "https://www.nhs.uk/symptoms/sore-or-dry-lips/",
+    "type": "专业机构患者指导或专业实践指南",
+    "support": "含凡士林/蜂蜡润唇用品、洗手、不舔撕咬和不共用，热痛肿等异常需评估。",
+    "limitations": "该页防晒最低SPF15与AAD30不同，正文选择AAD更高实用建议而不声称所有权威门槛一致。",
+    "reading_depth": "已直接打开完整短页，正文及2025-02-13复审日已核。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "LIP-S03",
+    "citation": "American Academy of Dermatology Association. Itchy rash could be contact dermatitis [Internet]. [cited 2026 Oct 29]. Available from: https://www.aad.org/public/everyday-care/itchy-skin/rash/itchy-rash-contact-dermatitis",
+    "url": "https://www.aad.org/public/everyday-care/itchy-skin/rash/itchy-rash-contact-dermatitis",
+    "type": "专业机构患者指导或专业实践指南",
+    "support": "唇及唇周红痒脱屑可接触刺激/过敏，唇彩唇膏等可为接触来源，停可疑用品观察及专业识别。",
+    "limitations": "不把接触史当确诊；不用自行反复挑战严重过敏的方法，不把整页其他部位建议搬过来。",
+    "reading_depth": "直接打开机构页并定位Lips正文，审读产品接触线索及回避方案。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "LIP-S04",
+    "citation": "National Health Service. Cold sores [Internet]. 2024 Feb 19. [cited 2026 Oct 29]. Available from: https://www.nhs.uk/conditions/cold-sores/",
+    "url": "https://www.nhs.uk/conditions/cold-sores/",
+    "type": "专业机构患者指导或专业实践指南",
+    "support": "刺痒后成簇水疱、早期用抗病毒类别及复发口服治疗可能；传染从前驱期到完全愈合，避免亲吻口交及触摸传播。",
+    "limitations": "不复制英国非处方属性或统一剂量；口服抗病毒需个人适应证；无证据充分支持家用光疗。",
+    "reading_depth": "直接打开全文相关正文及2024-02-19复审日；前驱、传染、早期治疗与异常就医段已读。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "LIP-S05",
+    "citation": "American Academy of Dermatology Association. Cold sores: diagnosis and treatment [Internet]. 2024 Feb 1 [cited 2026 Oct 29]. Available from: https://www.aad.org/public/diseases/a-z/cold-sores-treatment",
+    "url": "https://www.aad.org/public/diseases/a-z/cold-sores-treatment",
+    "type": "专业机构患者指导或专业实践指南",
+    "support": "外用阿昔洛韦/喷昔洛韦和口服抗病毒的不同位置，频发或严重应评估；眼附近、免疫低下等需医疗护理。",
+    "limitations": "美国品牌和供应属性不移植中国；不提供统一预防服药疗程。",
+    "reading_depth": "直接打开机构原文，审读需要治疗人群、外用与口服药类别段。；独立复核已核实页面审阅/更新日：2024 Feb 1。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "LIP-S06",
+    "citation": "Cleveland Clinic. Angular cheilitis [Internet]. 2021 Jun 15 [cited 2026 Oct 29]. Available from: https://my.clevelandclinic.org/health/diseases/21470-angular-cheilitis",
+    "url": "https://my.clevelandclinic.org/health/diseases/21470-angular-cheilitis",
+    "type": "专业机构患者指导或专业实践指南",
+    "support": "口角炎可与唾液、刺激、感染、营养及局部结构有关；保湿回避，必要时检查后针对病因处理。",
+    "limitations": "机构患者指导而非诊断标准或RCT；不能凭口角裂就自行服维B、抗真菌或激素。",
+    "reading_depth": "直接打开医院原页并审读病因、症状、诊断、治疗及预防段；未捏造更新日期。；独立复核已核实页面审阅/更新日：2021 Jun 15。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "LIP-S07",
+    "citation": "American Academy of Dermatology Association. Cold sore remedies dermatologists recommend [Internet]. 2024 Feb 1. [cited 2026 Oct 29]. Available from: https://www.aad.org/public/diseases/a-z/cold-sores-self-care",
+    "url": "https://www.aad.org/public/diseases/a-z/cold-sores-self-care",
+    "type": "专业机构患者指导或专业实践指南",
+    "support": "有唇疱疹史者的SPF30、日晒防护与补涂，充分睡眠和个人诱因记录，术前说明疱疹史。",
+    "limitations": "不保证防晒消除复发，也不把所有人的复发都归因熬夜。",
+    "reading_depth": "原机构自护页已打开，读日晒、干裂、个人诱因及操作前告知部分；页脚2024-02-01更新已核。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "ORAL-S24",
+    "citation": "Mayo Clinic. Toothache: first aid [Internet]. 2024 Jun 7 [cited 2026 Oct 29]. Available from: https://www.mayoclinic.org/first-aid/first-aid-toothache/basics/art-20056628",
+    "url": "https://www.mayoclinic.org/first-aid/first-aid-toothache/basics/art-20056628",
+    "type": "专业医院患者急救指导",
+    "support": "牙痛伴发热、感染征象需要尽快牙科处理；候诊时的清洁、止痛与不可将阿司匹林贴在牙龈上，以免灼伤。",
+    "limitations": "患者急救建议，不给个人止痛或抗生素处方；不替代查明病牙及感染源。",
+    "reading_depth": "直接打开医院原页，审读正文自护、苯佐卡因警示及就医段（页面256—312行）；原页2024-06-07日期已核。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "ORAL-S25",
+    "citation": "U.S. Food and Drug Administration. Clear dental aligners [Internet]. [cited 2026 Oct 29]. Available from: https://www.fda.gov/medical-devices/dental-devices/clear-dental-aligners",
+    "url": "https://www.fda.gov/medical-devices/dental-devices/clear-dental-aligners",
+    "type": "国家监管机构患者器械指导",
+    "support": "透明矫治器是定制可摘塑料托盘序列，按方案逐步移动牙齿；适用程度、专业评估及定期面诊、依从与清洁决定选择。",
+    "limitations": "不将美国处方及FDA准入规则移植为中国法律，不把典型佩戴时数或换片间隔写成每人统一方案；无页面可见更新时间。",
+    "reading_depth": "直接打开FDA原页，完整审读定义、选择、步骤、利弊及无专业监管直售警示（页面66—129行）；未把抓取时间或版权当更新日。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "LIP-S08",
+    "citation": "American Academy of Dermatology Association. Patch testing can find what's causing your rash [Internet]. 2021 Mar 15 [cited 2026 Oct 29]. Available from: https://www.aad.org/public/diseases/eczema/types/contact-dermatitis/patch-testing-rash",
+    "url": "https://www.aad.org/public/diseases/eczema/types/contact-dermatitis/patch-testing-rash",
+    "type": "专业学会患者检查说明",
+    "support": "斑贴试验用于评估迟发接触过敏，由专业人员将少量可疑过敏原受控接触皮肤并分时观察；不等于家中在破损嘴唇轮试产品。",
+    "limitations": "原页2021-03-15更新，只支持检查原理和专业操作，不宣称本年疗效新进展或测试一定找得到原因；页面披露Sanofi/Regeneron支持且声明内容由AAD独立开发。",
+    "reading_depth": "直接打开AAD原文，审读定义、与点刺试验的区别、操作和后续观察（页面186—206行），核对署名审阅者及页脚日期。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "ORAL-ADD-01",
+    "citation": "American Dental Association. Dental emergencies [Internet]. [cited 2026 Oct 29]. Available from: https://www.mouthhealthy.org/all-topics-a-z/dental-emergencies",
+    "url": "https://www.mouthhealthy.org/all-topics-a-z/dental-emergencies",
+    "type": "专业协会患者指导",
+    "support": "牙痛时不要把阿司匹林放在痛牙或牙龈表面。",
+    "limitations": "仅引用此护理动作，不复制成人牙外伤再植步骤到脓肿条目。",
+    "reading_depth": "2026-10-29独立复核者直接打开完整短页，审读toothaches段。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "LIP-ADD-01",
+    "citation": "National Health Service. Symptoms of mouth cancer [Internet]. 2023 Jun 19 [cited 2026 Oct 29]. Available from: https://www.nhs.uk/conditions/mouth-cancer/symptoms/",
+    "url": "https://www.nhs.uk/conditions/mouth-cancer/symptoms/",
+    "type": "公共医疗机构症状分流",
+    "support": "持续口内溃疡与唇部肿块应检查；症状也常由其他原因造成，不能据此自诊癌。",
+    "limitations": "不是凭干裂判断癌；页审阅日2023而预定2026复审，不冒称已复审；只用稳定分流事实。",
+    "reading_depth": "2026-10-29直接打开原页并审读症状、就医及非特异性说明。",
+    "content_checked_at": "2026-10-29"
+  }
+]

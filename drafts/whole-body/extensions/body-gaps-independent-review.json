@@ -1,0 +1,65 @@
+{
+  "status": "passed_after_author_clarification_not_clinically_reviewed",
+  "reviewed_on": "2026-10-29",
+  "reviewer": "independent_ai_whole_neck",
+  "extension": "body-gaps",
+  "entries_reviewed": 3,
+  "source_records_reviewed": 5,
+  "blocking_unresolved": [],
+  "resolved_findings": [
+    {
+      "entry": "GAPS-S01",
+      "finding": "泛化机构资助披露遗漏网页明确支持。",
+      "resolution": "已实际重读最终funding_disclosure，Sanofi/Regeneron支持与AAD独立开发均记录，不据此自动否定建议。",
+      "status": "resolved"
+    },
+    {
+      "entry": "bodygap-002",
+      "finding": "同期接触者可更明确，避免只找也痒者。",
+      "resolution": "已重读最终正文，家庭与密切接触者按医嘱同时处理，含没有瘙痒的人，未扩大同楼所有人或照搬儿童剂量。",
+      "status": "resolved"
+    }
+  ],
+  "actually_read": {
+    "local_files": [
+      "body-gaps-entries.json全部3条及002最终修订",
+      "body-gaps-sources.json全部5项及GAPS-S01最终披露",
+      "body-gaps-audit.json全部元数据/范围；BODYSKIN来源表解析引用"
+    ],
+    "primary_sections": {
+      "GAPS-S01": "AAD2026Jul13风团口咽肿/呼吸吞咽/晕厥急评、轻症非嗜睡抗组胺、广泛与6周就诊、病史/选择性检查、页末日期，及AAD独立开发和Sanofi/Regeneron支持。未将全部新药器械清单照搬。",
+      "GAPS-S02": "CDC2024夜痒/常见部位/无症状可传播、幼儿部位不同；症状不作自诊。",
+      "GAPS-S03": "CDC2024杀疥螨药/按说明、衣物热洗或密封至少72h至1周、不喷杀虫剂、治后可痒数周与2至4周/新疥道新疹复评、感染及时求助。",
+      "GAPS-S04": "CDC2023家庭/近接触者同时处理、前3日用品清洁、不能洗的密封数日至1周；不套机构暴发流程。",
+      "GAPS-S05": "中国2023规范第1至10条：暴露定义分级、未出血抓擦/黏膜与蝙蝠、普通皮肤肥皂水和流动清水交替约15min并净残留、特殊眼内伤无菌盐水/通常不用消毒剂、抗菌和破伤风等；网页Sep16与署发Sep13分开。未重核完整免疫程序。",
+      "BODYSKIN-S01": "NHS2026Apr2 cuts：大出血先压迫、止不住急诊，深伤/脸部重伤/异物需处理；不让一般清洁覆盖狂犬特殊规范。"
+    },
+    "not_claimed": "未读全部原始试验或地方门诊现行操作细则；不是临床审签。"
+  },
+  "clinical_reasoning_checks": [
+    "风团严重反应优先急救，不等涂药或6周，未给儿童孕哺通用剂量。",
+    "疥疮不能靠夜痒自诊；患者/接触者/用品同期安排，治后痒不立即视失败，新疹/感染/长痒需复评。",
+    "狂犬暴露不凭无出血或动物外观排除，早伤口处理和暴露门诊评估，不等症状/感染，不把抗生素替疫苗。",
+    "普通皮肤约15min与眼内伤特殊处置分开，不教眼内灌肥皂消毒剂；大出血不为凑冲洗时长延误。",
+    "署发与上网日期区分，不给家庭自行暴露判级后开疫苗/免疫制剂剂量。"
+  ],
+  "structural_checks": {
+    "errors": [],
+    "all_source_tokens_resolve": true,
+    "all_local_sources_used": true,
+    "summary_lengths": {
+      "bodygap-001": 126,
+      "bodygap-002": 121,
+      "bodygap-003": 131
+    },
+    "all_not_clinically_reviewed": true,
+    "all_costs_blank": true
+  },
+  "input_sha256": {
+    "body-gaps-entries.json": "e2d37e5c355c5ef663ff2de56f41c0bd245c2044e5ee161bddbb73775a95ecbe",
+    "body-gaps-sources.json": "b6ac0e88a8d0964679d62989035cd821b17d7557b636abc37b73a1daef385872",
+    "body-gaps-audit.json": "ad885e1a87c7a947f47bce4e1b061ce62a81804e7f1e3282be48427280f94431"
+  },
+  "clinical_review_status": "not_clinically_reviewed",
+  "conclusion": "3条关键分流与护理在实际读取原文范围内，接触者及资助补强已核修订；无未决阻断。"
+}

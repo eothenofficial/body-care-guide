@@ -1,0 +1,14 @@
+{
+  "checked_at": "2026-10-30",
+  "prior_integrated_review_input_sha256": {
+    "nutrition.json": "751543176f56a835db90261f8ad7fbad0fb56ba0e2e578e9fae0398bb26eee98",
+    "sources.json": "cb3a59d590481bd23bf0993af716305c131b564a578003562553c978177b3c7e"
+  },
+  "final_preview_sha256": {
+    "nutrition.json": "0ba11cd875045ac325a184c8cd75dd3f80ba7b37d216fd4417f7f083abaacaf2",
+    "sources.json": "cb3a59d590481bd23bf0993af716305c131b564a578003562553c978177b3c7e"
+  },
+  "change_after_integrated_review": "仅013的公开备注去除编辑过程语言，已由原独立复核者再审并更新foundation最终raw哈希；其余正文不变。",
+  "blocking_unresolved": [],
+  "clinical_review_status": "not_clinically_reviewed"
+}

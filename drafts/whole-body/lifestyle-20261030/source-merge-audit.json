@@ -1,0 +1,22 @@
+[
+  {
+    "id": "src-da94ff890c47",
+    "alias": "LIFE-SLP-S12",
+    "reason": "相同DOI或规范URL，保留稳定身份，补入新增用途的实际核读范围。"
+  },
+  {
+    "id": "src-404fbb19296c",
+    "alias": "NUT-S08",
+    "reason": "相同DOI或规范URL，保留稳定身份，补入新增用途的实际核读范围。"
+  },
+  {
+    "id": "src-2691e48da729",
+    "alias": "NUT-S13",
+    "reason": "相同DOI或规范URL，保留稳定身份，补入新增用途的实际核读范围。"
+  },
+  {
+    "id": "src-853b7234a9c7",
+    "alias": "ACT-S02",
+    "reason": "相同DOI或规范URL，保留稳定身份，补入新增用途的实际核读范围。"
+  }
+]

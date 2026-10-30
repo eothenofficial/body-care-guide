@@ -1,0 +1,2687 @@
+{
+  "version": "2026-10-30",
+  "scope": "7 head chapters, 126 entries",
+  "input_status": "raw baseline chapters with prose-patches.json sequentially applied",
+  "apply_after": [
+    "prose-patches.json"
+  ],
+  "method": "实际逐条通读标题、独立摘要、plain/benefit/notes，且通读全部章/单元导语；仅措辞、链接命名和现有安全信息位置调整。未重做医学检索或把原有证据复核声称为本轮完成。",
+  "limitations": "本次不以审读代替完整临床复核；未通读每条cost/evidence/sources栏，来源深度记录保持真实。",
+  "patches": [
+    {
+      "file": "drafts/whole-body/baseline/chapters/hair.json",
+      "target": "entry",
+      "id": "hair-007",
+      "field": "fields.plain",
+      "old": "；购买时先看温度控制、风量和实际使用感受。",
+      "new": "。",
+      "reason": "删除同一段中温控、风量与使用体验的重复购买建议。"
+    },
+    {
+      "file": "drafts/whole-body/baseline/chapters/hair.json",
+      "target": "entry",
+      "id": "hair-008",
+      "field": "fields.plain",
+      "old": "轻配方选择来自发质与使用负担的讨论，不是承诺看见某个成分就蓬松。",
+      "new": "不要只凭某个成分名判断蓬松效果，试用后看是否洗净、是否压塌再调整。",
+      "reason": "把编辑论证过程改成读者可实际采用的判断，保持原有成分不能保证成品效果的边界。"
+    },
+    {
+      "file": "drafts/whole-body/baseline/chapters/hair.json",
+      "target": "entry",
+      "id": "hair-013",
+      "field": "fields.plain",
+      "old": "AAD泳季指导提到游泳专用洗发水和后续调理，这是可比较的品类建议；是否需要专用产品，先看常规洗护能否洗净、发丝是否仍明显粗涩；现有资料不足以证明偶尔游泳的人都必须额外购买。需要新增产品时，按实际问题试，不把泳后固定叠加一整套当必须。",
+      "new": "常规洗护已经能洗净、发丝也不明显粗涩，就不必仅因偶尔游泳再买一瓶专用洗发水。洗后仍有残留或粗涩时，再按实际问题比较游泳专用洗发水和调理品。AAD泳季指导提供了这些品类选择，但不能据此认定每个人都必须额外购买一整套。",
+      "reason": "按读者是否需要买专用品的判断重排，保留AAD出处与证据边界，不叙述作者如何归类材料。"
+    },
+    {
+      "file": "drafts/whole-body/baseline/chapters/hair.json",
+      "target": "entry",
+      "id": "hair-021",
+      "field": "fields.notes",
+      "old": "两篇均核读题录及完整摘要，未逐台设备或逐套注射流程审核；这里不提供品牌榜、统一疗程或价格。",
+      "new": "",
+      "reason": "此栏只有作者读取深度及不提供品牌/价格的说明；读取深度已在来源账本保留，正文已说明型号与流程不能互借证据。"
+    },
+    {
+      "file": "drafts/whole-body/baseline/chapters/hair.json",
+      "target": "entry",
+      "id": "hair-023",
+      "field": "fields.notes",
+      "old": "毛囊数、根数、疗程数等报价单位不是同一个意思；本文没有可靠当前价格，不据其给出性价比排名。",
+      "new": "毛囊数、头发根数和疗程数是不同计价单位，比较报价前先确认清楚。",
+      "reason": "保留有用的报价单位提醒，删去作者没有当前价格/不做排名的工作说明。"
+    },
+    {
+      "file": "drafts/whole-body/baseline/chapters/eyes.json",
+      "target": "entry",
+      "id": "eyes-005",
+      "field": "fields.plain",
+      "old": "眼睛红了，先别急着买去红药水。**红眼伴怕光或视力突然变化，立即去眼科急诊；突然冒出大量新飞蚊、闪光，或视野像被黑幕挡住，即使不痛也要立即检查。**这些变化可能涉及角膜或眼底，等待它自己消失会耽误处理。[@src-69bfaa3ff171][@src-32d4a2191452]\n\n如果没有上述变化，但戴隐形后发红，先摘镜并尽快联系眼科，别换副新镜片继续戴。没有佩戴隐形、只是轻微红，且没有疼痛和视力变化，可以先停揉眼并观察；持续几天、反复发作或有黏性分泌物，再安排检查。[@src-69bfaa3ff171]",
+      "new": "眼睛红了，先别急着买去红药水。**红眼伴怕光或视力突然变化，立即去眼科急诊；突然冒出大量新飞蚊、闪光，或视野像被黑幕挡住，即使不痛也要立即检查。**这些变化可能涉及角膜或眼底，等待它自己消失会耽误处理。[@src-69bfaa3ff171][@src-32d4a2191452]\n\n如果没有上述变化，但戴隐形后发红，先摘镜并尽快联系眼科，别换副新镜片继续戴。没有佩戴隐形、只是轻微红，且没有疼痛和视力变化，可以先停揉眼并观察；持续几天、反复发作或有黏性分泌物，再安排检查。[@src-69bfaa3ff171]\n\n**强化学品入眼：** 立刻用大量不烫的清水冲洗至少20分钟，同时求助，别等买洗眼液。**异物扎入眼球：** 不要自己拔。日常隐形镜片避水规则不适用于化学伤急救。视力异常时不要自行驾车，请人陪同或呼叫急救。[@src-22ced7910425]",
+      "reason": "将已有化学伤/穿刺伤和返程安全动作从备注移入正文；原数值、条件、措辞和引用全部保留。"
+    },
+    {
+      "file": "drafts/whole-body/baseline/chapters/eyes.json",
+      "target": "entry",
+      "id": "eyes-005",
+      "field": "fields.notes",
+      "old": "**强化学品入眼：** 立刻用大量不烫的清水冲洗至少20分钟，同时求助，别等买洗眼液。**异物扎入眼球：** 不要自己拔。日常隐形镜片避水规则不适用于化学伤急救。视力异常时不要自行驾车，请人陪同或呼叫急救。[@src-22ced7910425]",
+      "new": "",
+      "reason": "关键急救动作已原样移到正文，避免重复。"
+    },
+    {
+      "file": "drafts/whole-body/baseline/chapters/eyes.json",
+      "target": "entry",
+      "id": "eyes-023",
+      "field": "fields.notes",
+      "old": "本文不沿用英国111、999等号码或驾驶申报制度；中国就医按当地急救与医疗服务安排。",
+      "new": "",
+      "reason": "正文未提供英国号码或申报要求，删去无实际读者动作的来源改编说明，保留遮眼改善也需检查的提醒。"
+    },
+    {
+      "file": "drafts/whole-body/baseline/chapters/eyes.json",
+      "target": "entry",
+      "id": "eyes-020",
+      "field": "fields.notes",
+      "old": "标准2011年发布、2017年转为推荐性，当前国家标准平台仍列现行。",
+      "new": "",
+      "reason": "标准书目与状态可在来源查看；此处只保留测视力条件不可直接混比的实用提醒。"
+    },
+    {
+      "file": "drafts/whole-body/baseline/chapters/eyes.json",
+      "target": "entry",
+      "id": "eyes-026",
+      "field": "fields.notes",
+      "old": "本文未提供自行训练处方、器材参数或疗程承诺。",
+      "new": "",
+      "reason": "删去作者未提供什么的声明；保留新发复视先分流的具体动作。"
+    },
+    {
+      "file": "drafts/whole-body/baseline/chapters/eyes.json",
+      "target": "entry",
+      "id": "eyes-022",
+      "field": "fields.plain",
+      "old": "英国专业规范的处方形式不直接当中国法律要求。",
+      "new": "",
+      "reason": "该段仅解释测量和配装，没有提出中国法律要求；删去让读者中断理解的改编说明，来源地区限制仍留账本。"
+    },
+    {
+      "file": "drafts/whole-body/baseline/chapters/eyes.json",
+      "target": "entry",
+      "id": "eyes-009",
+      "field": "fields.plain",
+      "old": "先假设两种都验配合适，不能为省钱跳过适配。",
+      "new": "无论选哪一种，都应先完成验配，不能为省钱跳过适配。",
+      "reason": "把作者的假设论证改成读者的实际操作顺序，不改变验配要求。"
+    },
+    {
+      "file": "drafts/whole-body/baseline/chapters/eyes.json",
+      "target": "entry",
+      "id": "eyes-028",
+      "field": "fields.notes",
+      "old": "FDA资料是美国情境，本文不套用其批准年龄/度数到中国；也不沿用部分旧页把全部植入镜片统称新技术、无长期资料的说法。具体成品须另核国内许可和说明书。",
+      "new": "具体成品的适用年龄、度数等，应核对国内许可和说明书，不能直接套用美国标签。",
+      "reason": "保留地区许可差异的实际核查动作，删去作者如何不沿用旧网页的过程。"
+    },
+    {
+      "file": "drafts/whole-body/baseline/chapters/nose.json",
+      "target": "entry",
+      "id": "nose-001",
+      "field": "fields.benefit",
+      "old": "没有可靠数字能预测拔一次会怎样。",
+      "new": "",
+      "reason": "收益栏保留外观与减少牵拉的实际收益；偶尔拔过不等于严重感染的边界已在备注清楚说明。"
+    },
+    {
+      "file": "drafts/whole-body/baseline/chapters/nose.json",
+      "target": "entry",
+      "id": "nose-004",
+      "field": "fields.notes",
+      "old": "这里的煮沸步骤按CDC现行页写，不混用不同机构的时间。",
+      "new": "",
+      "reason": "正文已给具体煮沸动作和CDC来源，备注不再重复作者取舍；保留器具不与接触镜混用等提醒。"
+    },
+    {
+      "file": "drafts/whole-body/baseline/chapters/ears.json",
+      "target": "entry",
+      "id": "ears-009",
+      "field": "fields.plain",
+      "old": "海外的“持证”称谓不直接当成中国资质判定。",
+      "new": "",
+      "reason": "本段已具体列无菌针具、手套、灭菌和书面护理等要核事项，未用海外执照作中国资质承诺；删去编辑改编声明。"
+    },
+    {
+      "file": "drafts/whole-body/baseline/chapters/ears.json",
+      "target": "entry",
+      "id": "ears-011",
+      "field": "fields.plain",
+      "old": "对普通时尚耳夹，没有可靠医学研究给出所有人统一的安全夹力或每天佩戴小时数；不能因此编出一个“戴满几小时就安全”的指标。耳扣过紧可损伤皮肤、嵌入耳垂，压力风险值得同样留意；这不等于已经有耳夹与耳钉直接比较的试验证据。",
+      "new": "耳夹没有统一适合所有人的安全夹力或佩戴时长，不能只靠计时判断是否适合；出现不适就取下。耳扣过紧也可损伤皮肤、嵌入耳垂。",
+      "reason": "将重复的方法学自辩压缩成有用的压力和时长边界；未新增时限或比较优势，来源仍接原位。"
+    },
+    {
+      "file": "drafts/whole-body/baseline/chapters/lips.json",
+      "target": "chapter",
+      "id": "lips",
+      "field": "intro",
+      "old": "；这里只保留各条的主要归属，跨章仍用原链接连接。",
+      "new": "。",
+      "reason": "删去条目归属及旧链接维护说明，保留牙齿与黏膜的选读分流。"
+    },
+    {
+      "file": "drafts/whole-body/baseline/chapters/lips.json",
+      "target": "entry",
+      "id": "oral-008",
+      "field": "fields.plain",
+      "old": "也不追求舌头完全没有正常颜色和纹理。",
+      "new": "舌面本来有正常颜色和纹理，不要为了看起来“更干净”反复刮刷。",
+      "reason": "把别扭的否定表述改成清楚的正常结构解释，保持轻柔清洁而非刮净的含义。"
+    },
+    {
+      "file": "drafts/whole-body/baseline/chapters/oral.json",
+      "target": "chapter",
+      "id": "oral",
+      "field": "intro",
+      "old": "；原条目链接仍保留。",
+      "new": "。",
+      "reason": "旧链接是否保留属于维护说明，不进入读者的章导语。"
+    },
+    {
+      "file": "drafts/whole-body/baseline/chapters/oral.json",
+      "target": "entry",
+      "id": "oral-002",
+      "field": "fields.notes",
+      "old": "没有当前同口径报价，不列价格或机型榜；",
+      "new": "",
+      "reason": "删去价格/机型榜的工作说明，保留更换刷头后重新确认操作的方法。"
+    },
+    {
+      "file": "drafts/whole-body/baseline/chapters/oral.json",
+      "target": "entry",
+      "id": "oral-006",
+      "field": "fields.plain",
+      "old": "不能把国外网页的某个毫升数或四周例子当作所有国内制剂的通用处方。",
+      "new": "不同制剂的浓度、用法和疗程可能不同，不把别人的用量直接套在自己身上。",
+      "reason": "把引用加工过程转成与读者直接相关的制剂差异和不可照抄用量提醒。"
+    },
+    {
+      "file": "drafts/whole-body/baseline/chapters/skin.json",
+      "target": "entry",
+      "id": "skin-021",
+      "field": "fields.notes",
+      "old": "2026共识检索至2024年，仅核题录和摘要；发表新不等于包含所有新研究。美国氢醌处方属性不能直接当作中国规定；",
+      "new": "用药前核对国内药品说明书，不能直接套用美国处方分类；",
+      "reason": "检索截止和实际读取深度保留在来源账本；备注改成有用的本地药品核查动作。"
+    },
+    {
+      "file": "drafts/whole-body/baseline/chapters/skin.json",
+      "target": "entry",
+      "id": "skin-007",
+      "field": "fields.notes",
+      "old": "；旧机构网页中的泛化安全表述不覆盖FDA2025新通报。",
+      "new": "。",
+      "reason": "保留射频微针独立风险条目的链接，删除作者怎样取舍旧网页的说明。"
+    },
+    {
+      "file": "drafts/whole-body/baseline/chapters/skin.json",
+      "target": "entry",
+      "id": "skin-011",
+      "field": "fields.plain",
+      "old": "不要为了消肿强力揉按眼球或拉扯眼皮；不要指望按摩消除眼袋：现有依据不足以支持这种效果。",
+      "new": "不要为了消肿强力揉按眼球或拉扯眼皮；现有依据也不足以证明按摩能消除眼袋。",
+      "reason": "合并连续否定的同义提醒，不改变安全和证据判断。"
+    },
+    {
+      "file": "drafts/whole-body/baseline/chapters/skin.json",
+      "target": "entry",
+      "id": "skin-012",
+      "field": "fields.notes",
+      "old": "两篇胶原综述均只核读PubMed题录及完整摘要，未阅读全文，不能代替独立重做统计。2026综述的生活质量改善多来自关节炎患者，本文未外推至年轻人美容。[@src-10394308cc83][@src-5b0c281fb291]",
+      "new": "2026年综述中的生活质量改善多来自关节炎患者，不能据此推断健康年轻人的美容收益。[@src-10394308cc83][@src-5b0c281fb291]",
+      "reason": "读取深度留在来源账本；保留真实研究人群不能外推的读者判断，删去作者是否重做统计的过程。"
+    },
+    {
+      "file": "drafts/whole-body/baseline/chapters/skin.json",
+      "target": "entry",
+      "id": "skin-023",
+      "field": "fields.notes",
+      "old": "不提供品牌、注射剂量或复打时间表，不要求年轻人为了“提前抗老”开始注射；咨询时应说明全部用药、妊娠哺乳情况和既往反应。",
+      "new": "不必为了“提前抗老”开始注射；咨询时应说明全部用药、妊娠哺乳情况和既往反应。",
+      "reason": "删去“不提供品牌、剂量、时间表”等作者任务声明，保留非必需及咨询时需说明的信息。"
+    },
+    {
+      "file": "drafts/whole-body/baseline/chapters/skin.json",
+      "target": "entry",
+      "id": "skin-001",
+      "field": "fields.plain",
+      "old": "转到本章的敏感反应、玫瑰痤疮或脂溢性皮炎条目辨别下一步",
+      "new": "参看[新产品反应](#/entry/skin-005)、[玫瑰痤疮](#/entry/skin-016)或[脂溢性皮炎](#/entry/skin-017)，辨别下一步",
+      "reason": "把笼统的本章指代改成已存在的具体条目链接，原临床分支不变。"
+    },
+    {
+      "file": "drafts/whole-body/baseline/chapters/skin.json",
+      "target": "entry",
+      "id": "skin-001",
+      "field": "fields.notes",
+      "old": "洗后反复红痒或脱屑时，减少刺激，并按[新产品反应](#/entry/skin-005)处理；不要只靠不断换更强洁面解决持续不适。",
+      "new": "",
+      "reason": "备注原本重复正文最后一段的减刺激与继续处理；相关链接已移入正文，不重复提醒。"
+    }
+  ],
+  "coverage": {
+    "entry_count": 126,
+    "entries": [
+      {
+        "id": "hair-001",
+        "chapter": "hair",
+        "title": "头皮油脏了就按需洗，把清洁头皮和护理发尾分开",
+        "actual_read_fields": [
+          "title",
+          "summary",
+          "fields.plain",
+          "fields.benefit",
+          "fields.notes"
+        ],
+        "method": "分批展开全部字段后逐句阅读，非关键词命中代替通读",
+        "result": "read_no_additional_patch",
+        "changed_fields": [],
+        "medical_claim_changed": false
+      },
+      {
+        "id": "hair-002",
+        "chapter": "hair",
+        "title": "头屑反复先选对应去屑成分；红痛、掉发或用后不改善就检查",
+        "actual_read_fields": [
+          "title",
+          "summary",
+          "fields.plain",
+          "fields.benefit",
+          "fields.notes"
+        ],
+        "method": "分批展开全部字段后逐句阅读，非关键词命中代替通读",
+        "result": "read_no_additional_patch",
+        "changed_fields": [],
+        "medical_claim_changed": false
+      },
+      {
+        "id": "hair-003",
+        "chapter": "hair",
+        "title": "别只凭无硅油、氨基酸标签加价，先看洗后是否适合",
+        "actual_read_fields": [
+          "title",
+          "summary",
+          "fields.plain",
+          "fields.benefit",
+          "fields.notes"
+        ],
+        "method": "分批展开全部字段后逐句阅读，非关键词命中代替通读",
+        "result": "read_no_additional_patch",
+        "changed_fields": [],
+        "medical_claim_changed": false
+      },
+      {
+        "id": "hair-004",
+        "chapter": "hair",
+        "title": "发尾毛躁先用护发素，仍打结再考虑免洗品或发膜",
+        "actual_read_fields": [
+          "title",
+          "summary",
+          "fields.plain",
+          "fields.benefit",
+          "fields.notes"
+        ],
+        "method": "分批展开全部字段后逐句阅读，非关键词命中代替通读",
+        "result": "read_no_additional_patch",
+        "changed_fields": [],
+        "medical_claim_changed": false
+      },
+      {
+        "id": "hair-005",
+        "chapter": "hair",
+        "title": "护发油和胶囊少量用在发段，别把“深海”包装当生发证据",
+        "actual_read_fields": [
+          "title",
+          "summary",
+          "fields.plain",
+          "fields.benefit",
+          "fields.notes"
+        ],
+        "method": "分批展开全部字段后逐句阅读，非关键词命中代替通读",
+        "result": "read_no_additional_patch",
+        "changed_fields": [],
+        "medical_claim_changed": false
+      },
+      {
+        "id": "hair-006",
+        "chapter": "hair",
+        "title": "漂烫受损再考虑键合修护，别把一次发束变化当永久修复",
+        "actual_read_fields": [
+          "title",
+          "summary",
+          "fields.plain",
+          "fields.benefit",
+          "fields.notes"
+        ],
+        "method": "分批展开全部字段后逐句阅读，非关键词命中代替通读",
+        "result": "read_no_additional_patch",
+        "changed_fields": [],
+        "medical_claim_changed": false
+      },
+      {
+        "id": "hair-007",
+        "chapter": "hair",
+        "title": "吹头发先降温、移风口，别用烫感和最高风温追求效率",
+        "actual_read_fields": [
+          "title",
+          "summary",
+          "fields.plain",
+          "fields.benefit",
+          "fields.notes"
+        ],
+        "method": "分批展开全部字段后逐句阅读，非关键词命中代替通读",
+        "result": "editorial_patch",
+        "changed_fields": [
+          "fields.plain"
+        ],
+        "medical_claim_changed": false
+      },
+      {
+        "id": "hair-014",
+        "chapter": "hair",
+        "title": "打结从发梢慢慢理开，别靠每天多梳或硬拉来养发",
+        "actual_read_fields": [
+          "title",
+          "summary",
+          "fields.plain",
+          "fields.benefit",
+          "fields.notes"
+        ],
+        "method": "分批展开全部字段后逐句阅读，非关键词命中代替通读",
+        "result": "read_no_additional_patch",
+        "changed_fields": [],
+        "medical_claim_changed": false
+      },
+      {
+        "id": "hair-008",
+        "chapter": "hair",
+        "title": "头顶容易塌先减厚重残留，再少量试适合细软发的造型品",
+        "actual_read_fields": [
+          "title",
+          "summary",
+          "fields.plain",
+          "fields.benefit",
+          "fields.notes"
+        ],
+        "method": "分批展开全部字段后逐句阅读，非关键词命中代替通读",
+        "result": "editorial_patch",
+        "changed_fields": [
+          "fields.plain"
+        ],
+        "medical_claim_changed": false
+      },
+      {
+        "id": "hair-009",
+        "chapter": "hair",
+        "title": "干洗喷雾只临时吸油，之后仍用洗发水和水清洁",
+        "actual_read_fields": [
+          "title",
+          "summary",
+          "fields.plain",
+          "fields.benefit",
+          "fields.notes"
+        ],
+        "method": "分批展开全部字段后逐句阅读，非关键词命中代替通读",
+        "result": "read_no_additional_patch",
+        "changed_fields": [],
+        "medical_claim_changed": false
+      },
+      {
+        "id": "hair-011",
+        "chapter": "hair",
+        "title": "想遮白发可以染，突然明显变白或伴其他变化再查原因",
+        "actual_read_fields": [
+          "title",
+          "summary",
+          "fields.plain",
+          "fields.benefit",
+          "fields.notes"
+        ],
+        "method": "分批展开全部字段后逐句阅读，非关键词命中代替通读",
+        "result": "read_no_additional_patch",
+        "changed_fields": [],
+        "medical_claim_changed": false
+      },
+      {
+        "id": "hair-012",
+        "chapter": "hair",
+        "title": "染烫前确认头皮完好和产品信息，出现明显反应立即停做",
+        "actual_read_fields": [
+          "title",
+          "summary",
+          "fields.plain",
+          "fields.benefit",
+          "fields.notes"
+        ],
+        "method": "分批展开全部字段后逐句阅读，非关键词命中代替通读",
+        "result": "read_no_additional_patch",
+        "changed_fields": [],
+        "medical_claim_changed": false
+      },
+      {
+        "id": "hair-013",
+        "chapter": "hair",
+        "title": "游泳后及时冲洗再洗护，日晒时也给头发和头皮遮挡",
+        "actual_read_fields": [
+          "title",
+          "summary",
+          "fields.plain",
+          "fields.benefit",
+          "fields.notes"
+        ],
+        "method": "分批展开全部字段后逐句阅读，非关键词命中代替通读",
+        "result": "editorial_patch",
+        "changed_fields": [
+          "fields.plain"
+        ],
+        "medical_claim_changed": false
+      },
+      {
+        "id": "hair-022",
+        "chapter": "hair",
+        "title": "扎发、接发一拉就痛，先松开和换造型，别靠按摩硬扛",
+        "actual_read_fields": [
+          "title",
+          "summary",
+          "fields.plain",
+          "fields.benefit",
+          "fields.notes"
+        ],
+        "method": "分批展开全部字段后逐句阅读，非关键词命中代替通读",
+        "result": "read_no_additional_patch",
+        "changed_fields": [],
+        "medical_claim_changed": false
+      },
+      {
+        "id": "hair-015",
+        "chapter": "hair",
+        "title": "突然秃一块、头皮红痛或流脓，先检查，别直接涂生发液",
+        "actual_read_fields": [
+          "title",
+          "summary",
+          "fields.plain",
+          "fields.benefit",
+          "fields.notes"
+        ],
+        "method": "分批展开全部字段后逐句阅读，非关键词命中代替通读",
+        "result": "read_no_additional_patch",
+        "changed_fields": [],
+        "medical_claim_changed": false
+      },
+      {
+        "id": "hair-010",
+        "chapter": "hair",
+        "title": "持续变稀或突然大量掉发，先记录变化和找原因，再选防脱产品",
+        "actual_read_fields": [
+          "title",
+          "summary",
+          "fields.plain",
+          "fields.benefit",
+          "fields.notes"
+        ],
+        "method": "分批展开全部字段后逐句阅读，非关键词命中代替通读",
+        "result": "read_no_additional_patch",
+        "changed_fields": [],
+        "medical_claim_changed": false
+      },
+      {
+        "id": "hair-016",
+        "chapter": "hair",
+        "title": "发缝变宽或额角头顶持续变稀，先确认逐渐型脱发，再定长期方案",
+        "actual_read_fields": [
+          "title",
+          "summary",
+          "fields.plain",
+          "fields.benefit",
+          "fields.notes"
+        ],
+        "method": "分批展开全部字段后逐句阅读，非关键词命中代替通读",
+        "result": "read_no_additional_patch",
+        "changed_fields": [],
+        "medical_claim_changed": false
+      },
+      {
+        "id": "hair-017",
+        "chapter": "hair",
+        "title": "确认适用后再用外用米诺地尔，涂到头皮，并预先安排复评",
+        "actual_read_fields": [
+          "title",
+          "summary",
+          "fields.plain",
+          "fields.benefit",
+          "fields.notes"
+        ],
+        "method": "分批展开全部字段后逐句阅读，非关键词命中代替通读",
+        "result": "read_no_additional_patch",
+        "changed_fields": [],
+        "medical_claim_changed": false
+      },
+      {
+        "id": "hair-018",
+        "chapter": "hair",
+        "title": "男性型脱发考虑非那雄胺时，把性功能和情绪风险一起谈清楚",
+        "actual_read_fields": [
+          "title",
+          "summary",
+          "fields.plain",
+          "fields.benefit",
+          "fields.notes"
+        ],
+        "method": "分批展开全部字段后逐句阅读，非关键词命中代替通读",
+        "result": "read_no_additional_patch",
+        "changed_fields": [],
+        "medical_claim_changed": false
+      },
+      {
+        "id": "hair-019",
+        "chapter": "hair",
+        "title": "外用难坚持时再讨论口服米诺地尔，别自行把降压药改作生发",
+        "actual_read_fields": [
+          "title",
+          "summary",
+          "fields.plain",
+          "fields.benefit",
+          "fields.notes"
+        ],
+        "method": "分批展开全部字段后逐句阅读，非关键词命中代替通读",
+        "result": "read_no_additional_patch",
+        "changed_fields": [],
+        "medical_claim_changed": false
+      },
+      {
+        "id": "hair-020",
+        "chapter": "hair",
+        "title": "先查饮食和真正缺乏，再买生发软糖、生物素或补铁",
+        "actual_read_fields": [
+          "title",
+          "summary",
+          "fields.plain",
+          "fields.benefit",
+          "fields.notes"
+        ],
+        "method": "分批展开全部字段后逐句阅读，非关键词命中代替通读",
+        "result": "read_no_additional_patch",
+        "changed_fields": [],
+        "medical_claim_changed": false
+      },
+      {
+        "id": "hair-021",
+        "chapter": "hair",
+        "title": "买生发帽或注射疗程前，先核对具体研究和维护要求",
+        "actual_read_fields": [
+          "title",
+          "summary",
+          "fields.plain",
+          "fields.benefit",
+          "fields.notes"
+        ],
+        "method": "分批展开全部字段后逐句阅读，非关键词命中代替通读",
+        "result": "editorial_patch",
+        "changed_fields": [
+          "fields.notes"
+        ],
+        "medical_claim_changed": false
+      },
+      {
+        "id": "hair-023",
+        "chapter": "hair",
+        "title": "植发先确认供区和脱发进展，别把移植当作永久停止掉发",
+        "actual_read_fields": [
+          "title",
+          "summary",
+          "fields.plain",
+          "fields.benefit",
+          "fields.notes"
+        ],
+        "method": "分批展开全部字段后逐句阅读，非关键词命中代替通读",
+        "result": "editorial_patch",
+        "changed_fields": [
+          "fields.notes"
+        ],
+        "medical_claim_changed": false
+      },
+      {
+        "id": "eyes-005",
+        "chapter": "eyes",
+        "title": "眼红又怕光、突然看不清或出现黑幕，先去急诊",
+        "actual_read_fields": [
+          "title",
+          "summary",
+          "fields.plain",
+          "fields.benefit",
+          "fields.notes"
+        ],
+        "method": "分批展开全部字段后逐句阅读，非关键词命中代替通读",
+        "result": "editorial_patch",
+        "changed_fields": [
+          "fields.notes",
+          "fields.plain"
+        ],
+        "medical_claim_changed": false
+      },
+      {
+        "id": "eyes-013",
+        "chapter": "eyes",
+        "title": "眼睛总干还流泪，先减刺激；反复发作查泪膜和眼睑",
+        "actual_read_fields": [
+          "title",
+          "summary",
+          "fields.plain",
+          "fields.benefit",
+          "fields.notes"
+        ],
+        "method": "分批展开全部字段后逐句阅读，非关键词命中代替通读",
+        "result": "read_no_additional_patch",
+        "changed_fields": [],
+        "medical_claim_changed": false
+      },
+      {
+        "id": "eyes-014",
+        "chapter": "eyes",
+        "title": "双眼季节性发痒、流泪，先排查过敏，别先买抗生素或激素",
+        "actual_read_fields": [
+          "title",
+          "summary",
+          "fields.plain",
+          "fields.benefit",
+          "fields.notes"
+        ],
+        "method": "分批展开全部字段后逐句阅读，非关键词命中代替通读",
+        "result": "read_no_additional_patch",
+        "changed_fields": [],
+        "medical_claim_changed": false
+      },
+      {
+        "id": "eyes-006",
+        "chapter": "eyes",
+        "title": "眼皮长针眼先温敷，别挤破；硬包久不退要检查",
+        "actual_read_fields": [
+          "title",
+          "summary",
+          "fields.plain",
+          "fields.benefit",
+          "fields.notes"
+        ],
+        "method": "分批展开全部字段后逐句阅读，非关键词命中代替通读",
+        "result": "read_no_additional_patch",
+        "changed_fields": [],
+        "medical_claim_changed": false
+      },
+      {
+        "id": "eyes-023",
+        "chapter": "eyes",
+        "title": "突然看成两个影像，当天就医，伴剧烈头痛或头伤直接急诊",
+        "actual_read_fields": [
+          "title",
+          "summary",
+          "fields.plain",
+          "fields.benefit",
+          "fields.notes"
+        ],
+        "method": "分批展开全部字段后逐句阅读，非关键词命中代替通读",
+        "result": "editorial_patch",
+        "changed_fields": [
+          "fields.notes"
+        ],
+        "medical_claim_changed": false
+      },
+      {
+        "id": "eyes-020",
+        "chapter": "eyes",
+        "title": "先分清视力、度数和眼轴，别拿视力表反推近视几百度",
+        "actual_read_fields": [
+          "title",
+          "summary",
+          "fields.plain",
+          "fields.benefit",
+          "fields.notes"
+        ],
+        "method": "分批展开全部字段后逐句阅读，非关键词命中代替通读",
+        "result": "editorial_patch",
+        "changed_fields": [
+          "fields.notes"
+        ],
+        "medical_claim_changed": false
+      },
+      {
+        "id": "eyes-001",
+        "chapter": "eyes",
+        "title": "戴镜仍看不清先验光检查，别急着升级镜片",
+        "actual_read_fields": [
+          "title",
+          "summary",
+          "fields.plain",
+          "fields.benefit",
+          "fields.notes"
+        ],
+        "method": "分批展开全部字段后逐句阅读，非关键词命中代替通读",
+        "result": "read_no_additional_patch",
+        "changed_fields": [],
+        "medical_claim_changed": false
+      },
+      {
+        "id": "eyes-021",
+        "chapter": "eyes",
+        "title": "配镜先完成验光和试戴，别只拿电脑打印数下单",
+        "actual_read_fields": [
+          "title",
+          "summary",
+          "fields.plain",
+          "fields.benefit",
+          "fields.notes"
+        ],
+        "method": "分批展开全部字段后逐句阅读，非关键词命中代替通读",
+        "result": "read_no_additional_patch",
+        "changed_fields": [],
+        "medical_claim_changed": false
+      },
+      {
+        "id": "eyes-022",
+        "chapter": "eyes",
+        "title": "配新镜先核对球镜、散光和用途，小改度数也要说清收益",
+        "actual_read_fields": [
+          "title",
+          "summary",
+          "fields.plain",
+          "fields.benefit",
+          "fields.notes"
+        ],
+        "method": "分批展开全部字段后逐句阅读，非关键词命中代替通读",
+        "result": "editorial_patch",
+        "changed_fields": [
+          "fields.plain"
+        ],
+        "medical_claim_changed": false
+      },
+      {
+        "id": "eyes-026",
+        "chapter": "eyes",
+        "title": "看近总重影、串行或头痛，先查双眼配合，再买视觉训练",
+        "actual_read_fields": [
+          "title",
+          "summary",
+          "fields.plain",
+          "fields.benefit",
+          "fields.notes"
+        ],
+        "method": "分批展开全部字段后逐句阅读，非关键词命中代替通读",
+        "result": "editorial_patch",
+        "changed_fields": [
+          "fields.notes"
+        ],
+        "medical_claim_changed": false
+      },
+      {
+        "id": "eyes-031",
+        "chapter": "eyes",
+        "title": "孩子用眼先安排户外和间歇，别只换防蓝光镜片",
+        "actual_read_fields": [
+          "title",
+          "summary",
+          "fields.plain",
+          "fields.benefit",
+          "fields.notes"
+        ],
+        "method": "分批展开全部字段后逐句阅读，非关键词命中代替通读",
+        "result": "read_no_additional_patch",
+        "changed_fields": [],
+        "medical_claim_changed": false
+      },
+      {
+        "id": "eyes-032",
+        "chapter": "eyes",
+        "title": "孩子眯眼看黑板先验光，配镜与减慢近视加深分开决定",
+        "actual_read_fields": [
+          "title",
+          "summary",
+          "fields.plain",
+          "fields.benefit",
+          "fields.notes"
+        ],
+        "method": "分批展开全部字段后逐句阅读，非关键词命中代替通读",
+        "result": "read_no_additional_patch",
+        "changed_fields": [],
+        "medical_claim_changed": false
+      },
+      {
+        "id": "eyes-024",
+        "chapter": "eyes",
+        "title": "成年后度数还在加深，先核对变化，再讨论是否需要近视管理",
+        "actual_read_fields": [
+          "title",
+          "summary",
+          "fields.plain",
+          "fields.benefit",
+          "fields.notes"
+        ],
+        "method": "分批展开全部字段后逐句阅读，非关键词命中代替通读",
+        "result": "read_no_additional_patch",
+        "changed_fields": [],
+        "medical_claim_changed": false
+      },
+      {
+        "id": "eyes-025",
+        "chapter": "eyes",
+        "title": "近视较深也要看眼底，别用戴镜清楚或摘镜成功当作风险消失",
+        "actual_read_fields": [
+          "title",
+          "summary",
+          "fields.plain",
+          "fields.benefit",
+          "fields.notes"
+        ],
+        "method": "分批展开全部字段后逐句阅读，非关键词命中代替通读",
+        "result": "read_no_additional_patch",
+        "changed_fields": [],
+        "medical_claim_changed": false
+      },
+      {
+        "id": "eyes-030",
+        "chapter": "eyes",
+        "title": "遇到“几天恢复视力”先核对度数和眼轴，别只看多认出几行",
+        "actual_read_fields": [
+          "title",
+          "summary",
+          "fields.plain",
+          "fields.benefit",
+          "fields.notes"
+        ],
+        "method": "分批展开全部字段后逐句阅读，非关键词命中代替通读",
+        "result": "read_no_additional_patch",
+        "changed_fields": [],
+        "medical_claim_changed": false
+      },
+      {
+        "id": "eyes-002",
+        "chapter": "eyes",
+        "title": "看屏幕时完整眨眼、安排离屏休息，别让风直吹眼睛",
+        "actual_read_fields": [
+          "title",
+          "summary",
+          "fields.plain",
+          "fields.benefit",
+          "fields.notes"
+        ],
+        "method": "分批展开全部字段后逐句阅读，非关键词命中代替通读",
+        "result": "read_no_additional_patch",
+        "changed_fields": [],
+        "medical_claim_changed": false
+      },
+      {
+        "id": "eyes-007",
+        "chapter": "eyes",
+        "title": "偶发干涩先选基础人工泪液，夜间不适再比较凝胶或眼膏",
+        "actual_read_fields": [
+          "title",
+          "summary",
+          "fields.plain",
+          "fields.benefit",
+          "fields.notes"
+        ],
+        "method": "分批展开全部字段后逐句阅读，非关键词命中代替通读",
+        "result": "read_no_additional_patch",
+        "changed_fields": [],
+        "medical_claim_changed": false
+      },
+      {
+        "id": "eyes-015",
+        "chapter": "eyes",
+        "title": "偶尔滴人工泪液看耐受；频繁用或敏感时，优先无防腐剂",
+        "actual_read_fields": [
+          "title",
+          "summary",
+          "fields.plain",
+          "fields.benefit",
+          "fields.notes"
+        ],
+        "method": "分批展开全部字段后逐句阅读，非关键词命中代替通读",
+        "result": "read_no_additional_patch",
+        "changed_fields": [],
+        "medical_claim_changed": false
+      },
+      {
+        "id": "eyes-016",
+        "chapter": "eyes",
+        "title": "过敏肿痒选冷敷，油腺护理用温敷；先别急着买按摩仪",
+        "actual_read_fields": [
+          "title",
+          "summary",
+          "fields.plain",
+          "fields.benefit",
+          "fields.notes"
+        ],
+        "method": "分批展开全部字段后逐句阅读，非关键词命中代替通读",
+        "result": "read_no_additional_patch",
+        "changed_fields": [],
+        "medical_claim_changed": false
+      },
+      {
+        "id": "eyes-003",
+        "chapter": "eyes",
+        "title": "普通屏幕疲劳先处理度数和眼表，不优先加钱防蓝光",
+        "actual_read_fields": [
+          "title",
+          "summary",
+          "fields.plain",
+          "fields.benefit",
+          "fields.notes"
+        ],
+        "method": "分批展开全部字段后逐句阅读，非关键词命中代替通读",
+        "result": "read_no_additional_patch",
+        "changed_fields": [],
+        "medical_claim_changed": false
+      },
+      {
+        "id": "eyes-004",
+        "chapter": "eyes",
+        "title": "单为久看屏幕，不把叶黄素列为优先支出",
+        "actual_read_fields": [
+          "title",
+          "summary",
+          "fields.plain",
+          "fields.benefit",
+          "fields.notes"
+        ],
+        "method": "分批展开全部字段后逐句阅读，非关键词命中代替通读",
+        "result": "read_no_additional_patch",
+        "changed_fields": [],
+        "medical_claim_changed": false
+      },
+      {
+        "id": "eyes-008",
+        "chapter": "eyes",
+        "title": "成人省心选框架，偶尔不戴框架先比日抛；OK镜先算护理负担",
+        "actual_read_fields": [
+          "title",
+          "summary",
+          "fields.plain",
+          "fields.benefit",
+          "fields.notes"
+        ],
+        "method": "分批展开全部字段后逐句阅读，非关键词命中代替通读",
+        "result": "read_no_additional_patch",
+        "changed_fields": [],
+        "medical_claim_changed": false
+      },
+      {
+        "id": "eyes-009",
+        "chapter": "eyes",
+        "title": "偶尔戴先比较日抛；频繁佩戴再看适配与护理能力",
+        "actual_read_fields": [
+          "title",
+          "summary",
+          "fields.plain",
+          "fields.benefit",
+          "fields.notes"
+        ],
+        "method": "分批展开全部字段后逐句阅读，非关键词命中代替通读",
+        "result": "editorial_patch",
+        "changed_fields": [
+          "fields.plain"
+        ],
+        "medical_claim_changed": false
+      },
+      {
+        "id": "eyes-010",
+        "chapter": "eyes",
+        "title": "美瞳先过注册和验配两关，再选花色",
+        "actual_read_fields": [
+          "title",
+          "summary",
+          "fields.plain",
+          "fields.benefit",
+          "fields.notes"
+        ],
+        "method": "分批展开全部字段后逐句阅读，非关键词命中代替通读",
+        "result": "read_no_additional_patch",
+        "changed_fields": [],
+        "medical_claim_changed": false
+      },
+      {
+        "id": "eyes-027",
+        "chapter": "eyes",
+        "title": "想做近视激光先看能否手术，再按角膜、恢复和生活任务选术式",
+        "actual_read_fields": [
+          "title",
+          "summary",
+          "fields.plain",
+          "fields.benefit",
+          "fields.notes"
+        ],
+        "method": "分批展开全部字段后逐句阅读，非关键词命中代替通读",
+        "result": "read_no_additional_patch",
+        "changed_fields": [],
+        "medical_claim_changed": false
+      },
+      {
+        "id": "eyes-028",
+        "chapter": "eyes",
+        "title": "比较ICL前先查眼内空间和健康状态，别把可取出听成完全可逆",
+        "actual_read_fields": [
+          "title",
+          "summary",
+          "fields.plain",
+          "fields.benefit",
+          "fields.notes"
+        ],
+        "method": "分批展开全部字段后逐句阅读，非关键词命中代替通读",
+        "result": "editorial_patch",
+        "changed_fields": [
+          "fields.notes"
+        ],
+        "medical_claim_changed": false
+      },
+      {
+        "id": "eyes-029",
+        "chapter": "eyes",
+        "title": "摘镜术后按节点用药复查，疼痛或视力越来越差就提前联系",
+        "actual_read_fields": [
+          "title",
+          "summary",
+          "fields.plain",
+          "fields.benefit",
+          "fields.notes"
+        ],
+        "method": "分批展开全部字段后逐句阅读，非关键词命中代替通读",
+        "result": "read_no_additional_patch",
+        "changed_fields": [],
+        "medical_claim_changed": false
+      },
+      {
+        "id": "eyes-011",
+        "chapter": "eyes",
+        "title": "日戴软镜睡前、洗澡和游泳前都摘下",
+        "actual_read_fields": [
+          "title",
+          "summary",
+          "fields.plain",
+          "fields.benefit",
+          "fields.notes"
+        ],
+        "method": "分批展开全部字段后逐句阅读，非关键词命中代替通读",
+        "result": "read_no_additional_patch",
+        "changed_fields": [],
+        "medical_claim_changed": false
+      },
+      {
+        "id": "eyes-012",
+        "chapter": "eyes",
+        "title": "普通护理液每次用新液；双氧水系统用配套盒并完成中和",
+        "actual_read_fields": [
+          "title",
+          "summary",
+          "fields.plain",
+          "fields.benefit",
+          "fields.notes"
+        ],
+        "method": "分批展开全部字段后逐句阅读，非关键词命中代替通读",
+        "result": "read_no_additional_patch",
+        "changed_fields": [],
+        "medical_claim_changed": false
+      },
+      {
+        "id": "eyes-017",
+        "chapter": "eyes",
+        "title": "游泳先摘隐形、戴泳镜；泳后没不适，别常规滴抗生素",
+        "actual_read_fields": [
+          "title",
+          "summary",
+          "fields.plain",
+          "fields.benefit",
+          "fields.notes"
+        ],
+        "method": "分批展开全部字段后逐句阅读，非关键词命中代替通读",
+        "result": "read_no_additional_patch",
+        "changed_fields": [],
+        "medical_claim_changed": false
+      },
+      {
+        "id": "eyes-018",
+        "chapter": "eyes",
+        "title": "眼里进灰先别揉，轻柔冲洗后仍有异物感就检查",
+        "actual_read_fields": [
+          "title",
+          "summary",
+          "fields.plain",
+          "fields.benefit",
+          "fields.notes"
+        ],
+        "method": "分批展开全部字段后逐句阅读，非关键词命中代替通读",
+        "result": "read_no_additional_patch",
+        "changed_fields": [],
+        "medical_claim_changed": false
+      },
+      {
+        "id": "eyes-019",
+        "chapter": "eyes",
+        "title": "眼妆别共用，睫毛膏干了别兑水；行驶途中别补眼妆",
+        "actual_read_fields": [
+          "title",
+          "summary",
+          "fields.plain",
+          "fields.benefit",
+          "fields.notes"
+        ],
+        "method": "分批展开全部字段后逐句阅读，非关键词命中代替通读",
+        "result": "read_no_additional_patch",
+        "changed_fields": [],
+        "medical_claim_changed": false
+      },
+      {
+        "id": "nose-001",
+        "chapter": "nose",
+        "title": "只剪露出鼻孔的鼻毛，别拔毛或用鼻毛蜡清空",
+        "actual_read_fields": [
+          "title",
+          "summary",
+          "fields.plain",
+          "fields.benefit",
+          "fields.notes"
+        ],
+        "method": "分批展开全部字段后逐句阅读，非关键词命中代替通读",
+        "result": "editorial_patch",
+        "changed_fields": [
+          "fields.benefit"
+        ],
+        "medical_claim_changed": false
+      },
+      {
+        "id": "nose-002",
+        "chapter": "nose",
+        "title": "鼻腔干痒、结硬痂时先湿润，别反复抠挖或往深处涂油",
+        "actual_read_fields": [
+          "title",
+          "summary",
+          "fields.plain",
+          "fields.benefit",
+          "fields.notes"
+        ],
+        "method": "分批展开全部字段后逐句阅读，非关键词命中代替通读",
+        "result": "read_no_additional_patch",
+        "changed_fields": [],
+        "medical_claim_changed": false
+      },
+      {
+        "id": "nose-005",
+        "chapter": "nose",
+        "title": "鼻痒、喷嚏和清涕反复出现，按触发场景排查过敏，别一直当感冒",
+        "actual_read_fields": [
+          "title",
+          "summary",
+          "fields.plain",
+          "fields.benefit",
+          "fields.notes"
+        ],
+        "method": "分批展开全部字段后逐句阅读，非关键词命中代替通读",
+        "result": "read_no_additional_patch",
+        "changed_fields": [],
+        "medical_claim_changed": false
+      },
+      {
+        "id": "nose-007",
+        "chapter": "nose",
+        "title": "持续过敏鼻塞先比较抗炎鼻喷，快速通鼻药只作短期救急",
+        "actual_read_fields": [
+          "title",
+          "summary",
+          "fields.plain",
+          "fields.benefit",
+          "fields.notes"
+        ],
+        "method": "分批展开全部字段后逐句阅读，非关键词命中代替通读",
+        "result": "read_no_additional_patch",
+        "changed_fields": [],
+        "medical_claim_changed": false
+      },
+      {
+        "id": "nose-004",
+        "chapter": "nose",
+        "title": "需要洗鼻时先选合格的水，盐水喷雾和大水量冲洗分开用",
+        "actual_read_fields": [
+          "title",
+          "summary",
+          "fields.plain",
+          "fields.benefit",
+          "fields.notes"
+        ],
+        "method": "分批展开全部字段后逐句阅读，非关键词命中代替通读",
+        "result": "editorial_patch",
+        "changed_fields": [
+          "fields.notes"
+        ],
+        "medical_claim_changed": false
+      },
+      {
+        "id": "nose-006",
+        "chapter": "nose",
+        "title": "流鼻血时身体前倾，捏紧鼻翼软部连续10至15分钟",
+        "actual_read_fields": [
+          "title",
+          "summary",
+          "fields.plain",
+          "fields.benefit",
+          "fields.notes"
+        ],
+        "method": "分批展开全部字段后逐句阅读，非关键词命中代替通读",
+        "result": "read_no_additional_patch",
+        "changed_fields": [],
+        "medical_claim_changed": false
+      },
+      {
+        "id": "nose-008",
+        "chapter": "nose",
+        "title": "单侧鼻塞不退或嗅觉数周没恢复，安排耳鼻喉检查",
+        "actual_read_fields": [
+          "title",
+          "summary",
+          "fields.plain",
+          "fields.benefit",
+          "fields.notes"
+        ],
+        "method": "分批展开全部字段后逐句阅读，非关键词命中代替通读",
+        "result": "read_no_additional_patch",
+        "changed_fields": [],
+        "medical_claim_changed": false
+      },
+      {
+        "id": "nose-003",
+        "chapter": "nose",
+        "title": "鼻尖小点先分清皮脂丝和黑头，别用鼻贴追求一个不剩",
+        "actual_read_fields": [
+          "title",
+          "summary",
+          "fields.plain",
+          "fields.benefit",
+          "fields.notes"
+        ],
+        "method": "分批展开全部字段后逐句阅读，非关键词命中代替通读",
+        "result": "read_no_additional_patch",
+        "changed_fields": [],
+        "medical_claim_changed": false
+      },
+      {
+        "id": "ears-005",
+        "chapter": "ears",
+        "title": "突然听不清就联系耳鼻喉急诊，争取当天评估",
+        "actual_read_fields": [
+          "title",
+          "summary",
+          "fields.plain",
+          "fields.benefit",
+          "fields.notes"
+        ],
+        "method": "分批展开全部字段后逐句阅读，非关键词命中代替通读",
+        "result": "read_no_additional_patch",
+        "changed_fields": [],
+        "medical_claim_changed": false
+      },
+      {
+        "id": "ears-001",
+        "chapter": "ears",
+        "title": "耳廓和耳后用湿软布轻擦、洗后擦干，别把耳道也一起掏空",
+        "actual_read_fields": [
+          "title",
+          "summary",
+          "fields.plain",
+          "fields.benefit",
+          "fields.notes"
+        ],
+        "method": "分批展开全部字段后逐句阅读，非关键词命中代替通读",
+        "result": "read_no_additional_patch",
+        "changed_fields": [],
+        "medical_claim_changed": false
+      },
+      {
+        "id": "ears-002",
+        "chapter": "ears",
+        "title": "确认是耳垢堵塞后再用软化剂，有穿孔或手术史先别自行滴油",
+        "actual_read_fields": [
+          "title",
+          "summary",
+          "fields.plain",
+          "fields.benefit",
+          "fields.notes"
+        ],
+        "method": "分批展开全部字段后逐句阅读，非关键词命中代替通读",
+        "result": "read_no_additional_patch",
+        "changed_fields": [],
+        "medical_claim_changed": false
+      },
+      {
+        "id": "ears-003",
+        "chapter": "ears",
+        "title": "游泳后先排水、擦干外耳，疼痒流液别自己配酒精滴耳",
+        "actual_read_fields": [
+          "title",
+          "summary",
+          "fields.plain",
+          "fields.benefit",
+          "fields.notes"
+        ],
+        "method": "分批展开全部字段后逐句阅读，非关键词命中代替通读",
+        "result": "read_no_additional_patch",
+        "changed_fields": [],
+        "medical_claim_changed": false
+      },
+      {
+        "id": "ears-004",
+        "chapter": "ears",
+        "title": "耳机同时降音量、减时长，演唱会另用合适的听力防护",
+        "actual_read_fields": [
+          "title",
+          "summary",
+          "fields.plain",
+          "fields.benefit",
+          "fields.notes"
+        ],
+        "method": "分批展开全部字段后逐句阅读，非关键词命中代替通读",
+        "result": "read_no_additional_patch",
+        "changed_fields": [],
+        "medical_claim_changed": false
+      },
+      {
+        "id": "ears-006",
+        "chapter": "ears",
+        "title": "耳鸣反复影响睡眠时先查听力，别先囤银杏或营养神经补剂",
+        "actual_read_fields": [
+          "title",
+          "summary",
+          "fields.plain",
+          "fields.benefit",
+          "fields.notes"
+        ],
+        "method": "分批展开全部字段后逐句阅读，非关键词命中代替通读",
+        "result": "read_no_additional_patch",
+        "changed_fields": [],
+        "medical_claim_changed": false
+      },
+      {
+        "id": "ears-007",
+        "chapter": "ears",
+        "title": "飞机下降时先吞咽、打哈欠，别为通耳强行反复鼓气",
+        "actual_read_fields": [
+          "title",
+          "summary",
+          "fields.plain",
+          "fields.benefit",
+          "fields.notes"
+        ],
+        "method": "分批展开全部字段后逐句阅读，非关键词命中代替通读",
+        "result": "read_no_additional_patch",
+        "changed_fields": [],
+        "medical_claim_changed": false
+      },
+      {
+        "id": "ears-009",
+        "chapter": "ears",
+        "title": "第一次打耳洞优先考虑耳垂，先核实无菌操作和自己的瘢痕史",
+        "actual_read_fields": [
+          "title",
+          "summary",
+          "fields.plain",
+          "fields.benefit",
+          "fields.notes"
+        ],
+        "method": "分批展开全部字段后逐句阅读，非关键词命中代替通读",
+        "result": "editorial_patch",
+        "changed_fields": [
+          "fields.plain"
+        ],
+        "medical_claim_changed": false
+      },
+      {
+        "id": "ears-010",
+        "chapter": "ears",
+        "title": "新耳洞先洗手、温和清洁和轻轻擦干，肿热流脓当天就医",
+        "actual_read_fields": [
+          "title",
+          "summary",
+          "fields.plain",
+          "fields.benefit",
+          "fields.notes"
+        ],
+        "method": "分批展开全部字段后逐句阅读，非关键词命中代替通读",
+        "result": "read_no_additional_patch",
+        "changed_fields": [],
+        "medical_claim_changed": false
+      },
+      {
+        "id": "ears-008",
+        "chapter": "ears",
+        "title": "耳饰接触处一戴就痒先停戴，反复发作查清金属过敏原",
+        "actual_read_fields": [
+          "title",
+          "summary",
+          "fields.plain",
+          "fields.benefit",
+          "fields.notes"
+        ],
+        "method": "分批展开全部字段后逐句阅读，非关键词命中代替通读",
+        "result": "read_no_additional_patch",
+        "changed_fields": [],
+        "medical_claim_changed": false
+      },
+      {
+        "id": "ears-011",
+        "chapter": "ears",
+        "title": "耳夹以不痛不麻为底线，选轻耳饰并避开长时间压迫和勾扯",
+        "actual_read_fields": [
+          "title",
+          "summary",
+          "fields.plain",
+          "fields.benefit",
+          "fields.notes"
+        ],
+        "method": "分批展开全部字段后逐句阅读，非关键词命中代替通读",
+        "result": "editorial_patch",
+        "changed_fields": [
+          "fields.plain"
+        ],
+        "medical_claim_changed": false
+      },
+      {
+        "id": "oral-018",
+        "chapter": "oral",
+        "title": "牙痛伴脸肿、发热先看牙；吞咽或呼吸困难直接急诊",
+        "actual_read_fields": [
+          "title",
+          "summary",
+          "fields.plain",
+          "fields.benefit",
+          "fields.notes"
+        ],
+        "method": "分批展开全部字段后逐句阅读，非关键词命中代替通读",
+        "result": "read_no_additional_patch",
+        "changed_fields": [],
+        "medical_claim_changed": false
+      },
+      {
+        "id": "oral-013",
+        "chapter": "oral",
+        "title": "遇冷刺痛先查龋齿和裂纹，确认敏感后再选抗敏牙膏",
+        "actual_read_fields": [
+          "title",
+          "summary",
+          "fields.plain",
+          "fields.benefit",
+          "fields.notes"
+        ],
+        "method": "分批展开全部字段后逐句阅读，非关键词命中代替通读",
+        "result": "read_no_additional_patch",
+        "changed_fields": [],
+        "medical_claim_changed": false
+      },
+      {
+        "id": "oral-007",
+        "chapter": "oral",
+        "title": "牙龈反复出血别停清洁，检查牙石和牙周炎",
+        "actual_read_fields": [
+          "title",
+          "summary",
+          "fields.plain",
+          "fields.benefit",
+          "fields.notes"
+        ],
+        "method": "分批展开全部字段后逐句阅读，非关键词命中代替通读",
+        "result": "read_no_additional_patch",
+        "changed_fields": [],
+        "medical_claim_changed": false
+      },
+      {
+        "id": "oral-001",
+        "chapter": "oral",
+        "title": "早晚用含氟牙膏刷到每个牙面，睡前那次别省",
+        "actual_read_fields": [
+          "title",
+          "summary",
+          "fields.plain",
+          "fields.benefit",
+          "fields.notes"
+        ],
+        "method": "分批展开全部字段后逐句阅读，非关键词命中代替通读",
+        "result": "read_no_additional_patch",
+        "changed_fields": [],
+        "medical_claim_changed": false
+      },
+      {
+        "id": "oral-002",
+        "chapter": "oral",
+        "title": "手动刷不干净可换电动，先看刷头和动作，不追震动数字",
+        "actual_read_fields": [
+          "title",
+          "summary",
+          "fields.plain",
+          "fields.benefit",
+          "fields.notes"
+        ],
+        "method": "分批展开全部字段后逐句阅读，非关键词命中代替通读",
+        "result": "editorial_patch",
+        "changed_fields": [
+          "fields.notes"
+        ],
+        "medical_claim_changed": false
+      },
+      {
+        "id": "oral-003",
+        "chapter": "oral",
+        "title": "每天清牙缝：窄缝用牙线，刷得进去的空间选合适牙间刷",
+        "actual_read_fields": [
+          "title",
+          "summary",
+          "fields.plain",
+          "fields.benefit",
+          "fields.notes"
+        ],
+        "method": "分批展开全部字段后逐句阅读，非关键词命中代替通读",
+        "result": "read_no_additional_patch",
+        "changed_fields": [],
+        "medical_claim_changed": false
+      },
+      {
+        "id": "oral-004",
+        "chapter": "oral",
+        "title": "冲牙器可作辅助，别只凭冲出残渣就省掉其他清洁",
+        "actual_read_fields": [
+          "title",
+          "summary",
+          "fields.plain",
+          "fields.benefit",
+          "fields.notes"
+        ],
+        "method": "分批展开全部字段后逐句阅读，非关键词命中代替通读",
+        "result": "read_no_additional_patch",
+        "changed_fields": [],
+        "medical_claim_changed": false
+      },
+      {
+        "id": "oral-016",
+        "chapter": "oral",
+        "title": "含糖饮料别整天小口喝，无糖酸饮也要减少牙齿接触",
+        "actual_read_fields": [
+          "title",
+          "summary",
+          "fields.plain",
+          "fields.benefit",
+          "fields.notes"
+        ],
+        "method": "分批展开全部字段后逐句阅读，非关键词命中代替通读",
+        "result": "read_no_additional_patch",
+        "changed_fields": [],
+        "medical_claim_changed": false
+      },
+      {
+        "id": "oral-005",
+        "chapter": "oral",
+        "title": "买漱口水先确定防龋、牙龈还是口气目标，再看成分",
+        "actual_read_fields": [
+          "title",
+          "summary",
+          "fields.plain",
+          "fields.benefit",
+          "fields.notes"
+        ],
+        "method": "分批展开全部字段后逐句阅读，非关键词命中代替通读",
+        "result": "read_no_additional_patch",
+        "changed_fields": [],
+        "medical_claim_changed": false
+      },
+      {
+        "id": "oral-006",
+        "chapter": "oral",
+        "title": "氯己定按疗程用，别长期拿它替代刷牙或压住出血",
+        "actual_read_fields": [
+          "title",
+          "summary",
+          "fields.plain",
+          "fields.benefit",
+          "fields.notes"
+        ],
+        "method": "分批展开全部字段后逐句阅读，非关键词命中代替通读",
+        "result": "editorial_patch",
+        "changed_fields": [
+          "fields.plain"
+        ],
+        "medical_claim_changed": false
+      },
+      {
+        "id": "oral-019",
+        "chapter": "oral",
+        "title": "换牙时别硬拔乳牙，把最后面的六龄齿也刷到",
+        "actual_read_fields": [
+          "title",
+          "summary",
+          "fields.plain",
+          "fields.benefit",
+          "fields.notes"
+        ],
+        "method": "分批展开全部字段后逐句阅读，非关键词命中代替通读",
+        "result": "read_no_additional_patch",
+        "changed_fields": [],
+        "medical_claim_changed": false
+      },
+      {
+        "id": "oral-020",
+        "chapter": "oral",
+        "title": "不晚于七岁安排首次正畸评估；牙不齐先分清现在治还是等换牙",
+        "actual_read_fields": [
+          "title",
+          "summary",
+          "fields.plain",
+          "fields.benefit",
+          "fields.notes"
+        ],
+        "method": "分批展开全部字段后逐句阅读，非关键词命中代替通读",
+        "result": "read_no_additional_patch",
+        "changed_fields": [],
+        "medical_claim_changed": false
+      },
+      {
+        "id": "oral-021",
+        "chapter": "oral",
+        "title": "发现地包天就评估，不等换完牙，也不把所有人都当成要手术",
+        "actual_read_fields": [
+          "title",
+          "summary",
+          "fields.plain",
+          "fields.benefit",
+          "fields.notes"
+        ],
+        "method": "分批展开全部字段后逐句阅读，非关键词命中代替通读",
+        "result": "read_no_additional_patch",
+        "changed_fields": [],
+        "medical_claim_changed": false
+      },
+      {
+        "id": "oral-012",
+        "chapter": "oral",
+        "title": "成年后也能评估正畸，先稳住牙周，再比较牙套和长期保持",
+        "actual_read_fields": [
+          "title",
+          "summary",
+          "fields.plain",
+          "fields.benefit",
+          "fields.notes"
+        ],
+        "method": "分批展开全部字段后逐句阅读，非关键词命中代替通读",
+        "result": "read_no_additional_patch",
+        "changed_fields": [],
+        "medical_claim_changed": false
+      },
+      {
+        "id": "oral-009",
+        "chapter": "oral",
+        "title": "想牙齿变白先查着色和龋病，再比较去渍与过氧化物美白",
+        "actual_read_fields": [
+          "title",
+          "summary",
+          "fields.plain",
+          "fields.benefit",
+          "fields.notes"
+        ],
+        "method": "分批展开全部字段后逐句阅读，非关键词命中代替通读",
+        "result": "read_no_additional_patch",
+        "changed_fields": [],
+        "medical_claim_changed": false
+      },
+      {
+        "id": "oral-010",
+        "chapter": "oral",
+        "title": "做瓷贴面或烤瓷冠前，先比较少磨牙的方案和以后维修",
+        "actual_read_fields": [
+          "title",
+          "summary",
+          "fields.plain",
+          "fields.benefit",
+          "fields.notes"
+        ],
+        "method": "分批展开全部字段后逐句阅读，非关键词命中代替通读",
+        "result": "read_no_additional_patch",
+        "changed_fields": [],
+        "medical_claim_changed": false
+      },
+      {
+        "id": "oral-011",
+        "chapter": "oral",
+        "title": "智齿先看位置、邻牙和疾病，再决定拔除或监测",
+        "actual_read_fields": [
+          "title",
+          "summary",
+          "fields.plain",
+          "fields.benefit",
+          "fields.notes"
+        ],
+        "method": "分批展开全部字段后逐句阅读，非关键词命中代替通读",
+        "result": "read_no_additional_patch",
+        "changed_fields": [],
+        "medical_claim_changed": false
+      },
+      {
+        "id": "oral-017",
+        "chapter": "oral",
+        "title": "白天总咬紧牙先放松提醒，晨起颌痛或磨损要检查",
+        "actual_read_fields": [
+          "title",
+          "summary",
+          "fields.plain",
+          "fields.benefit",
+          "fields.notes"
+        ],
+        "method": "分批展开全部字段后逐句阅读，非关键词命中代替通读",
+        "result": "read_no_additional_patch",
+        "changed_fields": [],
+        "medical_claim_changed": false
+      },
+      {
+        "id": "oral-022",
+        "chapter": "oral",
+        "title": "恒牙缺了先比较活动义齿、固定桥和种植，别把贴面当补缺牙",
+        "actual_read_fields": [
+          "title",
+          "summary",
+          "fields.plain",
+          "fields.benefit",
+          "fields.notes"
+        ],
+        "method": "分批展开全部字段后逐句阅读，非关键词命中代替通读",
+        "result": "read_no_additional_patch",
+        "changed_fields": [],
+        "medical_claim_changed": false
+      },
+      {
+        "id": "oral-023",
+        "chapter": "oral",
+        "title": "活动假牙每天取下清洁，磨痛或松动就调适，别靠胶越粘越多",
+        "actual_read_fields": [
+          "title",
+          "summary",
+          "fields.plain",
+          "fields.benefit",
+          "fields.notes"
+        ],
+        "method": "分批展开全部字段后逐句阅读，非关键词命中代替通读",
+        "result": "read_no_additional_patch",
+        "changed_fields": [],
+        "medical_claim_changed": false
+      },
+      {
+        "id": "lips-001",
+        "chapter": "lips",
+        "title": "嘴唇普通干裂先选耐受的润唇膏，别靠清凉感判断修护",
+        "actual_read_fields": [
+          "title",
+          "summary",
+          "fields.plain",
+          "fields.benefit",
+          "fields.notes"
+        ],
+        "method": "分批展开全部字段后逐句阅读，非关键词命中代替通读",
+        "result": "read_no_additional_patch",
+        "changed_fields": [],
+        "medical_claim_changed": false
+      },
+      {
+        "id": "lips-002",
+        "chapter": "lips",
+        "title": "想舔嘴唇时改补涂，别撕皮或用磨砂把干裂磨掉",
+        "actual_read_fields": [
+          "title",
+          "summary",
+          "fields.plain",
+          "fields.benefit",
+          "fields.notes"
+        ],
+        "method": "分批展开全部字段后逐句阅读，非关键词命中代替通读",
+        "result": "read_no_additional_patch",
+        "changed_fields": [],
+        "medical_claim_changed": false
+      },
+      {
+        "id": "lips-003",
+        "chapter": "lips",
+        "title": "户外给嘴唇用防晒润唇产品，吃喝和擦掉后补涂",
+        "actual_read_fields": [
+          "title",
+          "summary",
+          "fields.plain",
+          "fields.benefit",
+          "fields.notes"
+        ],
+        "method": "分批展开全部字段后逐句阅读，非关键词命中代替通读",
+        "result": "read_no_additional_patch",
+        "changed_fields": [],
+        "medical_claim_changed": false
+      },
+      {
+        "id": "lips-004",
+        "chapter": "lips",
+        "title": "唇部反复红痒先停可疑唇妆，久不愈要查接触刺激和病变",
+        "actual_read_fields": [
+          "title",
+          "summary",
+          "fields.plain",
+          "fields.benefit",
+          "fields.notes"
+        ],
+        "method": "分批展开全部字段后逐句阅读，非关键词命中代替通读",
+        "result": "read_no_additional_patch",
+        "changed_fields": [],
+        "medical_claim_changed": false
+      },
+      {
+        "id": "lips-005",
+        "chapter": "lips",
+        "title": "唇边刺痒后冒成簇水疱，尽早讨论抗病毒并避免传播",
+        "actual_read_fields": [
+          "title",
+          "summary",
+          "fields.plain",
+          "fields.benefit",
+          "fields.notes"
+        ],
+        "method": "分批展开全部字段后逐句阅读，非关键词命中代替通读",
+        "result": "read_no_additional_patch",
+        "changed_fields": [],
+        "medical_claim_changed": false
+      },
+      {
+        "id": "lips-006",
+        "chapter": "lips",
+        "title": "嘴角反复裂先挡住唾液刺激，别见裂口就补维生素或涂激素",
+        "actual_read_fields": [
+          "title",
+          "summary",
+          "fields.plain",
+          "fields.benefit",
+          "fields.notes"
+        ],
+        "method": "分批展开全部字段后逐句阅读，非关键词命中代替通读",
+        "result": "read_no_additional_patch",
+        "changed_fields": [],
+        "medical_claim_changed": false
+      },
+      {
+        "id": "oral-014",
+        "chapter": "lips",
+        "title": "溃疡先避刺激和查摩擦，同一处超过三周别再只补维生素",
+        "actual_read_fields": [
+          "title",
+          "summary",
+          "fields.plain",
+          "fields.benefit",
+          "fields.notes"
+        ],
+        "method": "分批展开全部字段后逐句阅读，非关键词命中代替通读",
+        "result": "read_no_additional_patch",
+        "changed_fields": [],
+        "medical_claim_changed": false
+      },
+      {
+        "id": "oral-015",
+        "chapter": "lips",
+        "title": "口干反复影响吃饭或说话，先查原因，再选无糖和润口用品",
+        "actual_read_fields": [
+          "title",
+          "summary",
+          "fields.plain",
+          "fields.benefit",
+          "fields.notes"
+        ],
+        "method": "分批展开全部字段后逐句阅读，非关键词命中代替通读",
+        "result": "read_no_additional_patch",
+        "changed_fields": [],
+        "medical_claim_changed": false
+      },
+      {
+        "id": "oral-008",
+        "chapter": "lips",
+        "title": "舌苔可轻柔清洁，口臭持续时先查牙龈、蛀牙和口干",
+        "actual_read_fields": [
+          "title",
+          "summary",
+          "fields.plain",
+          "fields.benefit",
+          "fields.notes"
+        ],
+        "method": "分批展开全部字段后逐句阅读，非关键词命中代替通读",
+        "result": "editorial_patch",
+        "changed_fields": [
+          "fields.plain"
+        ],
+        "medical_claim_changed": false
+      },
+      {
+        "id": "skin-001",
+        "chapter": "skin",
+        "title": "把脸洗干净就停；洗后紧绷起皮，先减清洁再补保湿",
+        "actual_read_fields": [
+          "title",
+          "summary",
+          "fields.plain",
+          "fields.benefit",
+          "fields.notes"
+        ],
+        "method": "分批展开全部字段后逐句阅读，非关键词命中代替通读",
+        "result": "editorial_patch",
+        "changed_fields": [
+          "fields.notes",
+          "fields.plain"
+        ],
+        "medical_claim_changed": false
+      },
+      {
+        "id": "skin-002",
+        "chapter": "skin",
+        "title": "按妆和防晒的耐水程度卸除，别默认人人都要洗两遍",
+        "actual_read_fields": [
+          "title",
+          "summary",
+          "fields.plain",
+          "fields.benefit",
+          "fields.notes"
+        ],
+        "method": "分批展开全部字段后逐句阅读，非关键词命中代替通读",
+        "result": "read_no_additional_patch",
+        "changed_fields": [],
+        "medical_claim_changed": false
+      },
+      {
+        "id": "skin-003",
+        "chapter": "skin",
+        "title": "先把防晒涂全、按暴露补涂，再考虑额外抗老精华",
+        "actual_read_fields": [
+          "title",
+          "summary",
+          "fields.plain",
+          "fields.benefit",
+          "fields.notes"
+        ],
+        "method": "分批展开全部字段后逐句阅读，非关键词命中代替通读",
+        "result": "read_no_additional_patch",
+        "changed_fields": [],
+        "medical_claim_changed": false
+      },
+      {
+        "id": "skin-004",
+        "chapter": "skin",
+        "title": "把面膜和喷雾当可选舒适用品，别拿它们替代治疗",
+        "actual_read_fields": [
+          "title",
+          "summary",
+          "fields.plain",
+          "fields.benefit",
+          "fields.notes"
+        ],
+        "method": "分批展开全部字段后逐句阅读，非关键词命中代替通读",
+        "result": "read_no_additional_patch",
+        "changed_fields": [],
+        "medical_claim_changed": false
+      },
+      {
+        "id": "skin-019",
+        "chapter": "skin",
+        "title": "斑痣新变大、变色或出血，先检查再美白或点掉",
+        "actual_read_fields": [
+          "title",
+          "summary",
+          "fields.plain",
+          "fields.benefit",
+          "fields.notes"
+        ],
+        "method": "分批展开全部字段后逐句阅读，非关键词命中代替通读",
+        "result": "read_no_additional_patch",
+        "changed_fields": [],
+        "medical_claim_changed": false
+      },
+      {
+        "id": "skin-021",
+        "chapter": "skin",
+        "title": "反复长斑先分清原因，黄褐斑先稳防晒再讨论药物",
+        "actual_read_fields": [
+          "title",
+          "summary",
+          "fields.plain",
+          "fields.benefit",
+          "fields.notes"
+        ],
+        "method": "分批展开全部字段后逐句阅读，非关键词命中代替通读",
+        "result": "editorial_patch",
+        "changed_fields": [
+          "fields.notes"
+        ],
+        "medical_claim_changed": false
+      },
+      {
+        "id": "skin-005",
+        "chapter": "skin",
+        "title": "新产品一用就红痒灼痛，先停用，别硬扛“建立耐受”",
+        "actual_read_fields": [
+          "title",
+          "summary",
+          "fields.plain",
+          "fields.benefit",
+          "fields.notes"
+        ],
+        "method": "分批展开全部字段后逐句阅读，非关键词命中代替通读",
+        "result": "read_no_additional_patch",
+        "changed_fields": [],
+        "medical_claim_changed": false
+      },
+      {
+        "id": "skin-006",
+        "chapter": "skin",
+        "title": "按粉刺、小红痘或深痛结节选路，别只靠祛痘护肤品",
+        "actual_read_fields": [
+          "title",
+          "summary",
+          "fields.plain",
+          "fields.benefit",
+          "fields.notes"
+        ],
+        "method": "分批展开全部字段后逐句阅读，非关键词命中代替通读",
+        "result": "read_no_additional_patch",
+        "changed_fields": [],
+        "medical_claim_changed": false
+      },
+      {
+        "id": "skin-018",
+        "chapter": "skin",
+        "title": "鼻子小点先分黑头和皮脂丝，别为了清空毛孔反复挤",
+        "actual_read_fields": [
+          "title",
+          "summary",
+          "fields.plain",
+          "fields.benefit",
+          "fields.notes"
+        ],
+        "method": "分批展开全部字段后逐句阅读，非关键词命中代替通读",
+        "result": "read_no_additional_patch",
+        "changed_fields": [],
+        "medical_claim_changed": false
+      },
+      {
+        "id": "skin-016",
+        "chapter": "skin",
+        "title": "脸反复潮红、灼热还长小疹，别只当敏感肌刷酸祛痘",
+        "actual_read_fields": [
+          "title",
+          "summary",
+          "fields.plain",
+          "fields.benefit",
+          "fields.notes"
+        ],
+        "method": "分批展开全部字段后逐句阅读，非关键词命中代替通读",
+        "result": "read_no_additional_patch",
+        "changed_fields": [],
+        "medical_claim_changed": false
+      },
+      {
+        "id": "skin-017",
+        "chapter": "skin",
+        "title": "鼻翼、眉间反复红痒掉屑，别只靠厚敷面霜",
+        "actual_read_fields": [
+          "title",
+          "summary",
+          "fields.plain",
+          "fields.benefit",
+          "fields.notes"
+        ],
+        "method": "分批展开全部字段后逐句阅读，非关键词命中代替通读",
+        "result": "read_no_additional_patch",
+        "changed_fields": [],
+        "medical_claim_changed": false
+      },
+      {
+        "id": "skin-022",
+        "chapter": "skin",
+        "title": "嘴周鼻旁反复起小疹，先查用过的激素，别继续叠祛痘酸",
+        "actual_read_fields": [
+          "title",
+          "summary",
+          "fields.plain",
+          "fields.benefit",
+          "fields.notes"
+        ],
+        "method": "分批展开全部字段后逐句阅读，非关键词命中代替通读",
+        "result": "read_no_additional_patch",
+        "changed_fields": [],
+        "medical_claim_changed": false
+      },
+      {
+        "id": "skin-007",
+        "chapter": "skin",
+        "title": "把痘印的颜色和痘坑的凹凸分开处理，先阻止新痘留疤",
+        "actual_read_fields": [
+          "title",
+          "summary",
+          "fields.plain",
+          "fields.benefit",
+          "fields.notes"
+        ],
+        "method": "分批展开全部字段后逐句阅读，非关键词命中代替通读",
+        "result": "editorial_patch",
+        "changed_fields": [
+          "fields.notes"
+        ],
+        "medical_claim_changed": false
+      },
+      {
+        "id": "skin-008",
+        "chapter": "skin",
+        "title": "为皮肤规律生活，别把戒糖、忌奶或抗糖丸当祛痘处方",
+        "actual_read_fields": [
+          "title",
+          "summary",
+          "fields.plain",
+          "fields.benefit",
+          "fields.notes"
+        ],
+        "method": "分批展开全部字段后逐句阅读，非关键词命中代替通读",
+        "result": "read_no_additional_patch",
+        "changed_fields": [],
+        "medical_claim_changed": false
+      },
+      {
+        "id": "skin-009",
+        "chapter": "skin",
+        "title": "想试烟酰胺，先选可耐受配方，别为高浓度自动加价",
+        "actual_read_fields": [
+          "title",
+          "summary",
+          "fields.plain",
+          "fields.benefit",
+          "fields.notes"
+        ],
+        "method": "分批展开全部字段后逐句阅读，非关键词命中代替通读",
+        "result": "read_no_additional_patch",
+        "changed_fields": [],
+        "medical_claim_changed": false
+      },
+      {
+        "id": "skin-010",
+        "chapter": "skin",
+        "title": "要改善光老化，分清维A酸药物和视黄醇，先处理刺激与孕期风险",
+        "actual_read_fields": [
+          "title",
+          "summary",
+          "fields.plain",
+          "fields.benefit",
+          "fields.notes"
+        ],
+        "method": "分批展开全部字段后逐句阅读，非关键词命中代替通读",
+        "result": "read_no_additional_patch",
+        "changed_fields": [],
+        "medical_claim_changed": false
+      },
+      {
+        "id": "skin-011",
+        "chapter": "skin",
+        "title": "先分清黑眼圈是颜色、眼袋还是凹陷，再决定买眼霜",
+        "actual_read_fields": [
+          "title",
+          "summary",
+          "fields.plain",
+          "fields.benefit",
+          "fields.notes"
+        ],
+        "method": "分批展开全部字段后逐句阅读，非关键词命中代替通读",
+        "result": "editorial_patch",
+        "changed_fields": [
+          "fields.plain"
+        ],
+        "medical_claim_changed": false
+      },
+      {
+        "id": "skin-012",
+        "chapter": "skin",
+        "title": "别把胶原饮和抗糖丸列为必需，先看高质量人体结果",
+        "actual_read_fields": [
+          "title",
+          "summary",
+          "fields.plain",
+          "fields.benefit",
+          "fields.notes"
+        ],
+        "method": "分批展开全部字段后逐句阅读，非关键词命中代替通读",
+        "result": "editorial_patch",
+        "changed_fields": [
+          "fields.notes"
+        ],
+        "medical_claim_changed": false
+      },
+      {
+        "id": "skin-013",
+        "chapter": "skin",
+        "title": "剃须先软化、顺毛轻刮；反复起包就减少贴根刮",
+        "actual_read_fields": [
+          "title",
+          "summary",
+          "fields.plain",
+          "fields.benefit",
+          "fields.notes"
+        ],
+        "method": "分批展开全部字段后逐句阅读，非关键词命中代替通读",
+        "result": "read_no_additional_patch",
+        "changed_fields": [],
+        "medical_claim_changed": false
+      },
+      {
+        "id": "skin-020",
+        "chapter": "skin",
+        "title": "底妆遮瑕先选妆效和耐受，刷具清洁别省掉",
+        "actual_read_fields": [
+          "title",
+          "summary",
+          "fields.plain",
+          "fields.benefit",
+          "fields.notes"
+        ],
+        "method": "分批展开全部字段后逐句阅读，非关键词命中代替通读",
+        "result": "read_no_additional_patch",
+        "changed_fields": [],
+        "medical_claim_changed": false
+      },
+      {
+        "id": "skin-014",
+        "chapter": "skin",
+        "title": "买家用美容仪前核对具体用途，别把灯光和微针当一回事",
+        "actual_read_fields": [
+          "title",
+          "summary",
+          "fields.plain",
+          "fields.benefit",
+          "fields.notes"
+        ],
+        "method": "分批展开全部字段后逐句阅读，非关键词命中代替通读",
+        "result": "read_no_additional_patch",
+        "changed_fields": [],
+        "medical_claim_changed": false
+      },
+      {
+        "id": "skin-015",
+        "chapter": "skin",
+        "title": "做激光或注射前，先确认问题、资质和并发症处理方案",
+        "actual_read_fields": [
+          "title",
+          "summary",
+          "fields.plain",
+          "fields.benefit",
+          "fields.notes"
+        ],
+        "method": "分批展开全部字段后逐句阅读，非关键词命中代替通读",
+        "result": "read_no_additional_patch",
+        "changed_fields": [],
+        "medical_claim_changed": false
+      },
+      {
+        "id": "skin-023",
+        "chapter": "skin",
+        "title": "想改善表情纹再评估肉毒注射，别把它当填充或永久抗老",
+        "actual_read_fields": [
+          "title",
+          "summary",
+          "fields.plain",
+          "fields.benefit",
+          "fields.notes"
+        ],
+        "method": "分批展开全部字段后逐句阅读，非关键词命中代替通读",
+        "result": "editorial_patch",
+        "changed_fields": [
+          "fields.notes"
+        ],
+        "medical_claim_changed": false
+      }
+    ],
+    "chapters": [
+      {
+        "id": "hair",
+        "chapter_fields_read": [
+          "title",
+          "subtitle",
+          "intro"
+        ],
+        "units_read": [
+          {
+            "id": "hair-u1",
+            "fields": [
+              "title",
+              "intro"
+            ]
+          },
+          {
+            "id": "hair-u2",
+            "fields": [
+              "title",
+              "intro"
+            ]
+          },
+          {
+            "id": "hair-u3",
+            "fields": [
+              "title",
+              "intro"
+            ]
+          },
+          {
+            "id": "hair-u4",
+            "fields": [
+              "title",
+              "intro"
+            ]
+          },
+          {
+            "id": "hair-u5",
+            "fields": [
+              "title",
+              "intro"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "eyes",
+        "chapter_fields_read": [
+          "title",
+          "subtitle",
+          "intro"
+        ],
+        "units_read": [
+          {
+            "id": "eyes-u5",
+            "fields": [
+              "title",
+              "intro"
+            ]
+          },
+          {
+            "id": "eyes-u6",
+            "fields": [
+              "title",
+              "intro"
+            ]
+          },
+          {
+            "id": "eyes-u9",
+            "fields": [
+              "title",
+              "intro"
+            ]
+          },
+          {
+            "id": "eyes-u7",
+            "fields": [
+              "title",
+              "intro"
+            ]
+          },
+          {
+            "id": "eyes-u1",
+            "fields": [
+              "title",
+              "intro"
+            ]
+          },
+          {
+            "id": "eyes-u2",
+            "fields": [
+              "title",
+              "intro"
+            ]
+          },
+          {
+            "id": "eyes-u3",
+            "fields": [
+              "title",
+              "intro"
+            ]
+          },
+          {
+            "id": "eyes-u8",
+            "fields": [
+              "title",
+              "intro"
+            ]
+          },
+          {
+            "id": "eyes-u4",
+            "fields": [
+              "title",
+              "intro"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "nose",
+        "chapter_fields_read": [
+          "title",
+          "subtitle",
+          "intro"
+        ],
+        "units_read": [
+          {
+            "id": "nose-u1",
+            "fields": [
+              "title",
+              "intro"
+            ]
+          },
+          {
+            "id": "nose-u2",
+            "fields": [
+              "title",
+              "intro"
+            ]
+          },
+          {
+            "id": "nose-u3",
+            "fields": [
+              "title",
+              "intro"
+            ]
+          },
+          {
+            "id": "nose-u4",
+            "fields": [
+              "title",
+              "intro"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ears",
+        "chapter_fields_read": [
+          "title",
+          "subtitle",
+          "intro"
+        ],
+        "units_read": [
+          {
+            "id": "ears-u1",
+            "fields": [
+              "title",
+              "intro"
+            ]
+          },
+          {
+            "id": "ears-u2",
+            "fields": [
+              "title",
+              "intro"
+            ]
+          },
+          {
+            "id": "ears-u3",
+            "fields": [
+              "title",
+              "intro"
+            ]
+          },
+          {
+            "id": "ears-u4",
+            "fields": [
+              "title",
+              "intro"
+            ]
+          },
+          {
+            "id": "ears-u5",
+            "fields": [
+              "title",
+              "intro"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "oral",
+        "chapter_fields_read": [
+          "title",
+          "subtitle",
+          "intro"
+        ],
+        "units_read": [
+          {
+            "id": "oral-u1",
+            "fields": [
+              "title",
+              "intro"
+            ]
+          },
+          {
+            "id": "oral-u2",
+            "fields": [
+              "title",
+              "intro"
+            ]
+          },
+          {
+            "id": "oral-u3",
+            "fields": [
+              "title",
+              "intro"
+            ]
+          },
+          {
+            "id": "oral-u4",
+            "fields": [
+              "title",
+              "intro"
+            ]
+          },
+          {
+            "id": "oral-u5",
+            "fields": [
+              "title",
+              "intro"
+            ]
+          },
+          {
+            "id": "oral-u6",
+            "fields": [
+              "title",
+              "intro"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "lips",
+        "chapter_fields_read": [
+          "title",
+          "subtitle",
+          "intro"
+        ],
+        "units_read": [
+          {
+            "id": "lips-u1",
+            "fields": [
+              "title",
+              "intro"
+            ]
+          },
+          {
+            "id": "lips-u2",
+            "fields": [
+              "title",
+              "intro"
+            ]
+          },
+          {
+            "id": "lips-u3",
+            "fields": [
+              "title",
+              "intro"
+            ]
+          },
+          {
+            "id": "lips-u4",
+            "fields": [
+              "title",
+              "intro"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "skin",
+        "chapter_fields_read": [
+          "title",
+          "subtitle",
+          "intro"
+        ],
+        "units_read": [
+          {
+            "id": "skin-u1",
+            "fields": [
+              "title",
+              "intro"
+            ]
+          },
+          {
+            "id": "skin-u2",
+            "fields": [
+              "title",
+              "intro"
+            ]
+          },
+          {
+            "id": "skin-u3",
+            "fields": [
+              "title",
+              "intro"
+            ]
+          },
+          {
+            "id": "skin-u4",
+            "fields": [
+              "title",
+              "intro"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "input_files_sha256": {
+    "drafts\\whole-body\\baseline\\chapters\\hair.json": "3c9b8c5b0df4250faf52ea6dfd37de04ce33cccbe5b300bdf3b098de2c391edc",
+    "drafts\\whole-body\\baseline\\chapters\\eyes.json": "963817ba977aea03ef7d570a1d7cda10a2b8bc14a9d6e3b4b9a74358adab1870",
+    "drafts\\whole-body\\baseline\\chapters\\nose.json": "36f32eaf55da1baded11349f2b7cba8addfd469879e2b0eee7bfc9ab624f6e35",
+    "drafts\\whole-body\\baseline\\chapters\\ears.json": "2d525776bd8d35b1780c6b4bde1c60e9f0c69ce2667164c30cf05335d6d4fa9a",
+    "drafts\\whole-body\\baseline\\chapters\\oral.json": "e3157e8ff3dbe934de1644e316f55e82c37168d34e68a02a8986b47457995515",
+    "drafts\\whole-body\\baseline\\chapters\\lips.json": "6a78494da182410c1be405d0f0551705e05ba08512f8394d6cbad1f6d995f15a",
+    "drafts\\whole-body\\baseline\\chapters\\skin.json": "d40301fca16e323a68ec0eea93d6414a4b1b91b9cf0c991ef6d9761d1cef044a"
+  },
+  "prose_input_sha256": "edae0f0a00a34a4571f0a4601cbed4b57907dc9ef978f0d6e2f89de26c03fa4f"
+}

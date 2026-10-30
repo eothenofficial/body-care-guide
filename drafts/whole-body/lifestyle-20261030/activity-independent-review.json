@@ -1,0 +1,207 @@
+{
+  "review_date": "2026-10-30",
+  "reviewer": "independent_ai_editor_sleep_expand",
+  "clinical_review_status": "not_clinically_reviewed",
+  "review_type": "独立AI编辑与证据支持范围复核，不构成临床签审或医学认证",
+  "scope": {
+    "activity_entries": 9,
+    "energy_entries": 2,
+    "activity_fields_actually_read": [
+      "title",
+      "summary",
+      "cost",
+      "plain",
+      "benefit",
+      "evidence",
+      "sources",
+      "notes",
+      "audience"
+    ],
+    "energy_fields_actually_read": [
+      "title",
+      "summary",
+      "cost",
+      "plain",
+      "benefit",
+      "evidence",
+      "sources",
+      "notes",
+      "audience"
+    ],
+    "source_records_actually_read": "activity全部22项及energy全部2项，含题录、支持范围、限制、核读范围和资助说明",
+    "sop_read": "全书SOP第27至29节",
+    "excluded": "未重做系统检索、未核所有纳入试验全文、未做个人诊疗或临床专家签字"
+  },
+  "primary_verification": [
+    {
+      "source_ids": [
+        "ACT-S01",
+        "ACT-S02"
+      ],
+      "read": "NHS原页的急救、一般就诊与日期全文",
+      "result": "运动中晕厥即使醒来仍紧急求助；持续/放射/伴随症状胸痛分流吻合。999已正确本地化为120，不移植英国驾驶法律。"
+    },
+    {
+      "source_ids": [
+        "ACT-S03",
+        "ACT-S04",
+        "ACT-S05"
+      ],
+      "read": "CDC热病与运动者预防原页，Red Cross热衰竭/热射病处置原段",
+      "result": "意识改变、抽搐、可有出汗、立即降温及求助吻合；未等体温阈值，疑似热射病禁口服饮水，热衰竭仅清醒可吞咽时小口饮水。"
+    },
+    {
+      "source_ids": [
+        "ACT-S06",
+        "ACT-S07"
+      ],
+      "read": "CDC横纹肌溶解症状、检测、治疗与日期信息全部正文",
+      "result": "单项警讯即就医、可延迟、尿试纸不能排除、严重度决定补液与住院吻合；未把自行大量饮水写成治疗。技术更新与专业复核日期明确区分。"
+    },
+    {
+      "source_ids": [
+        "ACT-S08",
+        "ACT-S09",
+        "ACT-S10",
+        "ACT-S11"
+      ],
+      "read": "AHA热身/冷身/拉伸原页，Cochrane完整结构式摘要和题录，Cleveland DOMS定义/恢复/就诊段，Health.mil酸痛与锐痛原段",
+      "result": "5—10分钟仅示例；拉伸对DOMS未见临床重要减轻不外推所有恢复方式；普通DOMS、锐痛、功能受限与横纹肌溶解入口分清。未沿用AHA乳酸机制或Cleveland酸痛必然长肌肉的简化解释。"
+    },
+    {
+      "source_ids": [
+        "ACT-S12",
+        "ACT-S13",
+        "ACT-S14",
+        "ACT-S15",
+        "ACT-S16"
+      ],
+      "read": "AIS饮料组成与使用原页、Victoria运动补水相关正文、NIOSH完整两页补水PDF、healthdirect过量饮水与心肾疾病原段",
+      "result": "水/盐/碳水目标分开；无糖不能提供碳水；约一小时只是场景。未移植高温劳动固定升数、尿色判定或统一补液处方；水和运动饮料过量均可能低钠，心肾/限水条件保留。"
+    },
+    {
+      "source_ids": [
+        "ACT-S17",
+        "ACT-S22"
+      ],
+      "read": "手表原始验证研究完整摘要与正式题录；CDC谈话测试原段",
+      "result": "60名健康年轻人、三个旧型号、五类活动，心率/能量估计结局与条目匹配。未给所有新品排名或病人诊断保证；谈话测试限一般有氧强度。"
+    },
+    {
+      "source_ids": [
+        "ACT-S18",
+        "ACT-S19",
+        "ACT-S20"
+      ],
+      "read": "2014有氧试验出版社原文摘要、方法与结果；2025力量训练综述完整结构式摘要/题录/冲突声明；ADA低血糖和运动原段",
+      "result": "20名年轻女性四周试验与四研究综述分别限定，保留综述脂肪量信号和三项高偏倚，未以不显著证明等效；药物加漏餐/运动低血糖风险吻合，未转为统一血糖或减药规则。"
+    },
+    {
+      "source_ids": [
+        "ACT-S21"
+      ],
+      "read": "ACSM2026 PMC摘要、健康成人纳入范围、器材/家庭训练、渐进负荷、力竭与RIR限制、实践讨论及资助冲突段；不是宣称全文逐行重读",
+      "result": "137篇综述及超过三万人的总览与健康成人限制匹配；不要求每组力竭，亦不提供人人通用保留次数。未把健康成年证据当作病患、儿童或术后处方。"
+    },
+    {
+      "source_ids": [
+        "LIFE-ROOT-S01"
+      ],
+      "read": "FDA咖啡因原页全部核心正文和标签、低咖、高浓缩、过量表现段",
+      "result": "400mg多数成人参考非目标/人人安全线；全天来源合计、逐渐减少、高浓缩风险和未成年条件吻合。"
+    },
+    {
+      "source_ids": [
+        "LIFE-ROOT-S02"
+      ],
+      "read": "CDC Manage ME/CFS原页PEM/pacing/日记/健康人训练风险段及页面实际日期",
+      "result": "迟发成组恶化区别局部DOMS；pacing为按耐受活动休息且非治愈；不凭疲劳确诊，也未要求完全卧床。"
+    }
+  ],
+  "findings": [
+    {
+      "id": "AR-01",
+      "entry_or_source": "energy-002",
+      "severity": "editorial",
+      "issue": "ME/CFS首次出现缺中文定义",
+      "status": "resolved",
+      "resolution": "根已展开肌痛性脑脊髓炎/慢性疲劳综合征（ME/CFS）；已回读当前JSON。"
+    },
+    {
+      "id": "AR-02",
+      "entry_or_source": "activity-001",
+      "severity": "safety_clarity",
+      "issue": "运动中晕厥醒来后的紧急求助入口不够直白",
+      "status": "resolved",
+      "resolution": "已明确即使醒来也立即拨打120并接受紧急评估；已回读当前JSON。"
+    },
+    {
+      "id": "AR-03",
+      "entry_or_source": "activity-001",
+      "severity": "editorial",
+      "issue": "标题手表正常缺少显示动词",
+      "status": "resolved",
+      "resolution": "已改为手表显示正常。"
+    },
+    {
+      "id": "AR-04",
+      "entry_or_source": "activity-005 and activity-008",
+      "severity": "editorial",
+      "issue": "两句本条没有依据/本条不提供把制作判断带入读者正文",
+      "status": "resolved",
+      "resolution": "已删两句，保留普通酸痛与危险信号及个体用药安排；已回读。"
+    },
+    {
+      "id": "AR-05",
+      "entry_or_source": "activity-008",
+      "severity": "comprehension",
+      "issue": "促泌剂未先解释",
+      "status": "resolved",
+      "resolution": "已改为会促使胰腺多分泌胰岛素、可能导致低血糖的降糖药。"
+    },
+    {
+      "id": "AR-06",
+      "entry_or_source": "ACT-S19 and ACT-S21",
+      "severity": "citation",
+      "issue": "2025综述题名的with和2026立场文题名前缀需与原题录匹配",
+      "status": "resolved",
+      "resolution": "systematic review with meta-analysis及American College of Sports Medicine Position Stand.前缀已补正并回核。"
+    },
+    {
+      "id": "AR-07",
+      "entry_or_source": "ACT-S06, ACT-S07 and ACT-S22",
+      "severity": "citation",
+      "issue": "官方网页题名未与当前H1完整匹配",
+      "status": "resolved",
+      "resolution": "rhabdomyolysis完整词、How to measure前缀均已修正并回读。"
+    }
+  ],
+  "final_checks": {
+    "all_9_activity_entries_read_in_full": true,
+    "all_2_energy_entries_read_in_full": true,
+    "all_six_fields_present": true,
+    "activity_summary_char_lengths": [
+      119,
+      116,
+      125,
+      118,
+      124,
+      126,
+      131,
+      128,
+      130
+    ],
+    "unresolved_source_references": [],
+    "unused_activity_sources": [],
+    "demographic_limits": "前三条急症覆盖所有年龄，后六条成人/老年；不使用safety_pin绕过年龄性别筛选。"
+  },
+  "blocking_unresolved": [],
+  "remaining_literal_patches": [],
+  "disposition": "ready_for_root_integration_after_independent_ai_editorial_review",
+  "reviewed_file_sha256": {
+    "activity-entries.json": "8696d63e317a4820f17b89c32a971a1ddec5306e3992e2baa77af57668bf6de3",
+    "activity-sources.json": "6f6ea9310c15faf843cce4f0861d41c65e01bd6c2d42d6dad19ccf65497a0794",
+    "energy-entries.json": "d06e86f2cf461d747f43857c4fd7aec501178ac1302049575c89b92364af15ae",
+    "energy-sources.json": "69814fb3a2eed551479060765ab32566268307563dfeb02a180ef9e35f728ee5"
+  }
+}

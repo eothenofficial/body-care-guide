@@ -1,0 +1,20 @@
+{
+  "status": "author_source_audit_not_clinical_review",
+  "entries": 7,
+  "sources": 11,
+  "summary_lengths": {
+    "abdomen-001": 122,
+    "abdomen-002": 120,
+    "abdomen-003": 118,
+    "abdomen-004": 116,
+    "abdomen-005": 122,
+    "abdomen-006": 122,
+    "abdomen-007": 120
+  },
+  "excluded": [
+    "UCLH同名非nhs域结果未用",
+    "AGA2023页重开403；UEG2025有2026勘误、全文未完成重读，因此未据此下所有益生菌有效或无效结论",
+    "未将新生儿脐带护理当成人肚脐方案"
+  ],
+  "scope": "只写日常腹部维护与症状入口，不展开完整内科诊断和个体处方。"
+}

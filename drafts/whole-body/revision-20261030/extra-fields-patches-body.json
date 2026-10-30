@@ -1,0 +1,3184 @@
+{
+  "version": "2026-10-30",
+  "input": "original body JSON + prose-patches.json (164 patches); before head/bodyextra",
+  "coverage_count": 174,
+  "patches": [
+    {
+      "file": "drafts/whole-body/chapters/feet.json",
+      "target": "entry",
+      "id": "feet-001",
+      "field": "fields.sources",
+      "old": "依据[@FEET-S01]；依据[@FEET-S02]；依据[@FEET-S03]。",
+      "new": "CDC糖尿病足护理[@FEET-S01]；Northamptonshire Healthcare高风险足护理[@FEET-S02]；NHS坏疽急症指导[@FEET-S03]。",
+      "reason": "来源栏应说明机构与主题，不能只重复“依据”；引文ID和顺序保持。"
+    },
+    {
+      "file": "drafts/whole-body/chapters/feet.json",
+      "target": "entry",
+      "id": "feet-002",
+      "field": "fields.sources",
+      "old": "依据[@FEET-S04]；依据[@FEET-S05]。",
+      "new": "DermNet足癣鉴别与检查[@FEET-S04]；NHS足癣护理[@FEET-S05]。",
+      "reason": "来源栏应说明机构与主题，不能只重复“依据”；引文ID和顺序保持。"
+    },
+    {
+      "file": "drafts/whole-body/chapters/feet.json",
+      "target": "entry",
+      "id": "feet-003",
+      "field": "fields.sources",
+      "old": "依据[@FEET-S06]；依据[@FEET-S04]；依据[@FEET-S05]。",
+      "new": "CDC癣病治疗指导[@FEET-S06]；DermNet足癣鉴别与检查[@FEET-S04]；NHS足癣护理[@FEET-S05]。",
+      "reason": "来源栏应说明机构与主题，不能只重复“依据”；引文ID和顺序保持。"
+    },
+    {
+      "file": "drafts/whole-body/chapters/feet.json",
+      "target": "entry",
+      "id": "feet-004",
+      "field": "fields.sources",
+      "old": "依据[@FEET-S05]；依据[@FEET-S07]；依据[@FEET-S04]。",
+      "new": "NHS足癣护理[@FEET-S05]；NHS脚臭护理[@FEET-S07]；DermNet足癣鉴别与检查[@FEET-S04]。",
+      "reason": "来源栏应说明机构与主题，不能只重复“依据”；引文ID和顺序保持。"
+    },
+    {
+      "file": "drafts/whole-body/chapters/feet.json",
+      "target": "entry",
+      "id": "feet-005",
+      "field": "fields.sources",
+      "old": "依据[@FEET-S07]；依据[@FEET-S08]；依据[@FEET-S09]。",
+      "new": "NHS脚臭护理[@FEET-S07]；AAD多汗诊疗[@FEET-S08]；NHS多汗症指导[@FEET-S09]。",
+      "reason": "来源栏应说明机构与主题，不能只重复“依据”；引文ID和顺序保持。"
+    },
+    {
+      "file": "drafts/whole-body/chapters/feet.json",
+      "target": "entry",
+      "id": "feet-006",
+      "field": "fields.sources",
+      "old": "依据[@FEET-S10]；依据[@FEET-S13]；依据[@FEET-S01]。",
+      "new": "AAD干裂足跟护理[@FEET-S10]；Cleveland Clinic脱皮足膜说明[@FEET-S13]；CDC糖尿病足护理[@FEET-S01]。",
+      "reason": "来源栏应说明机构与主题，不能只重复“依据”；引文ID和顺序保持。"
+    },
+    {
+      "file": "drafts/whole-body/chapters/feet.json",
+      "target": "entry",
+      "id": "feet-007",
+      "field": "fields.sources",
+      "old": "依据[@FEET-S11]；依据[@FEET-S01]。",
+      "new": "NHS水疱护理[@FEET-S11]；CDC糖尿病足护理[@FEET-S01]。",
+      "reason": "来源栏应说明机构与主题，不能只重复“依据”；引文ID和顺序保持。"
+    },
+    {
+      "file": "drafts/whole-body/chapters/feet.json",
+      "target": "entry",
+      "id": "feet-008",
+      "field": "fields.sources",
+      "old": "依据[@FEET-S12]；依据[@FEET-S01]；依据[@FEET-S13]。",
+      "new": "NHS鸡眼与足茧护理[@FEET-S12]；CDC糖尿病足护理[@FEET-S01]；Cleveland Clinic脱皮足膜说明[@FEET-S13]。",
+      "reason": "来源栏应说明机构与主题，不能只重复“依据”；引文ID和顺序保持。"
+    },
+    {
+      "file": "drafts/whole-body/chapters/feet.json",
+      "target": "entry",
+      "id": "feet-009",
+      "field": "fields.sources",
+      "old": "依据[@FEET-S14]。",
+      "new": "NHS嵌甲指导[@FEET-S14]。",
+      "reason": "来源栏应说明机构与主题，不能只重复“依据”；引文ID和顺序保持。"
+    },
+    {
+      "file": "drafts/whole-body/chapters/feet.json",
+      "target": "entry",
+      "id": "feet-010",
+      "field": "fields.sources",
+      "old": "依据[@FEET-S15]；依据[@FEET-S16]。",
+      "new": "BAD甲真菌感染患者说明[@FEET-S15]；BAD2026甲真菌病循证指南[@FEET-S16]。",
+      "reason": "来源栏应说明机构与主题，不能只重复“依据”；引文ID和顺序保持。"
+    },
+    {
+      "file": "drafts/whole-body/chapters/feet.json",
+      "target": "entry",
+      "id": "feet-011",
+      "field": "fields.sources",
+      "old": "依据[@FEET-S17]。",
+      "new": "AAD甲部黑色素瘤警示[@FEET-S17]。",
+      "reason": "来源栏应说明机构与主题，不能只重复“依据”；引文ID和顺序保持。"
+    },
+    {
+      "file": "drafts/whole-body/chapters/feet.json",
+      "target": "entry",
+      "id": "feet-012",
+      "field": "fields.sources",
+      "old": "依据[@FEET-S18]；依据[@FEET-S19]。",
+      "new": "NHS疣与跖疣指导[@FEET-S18]；AAD疣的自我护理[@FEET-S19]。",
+      "reason": "来源栏应说明机构与主题，不能只重复“依据”；引文ID和顺序保持。"
+    },
+    {
+      "file": "drafts/whole-body/chapters/feet.json",
+      "target": "entry",
+      "id": "feet-013",
+      "field": "fields.sources",
+      "old": "依据[@FEET-S20]。",
+      "new": "NHS足底筋膜相关疼痛指导[@FEET-S20]。",
+      "reason": "来源栏应说明机构与主题，不能只重复“依据”；引文ID和顺序保持。"
+    },
+    {
+      "file": "drafts/whole-body/chapters/feet.json",
+      "target": "entry",
+      "id": "feet-014",
+      "field": "fields.sources",
+      "old": "依据[@FEET-S21]。",
+      "new": "Guy’s and St Thomas’拇外翻指导[@FEET-S21]。",
+      "reason": "来源栏应说明机构与主题，不能只重复“依据”；引文ID和顺序保持。"
+    },
+    {
+      "file": "drafts/whole-body/chapters/legs.json",
+      "target": "entry",
+      "id": "legs-001",
+      "field": "fields.sources",
+      "old": "依据[@LEGS-S01]；依据[@LEGS-S02]。",
+      "new": "NHS腰背痛分流[@LEGS-S01]；剑桥大学医院腰背痛指导[@LEGS-S02]。",
+      "reason": "来源栏应说明机构与主题，不能只重复“依据”；引文ID和顺序保持。"
+    },
+    {
+      "file": "drafts/whole-body/chapters/legs.json",
+      "target": "entry",
+      "id": "legs-002",
+      "field": "fields.sources",
+      "old": "依据[@LEGS-S03]。",
+      "new": "NHS深静脉血栓指导[@LEGS-S03]。",
+      "reason": "来源栏应说明机构与主题，不能只重复“依据”；引文ID和顺序保持。"
+    },
+    {
+      "file": "drafts/whole-body/chapters/legs.json",
+      "target": "entry",
+      "id": "legs-003",
+      "field": "fields.sources",
+      "old": "依据[@LEGS-S01]；依据[@LEGS-S02]。",
+      "new": "NHS腰背痛分流[@LEGS-S01]；剑桥大学医院腰背痛指导[@LEGS-S02]。",
+      "reason": "来源栏应说明机构与主题，不能只重复“依据”；引文ID和顺序保持。"
+    },
+    {
+      "file": "drafts/whole-body/chapters/legs.json",
+      "target": "entry",
+      "id": "legs-004",
+      "field": "fields.sources",
+      "old": "依据[@LEGS-S08]；依据[@LEGS-S02]；依据[@LEGS-S01]。",
+      "new": "无症状人群脊柱退变影像系统综述[@LEGS-S08]；剑桥大学医院腰背痛指导[@LEGS-S02]；NHS腰背痛分流[@LEGS-S01]。",
+      "reason": "来源栏应说明机构与主题，不能只重复“依据”；引文ID和顺序保持。"
+    },
+    {
+      "file": "drafts/whole-body/chapters/legs.json",
+      "target": "entry",
+      "id": "legs-005",
+      "field": "fields.sources",
+      "old": "依据[@LEGS-S07]。",
+      "new": "WHO慢性原发性腰痛指南发布摘要[@LEGS-S07]。",
+      "reason": "来源栏应说明机构与主题，不能只重复“依据”；引文ID和顺序保持。"
+    },
+    {
+      "file": "drafts/whole-body/chapters/legs.json",
+      "target": "entry",
+      "id": "legs-006",
+      "field": "fields.sources",
+      "old": "依据[@LEGS-S06]；依据[@LEGS-S05]。",
+      "new": "NHS成人髋痛指导[@LEGS-S06]；NHS膝痛指导[@LEGS-S05]。",
+      "reason": "来源栏应说明机构与主题，不能只重复“依据”；引文ID和顺序保持。"
+    },
+    {
+      "file": "drafts/whole-body/chapters/legs.json",
+      "target": "entry",
+      "id": "legs-007",
+      "field": "fields.sources",
+      "old": "依据[@LEGS-S10]；依据[@LEGS-S09]。",
+      "new": "NHS骨关节炎治疗与支持[@LEGS-S10]；ACR2026骨关节炎推荐摘要[@LEGS-S09]。",
+      "reason": "来源栏应说明机构与主题，不能只重复“依据”；引文ID和顺序保持。"
+    },
+    {
+      "file": "drafts/whole-body/chapters/legs.json",
+      "target": "entry",
+      "id": "legs-008",
+      "field": "fields.sources",
+      "old": "依据[@LEGS-S09]；依据[@LEGS-S10]。",
+      "new": "ACR2026骨关节炎推荐摘要[@LEGS-S09]；NHS骨关节炎治疗与支持[@LEGS-S10]。",
+      "reason": "来源栏应说明机构与主题，不能只重复“依据”；引文ID和顺序保持。"
+    },
+    {
+      "file": "drafts/whole-body/chapters/legs.json",
+      "target": "entry",
+      "id": "legs-009",
+      "field": "fields.sources",
+      "old": "依据[@LEGS-S09]；依据[@LEGS-S17]；依据[@LEGS-S16]；依据[@LEGS-S10]。",
+      "new": "ACR2026骨关节炎推荐摘要[@LEGS-S09]；NCCIH氨糖与软骨素资料[@LEGS-S17]；NHS非甾体抗炎药说明[@LEGS-S16]；NHS骨关节炎治疗与支持[@LEGS-S10]。",
+      "reason": "来源栏应说明机构与主题，不能只重复“依据”；引文ID和顺序保持。"
+    },
+    {
+      "file": "drafts/whole-body/chapters/legs.json",
+      "target": "entry",
+      "id": "legs-010",
+      "field": "fields.sources",
+      "old": "依据[@LEGS-S11]；依据[@LEGS-S12]；依据[@LEGS-S13]。",
+      "new": "跑步与膝骨关节炎系统综述[@LEGS-S11]；Berkshire Healthcare返跑康复指导[@LEGS-S12]；NHS跑步相关膝痛与损伤指导[@LEGS-S13]。",
+      "reason": "来源栏应说明机构与主题，不能只重复“依据”；引文ID和顺序保持。"
+    },
+    {
+      "file": "drafts/whole-body/chapters/legs.json",
+      "target": "entry",
+      "id": "legs-011",
+      "field": "fields.sources",
+      "old": "依据[@LEGS-S04]。",
+      "new": "NHS扭伤与拉伤指导[@LEGS-S04]。",
+      "reason": "来源栏应说明机构与主题，不能只重复“依据”；引文ID和顺序保持。"
+    },
+    {
+      "file": "drafts/whole-body/chapters/legs.json",
+      "target": "entry",
+      "id": "legs-012",
+      "field": "fields.sources",
+      "old": "依据[@LEGS-S14]；依据[@LEGS-S03]；依据[@LEGS-S15]。",
+      "new": "NHS静脉曲张指导[@LEGS-S14]；NHS深静脉血栓指导[@LEGS-S03]；Dorset County Hospital医用压力衣穿戴指导[@LEGS-S15]。",
+      "reason": "来源栏应说明机构与主题，不能只重复“依据”；引文ID和顺序保持。"
+    },
+    {
+      "file": "drafts/whole-body/chapters/neck.json",
+      "target": "entry",
+      "id": "neck-001",
+      "field": "fields.sources",
+      "old": "依据[@NECK-S02]；依据[@NECK-S03]；依据[@NECK-S20]。",
+      "new": "2025非特异性颈痛临床指南[@NECK-S02]；Northwestern Medicine颈部神经根与脊髓症状[@NECK-S03]；NHS卒中症状与急救[@NECK-S20]。",
+      "reason": "来源栏应说明机构与主题，不能只重复“依据”；引文ID和顺序保持。"
+    },
+    {
+      "file": "drafts/whole-body/chapters/neck.json",
+      "target": "entry",
+      "id": "neck-011",
+      "field": "fields.sources",
+      "old": "依据[@NECK-S14]。",
+      "new": "NHS肩痛分流[@NECK-S14]。",
+      "reason": "来源栏应说明机构与主题，不能只重复“依据”；引文ID和顺序保持。"
+    },
+    {
+      "file": "drafts/whole-body/chapters/neck.json",
+      "target": "entry",
+      "id": "neck-002",
+      "field": "fields.sources",
+      "old": "依据[@NECK-S01]；依据[@NECK-S02]；依据[@NECK-S05]。",
+      "new": "NHS颈痛自护[@NECK-S01]；2025非特异性颈痛临床指南[@NECK-S02]；剑桥大学医院颈部活动与护理[@NECK-S05]。",
+      "reason": "来源栏应说明机构与主题，不能只重复“依据”；引文ID和顺序保持。"
+    },
+    {
+      "file": "drafts/whole-body/chapters/neck.json",
+      "target": "entry",
+      "id": "neck-003",
+      "field": "fields.sources",
+      "old": "依据[@NECK-S04]；依据[@NECK-S05]。",
+      "new": "NIOSH居家工位与职业健康指导[@NECK-S04]；剑桥大学医院颈部活动与护理[@NECK-S05]。",
+      "reason": "来源栏应说明机构与主题，不能只重复“依据”；引文ID和顺序保持。"
+    },
+    {
+      "file": "drafts/whole-body/chapters/neck.json",
+      "target": "entry",
+      "id": "neck-004",
+      "field": "fields.sources",
+      "old": "依据[@NECK-S01]；依据[@NECK-S05]。",
+      "new": "NHS颈痛自护[@NECK-S01]；剑桥大学医院颈部活动与护理[@NECK-S05]。",
+      "reason": "来源栏应说明机构与主题，不能只重复“依据”；引文ID和顺序保持。"
+    },
+    {
+      "file": "drafts/whole-body/chapters/neck.json",
+      "target": "entry",
+      "id": "neck-007",
+      "field": "fields.sources",
+      "old": "依据[@NECK-S02]；依据[@NECK-S05]；依据[@NECK-S18]。",
+      "new": "2025非特异性颈痛临床指南[@NECK-S02]；剑桥大学医院颈部活动与护理[@NECK-S05]；NHS重复性劳损指导[@NECK-S18]。",
+      "reason": "来源栏应说明机构与主题，不能只重复“依据”；引文ID和顺序保持。"
+    },
+    {
+      "file": "drafts/whole-body/chapters/neck.json",
+      "target": "entry",
+      "id": "neck-005",
+      "field": "fields.sources",
+      "old": "依据[@NECK-S01]；依据[@NECK-S06]。 外用止痛品热源限制另见MedlinePlus。[@NECK-S21]",
+      "new": "NHS颈痛自护[@NECK-S01]；Sherwood Forest医院冷热敷指导[@NECK-S06]。 外用止痛品热源限制另见MedlinePlus。[@NECK-S21]",
+      "reason": "来源栏应说明机构与主题，不能只重复“依据”；引文ID和顺序保持。"
+    },
+    {
+      "file": "drafts/whole-body/chapters/neck.json",
+      "target": "entry",
+      "id": "neck-006",
+      "field": "fields.sources",
+      "old": "依据[@NECK-S07]；依据[@NECK-S19]。 外用辣椒素的加热和刺激限制另见MedlinePlus。[@NECK-S21]",
+      "new": "NHS成人布洛芬说明[@NECK-S07]；NHS成人对乙酰氨基酚说明[@NECK-S19]。 外用辣椒素的加热和刺激限制另见MedlinePlus。[@NECK-S21]",
+      "reason": "来源栏应说明机构与主题，不能只重复“依据”；引文ID和顺序保持。"
+    },
+    {
+      "file": "drafts/whole-body/chapters/neck.json",
+      "target": "entry",
+      "id": "neck-008",
+      "field": "fields.sources",
+      "old": "依据[@NECK-S08]；依据[@NECK-S09]；依据[@NECK-S20]。",
+      "new": "Cochrane颈痛按摩系统综述[@NECK-S08]；NCCIH脊柱手法安全资料[@NECK-S09]；NHS卒中症状与急救[@NECK-S20]。",
+      "reason": "来源栏应说明机构与主题，不能只重复“依据”；引文ID和顺序保持。"
+    },
+    {
+      "file": "drafts/whole-body/chapters/neck.json",
+      "target": "entry",
+      "id": "neck-009",
+      "field": "fields.sources",
+      "old": "依据[@NECK-S02]；依据[@NECK-S10]。",
+      "new": "2025非特异性颈痛临床指南[@NECK-S02]；NCCIH针灸效果与安全资料[@NECK-S10]。",
+      "reason": "来源栏应说明机构与主题，不能只重复“依据”；引文ID和顺序保持。"
+    },
+    {
+      "file": "drafts/whole-body/chapters/neck.json",
+      "target": "entry",
+      "id": "neck-010",
+      "field": "fields.sources",
+      "old": "依据[@NECK-S11]；依据[@NECK-S12]；依据[@NECK-S13]。",
+      "new": "筋膜枪表现与恢复系统综述[@NECK-S11]；Nebraska Medicine颈部筋膜枪风险说明[@NECK-S12]；HSS筋膜枪使用指导[@NECK-S13]。",
+      "reason": "来源栏应说明机构与主题，不能只重复“依据”；引文ID和顺序保持。"
+    },
+    {
+      "file": "drafts/whole-body/chapters/neck.json",
+      "target": "entry",
+      "id": "neck-012",
+      "field": "fields.sources",
+      "old": "依据[@NECK-S15]。 主动与被动活动判断参见AAOS。[@NECK-S22]",
+      "new": "NHS冻结肩指导[@NECK-S15]。 主动与被动活动判断参见AAOS。[@NECK-S22]",
+      "reason": "来源栏应说明机构与主题，不能只重复“依据”；引文ID和顺序保持。"
+    },
+    {
+      "file": "drafts/whole-body/chapters/neck.json",
+      "target": "entry",
+      "id": "neck-013",
+      "field": "fields.sources",
+      "old": "依据[@NECK-S16]；依据[@NECK-S18]。",
+      "new": "NHS网球肘指导[@NECK-S16]；NHS重复性劳损指导[@NECK-S18]。",
+      "reason": "来源栏应说明机构与主题，不能只重复“依据”；引文ID和顺序保持。"
+    },
+    {
+      "file": "drafts/whole-body/chapters/neck.json",
+      "target": "entry",
+      "id": "neck-014",
+      "field": "fields.sources",
+      "old": "依据[@NECK-S03]；依据[@NECK-S17]。",
+      "new": "Northwestern Medicine颈部神经根与脊髓症状[@NECK-S03]；NHS腕管综合征指导[@NECK-S17]。",
+      "reason": "来源栏应说明机构与主题，不能只重复“依据”；引文ID和顺序保持。"
+    },
+    {
+      "file": "drafts/whole-body/chapters/private.json",
+      "target": "entry",
+      "id": "private-009",
+      "field": "fields.sources",
+      "old": "[@PERIOD-S01][@PERIOD-S08][@PERIOD-S18]",
+      "new": "FDA棉条安全[@PERIOD-S01]；NHS中毒性休克指导[@PERIOD-S08]；Healthdirect阴道遗留用品处理[@PERIOD-S18]。",
+      "reason": "只有编号的来源栏补上机构与主题；制造商材料仍只称型号说明。"
+    },
+    {
+      "file": "drafts/whole-body/chapters/private.json",
+      "target": "entry",
+      "id": "private-020",
+      "field": "fields.sources",
+      "old": "[@PERIOD-S02][@PERIOD-S03]",
+      "new": "CDC经期卫生[@PERIOD-S02]；FDA卫生巾与护垫[@PERIOD-S03]。",
+      "reason": "只有编号的来源栏补上机构与主题；制造商材料仍只称型号说明。"
+    },
+    {
+      "file": "drafts/whole-body/chapters/private.json",
+      "target": "entry",
+      "id": "private-021",
+      "field": "fields.sources",
+      "old": "[@PERIOD-S01][@PERIOD-S18]",
+      "new": "FDA棉条安全[@PERIOD-S01]；Healthdirect阴道遗留用品处理[@PERIOD-S18]。",
+      "reason": "只有编号的来源栏补上机构与主题；制造商材料仍只称型号说明。"
+    },
+    {
+      "file": "drafts/whole-body/chapters/private.json",
+      "target": "entry",
+      "id": "private-022",
+      "field": "fields.sources",
+      "old": "[@PERIOD-S04][@PERIOD-S05][@PERIOD-S06][@PERIOD-S07]",
+      "new": "FDA月经杯安全[@PERIOD-S04]；Mooncup该型号使用说明[@PERIOD-S05]；Flex该型号杯碟使用说明[@PERIOD-S06]；FSRH宫内避孕指南[@PERIOD-S07]。",
+      "reason": "只有编号的来源栏补上机构与主题；制造商材料仍只称型号说明。"
+    },
+    {
+      "file": "drafts/whole-body/chapters/private.json",
+      "target": "entry",
+      "id": "private-023",
+      "field": "fields.sources",
+      "old": "[@PERIOD-S02][@PERIOD-S04][@PERIOD-S05][@PERIOD-S06][@PERIOD-S18]",
+      "new": "CDC经期卫生[@PERIOD-S02]；FDA月经杯安全[@PERIOD-S04]；Mooncup该型号使用说明[@PERIOD-S05]；Flex该型号杯碟使用说明[@PERIOD-S06]；Healthdirect阴道遗留用品处理[@PERIOD-S18]。",
+      "reason": "只有编号的来源栏补上机构与主题；制造商材料仍只称型号说明。"
+    },
+    {
+      "file": "drafts/whole-body/chapters/private.json",
+      "target": "entry",
+      "id": "private-024",
+      "field": "fields.sources",
+      "old": "[@PERIOD-S07][@PERIOD-S20]",
+      "new": "FSRH宫内避孕指南[@PERIOD-S07]；2024月经杯与铜宫内节育器脱落研究[@PERIOD-S20]。",
+      "reason": "只有编号的来源栏补上机构与主题；制造商材料仍只称型号说明。"
+    },
+    {
+      "file": "drafts/whole-body/chapters/private.json",
+      "target": "entry",
+      "id": "private-025",
+      "field": "fields.sources",
+      "old": "[@PERIOD-S09][@PERIOD-S12][@PERIOD-S15][@PERIOD-S16]",
+      "new": "NHS月经基础说明[@PERIOD-S09]；NHS绝经后出血[@PERIOD-S12]；NHS宫外孕症状[@PERIOD-S15]；NHS非经期与性交后出血[@PERIOD-S16]。",
+      "reason": "只有编号的来源栏补上机构与主题；制造商材料仍只称型号说明。"
+    },
+    {
+      "file": "drafts/whole-body/chapters/private.json",
+      "target": "entry",
+      "id": "private-026",
+      "field": "fields.sources",
+      "old": "[@PERIOD-S10][@PERIOD-S11][@PERIOD-S12][@PERIOD-S16][@PERIOD-S17][@PERIOD-S19]",
+      "new": "NHS月经不规律[@PERIOD-S10]；NHS经量过多[@PERIOD-S11]；NHS绝经后出血[@PERIOD-S12]；NHS非经期与性交后出血[@PERIOD-S16]；Healthdirect经量过多[@PERIOD-S17]；墨尔本皇家儿童医院青少年经量过多[@PERIOD-S19]。",
+      "reason": "只有编号的来源栏补上机构与主题；制造商材料仍只称型号说明。"
+    },
+    {
+      "file": "drafts/whole-body/chapters/private.json",
+      "target": "entry",
+      "id": "private-027",
+      "field": "fields.sources",
+      "old": "[@PERIOD-S13][@PERIOD-S14][@PERIOD-S15]",
+      "new": "NHS痛经指导[@PERIOD-S13]；NHS成人布洛芬说明[@PERIOD-S14]；NHS宫外孕症状[@PERIOD-S15]。",
+      "reason": "只有编号的来源栏补上机构与主题；制造商材料仍只称型号说明。"
+    },
+    {
+      "file": "drafts/whole-body/chapters/anal.json",
+      "target": "entry",
+      "id": "anal-008",
+      "field": "fields.evidence",
+      "old": "健康成人慢性特发性便秘中PEG的直接试验综合",
+      "new": "成人慢性特发性便秘中聚乙二醇（PEG）的直接试验综合",
+      "reason": "患慢性便秘的人不应被笼统称为健康成人，顺便解释缩写。"
+    },
+    {
+      "file": "drafts/whole-body/chapters/anal.json",
+      "target": "entry",
+      "id": "anal-002",
+      "field": "fields.evidence",
+      "old": "不提供自行引流或抗生素选择。",
+      "new": "引流和抗生素选择需要实际检查，不能只靠疼痛位置判断。",
+      "reason": "把作者过程说明改成读者可以理解的证据范围或选择条件。"
+    },
+    {
+      "file": "drafts/whole-body/chapters/anal.json",
+      "target": "entry",
+      "id": "anal-003",
+      "field": "fields.evidence",
+      "old": "不提供擦拭方向的个人感染概率。",
+      "new": "不能据擦拭方向计算个人感染概率。",
+      "reason": "把作者过程说明改成读者可以理解的证据范围或选择条件。"
+    },
+    {
+      "file": "drafts/whole-body/chapters/anal.json",
+      "target": "entry",
+      "id": "anal-009",
+      "field": "fields.evidence",
+      "old": "未以症状或自查确诊，未给处方剂量。",
+      "new": "症状只提示检查方向，不能自行确诊或照搬药物剂量。",
+      "reason": "把作者过程说明改成读者可以理解的证据范围或选择条件。"
+    },
+    {
+      "file": "drafts/whole-body/chapters/basics.json",
+      "target": "entry",
+      "id": "basics-004",
+      "field": "fields.evidence",
+      "old": "未指定通用高蛋白剂量或给品牌背书。",
+      "new": "不能据此设定人人相同的高蛋白摄入量或给品牌背书。",
+      "reason": "把作者过程说明改成读者可以理解的证据范围或选择条件。"
+    },
+    {
+      "file": "drafts/whole-body/chapters/basics.json",
+      "target": "entry",
+      "id": "basics-006",
+      "field": "fields.evidence",
+      "old": "未将成人剂量外推给儿童。",
+      "new": "成人活动时长不能直接套给儿童。",
+      "reason": "把作者过程说明改成读者可以理解的证据范围或选择条件。"
+    },
+    {
+      "file": "drafts/whole-body/chapters/basics.json",
+      "target": "entry",
+      "id": "basics-007",
+      "field": "fields.evidence",
+      "old": "未替每一种成分完成独立疗效综述。",
+      "new": "一般补剂指导不能代替具体成分、用途与剂量的疗效证据。",
+      "reason": "把作者过程说明改成读者可以理解的证据范围或选择条件。"
+    },
+    {
+      "file": "drafts/whole-body/chapters/basics.json",
+      "target": "entry",
+      "id": "basics-009",
+      "field": "fields.evidence",
+      "old": "未比较每款电子烟。",
+      "new": "不能据此给每款电子烟的风险排名。",
+      "reason": "把作者过程说明改成读者可以理解的证据范围或选择条件。"
+    },
+    {
+      "file": "drafts/whole-body/chapters/basics.json",
+      "target": "entry",
+      "id": "basics-010",
+      "field": "fields.evidence",
+      "old": "不是中国诊断界值或肥胖处方全谱。",
+      "new": "不能直接当作中国诊断界值或自行减重用药的依据。",
+      "reason": "把作者过程说明改成读者可以理解的证据范围或选择条件。"
+    },
+    {
+      "file": "drafts/whole-body/chapters/bodyskin.json",
+      "target": "entry",
+      "id": "bodyskin-005",
+      "field": "fields.evidence",
+      "old": "未按照片自定菌种。",
+      "new": "不能仅凭照片确定病原。",
+      "reason": "把作者过程说明改成读者可以理解的证据范围或选择条件。"
+    },
+    {
+      "file": "drafts/whole-body/chapters/bodyskin.json",
+      "target": "entry",
+      "id": "bodyskin-021",
+      "field": "fields.sources",
+      "old": "康复新液检索范围和未采用资料另记研究审计。",
+      "new": "",
+      "reason": "检索审计属于维护记录，读者来源栏只显示可核查依据。"
+    },
+    {
+      "file": "drafts/whole-body/chapters/bodyskin.json",
+      "target": "entry",
+      "id": "bodyskin-022",
+      "field": "fields.evidence",
+      "old": "不提供照片确诊。",
+      "new": "照片线索不能代替确诊。",
+      "reason": "把作者过程说明改成读者可以理解的证据范围或选择条件。"
+    },
+    {
+      "file": "drafts/whole-body/chapters/feet.json",
+      "target": "entry",
+      "id": "feet-006",
+      "field": "fields.evidence",
+      "old": "未证明某品牌优于其他保湿剂。",
+      "new": "不能据此认定某品牌优于其他保湿剂。",
+      "reason": "把作者过程说明改成读者可以理解的证据范围或选择条件。"
+    },
+    {
+      "file": "drafts/whole-body/chapters/feet.json",
+      "target": "entry",
+      "id": "feet-013",
+      "field": "fields.evidence",
+      "old": "未据此认定定制鞋垫优于成品或规定人人同一训练量。",
+      "new": "不能据此认定定制鞋垫优于成品，也不能给所有人设定同一训练量。",
+      "reason": "把作者过程说明改成读者可以理解的证据范围或选择条件。"
+    },
+    {
+      "file": "drafts/whole-body/chapters/hands.json",
+      "target": "entry",
+      "id": "hands-001",
+      "field": "fields.evidence",
+      "old": "本条不凭表现自诊或开抗生素。",
+      "new": "症状用于及时求助，不能自行确定病原或抗生素处方。",
+      "reason": "把作者过程说明改成读者可以理解的证据范围或选择条件。"
+    },
+    {
+      "file": "drafts/whole-body/chapters/hands.json",
+      "target": "entry",
+      "id": "hands-003",
+      "field": "fields.evidence",
+      "old": "未提供不同品牌、手膜和普通霜的直接疗效排名。",
+      "new": "不能据此给不同品牌、手膜和普通霜作直接疗效排名。",
+      "reason": "把作者过程说明改成读者可以理解的证据范围或选择条件。"
+    },
+    {
+      "file": "drafts/whole-body/chapters/hands.json",
+      "target": "entry",
+      "id": "hands-008",
+      "field": "fields.evidence",
+      "old": "未给出凭照片分型或通用抗菌处方。",
+      "new": "外观不能代替病因鉴别，也不足以支持一套通用抗菌方案。",
+      "reason": "把作者过程说明改成读者可以理解的证据范围或选择条件。"
+    },
+    {
+      "file": "drafts/whole-body/chapters/legs.json",
+      "target": "entry",
+      "id": "legs-005",
+      "field": "fields.evidence",
+      "old": "没有把所有急性或特定病因腰痛治疗全称化。",
+      "new": "不适用于所有急性腰痛或已有明确病因的腰痛。",
+      "reason": "把作者过程说明改成读者可以理解的证据范围或选择条件。"
+    },
+    {
+      "file": "drafts/whole-body/chapters/legs.json",
+      "target": "entry",
+      "id": "legs-007",
+      "field": "fields.evidence",
+      "old": "未设置所有人同一训练处方。",
+      "new": "训练量需要按功能和耐受制定。",
+      "reason": "把作者过程说明改成读者可以理解的证据范围或选择条件。"
+    },
+    {
+      "file": "drafts/whole-body/chapters/legs.json",
+      "target": "entry",
+      "id": "legs-010",
+      "field": "fields.evidence",
+      "old": "未给所有人的固定周增量或比赛处方。",
+      "new": "跑量和训练安排要按起点与恢复调整，不宜统一设定固定周增量。",
+      "reason": "把作者过程说明改成读者可以理解的证据范围或选择条件。"
+    },
+    {
+      "file": "drafts/whole-body/chapters/neck.json",
+      "target": "entry",
+      "id": "neck-004",
+      "field": "fields.evidence",
+      "old": "没有据此给所有枕头材料作临床优劣排名。",
+      "new": "不能据此给所有枕头材料作临床优劣排名。",
+      "reason": "把作者过程说明改成读者可以理解的证据范围或选择条件。"
+    },
+    {
+      "file": "drafts/whole-body/chapters/neck.json",
+      "target": "entry",
+      "id": "neck-006",
+      "field": "fields.evidence",
+      "old": "不提供个体处方，不认为口服越强就越好。",
+      "new": "实际选择取决于风险和用途，不是口服药效越强越好。",
+      "reason": "把作者过程说明改成读者可以理解的证据范围或选择条件。"
+    },
+    {
+      "file": "drafts/whole-body/chapters/private.json",
+      "target": "entry",
+      "id": "private-029",
+      "field": "fields.sources",
+      "old": "本篇睾丸和尿路急症来源。",
+      "new": "NHS睾丸痛和尿路感染急症指导。",
+      "reason": "把作者过程说明改成读者可以理解的证据范围或选择条件。"
+    },
+    {
+      "file": "drafts/whole-body/chapters/private.json",
+      "target": "entry",
+      "id": "private-030",
+      "field": "fields.sources",
+      "old": "本篇睾丸急症。",
+      "new": "睾丸急症指导。",
+      "reason": "把作者过程说明改成读者可以理解的证据范围或选择条件。"
+    },
+    {
+      "file": "drafts/whole-body/chapters/private.json",
+      "target": "entry",
+      "id": "private-031",
+      "field": "fields.sources",
+      "old": "本篇睾丸及上尿路感染分流。",
+      "new": "NHS睾丸痛和上尿路感染分流。",
+      "reason": "把作者过程说明改成读者可以理解的证据范围或选择条件。"
+    },
+    {
+      "file": "drafts/whole-body/chapters/private.json",
+      "target": "entry",
+      "id": "private-035",
+      "field": "fields.sources",
+      "old": "本篇异常出血指导。",
+      "new": "NHS异常出血指导。",
+      "reason": "把作者过程说明改成读者可以理解的证据范围或选择条件。"
+    },
+    {
+      "file": "drafts/whole-body/chapters/private.json",
+      "target": "entry",
+      "id": "private-019",
+      "field": "fields.sources",
+      "old": "CDC2024HIV暴露后预防与2026STI检测。",
+      "new": "CDC：HIV暴露后预防及性传播感染检测。",
+      "reason": "把作者过程说明改成读者可以理解的证据范围或选择条件。"
+    },
+    {
+      "file": "drafts/whole-body/chapters/private.json",
+      "target": "entry",
+      "id": "private-037",
+      "field": "fields.evidence",
+      "old": "并非本项目重新计算的中国人群比较试验。",
+      "new": "汇总来自其所述人群，不能作为中国所有使用者的个体预测。",
+      "reason": "把作者过程说明改成读者可以理解的证据范围或选择条件。"
+    },
+    {
+      "file": "drafts/whole-body/chapters/private.json",
+      "target": "entry",
+      "id": "private-039",
+      "field": "fields.sources",
+      "old": "CDC2024CHC、POP及紧急避孕。",
+      "new": "CDC2024复方与孕激素单方避孕药的临床使用，以及紧急避孕指导。",
+      "reason": "把作者过程说明改成读者可以理解的证据范围或选择条件。"
+    },
+    {
+      "file": "drafts/whole-body/chapters/private.json",
+      "target": "entry",
+      "id": "private-043",
+      "field": "fields.sources",
+      "old": "CDC紧急药后续、NHS紧急药呕吐、验孕与骨盆急症。",
+      "new": "CDC紧急避孕后的衔接；NHS服药后呕吐、验孕和骨盆痛指导。",
+      "reason": "把作者过程说明改成读者可以理解的证据范围或选择条件。"
+    },
+    {
+      "file": "drafts/whole-body/chapters/private.json",
+      "target": "entry",
+      "id": "private-044",
+      "field": "fields.evidence",
+      "old": "不提供个体风险概率保证。",
+      "new": "人群风险资料不能保证个人结局。",
+      "reason": "把作者过程说明改成读者可以理解的证据范围或选择条件。"
+    },
+    {
+      "file": "drafts/whole-body/chapters/private.json",
+      "target": "entry",
+      "id": "private-047",
+      "field": "fields.sources",
+      "old": "CDC2024MEC、方法与哺乳闭经条件。",
+      "new": "CDC2024避孕方法医学适用标准、临床使用与哺乳闭经条件。",
+      "reason": "把作者过程说明改成读者可以理解的证据范围或选择条件。"
+    },
+    {
+      "file": "drafts/whole-body/chapters/private.json",
+      "target": "entry",
+      "id": "private-053",
+      "field": "fields.evidence",
+      "old": "不提供自行激素调整方案。",
+      "new": "具体激素治疗需要专科评估，不自行调整。",
+      "reason": "把作者过程说明改成读者可以理解的证据范围或选择条件。"
+    }
+  ],
+  "coverage": [
+    {
+      "id": "abdomen-001",
+      "file": "drafts/whole-body/chapters/abdomen.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "2bfb0ccaac4db7d06954fe4945125b9d633cef12093ae7f0ba4c8f6e6f7d20f0",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": false,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "abdomen-002",
+      "file": "drafts/whole-body/chapters/abdomen.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "68b4dea33b255ab537d44389c4cd9716174a324acc9a811943e6a270671682ca",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": false,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "abdomen-003",
+      "file": "drafts/whole-body/chapters/abdomen.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "0a05c2fa4ec58b9f89772ba5bbcbaf4e865338eef2388b2583299eb91ef4e3cd",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": false,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "abdomen-004",
+      "file": "drafts/whole-body/chapters/abdomen.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "5810f33d84d649bf042c10986d18dba05d1c28c9009a105260a5393e133afd93",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": false,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "abdomen-005",
+      "file": "drafts/whole-body/chapters/abdomen.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "67038e8ae543e8d79703d62742c2bb13c1b23aab012b23a5b6eb015f532aeafe",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": false,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "abdomen-006",
+      "file": "drafts/whole-body/chapters/abdomen.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "c4ae02f1b23a6cc4818d46fa7edb1fb4ab5c3e2653fe8442412766b6c0cf5f76",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": false,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "abdomen-007",
+      "file": "drafts/whole-body/chapters/abdomen.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "52abc223dc3403b4cbeda82a2c7d064cf1adc9ff1ebc64e191c1c3ac927a1094",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": false,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "anal-001",
+      "file": "drafts/whole-body/chapters/anal.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "5a353ada46c0c491282ddc2a4fd6813fb30053b4f8f591069c6b7123b06803d3",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": false,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "anal-002",
+      "file": "drafts/whole-body/chapters/anal.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "bdd0b3f576d65bdd57b87d3913228d099a56da87135f98babd611990589033b4",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": true,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "anal-003",
+      "file": "drafts/whole-body/chapters/anal.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "65406f4cd30d510a947c4c4dc3bfc1bb03c62f3fb343c6a27a12b697f3348ef0",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": true,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "anal-004",
+      "file": "drafts/whole-body/chapters/anal.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "acc8c1a31c2b2b316148cbf84fbbc33f8b29996640068814580f34cebd1ec109",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": false,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "anal-005",
+      "file": "drafts/whole-body/chapters/anal.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "8a67b78795043b4f56ce266c41d13927e1cf5f811956f1cf75df8299b46203aa",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": false,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "anal-006",
+      "file": "drafts/whole-body/chapters/anal.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "de1b2cf353e7d0dd3da6fb284d4acecc71be691bc71595a071968c47b49384e0",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": false,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "anal-007",
+      "file": "drafts/whole-body/chapters/anal.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "7a31ec0b71845d33b8d35e8991505d03e0fb0d80283b4607684f4fcd67f51bc2",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": false,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "anal-008",
+      "file": "drafts/whole-body/chapters/anal.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "72415d3eb1a8ff5bdcbd9d1e035f521a945eb2baffadac1f024f1e024ec981b0",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": true,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "anal-009",
+      "file": "drafts/whole-body/chapters/anal.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "1c204e902e53d5b37d3aaadc686b67e658d4241517a3bbb40a2d24816bab2955",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": true,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "anal-010",
+      "file": "drafts/whole-body/chapters/anal.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "beb42b8838b667fe9f24bd2618eb8cfd54d6675d129a8eba6c5157318298bc3c",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": false,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "anal-011",
+      "file": "drafts/whole-body/chapters/anal.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "ef5a7e18278a4e8b53032cc9aae66730de96ed3be029925ae0fd2747cf47b851",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": false,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "anal-012",
+      "file": "drafts/whole-body/chapters/anal.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "905e2947f5a8e46cc4e45606961f65ee41830fb36529ae306fe48b9c64d431f3",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": false,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "basics-001",
+      "file": "drafts/whole-body/chapters/basics.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "92148ce4928e5520833eef0a93a62effa9a74c0141f2ab586e8ee7f32f44a6a4",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": false,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "basics-002",
+      "file": "drafts/whole-body/chapters/basics.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "78f153f4d948b0b6d09a2fe4b631fd8bac8aaddbbb6f383da038680030654836",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": false,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "basics-003",
+      "file": "drafts/whole-body/chapters/basics.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "93de79114e167e9356f31c56531c26b8703b576dbccc5481f71a3ecdcbe0fa87",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": false,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "basics-004",
+      "file": "drafts/whole-body/chapters/basics.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "2223c8e9e34f49f4bb969d3578922e695e83eb0954fb1d526a3da51ba0f577fe",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": true,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "basics-005",
+      "file": "drafts/whole-body/chapters/basics.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "a1acc83da06d902ea051d0db626b5f1b3e3c2a203df7046a7b2dabd69df7530e",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": false,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "basics-006",
+      "file": "drafts/whole-body/chapters/basics.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "f5cb020ac22de9a556c825d731022d96ef065a9243f40466f76d52407211f4bc",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": true,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "basics-007",
+      "file": "drafts/whole-body/chapters/basics.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "c5e8faead42ce951d8118810c8cdb2a6401d113ca3f80261888f08a44e302c23",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": true,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "basics-008",
+      "file": "drafts/whole-body/chapters/basics.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "dc88ad401e2f5ce36af17c8d2e29cdf32126860003a58008be631278e4d97572",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": false,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "basics-009",
+      "file": "drafts/whole-body/chapters/basics.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "4fabd2cdb570e3a58a106cb9e347526e4c0889911ef846170f2ba663a2cde5c7",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": true,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "basics-010",
+      "file": "drafts/whole-body/chapters/basics.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "3df0e11b7cd4eb179982f9c19f6fcb01ef8302ee5fcaa367c7c825bf2ebd889e",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": true,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "bodyskin-001",
+      "file": "drafts/whole-body/chapters/bodyskin.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "e8c1e2ce0cacfc4b9bdbd1d71610072e6496c879ebd55b3cb1266daf07a6f74e",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": false,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "bodyskin-002",
+      "file": "drafts/whole-body/chapters/bodyskin.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "8dfb36a12b85b4045ac1571262f5bf12d1014cd11ccf9a84bea763a61a1aa762",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": false,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "bodyskin-003",
+      "file": "drafts/whole-body/chapters/bodyskin.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "f7a7b31db961eeac615fb7008841121e88b69a154c9b28faad7b4663ef56af95",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": false,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "bodyskin-004",
+      "file": "drafts/whole-body/chapters/bodyskin.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "09d1ef2070e85e0bc8f991b30e90203dcbc3f5c2ca0326220d64036f3ee42c64",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": false,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "bodyskin-005",
+      "file": "drafts/whole-body/chapters/bodyskin.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "c8b86da206c8feec964bd7664bd3417df21abbf5993ddae8f41cf58724976e0b",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": true,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "bodyskin-006",
+      "file": "drafts/whole-body/chapters/bodyskin.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "24bd039f0786865717d63e04967fab567c833f4713386fa0e160c0a94ee30c5a",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": false,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "bodyskin-007",
+      "file": "drafts/whole-body/chapters/bodyskin.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "14ac5676dde315b0f1dc52ba821f60262eb5b82cf2c6ce1230e030841ad91772",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": false,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "bodyskin-008",
+      "file": "drafts/whole-body/chapters/bodyskin.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "abbc6fdde504d31919156111c60a6f2ef2413036ddeffaa673fa26c50908964c",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": false,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "bodyskin-009",
+      "file": "drafts/whole-body/chapters/bodyskin.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "b98e1ba27209ed70a19c646e0ea75b33551c1c7841e1920e320e0879809662b4",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": false,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "bodyskin-010",
+      "file": "drafts/whole-body/chapters/bodyskin.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "af4cb194bee1053b201dc78dc483c425271f8b83afd6d51a6749e6d50debf650",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": false,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "bodyskin-011",
+      "file": "drafts/whole-body/chapters/bodyskin.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "4fda0f5b9ed88fb5877184dddb5748b3ae8ceaf398e41aa000cf99a74fc0280f",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": false,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "bodyskin-012",
+      "file": "drafts/whole-body/chapters/bodyskin.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "aedaac09cc7cb240308894eae368eea7b044f41b5c8514c7e6a91634533887b9",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": false,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "bodyskin-013",
+      "file": "drafts/whole-body/chapters/bodyskin.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "827badaa1eae108c5b1e45929e556ce67cc098ddbc947c224f3633690a483770",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": false,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "bodyskin-014",
+      "file": "drafts/whole-body/chapters/bodyskin.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "823fe98c14399735ecf7ef44e0b8997899a64f830aa4bef0cd64c67a1fbb81f2",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": false,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "bodyskin-015",
+      "file": "drafts/whole-body/chapters/bodyskin.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "85e557742f4946dce37ac1d2616af0046bab8c82f252029dcdc30ef6ea9f06a0",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": false,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "bodyskin-016",
+      "file": "drafts/whole-body/chapters/bodyskin.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "1ab877cdb56a9f738b1aacbd685458db071c31630a9c4e26faefefb0bec5460c",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": false,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "bodyskin-017",
+      "file": "drafts/whole-body/chapters/bodyskin.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "649a27761bf3de4f16777b21236f17976b5a961e9e428602e49afe39035b39b3",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": false,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "bodyskin-018",
+      "file": "drafts/whole-body/chapters/bodyskin.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "aaaba4f96b2d7fc7fcd2a97b224e90654749286733255060435efba0e7e81d30",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": false,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "bodyskin-019",
+      "file": "drafts/whole-body/chapters/bodyskin.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "136b50da74fd03f09b7fdd4672edfeb9761ec426e5580dea9cc3d662a6c61b80",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": false,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "bodyskin-020",
+      "file": "drafts/whole-body/chapters/bodyskin.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "e36735739efff299215d8c700bec23089e188c64f4529f6226256f8109463d37",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": false,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "bodyskin-021",
+      "file": "drafts/whole-body/chapters/bodyskin.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "8459ff55cbab03d9c33757861a24fd1754f43961b56dc620115cc30ccd972823",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": true,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "bodyskin-022",
+      "file": "drafts/whole-body/chapters/bodyskin.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "8af7a8b3fc46fc94274203781d4a3c25e3fdb1bd27864b8f2ca0c44531bf8f88",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": true,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "bodyskin-023",
+      "file": "drafts/whole-body/chapters/bodyskin.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "e1b54dd60be78e6b8d6a73949be33d17ddd549636c8cc5e88eab5eb8557470df",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": false,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "bodyskin-024",
+      "file": "drafts/whole-body/chapters/bodyskin.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "60e1f9c5021d1bafeb3625e130b3f3df93dbefc2a1c33d8fbd9aa2c66749a54d",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": false,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "bodyskin-025",
+      "file": "drafts/whole-body/chapters/bodyskin.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "c6c09648cb7f2ca39079d76664a65badc3df2cb1a55140fd92267517ceef296b",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": false,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "chest-001",
+      "file": "drafts/whole-body/chapters/chest.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "561ab22c6bacc4c7f5d367397316534e67ff34b95254158ecfa5e5c199fd0d96",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": false,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "chest-002",
+      "file": "drafts/whole-body/chapters/chest.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "d02cad3aa4a590fb0cf9e61eb3cf644a6762270848ee6669501514a666da7ba4",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": false,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "chest-003",
+      "file": "drafts/whole-body/chapters/chest.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "4867ab150499552ef03ad7fd57b58937414fed515cbd1dde9f968a1c0dd45255",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": false,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "chest-004",
+      "file": "drafts/whole-body/chapters/chest.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "c07b6be63d9480c035d8d6ee31211ade6c5e0f5becb54f82f2a878385e619f87",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": false,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "chest-005",
+      "file": "drafts/whole-body/chapters/chest.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "0d414455364585d8e053f97b31f620dacbab5570aa958db71a0e37a779cab481",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": false,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "chest-006",
+      "file": "drafts/whole-body/chapters/chest.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "781646aa5bf2165b1dc929dbad66d9d2b3527b16bd3c8e67c989dd0d553d11d6",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": false,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "chest-007",
+      "file": "drafts/whole-body/chapters/chest.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "dde4d5a0ea960582e870e543645481e8f65f945f6bd9a7e963aa6d2f79fc7e25",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": false,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "chest-008",
+      "file": "drafts/whole-body/chapters/chest.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "be79afacd420ef59507d887f75aa22d8fab59af39566684c26b88d97d0e0097e",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": false,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "chest-012",
+      "file": "drafts/whole-body/chapters/chest.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "77e3e043263950f3886e09d59b00ee00187a19c1246d1cb169eb6b698b95cae2",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": false,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "chest-009",
+      "file": "drafts/whole-body/chapters/chest.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "d9636c8d8b09c82f209fa9a9d2e1c7f96f0936271d26419f9b3f9756805927b2",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": false,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "chest-010",
+      "file": "drafts/whole-body/chapters/chest.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "93bb0b58ef437204be3c8dd257e45c4bde1cfb9e8ac0cee59473e658688d4608",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": false,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "chest-011",
+      "file": "drafts/whole-body/chapters/chest.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "370e2296f8ed8de151fb53a5482fe6c338cf2915d9b00189960bf9ad05ad34d4",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": false,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "feet-001",
+      "file": "drafts/whole-body/chapters/feet.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "9d8d21224711b2f262db81ac0eb9bcb7a113619ea7bded644eeede8bfa3e9a4f",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": true,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "feet-002",
+      "file": "drafts/whole-body/chapters/feet.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "38b45f8de25a14c4b6353c18d71d8ccf51adddab45e7e87f41c4386c017105f7",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": true,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "feet-003",
+      "file": "drafts/whole-body/chapters/feet.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "f919028ee0cb06163ba49864e51afcf41facf7b37aaace6bde69022d45eb7a46",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": true,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "feet-004",
+      "file": "drafts/whole-body/chapters/feet.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "70b8ea2f2e500e93eeae40e7d75f99684d9733ea0e2dd9c6fe85fd126db771b4",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": true,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "feet-005",
+      "file": "drafts/whole-body/chapters/feet.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "46d49bdc6f236e5c0acf6f7e6c1fa8134d03a11ae8d9365b7feaa35ef3b482e6",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": true,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "feet-006",
+      "file": "drafts/whole-body/chapters/feet.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "ba4e3282cdb7e3d617a6c5d11c1f8305c0de435631a99776e5c508bb0b3c1b03",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": true,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "feet-007",
+      "file": "drafts/whole-body/chapters/feet.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "28b07c0e23b72e2c05484cdd15e84ec27e2ee2023000c73e14c4beb167fced53",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": true,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "feet-008",
+      "file": "drafts/whole-body/chapters/feet.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "d0b6263f949b497058796d6d6e52c4897036c013670ce67c26ca3075d7159f5e",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": true,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "feet-009",
+      "file": "drafts/whole-body/chapters/feet.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "92456709e4ae694b185e7dfc124631450e5b5f849001d30f5b3af52fe871a966",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": true,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "feet-010",
+      "file": "drafts/whole-body/chapters/feet.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "3029af7fbad408e9a77c9d2f71479e03026719dc9f67e068482fb38fee6ce5a8",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": true,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "feet-011",
+      "file": "drafts/whole-body/chapters/feet.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "b4c0787f49cd588df9ac67abf3450a55efee0e26567e6f63fafbf5c82908815a",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": true,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "feet-012",
+      "file": "drafts/whole-body/chapters/feet.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "2cd5bb1226bfd748b7ee53f43dd31abccaf2bb470eeea214b4aef24f6a9f9510",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": true,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "feet-013",
+      "file": "drafts/whole-body/chapters/feet.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "192c9b67030ebc91d76fa622e77bfae1257c8a769160393baac238ee06b57e1f",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": true,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "feet-014",
+      "file": "drafts/whole-body/chapters/feet.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "bb1f89dd77a69e3b3aa91aec9116db4b2e0a3c91027c177246ee85fc63162afb",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": true,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "hands-001",
+      "file": "drafts/whole-body/chapters/hands.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "a64dbfa1e0c6994bdc49eba03684e782e45ae607565fb86fea91124a72b57401",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": true,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "hands-002",
+      "file": "drafts/whole-body/chapters/hands.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "97db426391611403b4465d168922a3384bbc622a3b4a1c410529014373c3324b",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": false,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "hands-003",
+      "file": "drafts/whole-body/chapters/hands.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "16a7ca3b47dc29456a9704bd687253c583e9cc7eeb0d991045e1d62fa827be9a",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": true,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "hands-004",
+      "file": "drafts/whole-body/chapters/hands.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "3b897d86feb4198faad3392f1b76712b0aaf4efa0fda5299b95c138ede390c14",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": false,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "hands-005",
+      "file": "drafts/whole-body/chapters/hands.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "93e27a9893abd0f6cff0fe63f17096572d2e0b2989478285eaa4f040f0d3cf9d",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": false,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "hands-006",
+      "file": "drafts/whole-body/chapters/hands.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "aa8c2475526149c58827e44bdb08cc1e39838caf235eecb2e2e9e62c1deffa4a",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": false,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "hands-007",
+      "file": "drafts/whole-body/chapters/hands.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "f6945bde1b1b168fc733c24b47c8f3cae3a350a1f0df38f5cf49689734c4191b",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": false,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "hands-008",
+      "file": "drafts/whole-body/chapters/hands.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "df0db182138edcac7854d83edcd84e647e7b7d87388f43849e66fbc3fc718c15",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": true,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "hands-009",
+      "file": "drafts/whole-body/chapters/hands.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "8d5fa05c3adc20378550799bf49a7ccc4eb7c65a247d68d5d1e3ef5eb1893a33",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": false,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "hands-010",
+      "file": "drafts/whole-body/chapters/hands.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "c8b56d218dde65770a7dbbdcf842db54a2556a817a17fd8dbcaa81e6f09b31f7",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": false,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "hands-011",
+      "file": "drafts/whole-body/chapters/hands.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "e8427a3f87ca63ca7dc1790a7ec72203523b514ecd00d0d3aaaae31f5ddb6216",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": false,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "hands-012",
+      "file": "drafts/whole-body/chapters/hands.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "af7aad5abef6a44d02f0f4e7c747f18e91ae1f899eddfd3ae8468053ef296d2d",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": false,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "legs-001",
+      "file": "drafts/whole-body/chapters/legs.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "d8be264ca6585dd5e4d847b401a278137630c19cb550a0e8cf793f1f27558362",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": true,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "legs-002",
+      "file": "drafts/whole-body/chapters/legs.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "b4f63b6102881035a038ff59b4897072c01709e0e7ef08a61264424f581431c7",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": true,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "legs-003",
+      "file": "drafts/whole-body/chapters/legs.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "3b0b463b0ec31ece16f88ff20612b39cc876db7263a6f91191c9696408763978",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": true,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "legs-004",
+      "file": "drafts/whole-body/chapters/legs.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "b0ade39865db7007c6ed02222311d73930c1b5770e760150a0cbabb34e1419a4",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": true,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "legs-005",
+      "file": "drafts/whole-body/chapters/legs.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "2f9cae41d4146ef2eaf94d6d3dedfe212d26540fe17e060799428bc136e25b36",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": true,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "legs-006",
+      "file": "drafts/whole-body/chapters/legs.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "d1f1a2a5ccb4ce5d2e5f0adc02f7e5cb754b526e54846dec00dcd9256f186a1b",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": true,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "legs-007",
+      "file": "drafts/whole-body/chapters/legs.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "ff1339496d317bdfa45d917ef859bbd8e98743fec1d244c6e257eb0dc66e9e1a",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": true,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "legs-008",
+      "file": "drafts/whole-body/chapters/legs.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "6ac523411c74287760aacf014d85a6875f134408c38ff7acc6deecd7106f3ee8",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": true,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "legs-009",
+      "file": "drafts/whole-body/chapters/legs.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "7e0e68e57ca5066f2e06c281a4f10932f3e6ea198f8ccfea5c4778860c49aa69",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": true,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "legs-010",
+      "file": "drafts/whole-body/chapters/legs.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "34538428d11d81827701d345ef2e16f133d4a5707c8771ac4eb0b1677166a9f7",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": true,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "legs-011",
+      "file": "drafts/whole-body/chapters/legs.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "633273acae12c02fce817f99dbda5eeabd5eec7a68434a2caba69e6d91287a8e",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": true,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "legs-012",
+      "file": "drafts/whole-body/chapters/legs.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "70c50873925d9665eae8dd9c249e0cb3de28856d434bf8705868a07b2eed6489",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": true,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "neck-001",
+      "file": "drafts/whole-body/chapters/neck.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "e55f1ed4db779ab79bbfd6850261447ebc0c6fd0868be22fa98ecf6a4553b734",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": true,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "neck-011",
+      "file": "drafts/whole-body/chapters/neck.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "7d15603a5fa581168144b61f1d99cd957c80281889729730911d4cc90f00579b",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": true,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "neck-002",
+      "file": "drafts/whole-body/chapters/neck.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "6a984236f2cf007e19d4c8d1a18912c3b5670d9f4219dfe6c5da0194cf0ed424",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": true,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "neck-003",
+      "file": "drafts/whole-body/chapters/neck.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "167616b7abba09b8a7e1fe9be3e806d7db570c1471943b36ad9e3062ca2a37b5",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": true,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "neck-004",
+      "file": "drafts/whole-body/chapters/neck.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "d795d6ed6f117b123f3cb08f8e9f01919da45a64350579a8fb91bf2446296779",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": true,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "neck-007",
+      "file": "drafts/whole-body/chapters/neck.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "edbdb21d11e2a76a4cb61fcd2b337ef0729154935b88d75a4f039a3e14ddd3b4",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": true,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "neck-005",
+      "file": "drafts/whole-body/chapters/neck.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "f415a85e2a6e06395adaf0711fbebd23401ab22a1f9ad5b04e1178e2371ae75d",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": true,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "neck-006",
+      "file": "drafts/whole-body/chapters/neck.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "b8ca519a8b9eaa560fedec5226848aa9e7336a05fe88b916a567588a58f1cbed",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": true,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "neck-008",
+      "file": "drafts/whole-body/chapters/neck.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "be96e7c9bad86840b7858fd3ed6a1b1fca381b2ddeea8c7e0263eebde6c1426b",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": true,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "neck-009",
+      "file": "drafts/whole-body/chapters/neck.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "fbe7cc95d76bdcff114fb780b6dc82c6c60f81c36eb452e601831e85623dc533",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": true,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "neck-010",
+      "file": "drafts/whole-body/chapters/neck.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "cf3062e8613eb2ce640a9bcf0bcff4bf49b33bb0d5611c77b4b072fba6f31996",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": true,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "neck-012",
+      "file": "drafts/whole-body/chapters/neck.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "f6fc6d7ebec08da8093604b33277567fbb9182cf1283ee6952a034e741d2642a",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": true,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "neck-013",
+      "file": "drafts/whole-body/chapters/neck.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "832ebe8a2d2b4700b3396b6363509355e1c263d8aff72699a1f3d713387f2ef4",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": true,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "neck-014",
+      "file": "drafts/whole-body/chapters/neck.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "64d73553eeb99c2e94d94a573ad18891941d251f62cb2f5ff305732b2085c19b",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": true,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "private-001",
+      "file": "drafts/whole-body/chapters/private.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "91f9eb62dede79dd580858138a41f4f3be4a29545576285875dfe3358ff4b9a5",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": false,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "private-002",
+      "file": "drafts/whole-body/chapters/private.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "b7c99af97e1a8b9a2f2979ab72bc8854f7a9ef41587cda90aa2cefec4bdfd072",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": false,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "private-009",
+      "file": "drafts/whole-body/chapters/private.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "4d800d694022d2a95aaa528a41dcb06b8a0fc3a3d83c74c15cfc89f6ae1b2ecf",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": true,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "private-036",
+      "file": "drafts/whole-body/chapters/private.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "d1960c4ac97053f497d06c46b5a374b291e3f754f316dc7d1ef93f831a70ac50",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": false,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "private-019",
+      "file": "drafts/whole-body/chapters/private.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "73043dcfaac175033b1fee9a6a417b8236310f4286b4c772c3fefb6932fd0147",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": true,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "private-003",
+      "file": "drafts/whole-body/chapters/private.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "6586e919137147dc5853543e4656533940a6ebb92b80cab01bd77a63344c6124",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": false,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "private-004",
+      "file": "drafts/whole-body/chapters/private.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "91870cdbea60bf70e35478155d4a8869d58ad1ecf4c91b46581eec06a5225183",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": false,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "private-005",
+      "file": "drafts/whole-body/chapters/private.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "0c6a9899871214baeb949d2f8701ce5efc5315d913e024f03b83bc287c83aba4",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": false,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "private-006",
+      "file": "drafts/whole-body/chapters/private.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "2ae311f4ef2b726d99ad98bf8d30dbdcb3b6d5a38b77fe3a887c73b9c8b82e55",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": false,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "private-007",
+      "file": "drafts/whole-body/chapters/private.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "ff2b0867c58d347f88f76b2f8240aba80a4ed6737a57bed951fa1deef8ce329d",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": false,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "private-008",
+      "file": "drafts/whole-body/chapters/private.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "f5ff70ba44b03f498c4c2517b353eacc6bfdf245f71f039b37729332203bc7c4",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": false,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "private-020",
+      "file": "drafts/whole-body/chapters/private.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "b0402729faf98021fcfe7bbe4c13c247484dcf4990b787ee5e10c6b9370ff892",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": true,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "private-021",
+      "file": "drafts/whole-body/chapters/private.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "7868548883714984aa040078321ae95f136b0d36b47b309f038a41d330988849",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": true,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "private-022",
+      "file": "drafts/whole-body/chapters/private.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "a916503ece58e9e5579759c09b096465063402f1e4519ddbc52d8461da9e329d",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": true,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "private-023",
+      "file": "drafts/whole-body/chapters/private.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "f75033c00b687aac54d2088741b86aff5dce7e56fc6c1d18bd633535fb0dba20",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": true,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "private-024",
+      "file": "drafts/whole-body/chapters/private.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "305d71e1f2a18f03fd1037c69b10061835c271039ea3ba9ed583624f915df901",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": true,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "private-025",
+      "file": "drafts/whole-body/chapters/private.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "8349cffb7246ebeb46543fdf6be990103dba4a6c61f97537f2ece4d1c982f987",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": true,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "private-026",
+      "file": "drafts/whole-body/chapters/private.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "ca1eb6c08eb222c9550a8c4ac292864afce36cea57e5347939cfcb44adc6bb06",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": true,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "private-027",
+      "file": "drafts/whole-body/chapters/private.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "e459dee30b8a8056693f95ce16c09fd27d1486d5e0a444e17c0e7412e7ac6b07",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": true,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "private-010",
+      "file": "drafts/whole-body/chapters/private.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "0a6b385b25b97833637de2a72a0e0862fd629a524a23ec4ad6983e4319679998",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": false,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "private-011",
+      "file": "drafts/whole-body/chapters/private.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "9fbcf22870cd58f0b22d223cb9778d00538cb8518622a7736806d1b45416d36e",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": false,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "private-028",
+      "file": "drafts/whole-body/chapters/private.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "c4d894c352248c9e8ec7e8b9903db8dcfa1716be27570a81f832763da14b5381",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": false,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "private-012",
+      "file": "drafts/whole-body/chapters/private.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "45b82d934023bd689c2b81a1eb09db8ec1236a714ee4f303be52f4f1e1d6c58e",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": false,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "private-013",
+      "file": "drafts/whole-body/chapters/private.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "830610d0823386971694c2137379a46908e5b70044da25ea4cb3f74441da0cd9",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": false,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "private-029",
+      "file": "drafts/whole-body/chapters/private.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "f2e30c3309f3fcb218bb8b148402b9bbaeebaffa188e15fb37bd3afe78dd929d",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": true,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "private-030",
+      "file": "drafts/whole-body/chapters/private.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "690ee0d39c6d0007d32ddffc836cea612aae6ad34d106cbb3acffd2a4b347fed",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": true,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "private-031",
+      "file": "drafts/whole-body/chapters/private.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "493876c133e2bd8dc4c2619009179b7a7ddb3928785be41e558a51e380401ef2",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": true,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "private-014",
+      "file": "drafts/whole-body/chapters/private.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "457e0cecae22a392c9fecc702f7f073219d37a05c763977d77279f07bde69783",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": false,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "private-017",
+      "file": "drafts/whole-body/chapters/private.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "9d40ca50e3c27e3d49a1636fc086389f754adc4346cea185d430628ed9ada85d",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": false,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "private-015",
+      "file": "drafts/whole-body/chapters/private.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "3d89862d2a5df883cf33f448f70bd1cc85f5fc6776ed71380e69ceb1fd89caf4",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": false,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "private-035",
+      "file": "drafts/whole-body/chapters/private.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "6a38528f6df3b39e35355ffd8a90d841eafee2ed941d7da8482c2627094ae012",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": true,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "private-016",
+      "file": "drafts/whole-body/chapters/private.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "bdc577fd157bf95b605e7696d00d0ffd4c50c298513867fd263433f5844f03f2",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": false,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "private-032",
+      "file": "drafts/whole-body/chapters/private.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "3f0bd8c9ab5413d913ba6e188eb468a4e052363adc1dcb5ba1f15d3987d0cf75",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": false,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "private-033",
+      "file": "drafts/whole-body/chapters/private.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "787465745a55f99c709c125ee30a4e3ab4c374c0eea591ab819dd45bec20154e",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": false,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "private-034",
+      "file": "drafts/whole-body/chapters/private.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "3f368020230b3791b0c462af6109069ec1b460452cc1a68d8531436e4d3f9bd7",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": false,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "private-018",
+      "file": "drafts/whole-body/chapters/private.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "22d731bd819e7059769c862d3f5c8af1404492a2050040cb76c346f939d46894",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": false,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "private-037",
+      "file": "drafts/whole-body/chapters/private.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "efa5e21d4fcf5927af64ce09a015f8f4f1ae7a9c20a414c51fab3970000f03e7",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": true,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "private-038",
+      "file": "drafts/whole-body/chapters/private.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "fe6f621b2f06eec7e67537af6ad42a962f356767b4c63c320706f65b52bad7bc",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": false,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "private-045",
+      "file": "drafts/whole-body/chapters/private.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "cc3768481d0310ecca141d1debf443a5a4990280dabf741bd12a5563547c98c9",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": false,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "private-039",
+      "file": "drafts/whole-body/chapters/private.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "1c5d728b80d012efe42bf7b631950d07230b420f2eeccfb22a5848d30025076d",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": true,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "private-040",
+      "file": "drafts/whole-body/chapters/private.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "069bd6e9285af40fc0240035d8d5b871004645e99e3c5fef6daeefc80ed1b85e",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": false,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "private-041",
+      "file": "drafts/whole-body/chapters/private.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "5654634d288201408e1b7af8698c7f5f937e60020a7a6f1d4801f9a59b48762a",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": false,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "private-046",
+      "file": "drafts/whole-body/chapters/private.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "20d7cb478c1be116075138b7864a450adc396ac23d03a832c1cb54006ff09264",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": false,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "private-042",
+      "file": "drafts/whole-body/chapters/private.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "405ce5dd45e5bf661789a9b26114daea572140cde52077e1ed0b105f01751fa3",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": false,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "private-043",
+      "file": "drafts/whole-body/chapters/private.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "e3932efd84baa16704ab0ea984385e73be42de7677f4eb9237650c88f0067e45",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": true,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "private-044",
+      "file": "drafts/whole-body/chapters/private.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "05b4c82bd52ab9197adae25557f778720b2e5149e98c602d2f02092e9539e090",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": true,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "private-047",
+      "file": "drafts/whole-body/chapters/private.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "2c2f07d7793eb3c34700b4d47a15bc39c381e58bcb9607afada4fbd7869e4530",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": true,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "private-048",
+      "file": "drafts/whole-body/chapters/private.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "cd55c788cf8a0dc742f2671846334ff3f94bd32581945f4f1ffd3fab60f15524",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": false,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "private-049",
+      "file": "drafts/whole-body/chapters/private.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "44f4a14bc81674e0b6cded5737251c329e4e26aeb6b883091c47bc3e83d57211",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": false,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "private-050",
+      "file": "drafts/whole-body/chapters/private.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "585b8ead31900fbb8552d493047634517844cbb20fff7bbbcfe4697ed20ad717",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": false,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "private-051",
+      "file": "drafts/whole-body/chapters/private.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "d2db61b1eec892fac81a7212db82889a9db5b2df8d51b49095bbb55e587ac30a",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": false,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "private-052",
+      "file": "drafts/whole-body/chapters/private.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "06f15294110f714eb2261164b75a7988696cc40212ab7af1d76857bfab5e1917",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": false,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "private-053",
+      "file": "drafts/whole-body/chapters/private.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "928b546786d7fc48e3ab557d613349491729ffdcad74e2eb2f01c244b6228da5",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": true,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "private-054",
+      "file": "drafts/whole-body/chapters/private.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "cc6b86874f58fe8023596c5a30b6e09f9949095440588755acad7b89a3a702f1",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": false,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "private-055",
+      "file": "drafts/whole-body/chapters/private.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "1e7b57624fef90fbfddbd2e2c88a702bd3b5d6bbfb977183d7a31eb47439c690",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": false,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    },
+    {
+      "id": "private-056",
+      "file": "drafts/whole-body/chapters/private.json",
+      "fields_read": [
+        "cost",
+        "evidence",
+        "sources"
+      ],
+      "manual_read_complete": true,
+      "input_sha256": "ffaeac36b642c98246da7d616dd5b8ff91f5c5e68788956828fba6a8d8255c41",
+      "cost_result": "原字段为空，保持省略，不添加占位成本",
+      "changed": false,
+      "result": "已实际通读，不将来源编号/等级当作临床审核；必要替换见patches。"
+    }
+  ],
+  "limits": "本次是文字、引用呈现和逻辑衔接审读，未重做174条的系统证据检索；完整Vancouver和DOI仍以来源账本为准。"
+}

@@ -1,0 +1,12 @@
+{
+  "part": "anal",
+  "status": "passed_structural_and_export_checks",
+  "entries": 12,
+  "sources": 23,
+  "standalone_html_sha256": "4733f84e45d218e8c4fd41682e3e5ee56b57c1c0828a296f2af789d6ba6c644a",
+  "source_graph_resolves": true,
+  "export_data_equal": true,
+  "all_audience_ranges_retained": true,
+  "canonical_content_unchanged": true,
+  "clinical_review_status": "not_clinically_reviewed"
+}

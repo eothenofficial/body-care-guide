@@ -1,0 +1,296 @@
+{
+  "status": "author_self_check_passed_not_clinical_review",
+  "content_checked_at": "2026-10-29",
+  "chapter": "ears",
+  "entries": 11,
+  "new_entries": [
+    "ears-009",
+    "ears-010",
+    "ears-011"
+  ],
+  "preserved_ids": [
+    "ears-001",
+    "ears-002",
+    "ears-003",
+    "ears-004",
+    "ears-005",
+    "ears-006",
+    "ears-007",
+    "ears-008"
+  ],
+  "source_records": 11,
+  "doi_sources": 0,
+  "source_policy": "只采用原始机构官网或官方医学手册；网页日期按实际显示，未知不补造；不引用商家护理营销作为医学证明。机构指导标C，不冒充RCT。",
+  "source_conflicts": [
+    {
+      "topic": "新穿孔旋转首饰",
+      "observed": "NHS建议清洁时轻转，AAP症状工具称转3圈；Mayo只允许清洁时触碰或转动，AAD无旋转要求。",
+      "resolution": "不安排日常反复转动，不强行转过痂；不编统一旋转次数。没有写所有清洁过程绝不能动。"
+    },
+    {
+      "topic": "酒精与强消毒剂",
+      "observed": "部分Johns Hopkins儿童页建议酒精；AAD不主张双氧水及抗菌皂，Mayo避免双氧水碘及强刺激用品。",
+      "resolution": "采用温和清洁/伤口盐水主线，不选酒精叠加；Johns Hopkins来源只取成熟度及耳扣嵌入，不隐藏差异。"
+    },
+    {
+      "topic": "凡士林与油膏",
+      "observed": "AAD薄涂管装凡士林；穿孔行业APP不主张油膏。",
+      "resolution": "不把凡士林或抗生素软膏列为人人必买；一般清洁不叠加，多方案需医护说明。"
+    },
+    {
+      "topic": "清洁频次与愈合时间",
+      "observed": "AAD至少每日一次、NHS与Mayo每日两次；愈合时间依部位而异。",
+      "resolution": "写每日一至两次并按书面方案，不反复加洗；六周不当所有软骨耳洞通用治愈日。"
+    },
+    {
+      "topic": "儿童年龄",
+      "observed": "Johns Hopkins页面转述AAP等成熟能护理，另有专家提婴儿三四月；AAP症状工具常在8岁后。",
+      "resolution": "只采用参与决定与护理能力原则，不发布统一最佳年龄，不把筛选命中当穿孔许可。"
+    }
+  ],
+  "explicit_extrapolation": {
+    "ears-011": "耳扣过紧损伤/嵌入作为机械压力提醒，耳夹不痛不麻和取下判断系谨慎护理外推；未找到普通时尚耳夹统一夹力或每天佩戴时长直接研究，不宣称有此类试验。"
+  },
+  "audience_limitations": "一般外耳清洁与感染识别可供各年龄照护参照，不代表儿童处方用药许可；儿童穿孔未按一个年龄阈值自动推荐；耳夹不推荐婴幼儿，潜在脱落小零件风险有AAP症状工具支持。原有耳垢软化、耳机暴露数字等仍保留成人侧重，不伪装全龄结论。",
+  "clinical_review_status": "not_clinically_reviewed",
+  "checks": [
+    {
+      "entry_id": "ears-005",
+      "summary_characters": 122,
+      "source_tokens": [
+        "ENT-S17",
+        "ENT-S18",
+        "ENT-S20"
+      ],
+      "audience": {
+        "age_groups": [
+          "child",
+          "teen",
+          "adult",
+          "older"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "各年龄突然听力变化均保留急症入口；儿童由照护者协助。",
+        "safety_pin": true
+      }
+    },
+    {
+      "entry_id": "ears-001",
+      "summary_characters": 126,
+      "source_tokens": [
+        "EARNEW-S01",
+        "EARNEW-S02",
+        "ENT-S13",
+        "ENT-S14",
+        "ENT-S15",
+        "ENT-S30"
+      ],
+      "audience": {
+        "age_groups": [
+          "child",
+          "teen",
+          "adult",
+          "older"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "外耳清洁可供各年龄参照；儿童由照护者完成，耳道用药另行判断。",
+        "safety_pin": false
+      }
+    },
+    {
+      "entry_id": "ears-002",
+      "summary_characters": 126,
+      "source_tokens": [
+        "ENT-S13",
+        "ENT-S24",
+        "ENT-S25"
+      ],
+      "audience": {
+        "age_groups": [
+          "adult",
+          "older"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "成人阅读侧重；儿童用药和器械选择未在本条逐项核对。",
+        "safety_pin": false
+      }
+    },
+    {
+      "entry_id": "ears-003",
+      "summary_characters": 121,
+      "source_tokens": [
+        "ENT-S15",
+        "ENT-S30"
+      ],
+      "audience": {
+        "age_groups": [
+          "adult",
+          "older"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "成人阅读侧重；儿童用药和器械选择未在本条逐项核对。",
+        "safety_pin": false
+      }
+    },
+    {
+      "entry_id": "ears-004",
+      "summary_characters": 125,
+      "source_tokens": [
+        "ENT-S16"
+      ],
+      "audience": {
+        "age_groups": [
+          "adult",
+          "older"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "成人阅读侧重；儿童用药和器械选择未在本条逐项核对。",
+        "safety_pin": false
+      }
+    },
+    {
+      "entry_id": "ears-006",
+      "summary_characters": 121,
+      "source_tokens": [
+        "ENT-S19",
+        "ENT-S20"
+      ],
+      "audience": {
+        "age_groups": [
+          "adult",
+          "older"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "成人阅读侧重；儿童用药和器械选择未在本条逐项核对。",
+        "safety_pin": false
+      }
+    },
+    {
+      "entry_id": "ears-007",
+      "summary_characters": 123,
+      "source_tokens": [
+        "ENT-S18",
+        "ENT-S21",
+        "ENT-S29"
+      ],
+      "audience": {
+        "age_groups": [
+          "adult",
+          "older"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "成人阅读侧重；儿童用药和器械选择未在本条逐项核对。",
+        "safety_pin": false
+      }
+    },
+    {
+      "entry_id": "ears-009",
+      "summary_characters": 140,
+      "source_tokens": [
+        "EARNEW-S03",
+        "EARNEW-S04",
+        "EARNEW-S05",
+        "EARNEW-S07",
+        "EARNEW-S09"
+      ],
+      "audience": {
+        "age_groups": [
+          "child",
+          "teen",
+          "adult",
+          "older"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "成人用于穿孔前取舍；未成年人仅供与监护人讨论，不按年龄自动推荐穿孔。",
+        "safety_pin": false
+      }
+    },
+    {
+      "entry_id": "ears-010",
+      "summary_characters": 136,
+      "source_tokens": [
+        "EARNEW-S03",
+        "EARNEW-S04",
+        "EARNEW-S06",
+        "EARNEW-S08",
+        "ENT-S22"
+      ],
+      "audience": {
+        "age_groups": [
+          "child",
+          "teen",
+          "adult",
+          "older"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "已穿孔者的护理与感染识别；儿童由照护者完成，是否穿孔另见前条。",
+        "safety_pin": true
+      }
+    },
+    {
+      "entry_id": "ears-008",
+      "summary_characters": 134,
+      "source_tokens": [
+        "EARNEW-S07",
+        "EARNEW-S10",
+        "ENT-S22",
+        "ENT-S23"
+      ],
+      "audience": {
+        "age_groups": [
+          "child",
+          "teen",
+          "adult",
+          "older"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "各年龄耳饰接触问题可参照；儿童需照护者检查，不据此自行用药。",
+        "safety_pin": false
+      }
+    },
+    {
+      "entry_id": "ears-011",
+      "summary_characters": 142,
+      "source_tokens": [
+        "EARNEW-S05",
+        "EARNEW-S06",
+        "EARNEW-S07",
+        "EARNEW-S08",
+        "EARNEW-S11",
+        "ENT-S23"
+      ],
+      "audience": {
+        "age_groups": [
+          "teen",
+          "adult",
+          "older"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "装饰选择以青少年及成人为主；婴幼儿小零件安全不能据此保证。",
+        "safety_pin": false
+      }
+    }
+  ]
+}

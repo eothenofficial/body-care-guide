@@ -25,10 +25,12 @@ jobs:
         with:
           python-version: '3.12'
       - name: 链接可达性报告（不等于医学验证）
-        run: python scripts/check_links.py --output-dir reports --timeout 10 --workers 8
+        run: |
+          python scripts/build_current.py --check
+          python scripts/check_links.py --root .draft-preview/current --output-dir reports --timeout 10 --workers 8
       - name: 案头复核日期与临床待审清单
         if: ${{ !cancelled() }}
-        run: python scripts/review_due.py --output-dir reports --interval-days 180
+        run: python scripts/review_due.py --root .draft-preview/current --output-dir reports --interval-days 180
       - name: 写入本次运行摘要
         if: ${{ !cancelled() }}
         env:

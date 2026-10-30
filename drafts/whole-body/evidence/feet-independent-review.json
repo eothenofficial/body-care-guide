@@ -1,0 +1,21 @@
+{
+  "status": "independent_ai_editorial_review_passed",
+  "blocking_unresolved": [],
+  "clinical_review_status": "not_clinically_reviewed",
+  "reviewed_on": "2026-10-29",
+  "scope": "root独立审读14条标题和高风险足/足癣用药/嵌甲/甲色带重点正文；实读CDC皮肤癣和糖尿病足原文，打开OUP2026 BAD原文核题录及R6–R19、激光与人群限制段。未声称逐篇重审全部21来源或所有引用试验。",
+  "checks": [
+    "糖尿病足不等待疼痛；冷麻变色与感染及时求助",
+    "外用抗真菌按实际制剂和标签，未统一强定天数或将全部激素处方一概否定",
+    "2026 BAD确诊、观察/外药/口服和激光证据不足分支有直接支持，未复制英国剂量到中国",
+    "先核甲真菌和皮损，未用所有黑线都是真菌解释",
+    "受损裂口/感觉循环问题的腐蚀剂和热浸泡边界保留"
+  ],
+  "resolutions": [
+    {
+      "source": "FEET-S06",
+      "issue": "书目将CDC专业复核日简写为日期，易与更新日混淆",
+      "action": "日期改实际Updated 2026Feb9；另存published/updated/expert_reviewed三日期，保留2026Oct21专家复核事实"
+    }
+  ]
+}

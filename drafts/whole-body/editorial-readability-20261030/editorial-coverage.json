@@ -1,0 +1,3255 @@
+{
+  "preview": false,
+  "reviewed": 350,
+  "original_entries": 350,
+  "active_entries": 341,
+  "aliases": {
+    "eyes-015": "eyes-007",
+    "lips-002": "lips-001",
+    "oral-006": "oral-005",
+    "private-023": "private-022",
+    "anal-008": "anal-007",
+    "private-043": "private-042",
+    "basics-004": "nutrition-013",
+    "basics-010": "nutrition-020",
+    "sleep-013": "sleep-012"
+  },
+  "merges": [
+    {
+      "target": "eyes-007",
+      "retired": [
+        "eyes-015"
+      ],
+      "reason": "同一读者决定下的重复步骤合成一篇，删除重复引言和免责声明。",
+      "same_age_and_sex": true,
+      "all_original_sources_retained": true
+    },
+    {
+      "target": "lips-001",
+      "retired": [
+        "lips-002"
+      ],
+      "reason": "同一读者决定下的重复步骤合成一篇，删除重复引言和免责声明。",
+      "same_age_and_sex": true,
+      "all_original_sources_retained": true
+    },
+    {
+      "target": "oral-005",
+      "retired": [
+        "oral-006"
+      ],
+      "reason": "同一读者决定下的重复步骤合成一篇，删除重复引言和免责声明。",
+      "same_age_and_sex": true,
+      "all_original_sources_retained": true
+    },
+    {
+      "target": "private-022",
+      "retired": [
+        "private-023"
+      ],
+      "reason": "同一用品决策原先把概念、操作、排空清洁拆开，合并为购买前到使用后完整流程。",
+      "same_age_and_sex": true,
+      "all_original_sources_retained": true
+    },
+    {
+      "target": "anal-007",
+      "retired": [
+        "anal-008"
+      ],
+      "reason": "同一便秘问题的生活措施与后续用药合为逐步选择，保留继发原因、急症和人群边界。",
+      "same_age_and_sex": true,
+      "all_original_sources_retained": true
+    },
+    {
+      "target": "private-042",
+      "retired": [
+        "private-043"
+      ],
+      "reason": "紧急避孕当日选择与药后衔接属于同一事件；合并避免读者只读前半而遗漏后续保护和21天验孕。",
+      "same_age_and_sex": true,
+      "all_original_sources_retained": true
+    },
+    {
+      "target": "nutrition-013",
+      "retired": [
+        "basics-004"
+      ],
+      "reason": "两条帮助读者作同一个决定；重写为一个解释与行动顺序，保留双方依据、条件与旧链接。",
+      "same_age_and_sex": true,
+      "all_original_sources_retained": true
+    },
+    {
+      "target": "nutrition-020",
+      "retired": [
+        "basics-010"
+      ],
+      "reason": "两条帮助读者作同一个决定；重写为一个解释与行动顺序，保留双方依据、条件与旧链接。",
+      "same_age_and_sex": true,
+      "all_original_sources_retained": true
+    },
+    {
+      "target": "sleep-012",
+      "retired": [
+        "sleep-013"
+      ],
+      "reason": "两条帮助读者作同一个决定；重写为一个解释与行动顺序，保留双方依据、条件与旧链接。",
+      "same_age_and_sex": true,
+      "all_original_sources_retained": true
+    }
+  ],
+  "entries": [
+    {
+      "id": "hair-001",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "头皮油脏了就按需洗，把清洁头皮和护理发尾分开",
+      "title": "头皮油脏了就洗，干涩发尾另用护发素",
+      "old_plain_chars": 355,
+      "new_plain_chars": 244
+    },
+    {
+      "id": "hair-002",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "头屑反复先选对应去屑成分；红痛、掉发或用后不改善就检查",
+      "title": "头屑反复就选去屑成分，红痛掉发及时检查",
+      "old_plain_chars": 451,
+      "new_plain_chars": 316
+    },
+    {
+      "id": "hair-003",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "别只凭无硅油、氨基酸标签加价，先看洗后是否适合",
+      "title": "选洗发水看洗后表现，不为“无硅油”盲目加价",
+      "old_plain_chars": 357,
+      "new_plain_chars": 258
+    },
+    {
+      "id": "hair-004",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "发尾毛躁先用护发素，仍打结再考虑免洗品或发膜",
+      "title": "发尾打结先用护发素，发膜按需要再加",
+      "old_plain_chars": 345,
+      "new_plain_chars": 281
+    },
+    {
+      "id": "hair-005",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "护发油和胶囊少量用在发段，别把“深海”包装当生发证据",
+      "title": "护发油少量涂发段，“深海胶囊”不等于生发药",
+      "old_plain_chars": 352,
+      "new_plain_chars": 264
+    },
+    {
+      "id": "hair-006",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "漂烫受损再考虑键合修护，别把一次发束变化当永久修复",
+      "title": "漂烫后难梳易断，再考虑键合修护产品",
+      "old_plain_chars": 387,
+      "new_plain_chars": 243
+    },
+    {
+      "id": "hair-007",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "吹头发先降温、移风口，别用烫感和最高风温追求效率",
+      "title": "吹头发用低中温并移动风口，烫痛就停",
+      "old_plain_chars": 348,
+      "new_plain_chars": 258
+    },
+    {
+      "id": "hair-014",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "打结从发梢慢慢理开，别靠每天多梳或硬拉来养发",
+      "title": "头发打结从发梢梳开，不用凑够一百下",
+      "old_plain_chars": 346,
+      "new_plain_chars": 240
+    },
+    {
+      "id": "hair-008",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "头顶容易塌先减厚重残留，再少量试适合细软发的造型品",
+      "title": "细软发易塌先减残留，再少量用蓬松造型品",
+      "old_plain_chars": 368,
+      "new_plain_chars": 262
+    },
+    {
+      "id": "hair-009",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "干洗喷雾只临时吸油，之后仍用洗发水和水清洁",
+      "title": "干洗喷雾只能临时吸油，用后仍要水洗",
+      "old_plain_chars": 321,
+      "new_plain_chars": 217
+    },
+    {
+      "id": "hair-011",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "想遮白发可以染，突然明显变白或伴其他变化再查原因",
+      "title": "白发可保留或染色，别靠拔除和乌发补剂控制",
+      "old_plain_chars": 377,
+      "new_plain_chars": 296
+    },
+    {
+      "id": "hair-012",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "染烫前确认头皮完好和产品信息，出现明显反应立即停做",
+      "title": "头皮红痒破损时先不染烫，明显反应立即停做",
+      "old_plain_chars": 401,
+      "new_plain_chars": 345
+    },
+    {
+      "id": "hair-013",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "游泳后及时冲洗再洗护，日晒时也给头发和头皮遮挡",
+      "title": "游泳后及时洗护，户外也给头皮遮阳",
+      "old_plain_chars": 338,
+      "new_plain_chars": 276
+    },
+    {
+      "id": "hair-022",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "扎发、接发一拉就痛，先松开和换造型，别靠按摩硬扛",
+      "title": "扎发接发一拉就痛，立刻松开并减轻牵拉",
+      "old_plain_chars": 380,
+      "new_plain_chars": 287
+    },
+    {
+      "id": "hair-015",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "突然秃一块、头皮红痛或流脓，先检查，别直接涂生发液",
+      "title": "突然秃一块或头皮红痛流脓，尽快就诊",
+      "old_plain_chars": 379,
+      "new_plain_chars": 288
+    },
+    {
+      "id": "hair-010",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "持续变稀或突然大量掉发，先记录变化和找原因，再选防脱产品",
+      "title": "掉发明显增多就记录变化，再查原因选治疗",
+      "old_plain_chars": 419,
+      "new_plain_chars": 334
+    },
+    {
+      "id": "hair-016",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "发缝变宽或额角头顶持续变稀，先确认逐渐型脱发，再定长期方案",
+      "title": "发缝额角逐渐变稀，确认脱发类型再定长期方案",
+      "old_plain_chars": 456,
+      "new_plain_chars": 352
+    },
+    {
+      "id": "hair-017",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "确认适用后再用外用米诺地尔，涂到头皮，并预先安排复评",
+      "title": "米诺地尔按制剂涂头皮，用数月后复评效果",
+      "old_plain_chars": 426,
+      "new_plain_chars": 337
+    },
+    {
+      "id": "hair-018",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "男性型脱发考虑非那雄胺时，把性功能和情绪风险一起谈清楚",
+      "title": "男性脱发用非那雄胺，同时留意性功能和情绪",
+      "old_plain_chars": 473,
+      "new_plain_chars": 359
+    },
+    {
+      "id": "hair-019",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "外用难坚持时再讨论口服米诺地尔，别自行把降压药改作生发",
+      "title": "口服米诺地尔须评估监测，不自行切降压药生发",
+      "old_plain_chars": 444,
+      "new_plain_chars": 299
+    },
+    {
+      "id": "hair-020",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "先查饮食和真正缺乏，再买生发软糖、生物素或补铁",
+      "title": "掉发先查真实营养缺口，别直接买生发软糖",
+      "old_plain_chars": 408,
+      "new_plain_chars": 308
+    },
+    {
+      "id": "hair-021",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "买生发帽或注射疗程前，先核对具体研究和维护要求",
+      "title": "生发帽和PRP可作附加选择，先看对应临床研究",
+      "old_plain_chars": 426,
+      "new_plain_chars": 288
+    },
+    {
+      "id": "hair-023",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "植发先确认供区和脱发进展，别把移植当作永久停止掉发",
+      "title": "植发先评估供区和脱发进展，别只按毛囊数下单",
+      "old_plain_chars": 410,
+      "new_plain_chars": 286
+    },
+    {
+      "id": "eyes-005",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "眼红又怕光、突然看不清或出现黑幕，先去急诊",
+      "title": "红眼怕光、突然看不清或眼前黑幕，立即就医",
+      "old_plain_chars": 379,
+      "new_plain_chars": 305
+    },
+    {
+      "id": "eyes-013",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "眼睛总干还流泪，先减刺激；反复发作查泪膜和眼睑",
+      "title": "眼睛总干却流泪，反复发作要查泪膜和眼睑",
+      "old_plain_chars": 393,
+      "new_plain_chars": 319
+    },
+    {
+      "id": "eyes-014",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "双眼季节性发痒、流泪，先排查过敏，别先买抗生素或激素",
+      "title": "季节性眼痒流泪先避过敏原，不乱用抗生素激素",
+      "old_plain_chars": 413,
+      "new_plain_chars": 329
+    },
+    {
+      "id": "eyes-006",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "眼皮长针眼先温敷，别挤破；硬包久不退要检查",
+      "title": "眼皮长针眼先温敷，不挤挑；久不退就检查",
+      "old_plain_chars": 238,
+      "new_plain_chars": 269
+    },
+    {
+      "id": "eyes-023",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "突然看成两个影像，当天就医，伴剧烈头痛或头伤直接急诊",
+      "title": "突然看成两个影像要当天就医，头伤后直接急诊",
+      "old_plain_chars": 329,
+      "new_plain_chars": 268
+    },
+    {
+      "id": "eyes-020",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "先分清视力、度数和眼轴，别拿视力表反推近视几百度",
+      "title": "视力不等于近视度数，报告分三项看",
+      "old_plain_chars": 394,
+      "new_plain_chars": 359
+    },
+    {
+      "id": "eyes-001",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "戴镜仍看不清先验光检查，别急着升级镜片",
+      "title": "戴镜还看不清先查验光和眼睛，别急着升级镜片",
+      "old_plain_chars": 288,
+      "new_plain_chars": 283
+    },
+    {
+      "id": "eyes-021",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "配镜先完成验光和试戴，别只拿电脑打印数下单",
+      "title": "配镜带旧镜完整验光，不凭电脑小票直接下单",
+      "old_plain_chars": 368,
+      "new_plain_chars": 285
+    },
+    {
+      "id": "eyes-022",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "配新镜先核对球镜、散光和用途，小改度数也要说清收益",
+      "title": "配新镜看懂球镜散光和瞳距，小变化不必急换",
+      "old_plain_chars": 374,
+      "new_plain_chars": 272
+    },
+    {
+      "id": "eyes-026",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "看近总重影、串行或头痛，先查双眼配合，再买视觉训练",
+      "title": "看近重影头痛先查双眼配合，再选视觉训练",
+      "old_plain_chars": 371,
+      "new_plain_chars": 334
+    },
+    {
+      "id": "eyes-031",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "孩子用眼先安排户外和间歇，别只换防蓝光镜片",
+      "title": "给孩子安排户外和用眼间歇，不只换护眼灯",
+      "old_plain_chars": 521,
+      "new_plain_chars": 343
+    },
+    {
+      "id": "eyes-032",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "孩子眯眼看黑板先验光，配镜与减慢近视加深分开决定",
+      "title": "孩子看不清先验光，配镜与控近视分开决定",
+      "old_plain_chars": 547,
+      "new_plain_chars": 370
+    },
+    {
+      "id": "eyes-024",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "成年后度数还在加深，先核对变化，再讨论是否需要近视管理",
+      "title": "成年后度数仍加深，带历次处方查真实变化",
+      "old_plain_chars": 368,
+      "new_plain_chars": 266
+    },
+    {
+      "id": "eyes-025",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "近视较深也要看眼底，别用戴镜清楚或摘镜成功当作风险消失",
+      "title": "近视较深要随访眼底，看得清也不能省",
+      "old_plain_chars": 418,
+      "new_plain_chars": 312
+    },
+    {
+      "id": "eyes-030",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "遇到“几天恢复视力”先核对度数和眼轴，别只看多认出几行",
+      "title": "“恢复视力”先问改变了什么，不凭多认两行付费",
+      "old_plain_chars": 434,
+      "new_plain_chars": 326
+    },
+    {
+      "id": "eyes-002",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "看屏幕时完整眨眼、安排离屏休息，别让风直吹眼睛",
+      "title": "屏幕后干涩先完整眨眼、离屏休息并避风",
+      "old_plain_chars": 265,
+      "new_plain_chars": 255
+    },
+    {
+      "id": "eyes-007",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "偶发干涩先选基础人工泪液，夜间不适再比较凝胶或眼膏",
+      "title": "眼干先选人工泪液，夜间不适再比较凝胶眼膏",
+      "old_plain_chars": 462,
+      "new_plain_chars": 409
+    },
+    {
+      "id": "eyes-015",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "偶尔滴人工泪液看耐受；频繁用或敏感时，优先无防腐剂",
+      "title": "频繁滴人工泪液或易刺激，优先比较无防腐剂",
+      "old_plain_chars": 437,
+      "new_plain_chars": 381
+    },
+    {
+      "id": "eyes-016",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "过敏肿痒选冷敷，油腺护理用温敷；先别急着买按摩仪",
+      "title": "过敏肿痒用冷敷，睑板腺护理再考虑温敷",
+      "old_plain_chars": 458,
+      "new_plain_chars": 376
+    },
+    {
+      "id": "eyes-003",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "普通屏幕疲劳先处理度数和眼表，不优先加钱防蓝光",
+      "title": "屏幕看久眼累，先别为防蓝光镜片加钱",
+      "old_plain_chars": 220,
+      "new_plain_chars": 213
+    },
+    {
+      "id": "eyes-004",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "单为久看屏幕，不把叶黄素列为优先支出",
+      "title": "只因看屏幕多，不必把叶黄素当必买护眼品",
+      "old_plain_chars": 327,
+      "new_plain_chars": 277
+    },
+    {
+      "id": "eyes-008",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "成人省心选框架，偶尔不戴框架先比日抛；OK镜先算护理负担",
+      "title": "日常省心选框架眼镜，隐形和OK镜按护理能力选",
+      "old_plain_chars": 1460,
+      "new_plain_chars": 1112
+    },
+    {
+      "id": "eyes-009",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "偶尔戴先比较日抛；频繁佩戴再看适配与护理能力",
+      "title": "偶尔戴软镜优先比较日抛，复用片每次都要护理",
+      "old_plain_chars": 368,
+      "new_plain_chars": 308
+    },
+    {
+      "id": "eyes-010",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "美瞳先过注册和验配两关，再选花色",
+      "title": "美瞳先查注册并验配，零度数也要正规选择",
+      "old_plain_chars": 304,
+      "new_plain_chars": 320
+    },
+    {
+      "id": "eyes-027",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "想做近视激光先看能否手术，再按角膜、恢复和生活任务选术式",
+      "title": "激光摘镜先查适用性，再按恢复和生活需求选术式",
+      "old_plain_chars": 622,
+      "new_plain_chars": 552
+    },
+    {
+      "id": "eyes-028",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "比较ICL前先查眼内空间和健康状态，别把可取出听成完全可逆",
+      "title": "考虑ICL先查眼内条件，“可取出”不等于完全可逆",
+      "old_plain_chars": 397,
+      "new_plain_chars": 383
+    },
+    {
+      "id": "eyes-029",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "摘镜术后按节点用药复查，疼痛或视力越来越差就提前联系",
+      "title": "摘镜术后按方案滴药复查，疼痛视力变差提前就医",
+      "old_plain_chars": 395,
+      "new_plain_chars": 306
+    },
+    {
+      "id": "eyes-011",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "日戴软镜睡前、洗澡和游泳前都摘下",
+      "title": "日戴隐形睡前、洗澡和游泳前都摘下",
+      "old_plain_chars": 275,
+      "new_plain_chars": 320
+    },
+    {
+      "id": "eyes-012",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "普通护理液每次用新液；双氧水系统用配套盒并完成中和",
+      "title": "隐形护理液每次用新液，双氧水必须完成中和",
+      "old_plain_chars": 330,
+      "new_plain_chars": 336
+    },
+    {
+      "id": "eyes-017",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "游泳先摘隐形、戴泳镜；泳后没不适，别常规滴抗生素",
+      "title": "泳前摘隐形戴泳镜，泳后无不适不必滴抗生素",
+      "old_plain_chars": 471,
+      "new_plain_chars": 393
+    },
+    {
+      "id": "eyes-018",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "眼里进灰先别揉，轻柔冲洗后仍有异物感就检查",
+      "title": "灰尘进眼别揉，冲后仍痛或模糊就检查",
+      "old_plain_chars": 375,
+      "new_plain_chars": 331
+    },
+    {
+      "id": "eyes-019",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "眼妆别共用，睫毛膏干了别兑水；行驶途中别补眼妆",
+      "title": "眼妆不共用，干睫毛膏不兑水，车上不补妆",
+      "old_plain_chars": 289,
+      "new_plain_chars": 228
+    },
+    {
+      "id": "nose-001",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "只剪露出鼻孔的鼻毛，别拔毛或用鼻毛蜡清空",
+      "title": "鼻毛只剪露出的部分，不连根拔或蜜蜡清空",
+      "old_plain_chars": 248,
+      "new_plain_chars": 210
+    },
+    {
+      "id": "nose-002",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "鼻腔干痒、结硬痂时先湿润，别反复抠挖或往深处涂油",
+      "title": "鼻腔干痂先湿润，不抠挖或睡前往深处涂油",
+      "old_plain_chars": 274,
+      "new_plain_chars": 299
+    },
+    {
+      "id": "nose-005",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "鼻痒、喷嚏和清涕反复出现，按触发场景排查过敏，别一直当感冒",
+      "title": "鼻痒喷嚏清涕反复，记录触发因素再选治疗",
+      "old_plain_chars": 346,
+      "new_plain_chars": 345
+    },
+    {
+      "id": "nose-007",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "持续过敏鼻塞先比较抗炎鼻喷，快速通鼻药只作短期救急",
+      "title": "过敏鼻塞规律用抗炎鼻喷，快速通鼻只短用",
+      "old_plain_chars": 462,
+      "new_plain_chars": 356
+    },
+    {
+      "id": "nose-004",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "需要洗鼻时先选合格的水，盐水喷雾和大水量冲洗分开用",
+      "title": "洗鼻先保证安全用水，喷雾湿润不等于大水量冲洗",
+      "old_plain_chars": 455,
+      "new_plain_chars": 360
+    },
+    {
+      "id": "nose-006",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "流鼻血时身体前倾，捏紧鼻翼软部连续10至15分钟",
+      "title": "流鼻血前倾捏鼻翼10至15分钟，不仰头塞深纸",
+      "old_plain_chars": 348,
+      "new_plain_chars": 264
+    },
+    {
+      "id": "nose-008",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "单侧鼻塞不退或嗅觉数周没恢复，安排耳鼻喉检查",
+      "title": "单侧鼻塞不退或嗅觉数周未恢复，安排耳鼻喉检查",
+      "old_plain_chars": 357,
+      "new_plain_chars": 282
+    },
+    {
+      "id": "nose-003",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "鼻尖小点先分清皮脂丝和黑头，别用鼻贴追求一个不剩",
+      "title": "鼻头小点不一定是黑头，别挤到每孔都空",
+      "old_plain_chars": 280,
+      "new_plain_chars": 200
+    },
+    {
+      "id": "ears-005",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "突然听不清就联系耳鼻喉急诊，争取当天评估",
+      "title": "听力突然下降立即求助，争取当天评估",
+      "old_plain_chars": 401,
+      "new_plain_chars": 330
+    },
+    {
+      "id": "ears-001",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "耳廓和耳后用湿软布轻擦、洗后擦干，别把耳道也一起掏空",
+      "title": "耳廓耳后用湿软布擦干净，工具不伸进耳道",
+      "old_plain_chars": 533,
+      "new_plain_chars": 383
+    },
+    {
+      "id": "ears-002",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "确认是耳垢堵塞后再用软化剂，有穿孔或手术史先别自行滴油",
+      "title": "耳垢确认堵塞再软化，穿孔手术史别自行滴洗",
+      "old_plain_chars": 382,
+      "new_plain_chars": 325
+    },
+    {
+      "id": "ears-003",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "游泳后先排水、擦干外耳，疼痒流液别自己配酒精滴耳",
+      "title": "游泳后排水擦干外耳，疼痒流液就停游检查",
+      "old_plain_chars": 385,
+      "new_plain_chars": 293
+    },
+    {
+      "id": "ears-004",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "耳机同时降音量、减时长，演唱会另用合适的听力防护",
+      "title": "耳机音量和时长一起减，强噪声另用听力防护",
+      "old_plain_chars": 387,
+      "new_plain_chars": 279
+    },
+    {
+      "id": "ears-006",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "耳鸣反复影响睡眠时先查听力，别先囤银杏或营养神经补剂",
+      "title": "耳鸣持续影响生活先查听力，别先囤补剂",
+      "old_plain_chars": 373,
+      "new_plain_chars": 277
+    },
+    {
+      "id": "ears-007",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "飞机下降时先吞咽、打哈欠，别为通耳强行反复鼓气",
+      "title": "飞机下降时吞咽打哈欠，不为通耳猛烈鼓气",
+      "old_plain_chars": 383,
+      "new_plain_chars": 308
+    },
+    {
+      "id": "ears-009",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "第一次打耳洞优先考虑耳垂，先核实无菌操作和自己的瘢痕史",
+      "title": "打耳洞优先考虑耳垂，先问无菌操作和瘢痕风险",
+      "old_plain_chars": 560,
+      "new_plain_chars": 318
+    },
+    {
+      "id": "ears-010",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "新耳洞先洗手、温和清洁和轻轻擦干，肿热流脓当天就医",
+      "title": "新耳洞温和清洁，越来越肿热痛流脓当天就医",
+      "old_plain_chars": 609,
+      "new_plain_chars": 429
+    },
+    {
+      "id": "ears-008",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "耳饰接触处一戴就痒先停戴，反复发作查清金属过敏原",
+      "title": "耳饰一戴就痒先停可疑材质，反复发作查过敏原",
+      "old_plain_chars": 453,
+      "new_plain_chars": 300
+    },
+    {
+      "id": "ears-011",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "耳夹以不痛不麻为底线，选轻耳饰并避开长时间压迫和勾扯",
+      "title": "耳夹戴痛发麻就取下，轻耳饰也别长时压迫勾扯",
+      "old_plain_chars": 525,
+      "new_plain_chars": 376
+    },
+    {
+      "id": "oral-018",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "牙痛伴脸肿、发热先看牙；吞咽或呼吸困难直接急诊",
+      "title": "牙痛脸肿发热尽快看牙，吞咽呼吸困难直接急诊",
+      "old_plain_chars": 336,
+      "new_plain_chars": 282
+    },
+    {
+      "id": "oral-013",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "遇冷刺痛先查龋齿和裂纹，确认敏感后再选抗敏牙膏",
+      "title": "冷热刺痛先查蛀牙裂纹，确认敏感再用抗敏牙膏",
+      "old_plain_chars": 316,
+      "new_plain_chars": 275
+    },
+    {
+      "id": "oral-007",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "牙龈反复出血别停清洁，检查牙石和牙周炎",
+      "title": "牙龈反复出血继续温和清洁，并检查牙周",
+      "old_plain_chars": 374,
+      "new_plain_chars": 317
+    },
+    {
+      "id": "oral-001",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "早晚用含氟牙膏刷到每个牙面，睡前那次别省",
+      "title": "早晚用含氟牙膏刷全牙面，睡前那次别省",
+      "old_plain_chars": 376,
+      "new_plain_chars": 306
+    },
+    {
+      "id": "oral-002",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "手动刷不干净可换电动，先看刷头和动作，不追震动数字",
+      "title": "电动牙刷按操作能力选，不追震动参数和模式",
+      "old_plain_chars": 352,
+      "new_plain_chars": 275
+    },
+    {
+      "id": "oral-003",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "每天清牙缝：窄缝用牙线，刷得进去的空间选合适牙间刷",
+      "title": "每天清一次牙缝，窄缝牙线、宽缝选合适牙间刷",
+      "old_plain_chars": 351,
+      "new_plain_chars": 340
+    },
+    {
+      "id": "oral-004",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "冲牙器可作辅助，别只凭冲出残渣就省掉其他清洁",
+      "title": "冲牙器可辅助清缝，不用冲出残渣代替清洁评估",
+      "old_plain_chars": 331,
+      "new_plain_chars": 359
+    },
+    {
+      "id": "oral-016",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "含糖饮料别整天小口喝，无糖酸饮也要减少牙齿接触",
+      "title": "甜酸饮料别整天小口喝，无糖也要防酸蚀",
+      "old_plain_chars": 321,
+      "new_plain_chars": 343
+    },
+    {
+      "id": "oral-005",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "买漱口水先确定防龋、牙龈还是口气目标，再看成分",
+      "title": "漱口水按防龋、牙龈或口气目标选，不以辣为有效",
+      "old_plain_chars": 432,
+      "new_plain_chars": 272
+    },
+    {
+      "id": "oral-006",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "氯己定按疗程用，别长期拿它替代刷牙或压住出血",
+      "title": "氯己定按牙科疗程用，别长期压住牙龈出血",
+      "old_plain_chars": 331,
+      "new_plain_chars": 261
+    },
+    {
+      "id": "oral-019",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "换牙时别硬拔乳牙，把最后面的六龄齿也刷到",
+      "title": "换牙别硬拔乳牙，后面新长的六龄齿也要刷",
+      "old_plain_chars": 468,
+      "new_plain_chars": 314
+    },
+    {
+      "id": "oral-020",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "不晚于七岁安排首次正畸评估；牙不齐先分清现在治还是等换牙",
+      "title": "孩子最迟七岁首次正畸评估，不等于马上戴牙套",
+      "old_plain_chars": 466,
+      "new_plain_chars": 317
+    },
+    {
+      "id": "oral-021",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "发现地包天就评估，不等换完牙，也不把所有人都当成要手术",
+      "title": "孩子地包天尽早评估，成人先分牙齿与骨骼问题",
+      "old_plain_chars": 471,
+      "new_plain_chars": 331
+    },
+    {
+      "id": "oral-012",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "成年后也能评估正畸，先稳住牙周，再比较牙套和长期保持",
+      "title": "成年仍可正畸，先稳牙周并谈长期保持",
+      "old_plain_chars": 462,
+      "new_plain_chars": 336
+    },
+    {
+      "id": "oral-009",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "想牙齿变白先查着色和龋病，再比较去渍与过氧化物美白",
+      "title": "牙齿美白先查着色原因，别用酸和炭粉硬磨",
+      "old_plain_chars": 389,
+      "new_plain_chars": 310
+    },
+    {
+      "id": "oral-010",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "做瓷贴面或烤瓷冠前，先比较少磨牙的方案和以后维修",
+      "title": "做贴面牙冠前先比少磨牙方案，并考虑维修",
+      "old_plain_chars": 352,
+      "new_plain_chars": 254
+    },
+    {
+      "id": "oral-011",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "智齿先看位置、邻牙和疾病，再决定拔除或监测",
+      "title": "智齿按疾病和位置决定拔留，不靠疼不疼或瘦脸",
+      "old_plain_chars": 361,
+      "new_plain_chars": 403
+    },
+    {
+      "id": "oral-017",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "白天总咬紧牙先放松提醒，晨起颌痛或磨损要检查",
+      "title": "白天咬紧牙先提醒放松，晨起颌痛磨损就检查",
+      "old_plain_chars": 327,
+      "new_plain_chars": 231
+    },
+    {
+      "id": "oral-022",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "恒牙缺了先比较活动义齿、固定桥和种植，别把贴面当补缺牙",
+      "title": "恒牙缺失先评估能保留哪些牙，再比义齿桥和种植",
+      "old_plain_chars": 617,
+      "new_plain_chars": 518
+    },
+    {
+      "id": "oral-023",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "活动假牙每天取下清洁，磨痛或松动就调适，别靠胶越粘越多",
+      "title": "活动假牙每天取下清洁，磨痛松动就调适",
+      "old_plain_chars": 430,
+      "new_plain_chars": 439
+    },
+    {
+      "id": "lips-001",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "嘴唇普通干裂先选耐受的润唇膏，别靠清凉感判断修护",
+      "title": "嘴唇干裂用简单润唇膏，刺痛清凉不代表修护",
+      "old_plain_chars": 291,
+      "new_plain_chars": 240
+    },
+    {
+      "id": "lips-002",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "想舔嘴唇时改补涂，别撕皮或用磨砂把干裂磨掉",
+      "title": "想舔嘴唇就改补涂，起皮别撕咬或磨掉",
+      "old_plain_chars": 295,
+      "new_plain_chars": 257
+    },
+    {
+      "id": "lips-003",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "户外给嘴唇用防晒润唇产品，吃喝和擦掉后补涂",
+      "title": "户外给嘴唇防晒，吃喝擦掉后及时补",
+      "old_plain_chars": 257,
+      "new_plain_chars": 270
+    },
+    {
+      "id": "lips-004",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "唇部反复红痒先停可疑唇妆，久不愈要查接触刺激和病变",
+      "title": "嘴唇反复红痒裂先停可疑用品，固定处久不愈就检查",
+      "old_plain_chars": 464,
+      "new_plain_chars": 341
+    },
+    {
+      "id": "lips-005",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "唇边刺痒后冒成簇水疱，尽早讨论抗病毒并避免传播",
+      "title": "唇边刺痒起成簇水疱，早谈抗病毒并避免传播",
+      "old_plain_chars": 408,
+      "new_plain_chars": 351
+    },
+    {
+      "id": "lips-006",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "嘴角反复裂先挡住唾液刺激，别见裂口就补维生素或涂激素",
+      "title": "嘴角反复裂先减唾液刺激，别直接补维生素叠药",
+      "old_plain_chars": 368,
+      "new_plain_chars": 273
+    },
+    {
+      "id": "oral-014",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "溃疡先避刺激和查摩擦，同一处超过三周别再只补维生素",
+      "title": "口腔溃疡先减刺激，同处超过三周未愈就检查",
+      "old_plain_chars": 408,
+      "new_plain_chars": 271
+    },
+    {
+      "id": "oral-015",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "口干反复影响吃饭或说话，先查原因，再选无糖和润口用品",
+      "title": "口干反复先查病因，再用无糖润口和防龋护理",
+      "old_plain_chars": 302,
+      "new_plain_chars": 265
+    },
+    {
+      "id": "oral-008",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "舌苔可轻柔清洁，口臭持续时先查牙龈、蛀牙和口干",
+      "title": "口臭先查牙龈龋齿口干，舌苔只轻柔清洁",
+      "old_plain_chars": 331,
+      "new_plain_chars": 267
+    },
+    {
+      "id": "skin-001",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "把脸洗干净就停；洗后紧绷起皮，先减清洁再补保湿",
+      "title": "洗脸到干净舒服即可，紧绷起皮就减清洁补保湿",
+      "old_plain_chars": 378,
+      "new_plain_chars": 330
+    },
+    {
+      "id": "skin-002",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "按妆和防晒的耐水程度卸除，别默认人人都要洗两遍",
+      "title": "按彩妆防晒的耐水性卸除，不默认每人洗两遍",
+      "old_plain_chars": 341,
+      "new_plain_chars": 263
+    },
+    {
+      "id": "skin-003",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "先把防晒涂全、按暴露补涂，再考虑额外抗老精华",
+      "title": "防晒涂全并按暴露补涂，再考虑抗老精华",
+      "old_plain_chars": 400,
+      "new_plain_chars": 340
+    },
+    {
+      "id": "skin-004",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "把面膜和喷雾当可选舒适用品，别拿它们替代治疗",
+      "title": "面膜喷雾是可选舒适品，不替代保湿和治疗",
+      "old_plain_chars": 337,
+      "new_plain_chars": 250
+    },
+    {
+      "id": "skin-019",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "斑痣新变大、变色或出血，先检查再美白或点掉",
+      "title": "斑痣变大变色或出血，先检查再美白点掉",
+      "old_plain_chars": 383,
+      "new_plain_chars": 251
+    },
+    {
+      "id": "skin-021",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "反复长斑先分清原因，黄褐斑先稳防晒再讨论药物",
+      "title": "淡斑先分晒斑痘印与黄褐斑，别套同一祛斑套餐",
+      "old_plain_chars": 513,
+      "new_plain_chars": 373
+    },
+    {
+      "id": "skin-005",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "新产品一用就红痒灼痛，先停用，别硬扛“建立耐受”",
+      "title": "新护肤品持续红痒灼痛就停，不硬扛建立耐受",
+      "old_plain_chars": 374,
+      "new_plain_chars": 326
+    },
+    {
+      "id": "skin-006",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "按粉刺、小红痘或深痛结节选路，别只靠祛痘护肤品",
+      "title": "粉刺小痘可规范外用，深痛结节或留疤尽早看皮肤科",
+      "old_plain_chars": 506,
+      "new_plain_chars": 448
+    },
+    {
+      "id": "skin-018",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "鼻子小点先分黑头和皮脂丝，别为了清空毛孔反复挤",
+      "title": "黑头可治疗，正常皮脂丝不必挤空",
+      "old_plain_chars": 454,
+      "new_plain_chars": 326
+    },
+    {
+      "id": "skin-016",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "脸反复潮红、灼热还长小疹，别只当敏感肌刷酸祛痘",
+      "title": "脸反复潮红灼热伴小疹，别只当敏感肌刷酸",
+      "old_plain_chars": 361,
+      "new_plain_chars": 264
+    },
+    {
+      "id": "skin-017",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "鼻翼、眉间反复红痒掉屑，别只靠厚敷面霜",
+      "title": "鼻翼眉间红痒掉屑，别只当缺水厚敷面霜",
+      "old_plain_chars": 374,
+      "new_plain_chars": 257
+    },
+    {
+      "id": "skin-022",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "嘴周鼻旁反复起小疹，先查用过的激素，别继续叠祛痘酸",
+      "title": "嘴周鼻旁反复小疹先查用药，不继续叠酸和激素",
+      "old_plain_chars": 414,
+      "new_plain_chars": 315
+    },
+    {
+      "id": "skin-007",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "把痘印的颜色和痘坑的凹凸分开处理，先阻止新痘留疤",
+      "title": "平坦痘印与凹凸痘疤分开治，先控制新痘",
+      "old_plain_chars": 441,
+      "new_plain_chars": 274
+    },
+    {
+      "id": "skin-008",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "为皮肤规律生活，别把戒糖、忌奶或抗糖丸当祛痘处方",
+      "title": "治痘不先列禁食清单，饮食记录不能替代治疗",
+      "old_plain_chars": 416,
+      "new_plain_chars": 290
+    },
+    {
+      "id": "skin-009",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "想试烟酰胺，先选可耐受配方，别为高浓度自动加价",
+      "title": "烟酰胺可按目标试，不为更高浓度自动加价",
+      "old_plain_chars": 363,
+      "new_plain_chars": 239
+    },
+    {
+      "id": "skin-010",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "要改善光老化，分清维A酸药物和视黄醇，先处理刺激与孕期风险",
+      "title": "维A酸药与视黄醇分清，备孕孕期避维A类",
+      "old_plain_chars": 472,
+      "new_plain_chars": 386
+    },
+    {
+      "id": "skin-011",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "先分清黑眼圈是颜色、眼袋还是凹陷，再决定买眼霜",
+      "title": "黑眼圈先分色素与阴影，眼霜不能填回凹陷",
+      "old_plain_chars": 389,
+      "new_plain_chars": 345
+    },
+    {
+      "id": "skin-012",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "别把胶原饮和抗糖丸列为必需，先看高质量人体结果",
+      "title": "胶原饮抗糖丸不列必需，购买前看成品人体证据",
+      "old_plain_chars": 404,
+      "new_plain_chars": 346
+    },
+    {
+      "id": "skin-013",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "剃须先软化、顺毛轻刮；反复起包就减少贴根刮",
+      "title": "剃须先软化顺毛轻刮，反复起包就减少贴根刮",
+      "old_plain_chars": 331,
+      "new_plain_chars": 256
+    },
+    {
+      "id": "skin-020",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "底妆遮瑕先选妆效和耐受，刷具清洁别省掉",
+      "title": "底妆按遮盖耐受选，刷具洗净晾干不共用",
+      "old_plain_chars": 387,
+      "new_plain_chars": 279
+    },
+    {
+      "id": "skin-014",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "买家用美容仪前核对具体用途，别把灯光和微针当一回事",
+      "title": "买红光面罩先看对应研究，射频微针不在家做",
+      "old_plain_chars": 382,
+      "new_plain_chars": 301
+    },
+    {
+      "id": "skin-015",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "做激光或注射前，先确认问题、资质和并发症处理方案",
+      "title": "医美先定具体目标查资质，异常痛变色视力变化立即求助",
+      "old_plain_chars": 450,
+      "new_plain_chars": 313
+    },
+    {
+      "id": "skin-023",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "想改善表情纹再评估肉毒注射，别把它当填充或永久抗老",
+      "title": "肉毒注射只按表情纹目标评估，不当永久抗老",
+      "old_plain_chars": 523,
+      "new_plain_chars": 329
+    },
+    {
+      "id": "chest-001",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "胸口持续压榨痛或伴气短冷汗，立即呼叫急救，别先按肌肉酸痛按摩",
+      "title": "胸口持续压榨痛或伴气短冷汗，立即拨120",
+      "old_plain_chars": 330,
+      "new_plain_chars": 325
+    },
+    {
+      "id": "chest-002",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "乳房或腋下新长包、乳头出血或皮肤凹陷，男女都安排检查",
+      "title": "乳房新肿块、乳头出血或皮肤凹陷，预约检查",
+      "old_plain_chars": 395,
+      "new_plain_chars": 350
+    },
+    {
+      "id": "chest-003",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "乳房胀痛先记周期和位置，红热肿痛伴发热就当天就医",
+      "title": "乳房胀痛记录周期；红热肿痛伴发热当天就医",
+      "old_plain_chars": 355,
+      "new_plain_chars": 327
+    },
+    {
+      "id": "chest-004",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "男性胸部明显变大先查乳腺与用药，别自行吃抗雌激素或用束胸硬压",
+      "title": "男性乳房明显变大，查原因后再决定怎么处理",
+      "old_plain_chars": 386,
+      "new_plain_chars": 335
+    },
+    {
+      "id": "chest-005",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "试文胸时先检查下围、罩杯和肩带，别靠勒紧来换支撑",
+      "title": "文胸先试下围、罩杯和活动舒适度，再买单",
+      "old_plain_chars": 303,
+      "new_plain_chars": 321
+    },
+    {
+      "id": "chest-006",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "跑跳时先试合适的运动文胸，支撑够用也要能呼吸、活动不磨",
+      "title": "跑跳时乳房晃得痛，试穿运动文胸再调训练",
+      "old_plain_chars": 399,
+      "new_plain_chars": 322
+    },
+    {
+      "id": "chest-007",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "把聚拢当穿衣效果，别为防癌内衣或丰胸补剂的医学承诺加价",
+      "title": "聚拢按穿衣效果选，别为防癌或丰胸承诺加价",
+      "old_plain_chars": 364,
+      "new_plain_chars": 298
+    },
+    {
+      "id": "chest-008",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "胸下褶皱红痒先减潮湿摩擦，反复渗液别一直当真菌涂复方膏",
+      "title": "胸下红痒先保持干爽，渗液反复就查病因",
+      "old_plain_chars": 366,
+      "new_plain_chars": 318
+    },
+    {
+      "id": "chest-012",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "腋下反复长深痛包、流脓留疤，查化脓性汗腺炎，别一直挤痘",
+      "title": "腋下痛包反复流脓留疤，检查化脓性汗腺炎",
+      "old_plain_chars": 414,
+      "new_plain_chars": 338
+    },
+    {
+      "id": "chest-009",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "腋下有味先洗净擦干、换汗湿衣，留不留腋毛按舒适与造型决定",
+      "title": "腋下有味先洗净擦干，及时换汗湿衣物",
+      "old_plain_chars": 381,
+      "new_plain_chars": 371
+    },
+    {
+      "id": "chest-010",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "想减汗选止汗剂，想减味再看除臭；刺激了先停，别只追无铝标签",
+      "title": "汗多选止汗剂，主要有味选除臭剂",
+      "old_plain_chars": 404,
+      "new_plain_chars": 352
+    },
+    {
+      "id": "chest-011",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "不热也大量出汗、夜汗或突然变多，先查原因，再比较止汗治疗",
+      "title": "不热也汗多、夜汗或突然增多，先检查原因",
+      "old_plain_chars": 440,
+      "new_plain_chars": 372
+    },
+    {
+      "id": "abdomen-001",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "腹痛突然很重、吐血或排不出便气，先急诊，别当普通胀气揉肚子",
+      "title": "突然剧烈腹痛、吐血或排不出便气，直接急诊",
+      "old_plain_chars": 347,
+      "new_plain_chars": 300
+    },
+    {
+      "id": "abdomen-004",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "肚脐或腹股沟新鼓包先查是否疝，疼痛呕吐时别硬按回去",
+      "title": "肚脐或腹股沟鼓包要查疝，痛吐时别硬推",
+      "old_plain_chars": 473,
+      "new_plain_chars": 390
+    },
+    {
+      "id": "abdomen-005",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "饭后经常胀气先慢吃、记触发食物，别立刻大范围忌口或囤益生菌",
+      "title": "饭后常胀气，慢吃并记录诱因，别盲目忌口",
+      "old_plain_chars": 509,
+      "new_plain_chars": 406
+    },
+    {
+      "id": "abdomen-006",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "反酸烧心先调整晚餐和躺下时间，频繁发作或吞咽异常再检查",
+      "title": "反酸烧心调整进餐和躺卧，频繁发作要检查",
+      "old_plain_chars": 435,
+      "new_plain_chars": 360
+    },
+    {
+      "id": "abdomen-007",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "别把排毒茶和灌肠疗程当保养，有便秘就按排便问题处理",
+      "title": "别用排毒茶或灌肠保养，便秘按病因处理",
+      "old_plain_chars": 407,
+      "new_plain_chars": 338
+    },
+    {
+      "id": "abdomen-002",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "肚脐可以温和清洗，冲净擦干，别硬抠或追求消毒到没有细菌",
+      "title": "洗澡时轻洗肚脐，冲净擦干，不硬抠深处",
+      "old_plain_chars": 414,
+      "new_plain_chars": 354
+    },
+    {
+      "id": "abdomen-003",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "肚脐反复红痒、流液或出血，先查原因，别一直抠或自行涂复方药膏",
+      "title": "肚脐反复红痒、流液或出血，停抠并查原因",
+      "old_plain_chars": 429,
+      "new_plain_chars": 411
+    },
+    {
+      "id": "private-001",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "睾丸突然明显疼痛、持续不退或静息仍痛，立即急诊，别先热敷揉按",
+      "title": "睾丸突发疼痛、持续或静息仍痛，立即急诊",
+      "old_plain_chars": 330,
+      "new_plain_chars": 316
+    },
+    {
+      "id": "private-002",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "下腹剧痛、晕厥或大量阴道出血立即急诊；可能怀孕伴腹痛也要及时查",
+      "title": "下腹剧痛伴晕厥或大量出血，立即急诊",
+      "old_plain_chars": 517,
+      "new_plain_chars": 380
+    },
+    {
+      "id": "private-009",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "用棉条或月经杯时突然发热、呕吐或头晕，停用并立即求助",
+      "title": "用棉条或月经杯后突发全身不适，停用求医",
+      "old_plain_chars": 339,
+      "new_plain_chars": 321
+    },
+    {
+      "id": "private-036",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "勃起持续3至4小时不消退就急诊，别靠冷敷或继续性交拖延",
+      "title": "勃起接近3至4小时不消退，立即急诊",
+      "old_plain_chars": 249,
+      "new_plain_chars": 300
+    },
+    {
+      "id": "private-019",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "担心近期HIV暴露就立即求医，暴露后预防要在72小时内启动",
+      "title": "疑似HIV暴露立即求医，预防用药别超过72小时",
+      "old_plain_chars": 360,
+      "new_plain_chars": 333
+    },
+    {
+      "id": "private-003",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "清洗外阴即可，别把洗液、香氛或水流灌进阴道",
+      "title": "外阴轻洗即可，不把洗液或水流灌进阴道",
+      "old_plain_chars": 365,
+      "new_plain_chars": 341
+    },
+    {
+      "id": "private-004",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "成年后清洁包皮只轻轻翻到舒服的位置，洗净擦干后盖回龟头",
+      "title": "成人包皮轻翻清洗，擦干后盖回原位",
+      "old_plain_chars": 320,
+      "new_plain_chars": 290
+    },
+    {
+      "id": "private-005",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "儿童包皮没有自然分开就别硬翻；卡住盖不回去时立即就医",
+      "title": "儿童包皮不硬翻，只洗自然能露出的部位",
+      "old_plain_chars": 357,
+      "new_plain_chars": 304
+    },
+    {
+      "id": "private-006",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "阴囊皮肤痒先停刺激和反复搓抓，不把所有红痒都当脚气涂",
+      "title": "阴囊皮肤痒先减刺激，反复不好就查病因",
+      "old_plain_chars": 335,
+      "new_plain_chars": 322
+    },
+    {
+      "id": "private-007",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "内裤选干爽合身、洗净干透，别把抑菌率当成预防感染的保证",
+      "title": "内裤合身干爽、洗净干透，比抑菌标签重要",
+      "old_plain_chars": 337,
+      "new_plain_chars": 285
+    },
+    {
+      "id": "private-008",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "先按经量、舒适度和换洗条件选经期用品，再看各自操作方法",
+      "title": "按经量、舒适和换洗条件选择经期用品",
+      "old_plain_chars": 456,
+      "new_plain_chars": 469
+    },
+    {
+      "id": "private-020",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "按流量选无香巾垫，数小时就换，别靠香味或抗菌卖点解决不适",
+      "title": "卫生巾按经量选，数小时更换，湿透更早换",
+      "old_plain_chars": 346,
+      "new_plain_chars": 327
+    },
+    {
+      "id": "private-021",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "棉条选够用的最低吸收量，4–8小时更换，单次别超过8小时",
+      "title": "棉条选最低够用吸收量，单次不超过8小时",
+      "old_plain_chars": 403,
+      "new_plain_chars": 348
+    },
+    {
+      "id": "private-022",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "想试月经杯或月经碟，先分清位置与取法，再决定要不要买",
+      "title": "想用月经杯或碟，先学位置、排空和取出方法",
+      "old_plain_chars": 538,
+      "new_plain_chars": 469
+    },
+    {
+      "id": "private-023",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "杯碟按本款时限排空清洗，漏液、疼痛或取不出就先处理",
+      "title": "杯碟按型号排空清洗，疼痛或取不出就停用求助",
+      "old_plain_chars": 607,
+      "new_plain_chars": 515
+    },
+    {
+      "id": "private-024",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "带宫内节育器再用杯碟，先核风险，取出时别拉到尾丝",
+      "title": "带宫内节育器用杯碟，取出时避开尾丝",
+      "old_plain_chars": 431,
+      "new_plain_chars": 354
+    },
+    {
+      "id": "private-025",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "经血偏褐先看出现时机和伴随症状，别买排毒产品改颜色",
+      "title": "经血偏褐看时机与症状，不靠颜色买排毒产品",
+      "old_plain_chars": 320,
+      "new_plain_chars": 308
+    },
+    {
+      "id": "private-026",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "经血反复浸透用品或周期明显改变，就记录并查原因",
+      "title": "经血频繁浸透用品或影响生活，记录后就医",
+      "old_plain_chars": 579,
+      "new_plain_chars": 480
+    },
+    {
+      "id": "private-027",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "痛经影响上学或工作就治疗，新出现或越来越痛要查原因",
+      "title": "痛经影响生活就治疗，新发或加重疼痛要查因",
+      "old_plain_chars": 476,
+      "new_plain_chars": 448
+    },
+    {
+      "id": "private-010",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "先认正常白带的周期变化，新异味、瘙痒、疼痛或出血再查原因",
+      "title": "白带看新变化和不适，别按颜色自行买药",
+      "old_plain_chars": 512,
+      "new_plain_chars": 391
+    },
+    {
+      "id": "private-011",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "反复像霉菌感染也别一直自行买药，怀孕时不要自行口服氟康唑",
+      "title": "疑似霉菌感染反复发作，先检查再换药",
+      "old_plain_chars": 322,
+      "new_plain_chars": 288
+    },
+    {
+      "id": "private-028",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "确诊菌群失衡或滴虫后按病因治疗，反复发作时把伴侣问题一起问清",
+      "title": "阴道异味查清病因，滴虫治疗别漏掉伴侣",
+      "old_plain_chars": 426,
+      "new_plain_chars": 398
+    },
+    {
+      "id": "private-012",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "外阴或包皮持续白斑、裂口、溃疡要检查，别只当清洁不到位或普通湿疹",
+      "title": "生殖器持续白斑、裂口或溃疡，要看专科",
+      "old_plain_chars": 303,
+      "new_plain_chars": 301
+    },
+    {
+      "id": "private-013",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "龟头包皮反复红肿、痒痛或流液先查病因，别一直轮换消炎药膏",
+      "title": "龟头包皮反复红肿痒痛，查因后再选药",
+      "old_plain_chars": 351,
+      "new_plain_chars": 286
+    },
+    {
+      "id": "private-029",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "尿道口流液或排尿灼痛就检查，别只当上火或自己吃剩抗生素",
+      "title": "尿道口流液或排尿灼痛，检查而非自行消炎",
+      "old_plain_chars": 343,
+      "new_plain_chars": 341
+    },
+    {
+      "id": "private-030",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "阴茎新疙瘩或睾丸新硬块先检查，别照图片点疣或自行挤掉",
+      "title": "阴茎新疙瘩、睾丸新硬块，检查前不要挤点",
+      "old_plain_chars": 292,
+      "new_plain_chars": 316
+    },
+    {
+      "id": "private-031",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "精液出现红色或褐色血迹就预约检查，别凭颜色诊断前列腺炎",
+      "title": "精液出现红褐色血迹，记录症状并预约检查",
+      "old_plain_chars": 289,
+      "new_plain_chars": 258
+    },
+    {
+      "id": "private-014",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "尿痛尿频先分清原因；发热腰痛、可能怀孕或男性出现症状要尽快评估",
+      "title": "尿痛尿频要查因，发热腰痛或高风险者及时就医",
+      "old_plain_chars": 459,
+      "new_plain_chars": 381
+    },
+    {
+      "id": "private-017",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "咳嗽跑跳漏尿或憋不住尿，先分类型再练盆底，不靠反复憋尿找肌肉",
+      "title": "漏尿先分类型，盆底训练要会收缩也会放松",
+      "old_plain_chars": 369,
+      "new_plain_chars": 385
+    },
+    {
+      "id": "private-015",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "有暴露或症状就按接触部位做性传播感染评估，别把一次尿检阴性当全部排除",
+      "title": "性传播感染按接触部位检测，别靠一次尿检放心",
+      "old_plain_chars": 333,
+      "new_plain_chars": 337
+    },
+    {
+      "id": "private-035",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "男女都可咨询适龄HPV接种，有宫颈者接种后仍按规范筛查",
+      "title": "按年龄选择HPV疫苗，接种后仍做适龄筛查",
+      "old_plain_chars": 358,
+      "new_plain_chars": 309
+    },
+    {
+      "id": "private-016",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "性生活疼痛就停下来找原因，润滑剂与阴道保湿剂按用途选",
+      "title": "性生活疼痛先停下，润滑与保湿按用途选",
+      "old_plain_chars": 360,
+      "new_plain_chars": 396
+    },
+    {
+      "id": "private-032",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "勃起困难反复发生就查原因，别把网购壮阳产品当作正规治疗",
+      "title": "反复勃起困难查原因，别自行叠加壮阳药",
+      "old_plain_chars": 363,
+      "new_plain_chars": 363
+    },
+    {
+      "id": "private-033",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "射精过快或困难持续困扰就评估，别用秒数或延时喷雾独自解决",
+      "title": "射精问题持续困扰就评估，不只比较分钟数",
+      "old_plain_chars": 408,
+      "new_plain_chars": 364
+    },
+    {
+      "id": "private-034",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "自慰不按次数判断亏损，疼痛、破皮或影响生活时再调整和求助",
+      "title": "自慰看疼痛和生活影响，不按固定次数判健康",
+      "old_plain_chars": 362,
+      "new_plain_chars": 327
+    },
+    {
+      "id": "private-018",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "别为阴道紧致或年轻化先买激光射频套餐，先查清干涩、漏尿或疼痛原因",
+      "title": "干涩、漏尿或疼痛先查因，别急买阴道年轻化",
+      "old_plain_chars": 372,
+      "new_plain_chars": 342
+    },
+    {
+      "id": "private-037",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "先选自己能持续正确使用的避孕方法，再比较效果、可逆性和禁忌",
+      "title": "避孕先比较可靠性、使用负担和生育计划",
+      "old_plain_chars": 590,
+      "new_plain_chars": 544
+    },
+    {
+      "id": "private-038",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "从接触前到结束都正确用一个新安全套，别叠戴、翻面重用或破了继续",
+      "title": "安全套全程用一个新的，破裂滑脱马上补救",
+      "old_plain_chars": 476,
+      "new_plain_chars": 439
+    },
+    {
+      "id": "private-045",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "把体外排精和App安全日从可靠兜底里拿掉，不能用备孕工具反向保证不怀孕",
+      "title": "别把体外排精或App安全日当可靠避孕兜底",
+      "old_plain_chars": 391,
+      "new_plain_chars": 333
+    },
+    {
+      "id": "private-039",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "吃短效避孕药先认清复方与单方，漏服时按成分、有效片和漏服时间处理",
+      "title": "短效避孕药按成分服用，漏服当天确认补救方法",
+      "old_plain_chars": 437,
+      "new_plain_chars": 428
+    },
+    {
+      "id": "private-040",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "贴片、阴道环和避孕针按具体节奏管理，近期想怀孕先问停用后的恢复时间",
+      "title": "贴片、阴道环和避孕针，按具体产品记更换日",
+      "old_plain_chars": 477,
+      "new_plain_chars": 448
+    },
+    {
+      "id": "private-041",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "想少操心就比较皮埋与两类宫内装置，先谈经量、放取过程和到期日",
+      "title": "想少记药可选长效避孕，先问经量和放取安排",
+      "old_plain_chars": 531,
+      "new_plain_chars": 526
+    },
+    {
+      "id": "private-046",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "把男女绝育当永久决定；男性术后精液检查确认前继续避孕",
+      "title": "绝育按永久决定，男性术后确认前继续避孕",
+      "old_plain_chars": 383,
+      "new_plain_chars": 354
+    },
+    {
+      "id": "private-042",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "无保护或避孕失败后今天就找紧急方法，别等次晨，也别认定超过72小时就没办法",
+      "title": "避孕失败当天就补救，超过72小时也别放弃求助",
+      "old_plain_chars": 544,
+      "new_plain_chars": 492
+    },
+    {
+      "id": "private-043",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "紧急避孕后先核药名再接常规方法，验孕从最后一次无保护接触算",
+      "title": "紧急避孕后接好常规保护，满21天别漏复查",
+      "old_plain_chars": 518,
+      "new_plain_chars": 503
+    },
+    {
+      "id": "private-044",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "少量不规则出血可记录复评，剧痛、大出血、发热或疑似怀孕别只当避孕副作用",
+      "title": "避孕后持续出血可调整，剧痛发热或大出血及时查",
+      "old_plain_chars": 517,
+      "new_plain_chars": 458
+    },
+    {
+      "id": "private-047",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "先说清偏头痛先兆、高血压、血栓史、产后哺乳和全部用药，再选激素避孕",
+      "title": "选激素避孕前，说清头痛先兆、血栓和用药史",
+      "old_plain_chars": 465,
+      "new_plain_chars": 367
+    },
+    {
+      "id": "private-048",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "打算怀孕就让双方一起核病史、药物和疫苗，别自行停药",
+      "title": "备孕让双方一起带病史、药单和疫苗记录咨询",
+      "old_plain_chars": 370,
+      "new_plain_chars": 388
+    },
+    {
+      "id": "private-049",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "计划妊娠就开始补常规叶酸，高风险先核方案而不自行加量",
+      "title": "计划怀孕每天补400微克叶酸，高风险另定方案",
+      "old_plain_chars": 490,
+      "new_plain_chars": 417
+    },
+    {
+      "id": "private-050",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "先把烟酒和不明补剂减下来，用可持续的生活调整准备妊娠",
+      "title": "备孕先戒烟、处理饮酒与暴露，别买排毒套餐",
+      "old_plain_chars": 357,
+      "new_plain_chars": 365
+    },
+    {
+      "id": "private-051",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "自然备孕可每2至3天同房，别把机会全押在一个排卵日",
+      "title": "自然备孕每2至3天同房，不只押一个排卵日",
+      "old_plain_chars": 352,
+      "new_plain_chars": 295
+    },
+    {
+      "id": "private-052",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "需要找易孕窗口再用排卵试纸，阳性不能当作排卵或怀孕证明",
+      "title": "排卵试纸可找窗口，阳性不证明已排卵或怀孕",
+      "old_plain_chars": 456,
+      "new_plain_chars": 353
+    },
+    {
+      "id": "private-053",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "男方也要评估生育因素，别用睾酮或健身类固醇壮精",
+      "title": "男方同步做生育评估，不用睾酮或类固醇壮精",
+      "old_plain_chars": 355,
+      "new_plain_chars": 326
+    },
+    {
+      "id": "private-054",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "按妊娠方年龄安排未孕评估，有已知风险就别等满一年",
+      "title": "未孕评估看年龄和风险，双方同步检查",
+      "old_plain_chars": 335,
+      "new_plain_chars": 327
+    },
+    {
+      "id": "private-055",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "买促孕补剂或卵巢保养前，先看它有没有改善生育结局的证据",
+      "title": "促孕产品看怀孕或活产收益，不只看指标变好",
+      "old_plain_chars": 449,
+      "new_plain_chars": 391
+    },
+    {
+      "id": "private-056",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "月经推迟按时验孕，腹痛出血或晕厥别等第二条线",
+      "title": "月经推迟按时验孕，腹痛晕厥不等阳性",
+      "old_plain_chars": 375,
+      "new_plain_chars": 330
+    },
+    {
+      "id": "anal-001",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "大量便血不停或黑便伴眩晕虚弱，立即急诊而不是先买痔疮药",
+      "title": "大量便血不停，或黑便伴眩晕虚弱，立即急诊",
+      "old_plain_chars": 281,
+      "new_plain_chars": 271
+    },
+    {
+      "id": "anal-002",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "肛周持续跳痛、肿胀或发热就当天检查，别挤脓包或只做坐浴",
+      "title": "肛周持续跳痛、肿胀或发热，当天检查脓肿",
+      "old_plain_chars": 252,
+      "new_plain_chars": 263
+    },
+    {
+      "id": "anal-003",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "擦便后别把脏纸带向尿道口，有外阴者坚持从前向后擦",
+      "title": "厕后别把粪便带向尿道，洗手别省略",
+      "old_plain_chars": 305,
+      "new_plain_chars": 253
+    },
+    {
+      "id": "anal-004",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "干纸擦得疼就试湿润纸或清水，湿厕纸买的是便利而非消毒",
+      "title": "干纸擦疼了可用湿纸或清水，不追求肛周消毒",
+      "old_plain_chars": 367,
+      "new_plain_chars": 353
+    },
+    {
+      "id": "anal-005",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "用冲洗器从低压、舒适温度起步，洗外面后轻拍干就停",
+      "title": "冲洗器低压短洗外面，水温不烫，洗后拍干",
+      "old_plain_chars": 326,
+      "new_plain_chars": 286
+    },
+    {
+      "id": "anal-006",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "有便意就去、排完就起，别在马桶上憋气刷手机",
+      "title": "有便意就去，排完就起，不憋气久坐",
+      "old_plain_chars": 251,
+      "new_plain_chars": 254
+    },
+    {
+      "id": "anal-007",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "便秘先记软硬、用力和排不净，再逐步调整纤维、水分与活动",
+      "title": "便秘看硬便和用力，逐步调饮食与排便习惯",
+      "old_plain_chars": 350,
+      "new_plain_chars": 313
+    },
+    {
+      "id": "anal-008",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "生活调整不够就按类型选泻药，别把清肠茶和灌肠当长期日用品",
+      "title": "便秘调整仍无效，选明确成分的泻药并约复查",
+      "old_plain_chars": 534,
+      "new_plain_chars": 403
+    },
+    {
+      "id": "anal-009",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "排便像割裂且便后还疼，检查肛裂并先让粪便更容易排出",
+      "title": "排便像割裂、便后仍痛，检查肛裂并减少刺激",
+      "old_plain_chars": 334,
+      "new_plain_chars": 278
+    },
+    {
+      "id": "anal-010",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "有痔也要查反复便血，症状膏只能短期缓解而非包治",
+      "title": "反复便血别只当痔疮，药膏仅作短期缓解",
+      "old_plain_chars": 386,
+      "new_plain_chars": 313
+    },
+    {
+      "id": "anal-011",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "肛门越擦越痒先停刺激，夜里特别痒再查蛲虫等原因",
+      "title": "肛周越擦越痒先停刺激，夜痒反复查蛲虫",
+      "old_plain_chars": 366,
+      "new_plain_chars": 341
+    },
+    {
+      "id": "anal-012",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "内裤常有粪渍或总擦不净，检查渗漏和便秘而不是加倍清洁",
+      "title": "总擦不净或内裤有粪渍，检查渗漏与便秘",
+      "old_plain_chars": 342,
+      "new_plain_chars": 309
+    },
+    {
+      "id": "bodyskin-009",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "腋毛和私处毛发可以保留，想清爽先考虑修短",
+      "title": "体毛可以保留，嫌长先修短，不必剃到光滑",
+      "old_plain_chars": 259,
+      "new_plain_chars": 256
+    },
+    {
+      "id": "bodyskin-010",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "要脱毛先选可承受的方法：顺毛剃、膏剂先测试，蜡脱别带伤操作",
+      "title": "剃毛顺方向，脱毛膏先测试，蜡脱避开伤皮肤",
+      "old_plain_chars": 424,
+      "new_plain_chars": 352
+    },
+    {
+      "id": "bodyskin-011",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "想长期减毛先分清家用IPL和专业激光，别为永久无毛承诺付费",
+      "title": "光脱毛先匹配肤色和部位，不信永久无毛承诺",
+      "old_plain_chars": 531,
+      "new_plain_chars": 351
+    },
+    {
+      "id": "bodyskin-013",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "先分清普通疤、肥厚疤和瘢痕疙瘩，再决定要不要祛疤",
+      "title": "疤痕先分类型，越过原伤口生长要检查",
+      "old_plain_chars": 394,
+      "new_plain_chars": 304
+    },
+    {
+      "id": "bodyskin-014",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "判断留疤风险先看既往和家族史，别用一次伤口或试打耳洞验证体质",
+      "title": "瘢痕疙瘩风险看病史，不打耳洞测试“疤痕体质”",
+      "old_plain_chars": 280,
+      "new_plain_chars": 336
+    },
+    {
+      "id": "bodyskin-015",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "伤口闭合后可讨论硅酮护理，别把祛疤贴当成能消掉所有疙瘩",
+      "title": "伤口完全闭合后再用硅酮，别指望贴片消所有疤",
+      "old_plain_chars": 314,
+      "new_plain_chars": 331
+    },
+    {
+      "id": "bodyskin-016",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "需要压力治疗就先定制评估，别用耳夹和紧绷带自行夹压疤痕",
+      "title": "瘢痕压力治疗要定方案，不用普通耳夹硬压",
+      "old_plain_chars": 268,
+      "new_plain_chars": 256
+    },
+    {
+      "id": "bodyskin-017",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "瘢痕疙瘩持续痒痛增厚，可优先讨论病灶内注射并约好复评",
+      "title": "瘢痕疙瘩持续痒痛增厚，可讨论局部注射",
+      "old_plain_chars": 366,
+      "new_plain_chars": 318
+    },
+    {
+      "id": "bodyskin-018",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "选择冷冻或激光前说清目标，别把变淡、变平和不复发混为一谈",
+      "title": "冷冻或激光先说目标，变淡不等于不再长",
+      "old_plain_chars": 281,
+      "new_plain_chars": 253
+    },
+    {
+      "id": "bodyskin-019",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "准备切除瘢痕疙瘩时，先把复发预防和术后衔接安排好",
+      "title": "瘢痕疙瘩切除前，先安排复发预防与术后衔接",
+      "old_plain_chars": 299,
+      "new_plain_chars": 297
+    },
+    {
+      "id": "bodyskin-020",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "讨论放疗先问清是哪一种，不把同位素敷贴和浅X线当同一项目",
+      "title": "瘢痕放疗分清技术，术前谈效果、时机和远期风险",
+      "old_plain_chars": 763,
+      "new_plain_chars": 528
+    },
+    {
+      "id": "bodyskin-021",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "别凭创面愈合的研究，就买生长因子或康复新液消瘢痕疙瘩",
+      "title": "促进伤口愈合的药，不能直接当消瘢痕疙瘩药",
+      "old_plain_chars": 364,
+      "new_plain_chars": 280
+    },
+    {
+      "id": "bodyskin-022",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "稳定不痛的普通疤可观察，继续长、痛痒或拉住关节就预约检查",
+      "title": "普通疤稳定可观察，继续长、痛痒或拉扯就检查",
+      "old_plain_chars": 309,
+      "new_plain_chars": 282
+    },
+    {
+      "id": "neck-001",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "颈肩痛伴进行性手无力或走路不稳，先检查，别先按摩扳颈",
+      "title": "颈肩痛伴手越来越无力或走不稳，尽快检查",
+      "old_plain_chars": 346,
+      "new_plain_chars": 312
+    },
+    {
+      "id": "neck-002",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "普通落枕先减轻负担并温和活动，别自己长期戴颈托",
+      "title": "普通落枕温和活动，转头受限时别开车",
+      "old_plain_chars": 385,
+      "new_plain_chars": 331
+    },
+    {
+      "id": "neck-003",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "电脑前先调屏幕和键鼠，再规律换姿势，别只买矫姿带",
+      "title": "调好屏幕和键鼠，久坐时换姿势、起来活动",
+      "old_plain_chars": 351,
+      "new_plain_chars": 332
+    },
+    {
+      "id": "neck-004",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "睡醒总颈痛先调枕头支撑和睡姿，别按网红高度硬凑",
+      "title": "睡醒总颈痛，先调枕头支撑和睡姿",
+      "old_plain_chars": 316,
+      "new_plain_chars": 287
+    },
+    {
+      "id": "neck-007",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "颈肩反复酸痛要逐步练活动和力量，别只反复拉伸或做理疗",
+      "title": "反复颈肩痛，逐步恢复活动和力量",
+      "old_plain_chars": 353,
+      "new_plain_chars": 280
+    },
+    {
+      "id": "neck-005",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "肩颈热敷或冷敷先隔布、看皮肤，别一边敷一边睡",
+      "title": "肩颈冷热敷要隔布，别带着敷袋睡觉",
+      "old_plain_chars": 416,
+      "new_plain_chars": 363
+    },
+    {
+      "id": "neck-006",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "止痛药先核成分和风险，别把贴膏、口服药一起叠满",
+      "title": "肩颈痛要用药，先查成分，别重复叠加",
+      "old_plain_chars": 385,
+      "new_plain_chars": 403
+    },
+    {
+      "id": "neck-008",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "想按摩可以把放松当目标，别接受强力扳颈或“复位包治”",
+      "title": "按摩可求放松，别靠强力扳颈“复位”",
+      "old_plain_chars": 423,
+      "new_plain_chars": 345
+    },
+    {
+      "id": "neck-009",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "慢性颈痛想试针灸，先定目标和复评点，同时保留主动训练",
+      "title": "慢性颈痛试针灸，要配合活动并看是否改善",
+      "old_plain_chars": 363,
+      "new_plain_chars": 315
+    },
+    {
+      "id": "neck-010",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "筋膜枪只在明确的肌肉区域轻用，别敲颈前侧、脊柱或新伤",
+      "title": "筋膜枪只轻打肌肉，别敲颈前侧和脊柱",
+      "old_plain_chars": 406,
+      "new_plain_chars": 349
+    },
+    {
+      "id": "neck-011",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "肩膀抬不起来先分外伤和持续肩痛，别一律当肩周炎",
+      "title": "肩膀抬不起来，外伤后突然发生要尽快就医",
+      "old_plain_chars": 365,
+      "new_plain_chars": 293
+    },
+    {
+      "id": "neck-012",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "夜里肩痛又越来越僵，检查是否冻结肩，别硬拉到流泪",
+      "title": "肩膀越痛越僵，检查冻结肩，别强拉硬扯",
+      "old_plain_chars": 383,
+      "new_plain_chars": 323
+    },
+    {
+      "id": "neck-013",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "肘外侧一握就痛先减反复用力，再逐步练回，别只戴护具",
+      "title": "握东西时肘外侧痛，先减负，再练回力量",
+      "old_plain_chars": 365,
+      "new_plain_chars": 282
+    },
+    {
+      "id": "neck-014",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "手夜里麻醒先查分布和力量，符合腕管问题再比较夜间腕托",
+      "title": "手指夜里麻醒，检查腕管，再选夜间腕托",
+      "old_plain_chars": 399,
+      "new_plain_chars": 346
+    },
+    {
+      "id": "hands-001",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "手部突然红热肿痛就当天检查，伴寒战、呼吸急促或意识异常直接急诊",
+      "title": "手部红热肿痛当天就医，伴全身异常走急诊",
+      "old_plain_chars": 334,
+      "new_plain_chars": 311
+    },
+    {
+      "id": "hands-002",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "如厕后、做饭前后把手洗到位；不方便水洗时再用合格手消毒剂",
+      "title": "关键时刻用水皂洗手，免洗液不能替代所有清洁",
+      "old_plain_chars": 372,
+      "new_plain_chars": 359
+    },
+    {
+      "id": "hands-003",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "洗完手就补无香护手霜，干裂时先选霜或软膏",
+      "title": "手干裂，洗后及时涂无香护手霜",
+      "old_plain_chars": 329,
+      "new_plain_chars": 296
+    },
+    {
+      "id": "hands-004",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "湿作业先戴合适手套，别把屏障霜当液体手套",
+      "title": "洗碗清洁戴合适手套，屏障霜不能挡化学品",
+      "old_plain_chars": 368,
+      "new_plain_chars": 338
+    },
+    {
+      "id": "hands-005",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "手反复红痒、裂口或渗液，先查湿疹和接触原因",
+      "title": "手反复红痒裂口，查湿疹与接触过敏",
+      "old_plain_chars": 387,
+      "new_plain_chars": 318
+    },
+    {
+      "id": "hands-006",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "手指侧面反复痒小疱别抓破，单指成簇疼疱尽早检查",
+      "title": "手指小疱别挑破，单指成簇疼疱尽早就医",
+      "old_plain_chars": 359,
+      "new_plain_chars": 329
+    },
+    {
+      "id": "hands-007",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "指甲剪到不勾挂就好，倒刺剪掉，甲小皮别推剪",
+      "title": "指甲剪整齐、倒刺剪掉，别剪甲根薄皮",
+      "old_plain_chars": 382,
+      "new_plain_chars": 332
+    },
+    {
+      "id": "hands-008",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "甲旁肿痛先停咬抠和美甲，有脓、加重或反复不退就检查",
+      "title": "甲旁红肿停抠咬，有脓或加重及时检查",
+      "old_plain_chars": 353,
+      "new_plain_chars": 334
+    },
+    {
+      "id": "hands-009",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "指甲变黄变厚先验真菌，再比较药用甲搽剂和口服药",
+      "title": "指甲黄厚先验真菌，再选涂药或口服药",
+      "old_plain_chars": 382,
+      "new_plain_chars": 309
+    },
+    {
+      "id": "hands-010",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "指甲新长深色色带或不断变化，先看皮肤科，别用甲油盖住",
+      "title": "指甲新长或变化的黑线，先看皮肤科",
+      "old_plain_chars": 325,
+      "new_plain_chars": 322
+    },
+    {
+      "id": "hands-011",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "做甲胶先护住手背、核对配套灯，红痒或甲分离就停做",
+      "title": "做甲胶别让胶碰皮肤，手背也要防晒",
+      "old_plain_chars": 417,
+      "new_plain_chars": 380
+    },
+    {
+      "id": "hands-012",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "卸甲别硬撬或用来历不明的快卸胶，甲变薄先减少打磨",
+      "title": "卸甲别硬撬，甲薄了先停打磨和补甲",
+      "old_plain_chars": 458,
+      "new_plain_chars": 404
+    },
+    {
+      "id": "legs-001",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "腰痛又尿不出、会阴发麻或腿越来越无力，直接急诊别等按摩",
+      "title": "腰痛伴排尿变化或会阴麻木，直接急诊",
+      "old_plain_chars": 406,
+      "new_plain_chars": 348
+    },
+    {
+      "id": "legs-003",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "普通闪腰先降低刺激并继续轻活动，别连续躺几天等完全不痛",
+      "title": "普通闪腰少量多次活动，别连续卧床等好",
+      "old_plain_chars": 341,
+      "new_plain_chars": 340
+    },
+    {
+      "id": "legs-004",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "腰片写膨出退变先结合症状解读，没警示信号不急着反复MRI",
+      "title": "腰片写膨出退变，结合症状再决定检查治疗",
+      "old_plain_chars": 386,
+      "new_plain_chars": 319
+    },
+    {
+      "id": "legs-005",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "慢性普通腰痛先做活动与康复计划，别靠护腰和牵引包疗程",
+      "title": "慢性腰痛练回日常能力，别只续护腰牵引疗程",
+      "old_plain_chars": 362,
+      "new_plain_chars": 308
+    },
+    {
+      "id": "legs-002",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "一侧小腿突然肿痛尽快查血栓，伴胸痛气短立即拨120",
+      "title": "一侧腿突然肿痛尽快查血栓，胸痛气短拨120",
+      "old_plain_chars": 330,
+      "new_plain_chars": 282
+    },
+    {
+      "id": "legs-006",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "髋膝痛先看能否负重和有无红热，再按病因安排活动",
+      "title": "髋膝痛先看能否负重，红热肿别拖着练",
+      "old_plain_chars": 357,
+      "new_plain_chars": 315
+    },
+    {
+      "id": "legs-007",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "确诊髋膝骨关节炎后逐步练力量和耐力，别只为省关节而停动",
+      "title": "髋膝骨关节炎要适量练，别只为省关节停动",
+      "old_plain_chars": 383,
+      "new_plain_chars": 327
+    },
+    {
+      "id": "legs-008",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "护膝和鞋垫按具体问题选，别把越紧、越厚当越保护",
+      "title": "护膝鞋垫按病因和尺寸选，不是越紧越好",
+      "old_plain_chars": 344,
+      "new_plain_chars": 305
+    },
+    {
+      "id": "legs-009",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "别把氨糖当补回软骨的日常必需品，关节痛先用有目标的方案",
+      "title": "氨糖不能承诺补回软骨，关节痛先做正规管理",
+      "old_plain_chars": 436,
+      "new_plain_chars": 339
+    },
+    {
+      "id": "legs-010",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "跑步循序增加，膝痛加重先减量，别因怕磨损停跑也别硬撑",
+      "title": "跑步逐步加量，关节肿痛时减负检查",
+      "old_plain_chars": 361,
+      "new_plain_chars": 308
+    },
+    {
+      "id": "legs-011",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "扭伤先保护减负，不能负重或变形就检查，别立刻热敷强揉",
+      "title": "扭伤先保护减负，变形或不能负重要检查",
+      "old_plain_chars": 342,
+      "new_plain_chars": 297
+    },
+    {
+      "id": "legs-012",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "腿胀和青筋先查原因，压力袜核尺寸与动脉供血，久坐间隙起来走",
+      "title": "腿胀青筋先查原因，压力袜按供血和尺寸选",
+      "old_plain_chars": 418,
+      "new_plain_chars": 386
+    },
+    {
+      "id": "feet-001",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "糖尿病足一破皮、红热或变色就及时求助，别等它疼起来",
+      "title": "糖尿病足新破皮或红热，立即联系医院",
+      "old_plain_chars": 394,
+      "new_plain_chars": 356
+    },
+    {
+      "id": "feet-002",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "趾缝发白脱皮先保持干燥，反复瘙痒别只凭外观认脚气",
+      "title": "趾缝白软脱皮先擦干，反复发作再查病因",
+      "old_plain_chars": 347,
+      "new_plain_chars": 296
+    },
+    {
+      "id": "feet-003",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "确诊普通脚气就按疗程用抗真菌药，别靠激素止痒或一好就停",
+      "title": "脚气按说明完成抗真菌疗程，别单用激素止痒",
+      "old_plain_chars": 392,
+      "new_plain_chars": 355
+    },
+    {
+      "id": "feet-004",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "洗完脚擦干趾缝，运动后换湿袜，公共浴室穿自己的拖鞋",
+      "title": "洗后擦干趾缝，湿袜及时换，公共浴室穿拖鞋",
+      "old_plain_chars": 332,
+      "new_plain_chars": 310
+    },
+    {
+      "id": "feet-005",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "脚臭先减汗和晾鞋，汗多就选止汗剂，别只用香味盖住",
+      "title": "脚臭先干燥鞋袜，汗多再选足用止汗剂",
+      "old_plain_chars": 333,
+      "new_plain_chars": 294
+    },
+    {
+      "id": "feet-006",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "脚跟干裂先保湿和换鞋，别把酸类厚涂进趾缝或裂口",
+      "title": "足跟干裂先保湿，深裂出血别用酸类磨皮",
+      "old_plain_chars": 389,
+      "new_plain_chars": 353
+    },
+    {
+      "id": "feet-007",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "新鞋磨出水疱就停穿，清洁覆盖，别自行挑破和撕皮",
+      "title": "鞋磨出水疱先停摩擦，清洁覆盖别挑破",
+      "old_plain_chars": 333,
+      "new_plain_chars": 301
+    },
+    {
+      "id": "feet-008",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "鸡眼和厚茧先减压，别拿刀削；脱皮足膜只解决部分外观",
+      "title": "鸡眼厚茧先换鞋减压，不自行拿刀削",
+      "old_plain_chars": 375,
+      "new_plain_chars": 341
+    },
+    {
+      "id": "feet-012",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "足底硬疙瘩先分跖疣和鸡眼，确诊后再选水杨酸或冷冻",
+      "title": "足底硬疙瘩先分病因，确诊跖疣再选治疗",
+      "old_plain_chars": 362,
+      "new_plain_chars": 325
+    },
+    {
+      "id": "feet-013",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "起床第一脚足跟痛先减负、换支撑鞋和温和拉伸，别硬踩痛点",
+      "title": "起床第一步足跟痛，先减负、换支撑鞋",
+      "old_plain_chars": 334,
+      "new_plain_chars": 290
+    },
+    {
+      "id": "feet-014",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "拇外翻先换宽鞋减摩擦，别指望矫正器把骨头永久掰直",
+      "title": "拇外翻先穿宽鞋，矫正器不能承诺掰直骨头",
+      "old_plain_chars": 302,
+      "new_plain_chars": 279
+    },
+    {
+      "id": "feet-009",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "嵌甲疼起来别往肉里挖，平时平剪，反复化脓评估甲缘处理",
+      "title": "嵌甲疼了别往肉里挖，反复化脓要就医",
+      "old_plain_chars": 320,
+      "new_plain_chars": 270
+    },
+    {
+      "id": "feet-010",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "厚黄趾甲先验真菌，再按范围选涂药或口服，别先买包治激光",
+      "title": "趾甲黄厚先确认真菌，别先买长期根治疗程",
+      "old_plain_chars": 377,
+      "new_plain_chars": 340
+    },
+    {
+      "id": "feet-011",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "趾甲新长黑线、越变越宽或周围变黑，先看皮肤科再遮盖",
+      "title": "趾甲新黑线或越变越宽，先检查别遮盖",
+      "old_plain_chars": 239,
+      "new_plain_chars": 210
+    },
+    {
+      "id": "bodyskin-001",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "伤口止不住血或皮肤红热肿痛迅速加重，及时就医而不是继续消毒",
+      "title": "伤口压不住血、很深或感染加重，及时就医",
+      "old_plain_chars": 262,
+      "new_plain_chars": 276
+    },
+    {
+      "id": "bodyskin-002",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "洗完澡发紧发痒就缩短热水浴，别再用搓澡巾把皮肤搓红",
+      "title": "洗后干痒就降水温、缩短洗浴，别搓到发红",
+      "old_plain_chars": 239,
+      "new_plain_chars": 234
+    },
+    {
+      "id": "bodyskin-003",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "身体干到起屑就趁洗后微湿涂润肤霜，别只追身体乳的香味",
+      "title": "身体干燥起屑，洗后微湿时涂无香润肤霜",
+      "old_plain_chars": 220,
+      "new_plain_chars": 212
+    },
+    {
+      "id": "bodyskin-004",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "胸背有黑白头和痘痘就按痤疮处理，深痛硬结别等沐浴露解决",
+      "title": "胸背痘按痤疮治，深痛结节或留疤早点就医",
+      "old_plain_chars": 282,
+      "new_plain_chars": 295
+    },
+    {
+      "id": "bodyskin-005",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "剃毛或泡温泉后突然冒毛囊小疹，先停刺激再判断要不要用药",
+      "title": "剃毛或泡池后起小疹，先停刺激，别混涂药",
+      "old_plain_chars": 261,
+      "new_plain_chars": 370
+    },
+    {
+      "id": "bodyskin-006",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "上臂大腿的鸡皮肤先保湿，想变平滑再试一种温和角质调理",
+      "title": "鸡皮肤先保湿，在意粗糙再试一种角质护理",
+      "old_plain_chars": 241,
+      "new_plain_chars": 265
+    },
+    {
+      "id": "bodyskin-007",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "闷汗起疹先降温减摩擦，褶皱处反复红烂别只靠爽身粉",
+      "title": "闷汗小疹先降温，褶皱红烂要查感染和皮炎",
+      "old_plain_chars": 253,
+      "new_plain_chars": 296
+    },
+    {
+      "id": "bodyskin-008",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "身上的痣突然变样或出血，先检查再点痣和做光电美容",
+      "title": "痣变样、出血或特别不同，先检查再美容处理",
+      "old_plain_chars": 265,
+      "new_plain_chars": 240
+    },
+    {
+      "id": "bodyskin-023",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "风团伴口舌肿、气短或晕厥就急救；反复起风团别只靠止痒膏",
+      "title": "风团伴口舌肿或气短晕厥，立即急救",
+      "old_plain_chars": 323,
+      "new_plain_chars": 294
+    },
+    {
+      "id": "bodyskin-024",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "夜里特别痒且同住者也起疹，就查疥疮，别只换除螨沐浴露",
+      "title": "夜里痒、同住者也起疹，检查疥疮并同步处理",
+      "old_plain_chars": 422,
+      "new_plain_chars": 328
+    },
+    {
+      "id": "bodyskin-012",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "浅小擦伤先冲干净再湿润覆盖，别反复灌酒精等它结厚痂",
+      "title": "浅擦伤冲洗后湿润覆盖，别反复灌酒精",
+      "old_plain_chars": 306,
+      "new_plain_chars": 325
+    },
+    {
+      "id": "bodyskin-025",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "被犬猫咬抓伤先冲洗约15分钟，尽快评估狂犬病暴露，别等感染再去",
+      "title": "犬猫咬抓伤先冲洗约15分钟，尽快评估暴露",
+      "old_plain_chars": 386,
+      "new_plain_chars": 348
+    },
+    {
+      "id": "sleep-001",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "开车犯困就安全停车，别靠咖啡、开窗或音乐硬撑",
+      "title": "开车犯困就安全停车，不靠提神办法硬撑",
+      "old_plain_chars": 237,
+      "new_plain_chars": 275
+    },
+    {
+      "id": "basics-002",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "打鼾伴憋醒、呼吸暂停或白天困，先评估睡眠呼吸暂停，别自行贴嘴止鼾",
+      "title": "鼾声伴憋醒或白天困，检查睡眠呼吸暂停",
+      "old_plain_chars": 436,
+      "new_plain_chars": 361
+    },
+    {
+      "id": "sleep-016",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "夜里一躺下就想动腿、动了暂缓，别只补钙，记录后评估不宁腿",
+      "title": "夜里静坐就想动腿，记录规律，别盲目补钙铁",
+      "old_plain_chars": 430,
+      "new_plain_chars": 335
+    },
+    {
+      "id": "basics-001",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "先固定起床时间、留够睡眠机会，别把人人睡满8小时当考核",
+      "title": "稳定起床时间，留够睡眠，不追统一8小时",
+      "old_plain_chars": 332,
+      "new_plain_chars": 277
+    },
+    {
+      "id": "sleep-008",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "规律夜睡者白天多接触自然光，别把晒太阳当情绪治疗处方",
+      "title": "白天适当见自然光，别把暴晒当情绪治疗",
+      "old_plain_chars": 326,
+      "new_plain_chars": 321
+    },
+    {
+      "id": "sleep-005",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "把咖啡因截止时间往前移，别用睡前酒精换入睡",
+      "title": "晚间难睡就提前咖啡因，别用酒助眠",
+      "old_plain_chars": 293,
+      "new_plain_chars": 330
+    },
+    {
+      "id": "sleep-006",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "午睡先试短而靠前，轮夜班另做睡眠和通勤安排",
+      "title": "午睡短一些、早一些，夜班先保护主睡眠",
+      "old_plain_chars": 384,
+      "new_plain_chars": 354
+    },
+    {
+      "id": "sleep-009",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "晚间运动先看强度和离睡觉多久，别按晚上几点一刀切停练",
+      "title": "晚间锻炼看强度和睡觉时间，难睡就提前减量",
+      "old_plain_chars": 688,
+      "new_plain_chars": 428
+    },
+    {
+      "id": "sleep-010",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "夜宵后睡不踏实，先把大餐前移；饿了可少量加餐，反酸者另留间隔",
+      "title": "夜宵后睡不好，先把大餐提前，反流另留间隔",
+      "old_plain_chars": 687,
+      "new_plain_chars": 475
+    },
+    {
+      "id": "sleep-011",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "睡前先给工作收尾、放下手机，别把夜间模式当助眠保证",
+      "title": "睡前给工作和刷屏收尾，夜间模式不保证助眠",
+      "old_plain_chars": 701,
+      "new_plain_chars": 426
+    },
+    {
+      "id": "sleep-014",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "躺着越等越烦就换个地方安静待一会儿，别盯钟逼自己睡着",
+      "title": "越躺越烦就暂离床，困了再回来，不盯钟",
+      "old_plain_chars": 483,
+      "new_plain_chars": 368
+    },
+    {
+      "id": "sleep-002",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "失眠反复影响白天，就做睡眠评估并优先了解CBT-I",
+      "title": "失眠影响白天，记录睡眠并了解CBT-I治疗",
+      "old_plain_chars": 299,
+      "new_plain_chars": 337
+    },
+    {
+      "id": "sleep-003",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "先分清褪黑素用途和每份毫克数，别靠不断加量解决失眠",
+      "title": "褪黑素先分用途剂型，别靠加量治所有失眠",
+      "old_plain_chars": 582,
+      "new_plain_chars": 438
+    },
+    {
+      "id": "sleep-004",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "跨时区先安排睡觉与见光时间，再决定是否用褪黑素",
+      "title": "倒时差先排睡眠见光，褪黑素不能随时补",
+      "old_plain_chars": 327,
+      "new_plain_chars": 310
+    },
+    {
+      "id": "sleep-015",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "别拿感冒药或抗过敏药长期催眠，先核成分和第二天的嗜睡风险",
+      "title": "别长期用感冒抗过敏药催眠，次日困就不驾车",
+      "old_plain_chars": 506,
+      "new_plain_chars": 415
+    },
+    {
+      "id": "sleep-007",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "睡前听声音先设低音量和定时，别把入耳耳机戴整夜当必需",
+      "title": "睡前音频开低音量定时，耳机压痛就停",
+      "old_plain_chars": 429,
+      "new_plain_chars": 334
+    },
+    {
+      "id": "sleep-012",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "前晚没睡好，次日先减危险任务，再安排短休息，别用浓咖啡硬顶整天",
+      "title": "少睡次日先保安全，安排短休息和当晚睡眠",
+      "old_plain_chars": 746,
+      "new_plain_chars": 435
+    },
+    {
+      "id": "sleep-013",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "少睡后先看清醒程度，困得打盹就休息，别用咖啡硬顶大强度训练",
+      "title": "少睡后困得打盹就休息，别硬上大强度训练",
+      "old_plain_chars": 649,
+      "new_plain_chars": 424
+    },
+    {
+      "id": "nutrition-001",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "节食时发抖先停下来处理，晕厥、意识异常或深快呼吸直接急救",
+      "title": "节食后发抖先停，意识异常或深快呼吸立即急救",
+      "old_plain_chars": 475,
+      "new_plain_chars": 398
+    },
+    {
+      "id": "basics-004",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "先把主食、蔬果和蛋白质来源吃齐，再决定蛋白粉或代餐补哪里",
+      "title": "先把日常饭吃完整，再决定是否补蛋白或代餐",
+      "old_plain_chars": 459,
+      "new_plain_chars": 343
+    },
+    {
+      "id": "nutrition-013",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "把部分白米白面换成全谷杂豆，餐餐给蔬菜留位置",
+      "title": "一餐先配齐蔬菜和蛋白，把部分精白主食换全谷",
+      "old_plain_chars": 855,
+      "new_plain_chars": 416
+    },
+    {
+      "id": "nutrition-012",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "换低钠钾盐先核排钾风险，酱料和零食里的钠也要一起减",
+      "title": "低钠钾盐不是人人能换，减盐也要算酱料零食",
+      "old_plain_chars": 834,
+      "new_plain_chars": 482
+    },
+    {
+      "id": "nutrition-014",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "少买高糖高盐、容易吃过量的食品，别按“有包装”一律拉黑",
+      "title": "买食品看营养和吃量，不因包装或添加剂一律排除",
+      "old_plain_chars": 917,
+      "new_plain_chars": 469
+    },
+    {
+      "id": "basics-005",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "按天气、活动和疾病调整饮水，别为了排毒强灌到尿永远透明",
+      "title": "饮水按口渴、天气和活动调整，限水者另按方案",
+      "old_plain_chars": 336,
+      "new_plain_chars": 290
+    },
+    {
+      "id": "nutrition-015",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "想让餐后血糖更平稳，先改主食份量和饮料，再用轻走打断久坐",
+      "title": "餐后控糖先管饭量和饮料，饭后别一直坐",
+      "old_plain_chars": 774,
+      "new_plain_chars": 517
+    },
+    {
+      "id": "nutrition-016",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "担心血糖先做正规筛查，别靠手表或一条动态曲线自诊",
+      "title": "担心血糖做正规筛查，消费手表曲线不能自诊",
+      "old_plain_chars": 948,
+      "new_plain_chars": 527
+    },
+    {
+      "id": "nutrition-020",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "想判断该不该减重，先量腰围、算BMI，别凭体脂秤一次读数下结论",
+      "title": "判断是否要减重，先看BMI、腰围和健康风险",
+      "old_plain_chars": 704,
+      "new_plain_chars": 468
+    },
+    {
+      "id": "basics-010",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "需要管理体重先看健康与可持续性，别照抄极低热量代餐或自行买减重药",
+      "title": "体重管理先定健康目标，不照抄极端吃法和针剂",
+      "old_plain_chars": 346,
+      "new_plain_chars": 295
+    },
+    {
+      "id": "nutrition-021",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "需要减脂就同时安排吃饭和力量训练，用腰围与体力检验计划，不只盯掉秤",
+      "title": "减脂时保留力量训练，也看腰围和体力是否改善",
+      "old_plain_chars": 616,
+      "new_plain_chars": 484
+    },
+    {
+      "id": "nutrition-022",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "想改善腰腹和线条，练全身并管理总脂肪，别为“练哪瘦哪”或家用冻脂付费",
+      "title": "改善体型先分目标，别信练哪瘦哪或家用冻脂",
+      "old_plain_chars": 579,
+      "new_plain_chars": 385
+    },
+    {
+      "id": "nutrition-023",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "反复暴食、催吐或越减越不敢吃，先停止惩罚性补偿，尽早评估进食问题",
+      "title": "反复暴食催吐或不敢吃，停止补偿并尽早求助",
+      "old_plain_chars": 399,
+      "new_plain_chars": 284
+    },
+    {
+      "id": "nutrition-002",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "想低碳减脂可以比较，但别把严格生酮当人人更优的必选项",
+      "title": "低碳可以选，严格生酮不是人人更优",
+      "old_plain_chars": 527,
+      "new_plain_chars": 406
+    },
+    {
+      "id": "nutrition-003",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "限时进食可当安排餐次的工具，别把越饿越久当成更会减脂",
+      "title": "限时进食看是否好坚持，饿到失控就换吃法",
+      "old_plain_chars": 447,
+      "new_plain_chars": 358
+    },
+    {
+      "id": "nutrition-004",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "别自行长期吃到每天不足800千卡，快速减重方案要把恢复进食也安排好",
+      "title": "每天不足800千卡的减重方案，先接受医疗评估",
+      "old_plain_chars": 472,
+      "new_plain_chars": 402
+    },
+    {
+      "id": "nutrition-008",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "用代餐前先认清是否营养完整，别拿蛋白奶昔或青汁长期替一日三餐",
+      "title": "代餐先看营养是否完整，不拿青汁奶昔替全天",
+      "old_plain_chars": 426,
+      "new_plain_chars": 355
+    },
+    {
+      "id": "nutrition-011",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "想少喝糖可以用无糖饮料替换，别把它追加成长期减脂保健品",
+      "title": "无糖饮料可替甜饮，不是额外喝就能减脂",
+      "old_plain_chars": 409,
+      "new_plain_chars": 294
+    },
+    {
+      "id": "basics-007",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "补剂先说清补什么、为什么补，服药和手术前把整份清单交给医生核对",
+      "title": "补剂先有明确用途，服药手术前带齐清单",
+      "old_plain_chars": 341,
+      "new_plain_chars": 321
+    },
+    {
+      "id": "nutrition-005",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "先算一日蛋白缺口再买蛋白粉，别为练后半小时的倒计时加量",
+      "title": "蛋白粉补实际缺口，不必赶练后半小时",
+      "old_plain_chars": 455,
+      "new_plain_chars": 358
+    },
+    {
+      "id": "nutrition-006",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "有力量训练目标再考虑一水肌酸，别把涨水重当长脂肪或追昂贵变体",
+      "title": "有力量训练再考虑一水肌酸，不追强制冲击期",
+      "old_plain_chars": 580,
+      "new_plain_chars": 442
+    },
+    {
+      "id": "nutrition-007",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "已经吃够完整蛋白时，先别为BCAA和亮氨酸再加一份增肌预算",
+      "title": "完整蛋白吃够了，BCAA不必再加一桶",
+      "old_plain_chars": 483,
+      "new_plain_chars": 338
+    },
+    {
+      "id": "nutrition-009",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "需要减重药时先核健康适应证，再把复查和体重维持一起安排",
+      "title": "减重药用于健康需要，用前约好复查和维持",
+      "old_plain_chars": 723,
+      "new_plain_chars": 574
+    },
+    {
+      "id": "nutrition-017",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "符合减重适应证再选针剂，比较效果优先看直接对照试验",
+      "title": "减重针先看中国适应证，比较效果别跨试验排榜",
+      "old_plain_chars": 1438,
+      "new_plain_chars": 1298
+    },
+    {
+      "id": "nutrition-018",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "用减重药前核禁忌和生育计划，持续腹痛或突然视力丧失立即就医",
+      "title": "减重药先查禁忌生育计划，严重腹痛视力骤降就医",
+      "old_plain_chars": 1443,
+      "new_plain_chars": 1061
+    },
+    {
+      "id": "nutrition-019",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "先查批准制剂再买减重产品，拒绝研究肽和来路不明的分装针",
+      "title": "减重产品认准批准制剂，不买科研肽和分装针",
+      "old_plain_chars": 1236,
+      "new_plain_chars": 818
+    },
+    {
+      "id": "nutrition-010",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "别用燃脂丸、排毒茶和泻药追掉秤，先核它减的是脂肪还是水分",
+      "title": "排毒茶泻药不当减脂，燃脂丸先看成品证据",
+      "old_plain_chars": 418,
+      "new_plain_chars": 324
+    },
+    {
+      "id": "activity-001",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "运动中胸痛或晕倒就停下，别靠手表显示正常或缓过来了继续练",
+      "title": "运动中胸痛或晕倒，立即停下并按急症处理",
+      "old_plain_chars": 466,
+      "new_plain_chars": 351
+    },
+    {
+      "id": "activity-002",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "热天运动先降强度；人变糊涂、走不稳就急救并立刻降温",
+      "title": "热天运动先减量，意识异常立即急救并降温",
+      "old_plain_chars": 470,
+      "new_plain_chars": 370
+    },
+    {
+      "id": "activity-003",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "运动后异常剧痛、明显无力或尿像浓茶，立即排查横纹肌溶解",
+      "title": "练后异常剧痛、无力或茶色尿，立即就医",
+      "old_plain_chars": 478,
+      "new_plain_chars": 380
+    },
+    {
+      "id": "basics-006",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "从能持续的活动开始，再补足有氧和力量；年长者别漏掉平衡训练",
+      "title": "活动从小量开始，有氧、力量和平衡分别安排",
+      "old_plain_chars": 350,
+      "new_plain_chars": 290
+    },
+    {
+      "id": "activity-004",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "先慢走慢跑再提速，结束逐渐放慢；别把硬拉伸当防伤保证",
+      "title": "运动前渐进热身，结束放慢，不靠强拉伸防伤",
+      "old_plain_chars": 426,
+      "new_plain_chars": 287
+    },
+    {
+      "id": "activity-009",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "先把力量动作练稳再加重量，别把每组力竭和昂贵器材当必需",
+      "title": "力量动作练稳再加难度，不必每组都力竭",
+      "old_plain_chars": 577,
+      "new_plain_chars": 325
+    },
+    {
+      "id": "activity-005",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "练后酸痛就下调负荷，别用疼不疼判断有没有练到位",
+      "title": "练后酸痛就调负荷，异常剧痛无力别硬练",
+      "old_plain_chars": 488,
+      "new_plain_chars": 407
+    },
+    {
+      "id": "activity-006",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "短时运动先喝水，持续高强度或大量出汗再考虑运动饮料",
+      "title": "普通短练先喝水，长时高负荷再考虑运动饮料",
+      "old_plain_chars": 615,
+      "new_plain_chars": 417
+    },
+    {
+      "id": "activity-007",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "把手表热量当估计，用体感调整强度；有症状别等设备报警",
+      "title": "手表热量只作估计，身体不适别等报警",
+      "old_plain_chars": 475,
+      "new_plain_chars": 348
+    },
+    {
+      "id": "activity-008",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "别为多减脂强迫自己空腹运动，先保证训练能稳定完成",
+      "title": "空腹训练不保证多减脂，不舒服就调整吃练",
+      "old_plain_chars": 624,
+      "new_plain_chars": 436
+    },
+    {
+      "id": "basics-003",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "疲劳持续数周或影响生活，就带症状和用药记录查原因，别先买一套提神补剂",
+      "title": "疲劳持续数周或影响生活，带记录查原因",
+      "old_plain_chars": 357,
+      "new_plain_chars": 323
+    },
+    {
+      "id": "energy-002",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "轻微活动后隔天明显垮掉、几天缓不过来，先记录并评估，别强加训练量",
+      "title": "轻活动后反复明显加重，先评估，别硬加训练量",
+      "old_plain_chars": 342,
+      "new_plain_chars": 311
+    },
+    {
+      "id": "energy-001",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "提神前算全天咖啡因总量，心悸或失眠就减，不把400mg当必须吃满的额度",
+      "title": "提神先算全天咖啡因，心悸失眠别继续叠加",
+      "old_plain_chars": 408,
+      "new_plain_chars": 352
+    },
+    {
+      "id": "basics-009",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "别为养生开始喝酒或吸电子烟，已经依赖时用正规支持安全减停",
+      "title": "别为养生喝酒吸烟，已有依赖先安全减停",
+      "old_plain_chars": 348,
+      "new_plain_chars": 336
+    },
+    {
+      "id": "basics-008",
+      "read_and_rewritten": true,
+      "source_ids_preserved": true,
+      "original_title": "情绪或注意力持续影响生活就求助，别只靠养生或体检指标解释",
+      "title": "情绪注意力持续受影响就求助，不必等体检异常",
+      "old_plain_chars": 246,
+      "new_plain_chars": 252
+    }
+  ],
+  "original_plain_chars": 144972,
+  "revised_plain_chars": 119525,
+  "clinical_review_status": "not_clinically_reviewed"
+}

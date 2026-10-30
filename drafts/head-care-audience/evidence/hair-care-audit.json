@@ -1,0 +1,79 @@
+{
+  "checked_on": "2026-10-29",
+  "scope": "头发护理造型12条；不含另一代理的头屑/脱发临床条目",
+  "entries": [
+    "hair-001",
+    "hair-003",
+    "hair-004",
+    "hair-005",
+    "hair-006",
+    "hair-007",
+    "hair-008",
+    "hair-009",
+    "hair-011",
+    "hair-012",
+    "hair-013",
+    "hair-014"
+  ],
+  "source_count": 13,
+  "doi_count": 3,
+  "summary_lengths": {
+    "hair-001": 122,
+    "hair-003": 111,
+    "hair-004": 114,
+    "hair-005": 119,
+    "hair-006": 124,
+    "hair-007": 126,
+    "hair-008": 119,
+    "hair-009": 126,
+    "hair-011": 128,
+    "hair-012": 122,
+    "hair-013": 121,
+    "hair-014": 116
+  },
+  "source_graph": "passed; 13 sources all actually cited",
+  "price_policy": "未写金额，所有cost空；购买取舍不冒充经济学比较",
+  "clinical_review_status": "not_clinically_reviewed",
+  "doi_checks": [
+    {
+      "doi": "10.1159/000546651",
+      "authors": "Carvalho RM, Melo DF, Kelati A, Tosti A",
+      "formal_issue": "2025;11(6):586-589",
+      "checked_against": "原刊PDF4页、PubMed索引、原刊目录与作者大学记录；未把2025 online date替代正式期号",
+      "primary_url": "https://karger.com/sad/article-pdf/11/6/586/4383683/000546651.pdf"
+    },
+    {
+      "doi": "10.3390/cosmetics11050150",
+      "authors": "Martins E, Castro P, Ribeiro AB, Pereira CF, Casanova F, Vilarinho R, et al.",
+      "formal_issue": "2024;11(5):150",
+      "checked_against": "原始大学PDF首面8作者与原刊notes，采用前6人et al.",
+      "primary_url": "https://www.mdpi.com/2079-9284/11/5/150/notes"
+    },
+    {
+      "doi": "10.5021/ad.2011.23.4.455",
+      "authors": "Lee Y, Kim YD, Hyun HJ, Pi LQ, Jin X, Lee WS",
+      "formal_issue": "2011;23(4):455-462",
+      "checked_against": "直接PubMed六作者及题名卷页DOI；原文方法讨论相关段",
+      "primary_url": "https://pubmed.ncbi.nlm.nih.gov/22148012/"
+    }
+  ],
+  "important_inference_limits": [
+    "离体发束与毛囊生长、人头临床获益分开",
+    "未把硅油环境限制等同整类产品对人有毒",
+    "不按单个氨基酸或无硫酸盐标签给整瓶配方保证",
+    "K18/Olaplex具体实验不延伸为全品牌/全市场排名",
+    "FDA美国法规不套中国许可；仅取操作及过敏安全",
+    "白发基础问题可评估，不默认所有缺维生素；未承诺减压就复黑",
+    "部分说明是editorial choice，标C而不假装RCT"
+  ],
+  "remaining": [
+    "需要root整合跨单元链接、ordinal、统一Vancouver来源编号",
+    "未临床专业签审，建议独立核药物/急症与从证据到建议边界"
+  ],
+  "reads_not_claimed": [
+    "未重做热损伤实验",
+    "未重算26页修护实验全部图表",
+    "未检索市场全部在售成品及价格",
+    "未声称原PMC验证码页已全文读取；改用原刊PDF或作者大学PDF，读取深度见各source记录"
+  ]
+}

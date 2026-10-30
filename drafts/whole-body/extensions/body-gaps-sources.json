@@ -1,0 +1,57 @@
+[
+  {
+    "id": "GAPS-S01",
+    "citation": "American Academy of Dermatology Association. Hives: Diagnosis and treatment [Internet]. 2026 Jul 13. [cited 2026 Oct 29]. Available from: https://www.aad.org/public/diseases/a-z/hives-treatment",
+    "url": "https://www.aad.org/public/diseases/a-z/hives-treatment",
+    "type": "监管、公共卫生或专业学会原始指导",
+    "support": "荨麻疹急症、抗组胺药轻症和专科选择；持续6周/大面积、症状记录与选择性检查。",
+    "limitations": "机构公众指导，不将其所有器械/新药列表当中国批准或一线方案；未重读所有试验。",
+    "reading_depth": "实际读急症、轻症、6周就诊、诊断检查、抗组胺及页末Last updated。",
+    "content_checked_at": "2026-10-29",
+    "funding_disclosure": "页面明确感谢Sanofi与Regeneron支持，并称内容由AAD独立开发；这一资助关系保留展示，不据此自动否定或提高具体建议。"
+  },
+  {
+    "id": "GAPS-S02",
+    "citation": "Centers for Disease Control and Prevention. Symptoms of scabies [Internet]. 2024 Jan 12. [cited 2026 Oct 29]. Available from: https://www.cdc.gov/scabies/signs-symptoms/index.html",
+    "url": "https://www.cdc.gov/scabies/signs-symptoms/index.html",
+    "type": "监管、公共卫生或专业学会原始指导",
+    "support": "夜间明显瘙痒、常见皮疹部位；无症状仍可传播。",
+    "limitations": "这些症状不能单独确诊疥疮，不把所有合租瘙痒归为螨虫。",
+    "reading_depth": "实际读原页主要症状、常见部位及儿童差异。",
+    "content_checked_at": "2026-10-29",
+    "funding_disclosure": "机构指导；本轮未对其引用的全部试验另作资助审查，机构名称不替代证据质量。"
+  },
+  {
+    "id": "GAPS-S03",
+    "citation": "Centers for Disease Control and Prevention. Treatment of scabies [Internet]. 2024 Jan 12. [cited 2026 Oct 29]. Available from: https://www.cdc.gov/scabies/treatment/index.html",
+    "url": "https://www.cdc.gov/scabies/treatment/index.html",
+    "type": "监管、公共卫生或专业学会原始指导",
+    "support": "杀螨治疗、衣物清洁、不可清洗物封存，持续瘙痒可不等于失败，新疥道/疹复评及不用杀虫喷雾。",
+    "limitations": "不照搬美国处方/非处方分类，不把成人治疗范围与药物套婴幼儿或孕期。",
+    "reading_depth": "实际读Treatment overview、感染与2至4周复评、What not to do段。",
+    "content_checked_at": "2026-10-29",
+    "funding_disclosure": "机构指导；本轮未对其引用的全部试验另作资助审查，机构名称不替代证据质量。"
+  },
+  {
+    "id": "GAPS-S04",
+    "citation": "Centers for Disease Control and Prevention. Preventing scabies [Internet]. 2023 Dec 18. [cited 2026 Oct 29]. Available from: https://www.cdc.gov/scabies/prevention/index.html",
+    "url": "https://www.cdc.gov/scabies/prevention/index.html",
+    "type": "监管、公共卫生或专业学会原始指导",
+    "support": "家庭成员与近接触者同时治疗；治疗前三天衣物寝具处理，不能清洗物封存。",
+    "limitations": "家庭同住/密切接触不等于同楼所有人，仍由接诊者结合暴露安排。",
+    "reading_depth": "实际读原页预防段全部关键点；未套用集体机构额外流程。",
+    "content_checked_at": "2026-10-29",
+    "funding_disclosure": "机构指导；本轮未对其引用的全部试验另作资助审查，机构名称不替代证据质量。"
+  },
+  {
+    "id": "GAPS-S05",
+    "citation": "国家疾病预防控制局综合司; 国家卫生健康委办公厅. 关于印发狂犬病暴露预防处置工作规范（2023年版）的通知 [Internet]. 2023 Sep 16. [cited 2026 Oct 29]. Available from: https://www.ndcpa.gov.cn/jbkzzx/c100012/common/content/content_1706568784078565376.html",
+    "url": "https://www.ndcpa.gov.cn/jbkzzx/c100012/common/content/content_1706568784078565376.html",
+    "type": "监管、公共卫生或专业学会原始指导",
+    "support": "暴露定义分级、约15分钟肥皂水/清水交替冲洗、眼等特殊部位、疫苗与被动免疫、破伤风等评估。",
+    "limitations": "文书署发2023Sep13、网页公布Sep16分开；未输出疫苗/免疫制剂剂量或替个体判级。",
+    "reading_depth": "实际读规范第1至10条原文，特别第7和10条伤口/特殊部位；不声称重核全部免疫程序。",
+    "content_checked_at": "2026-10-29",
+    "funding_disclosure": "机构指导；本轮未对其引用的全部试验另作资助审查，机构名称不替代证据质量。"
+  }
+]

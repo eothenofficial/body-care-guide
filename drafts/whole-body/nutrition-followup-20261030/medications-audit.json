@@ -1,0 +1,106 @@
+{
+  "content_checked_at": "2026-10-30",
+  "scope": "药物专题：三个新增条目及nutrition-009稳定ID替换；不改旧版或共享构建器",
+  "entry_ids": [
+    "nutrition-009",
+    "nutrition-017",
+    "nutrition-018",
+    "nutrition-019"
+  ],
+  "source_count": 12,
+  "status": "independently_reviewed_with_stated_limits_not_clinically_reviewed",
+  "summary_lengths": {
+    "nutrition-009": 121,
+    "nutrition-017": 124,
+    "nutrition-018": 119,
+    "nutrition-019": 119
+  },
+  "claims_checks": [
+    {
+      "claim": "中国一般BMI诊断不能替代具体药品标签",
+      "result": "已分开写，诺和盈30/27，穆峰达和信尔美28/24伴病",
+      "sources": [
+        "NFM-S01",
+        "NFM-S02",
+        "NFM-S03",
+        "NFM-S04"
+      ]
+    },
+    {
+      "claim": "不把其他国家批准当中国批准",
+      "result": "已执行；FDA仅支持质量/剂量风险，明确玛仕度肽在中美批准状态不能混用",
+      "sources": [
+        "NFM-S10"
+      ]
+    },
+    {
+      "claim": "不横向拼贴不同试验平均减重率",
+      "result": "SURMOUNT-5直接对比单独讲；GLORY-1明确不是头对头，给出对象、基线、时间、对照与estimand",
+      "sources": [
+        "NFM-S05",
+        "NFM-S06"
+      ]
+    },
+    {
+      "claim": "先定义陌生术语",
+      "result": "BMI、GLP-1、GIP、MEN2、NAION均给普通读者说明；研究剂量不作处方表"
+    },
+    {
+      "claim": "孕备/禁忌/谨慎人群按成分",
+      "result": "司美至少2个月、玛仕至少3个月均按中国PI；独立复核已确认穆峰达中国PI第19页包含口服激素避孕起始/每次递增后前4周加屏障或改非口服要求，已补正文；不将其套给其他GLP-1药，未生造替尔泊肽统一备孕停药月份。",
+      "sources": [
+        "NFM-S02",
+        "NFM-S03",
+        "NFM-S04"
+      ]
+    },
+    {
+      "claim": "疗效与安全不许承诺100%/200%",
+      "result": "保留人群、剂量、研究局限及未核到标签变化，不声称临床医生审核"
+    }
+  ],
+  "omissions_and_limits": [
+    {
+      "item": "埃诺格鲁肽现行完整中国PI",
+      "handling": "只用厂家原始公告确认先维盈成人体重管理批准，不填写未读到的精确BMI门槛或安全标签。"
+    },
+    {
+      "item": "替尔泊肽2026-09-20版本",
+      "handling": "官方索引可核版本，但链接需HCP登录，未绕过；正文基于公开2025-08-20版，源记录注明局限，当前处方须核现行PI。"
+    },
+    {
+      "item": "诺和盈2026-10储运更新",
+      "handling": "本版读到2026-07-27修改PI，未用次级报道新温度条件，故没有给通用冷链温度/小时数。"
+    },
+    {
+      "item": "STEP1原始主试验",
+      "handling": "已核原始摘要，但为避免疗效信息冗余，本版用SURMOUNT5直接比较及STEP1停药延伸，不添加独立STEP1来源或拼数字。"
+    },
+    {
+      "item": "2026中国体重药物指南",
+      "handling": "官方文章访问405，未把搜索摘要冒充全文；本版使用实际读到国家2024原文与具体更新PI。"
+    },
+    {
+      "item": "瑞他鲁肽全球准入绝对结论",
+      "handling": "厂家动态FAQ列有核查日之后的2026-11-09参考文献，存在日期污染，未纳入source。只写来路不明科研针不能借研究背书。"
+    },
+    {
+      "item": "费用",
+      "handling": "无足够权威稳定价格，四条cost为空，无伪造费用及性价比分档。"
+    }
+  ],
+  "negative_checks": {
+    "no_personal_prescription": true,
+    "no_escalation_schedule": true,
+    "no_image_dependency": true,
+    "no_fake_sources": true,
+    "no_old_cost_quotes": true,
+    "no_published_clinical_review_claim": true
+  },
+  "local_research_evidence": "research-medications目录为公开原始PDF与文本提取，用于内部复核，不应自动打包到读者网页。",
+  "independent_corrections": [
+    "017标题改为优先直接对照试验，修正其他选择错指为019明确链接。",
+    "S03原来源URL漏“量”已修复；其中国PI第19页实际有口服激素避孕四周措施，已落实到018及来源描述。",
+    "S01不确切的2024-10-17降为已确认年份；S05/S06区分线上日及正式期刊日，修GLORY1错误5月29日。"
+  ]
+}

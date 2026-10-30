@@ -1,0 +1,2979 @@
+{
+  "entries": [
+    {
+      "id": "hair-001",
+      "all_original_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "structure": "概念与适用问题→证据和真正影响选择的边界→具体操作；紧急症状先行动",
+      "source_ids_preserved": [
+        "src-4b0aec708320",
+        "src-876a37db3bec"
+      ],
+      "source_ids_lost": [],
+      "original_plain_characters": 355,
+      "revised_plain_characters": 244,
+      "original_plain_numeric_tokens": [],
+      "revised_plain_numeric_tokens": [],
+      "numbers_removed_for_review": [],
+      "numeric_review_resolution": "数字去除引用ID与内部链接编号后逐项对照，无临床数字丢失。",
+      "clinical_claims": "未添加新医学结论；安全条件、关键时间、药物及地区边界在正文或保留字段中。"
+    },
+    {
+      "id": "hair-002",
+      "all_original_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "structure": "概念与适用问题→证据和真正影响选择的边界→具体操作；紧急症状先行动",
+      "source_ids_preserved": [
+        "src-4574ec14ef11",
+        "src-54db6afa46b1",
+        "src-cf43732ec6f3",
+        "src-d550a3cc4a82"
+      ],
+      "source_ids_lost": [],
+      "original_plain_characters": 451,
+      "revised_plain_characters": 316,
+      "original_plain_numeric_tokens": [
+        "2",
+        "4"
+      ],
+      "revised_plain_numeric_tokens": [
+        "2",
+        "4"
+      ],
+      "numbers_removed_for_review": [],
+      "numeric_review_resolution": "数字去除引用ID与内部链接编号后逐项对照，无临床数字丢失。",
+      "clinical_claims": "未添加新医学结论；安全条件、关键时间、药物及地区边界在正文或保留字段中。"
+    },
+    {
+      "id": "hair-003",
+      "all_original_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "structure": "概念与适用问题→证据和真正影响选择的边界→具体操作；紧急症状先行动",
+      "source_ids_preserved": [
+        "src-1b1b16ce52d7",
+        "src-e0e4c7b52a08"
+      ],
+      "source_ids_lost": [],
+      "original_plain_characters": 357,
+      "revised_plain_characters": 258,
+      "original_plain_numeric_tokens": [
+        "2025"
+      ],
+      "revised_plain_numeric_tokens": [
+        "2025"
+      ],
+      "numbers_removed_for_review": [],
+      "numeric_review_resolution": "数字去除引用ID与内部链接编号后逐项对照，无临床数字丢失。",
+      "clinical_claims": "未添加新医学结论；安全条件、关键时间、药物及地区边界在正文或保留字段中。"
+    },
+    {
+      "id": "hair-004",
+      "all_original_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "structure": "概念与适用问题→证据和真正影响选择的边界→具体操作；紧急症状先行动",
+      "source_ids_preserved": [
+        "src-4b0aec708320",
+        "src-e0e4c7b52a08"
+      ],
+      "source_ids_lost": [],
+      "original_plain_characters": 345,
+      "revised_plain_characters": 281,
+      "original_plain_numeric_tokens": [],
+      "revised_plain_numeric_tokens": [],
+      "numbers_removed_for_review": [],
+      "numeric_review_resolution": "数字去除引用ID与内部链接编号后逐项对照，无临床数字丢失。",
+      "clinical_claims": "未添加新医学结论；安全条件、关键时间、药物及地区边界在正文或保留字段中。"
+    },
+    {
+      "id": "hair-005",
+      "all_original_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "structure": "概念与适用问题→证据和真正影响选择的边界→具体操作；紧急症状先行动",
+      "source_ids_preserved": [
+        "src-1aa2c1d3f8e8",
+        "src-1b1b16ce52d7",
+        "src-e0e4c7b52a08"
+      ],
+      "source_ids_lost": [],
+      "original_plain_characters": 352,
+      "revised_plain_characters": 264,
+      "original_plain_numeric_tokens": [],
+      "revised_plain_numeric_tokens": [],
+      "numbers_removed_for_review": [],
+      "numeric_review_resolution": "数字去除引用ID与内部链接编号后逐项对照，无临床数字丢失。",
+      "clinical_claims": "未添加新医学结论；安全条件、关键时间、药物及地区边界在正文或保留字段中。"
+    },
+    {
+      "id": "hair-006",
+      "all_original_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "structure": "概念与适用问题→证据和真正影响选择的边界→具体操作；紧急症状先行动",
+      "source_ids_preserved": [
+        "src-3d820089e631"
+      ],
+      "source_ids_lost": [],
+      "original_plain_characters": 387,
+      "revised_plain_characters": 243,
+      "original_plain_numeric_tokens": [
+        "18",
+        "2024",
+        "3",
+        "9"
+      ],
+      "revised_plain_numeric_tokens": [
+        "18",
+        "2024",
+        "3",
+        "9"
+      ],
+      "numbers_removed_for_review": [],
+      "numeric_review_resolution": "数字去除引用ID与内部链接编号后逐项对照，无临床数字丢失。",
+      "clinical_claims": "未添加新医学结论；安全条件、关键时间、药物及地区边界在正文或保留字段中。"
+    },
+    {
+      "id": "hair-007",
+      "all_original_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "structure": "概念与适用问题→证据和真正影响选择的边界→具体操作；紧急症状先行动",
+      "source_ids_preserved": [
+        "src-7d6882d0df04",
+        "src-876a37db3bec",
+        "src-a4e11ab2d9f2"
+      ],
+      "source_ids_lost": [],
+      "original_plain_characters": 348,
+      "revised_plain_characters": 258,
+      "original_plain_numeric_tokens": [
+        "2011"
+      ],
+      "revised_plain_numeric_tokens": [
+        "2011"
+      ],
+      "numbers_removed_for_review": [],
+      "numeric_review_resolution": "数字去除引用ID与内部链接编号后逐项对照，无临床数字丢失。",
+      "clinical_claims": "未添加新医学结论；安全条件、关键时间、药物及地区边界在正文或保留字段中。"
+    },
+    {
+      "id": "hair-014",
+      "all_original_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "structure": "概念与适用问题→证据和真正影响选择的边界→具体操作；紧急症状先行动",
+      "source_ids_preserved": [
+        "src-4b0aec708320",
+        "src-7d6882d0df04"
+      ],
+      "source_ids_lost": [],
+      "original_plain_characters": 346,
+      "revised_plain_characters": 240,
+      "original_plain_numeric_tokens": [],
+      "revised_plain_numeric_tokens": [],
+      "numbers_removed_for_review": [],
+      "numeric_review_resolution": "数字去除引用ID与内部链接编号后逐项对照，无临床数字丢失。",
+      "clinical_claims": "未添加新医学结论；安全条件、关键时间、药物及地区边界在正文或保留字段中。"
+    },
+    {
+      "id": "hair-008",
+      "all_original_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "structure": "概念与适用问题→证据和真正影响选择的边界→具体操作；紧急症状先行动",
+      "source_ids_preserved": [
+        "src-2bba70a0d7ab",
+        "src-7d6882d0df04",
+        "src-e0e4c7b52a08"
+      ],
+      "source_ids_lost": [],
+      "original_plain_characters": 368,
+      "revised_plain_characters": 262,
+      "original_plain_numeric_tokens": [],
+      "revised_plain_numeric_tokens": [],
+      "numbers_removed_for_review": [],
+      "numeric_review_resolution": "数字去除引用ID与内部链接编号后逐项对照，无临床数字丢失。",
+      "clinical_claims": "未添加新医学结论；安全条件、关键时间、药物及地区边界在正文或保留字段中。"
+    },
+    {
+      "id": "hair-009",
+      "all_original_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "structure": "概念与适用问题→证据和真正影响选择的边界→具体操作；紧急症状先行动",
+      "source_ids_preserved": [
+        "src-2bba70a0d7ab"
+      ],
+      "source_ids_lost": [],
+      "original_plain_characters": 321,
+      "revised_plain_characters": 217,
+      "original_plain_numeric_tokens": [],
+      "revised_plain_numeric_tokens": [],
+      "numbers_removed_for_review": [],
+      "numeric_review_resolution": "数字去除引用ID与内部链接编号后逐项对照，无临床数字丢失。",
+      "clinical_claims": "未添加新医学结论；安全条件、关键时间、药物及地区边界在正文或保留字段中。"
+    },
+    {
+      "id": "hair-011",
+      "all_original_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "structure": "概念与适用问题→证据和真正影响选择的边界→具体操作；紧急症状先行动",
+      "source_ids_preserved": [
+        "src-1aa2c1d3f8e8",
+        "src-b2fbc355d44c",
+        "src-ed35599c5b93"
+      ],
+      "source_ids_lost": [],
+      "original_plain_characters": 377,
+      "revised_plain_characters": 296,
+      "original_plain_numeric_tokens": [],
+      "revised_plain_numeric_tokens": [],
+      "numbers_removed_for_review": [],
+      "numeric_review_resolution": "数字去除引用ID与内部链接编号后逐项对照，无临床数字丢失。",
+      "clinical_claims": "未添加新医学结论；安全条件、关键时间、药物及地区边界在正文或保留字段中。"
+    },
+    {
+      "id": "hair-012",
+      "all_original_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "structure": "概念与适用问题→证据和真正影响选择的边界→具体操作；紧急症状先行动",
+      "source_ids_preserved": [
+        "src-1aa2c1d3f8e8",
+        "src-876a37db3bec",
+        "src-c6c2f5ff42c7",
+        "src-ed35599c5b93"
+      ],
+      "source_ids_lost": [],
+      "original_plain_characters": 401,
+      "revised_plain_characters": 316,
+      "original_plain_numeric_tokens": [],
+      "revised_plain_numeric_tokens": [],
+      "numbers_removed_for_review": [],
+      "numeric_review_resolution": "数字去除引用ID与内部链接编号后逐项对照，无临床数字丢失。",
+      "clinical_claims": "未添加新医学结论；安全条件、关键时间、药物及地区边界在正文或保留字段中。"
+    },
+    {
+      "id": "hair-013",
+      "all_original_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "structure": "概念与适用问题→证据和真正影响选择的边界→具体操作；紧急症状先行动",
+      "source_ids_preserved": [
+        "src-63a534dbb9f1",
+        "src-876a37db3bec"
+      ],
+      "source_ids_lost": [],
+      "original_plain_characters": 338,
+      "revised_plain_characters": 276,
+      "original_plain_numeric_tokens": [],
+      "revised_plain_numeric_tokens": [],
+      "numbers_removed_for_review": [],
+      "numeric_review_resolution": "数字去除引用ID与内部链接编号后逐项对照，无临床数字丢失。",
+      "clinical_claims": "未添加新医学结论；安全条件、关键时间、药物及地区边界在正文或保留字段中。"
+    },
+    {
+      "id": "hair-022",
+      "all_original_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "structure": "概念与适用问题→证据和真正影响选择的边界→具体操作；紧急症状先行动",
+      "source_ids_preserved": [
+        "src-0ba0730934bd",
+        "src-dc64d6dd92c4"
+      ],
+      "source_ids_lost": [],
+      "original_plain_characters": 380,
+      "revised_plain_characters": 287,
+      "original_plain_numeric_tokens": [],
+      "revised_plain_numeric_tokens": [],
+      "numbers_removed_for_review": [],
+      "numeric_review_resolution": "数字去除引用ID与内部链接编号后逐项对照，无临床数字丢失。",
+      "clinical_claims": "未添加新医学结论；安全条件、关键时间、药物及地区边界在正文或保留字段中。"
+    },
+    {
+      "id": "hair-015",
+      "all_original_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "structure": "概念与适用问题→证据和真正影响选择的边界→具体操作；紧急症状先行动",
+      "source_ids_preserved": [
+        "src-3d99aaf742d0",
+        "src-4574ec14ef11",
+        "src-50fb7d3ffa65"
+      ],
+      "source_ids_lost": [],
+      "original_plain_characters": 379,
+      "revised_plain_characters": 288,
+      "original_plain_numeric_tokens": [],
+      "revised_plain_numeric_tokens": [],
+      "numbers_removed_for_review": [],
+      "numeric_review_resolution": "数字去除引用ID与内部链接编号后逐项对照，无临床数字丢失。",
+      "clinical_claims": "未添加新医学结论；安全条件、关键时间、药物及地区边界在正文或保留字段中。"
+    },
+    {
+      "id": "hair-010",
+      "all_original_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "structure": "概念与适用问题→证据和真正影响选择的边界→具体操作；紧急症状先行动",
+      "source_ids_preserved": [
+        "src-50fb7d3ffa65",
+        "src-7b3991a7b698",
+        "src-b635f1757474"
+      ],
+      "source_ids_lost": [],
+      "original_plain_characters": 419,
+      "revised_plain_characters": 334,
+      "original_plain_numeric_tokens": [],
+      "revised_plain_numeric_tokens": [],
+      "numbers_removed_for_review": [],
+      "numeric_review_resolution": "数字去除引用ID与内部链接编号后逐项对照，无临床数字丢失。",
+      "clinical_claims": "未添加新医学结论；安全条件、关键时间、药物及地区边界在正文或保留字段中。"
+    },
+    {
+      "id": "hair-016",
+      "all_original_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "structure": "概念与适用问题→证据和真正影响选择的边界→具体操作；紧急症状先行动",
+      "source_ids_preserved": [
+        "src-3f1a95b04590",
+        "src-a56726a3c1bf",
+        "src-b635f1757474"
+      ],
+      "source_ids_lost": [],
+      "original_plain_characters": 456,
+      "revised_plain_characters": 352,
+      "original_plain_numeric_tokens": [],
+      "revised_plain_numeric_tokens": [],
+      "numbers_removed_for_review": [],
+      "numeric_review_resolution": "数字去除引用ID与内部链接编号后逐项对照，无临床数字丢失。",
+      "clinical_claims": "未添加新医学结论；安全条件、关键时间、药物及地区边界在正文或保留字段中。"
+    },
+    {
+      "id": "hair-017",
+      "all_original_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "structure": "概念与适用问题→证据和真正影响选择的边界→具体操作；紧急症状先行动",
+      "source_ids_preserved": [
+        "src-2e79ed0571d3",
+        "src-a12363490bfe",
+        "src-a56726a3c1bf",
+        "src-b635f1757474"
+      ],
+      "source_ids_lost": [],
+      "original_plain_characters": 426,
+      "revised_plain_characters": 329,
+      "original_plain_numeric_tokens": [
+        "12",
+        "6"
+      ],
+      "revised_plain_numeric_tokens": [
+        "12",
+        "6"
+      ],
+      "numbers_removed_for_review": [],
+      "numeric_review_resolution": "数字去除引用ID与内部链接编号后逐项对照，无临床数字丢失。",
+      "clinical_claims": "未添加新医学结论；安全条件、关键时间、药物及地区边界在正文或保留字段中。"
+    },
+    {
+      "id": "hair-018",
+      "all_original_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "structure": "概念与适用问题→证据和真正影响选择的边界→具体操作；紧急症状先行动",
+      "source_ids_preserved": [
+        "src-193e875b7859",
+        "src-1dac04946541",
+        "src-6005d0195746",
+        "src-c1c926caa9e8",
+        "src-c945a5fbe771"
+      ],
+      "source_ids_lost": [],
+      "original_plain_characters": 473,
+      "revised_plain_characters": 359,
+      "original_plain_numeric_tokens": [
+        "1",
+        "2025",
+        "2026"
+      ],
+      "revised_plain_numeric_tokens": [
+        "1",
+        "2025",
+        "2026"
+      ],
+      "numbers_removed_for_review": [],
+      "numeric_review_resolution": "数字去除引用ID与内部链接编号后逐项对照，无临床数字丢失。",
+      "clinical_claims": "未添加新医学结论；安全条件、关键时间、药物及地区边界在正文或保留字段中。"
+    },
+    {
+      "id": "hair-019",
+      "all_original_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "structure": "概念与适用问题→证据和真正影响选择的边界→具体操作；紧急症状先行动",
+      "source_ids_preserved": [
+        "src-0fbd7a870190",
+        "src-3d4556799ca5",
+        "src-6bd05502cdec"
+      ],
+      "source_ids_lost": [],
+      "original_plain_characters": 444,
+      "revised_plain_characters": 299,
+      "original_plain_numeric_tokens": [
+        "24",
+        "90"
+      ],
+      "revised_plain_numeric_tokens": [
+        "24",
+        "90"
+      ],
+      "numbers_removed_for_review": [],
+      "numeric_review_resolution": "数字去除引用ID与内部链接编号后逐项对照，无临床数字丢失。",
+      "clinical_claims": "未添加新医学结论；安全条件、关键时间、药物及地区边界在正文或保留字段中。"
+    },
+    {
+      "id": "hair-020",
+      "all_original_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "structure": "概念与适用问题→证据和真正影响选择的边界→具体操作；紧急症状先行动",
+      "source_ids_preserved": [
+        "src-50fb7d3ffa65",
+        "src-7b3991a7b698",
+        "src-baf4f02e46f3",
+        "src-bd48601c4e85"
+      ],
+      "source_ids_lost": [],
+      "original_plain_characters": 408,
+      "revised_plain_characters": 303,
+      "original_plain_numeric_tokens": [
+        "7"
+      ],
+      "revised_plain_numeric_tokens": [
+        "7"
+      ],
+      "numbers_removed_for_review": [],
+      "numeric_review_resolution": "数字去除引用ID与内部链接编号后逐项对照，无临床数字丢失。",
+      "clinical_claims": "未添加新医学结论；安全条件、关键时间、药物及地区边界在正文或保留字段中。"
+    },
+    {
+      "id": "hair-021",
+      "all_original_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "structure": "概念与适用问题→证据和真正影响选择的边界→具体操作；紧急症状先行动",
+      "source_ids_preserved": [
+        "src-17f7161a0e5f",
+        "src-8151f320d39a"
+      ],
+      "source_ids_lost": [],
+      "original_plain_characters": 426,
+      "revised_plain_characters": 288,
+      "original_plain_numeric_tokens": [
+        "2024",
+        "2025"
+      ],
+      "revised_plain_numeric_tokens": [
+        "2024",
+        "2025"
+      ],
+      "numbers_removed_for_review": [],
+      "numeric_review_resolution": "数字去除引用ID与内部链接编号后逐项对照，无临床数字丢失。",
+      "clinical_claims": "未添加新医学结论；安全条件、关键时间、药物及地区边界在正文或保留字段中。"
+    },
+    {
+      "id": "hair-023",
+      "all_original_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "structure": "概念与适用问题→证据和真正影响选择的边界→具体操作；紧急症状先行动",
+      "source_ids_preserved": [
+        "src-50fb7d3ffa65",
+        "src-b04019ee96fa",
+        "src-d87d4df4ec92"
+      ],
+      "source_ids_lost": [],
+      "original_plain_characters": 410,
+      "revised_plain_characters": 286,
+      "original_plain_numeric_tokens": [],
+      "revised_plain_numeric_tokens": [],
+      "numbers_removed_for_review": [],
+      "numeric_review_resolution": "数字去除引用ID与内部链接编号后逐项对照，无临床数字丢失。",
+      "clinical_claims": "未添加新医学结论；安全条件、关键时间、药物及地区边界在正文或保留字段中。"
+    },
+    {
+      "id": "eyes-005",
+      "all_original_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "structure": "概念与适用问题→证据和真正影响选择的边界→具体操作；紧急症状先行动",
+      "source_ids_preserved": [
+        "src-22ced7910425",
+        "src-32d4a2191452",
+        "src-69bfaa3ff171"
+      ],
+      "source_ids_lost": [],
+      "original_plain_characters": 379,
+      "revised_plain_characters": 305,
+      "original_plain_numeric_tokens": [
+        "20"
+      ],
+      "revised_plain_numeric_tokens": [
+        "20"
+      ],
+      "numbers_removed_for_review": [],
+      "numeric_review_resolution": "数字去除引用ID与内部链接编号后逐项对照，无临床数字丢失。",
+      "clinical_claims": "未添加新医学结论；安全条件、关键时间、药物及地区边界在正文或保留字段中。"
+    },
+    {
+      "id": "eyes-013",
+      "all_original_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "structure": "概念与适用问题→证据和真正影响选择的边界→具体操作；紧急症状先行动",
+      "source_ids_preserved": [
+        "src-52d3bcfa76ba",
+        "src-7c0d4e81a5d7",
+        "src-825af03a95e3",
+        "src-b255e614b6c8"
+      ],
+      "source_ids_lost": [],
+      "original_plain_characters": 393,
+      "revised_plain_characters": 317,
+      "original_plain_numeric_tokens": [],
+      "revised_plain_numeric_tokens": [],
+      "numbers_removed_for_review": [],
+      "numeric_review_resolution": "数字去除引用ID与内部链接编号后逐项对照，无临床数字丢失。",
+      "clinical_claims": "未添加新医学结论；安全条件、关键时间、药物及地区边界在正文或保留字段中。"
+    },
+    {
+      "id": "eyes-014",
+      "all_original_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "structure": "概念与适用问题→证据和真正影响选择的边界→具体操作；紧急症状先行动",
+      "source_ids_preserved": [
+        "src-69bfaa3ff171",
+        "src-69ce10a39dad",
+        "src-9acd930a6e72",
+        "src-f0843bc9ef2d"
+      ],
+      "source_ids_lost": [],
+      "original_plain_characters": 413,
+      "revised_plain_characters": 329,
+      "original_plain_numeric_tokens": [],
+      "revised_plain_numeric_tokens": [],
+      "numbers_removed_for_review": [],
+      "numeric_review_resolution": "数字去除引用ID与内部链接编号后逐项对照，无临床数字丢失。",
+      "clinical_claims": "未添加新医学结论；安全条件、关键时间、药物及地区边界在正文或保留字段中。"
+    },
+    {
+      "id": "eyes-006",
+      "all_original_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "structure": "概念与适用问题→证据和真正影响选择的边界→具体操作；紧急症状先行动",
+      "source_ids_preserved": [
+        "src-7c0d4e81a5d7",
+        "src-90f2804c54b5"
+      ],
+      "source_ids_lost": [],
+      "original_plain_characters": 238,
+      "revised_plain_characters": 269,
+      "original_plain_numeric_tokens": [
+        "10",
+        "2",
+        "4",
+        "5"
+      ],
+      "revised_plain_numeric_tokens": [
+        "10",
+        "2",
+        "4",
+        "5"
+      ],
+      "numbers_removed_for_review": [],
+      "numeric_review_resolution": "数字去除引用ID与内部链接编号后逐项对照，无临床数字丢失。",
+      "clinical_claims": "未添加新医学结论；安全条件、关键时间、药物及地区边界在正文或保留字段中。"
+    },
+    {
+      "id": "eyes-023",
+      "all_original_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "structure": "概念与适用问题→证据和真正影响选择的边界→具体操作；紧急症状先行动",
+      "source_ids_preserved": [
+        "src-ed6ee156726c"
+      ],
+      "source_ids_lost": [],
+      "original_plain_characters": 329,
+      "revised_plain_characters": 268,
+      "original_plain_numeric_tokens": [],
+      "revised_plain_numeric_tokens": [],
+      "numbers_removed_for_review": [],
+      "numeric_review_resolution": "数字去除引用ID与内部链接编号后逐项对照，无临床数字丢失。",
+      "clinical_claims": "未添加新医学结论；安全条件、关键时间、药物及地区边界在正文或保留字段中。"
+    },
+    {
+      "id": "eyes-020",
+      "all_original_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "structure": "概念与适用问题→证据和真正影响选择的边界→具体操作；紧急症状先行动",
+      "source_ids_preserved": [
+        "src-73cdf134a043",
+        "src-caa10ae1f660",
+        "src-d9a16612a805",
+        "src-db22121170e5",
+        "src-eba75b857359",
+        "src-f8ba0340f82b"
+      ],
+      "source_ids_lost": [],
+      "original_plain_characters": 394,
+      "revised_plain_characters": 359,
+      "original_plain_numeric_tokens": [
+        "0.5",
+        "1.0",
+        "4.7",
+        "5.0",
+        "500"
+      ],
+      "revised_plain_numeric_tokens": [
+        "0.5",
+        "1.0",
+        "4.7",
+        "5.0",
+        "500"
+      ],
+      "numbers_removed_for_review": [],
+      "numeric_review_resolution": "数字去除引用ID与内部链接编号后逐项对照，无临床数字丢失。",
+      "clinical_claims": "未添加新医学结论；安全条件、关键时间、药物及地区边界在正文或保留字段中。"
+    },
+    {
+      "id": "eyes-001",
+      "all_original_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "structure": "概念与适用问题→证据和真正影响选择的边界→具体操作；紧急症状先行动",
+      "source_ids_preserved": [
+        "src-609e76825b6e",
+        "src-d9a16612a805",
+        "src-db22121170e5"
+      ],
+      "source_ids_lost": [],
+      "original_plain_characters": 288,
+      "revised_plain_characters": 283,
+      "original_plain_numeric_tokens": [],
+      "revised_plain_numeric_tokens": [],
+      "numbers_removed_for_review": [],
+      "numeric_review_resolution": "数字去除引用ID与内部链接编号后逐项对照，无临床数字丢失。",
+      "clinical_claims": "未添加新医学结论；安全条件、关键时间、药物及地区边界在正文或保留字段中。"
+    },
+    {
+      "id": "eyes-021",
+      "all_original_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "structure": "概念与适用问题→证据和真正影响选择的边界→具体操作；紧急症状先行动",
+      "source_ids_preserved": [
+        "src-d9a16612a805",
+        "src-f8ba0340f82b"
+      ],
+      "source_ids_lost": [],
+      "original_plain_characters": 368,
+      "revised_plain_characters": 285,
+      "original_plain_numeric_tokens": [],
+      "revised_plain_numeric_tokens": [],
+      "numbers_removed_for_review": [],
+      "numeric_review_resolution": "数字去除引用ID与内部链接编号后逐项对照，无临床数字丢失。",
+      "clinical_claims": "未添加新医学结论；安全条件、关键时间、药物及地区边界在正文或保留字段中。"
+    },
+    {
+      "id": "eyes-022",
+      "all_original_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "structure": "概念与适用问题→证据和真正影响选择的边界→具体操作；紧急症状先行动",
+      "source_ids_preserved": [
+        "src-109f287b6226",
+        "src-639343c94146",
+        "src-96dd078a6c1a"
+      ],
+      "source_ids_lost": [],
+      "original_plain_characters": 374,
+      "revised_plain_characters": 272,
+      "original_plain_numeric_tokens": [],
+      "revised_plain_numeric_tokens": [],
+      "numbers_removed_for_review": [],
+      "numeric_review_resolution": "数字去除引用ID与内部链接编号后逐项对照，无临床数字丢失。",
+      "clinical_claims": "未添加新医学结论；安全条件、关键时间、药物及地区边界在正文或保留字段中。"
+    },
+    {
+      "id": "eyes-026",
+      "all_original_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "structure": "概念与适用问题→证据和真正影响选择的边界→具体操作；紧急症状先行动",
+      "source_ids_preserved": [
+        "src-73cdf134a043",
+        "src-be82672cc58c"
+      ],
+      "source_ids_lost": [],
+      "original_plain_characters": 371,
+      "revised_plain_characters": 292,
+      "original_plain_numeric_tokens": [
+        "2020"
+      ],
+      "revised_plain_numeric_tokens": [
+        "2020"
+      ],
+      "numbers_removed_for_review": [],
+      "numeric_review_resolution": "数字去除引用ID与内部链接编号后逐项对照，无临床数字丢失。",
+      "clinical_claims": "未添加新医学结论；安全条件、关键时间、药物及地区边界在正文或保留字段中。"
+    },
+    {
+      "id": "eyes-031",
+      "all_original_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "structure": "概念与适用问题→证据和真正影响选择的边界→具体操作；紧急症状先行动",
+      "source_ids_preserved": [
+        "src-5a75f7a51a57",
+        "src-64dd1954f7f1",
+        "src-fc6a2126e796"
+      ],
+      "source_ids_lost": [],
+      "original_plain_characters": 521,
+      "revised_plain_characters": 330,
+      "original_plain_numeric_tokens": [
+        "20",
+        "6"
+      ],
+      "revised_plain_numeric_tokens": [
+        "20",
+        "6"
+      ],
+      "numbers_removed_for_review": [],
+      "numeric_review_resolution": "数字去除引用ID与内部链接编号后逐项对照，无临床数字丢失。",
+      "clinical_claims": "未添加新医学结论；安全条件、关键时间、药物及地区边界在正文或保留字段中。"
+    },
+    {
+      "id": "eyes-032",
+      "all_original_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "structure": "概念与适用问题→证据和真正影响选择的边界→具体操作；紧急症状先行动",
+      "source_ids_preserved": [
+        "src-5a75f7a51a57",
+        "src-609e76825b6e",
+        "src-d9a16612a805"
+      ],
+      "source_ids_lost": [],
+      "original_plain_characters": 547,
+      "revised_plain_characters": 364,
+      "original_plain_numeric_tokens": [],
+      "revised_plain_numeric_tokens": [],
+      "numbers_removed_for_review": [],
+      "numeric_review_resolution": "数字去除引用ID与内部链接编号后逐项对照，无临床数字丢失。",
+      "clinical_claims": "未添加新医学结论；安全条件、关键时间、药物及地区边界在正文或保留字段中。"
+    },
+    {
+      "id": "eyes-024",
+      "all_original_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "structure": "概念与适用问题→证据和真正影响选择的边界→具体操作；紧急症状先行动",
+      "source_ids_preserved": [
+        "src-f6af6a282862"
+      ],
+      "source_ids_lost": [],
+      "original_plain_characters": 368,
+      "revised_plain_characters": 266,
+      "original_plain_numeric_tokens": [
+        "2023"
+      ],
+      "revised_plain_numeric_tokens": [
+        "2023"
+      ],
+      "numbers_removed_for_review": [],
+      "numeric_review_resolution": "数字去除引用ID与内部链接编号后逐项对照，无临床数字丢失。",
+      "clinical_claims": "未添加新医学结论；安全条件、关键时间、药物及地区边界在正文或保留字段中。"
+    },
+    {
+      "id": "eyes-025",
+      "all_original_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "structure": "概念与适用问题→证据和真正影响选择的边界→具体操作；紧急症状先行动",
+      "source_ids_preserved": [
+        "src-d9a16612a805",
+        "src-f8ba0340f82b",
+        "src-fc6a2126e796"
+      ],
+      "source_ids_lost": [],
+      "original_plain_characters": 418,
+      "revised_plain_characters": 312,
+      "original_plain_numeric_tokens": [
+        "2026",
+        "600"
+      ],
+      "revised_plain_numeric_tokens": [
+        "2026",
+        "600"
+      ],
+      "numbers_removed_for_review": [],
+      "numeric_review_resolution": "数字去除引用ID与内部链接编号后逐项对照，无临床数字丢失。",
+      "clinical_claims": "未添加新医学结论；安全条件、关键时间、药物及地区边界在正文或保留字段中。"
+    },
+    {
+      "id": "eyes-030",
+      "all_original_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "structure": "概念与适用问题→证据和真正影响选择的边界→具体操作；紧急症状先行动",
+      "source_ids_preserved": [
+        "src-609e76825b6e",
+        "src-73cdf134a043",
+        "src-be82672cc58c",
+        "src-d9a16612a805",
+        "src-eba75b857359"
+      ],
+      "source_ids_lost": [],
+      "original_plain_characters": 434,
+      "revised_plain_characters": 308,
+      "original_plain_numeric_tokens": [],
+      "revised_plain_numeric_tokens": [],
+      "numbers_removed_for_review": [],
+      "numeric_review_resolution": "数字去除引用ID与内部链接编号后逐项对照，无临床数字丢失。",
+      "clinical_claims": "未添加新医学结论；安全条件、关键时间、药物及地区边界在正文或保留字段中。"
+    },
+    {
+      "id": "eyes-002",
+      "all_original_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "structure": "概念与适用问题→证据和真正影响选择的边界→具体操作；紧急症状先行动",
+      "source_ids_preserved": [
+        "src-6275979d29e1",
+        "src-b255e614b6c8",
+        "src-db22121170e5"
+      ],
+      "source_ids_lost": [],
+      "original_plain_characters": 265,
+      "revised_plain_characters": 253,
+      "original_plain_numeric_tokens": [],
+      "revised_plain_numeric_tokens": [],
+      "numbers_removed_for_review": [],
+      "numeric_review_resolution": "数字去除引用ID与内部链接编号后逐项对照，无临床数字丢失。",
+      "clinical_claims": "未添加新医学结论；安全条件、关键时间、药物及地区边界在正文或保留字段中。"
+    },
+    {
+      "id": "eyes-007",
+      "all_original_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "structure": "概念与适用问题→证据和真正影响选择的边界→具体操作；紧急症状先行动",
+      "source_ids_preserved": [
+        "src-11f9c67cebe9",
+        "src-1351aae33df7",
+        "src-4aa64ece9e72",
+        "src-52d3bcfa76ba",
+        "src-6275979d29e1",
+        "src-825af03a95e3"
+      ],
+      "source_ids_lost": [],
+      "original_plain_characters": 462,
+      "revised_plain_characters": 388,
+      "original_plain_numeric_tokens": [],
+      "revised_plain_numeric_tokens": [],
+      "numbers_removed_for_review": [],
+      "numeric_review_resolution": "数字去除引用ID与内部链接编号后逐项对照，无临床数字丢失。",
+      "clinical_claims": "未添加新医学结论；安全条件、关键时间、药物及地区边界在正文或保留字段中。"
+    },
+    {
+      "id": "eyes-015",
+      "all_original_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "structure": "概念与适用问题→证据和真正影响选择的边界→具体操作；紧急症状先行动",
+      "source_ids_preserved": [
+        "src-11f9c67cebe9",
+        "src-365a650a6e2f",
+        "src-4aa64ece9e72",
+        "src-537054270e41",
+        "src-5930e79bcb41",
+        "src-6893a3b22344",
+        "src-825af03a95e3"
+      ],
+      "source_ids_lost": [],
+      "original_plain_characters": 437,
+      "revised_plain_characters": 348,
+      "original_plain_numeric_tokens": [
+        "2024",
+        "4",
+        "5"
+      ],
+      "revised_plain_numeric_tokens": [
+        "2024",
+        "4",
+        "5"
+      ],
+      "numbers_removed_for_review": [],
+      "numeric_review_resolution": "数字去除引用ID与内部链接编号后逐项对照，无临床数字丢失。",
+      "clinical_claims": "未添加新医学结论；安全条件、关键时间、药物及地区边界在正文或保留字段中。"
+    },
+    {
+      "id": "eyes-016",
+      "all_original_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "structure": "概念与适用问题→证据和真正影响选择的边界→具体操作；紧急症状先行动",
+      "source_ids_preserved": [
+        "src-9b31044fe73a",
+        "src-bce6253d9313",
+        "src-e2a23124c32c",
+        "src-f0843bc9ef2d"
+      ],
+      "source_ids_lost": [],
+      "original_plain_characters": 458,
+      "revised_plain_characters": 345,
+      "original_plain_numeric_tokens": [
+        "10",
+        "5"
+      ],
+      "revised_plain_numeric_tokens": [
+        "10",
+        "5"
+      ],
+      "numbers_removed_for_review": [],
+      "numeric_review_resolution": "数字去除引用ID与内部链接编号后逐项对照，无临床数字丢失。",
+      "clinical_claims": "未添加新医学结论；安全条件、关键时间、药物及地区边界在正文或保留字段中。"
+    },
+    {
+      "id": "eyes-003",
+      "all_original_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "structure": "概念与适用问题→证据和真正影响选择的边界→具体操作；紧急症状先行动",
+      "source_ids_preserved": [
+        "src-9edafe35e197"
+      ],
+      "source_ids_lost": [],
+      "original_plain_characters": 220,
+      "revised_plain_characters": 213,
+      "original_plain_numeric_tokens": [
+        "17",
+        "2023"
+      ],
+      "revised_plain_numeric_tokens": [
+        "17",
+        "2023"
+      ],
+      "numbers_removed_for_review": [],
+      "numeric_review_resolution": "数字去除引用ID与内部链接编号后逐项对照，无临床数字丢失。",
+      "clinical_claims": "未添加新医学结论；安全条件、关键时间、药物及地区边界在正文或保留字段中。"
+    },
+    {
+      "id": "eyes-004",
+      "all_original_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "structure": "概念与适用问题→证据和真正影响选择的边界→具体操作；紧急症状先行动",
+      "source_ids_preserved": [
+        "src-5d3439c88a0c",
+        "src-f32084c827ef"
+      ],
+      "source_ids_lost": [],
+      "original_plain_characters": 327,
+      "revised_plain_characters": 277,
+      "original_plain_numeric_tokens": [
+        "18",
+        "2",
+        "2025",
+        "6",
+        "60",
+        "65",
+        "70"
+      ],
+      "revised_plain_numeric_tokens": [
+        "18",
+        "2",
+        "2025",
+        "6",
+        "60",
+        "65",
+        "70"
+      ],
+      "numbers_removed_for_review": [],
+      "numeric_review_resolution": "数字去除引用ID与内部链接编号后逐项对照，无临床数字丢失。",
+      "clinical_claims": "未添加新医学结论；安全条件、关键时间、药物及地区边界在正文或保留字段中。"
+    },
+    {
+      "id": "eyes-008",
+      "all_original_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "structure": "概念与适用问题→证据和真正影响选择的边界→具体操作；紧急症状先行动",
+      "source_ids_preserved": [
+        "src-119b6da8cecc",
+        "src-609e76825b6e",
+        "src-859bde34b7d5",
+        "src-887f321d2cd0",
+        "src-8db415075a67",
+        "src-bdd50cd9682b",
+        "src-c5a29c6f3b99",
+        "src-d9a16612a805",
+        "src-db22121170e5",
+        "src-f806e033b961"
+      ],
+      "source_ids_lost": [],
+      "original_plain_characters": 1460,
+      "revised_plain_characters": 742,
+      "original_plain_numeric_tokens": [
+        "1",
+        "2026",
+        "3",
+        "50",
+        "6",
+        "8"
+      ],
+      "revised_plain_numeric_tokens": [
+        "1",
+        "2026",
+        "3",
+        "50",
+        "6",
+        "8"
+      ],
+      "numbers_removed_for_review": [],
+      "numeric_review_resolution": "数字去除引用ID与内部链接编号后逐项对照，无临床数字丢失。",
+      "clinical_claims": "未添加新医学结论；安全条件、关键时间、药物及地区边界在正文或保留字段中。"
+    },
+    {
+      "id": "eyes-009",
+      "all_original_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "structure": "概念与适用问题→证据和真正影响选择的边界→具体操作；紧急症状先行动",
+      "source_ids_preserved": [
+        "src-0dba271b9918",
+        "src-119b6da8cecc",
+        "src-38e670efc1d4",
+        "src-3c35cdf2bde8",
+        "src-403d2a80b863",
+        "src-7591fd76e514"
+      ],
+      "source_ids_lost": [],
+      "original_plain_characters": 368,
+      "revised_plain_characters": 306,
+      "original_plain_numeric_tokens": [],
+      "revised_plain_numeric_tokens": [],
+      "numbers_removed_for_review": [],
+      "numeric_review_resolution": "数字去除引用ID与内部链接编号后逐项对照，无临床数字丢失。",
+      "clinical_claims": "未添加新医学结论；安全条件、关键时间、药物及地区边界在正文或保留字段中。"
+    },
+    {
+      "id": "eyes-010",
+      "all_original_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "structure": "概念与适用问题→证据和真正影响选择的边界→具体操作；紧急症状先行动",
+      "source_ids_preserved": [
+        "src-119b6da8cecc",
+        "src-23f104c31aa7",
+        "src-365a650a6e2f",
+        "src-69bfaa3ff171",
+        "src-fd6b2e291d71"
+      ],
+      "source_ids_lost": [],
+      "original_plain_characters": 304,
+      "revised_plain_characters": 318,
+      "original_plain_numeric_tokens": [],
+      "revised_plain_numeric_tokens": [],
+      "numbers_removed_for_review": [],
+      "numeric_review_resolution": "数字去除引用ID与内部链接编号后逐项对照，无临床数字丢失。",
+      "clinical_claims": "未添加新医学结论；安全条件、关键时间、药物及地区边界在正文或保留字段中。"
+    },
+    {
+      "id": "eyes-027",
+      "all_original_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "structure": "概念与适用问题→证据和真正影响选择的边界→具体操作；紧急症状先行动",
+      "source_ids_preserved": [
+        "src-069966685e9c",
+        "src-3b3739d0bf60",
+        "src-ab1f0d606e3b",
+        "src-cb1f6e79b03c",
+        "src-d9a16612a805"
+      ],
+      "source_ids_lost": [],
+      "original_plain_characters": 622,
+      "revised_plain_characters": 391,
+      "original_plain_numeric_tokens": [
+        "18",
+        "2",
+        "2026",
+        "50"
+      ],
+      "revised_plain_numeric_tokens": [
+        "18",
+        "2",
+        "2026",
+        "50"
+      ],
+      "numbers_removed_for_review": [],
+      "numeric_review_resolution": "数字去除引用ID与内部链接编号后逐项对照，无临床数字丢失。",
+      "clinical_claims": "未添加新医学结论；安全条件、关键时间、药物及地区边界在正文或保留字段中。"
+    },
+    {
+      "id": "eyes-028",
+      "all_original_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "structure": "概念与适用问题→证据和真正影响选择的边界→具体操作；紧急症状先行动",
+      "source_ids_preserved": [
+        "src-64836790cfaa",
+        "src-795d1accff4e",
+        "src-d707c4e24db9"
+      ],
+      "source_ids_lost": [],
+      "original_plain_characters": 397,
+      "revised_plain_characters": 313,
+      "original_plain_numeric_tokens": [],
+      "revised_plain_numeric_tokens": [],
+      "numbers_removed_for_review": [],
+      "numeric_review_resolution": "数字去除引用ID与内部链接编号后逐项对照，无临床数字丢失。",
+      "clinical_claims": "未添加新医学结论；安全条件、关键时间、药物及地区边界在正文或保留字段中。"
+    },
+    {
+      "id": "eyes-029",
+      "all_original_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "structure": "概念与适用问题→证据和真正影响选择的边界→具体操作；紧急症状先行动",
+      "source_ids_preserved": [
+        "src-3b3739d0bf60",
+        "src-795d1accff4e",
+        "src-f6af6a282862"
+      ],
+      "source_ids_lost": [],
+      "original_plain_characters": 395,
+      "revised_plain_characters": 291,
+      "original_plain_numeric_tokens": [
+        "24",
+        "48"
+      ],
+      "revised_plain_numeric_tokens": [
+        "24",
+        "48"
+      ],
+      "numbers_removed_for_review": [],
+      "numeric_review_resolution": "数字去除引用ID与内部链接编号后逐项对照，无临床数字丢失。",
+      "clinical_claims": "未添加新医学结论；安全条件、关键时间、药物及地区边界在正文或保留字段中。"
+    },
+    {
+      "id": "eyes-011",
+      "all_original_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "structure": "概念与适用问题→证据和真正影响选择的边界→具体操作；紧急症状先行动",
+      "source_ids_preserved": [
+        "src-38e670efc1d4",
+        "src-403d2a80b863",
+        "src-69bfaa3ff171",
+        "src-859bde34b7d5"
+      ],
+      "source_ids_lost": [],
+      "original_plain_characters": 275,
+      "revised_plain_characters": 303,
+      "original_plain_numeric_tokens": [],
+      "revised_plain_numeric_tokens": [],
+      "numbers_removed_for_review": [],
+      "numeric_review_resolution": "数字去除引用ID与内部链接编号后逐项对照，无临床数字丢失。",
+      "clinical_claims": "未添加新医学结论；安全条件、关键时间、药物及地区边界在正文或保留字段中。"
+    },
+    {
+      "id": "eyes-012",
+      "all_original_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "structure": "概念与适用问题→证据和真正影响选择的边界→具体操作；紧急症状先行动",
+      "source_ids_preserved": [
+        "src-365a650a6e2f",
+        "src-38e670efc1d4",
+        "src-537054270e41",
+        "src-fd6b2e291d71"
+      ],
+      "source_ids_lost": [],
+      "original_plain_characters": 330,
+      "revised_plain_characters": 336,
+      "original_plain_numeric_tokens": [],
+      "revised_plain_numeric_tokens": [],
+      "numbers_removed_for_review": [],
+      "numeric_review_resolution": "数字去除引用ID与内部链接编号后逐项对照，无临床数字丢失。",
+      "clinical_claims": "未添加新医学结论；安全条件、关键时间、药物及地区边界在正文或保留字段中。"
+    },
+    {
+      "id": "eyes-017",
+      "all_original_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "structure": "概念与适用问题→证据和真正影响选择的边界→具体操作；紧急症状先行动",
+      "source_ids_preserved": [
+        "src-0554b25c495f",
+        "src-22ced7910425",
+        "src-403d2a80b863",
+        "src-534b4d78f8c6",
+        "src-69bfaa3ff171",
+        "src-751d8e2baf7a",
+        "src-a4c2ee5b4665"
+      ],
+      "source_ids_lost": [],
+      "original_plain_characters": 471,
+      "revised_plain_characters": 393,
+      "original_plain_numeric_tokens": [],
+      "revised_plain_numeric_tokens": [],
+      "numbers_removed_for_review": [],
+      "numeric_review_resolution": "数字去除引用ID与内部链接编号后逐项对照，无临床数字丢失。",
+      "clinical_claims": "未添加新医学结论；安全条件、关键时间、药物及地区边界在正文或保留字段中。"
+    },
+    {
+      "id": "eyes-018",
+      "all_original_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "structure": "概念与适用问题→证据和真正影响选择的边界→具体操作；紧急症状先行动",
+      "source_ids_preserved": [
+        "src-22ced7910425",
+        "src-5fde61fd25a3"
+      ],
+      "source_ids_lost": [],
+      "original_plain_characters": 375,
+      "revised_plain_characters": 331,
+      "original_plain_numeric_tokens": [],
+      "revised_plain_numeric_tokens": [],
+      "numbers_removed_for_review": [],
+      "numeric_review_resolution": "数字去除引用ID与内部链接编号后逐项对照，无临床数字丢失。",
+      "clinical_claims": "未添加新医学结论；安全条件、关键时间、药物及地区边界在正文或保留字段中。"
+    },
+    {
+      "id": "eyes-019",
+      "all_original_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "structure": "概念与适用问题→证据和真正影响选择的边界→具体操作；紧急症状先行动",
+      "source_ids_preserved": [
+        "src-69ce10a39dad"
+      ],
+      "source_ids_lost": [],
+      "original_plain_characters": 289,
+      "revised_plain_characters": 228,
+      "original_plain_numeric_tokens": [],
+      "revised_plain_numeric_tokens": [],
+      "numbers_removed_for_review": [],
+      "numeric_review_resolution": "数字去除引用ID与内部链接编号后逐项对照，无临床数字丢失。",
+      "clinical_claims": "未添加新医学结论；安全条件、关键时间、药物及地区边界在正文或保留字段中。"
+    },
+    {
+      "id": "nose-001",
+      "all_original_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "structure": "概念与适用问题→证据和真正影响选择的边界→具体操作；紧急症状先行动",
+      "source_ids_preserved": [
+        "src-f3d503db7ee2"
+      ],
+      "source_ids_lost": [],
+      "original_plain_characters": 248,
+      "revised_plain_characters": 210,
+      "original_plain_numeric_tokens": [],
+      "revised_plain_numeric_tokens": [],
+      "numbers_removed_for_review": [],
+      "numeric_review_resolution": "数字去除引用ID与内部链接编号后逐项对照，无临床数字丢失。",
+      "clinical_claims": "未添加新医学结论；安全条件、关键时间、药物及地区边界在正文或保留字段中。"
+    },
+    {
+      "id": "nose-002",
+      "all_original_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "structure": "概念与适用问题→证据和真正影响选择的边界→具体操作；紧急症状先行动",
+      "source_ids_preserved": [
+        "src-bf4065d908cf",
+        "src-df74ff5ddc06"
+      ],
+      "source_ids_lost": [],
+      "original_plain_characters": 274,
+      "revised_plain_characters": 287,
+      "original_plain_numeric_tokens": [],
+      "revised_plain_numeric_tokens": [],
+      "numbers_removed_for_review": [],
+      "numeric_review_resolution": "数字去除引用ID与内部链接编号后逐项对照，无临床数字丢失。",
+      "clinical_claims": "未添加新医学结论；安全条件、关键时间、药物及地区边界在正文或保留字段中。"
+    },
+    {
+      "id": "nose-005",
+      "all_original_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "structure": "概念与适用问题→证据和真正影响选择的边界→具体操作；紧急症状先行动",
+      "source_ids_preserved": [
+        "src-a60202749f6e",
+        "src-b782761a3e9f",
+        "src-d9f2c909233d"
+      ],
+      "source_ids_lost": [],
+      "original_plain_characters": 346,
+      "revised_plain_characters": 345,
+      "original_plain_numeric_tokens": [],
+      "revised_plain_numeric_tokens": [],
+      "numbers_removed_for_review": [],
+      "numeric_review_resolution": "数字去除引用ID与内部链接编号后逐项对照，无临床数字丢失。",
+      "clinical_claims": "未添加新医学结论；安全条件、关键时间、药物及地区边界在正文或保留字段中。"
+    },
+    {
+      "id": "nose-007",
+      "all_original_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "structure": "概念与适用问题→证据和真正影响选择的边界→具体操作；紧急症状先行动",
+      "source_ids_preserved": [
+        "src-29f0e1abfeba",
+        "src-5a60799c8ff2",
+        "src-a60202749f6e",
+        "src-be014ed248fb",
+        "src-f7b3e53cd6b5"
+      ],
+      "source_ids_lost": [],
+      "original_plain_characters": 462,
+      "revised_plain_characters": 356,
+      "original_plain_numeric_tokens": [
+        "5"
+      ],
+      "revised_plain_numeric_tokens": [
+        "5"
+      ],
+      "numbers_removed_for_review": [],
+      "numeric_review_resolution": "数字去除引用ID与内部链接编号后逐项对照，无临床数字丢失。",
+      "clinical_claims": "未添加新医学结论；安全条件、关键时间、药物及地区边界在正文或保留字段中。"
+    },
+    {
+      "id": "nose-004",
+      "all_original_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "structure": "概念与适用问题→证据和真正影响选择的边界→具体操作；紧急症状先行动",
+      "source_ids_preserved": [
+        "src-3a8a17f3f7b9",
+        "src-3f4c05fb6407",
+        "src-ec241335bde7"
+      ],
+      "source_ids_lost": [],
+      "original_plain_characters": 455,
+      "revised_plain_characters": 345,
+      "original_plain_numeric_tokens": [
+        "1",
+        "2000",
+        "3"
+      ],
+      "revised_plain_numeric_tokens": [
+        "1",
+        "2000",
+        "3"
+      ],
+      "numbers_removed_for_review": [],
+      "numeric_review_resolution": "数字去除引用ID与内部链接编号后逐项对照，无临床数字丢失。",
+      "clinical_claims": "未添加新医学结论；安全条件、关键时间、药物及地区边界在正文或保留字段中。"
+    },
+    {
+      "id": "nose-006",
+      "all_original_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "structure": "概念与适用问题→证据和真正影响选择的边界→具体操作；紧急症状先行动",
+      "source_ids_preserved": [
+        "src-bf4065d908cf"
+      ],
+      "source_ids_lost": [],
+      "original_plain_characters": 348,
+      "revised_plain_characters": 257,
+      "original_plain_numeric_tokens": [
+        "10",
+        "15"
+      ],
+      "revised_plain_numeric_tokens": [
+        "10",
+        "15"
+      ],
+      "numbers_removed_for_review": [],
+      "numeric_review_resolution": "数字去除引用ID与内部链接编号后逐项对照，无临床数字丢失。",
+      "clinical_claims": "未添加新医学结论；安全条件、关键时间、药物及地区边界在正文或保留字段中。"
+    },
+    {
+      "id": "nose-008",
+      "all_original_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "structure": "概念与适用问题→证据和真正影响选择的边界→具体操作；紧急症状先行动",
+      "source_ids_preserved": [
+        "src-26e512763414",
+        "src-c0c953c17e77"
+      ],
+      "source_ids_lost": [],
+      "original_plain_characters": 357,
+      "revised_plain_characters": 267,
+      "original_plain_numeric_tokens": [],
+      "revised_plain_numeric_tokens": [],
+      "numbers_removed_for_review": [],
+      "numeric_review_resolution": "数字去除引用ID与内部链接编号后逐项对照，无临床数字丢失。",
+      "clinical_claims": "未添加新医学结论；安全条件、关键时间、药物及地区边界在正文或保留字段中。"
+    },
+    {
+      "id": "nose-003",
+      "all_original_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "structure": "概念与适用问题→证据和真正影响选择的边界→具体操作；紧急症状先行动",
+      "source_ids_preserved": [
+        "src-ff0ec36d15c3"
+      ],
+      "source_ids_lost": [],
+      "original_plain_characters": 280,
+      "revised_plain_characters": 200,
+      "original_plain_numeric_tokens": [],
+      "revised_plain_numeric_tokens": [],
+      "numbers_removed_for_review": [],
+      "numeric_review_resolution": "数字去除引用ID与内部链接编号后逐项对照，无临床数字丢失。",
+      "clinical_claims": "未添加新医学结论；安全条件、关键时间、药物及地区边界在正文或保留字段中。"
+    },
+    {
+      "id": "ears-005",
+      "all_original_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "structure": "概念与适用问题→证据和真正影响选择的边界→具体操作；紧急症状先行动",
+      "source_ids_preserved": [
+        "src-203b5007a601",
+        "src-8ca21b50136b",
+        "src-f35422fb6dd2"
+      ],
+      "source_ids_lost": [],
+      "original_plain_characters": 401,
+      "revised_plain_characters": 300,
+      "original_plain_numeric_tokens": [],
+      "revised_plain_numeric_tokens": [],
+      "numbers_removed_for_review": [],
+      "numeric_review_resolution": "数字去除引用ID与内部链接编号后逐项对照，无临床数字丢失。",
+      "clinical_claims": "未添加新医学结论；安全条件、关键时间、药物及地区边界在正文或保留字段中。"
+    },
+    {
+      "id": "ears-001",
+      "all_original_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "structure": "概念与适用问题→证据和真正影响选择的边界→具体操作；紧急症状先行动",
+      "source_ids_preserved": [
+        "src-1988ad5442b1",
+        "src-28307fd781d9",
+        "src-2ba3d9585781",
+        "src-3cb3e8911982",
+        "src-b3e731577328",
+        "src-f075558cf188"
+      ],
+      "source_ids_lost": [],
+      "original_plain_characters": 533,
+      "revised_plain_characters": 368,
+      "original_plain_numeric_tokens": [],
+      "revised_plain_numeric_tokens": [],
+      "numbers_removed_for_review": [],
+      "numeric_review_resolution": "数字去除引用ID与内部链接编号后逐项对照，无临床数字丢失。",
+      "clinical_claims": "未添加新医学结论；安全条件、关键时间、药物及地区边界在正文或保留字段中。"
+    },
+    {
+      "id": "ears-002",
+      "all_original_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "structure": "概念与适用问题→证据和真正影响选择的边界→具体操作；紧急症状先行动",
+      "source_ids_preserved": [
+        "src-3b66dbde629f",
+        "src-3cb3e8911982",
+        "src-e65afc22ab63"
+      ],
+      "source_ids_lost": [],
+      "original_plain_characters": 382,
+      "revised_plain_characters": 303,
+      "original_plain_numeric_tokens": [],
+      "revised_plain_numeric_tokens": [],
+      "numbers_removed_for_review": [],
+      "numeric_review_resolution": "数字去除引用ID与内部链接编号后逐项对照，无临床数字丢失。",
+      "clinical_claims": "未添加新医学结论；安全条件、关键时间、药物及地区边界在正文或保留字段中。"
+    },
+    {
+      "id": "ears-003",
+      "all_original_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "structure": "概念与适用问题→证据和真正影响选择的边界→具体操作；紧急症状先行动",
+      "source_ids_preserved": [
+        "src-28307fd781d9",
+        "src-f075558cf188"
+      ],
+      "source_ids_lost": [],
+      "original_plain_characters": 385,
+      "revised_plain_characters": 285,
+      "original_plain_numeric_tokens": [],
+      "revised_plain_numeric_tokens": [],
+      "numbers_removed_for_review": [],
+      "numeric_review_resolution": "数字去除引用ID与内部链接编号后逐项对照，无临床数字丢失。",
+      "clinical_claims": "未添加新医学结论；安全条件、关键时间、药物及地区边界在正文或保留字段中。"
+    },
+    {
+      "id": "ears-004",
+      "all_original_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "structure": "概念与适用问题→证据和真正影响选择的边界→具体操作；紧急症状先行动",
+      "source_ids_preserved": [
+        "src-da94ff890c47"
+      ],
+      "source_ids_lost": [],
+      "original_plain_characters": 387,
+      "revised_plain_characters": 270,
+      "original_plain_numeric_tokens": [
+        "4",
+        "40",
+        "60",
+        "80",
+        "90"
+      ],
+      "revised_plain_numeric_tokens": [
+        "4",
+        "40",
+        "60",
+        "80",
+        "90"
+      ],
+      "numbers_removed_for_review": [],
+      "numeric_review_resolution": "数字去除引用ID与内部链接编号后逐项对照，无临床数字丢失。",
+      "clinical_claims": "未添加新医学结论；安全条件、关键时间、药物及地区边界在正文或保留字段中。"
+    },
+    {
+      "id": "ears-006",
+      "all_original_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "structure": "概念与适用问题→证据和真正影响选择的边界→具体操作；紧急症状先行动",
+      "source_ids_preserved": [
+        "src-8ca21b50136b",
+        "src-aa34e94d5459"
+      ],
+      "source_ids_lost": [],
+      "original_plain_characters": 373,
+      "revised_plain_characters": 275,
+      "original_plain_numeric_tokens": [],
+      "revised_plain_numeric_tokens": [],
+      "numbers_removed_for_review": [],
+      "numeric_review_resolution": "数字去除引用ID与内部链接编号后逐项对照，无临床数字丢失。",
+      "clinical_claims": "未添加新医学结论；安全条件、关键时间、药物及地区边界在正文或保留字段中。"
+    },
+    {
+      "id": "ears-007",
+      "all_original_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "structure": "概念与适用问题→证据和真正影响选择的边界→具体操作；紧急症状先行动",
+      "source_ids_preserved": [
+        "src-64bad4870027",
+        "src-85c4c96d5093",
+        "src-f35422fb6dd2"
+      ],
+      "source_ids_lost": [],
+      "original_plain_characters": 383,
+      "revised_plain_characters": 298,
+      "original_plain_numeric_tokens": [],
+      "revised_plain_numeric_tokens": [],
+      "numbers_removed_for_review": [],
+      "numeric_review_resolution": "数字去除引用ID与内部链接编号后逐项对照，无临床数字丢失。",
+      "clinical_claims": "未添加新医学结论；安全条件、关键时间、药物及地区边界在正文或保留字段中。"
+    },
+    {
+      "id": "ears-009",
+      "all_original_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "structure": "概念与适用问题→证据和真正影响选择的边界→具体操作；紧急症状先行动",
+      "source_ids_preserved": [
+        "src-00b41d2d33d1",
+        "src-0cd25bb39e8f",
+        "src-688db5e48bfb",
+        "src-ae70be0aa294",
+        "src-e202b4f61367"
+      ],
+      "source_ids_lost": [],
+      "original_plain_characters": 560,
+      "revised_plain_characters": 318,
+      "original_plain_numeric_tokens": [],
+      "revised_plain_numeric_tokens": [],
+      "numbers_removed_for_review": [],
+      "numeric_review_resolution": "数字去除引用ID与内部链接编号后逐项对照，无临床数字丢失。",
+      "clinical_claims": "未添加新医学结论；安全条件、关键时间、药物及地区边界在正文或保留字段中。"
+    },
+    {
+      "id": "ears-010",
+      "all_original_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "structure": "概念与适用问题→证据和真正影响选择的边界→具体操作；紧急症状先行动",
+      "source_ids_preserved": [
+        "src-0cd25bb39e8f",
+        "src-1456bcacb52e",
+        "src-377dba67a89d",
+        "src-97c8c81cbfcb",
+        "src-e202b4f61367"
+      ],
+      "source_ids_lost": [],
+      "original_plain_characters": 609,
+      "revised_plain_characters": 388,
+      "original_plain_numeric_tokens": [],
+      "revised_plain_numeric_tokens": [],
+      "numbers_removed_for_review": [],
+      "numeric_review_resolution": "数字去除引用ID与内部链接编号后逐项对照，无临床数字丢失。",
+      "clinical_claims": "未添加新医学结论；安全条件、关键时间、药物及地区边界在正文或保留字段中。"
+    },
+    {
+      "id": "ears-008",
+      "all_original_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "structure": "概念与适用问题→证据和真正影响选择的边界→具体操作；紧急症状先行动",
+      "source_ids_preserved": [
+        "src-2ad557e93f9d",
+        "src-377dba67a89d",
+        "src-688db5e48bfb",
+        "src-ae23cc703983"
+      ],
+      "source_ids_lost": [],
+      "original_plain_characters": 453,
+      "revised_plain_characters": 300,
+      "original_plain_numeric_tokens": [],
+      "revised_plain_numeric_tokens": [],
+      "numbers_removed_for_review": [],
+      "numeric_review_resolution": "数字去除引用ID与内部链接编号后逐项对照，无临床数字丢失。",
+      "clinical_claims": "未添加新医学结论；安全条件、关键时间、药物及地区边界在正文或保留字段中。"
+    },
+    {
+      "id": "ears-011",
+      "all_original_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "structure": "概念与适用问题→证据和真正影响选择的边界→具体操作；紧急症状先行动",
+      "source_ids_preserved": [
+        "src-1456bcacb52e",
+        "src-688db5e48bfb",
+        "src-8b208db1d8d0",
+        "src-97c8c81cbfcb",
+        "src-ae23cc703983",
+        "src-ae70be0aa294"
+      ],
+      "source_ids_lost": [],
+      "original_plain_characters": 525,
+      "revised_plain_characters": 353,
+      "original_plain_numeric_tokens": [],
+      "revised_plain_numeric_tokens": [],
+      "numbers_removed_for_review": [],
+      "numeric_review_resolution": "数字去除引用ID与内部链接编号后逐项对照，无临床数字丢失。",
+      "clinical_claims": "未添加新医学结论；安全条件、关键时间、药物及地区边界在正文或保留字段中。"
+    },
+    {
+      "id": "oral-018",
+      "all_original_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "structure": "概念与适用问题→证据和真正影响选择的边界→具体操作；紧急症状先行动",
+      "source_ids_preserved": [
+        "src-ab4a22e25324",
+        "src-eaa8e124341b",
+        "src-f38a661531c7"
+      ],
+      "source_ids_lost": [],
+      "original_plain_characters": 336,
+      "revised_plain_characters": 282,
+      "original_plain_numeric_tokens": [],
+      "revised_plain_numeric_tokens": [],
+      "numbers_removed_for_review": [],
+      "numeric_review_resolution": "数字去除引用ID与内部链接编号后逐项对照，无临床数字丢失。",
+      "clinical_claims": "未添加新医学结论；安全条件、关键时间、药物及地区边界在正文或保留字段中。"
+    },
+    {
+      "id": "oral-013",
+      "all_original_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "structure": "概念与适用问题→证据和真正影响选择的边界→具体操作；紧急症状先行动",
+      "source_ids_preserved": [
+        "src-7cb42c040fc5",
+        "src-974d4894ba58"
+      ],
+      "source_ids_lost": [],
+      "original_plain_characters": 316,
+      "revised_plain_characters": 275,
+      "original_plain_numeric_tokens": [],
+      "revised_plain_numeric_tokens": [],
+      "numbers_removed_for_review": [],
+      "numeric_review_resolution": "数字去除引用ID与内部链接编号后逐项对照，无临床数字丢失。",
+      "clinical_claims": "未添加新医学结论；安全条件、关键时间、药物及地区边界在正文或保留字段中。"
+    },
+    {
+      "id": "oral-007",
+      "all_original_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "structure": "概念与适用问题→证据和真正影响选择的边界→具体操作；紧急症状先行动",
+      "source_ids_preserved": [
+        "src-4cd4a40c831a",
+        "src-9dd9ef480804",
+        "src-af9ba11f018f"
+      ],
+      "source_ids_lost": [],
+      "original_plain_characters": 374,
+      "revised_plain_characters": 297,
+      "original_plain_numeric_tokens": [],
+      "revised_plain_numeric_tokens": [],
+      "numbers_removed_for_review": [],
+      "numeric_review_resolution": "数字去除引用ID与内部链接编号后逐项对照，无临床数字丢失。",
+      "clinical_claims": "未添加新医学结论；安全条件、关键时间、药物及地区边界在正文或保留字段中。"
+    },
+    {
+      "id": "oral-001",
+      "all_original_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "structure": "概念与适用问题→证据和真正影响选择的边界→具体操作；紧急症状先行动",
+      "source_ids_preserved": [
+        "src-7cb42c040fc5",
+        "src-b9b1ccbc54d7",
+        "src-ebf18e8b152c"
+      ],
+      "source_ids_lost": [],
+      "original_plain_characters": 376,
+      "revised_plain_characters": 290,
+      "original_plain_numeric_tokens": [
+        "1350",
+        "1500"
+      ],
+      "revised_plain_numeric_tokens": [
+        "1350",
+        "1500"
+      ],
+      "numbers_removed_for_review": [],
+      "numeric_review_resolution": "数字去除引用ID与内部链接编号后逐项对照，无临床数字丢失。",
+      "clinical_claims": "未添加新医学结论；安全条件、关键时间、药物及地区边界在正文或保留字段中。"
+    },
+    {
+      "id": "oral-002",
+      "all_original_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "structure": "概念与适用问题→证据和真正影响选择的边界→具体操作；紧急症状先行动",
+      "source_ids_preserved": [
+        "src-7625549df643",
+        "src-af9ba11f018f"
+      ],
+      "source_ids_lost": [],
+      "original_plain_characters": 352,
+      "revised_plain_characters": 275,
+      "original_plain_numeric_tokens": [],
+      "revised_plain_numeric_tokens": [],
+      "numbers_removed_for_review": [],
+      "numeric_review_resolution": "数字去除引用ID与内部链接编号后逐项对照，无临床数字丢失。",
+      "clinical_claims": "未添加新医学结论；安全条件、关键时间、药物及地区边界在正文或保留字段中。"
+    },
+    {
+      "id": "oral-003",
+      "all_original_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "structure": "概念与适用问题→证据和真正影响选择的边界→具体操作；紧急症状先行动",
+      "source_ids_preserved": [
+        "src-a65332cac12a",
+        "src-af9ba11f018f",
+        "src-ebf18e8b152c"
+      ],
+      "source_ids_lost": [],
+      "original_plain_characters": 351,
+      "revised_plain_characters": 323,
+      "original_plain_numeric_tokens": [],
+      "revised_plain_numeric_tokens": [],
+      "numbers_removed_for_review": [],
+      "numeric_review_resolution": "数字去除引用ID与内部链接编号后逐项对照，无临床数字丢失。",
+      "clinical_claims": "未添加新医学结论；安全条件、关键时间、药物及地区边界在正文或保留字段中。"
+    },
+    {
+      "id": "oral-004",
+      "all_original_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "structure": "概念与适用问题→证据和真正影响选择的边界→具体操作；紧急症状先行动",
+      "source_ids_preserved": [
+        "src-9dd9ef480804",
+        "src-a65332cac12a",
+        "src-af9ba11f018f"
+      ],
+      "source_ids_lost": [],
+      "original_plain_characters": 331,
+      "revised_plain_characters": 287,
+      "original_plain_numeric_tokens": [],
+      "revised_plain_numeric_tokens": [],
+      "numbers_removed_for_review": [],
+      "numeric_review_resolution": "数字去除引用ID与内部链接编号后逐项对照，无临床数字丢失。",
+      "clinical_claims": "未添加新医学结论；安全条件、关键时间、药物及地区边界在正文或保留字段中。"
+    },
+    {
+      "id": "oral-016",
+      "all_original_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "structure": "概念与适用问题→证据和真正影响选择的边界→具体操作；紧急症状先行动",
+      "source_ids_preserved": [
+        "src-1e0bf2a4f672",
+        "src-7cb42c040fc5"
+      ],
+      "source_ids_lost": [],
+      "original_plain_characters": 321,
+      "revised_plain_characters": 255,
+      "original_plain_numeric_tokens": [],
+      "revised_plain_numeric_tokens": [],
+      "numbers_removed_for_review": [],
+      "numeric_review_resolution": "数字去除引用ID与内部链接编号后逐项对照，无临床数字丢失。",
+      "clinical_claims": "未添加新医学结论；安全条件、关键时间、药物及地区边界在正文或保留字段中。"
+    },
+    {
+      "id": "oral-005",
+      "all_original_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "structure": "概念与适用问题→证据和真正影响选择的边界→具体操作；紧急症状先行动",
+      "source_ids_preserved": [
+        "src-1dbb35a1f8ee",
+        "src-ebf18e8b152c"
+      ],
+      "source_ids_lost": [],
+      "original_plain_characters": 432,
+      "revised_plain_characters": 272,
+      "original_plain_numeric_tokens": [
+        "99.9"
+      ],
+      "revised_plain_numeric_tokens": [],
+      "numbers_removed_for_review": [],
+      "numeric_review_resolution": "原正文临床数字与研究年份保留；仅oral-005删除“杀菌99.9%”广告举例，非治疗阈值、剂量或研究结果。",
+      "clinical_claims": "未添加新医学结论；安全条件、关键时间、药物及地区边界在正文或保留字段中。"
+    },
+    {
+      "id": "oral-006",
+      "all_original_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "structure": "概念与适用问题→证据和真正影响选择的边界→具体操作；紧急症状先行动",
+      "source_ids_preserved": [
+        "src-1dbb35a1f8ee",
+        "src-5a8a71d2ae61",
+        "src-9dd9ef480804"
+      ],
+      "source_ids_lost": [],
+      "original_plain_characters": 331,
+      "revised_plain_characters": 261,
+      "original_plain_numeric_tokens": [],
+      "revised_plain_numeric_tokens": [],
+      "numbers_removed_for_review": [],
+      "numeric_review_resolution": "数字去除引用ID与内部链接编号后逐项对照，无临床数字丢失。",
+      "clinical_claims": "未添加新医学结论；安全条件、关键时间、药物及地区边界在正文或保留字段中。"
+    },
+    {
+      "id": "oral-019",
+      "all_original_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "structure": "概念与适用问题→证据和真正影响选择的边界→具体操作；紧急症状先行动",
+      "source_ids_preserved": [
+        "src-1c8d4431b468",
+        "src-8b00eea2c367",
+        "src-8fae155a5231",
+        "src-9add75dd2173",
+        "src-a73a7dcb08d2"
+      ],
+      "source_ids_lost": [],
+      "original_plain_characters": 468,
+      "revised_plain_characters": 314,
+      "original_plain_numeric_tokens": [],
+      "revised_plain_numeric_tokens": [],
+      "numbers_removed_for_review": [],
+      "numeric_review_resolution": "数字去除引用ID与内部链接编号后逐项对照，无临床数字丢失。",
+      "clinical_claims": "未添加新医学结论；安全条件、关键时间、药物及地区边界在正文或保留字段中。"
+    },
+    {
+      "id": "oral-020",
+      "all_original_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "structure": "概念与适用问题→证据和真正影响选择的边界→具体操作；紧急症状先行动",
+      "source_ids_preserved": [
+        "src-3adfe962e801",
+        "src-8b00eea2c367",
+        "src-a73a7dcb08d2",
+        "src-ab1c703d6ada"
+      ],
+      "source_ids_lost": [],
+      "original_plain_characters": 466,
+      "revised_plain_characters": 311,
+      "original_plain_numeric_tokens": [],
+      "revised_plain_numeric_tokens": [],
+      "numbers_removed_for_review": [],
+      "numeric_review_resolution": "数字去除引用ID与内部链接编号后逐项对照，无临床数字丢失。",
+      "clinical_claims": "未添加新医学结论；安全条件、关键时间、药物及地区边界在正文或保留字段中。"
+    },
+    {
+      "id": "oral-021",
+      "all_original_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "structure": "概念与适用问题→证据和真正影响选择的边界→具体操作；紧急症状先行动",
+      "source_ids_preserved": [
+        "src-120d06262ae1",
+        "src-216c8fc06da6",
+        "src-c69d01f0fbbd"
+      ],
+      "source_ids_lost": [],
+      "original_plain_characters": 471,
+      "revised_plain_characters": 307,
+      "original_plain_numeric_tokens": [],
+      "revised_plain_numeric_tokens": [],
+      "numbers_removed_for_review": [],
+      "numeric_review_resolution": "数字去除引用ID与内部链接编号后逐项对照，无临床数字丢失。",
+      "clinical_claims": "未添加新医学结论；安全条件、关键时间、药物及地区边界在正文或保留字段中。"
+    },
+    {
+      "id": "oral-012",
+      "all_original_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "structure": "概念与适用问题→证据和真正影响选择的边界→具体操作；紧急症状先行动",
+      "source_ids_preserved": [
+        "src-3adfe962e801",
+        "src-59615029c84e",
+        "src-c69d01f0fbbd",
+        "src-dcdb4e57b79b",
+        "src-e470445515e4"
+      ],
+      "source_ids_lost": [],
+      "original_plain_characters": 462,
+      "revised_plain_characters": 306,
+      "original_plain_numeric_tokens": [],
+      "revised_plain_numeric_tokens": [],
+      "numbers_removed_for_review": [],
+      "numeric_review_resolution": "数字去除引用ID与内部链接编号后逐项对照，无临床数字丢失。",
+      "clinical_claims": "未添加新医学结论；安全条件、关键时间、药物及地区边界在正文或保留字段中。"
+    },
+    {
+      "id": "oral-009",
+      "all_original_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "structure": "概念与适用问题→证据和真正影响选择的边界→具体操作；紧急症状先行动",
+      "source_ids_preserved": [
+        "src-1e0bf2a4f672",
+        "src-3f0f89610a5c"
+      ],
+      "source_ids_lost": [],
+      "original_plain_characters": 389,
+      "revised_plain_characters": 295,
+      "original_plain_numeric_tokens": [],
+      "revised_plain_numeric_tokens": [],
+      "numbers_removed_for_review": [],
+      "numeric_review_resolution": "数字去除引用ID与内部链接编号后逐项对照，无临床数字丢失。",
+      "clinical_claims": "未添加新医学结论；安全条件、关键时间、药物及地区边界在正文或保留字段中。"
+    },
+    {
+      "id": "oral-010",
+      "all_original_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "structure": "概念与适用问题→证据和真正影响选择的边界→具体操作；紧急症状先行动",
+      "source_ids_preserved": [
+        "src-7846734d48ef"
+      ],
+      "source_ids_lost": [],
+      "original_plain_characters": 352,
+      "revised_plain_characters": 249,
+      "original_plain_numeric_tokens": [],
+      "revised_plain_numeric_tokens": [],
+      "numbers_removed_for_review": [],
+      "numeric_review_resolution": "数字去除引用ID与内部链接编号后逐项对照，无临床数字丢失。",
+      "clinical_claims": "未添加新医学结论；安全条件、关键时间、药物及地区边界在正文或保留字段中。"
+    },
+    {
+      "id": "oral-011",
+      "all_original_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "structure": "概念与适用问题→证据和真正影响选择的边界→具体操作；紧急症状先行动",
+      "source_ids_preserved": [
+        "src-22f767618353"
+      ],
+      "source_ids_lost": [],
+      "original_plain_characters": 361,
+      "revised_plain_characters": 257,
+      "original_plain_numeric_tokens": [],
+      "revised_plain_numeric_tokens": [],
+      "numbers_removed_for_review": [],
+      "numeric_review_resolution": "数字去除引用ID与内部链接编号后逐项对照，无临床数字丢失。",
+      "clinical_claims": "未添加新医学结论；安全条件、关键时间、药物及地区边界在正文或保留字段中。"
+    },
+    {
+      "id": "oral-017",
+      "all_original_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "structure": "概念与适用问题→证据和真正影响选择的边界→具体操作；紧急症状先行动",
+      "source_ids_preserved": [
+        "src-84b0de2a5d02"
+      ],
+      "source_ids_lost": [],
+      "original_plain_characters": 327,
+      "revised_plain_characters": 231,
+      "original_plain_numeric_tokens": [],
+      "revised_plain_numeric_tokens": [],
+      "numbers_removed_for_review": [],
+      "numeric_review_resolution": "数字去除引用ID与内部链接编号后逐项对照，无临床数字丢失。",
+      "clinical_claims": "未添加新医学结论；安全条件、关键时间、药物及地区边界在正文或保留字段中。"
+    },
+    {
+      "id": "oral-022",
+      "all_original_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "structure": "概念与适用问题→证据和真正影响选择的边界→具体操作；紧急症状先行动",
+      "source_ids_preserved": [
+        "src-26ecc5ea1bdf",
+        "src-5d469c643931",
+        "src-7846734d48ef",
+        "src-8f8da67982fa",
+        "src-a95deb662d6b",
+        "src-ea6228dee73d"
+      ],
+      "source_ids_lost": [],
+      "original_plain_characters": 617,
+      "revised_plain_characters": 396,
+      "original_plain_numeric_tokens": [],
+      "revised_plain_numeric_tokens": [],
+      "numbers_removed_for_review": [],
+      "numeric_review_resolution": "数字去除引用ID与内部链接编号后逐项对照，无临床数字丢失。",
+      "clinical_claims": "未添加新医学结论；安全条件、关键时间、药物及地区边界在正文或保留字段中。"
+    },
+    {
+      "id": "oral-023",
+      "all_original_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "structure": "概念与适用问题→证据和真正影响选择的边界→具体操作；紧急症状先行动",
+      "source_ids_preserved": [
+        "src-a2a5b38605e2",
+        "src-b875c87d7771",
+        "src-da563f6b9ac3"
+      ],
+      "source_ids_lost": [],
+      "original_plain_characters": 430,
+      "revised_plain_characters": 318,
+      "original_plain_numeric_tokens": [],
+      "revised_plain_numeric_tokens": [],
+      "numbers_removed_for_review": [],
+      "numeric_review_resolution": "数字去除引用ID与内部链接编号后逐项对照，无临床数字丢失。",
+      "clinical_claims": "未添加新医学结论；安全条件、关键时间、药物及地区边界在正文或保留字段中。"
+    },
+    {
+      "id": "lips-001",
+      "all_original_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "structure": "概念与适用问题→证据和真正影响选择的边界→具体操作；紧急症状先行动",
+      "source_ids_preserved": [
+        "src-61b6ea97dfe1",
+        "src-bb9cd94d3ade"
+      ],
+      "source_ids_lost": [],
+      "original_plain_characters": 291,
+      "revised_plain_characters": 240,
+      "original_plain_numeric_tokens": [],
+      "revised_plain_numeric_tokens": [],
+      "numbers_removed_for_review": [],
+      "numeric_review_resolution": "数字去除引用ID与内部链接编号后逐项对照，无临床数字丢失。",
+      "clinical_claims": "未添加新医学结论；安全条件、关键时间、药物及地区边界在正文或保留字段中。"
+    },
+    {
+      "id": "lips-002",
+      "all_original_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "structure": "概念与适用问题→证据和真正影响选择的边界→具体操作；紧急症状先行动",
+      "source_ids_preserved": [
+        "src-61b6ea97dfe1",
+        "src-bb9cd94d3ade"
+      ],
+      "source_ids_lost": [],
+      "original_plain_characters": 295,
+      "revised_plain_characters": 257,
+      "original_plain_numeric_tokens": [],
+      "revised_plain_numeric_tokens": [],
+      "numbers_removed_for_review": [],
+      "numeric_review_resolution": "数字去除引用ID与内部链接编号后逐项对照，无临床数字丢失。",
+      "clinical_claims": "未添加新医学结论；安全条件、关键时间、药物及地区边界在正文或保留字段中。"
+    },
+    {
+      "id": "lips-003",
+      "all_original_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "structure": "概念与适用问题→证据和真正影响选择的边界→具体操作；紧急症状先行动",
+      "source_ids_preserved": [
+        "src-61b6ea97dfe1",
+        "src-9aa5449bf4c3"
+      ],
+      "source_ids_lost": [],
+      "original_plain_characters": 257,
+      "revised_plain_characters": 270,
+      "original_plain_numeric_tokens": [
+        "30"
+      ],
+      "revised_plain_numeric_tokens": [
+        "30"
+      ],
+      "numbers_removed_for_review": [],
+      "numeric_review_resolution": "数字去除引用ID与内部链接编号后逐项对照，无临床数字丢失。",
+      "clinical_claims": "未添加新医学结论；安全条件、关键时间、药物及地区边界在正文或保留字段中。"
+    },
+    {
+      "id": "lips-004",
+      "all_original_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "structure": "概念与适用问题→证据和真正影响选择的边界→具体操作；紧急症状先行动",
+      "source_ids_preserved": [
+        "src-2ad557e93f9d",
+        "src-61b6ea97dfe1",
+        "src-a1736b66a5e8",
+        "src-bb9cd94d3ade",
+        "src-ee0a69f119ef"
+      ],
+      "source_ids_lost": [],
+      "original_plain_characters": 464,
+      "revised_plain_characters": 341,
+      "original_plain_numeric_tokens": [],
+      "revised_plain_numeric_tokens": [],
+      "numbers_removed_for_review": [],
+      "numeric_review_resolution": "数字去除引用ID与内部链接编号后逐项对照，无临床数字丢失。",
+      "clinical_claims": "未添加新医学结论；安全条件、关键时间、药物及地区边界在正文或保留字段中。"
+    },
+    {
+      "id": "lips-005",
+      "all_original_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "structure": "概念与适用问题→证据和真正影响选择的边界→具体操作；紧急症状先行动",
+      "source_ids_preserved": [
+        "src-12fdfcfe273c",
+        "src-a759cba238b3"
+      ],
+      "source_ids_lost": [],
+      "original_plain_characters": 408,
+      "revised_plain_characters": 351,
+      "original_plain_numeric_tokens": [],
+      "revised_plain_numeric_tokens": [],
+      "numbers_removed_for_review": [],
+      "numeric_review_resolution": "数字去除引用ID与内部链接编号后逐项对照，无临床数字丢失。",
+      "clinical_claims": "未添加新医学结论；安全条件、关键时间、药物及地区边界在正文或保留字段中。"
+    },
+    {
+      "id": "lips-006",
+      "all_original_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "structure": "概念与适用问题→证据和真正影响选择的边界→具体操作；紧急症状先行动",
+      "source_ids_preserved": [
+        "src-a759cba238b3",
+        "src-bb9cd94d3ade",
+        "src-e4d81c765c16"
+      ],
+      "source_ids_lost": [],
+      "original_plain_characters": 368,
+      "revised_plain_characters": 273,
+      "original_plain_numeric_tokens": [],
+      "revised_plain_numeric_tokens": [],
+      "numbers_removed_for_review": [],
+      "numeric_review_resolution": "数字去除引用ID与内部链接编号后逐项对照，无临床数字丢失。",
+      "clinical_claims": "未添加新医学结论；安全条件、关键时间、药物及地区边界在正文或保留字段中。"
+    },
+    {
+      "id": "oral-014",
+      "all_original_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "structure": "概念与适用问题→证据和真正影响选择的边界→具体操作；紧急症状先行动",
+      "source_ids_preserved": [
+        "src-74313a6618e7"
+      ],
+      "source_ids_lost": [],
+      "original_plain_characters": 408,
+      "revised_plain_characters": 271,
+      "original_plain_numeric_tokens": [],
+      "revised_plain_numeric_tokens": [],
+      "numbers_removed_for_review": [],
+      "numeric_review_resolution": "数字去除引用ID与内部链接编号后逐项对照，无临床数字丢失。",
+      "clinical_claims": "未添加新医学结论；安全条件、关键时间、药物及地区边界在正文或保留字段中。"
+    },
+    {
+      "id": "oral-015",
+      "all_original_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "structure": "概念与适用问题→证据和真正影响选择的边界→具体操作；紧急症状先行动",
+      "source_ids_preserved": [
+        "src-1dbb35a1f8ee",
+        "src-d8696ef5e076"
+      ],
+      "source_ids_lost": [],
+      "original_plain_characters": 302,
+      "revised_plain_characters": 265,
+      "original_plain_numeric_tokens": [],
+      "revised_plain_numeric_tokens": [],
+      "numbers_removed_for_review": [],
+      "numeric_review_resolution": "数字去除引用ID与内部链接编号后逐项对照，无临床数字丢失。",
+      "clinical_claims": "未添加新医学结论；安全条件、关键时间、药物及地区边界在正文或保留字段中。"
+    },
+    {
+      "id": "oral-008",
+      "all_original_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "structure": "概念与适用问题→证据和真正影响选择的边界→具体操作；紧急症状先行动",
+      "source_ids_preserved": [
+        "src-47049c8dd20a",
+        "src-7742ce84b95a"
+      ],
+      "source_ids_lost": [],
+      "original_plain_characters": 331,
+      "revised_plain_characters": 267,
+      "original_plain_numeric_tokens": [],
+      "revised_plain_numeric_tokens": [],
+      "numbers_removed_for_review": [],
+      "numeric_review_resolution": "数字去除引用ID与内部链接编号后逐项对照，无临床数字丢失。",
+      "clinical_claims": "未添加新医学结论；安全条件、关键时间、药物及地区边界在正文或保留字段中。"
+    },
+    {
+      "id": "skin-001",
+      "all_original_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "structure": "概念与适用问题→证据和真正影响选择的边界→具体操作；紧急症状先行动",
+      "source_ids_preserved": [
+        "src-070918c1401b",
+        "src-a3bbada7b9da"
+      ],
+      "source_ids_lost": [],
+      "original_plain_characters": 378,
+      "revised_plain_characters": 319,
+      "original_plain_numeric_tokens": [],
+      "revised_plain_numeric_tokens": [],
+      "numbers_removed_for_review": [],
+      "numeric_review_resolution": "数字去除引用ID与内部链接编号后逐项对照，无临床数字丢失。",
+      "clinical_claims": "未添加新医学结论；安全条件、关键时间、药物及地区边界在正文或保留字段中。"
+    },
+    {
+      "id": "skin-002",
+      "all_original_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "structure": "概念与适用问题→证据和真正影响选择的边界→具体操作；紧急症状先行动",
+      "source_ids_preserved": [
+        "src-a3bbada7b9da",
+        "src-e71fb8f4142b",
+        "src-eae5bb19dfbd"
+      ],
+      "source_ids_lost": [],
+      "original_plain_characters": 341,
+      "revised_plain_characters": 255,
+      "original_plain_numeric_tokens": [],
+      "revised_plain_numeric_tokens": [],
+      "numbers_removed_for_review": [],
+      "numeric_review_resolution": "数字去除引用ID与内部链接编号后逐项对照，无临床数字丢失。",
+      "clinical_claims": "未添加新医学结论；安全条件、关键时间、药物及地区边界在正文或保留字段中。"
+    },
+    {
+      "id": "skin-003",
+      "all_original_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "structure": "概念与适用问题→证据和真正影响选择的边界→具体操作；紧急症状先行动",
+      "source_ids_preserved": [
+        "src-402c3fdb5d00",
+        "src-50852e03c5ce",
+        "src-921a56f775de"
+      ],
+      "source_ids_lost": [],
+      "original_plain_characters": 400,
+      "revised_plain_characters": 319,
+      "original_plain_numeric_tokens": [
+        "24",
+        "30",
+        "4.5",
+        "903"
+      ],
+      "revised_plain_numeric_tokens": [
+        "24",
+        "30",
+        "4.5",
+        "903"
+      ],
+      "numbers_removed_for_review": [],
+      "numeric_review_resolution": "数字去除引用ID与内部链接编号后逐项对照，无临床数字丢失。",
+      "clinical_claims": "未添加新医学结论；安全条件、关键时间、药物及地区边界在正文或保留字段中。"
+    },
+    {
+      "id": "skin-004",
+      "all_original_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "structure": "概念与适用问题→证据和真正影响选择的边界→具体操作；紧急症状先行动",
+      "source_ids_preserved": [
+        "src-eee56ee47610"
+      ],
+      "source_ids_lost": [],
+      "original_plain_characters": 337,
+      "revised_plain_characters": 238,
+      "original_plain_numeric_tokens": [],
+      "revised_plain_numeric_tokens": [],
+      "numbers_removed_for_review": [],
+      "numeric_review_resolution": "数字去除引用ID与内部链接编号后逐项对照，无临床数字丢失。",
+      "clinical_claims": "未添加新医学结论；安全条件、关键时间、药物及地区边界在正文或保留字段中。"
+    },
+    {
+      "id": "skin-019",
+      "all_original_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "structure": "概念与适用问题→证据和真正影响选择的边界→具体操作；紧急症状先行动",
+      "source_ids_preserved": [
+        "src-15c0dc14d176",
+        "src-eff991325617"
+      ],
+      "source_ids_lost": [],
+      "original_plain_characters": 383,
+      "revised_plain_characters": 247,
+      "original_plain_numeric_tokens": [],
+      "revised_plain_numeric_tokens": [],
+      "numbers_removed_for_review": [],
+      "numeric_review_resolution": "数字去除引用ID与内部链接编号后逐项对照，无临床数字丢失。",
+      "clinical_claims": "未添加新医学结论；安全条件、关键时间、药物及地区边界在正文或保留字段中。"
+    },
+    {
+      "id": "skin-021",
+      "all_original_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "structure": "概念与适用问题→证据和真正影响选择的边界→具体操作；紧急症状先行动",
+      "source_ids_preserved": [
+        "src-7393f27ca507",
+        "src-93e518e5cdad",
+        "src-9c0b0725f0e6",
+        "src-c87f13b71355"
+      ],
+      "source_ids_lost": [],
+      "original_plain_characters": 513,
+      "revised_plain_characters": 351,
+      "original_plain_numeric_tokens": [
+        "2026",
+        "30"
+      ],
+      "revised_plain_numeric_tokens": [
+        "2026",
+        "30"
+      ],
+      "numbers_removed_for_review": [],
+      "numeric_review_resolution": "数字去除引用ID与内部链接编号后逐项对照，无临床数字丢失。",
+      "clinical_claims": "未添加新医学结论；安全条件、关键时间、药物及地区边界在正文或保留字段中。"
+    },
+    {
+      "id": "skin-005",
+      "all_original_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "structure": "概念与适用问题→证据和真正影响选择的边界→具体操作；紧急症状先行动",
+      "source_ids_preserved": [
+        "src-5981d640f37d",
+        "src-79b4c26dd510",
+        "src-eae5bb19dfbd"
+      ],
+      "source_ids_lost": [],
+      "original_plain_characters": 374,
+      "revised_plain_characters": 301,
+      "original_plain_numeric_tokens": [
+        "10",
+        "7"
+      ],
+      "revised_plain_numeric_tokens": [
+        "10",
+        "7"
+      ],
+      "numbers_removed_for_review": [],
+      "numeric_review_resolution": "数字去除引用ID与内部链接编号后逐项对照，无临床数字丢失。",
+      "clinical_claims": "未添加新医学结论；安全条件、关键时间、药物及地区边界在正文或保留字段中。"
+    },
+    {
+      "id": "skin-006",
+      "all_original_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "structure": "概念与适用问题→证据和真正影响选择的边界→具体操作；紧急症状先行动",
+      "source_ids_preserved": [
+        "src-03ce63419ac6",
+        "src-21a5ffd4f5f3",
+        "src-b74d3c27fdea",
+        "src-df4539370fc4",
+        "src-e71fb8f4142b",
+        "src-f080ab67fe4c"
+      ],
+      "source_ids_lost": [],
+      "original_plain_characters": 506,
+      "revised_plain_characters": 414,
+      "original_plain_numeric_tokens": [
+        "2024",
+        "6",
+        "8"
+      ],
+      "revised_plain_numeric_tokens": [
+        "2024",
+        "6",
+        "8"
+      ],
+      "numbers_removed_for_review": [],
+      "numeric_review_resolution": "数字去除引用ID与内部链接编号后逐项对照，无临床数字丢失。",
+      "clinical_claims": "未添加新医学结论；安全条件、关键时间、药物及地区边界在正文或保留字段中。"
+    },
+    {
+      "id": "skin-018",
+      "all_original_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "structure": "概念与适用问题→证据和真正影响选择的边界→具体操作；紧急症状先行动",
+      "source_ids_preserved": [
+        "src-03ce63419ac6",
+        "src-21a5ffd4f5f3",
+        "src-b74d3c27fdea",
+        "src-df4539370fc4",
+        "src-ff0ec36d15c3"
+      ],
+      "source_ids_lost": [],
+      "original_plain_characters": 454,
+      "revised_plain_characters": 321,
+      "original_plain_numeric_tokens": [],
+      "revised_plain_numeric_tokens": [],
+      "numbers_removed_for_review": [],
+      "numeric_review_resolution": "数字去除引用ID与内部链接编号后逐项对照，无临床数字丢失。",
+      "clinical_claims": "未添加新医学结论；安全条件、关键时间、药物及地区边界在正文或保留字段中。"
+    },
+    {
+      "id": "skin-016",
+      "all_original_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "structure": "概念与适用问题→证据和真正影响选择的边界→具体操作；紧急症状先行动",
+      "source_ids_preserved": [
+        "src-bf5f8f2eb2a3"
+      ],
+      "source_ids_lost": [],
+      "original_plain_characters": 361,
+      "revised_plain_characters": 248,
+      "original_plain_numeric_tokens": [],
+      "revised_plain_numeric_tokens": [],
+      "numbers_removed_for_review": [],
+      "numeric_review_resolution": "数字去除引用ID与内部链接编号后逐项对照，无临床数字丢失。",
+      "clinical_claims": "未添加新医学结论；安全条件、关键时间、药物及地区边界在正文或保留字段中。"
+    },
+    {
+      "id": "skin-017",
+      "all_original_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "structure": "概念与适用问题→证据和真正影响选择的边界→具体操作；紧急症状先行动",
+      "source_ids_preserved": [
+        "src-07e87b7c60f1"
+      ],
+      "source_ids_lost": [],
+      "original_plain_characters": 374,
+      "revised_plain_characters": 249,
+      "original_plain_numeric_tokens": [],
+      "revised_plain_numeric_tokens": [],
+      "numbers_removed_for_review": [],
+      "numeric_review_resolution": "数字去除引用ID与内部链接编号后逐项对照，无临床数字丢失。",
+      "clinical_claims": "未添加新医学结论；安全条件、关键时间、药物及地区边界在正文或保留字段中。"
+    },
+    {
+      "id": "skin-022",
+      "all_original_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "structure": "概念与适用问题→证据和真正影响选择的边界→具体操作；紧急症状先行动",
+      "source_ids_preserved": [
+        "src-5ffaf747f29a",
+        "src-ffd56b4d6eb8"
+      ],
+      "source_ids_lost": [],
+      "original_plain_characters": 414,
+      "revised_plain_characters": 301,
+      "original_plain_numeric_tokens": [],
+      "revised_plain_numeric_tokens": [],
+      "numbers_removed_for_review": [],
+      "numeric_review_resolution": "数字去除引用ID与内部链接编号后逐项对照，无临床数字丢失。",
+      "clinical_claims": "未添加新医学结论；安全条件、关键时间、药物及地区边界在正文或保留字段中。"
+    },
+    {
+      "id": "skin-007",
+      "all_original_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "structure": "概念与适用问题→证据和真正影响选择的边界→具体操作；紧急症状先行动",
+      "source_ids_preserved": [
+        "src-0c5ed59c97f7",
+        "src-143b1d76fe2e"
+      ],
+      "source_ids_lost": [],
+      "original_plain_characters": 441,
+      "revised_plain_characters": 253,
+      "original_plain_numeric_tokens": [],
+      "revised_plain_numeric_tokens": [],
+      "numbers_removed_for_review": [],
+      "numeric_review_resolution": "数字去除引用ID与内部链接编号后逐项对照，无临床数字丢失。",
+      "clinical_claims": "未添加新医学结论；安全条件、关键时间、药物及地区边界在正文或保留字段中。"
+    },
+    {
+      "id": "skin-008",
+      "all_original_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "structure": "概念与适用问题→证据和真正影响选择的边界→具体操作；紧急症状先行动",
+      "source_ids_preserved": [
+        "src-df4539370fc4"
+      ],
+      "source_ids_lost": [],
+      "original_plain_characters": 416,
+      "revised_plain_characters": 290,
+      "original_plain_numeric_tokens": [
+        "2024"
+      ],
+      "revised_plain_numeric_tokens": [
+        "2024"
+      ],
+      "numbers_removed_for_review": [],
+      "numeric_review_resolution": "数字去除引用ID与内部链接编号后逐项对照，无临床数字丢失。",
+      "clinical_claims": "未添加新医学结论；安全条件、关键时间、药物及地区边界在正文或保留字段中。"
+    },
+    {
+      "id": "skin-009",
+      "all_original_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "structure": "概念与适用问题→证据和真正影响选择的边界→具体操作；紧急症状先行动",
+      "source_ids_preserved": [
+        "src-833fa12ed20d"
+      ],
+      "source_ids_lost": [],
+      "original_plain_characters": 363,
+      "revised_plain_characters": 225,
+      "original_plain_numeric_tokens": [
+        "10",
+        "12",
+        "3",
+        "5",
+        "50"
+      ],
+      "revised_plain_numeric_tokens": [
+        "10",
+        "12",
+        "3",
+        "5",
+        "50"
+      ],
+      "numbers_removed_for_review": [],
+      "numeric_review_resolution": "数字去除引用ID与内部链接编号后逐项对照，无临床数字丢失。",
+      "clinical_claims": "未添加新医学结论；安全条件、关键时间、药物及地区边界在正文或保留字段中。"
+    },
+    {
+      "id": "skin-010",
+      "all_original_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "structure": "概念与适用问题→证据和真正影响选择的边界→具体操作；紧急症状先行动",
+      "source_ids_preserved": [
+        "src-03ce63419ac6",
+        "src-21a5ffd4f5f3",
+        "src-85aabad6efa8",
+        "src-a3bbada7b9da",
+        "src-b74d3c27fdea"
+      ],
+      "source_ids_lost": [],
+      "original_plain_characters": 472,
+      "revised_plain_characters": 352,
+      "original_plain_numeric_tokens": [
+        "7"
+      ],
+      "revised_plain_numeric_tokens": [
+        "7"
+      ],
+      "numbers_removed_for_review": [],
+      "numeric_review_resolution": "数字去除引用ID与内部链接编号后逐项对照，无临床数字丢失。",
+      "clinical_claims": "未添加新医学结论；安全条件、关键时间、药物及地区边界在正文或保留字段中。"
+    },
+    {
+      "id": "skin-011",
+      "all_original_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "structure": "概念与适用问题→证据和真正影响选择的边界→具体操作；紧急症状先行动",
+      "source_ids_preserved": [
+        "src-59540982d3a2",
+        "src-eae5bb19dfbd",
+        "src-f201495ba1d3"
+      ],
+      "source_ids_lost": [],
+      "original_plain_characters": 389,
+      "revised_plain_characters": 311,
+      "original_plain_numeric_tokens": [],
+      "revised_plain_numeric_tokens": [],
+      "numbers_removed_for_review": [],
+      "numeric_review_resolution": "数字去除引用ID与内部链接编号后逐项对照，无临床数字丢失。",
+      "clinical_claims": "未添加新医学结论；安全条件、关键时间、药物及地区边界在正文或保留字段中。"
+    },
+    {
+      "id": "skin-012",
+      "all_original_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "structure": "概念与适用问题→证据和真正影响选择的边界→具体操作；紧急症状先行动",
+      "source_ids_preserved": [
+        "src-10394308cc83",
+        "src-5b0c281fb291",
+        "src-df4539370fc4"
+      ],
+      "source_ids_lost": [],
+      "original_plain_characters": 404,
+      "revised_plain_characters": 323,
+      "original_plain_numeric_tokens": [
+        "1474",
+        "2023",
+        "2025",
+        "2026",
+        "23"
+      ],
+      "revised_plain_numeric_tokens": [
+        "1474",
+        "2023",
+        "2025",
+        "2026",
+        "23"
+      ],
+      "numbers_removed_for_review": [],
+      "numeric_review_resolution": "数字去除引用ID与内部链接编号后逐项对照，无临床数字丢失。",
+      "clinical_claims": "未添加新医学结论；安全条件、关键时间、药物及地区边界在正文或保留字段中。"
+    },
+    {
+      "id": "skin-013",
+      "all_original_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "structure": "概念与适用问题→证据和真正影响选择的边界→具体操作；紧急症状先行动",
+      "source_ids_preserved": [
+        "src-4bc578cd41e4"
+      ],
+      "source_ids_lost": [],
+      "original_plain_characters": 331,
+      "revised_plain_characters": 230,
+      "original_plain_numeric_tokens": [],
+      "revised_plain_numeric_tokens": [],
+      "numbers_removed_for_review": [],
+      "numeric_review_resolution": "数字去除引用ID与内部链接编号后逐项对照，无临床数字丢失。",
+      "clinical_claims": "未添加新医学结论；安全条件、关键时间、药物及地区边界在正文或保留字段中。"
+    },
+    {
+      "id": "skin-020",
+      "all_original_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "structure": "概念与适用问题→证据和真正影响选择的边界→具体操作；紧急症状先行动",
+      "source_ids_preserved": [
+        "src-39e9139bfb7c",
+        "src-a3bbada7b9da",
+        "src-e71fb8f4142b"
+      ],
+      "source_ids_lost": [],
+      "original_plain_characters": 387,
+      "revised_plain_characters": 255,
+      "original_plain_numeric_tokens": [
+        "10",
+        "7"
+      ],
+      "revised_plain_numeric_tokens": [
+        "10",
+        "7"
+      ],
+      "numbers_removed_for_review": [],
+      "numeric_review_resolution": "数字去除引用ID与内部链接编号后逐项对照，无临床数字丢失。",
+      "clinical_claims": "未添加新医学结论；安全条件、关键时间、药物及地区边界在正文或保留字段中。"
+    },
+    {
+      "id": "skin-014",
+      "all_original_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "structure": "概念与适用问题→证据和真正影响选择的边界→具体操作；紧急症状先行动",
+      "source_ids_preserved": [
+        "src-24dd19cb2c5e",
+        "src-f18d4f0ebc6b"
+      ],
+      "source_ids_lost": [],
+      "original_plain_characters": 382,
+      "revised_plain_characters": 273,
+      "original_plain_numeric_tokens": [
+        "2025"
+      ],
+      "revised_plain_numeric_tokens": [
+        "2025"
+      ],
+      "numbers_removed_for_review": [],
+      "numeric_review_resolution": "数字去除引用ID与内部链接编号后逐项对照，无临床数字丢失。",
+      "clinical_claims": "未添加新医学结论；安全条件、关键时间、药物及地区边界在正文或保留字段中。"
+    },
+    {
+      "id": "skin-015",
+      "all_original_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "structure": "概念与适用问题→证据和真正影响选择的边界→具体操作；紧急症状先行动",
+      "source_ids_preserved": [
+        "src-b452721696d6",
+        "src-bc9a339683c1",
+        "src-f18d4f0ebc6b"
+      ],
+      "source_ids_lost": [],
+      "original_plain_characters": 450,
+      "revised_plain_characters": 301,
+      "original_plain_numeric_tokens": [],
+      "revised_plain_numeric_tokens": [],
+      "numbers_removed_for_review": [],
+      "numeric_review_resolution": "数字去除引用ID与内部链接编号后逐项对照，无临床数字丢失。",
+      "clinical_claims": "未添加新医学结论；安全条件、关键时间、药物及地区边界在正文或保留字段中。"
+    },
+    {
+      "id": "skin-023",
+      "all_original_fields_read": true,
+      "title_rewritten": true,
+      "summary_rewritten": true,
+      "plain_rewritten": true,
+      "structure": "概念与适用问题→证据和真正影响选择的边界→具体操作；紧急症状先行动",
+      "source_ids_preserved": [
+        "src-b452721696d6",
+        "src-b8f0e38d70f7",
+        "src-b97bc2e1a4c0",
+        "src-d72447be7c54"
+      ],
+      "source_ids_lost": [],
+      "original_plain_characters": 523,
+      "revised_plain_characters": 318,
+      "original_plain_numeric_tokens": [],
+      "revised_plain_numeric_tokens": [],
+      "numbers_removed_for_review": [],
+      "numeric_review_resolution": "数字去除引用ID与内部链接编号后逐项对照，无临床数字丢失。",
+      "clinical_claims": "未添加新医学结论；安全条件、关键时间、药物及地区边界在正文或保留字段中。"
+    }
+  ],
+  "completed": 126,
+  "expected": 126,
+  "clinical_review_status": "not_clinically_reviewed",
+  "status": "complete_all_126_read_and_rewritten",
+  "all_126_entries_have_distinct_authored_rewrites": true,
+  "all_clinical_numeric_token_losses_resolved": true,
+  "merges": [
+    {
+      "target": "eyes-007",
+      "retired": [
+        "eyes-015"
+      ],
+      "same_age_and_sex": true,
+      "original_plain_characters": 899,
+      "merged_plain_characters": 725
+    },
+    {
+      "target": "lips-001",
+      "retired": [
+        "lips-002"
+      ],
+      "same_age_and_sex": true,
+      "original_plain_characters": 586,
+      "merged_plain_characters": 390
+    },
+    {
+      "target": "oral-005",
+      "retired": [
+        "oral-006"
+      ],
+      "same_age_and_sex": true,
+      "original_plain_characters": 763,
+      "merged_plain_characters": 468
+    }
+  ],
+  "rejected_merge": {
+    "target": "skin-018",
+    "retired": "nose-003",
+    "reason": "年龄范围不同；保留鼻篇简明辨别和稳定交叉链接，不扩大青少年标签。"
+  },
+  "reading_limits": [
+    "本轮是表达与证据推导不变的对照编辑，不是重新临床签审或检索全部文献。",
+    "通读全部126条原six fields；医学主张未增加，题录和source IDs保持，未声称重新读每一篇原始研究全文。"
+  ],
+  "output_sha256": {
+    "head-rewrites.json": "342608c0c96a209493a8dbdc3f4c15bbd2c81cdf3d702d57a3ddf2616911892e",
+    "head-merges.json": "7ccf38b307c10cb70c9157fe86f5665bfe5bd7a14b6931098054411e11c597ff"
+  }
+}

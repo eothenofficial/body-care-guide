@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "entries_unchanged": 341,
+  "sources_unchanged": 638,
+  "home_copy_unchanged": true,
+  "aliases_unchanged": true,
+  "approved_png_sha256": "d890492da26ab974b7264ed9627bb9740f89f6b6a663dee28ae37853a0733c8f",
+  "offline_image_byte_exact": true,
+  "svg_xml_valid": true,
+  "browser_observed": {
+    "body_font_px": 15,
+    "brand_background": "transparent",
+    "brand_text_empty": true,
+    "brand_width_px": 35,
+    "portrait_loaded": true,
+    "document_overflow": false,
+    "reading_settings_present": false
+  },
+  "reader_sha256": "d97163c701af8ed5ed5a77962b2a44ce8d6721b7cebcb1aa23bb86523b31464b",
+  "name_and_copy_status": "pending_user_choice",
+  "clinical_content_changed": false
+}

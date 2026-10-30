@@ -1,0 +1,132 @@
+[
+  {
+    "id": "HAIRCARE-S01",
+    "citation": "American Academy of Dermatology Association. Tips for healthy hair [Internet]. 2024 Aug 12 [cited 2026 Oct 29]. Available from: https://www.aad.org/public/everyday-care/hair-scalp-care/hair/healthy-hair-tips",
+    "url": "https://www.aad.org/public/everyday-care/hair-scalp-care/hair/healthy-hair-tips",
+    "type": "专业学会或监管机构原始指导",
+    "support": "按油脏程度和发质选择洗发频率；洗头皮、护发长；温和处理湿发和降低热损伤。",
+    "limitations": "面向不同发质的实践指导，不是中国年轻人所有洗发配方的对照试验；未采用卷曲发2至3周的例子作为大众统一间隔。",
+    "reading_depth": "直接打开完整短页并审读六项建议及页脚日期；不声称重读其全部基础研究。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "HAIRCARE-S02",
+    "citation": "American Academy of Dermatology Association. How to stop damaging your hair [Internet]. [cited 2026 Oct 29]. Available from: https://www.aad.org/public/diseases/hair-loss/insider/stop-damage",
+    "url": "https://www.aad.org/public/diseases/hair-loss/insider/stop-damage",
+    "type": "专业学会或监管机构原始指导",
+    "support": "洗护、梳发、染烫和热造型的减损操作；游泳后冲洗洗护。",
+    "limitations": "实践建议不能转成某种吹风机或护发品防断发百分比；未将其所有固定间隔抄作国内标签规定。",
+    "reading_depth": "直接读原页10类习惯及swimmers段；只取本稿对应动作。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "HAIRCARE-S03",
+    "citation": "Carvalho RM, Melo DF, Kelati A, Tosti A. With or without silicones? A comprehensive review of their role in hair care. Skin Appendage Disord. 2025;11(6):586-589. doi:10.1159/000546651.",
+    "url": "https://karger.com/sad/article-pdf/11/6/586/4383683/000546651.pdf",
+    "type": "配方与发纤维文献综述",
+    "support": "硅类成分成膜、顺滑、摩擦和堆积的配方背景；细软发与受损发取舍。",
+    "limitations": "不是品牌人体疗效排名。检索截至2024年2月；一位作者披露多家企业顾问及期刊编委身份，无特定项目资助。本文未照搬其纳米第四代优先推荐或固定轮换清洁方案。",
+    "reading_depth": "原刊4页PDF实际打开；核读题录、方法、作用与限制、实践指导、利益关系。2025正式11(6):586–589；PubMed页面未完整返回，另以原刊PDF和作者机构题录交核。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "HAIRCARE-S04",
+    "citation": "American Academy of Dermatology Association. Dermatologists’ top tips for using leave-in conditioner [Internet]. 2024 Mar 26 [cited 2026 Oct 29]. Available from: https://www.aad.org/public/everyday-care/hair-scalp-care/hair/leave-in-conditioner-tips/",
+    "url": "https://www.aad.org/public/everyday-care/hair-scalp-care/hair/leave-in-conditioner-tips/",
+    "type": "专业学会或监管机构原始指导",
+    "support": "冲洗型和免洗型区别，按发质和残留选择，少量用于发段，轻配方有助细软发。",
+    "limitations": "专科患者指导；不支持每个人必须同时购买两种，不给任一成品通用防热保证。",
+    "reading_depth": "直接读原页Who can benefit、两种剂型区别和使用步骤；核页脚日期。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "HAIRCARE-S05",
+    "citation": "Martins E, Castro P, Ribeiro AB, Pereira CF, Casanova F, Vilarinho R, et al. Bleached hair as standard template to insight the performance of commercial hair repair products. Cosmetics. 2024;11(5):150. doi:10.3390/cosmetics11050150.",
+    "url": "https://www.mdpi.com/2079-9284/11/5/150",
+    "type": "离体发束实验",
+    "support": "漂白受损发束经特定K18及Olaplex产品单次处理可出现部分表面、结构和物性变化。",
+    "limitations": "9束发、每条件3束，离体、单次、短期。不是人头临床试验，也没有证明洗多次后持久效果或市场全品类胜负；有企业参与的合作资助。",
+    "reading_depth": "直接打开作者大学存档26页PDF https://ciencia.ucp.pt/ws/portalfiles/portal/108144292/108144176.pdf ，重点读首面作者DOI、2.4样本、结果相关段、结论及资助；未逐项重算图表。期刊原页一度429，题录另从原刊notes的8作者及期刊卷期文章号交核。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "HAIRCARE-S06",
+    "citation": "Lee Y, Kim YD, Hyun HJ, Pi LQ, Jin X, Lee WS. Hair shaft damage from heat and drying time of hair dryer. Ann Dermatol. 2011;23(4):455-462. doi:10.5021/ad.2011.23.4.455.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/22148012/",
+    "type": "离体发束实验",
+    "support": "不同距离、热度与干燥方式可造成不同发纤维损伤；不能只凭吹干或自然干的名称排安全。",
+    "limitations": "离体反复处理，非脱发或头皮疾病临床试验；含日化企业实验室作者，不把15cm当所有机型安全阈值，也不据此否定全部自然干燥。",
+    "reading_depth": "直接打开PubMed核六作者、题名、卷期页DOI；原PMC索引提供方法和完整讨论相关段，未声称重评所有显微图。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "HAIRCARE-S07",
+    "citation": "American Academy of Dermatology Association. Hair styling without damage [Internet]. [cited 2026 Oct 29]. Available from: https://www.aad.org/public/diseases/hair-loss/hair-care/styling",
+    "url": "https://www.aad.org/public/diseases/hair-loss/hair-care/styling",
+    "type": "专业学会或监管机构原始指导",
+    "support": "湿发轻处理、减少拉扯、降低热与长效定型后的梳拉；不是靠每天梳100下养发。",
+    "limitations": "属于临床减损指导，不是剪裁或造型产品头对头研究。",
+    "reading_depth": "直接打开原页并读所有造型建议，不复制未用于本文的固定操作频率。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "HAIRCARE-S08",
+    "citation": "American Academy of Dermatology Association. Dry shampoo: Dermatologists’ tips for getting your best results [Internet]. 2024 Mar 26 [cited 2026 Oct 29]. Available from: https://www.aad.org/public/everyday-care/hair-scalp-care/hair/dry-shampoo-best-results",
+    "url": "https://www.aad.org/public/everyday-care/hair-scalp-care/hair/dry-shampoo-best-results",
+    "type": "专业学会或监管机构原始指导",
+    "support": "干洗吸油不等于水洗清洁，少量按标签使用，并恢复常规洗发；刺激时停用。",
+    "limitations": "不根据品牌知名度保证安全，也不把使用一两次后水洗写成所有人的强制医学阈值。",
+    "reading_depth": "直接读完整How to use、适用和刺激处理部分并核页脚日期。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "HAIRCARE-S09",
+    "citation": "American Academy of Dermatology Association. What causes gray hair, and can I stop it? [Internet]. 2024 Dec 19 [cited 2026 Oct 29]. Available from: https://www.aad.org/public/everyday-care/hair-scalp-care/hair/gray-hair-causes",
+    "url": "https://www.aad.org/public/everyday-care/hair-scalp-care/hair/gray-hair-causes",
+    "type": "专业学会或监管机构原始指导",
+    "support": "白发成因和染色外观选择；反复拔除可致稀疏，潜在基础问题需评估。",
+    "limitations": "不使用网页中压力机制直接推出人人减压可以复黑，不宣称补充剂对全部白发有确效。",
+    "reading_depth": "直接读What causes/My hair turned gray及染色/拔发段，核实际更新日。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "HAIRCARE-S10",
+    "citation": "US Food and Drug Administration. Hair dyes [Internet]. [cited 2026 Oct 29]. Available from: https://www.fda.gov/cosmetics/cosmetic-products/hair-dyes",
+    "url": "https://www.fda.gov/cosmetics/cosmetic-products/hair-dyes",
+    "type": "专业学会或监管机构原始指导",
+    "support": "染发每次按标签测试，既往无反应不能保证；头皮受损不染，不延长时间，不用于眉睫。",
+    "limitations": "美国监管与法律不直接当中国许可；标签测试阴性不能保证不过敏，不把FDA说明当具体中国成品疗效认证。",
+    "reading_depth": "直接打开Safety issues及Coal-tar safety checklist，核读重复暴露、阴性仍可过敏和操作警示。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "HAIRCARE-S11",
+    "citation": "US Food and Drug Administration. Hair smoothing products that release formaldehyde when heated [Internet]. [cited 2026 Oct 29]. Available from: https://www.fda.gov/cosmetics/cosmetic-products/hair-smoothing-products-release-formaldehyde-when-heated",
+    "url": "https://www.fda.gov/cosmetics/cosmetic-products/hair-smoothing-products-release-formaldehyde-when-heated",
+    "type": "专业学会或监管机构原始指导",
+    "support": "某些加热顺直产品可释放甲醛；核对具体配方、通风及反应。",
+    "limitations": "不推断所有角蛋白、焗油或拉直项目都含甲醛，不把美国标签法律复制成中国法规，不从危害识别算个人癌症概率。",
+    "reading_depth": "直接读What should consumers know及FDA actions边界；不是仅凭标题。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "HAIRCARE-S12",
+    "citation": "American Academy of Dermatology Association. Must-try summer hair care [Internet]. 2021 Aug 31 [cited 2026 Oct 29]. Available from: https://www.aad.org/public/everyday-care/hair-scalp-care/hair/summer-hair-care",
+    "url": "https://www.aad.org/public/everyday-care/hair-scalp-care/hair/summer-hair-care",
+    "type": "专业学会或监管机构原始指导",
+    "support": "泳帽、泳后冲洗洗护和帽子遮阳等生活场景。",
+    "limitations": "没有直接证明特定泳帽完全防水或某款游泳洗发水优于普通适配配方；本文不把泳前油护作为泳池通用操作要求。",
+    "reading_depth": "直接打开原页并核读保护与泳后洗护段及2021-08-31更新日。仅取稳定的防护动作，未将旧患者教育当最新专用品比较研究。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "HAIRCARE-S13",
+    "citation": "US Food and Drug Administration. Allergens in cosmetics [Internet]. [cited 2026 Oct 29]. Available from: https://www.fda.gov/cosmetics/cosmetic-ingredients/allergens-cosmetics",
+    "url": "https://www.fda.gov/cosmetics/cosmetic-ingredients/allergens-cosmetics",
+    "type": "专业学会或监管机构原始指导",
+    "support": "香料与某些精油可致过敏；脸肿伴呼吸/吞咽困难等严重反应立即求助；专业斑贴与家庭标签测试不同。",
+    "limitations": "只取过敏与求助安全事实，不据此禁用所有香精，不将美国香味标签法律套用中国。",
+    "reading_depth": "直接打开过敏原清单及What consumers can do、Symptoms、Testing段；未猜发布日期。",
+    "content_checked_at": "2026-10-29"
+  }
+]

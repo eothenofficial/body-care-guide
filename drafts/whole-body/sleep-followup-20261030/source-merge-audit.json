@@ -1,0 +1,57 @@
+[
+  {
+    "alias": "SLX-S03",
+    "id": "src-aa0b8292eaef",
+    "reason": "同DOI或规范URL，合并实际核读用途，保留永久来源身份。"
+  },
+  {
+    "alias": "SLX-S04",
+    "id": "src-79bf23ff9e46",
+    "reason": "同DOI或规范URL，合并实际核读用途，保留永久来源身份。"
+  },
+  {
+    "alias": "SLX-S07",
+    "id": "src-715a496c6365",
+    "reason": "同DOI或规范URL，合并实际核读用途，保留永久来源身份。"
+  },
+  {
+    "alias": "SLM-S01",
+    "id": "src-aa0b8292eaef",
+    "reason": "同DOI或规范URL，合并实际核读用途，保留永久来源身份。"
+  },
+  {
+    "alias": "SLS-S01",
+    "id": "src-aa0b8292eaef",
+    "reason": "同DOI或规范URL，合并实际核读用途，保留永久来源身份。"
+  },
+  {
+    "alias": "SLS-S05",
+    "id": "src-9edafe35e197",
+    "reason": "同DOI或规范URL，合并实际核读用途，保留永久来源身份。"
+  },
+  {
+    "alias": "SLS-S07",
+    "id": "src-931850f6c390",
+    "reason": "同DOI或规范URL，合并实际核读用途，保留永久来源身份。"
+  },
+  {
+    "alias": "SLR-S01",
+    "id": "src-aa0b8292eaef",
+    "reason": "同DOI或规范URL，合并实际核读用途，保留永久来源身份。"
+  },
+  {
+    "alias": "SLR-S02",
+    "id": "src-51e32635bdd8",
+    "reason": "同DOI或规范URL，合并实际核读用途，保留永久来源身份。"
+  },
+  {
+    "alias": "SLR-S03",
+    "id": "src-715a496c6365",
+    "reason": "同DOI或规范URL，合并实际核读用途，保留永久来源身份。"
+  },
+  {
+    "alias": "SLR-S06",
+    "id": "src-79bf23ff9e46",
+    "reason": "同DOI或规范URL，合并实际核读用途，保留永久来源身份。"
+  }
+]

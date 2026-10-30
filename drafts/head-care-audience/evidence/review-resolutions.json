@@ -1,0 +1,121 @@
+{
+  "checked_at": "2026-10-29",
+  "clinical_review_status": "not_clinically_reviewed",
+  "status": "all_required_editorial_findings_addressed_not_clinically_reviewed",
+  "changes": [
+    {
+      "entry": "oral-014",
+      "field": "plain",
+      "resolved": "不含月桂醇硫酸酯钠（SLS，也称十二烷基硫酸钠）的牙膏"
+    },
+    {
+      "entry": "oral-006",
+      "field": "plain",
+      "resolved": "按方案使用约一周仍没有改善，或任何时候加重，都联系牙科复评，不为凑完较长疗程而继续等；停用与后续处理按具体指导。"
+    },
+    {
+      "entry": "oral-007",
+      "field": "title",
+      "resolved": "牙龈反复出血别停清洁，检查牙石和牙周炎"
+    },
+    {
+      "entry": "oral-018",
+      "field": "plain",
+      "resolved": "以免灼伤局部组织。[@ORAL-S24][@ORAL-ADD-01]"
+    },
+    {
+      "entry": "oral-018",
+      "field": "sources",
+      "resolved": "[@ORAL-S22][@ORAL-S24] ADA牙科急症的同项警示。[@ORAL-ADD-01]"
+    },
+    {
+      "entry": "lips-004",
+      "field": "plain",
+      "resolved": "普通护理两三周没有改善，或固定一处长期粗糙、破损、出血、长出肿块，要检查，别继续把表面磨掉再涂。这些表现有多种原因，需要检查不等于已经诊断为癌。[@LIP-S01][@LIP-S02][@LIP-ADD-01]热痛肿或成簇水疱则走相应感染评估。"
+    },
+    {
+      "entry": "lips-004",
+      "field": "sources",
+      "resolved": "[@LIP-S03][@LIP-S08][@LIP-S01][@LIP-S02] NHS持续病变及唇部肿块分流。[@LIP-ADD-01]"
+    },
+    {
+      "entry": "eyes-005",
+      "field": "notes",
+      "resolved": "日常隐形镜片避水规则不适用于化学伤急救。视力异常时不要自行驾车，请人陪同或呼叫急救。"
+    },
+    {
+      "entry": "eyes-015",
+      "field": "plain",
+      "resolved": "氧化型、可分解型仍属于防腐体系。"
+    },
+    {
+      "entry": "eyes-009",
+      "field": "notes",
+      "resolved": ""
+    },
+    {
+      "entry": "eyes-009",
+      "field": "evidence",
+      "resolved": "护理选择部分为C，日抛减少护理环节属于实践选择"
+    },
+    {
+      "entry": "nose-007",
+      "field": "notes",
+      "resolved": "孕期不要自行用快速减充血喷雾或含减充血成分的感冒药，应确认替代方案；抗炎鼻喷是否适用另按具体药物评估。有青光眼或重要心血管疾病、同时用其他感冒药时，也先核对适用性，避免重复减充血成分。"
+    },
+    {
+      "entry": "ears-003",
+      "field": "plain",
+      "resolved": "与耳口保持距离，不贴近热烘。"
+    },
+    {
+      "entry": "ears-005",
+      "field": "title",
+      "resolved": "突然听不清就联系耳鼻喉急诊，争取当天评估"
+    },
+    {
+      "entry": "ears-005",
+      "field": "plain",
+      "resolved": "起床后发现一侧或双侧突然听不清，或几天内听力明显下降，**立即联系耳鼻喉科或急诊，争取当天评估，不先假定耳屎堵了。**"
+    }
+  ],
+  "citation_changes": [
+    "Marinho VCC",
+    "新增ADA牙科急症、NHS口腔癌症状两项直接来源",
+    "鼻耳三篇系统综述更正来源类型",
+    "保留机构网页实际更新年代；不伪造近期日期"
+  ],
+  "guideline_update": {
+    "replaced": "2024近视防治指南",
+    "current": "2026近视防治指南",
+    "primary_url": "https://www.nhc.gov.cn/yzygj/c100067/202607/c4a1c6f628fa45c29328db0671b68d57/files/%E8%BF%91%E8%A7%86%E9%98%B2%E6%B2%BB%E6%8C%87%E5%8D%97%EF%BC%882026%E5%B9%B4%E7%89%88%EF%BC%89.pdf",
+    "applied_to": [
+      "eyes-001",
+      "eyes-008"
+    ],
+    "source_alias_note": "raw旧ID仅作编译别名；compiled按2026原URL生成新稳定来源ID",
+    "scope": "保留2024干眼共识与2024 OK操作规范；二者为不同主题文件。"
+  },
+  "skin_review_resolutions": [
+    "异常疼痛即求助，不等待剧痛；补卒中急症",
+    "Hughes MCB题录修正",
+    "补EMA与AAD妊娠/备孕直接材料",
+    "补NHS斑痣出血结痂直接材料",
+    "维A酸术语解释补tretinoin",
+    "红光证据标C，披露未直接审读设备试验",
+    "删除无直接引用的脂肪醇附加说明"
+  ],
+  "reader_consistency_resolutions": [
+    "删除软镜实际算账引言残留",
+    "氯己定摘要同步一周复评条件",
+    "首次解释防腐剂作用",
+    "解释凹陷痘坑常见专业处理的用途",
+    "补粟丘疹最小知识与不自行针挑",
+    "覆盖矩阵明确肉毒等具体项目仍待研究"
+  ],
+  "current_counts": {
+    "entries": 79,
+    "sources": 145,
+    "doi_sources": 26
+  }
+}

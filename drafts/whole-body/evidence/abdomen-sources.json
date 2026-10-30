@@ -1,0 +1,123 @@
+[
+  {
+    "id": "ABD-S01",
+    "citation": "National Health Service. Stomach ache [Internet]. 2026 Oct 20. [cited 2026 Oct 29]. Available from: https://www.nhs.uk/symptoms/stomach-ache/",
+    "url": "https://www.nhs.uk/symptoms/stomach-ache/",
+    "type": "原始机构患者指导",
+    "support": "突发重痛、吐血黑便、不能排便排气等分流；妊娠或持续反复症状检查。",
+    "limitations": "不凭疼痛位置给病因诊断；英国急救号码改为中国120，不以等几天覆盖急症。",
+    "reading_depth": "原页及警示各段、页脚实际更新2026-10-20已读。",
+    "content_checked_at": "2026-10-29",
+    "funding_disclosure": "机构患者教育；未将广告或延伸引用研究的资助信息视为已完成系统审计，不作为品牌背书。"
+  },
+  {
+    "id": "ABD-S02",
+    "citation": "Cleveland Clinic. The ins and outs of cleaning your dirty belly button [Internet]. 2025 Apr 28. [cited 2026 Oct 29]. Available from: https://health.clevelandclinic.org/how-to-clean-belly-button",
+    "url": "https://health.clevelandclinic.org/how-to-clean-belly-button",
+    "type": "原始机构患者指导",
+    "support": "温和无香清洁、避免强搓、冲洗擦干；穿孔和正常皮肤分开。",
+    "limitations": "医院患者指导，不是清洁频次比较试验；不把其每周/每日例子当所有人固定处方。",
+    "reading_depth": "原页清洁步骤、内凹/外凸、穿孔及何时求助段已读。",
+    "content_checked_at": "2026-10-29",
+    "funding_disclosure": "机构患者教育；未将广告或延伸引用研究的资助信息视为已完成系统审计，不作为品牌背书。"
+  },
+  {
+    "id": "ABD-S03",
+    "citation": "Cleveland Clinic. Navel (belly button) [Internet]. 2025 Jun 25. [cited 2026 Oct 29]. Available from: https://my.clevelandclinic.org/health/body/navel-belly-button",
+    "url": "https://my.clevelandclinic.org/health/body/navel-belly-button",
+    "type": "原始机构患者指导",
+    "support": "肚脐褶皱解剖、污垢成分、温和清洁、持续异味流液皮损和疼痛需检查。",
+    "limitations": "不照搬网页对疼痛或细菌数量的泛化解释，不把所有肚脐痛都当卫生问题。",
+    "reading_depth": "实际打开原页，重点读解剖、常见变化、清洁和警示，核2025-06-25。",
+    "content_checked_at": "2026-10-29",
+    "funding_disclosure": "机构患者教育；未将广告或延伸引用研究的资助信息视为已完成系统审计，不作为品牌背书。"
+  },
+  {
+    "id": "ABD-S04",
+    "citation": "Cleveland Clinic. Belly button yeast infection [Internet]. 2022 Apr 29. [cited 2026 Oct 29]. Available from: https://my.clevelandclinic.org/health/diseases/22909-belly-button-yeast-infection",
+    "url": "https://my.clevelandclinic.org/health/diseases/22909-belly-button-yeast-infection",
+    "type": "原始机构患者指导",
+    "support": "念珠菌相关皮肤表现、湿热条件、必要刮取/培养及抗真菌类别。",
+    "limitations": "未把红痒白液当确诊，也未照搬海外OTC分类或口服剂量；护理不能替代其他病因检查。",
+    "reading_depth": "已打开并核读症状、诊断采样、治疗与风险条件；旧资料只用于基础路径并结合2025肚脐页。",
+    "content_checked_at": "2026-10-29",
+    "funding_disclosure": "机构患者教育；未将广告或延伸引用研究的资助信息视为已完成系统审计，不作为品牌背书。"
+  },
+  {
+    "id": "ABD-S05",
+    "citation": "National Health Service. Hernia [Internet]. 2026 May 19. [cited 2026 Oct 29]. Available from: https://www.nhs.uk/conditions/hernia/",
+    "url": "https://www.nhs.uk/conditions/hernia/",
+    "type": "原始机构患者指导",
+    "support": "疝定义、不同位置、鼓包变化、恶化分流及治疗按类型取舍。",
+    "limitations": "不是所有成人疝都需立即手术；不能拿消化用药治疗食管裂孔疝外推腹壁疝被药物修好。",
+    "reading_depth": "原页定义、类型、症状、及时就医及治疗部分已读，核实际更新日。",
+    "content_checked_at": "2026-10-29",
+    "funding_disclosure": "机构患者教育；未将广告或延伸引用研究的资助信息视为已完成系统审计，不作为品牌背书。"
+  },
+  {
+    "id": "ABD-S06",
+    "citation": "National Health Service. Umbilical hernia [Internet]. 2025 Nov 24. [cited 2026 Oct 29]. Available from: https://www.nhs.uk/conditions/umbilical-hernia/",
+    "url": "https://www.nhs.uk/conditions/umbilical-hernia/",
+    "type": "原始机构患者指导",
+    "support": "儿童与成人脐疝的自然病程和修补讨论不同。",
+    "limitations": "只使用成人不能照抄儿童自然闭合的分支；不以此给个体决定手术方式与期限。",
+    "reading_depth": "单独打开原页核对儿童与成人段；不据此给个体手术方式或等待期限。",
+    "content_checked_at": "2026-10-29",
+    "funding_disclosure": "机构患者教育；未将广告或延伸引用研究的资助信息视为已完成系统审计，不作为品牌背书。"
+  },
+  {
+    "id": "ABD-S07",
+    "citation": "National Health Service. Bloating [Internet]. 2026 Jan 21. [cited 2026 Oct 29]. Available from: https://www.nhs.uk/symptoms/bloating/",
+    "url": "https://www.nhs.uk/symptoms/bloating/",
+    "type": "原始机构患者指导",
+    "support": "常见腹胀原因、饮食与便秘线索、持续症状及危险信号。",
+    "limitations": "不采纳其按摩方向作为人人治疗建议，也不据此让所有人全面忌口。",
+    "reading_depth": "原页原因、自护、药师选择、分流和2026-01-21更新已读。",
+    "content_checked_at": "2026-10-29",
+    "funding_disclosure": "机构患者教育；未将广告或延伸引用研究的资助信息视为已完成系统审计，不作为品牌背书。"
+  },
+  {
+    "id": "ABD-S08",
+    "citation": "National Institute of Diabetes and Digestive and Kidney Diseases. Treatment for gas in the digestive tract [Internet]. 2021 Jun. [cited 2026 Oct 29]. Available from: https://www.niddk.nih.gov/health-information/digestive-diseases/gas-digestive-tract/treatment",
+    "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/gas-digestive-tract/treatment",
+    "type": "原始机构患者指导",
+    "support": "吞气调整、食物触发、具体病因处理及乳糖酶仅针对乳糖不耐受。",
+    "limitations": "基础患者教育不为所有益生菌作有效/无效结论；不引用旧2021页作当前品牌或批准状态。",
+    "reading_depth": "原页Swallowing less air、Changing your diet、medicines/supplements及Last Reviewed已读。",
+    "content_checked_at": "2026-10-29",
+    "funding_disclosure": "机构患者教育；未将广告或延伸引用研究的资助信息视为已完成系统审计，不作为品牌背书。"
+  },
+  {
+    "id": "ABD-S09",
+    "citation": "National Health Service. Heartburn and acid reflux [Internet]. 2023 Nov 20. [cited 2026 Oct 29]. Available from: https://www.nhs.uk/conditions/heartburn-and-acid-reflux/",
+    "url": "https://www.nhs.uk/conditions/heartburn-and-acid-reflux/",
+    "type": "原始机构患者指导",
+    "support": "进食与躺卧间隔、床头抬高、短期抗酸/海藻酸盐与PPI类别、持续症状和吞咽警示。",
+    "limitations": "不用旧网页给中国药物处方、剂量或费用；不让反流解释覆盖急性胸痛。",
+    "reading_depth": "原页生活调整、药师、就医与治疗段已读；实际2023-11-20、预定2026-11-20复审分开。",
+    "content_checked_at": "2026-10-29",
+    "funding_disclosure": "机构患者教育；未将广告或延伸引用研究的资助信息视为已完成系统审计，不作为品牌背书。"
+  },
+  {
+    "id": "ABD-S10",
+    "citation": "National Center for Complementary and Integrative Health. Detoxes and cleanses: what you need to know [Internet]. 2025 Mar. [cited 2026 Oct 29]. Available from: https://www.nccih.nih.gov/health/detoxes-and-cleanses-what-you-need-to-know",
+    "url": "https://www.nccih.nih.gov/health/detoxes-and-cleanses-what-you-need-to-know",
+    "type": "原始机构患者指导",
+    "support": "商业排毒研究有限、低质，灌洗和泻下/极端饮食可能有害，与医学解毒分开。",
+    "limitations": "未读其所有链接的原始综述，不声称重做证据合并；不把其结论推翻全部禁食或医学肠道准备。",
+    "reading_depth": "已打开重定向后的NIH原页，核研究、安全、禁食与更新2025Mar各段。",
+    "content_checked_at": "2026-10-29",
+    "funding_disclosure": "机构患者教育；未将广告或延伸引用研究的资助信息视为已完成系统审计，不作为品牌背书。"
+  },
+  {
+    "id": "ABD-S11",
+    "citation": "National Health Service. Heart attack [Internet]. 2026 Mar 31. [cited 2026 Oct 29]. Available from: https://www.nhs.uk/conditions/heart-attack/",
+    "url": "https://www.nhs.uk/conditions/heart-attack/",
+    "type": "原始机构患者指导",
+    "support": "心脏急症可呈烧心消化不良样，持续胸部紧压、放射痛或严重呼吸困难及时急救。",
+    "limitations": "不照搬英国阿司匹林急救剂量；只用于急救入口，不能靠胃药反应排除。",
+    "reading_depth": "已打开NHS原页核Symptoms、急救及2026-03-31更新。",
+    "content_checked_at": "2026-10-29",
+    "funding_disclosure": "机构患者教育；未将广告或延伸引用研究的资助信息视为已完成系统审计，不作为品牌背书。"
+  }
+]

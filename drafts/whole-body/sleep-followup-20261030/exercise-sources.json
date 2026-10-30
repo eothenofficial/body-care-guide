@@ -1,0 +1,88 @@
+[
+  {
+    "id": "SLX-S01",
+    "citation": "Leota J, Presby DM, Le F, Czeisler MÉ, Mascaro L, Capodilupo ER, et al. Dose-response relationship between evening exercise and sleep. Nat Commun. 2025;16(1):3297. doi:10.1038/s41467-025-58271-x.",
+    "url": "https://www.nature.com/articles/s41467-025-58271-x",
+    "type": "原始观察性队列研究",
+    "support": "14,689名有规律活动成人、约408万人夜可穿戴资料中，运动更晚及综合负荷更高与较晚入睡和较差睡眠指标相关；约4小时是相对入睡时点的参考。",
+    "limitations": "回顾性观察，不证明因果或人人存在同一4小时生理阈值；设备估计睡眠，不是全部多导睡眠监测。样本以男性及活跃用户为主，不直接外推儿童、失眠患者或所有运动方式。",
+    "reading_depth": "实读原刊摘要、引言、人口及相对习惯入睡时点的主要结果；方法中个体习惯入睡与实际入睡定义另核PMC官方索引返回正文；PubMed核完整题录、摘要和利益声明。未通读所有补充表或重分析数据。",
+    "funding_disclosure": "PubMed披露E.R.C.和D.M.P.在WHOOP任职并受薪，公司按声明不另参与设计、分析或发表；其余作者声明无竞争利益。未完整核读全部致谢，不声称已穷尽全部资助关系。",
+    "content_checked_at": "2026-10-30",
+    "doi": "10.1038/s41467-025-58271-x",
+    "doi_url": "https://doi.org/10.1038/s41467-025-58271-x"
+  },
+  {
+    "id": "SLX-S02",
+    "citation": "Frimpong E, Mograss M, Zvionow T, Dang-Vu TT. The effects of evening high-intensity exercise on sleep in healthy adults: a systematic review and meta-analysis. Sleep Med Rev. 2021;60:101535. doi:10.1016/j.smrv.2021.101535.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/34416428/",
+    "type": "系统综述与荟萃分析",
+    "support": "15项急性晚间高强度实验、194名18–50岁良好睡眠成人；距睡前2–4小时的训练总体未见睡眠恶化，0.5–4小时合并分析REM比例略低。",
+    "limitations": "试验小、人群与运动方案有限；未显著不同不等于证明等效或对所有人无影响。不能直接指导老年失眠者或以REM小差异推疾病损害。",
+    "reading_depth": "实读PubMed完整摘要、四位作者、年卷文章号、DOI与利益声明；未取得全文或逐读15项原始试验。",
+    "funding_disclosure": "PubMed声明作者无需披露的利益冲突；全文资助未完整核读，不能宣称无任何资助。",
+    "content_checked_at": "2026-10-30",
+    "doi": "10.1016/j.smrv.2021.101535",
+    "doi_url": "https://doi.org/10.1016/j.smrv.2021.101535"
+  },
+  {
+    "id": "SLX-S03",
+    "citation": "National Heart, Lung, and Blood Institute. Sleep deprivation and deficiency: healthy sleep habits [Internet]. 2022 Mar 24 [cited 2026 Oct 30]. Available from: https://www.nhlbi.nih.gov/health/sleep-deprivation/healthy-sleep-habits",
+    "url": "https://www.nhlbi.nih.gov/health/sleep-deprivation/healthy-sleep-habits",
+    "type": "政府医学机构护理指导",
+    "support": "睡前一小时安静放松、避免剧烈运动；保持日常活动并为睡眠留够时间，睡眠时点按个人作息而非统一钟点。",
+    "limitations": "实践指导，不证明一小时为全人群最优临界点；运动治疗失眠、低强度活动效果及缺觉后训练安全不能由此单独确立。同机构失眠治疗页另给上床前5–6小时活动的保守说法，因此本页一小时不能代表全部NHLBI页面统一截止线。",
+    "reading_depth": "实读健康睡眠习惯全部条目、小睡与轮班段；核原页实际2022-03-24更新日，未将当前页脚或未来复审当更新。另实际核https://www.nhlbi.nih.gov/health/insomnia/treatment的Healthy sleep habits段，5–6小时的对象是失眠护理建议，不采用为人人硬线。",
+    "funding_disclosure": "美国政府机构患者教育；页面未见独立专项资助声明，不作随机试验。",
+    "content_checked_at": "2026-10-30",
+    "reviewed_at": "2022-03-24"
+  },
+  {
+    "id": "SLX-S04",
+    "citation": "National Health Service. Insomnia [Internet]. 2024 Mar 19 [cited 2026 Oct 30]. Available from: https://www.nhs.uk/conditions/insomnia/",
+    "url": "https://www.nhs.uk/conditions/insomnia/",
+    "type": "公共医疗机构失眠患者指导",
+    "support": "失眠页面建议白天规律运动、睡前4小时不运动；用于展示较保守的失眠护理建议及其与健康人群实验的适用区别。",
+    "limitations": "该页未区分运动强度，不能拿它宣布所有健康人4小时内轻活动有害；不把此页禁止午睡条目套给困倦驾驶、轮班或全部缺觉情况。",
+    "reading_depth": "实读症状、原因、Do/Do not、药师与就医段，核2024-03-19实际复核日和2027计划复核日区别。",
+    "funding_disclosure": "公共医疗机构患者教育，页面未见独立研究资助声明。",
+    "content_checked_at": "2026-10-30",
+    "reviewed_at": "2024-03-19"
+  },
+  {
+    "id": "SLX-S05",
+    "citation": "Craven J, McCartney D, Desbrow B, Sabapathy S, Bellinger P, Roberts L, et al. Effects of acute sleep loss on physical performance: a systematic and meta-analytical review. Sports Med. 2022;52(11):2669-2690. doi:10.1007/s40279-022-01706-y.",
+    "url": "https://link.springer.com/article/10.1007/s40279-022-01706-y",
+    "type": "系统综述与荟萃分析",
+    "support": "成人短期缺觉控制试验合并显示次日多类运动表现降低；影响依缺觉模式、任务及时间不同。技能任务敏感，晨间和傍晚结果不能一概而论。",
+    "limitations": "约89%参与者为男性，异质性很高；不是受伤率研究，不能把平均百分比换成个人风险或判断某强度绝对安全。≤6小时是研究纳入界定，不是运动禁令或健康睡眠最低线。",
+    "reading_depth": "实读原刊全文相关方法2.1–2.2、结果3.2/3.6–3.9、讨论4.1–4.4、结论及资助/利益声明；核PubMed题录。没有重读所有原试验或原始数据。",
+    "funding_disclosure": "原文声明文章准备未获专项经费，开放获取由CAUL及成员机构支持；作者声明无与本文直接相关的利益冲突。",
+    "content_checked_at": "2026-10-30",
+    "doi": "10.1007/s40279-022-01706-y",
+    "doi_url": "https://doi.org/10.1007/s40279-022-01706-y"
+  },
+  {
+    "id": "SLX-S06",
+    "citation": "National Heart, Lung, and Blood Institute. Sleep deprivation and deficiency: how sleep affects your health [Internet]. 2022 Jun 15 [cited 2026 Oct 30]. Available from: https://www.nhlbi.nih.gov/health/sleep-deprivation/health-effects",
+    "url": "https://www.nhlbi.nih.gov/health/sleep-deprivation/health-effects",
+    "type": "政府医学机构安全指导",
+    "support": "缺觉可降低注意、反应和决策能力，可能出现未觉察的微睡眠，自觉能撑不等于功能正常。",
+    "limitations": "机构概括不能计算个人运动伤害率、判断哪项力量训练负荷安全或诊断胸痛病因；没有用其长期关联宣称一晚失眠永久伤害。",
+    "reading_depth": "实读缺觉线索、日间功能及安全全文相关段，并核原页实际2022-06-15更新日；未采用事故统计或长期疾病风险数字。",
+    "funding_disclosure": "美国政府机构患者教育，页面未见独立专项资助声明。",
+    "content_checked_at": "2026-10-30",
+    "reviewed_at": "2022-06-15"
+  },
+  {
+    "id": "SLX-S07",
+    "citation": "National Highway Traffic Safety Administration. Drowsy driving [Internet]. [cited 2026 Oct 30]. Available from: https://www.nhtsa.gov/risky-driving/drowsy-driving",
+    "url": "https://www.nhtsa.gov/risky-driving/drowsy-driving",
+    "type": "交通安全政府原始指导",
+    "support": "咖啡或能量饮料不能补足睡眠，严重缺觉者自觉提神后仍可能微睡眠；困倦不驾车。",
+    "limitations": "交通指导用于通勤安全，不将短时提神结论套成训练后恢复疗效，也不搬美国事故数字和法律。",
+    "reading_depth": "实读Tips to Drive Alert和Short-term interventions全部段；未采用主页死亡数或美国车速示例。",
+    "funding_disclosure": "政府机构安全教育，页面未见独立专项资助声明。",
+    "content_checked_at": "2026-10-30"
+  }
+]

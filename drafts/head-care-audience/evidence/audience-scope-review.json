@@ -1,0 +1,1694 @@
+{
+  "status": "editorial_scope_annotation_not_clinical_eligibility",
+  "checked_on": "2026-10-29",
+  "notes": [
+    "年龄分段是导览约定，不是诊断或治疗界值",
+    "没有根据关键词或刻板印象分配男女",
+    "旧成人稿未复核的人群不标全龄，未来可逐条扩充",
+    "保留原条目ID，移动章节不破坏分享链接"
+  ],
+  "entries": {
+    "ears-005": {
+      "audience": {
+        "age_groups": [
+          "child",
+          "teen",
+          "adult",
+          "older"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "各年龄突然听力变化均保留急症入口；儿童由照护者协助。",
+        "safety_pin": true
+      },
+      "annotation_basis": "author_annotated"
+    },
+    "ears-001": {
+      "audience": {
+        "age_groups": [
+          "child",
+          "teen",
+          "adult",
+          "older"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "外耳清洁可供各年龄参照；儿童由照护者完成，耳道用药另行判断。",
+        "safety_pin": false
+      },
+      "annotation_basis": "author_annotated"
+    },
+    "ears-002": {
+      "audience": {
+        "age_groups": [
+          "adult",
+          "older"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "成人阅读侧重；儿童用药和器械选择未在本条逐项核对。",
+        "safety_pin": false
+      },
+      "annotation_basis": "author_annotated"
+    },
+    "ears-003": {
+      "audience": {
+        "age_groups": [
+          "adult",
+          "older"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "成人阅读侧重；儿童用药和器械选择未在本条逐项核对。",
+        "safety_pin": false
+      },
+      "annotation_basis": "author_annotated"
+    },
+    "ears-004": {
+      "audience": {
+        "age_groups": [
+          "adult",
+          "older"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "成人阅读侧重；儿童用药和器械选择未在本条逐项核对。",
+        "safety_pin": false
+      },
+      "annotation_basis": "author_annotated"
+    },
+    "ears-006": {
+      "audience": {
+        "age_groups": [
+          "adult",
+          "older"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "成人阅读侧重；儿童用药和器械选择未在本条逐项核对。",
+        "safety_pin": false
+      },
+      "annotation_basis": "author_annotated"
+    },
+    "ears-007": {
+      "audience": {
+        "age_groups": [
+          "adult",
+          "older"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "成人阅读侧重；儿童用药和器械选择未在本条逐项核对。",
+        "safety_pin": false
+      },
+      "annotation_basis": "author_annotated"
+    },
+    "ears-009": {
+      "audience": {
+        "age_groups": [
+          "child",
+          "teen",
+          "adult",
+          "older"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "成人用于穿孔前取舍；未成年人仅供与监护人讨论，不按年龄自动推荐穿孔。",
+        "safety_pin": false
+      },
+      "annotation_basis": "author_annotated"
+    },
+    "ears-010": {
+      "audience": {
+        "age_groups": [
+          "child",
+          "teen",
+          "adult",
+          "older"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "已穿孔者的护理与感染识别；儿童由照护者完成，是否穿孔另见前条。",
+        "safety_pin": true
+      },
+      "annotation_basis": "author_annotated"
+    },
+    "ears-008": {
+      "audience": {
+        "age_groups": [
+          "child",
+          "teen",
+          "adult",
+          "older"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "各年龄耳饰接触问题可参照；儿童需照护者检查，不据此自行用药。",
+        "safety_pin": false
+      },
+      "annotation_basis": "author_annotated"
+    },
+    "ears-011": {
+      "audience": {
+        "age_groups": [
+          "teen",
+          "adult",
+          "older"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "装饰选择以青少年及成人为主；婴幼儿小零件安全不能据此保证。",
+        "safety_pin": false
+      },
+      "annotation_basis": "author_annotated"
+    },
+    "eyes-005": {
+      "audience": {
+        "age_groups": [
+          "adult"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "危险信号入口在人群筛选中保留；本条不提供跨年龄通用的药物处方，具体处置按检查判断。",
+        "safety_pin": true
+      },
+      "annotation_basis": "author_annotated"
+    },
+    "eyes-013": {
+      "audience": {
+        "age_groups": [
+          "adult"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "沿用成人原稿；儿童及老年应用尚未在本条专门核对，不据此推定不适用。",
+        "safety_pin": false
+      },
+      "annotation_basis": "original_adult_scope_not_new_population_review"
+    },
+    "eyes-014": {
+      "audience": {
+        "age_groups": [
+          "adult"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "沿用成人原稿；儿童及老年应用尚未在本条专门核对，不据此推定不适用。",
+        "safety_pin": false
+      },
+      "annotation_basis": "original_adult_scope_not_new_population_review"
+    },
+    "eyes-006": {
+      "audience": {
+        "age_groups": [
+          "adult"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "沿用成人原稿；儿童及老年应用尚未在本条专门核对，不据此推定不适用。",
+        "safety_pin": false
+      },
+      "annotation_basis": "original_adult_scope_not_new_population_review"
+    },
+    "eyes-023": {
+      "audience": {
+        "age_groups": [
+          "adult"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "危险信号入口在人群筛选中保留；本条不提供跨年龄通用的药物处方，具体处置按检查判断。",
+        "safety_pin": true
+      },
+      "annotation_basis": "author_annotated"
+    },
+    "eyes-020": {
+      "audience": {
+        "age_groups": [
+          "child",
+          "teen",
+          "adult",
+          "older"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "报告概念可跨年龄阅读；儿童正常参考范围仍需结合发育阶段。",
+        "safety_pin": false
+      },
+      "annotation_basis": "editorial_scope_checked_against_existing_source_and_body"
+    },
+    "eyes-001": {
+      "audience": {
+        "age_groups": [
+          "adult"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "沿用成人原稿；儿童及老年应用尚未在本条专门核对，不据此推定不适用。",
+        "safety_pin": false
+      },
+      "annotation_basis": "original_adult_scope_not_new_population_review"
+    },
+    "eyes-021": {
+      "audience": {
+        "age_groups": [
+          "child",
+          "teen",
+          "adult",
+          "older"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "验光原理可供各年龄理解；散瞳、处方与恢复按具体检查判断。",
+        "safety_pin": false
+      },
+      "annotation_basis": "editorial_scope_checked_against_existing_source_and_body"
+    },
+    "eyes-022": {
+      "audience": {
+        "age_groups": [
+          "adult"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "沿用成人原稿；儿童及老年应用尚未在本条专门核对，不据此推定不适用。",
+        "safety_pin": false
+      },
+      "annotation_basis": "original_adult_scope_not_new_population_review"
+    },
+    "eyes-026": {
+      "audience": {
+        "age_groups": [
+          "adult"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "沿用成人原稿；儿童及老年应用尚未在本条专门核对，不据此推定不适用。",
+        "safety_pin": false
+      },
+      "annotation_basis": "original_adult_scope_not_new_population_review"
+    },
+    "eyes-024": {
+      "audience": {
+        "age_groups": [
+          "adult"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "沿用成人原稿；儿童及老年应用尚未在本条专门核对，不据此推定不适用。",
+        "safety_pin": false
+      },
+      "annotation_basis": "original_adult_scope_not_new_population_review"
+    },
+    "eyes-025": {
+      "audience": {
+        "age_groups": [
+          "adult",
+          "older"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "成人及老年高度近视的风险与检查入口；不是儿童随访方案。",
+        "safety_pin": false
+      },
+      "annotation_basis": "editorial_scope_checked_against_existing_source_and_body"
+    },
+    "eyes-030": {
+      "audience": {
+        "age_groups": [
+          "child",
+          "teen",
+          "adult",
+          "older"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "用于辨别视力宣传的结局，不提供跨年龄通用的矫正或训练处方。",
+        "safety_pin": false
+      },
+      "annotation_basis": "editorial_scope_checked_against_existing_source_and_body"
+    },
+    "eyes-002": {
+      "audience": {
+        "age_groups": [
+          "adult"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "沿用成人原稿；儿童及老年应用尚未在本条专门核对，不据此推定不适用。",
+        "safety_pin": false
+      },
+      "annotation_basis": "original_adult_scope_not_new_population_review"
+    },
+    "eyes-007": {
+      "audience": {
+        "age_groups": [
+          "adult"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "沿用成人原稿；儿童及老年应用尚未在本条专门核对，不据此推定不适用。",
+        "safety_pin": false
+      },
+      "annotation_basis": "original_adult_scope_not_new_population_review"
+    },
+    "eyes-015": {
+      "audience": {
+        "age_groups": [
+          "adult"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "沿用成人原稿；儿童及老年应用尚未在本条专门核对，不据此推定不适用。",
+        "safety_pin": false
+      },
+      "annotation_basis": "original_adult_scope_not_new_population_review"
+    },
+    "eyes-016": {
+      "audience": {
+        "age_groups": [
+          "adult"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "沿用成人原稿；儿童及老年应用尚未在本条专门核对，不据此推定不适用。",
+        "safety_pin": false
+      },
+      "annotation_basis": "original_adult_scope_not_new_population_review"
+    },
+    "eyes-003": {
+      "audience": {
+        "age_groups": [
+          "adult"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "沿用成人原稿；儿童及老年应用尚未在本条专门核对，不据此推定不适用。",
+        "safety_pin": false
+      },
+      "annotation_basis": "original_adult_scope_not_new_population_review"
+    },
+    "eyes-004": {
+      "audience": {
+        "age_groups": [
+          "adult"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "沿用成人原稿；儿童及老年应用尚未在本条专门核对，不据此推定不适用。",
+        "safety_pin": false
+      },
+      "annotation_basis": "original_adult_scope_not_new_population_review"
+    },
+    "eyes-008": {
+      "audience": {
+        "age_groups": [
+          "child",
+          "teen",
+          "adult"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "正文分别比较儿童控制与成人矫正便利；不能把儿童研究移作成人同效。",
+        "safety_pin": false
+      },
+      "annotation_basis": "editorial_scope_checked_against_existing_source_and_body"
+    },
+    "eyes-009": {
+      "audience": {
+        "age_groups": [
+          "adult"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "沿用成人原稿；儿童及老年应用尚未在本条专门核对，不据此推定不适用。",
+        "safety_pin": false
+      },
+      "annotation_basis": "original_adult_scope_not_new_population_review"
+    },
+    "eyes-010": {
+      "audience": {
+        "age_groups": [
+          "adult"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "沿用成人原稿；儿童及老年应用尚未在本条专门核对，不据此推定不适用。",
+        "safety_pin": false
+      },
+      "annotation_basis": "original_adult_scope_not_new_population_review"
+    },
+    "eyes-027": {
+      "audience": {
+        "age_groups": [
+          "adult"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "沿用成人原稿；儿童及老年应用尚未在本条专门核对，不据此推定不适用。",
+        "safety_pin": false
+      },
+      "annotation_basis": "original_adult_scope_not_new_population_review"
+    },
+    "eyes-028": {
+      "audience": {
+        "age_groups": [
+          "adult"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "沿用成人原稿；儿童及老年应用尚未在本条专门核对，不据此推定不适用。",
+        "safety_pin": false
+      },
+      "annotation_basis": "original_adult_scope_not_new_population_review"
+    },
+    "eyes-029": {
+      "audience": {
+        "age_groups": [
+          "adult"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "沿用成人原稿；儿童及老年应用尚未在本条专门核对，不据此推定不适用。",
+        "safety_pin": false
+      },
+      "annotation_basis": "original_adult_scope_not_new_population_review"
+    },
+    "eyes-011": {
+      "audience": {
+        "age_groups": [
+          "adult"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "沿用成人原稿；儿童及老年应用尚未在本条专门核对，不据此推定不适用。",
+        "safety_pin": false
+      },
+      "annotation_basis": "original_adult_scope_not_new_population_review"
+    },
+    "eyes-012": {
+      "audience": {
+        "age_groups": [
+          "adult"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "沿用成人原稿；儿童及老年应用尚未在本条专门核对，不据此推定不适用。",
+        "safety_pin": false
+      },
+      "annotation_basis": "original_adult_scope_not_new_population_review"
+    },
+    "eyes-017": {
+      "audience": {
+        "age_groups": [
+          "adult"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "沿用成人原稿；儿童及老年应用尚未在本条专门核对，不据此推定不适用。",
+        "safety_pin": false
+      },
+      "annotation_basis": "original_adult_scope_not_new_population_review"
+    },
+    "eyes-018": {
+      "audience": {
+        "age_groups": [
+          "adult"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "沿用成人原稿；儿童及老年应用尚未在本条专门核对，不据此推定不适用。",
+        "safety_pin": false
+      },
+      "annotation_basis": "original_adult_scope_not_new_population_review"
+    },
+    "eyes-019": {
+      "audience": {
+        "age_groups": [
+          "adult"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "沿用成人原稿；儿童及老年应用尚未在本条专门核对，不据此推定不适用。",
+        "safety_pin": false
+      },
+      "annotation_basis": "original_adult_scope_not_new_population_review"
+    },
+    "eyes-031": {
+      "audience": {
+        "age_groups": [
+          "child",
+          "teen"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "儿童和青少年入口，供学生与照护者阅读；具体验光和干预仍按发育、检查与产品条件判断。",
+        "safety_pin": false
+      },
+      "annotation_basis": "author_annotated"
+    },
+    "eyes-032": {
+      "audience": {
+        "age_groups": [
+          "child",
+          "teen"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "儿童和青少年入口，供学生与照护者阅读；具体验光和干预仍按发育、检查与产品条件判断。",
+        "safety_pin": false
+      },
+      "annotation_basis": "author_annotated"
+    },
+    "hair-001": {
+      "audience": {
+        "age_groups": [
+          "adult"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "沿用成人原稿；儿童及老年应用尚未在本条专门核对，不据此推定不适用。",
+        "safety_pin": false
+      },
+      "annotation_basis": "original_adult_scope_not_new_population_review"
+    },
+    "hair-003": {
+      "audience": {
+        "age_groups": [
+          "adult"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "沿用成人原稿；儿童及老年应用尚未在本条专门核对，不据此推定不适用。",
+        "safety_pin": false
+      },
+      "annotation_basis": "original_adult_scope_not_new_population_review"
+    },
+    "hair-004": {
+      "audience": {
+        "age_groups": [
+          "adult"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "沿用成人原稿；儿童及老年应用尚未在本条专门核对，不据此推定不适用。",
+        "safety_pin": false
+      },
+      "annotation_basis": "original_adult_scope_not_new_population_review"
+    },
+    "hair-005": {
+      "audience": {
+        "age_groups": [
+          "adult"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "沿用成人原稿；儿童及老年应用尚未在本条专门核对，不据此推定不适用。",
+        "safety_pin": false
+      },
+      "annotation_basis": "original_adult_scope_not_new_population_review"
+    },
+    "hair-006": {
+      "audience": {
+        "age_groups": [
+          "adult"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "沿用成人原稿；儿童及老年应用尚未在本条专门核对，不据此推定不适用。",
+        "safety_pin": false
+      },
+      "annotation_basis": "original_adult_scope_not_new_population_review"
+    },
+    "hair-007": {
+      "audience": {
+        "age_groups": [
+          "adult"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "沿用成人原稿；儿童及老年应用尚未在本条专门核对，不据此推定不适用。",
+        "safety_pin": false
+      },
+      "annotation_basis": "original_adult_scope_not_new_population_review"
+    },
+    "hair-008": {
+      "audience": {
+        "age_groups": [
+          "adult"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "沿用成人原稿；儿童及老年应用尚未在本条专门核对，不据此推定不适用。",
+        "safety_pin": false
+      },
+      "annotation_basis": "original_adult_scope_not_new_population_review"
+    },
+    "hair-009": {
+      "audience": {
+        "age_groups": [
+          "adult"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "沿用成人原稿；儿童及老年应用尚未在本条专门核对，不据此推定不适用。",
+        "safety_pin": false
+      },
+      "annotation_basis": "original_adult_scope_not_new_population_review"
+    },
+    "hair-011": {
+      "audience": {
+        "age_groups": [
+          "adult"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "沿用成人原稿；儿童及老年应用尚未在本条专门核对，不据此推定不适用。",
+        "safety_pin": false
+      },
+      "annotation_basis": "original_adult_scope_not_new_population_review"
+    },
+    "hair-012": {
+      "audience": {
+        "age_groups": [
+          "adult"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "沿用成人原稿；儿童及老年应用尚未在本条专门核对，不据此推定不适用。",
+        "safety_pin": false
+      },
+      "annotation_basis": "original_adult_scope_not_new_population_review"
+    },
+    "hair-013": {
+      "audience": {
+        "age_groups": [
+          "adult"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "沿用成人原稿；儿童及老年应用尚未在本条专门核对，不据此推定不适用。",
+        "safety_pin": false
+      },
+      "annotation_basis": "original_adult_scope_not_new_population_review"
+    },
+    "hair-014": {
+      "audience": {
+        "age_groups": [
+          "adult"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "沿用成人原稿；儿童及老年应用尚未在本条专门核对，不据此推定不适用。",
+        "safety_pin": false
+      },
+      "annotation_basis": "original_adult_scope_not_new_population_review"
+    },
+    "hair-002": {
+      "audience": {
+        "age_groups": [
+          "adult"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "沿用成人原稿；儿童及老年应用尚未在本条专门核对，不据此推定不适用。",
+        "safety_pin": false
+      },
+      "annotation_basis": "original_adult_scope_not_new_population_review"
+    },
+    "hair-010": {
+      "audience": {
+        "age_groups": [
+          "adult"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "沿用成人原稿；儿童及老年应用尚未在本条专门核对，不据此推定不适用。",
+        "safety_pin": false
+      },
+      "annotation_basis": "original_adult_scope_not_new_population_review"
+    },
+    "hair-015": {
+      "audience": {
+        "age_groups": [
+          "adult"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "沿用成人原稿；儿童及老年应用尚未在本条专门核对，不据此推定不适用。",
+        "safety_pin": false
+      },
+      "annotation_basis": "original_adult_scope_not_new_population_review"
+    },
+    "hair-016": {
+      "audience": {
+        "age_groups": [
+          "adult"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "沿用成人原稿；儿童及老年应用尚未在本条专门核对，不据此推定不适用。",
+        "safety_pin": false
+      },
+      "annotation_basis": "original_adult_scope_not_new_population_review"
+    },
+    "hair-017": {
+      "audience": {
+        "age_groups": [
+          "adult"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "沿用成人原稿；儿童及老年应用尚未在本条专门核对，不据此推定不适用。",
+        "safety_pin": false
+      },
+      "annotation_basis": "original_adult_scope_not_new_population_review"
+    },
+    "hair-018": {
+      "audience": {
+        "age_groups": [
+          "adult"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "沿用成人原稿；儿童及老年应用尚未在本条专门核对，不据此推定不适用。",
+        "safety_pin": false
+      },
+      "annotation_basis": "original_adult_scope_not_new_population_review"
+    },
+    "hair-019": {
+      "audience": {
+        "age_groups": [
+          "adult"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "沿用成人原稿；儿童及老年应用尚未在本条专门核对，不据此推定不适用。",
+        "safety_pin": false
+      },
+      "annotation_basis": "original_adult_scope_not_new_population_review"
+    },
+    "hair-020": {
+      "audience": {
+        "age_groups": [
+          "adult"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "沿用成人原稿；儿童及老年应用尚未在本条专门核对，不据此推定不适用。",
+        "safety_pin": false
+      },
+      "annotation_basis": "original_adult_scope_not_new_population_review"
+    },
+    "hair-021": {
+      "audience": {
+        "age_groups": [
+          "adult"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "沿用成人原稿；儿童及老年应用尚未在本条专门核对，不据此推定不适用。",
+        "safety_pin": false
+      },
+      "annotation_basis": "original_adult_scope_not_new_population_review"
+    },
+    "hair-022": {
+      "audience": {
+        "age_groups": [
+          "adult"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "沿用成人原稿；儿童及老年应用尚未在本条专门核对，不据此推定不适用。",
+        "safety_pin": false
+      },
+      "annotation_basis": "original_adult_scope_not_new_population_review"
+    },
+    "hair-023": {
+      "audience": {
+        "age_groups": [
+          "adult"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "沿用成人原稿；儿童及老年应用尚未在本条专门核对，不据此推定不适用。",
+        "safety_pin": false
+      },
+      "annotation_basis": "original_adult_scope_not_new_population_review"
+    },
+    "lips-001": {
+      "audience": {
+        "age_groups": [
+          "adult"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "沿用成人原稿；儿童及老年应用尚未在本条专门核对，不据此推定不适用。",
+        "safety_pin": false
+      },
+      "annotation_basis": "original_adult_scope_not_new_population_review"
+    },
+    "lips-002": {
+      "audience": {
+        "age_groups": [
+          "adult"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "沿用成人原稿；儿童及老年应用尚未在本条专门核对，不据此推定不适用。",
+        "safety_pin": false
+      },
+      "annotation_basis": "original_adult_scope_not_new_population_review"
+    },
+    "lips-003": {
+      "audience": {
+        "age_groups": [
+          "adult"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "沿用成人原稿；儿童及老年应用尚未在本条专门核对，不据此推定不适用。",
+        "safety_pin": false
+      },
+      "annotation_basis": "original_adult_scope_not_new_population_review"
+    },
+    "lips-004": {
+      "audience": {
+        "age_groups": [
+          "adult"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "沿用成人原稿；儿童及老年应用尚未在本条专门核对，不据此推定不适用。",
+        "safety_pin": false
+      },
+      "annotation_basis": "original_adult_scope_not_new_population_review"
+    },
+    "lips-005": {
+      "audience": {
+        "age_groups": [
+          "adult"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "沿用成人原稿；儿童及老年应用尚未在本条专门核对，不据此推定不适用。",
+        "safety_pin": false
+      },
+      "annotation_basis": "original_adult_scope_not_new_population_review"
+    },
+    "lips-006": {
+      "audience": {
+        "age_groups": [
+          "adult"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "沿用成人原稿；儿童及老年应用尚未在本条专门核对，不据此推定不适用。",
+        "safety_pin": false
+      },
+      "annotation_basis": "original_adult_scope_not_new_population_review"
+    },
+    "oral-014": {
+      "audience": {
+        "age_groups": [
+          "adult"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "沿用成人原稿；儿童及老年应用尚未在本条专门核对，不据此推定不适用。",
+        "safety_pin": false
+      },
+      "annotation_basis": "original_adult_scope_not_new_population_review"
+    },
+    "oral-015": {
+      "audience": {
+        "age_groups": [
+          "adult"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "沿用成人原稿；儿童及老年应用尚未在本条专门核对，不据此推定不适用。",
+        "safety_pin": false
+      },
+      "annotation_basis": "original_adult_scope_not_new_population_review"
+    },
+    "oral-008": {
+      "audience": {
+        "age_groups": [
+          "adult"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "沿用成人原稿；儿童及老年应用尚未在本条专门核对，不据此推定不适用。",
+        "safety_pin": false
+      },
+      "annotation_basis": "original_adult_scope_not_new_population_review"
+    },
+    "nose-001": {
+      "audience": {
+        "age_groups": [
+          "adult"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "沿用成人原稿；儿童及老年应用尚未在本条专门核对，不据此推定不适用。",
+        "safety_pin": false
+      },
+      "annotation_basis": "original_adult_scope_not_new_population_review"
+    },
+    "nose-002": {
+      "audience": {
+        "age_groups": [
+          "adult"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "沿用成人原稿；儿童及老年应用尚未在本条专门核对，不据此推定不适用。",
+        "safety_pin": false
+      },
+      "annotation_basis": "original_adult_scope_not_new_population_review"
+    },
+    "nose-005": {
+      "audience": {
+        "age_groups": [
+          "adult"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "沿用成人原稿；儿童及老年应用尚未在本条专门核对，不据此推定不适用。",
+        "safety_pin": false
+      },
+      "annotation_basis": "original_adult_scope_not_new_population_review"
+    },
+    "nose-007": {
+      "audience": {
+        "age_groups": [
+          "adult"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "沿用成人原稿；儿童及老年应用尚未在本条专门核对，不据此推定不适用。",
+        "safety_pin": false
+      },
+      "annotation_basis": "original_adult_scope_not_new_population_review"
+    },
+    "nose-004": {
+      "audience": {
+        "age_groups": [
+          "adult"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "沿用成人原稿；儿童及老年应用尚未在本条专门核对，不据此推定不适用。",
+        "safety_pin": false
+      },
+      "annotation_basis": "original_adult_scope_not_new_population_review"
+    },
+    "nose-006": {
+      "audience": {
+        "age_groups": [
+          "adult"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "危险信号入口在人群筛选中保留；本条不提供跨年龄通用的药物处方，具体处置按检查判断。",
+        "safety_pin": true
+      },
+      "annotation_basis": "author_annotated"
+    },
+    "nose-008": {
+      "audience": {
+        "age_groups": [
+          "adult"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "沿用成人原稿；儿童及老年应用尚未在本条专门核对，不据此推定不适用。",
+        "safety_pin": false
+      },
+      "annotation_basis": "original_adult_scope_not_new_population_review"
+    },
+    "nose-003": {
+      "audience": {
+        "age_groups": [
+          "adult"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "沿用成人原稿；儿童及老年应用尚未在本条专门核对，不据此推定不适用。",
+        "safety_pin": false
+      },
+      "annotation_basis": "original_adult_scope_not_new_population_review"
+    },
+    "oral-018": {
+      "audience": {
+        "age_groups": [
+          "adult"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "危险信号入口在人群筛选中保留；本条不提供跨年龄通用的药物处方，具体处置按检查判断。",
+        "safety_pin": true
+      },
+      "annotation_basis": "author_annotated"
+    },
+    "oral-013": {
+      "audience": {
+        "age_groups": [
+          "adult"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "沿用成人原稿；儿童及老年应用尚未在本条专门核对，不据此推定不适用。",
+        "safety_pin": false
+      },
+      "annotation_basis": "original_adult_scope_not_new_population_review"
+    },
+    "oral-007": {
+      "audience": {
+        "age_groups": [
+          "adult"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "沿用成人原稿；儿童及老年应用尚未在本条专门核对，不据此推定不适用。",
+        "safety_pin": false
+      },
+      "annotation_basis": "original_adult_scope_not_new_population_review"
+    },
+    "oral-001": {
+      "audience": {
+        "age_groups": [
+          "adult"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "沿用成人原稿；儿童及老年应用尚未在本条专门核对，不据此推定不适用。",
+        "safety_pin": false
+      },
+      "annotation_basis": "original_adult_scope_not_new_population_review"
+    },
+    "oral-002": {
+      "audience": {
+        "age_groups": [
+          "adult"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "沿用成人原稿；儿童及老年应用尚未在本条专门核对，不据此推定不适用。",
+        "safety_pin": false
+      },
+      "annotation_basis": "original_adult_scope_not_new_population_review"
+    },
+    "oral-003": {
+      "audience": {
+        "age_groups": [
+          "adult"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "沿用成人原稿；儿童及老年应用尚未在本条专门核对，不据此推定不适用。",
+        "safety_pin": false
+      },
+      "annotation_basis": "original_adult_scope_not_new_population_review"
+    },
+    "oral-004": {
+      "audience": {
+        "age_groups": [
+          "adult"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "沿用成人原稿；儿童及老年应用尚未在本条专门核对，不据此推定不适用。",
+        "safety_pin": false
+      },
+      "annotation_basis": "original_adult_scope_not_new_population_review"
+    },
+    "oral-016": {
+      "audience": {
+        "age_groups": [
+          "adult"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "沿用成人原稿；儿童及老年应用尚未在本条专门核对，不据此推定不适用。",
+        "safety_pin": false
+      },
+      "annotation_basis": "original_adult_scope_not_new_population_review"
+    },
+    "oral-005": {
+      "audience": {
+        "age_groups": [
+          "adult"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "沿用成人原稿；儿童及老年应用尚未在本条专门核对，不据此推定不适用。",
+        "safety_pin": false
+      },
+      "annotation_basis": "original_adult_scope_not_new_population_review"
+    },
+    "oral-006": {
+      "audience": {
+        "age_groups": [
+          "adult"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "沿用成人原稿；儿童及老年应用尚未在本条专门核对，不据此推定不适用。",
+        "safety_pin": false
+      },
+      "annotation_basis": "original_adult_scope_not_new_population_review"
+    },
+    "oral-019": {
+      "audience": {
+        "age_groups": [
+          "child",
+          "teen"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "替牙期及家长；以实际牙列发育阶段为准。",
+        "safety_pin": false
+      },
+      "annotation_basis": "author_annotated"
+    },
+    "oral-020": {
+      "audience": {
+        "age_groups": [
+          "child",
+          "teen"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "儿童青少年及家长；七岁用于首次检查导览。",
+        "safety_pin": false
+      },
+      "annotation_basis": "author_annotated"
+    },
+    "oral-021": {
+      "audience": {
+        "age_groups": [
+          "child",
+          "teen",
+          "adult",
+          "older"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "儿童看早期评估；成人看牙性与骨性方案边界。",
+        "safety_pin": false
+      },
+      "annotation_basis": "author_annotated"
+    },
+    "oral-012": {
+      "audience": {
+        "age_groups": [
+          "adult",
+          "older"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "成人正畸；年龄不等于能否治疗，先评估牙周和支持条件。",
+        "safety_pin": false
+      },
+      "annotation_basis": "author_annotated"
+    },
+    "oral-009": {
+      "audience": {
+        "age_groups": [
+          "adult"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "沿用成人原稿；儿童及老年应用尚未在本条专门核对，不据此推定不适用。",
+        "safety_pin": false
+      },
+      "annotation_basis": "original_adult_scope_not_new_population_review"
+    },
+    "oral-010": {
+      "audience": {
+        "age_groups": [
+          "adult"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "沿用成人原稿；儿童及老年应用尚未在本条专门核对，不据此推定不适用。",
+        "safety_pin": false
+      },
+      "annotation_basis": "original_adult_scope_not_new_population_review"
+    },
+    "oral-011": {
+      "audience": {
+        "age_groups": [
+          "adult"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "沿用成人原稿；儿童及老年应用尚未在本条专门核对，不据此推定不适用。",
+        "safety_pin": false
+      },
+      "annotation_basis": "original_adult_scope_not_new_population_review"
+    },
+    "oral-017": {
+      "audience": {
+        "age_groups": [
+          "adult"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "沿用成人原稿；儿童及老年应用尚未在本条专门核对，不据此推定不适用。",
+        "safety_pin": false
+      },
+      "annotation_basis": "original_adult_scope_not_new_population_review"
+    },
+    "oral-022": {
+      "audience": {
+        "age_groups": [
+          "adult",
+          "older"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "成人及老年缺牙者；同时考虑自理与照护能力。",
+        "safety_pin": false
+      },
+      "annotation_basis": "author_annotated"
+    },
+    "oral-023": {
+      "audience": {
+        "age_groups": [
+          "adult",
+          "older"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "活动义齿使用者及照护者；重点考虑老年人的清洁能力。",
+        "safety_pin": false
+      },
+      "annotation_basis": "author_annotated"
+    },
+    "skin-001": {
+      "audience": {
+        "age_groups": [
+          "adult"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "沿用成人原稿；儿童及老年应用尚未在本条专门核对，不据此推定不适用。",
+        "safety_pin": false
+      },
+      "annotation_basis": "original_adult_scope_not_new_population_review"
+    },
+    "skin-002": {
+      "audience": {
+        "age_groups": [
+          "adult"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "沿用成人原稿；儿童及老年应用尚未在本条专门核对，不据此推定不适用。",
+        "safety_pin": false
+      },
+      "annotation_basis": "original_adult_scope_not_new_population_review"
+    },
+    "skin-003": {
+      "audience": {
+        "age_groups": [
+          "adult"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "沿用成人原稿；儿童及老年应用尚未在本条专门核对，不据此推定不适用。",
+        "safety_pin": false
+      },
+      "annotation_basis": "original_adult_scope_not_new_population_review"
+    },
+    "skin-004": {
+      "audience": {
+        "age_groups": [
+          "adult"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "沿用成人原稿；儿童及老年应用尚未在本条专门核对，不据此推定不适用。",
+        "safety_pin": false
+      },
+      "annotation_basis": "original_adult_scope_not_new_population_review"
+    },
+    "skin-019": {
+      "audience": {
+        "age_groups": [
+          "adult"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "沿用成人原稿；儿童及老年应用尚未在本条专门核对，不据此推定不适用。",
+        "safety_pin": false
+      },
+      "annotation_basis": "original_adult_scope_not_new_population_review"
+    },
+    "skin-005": {
+      "audience": {
+        "age_groups": [
+          "adult"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "沿用成人原稿；儿童及老年应用尚未在本条专门核对，不据此推定不适用。",
+        "safety_pin": false
+      },
+      "annotation_basis": "original_adult_scope_not_new_population_review"
+    },
+    "skin-006": {
+      "audience": {
+        "age_groups": [
+          "adult"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "沿用成人原稿；儿童及老年应用尚未在本条专门核对，不据此推定不适用。",
+        "safety_pin": false
+      },
+      "annotation_basis": "original_adult_scope_not_new_population_review"
+    },
+    "skin-018": {
+      "audience": {
+        "age_groups": [
+          "adult"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "沿用成人原稿；儿童及老年应用尚未在本条专门核对，不据此推定不适用。",
+        "safety_pin": false
+      },
+      "annotation_basis": "original_adult_scope_not_new_population_review"
+    },
+    "skin-016": {
+      "audience": {
+        "age_groups": [
+          "adult"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "沿用成人原稿；儿童及老年应用尚未在本条专门核对，不据此推定不适用。",
+        "safety_pin": false
+      },
+      "annotation_basis": "original_adult_scope_not_new_population_review"
+    },
+    "skin-017": {
+      "audience": {
+        "age_groups": [
+          "adult"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "沿用成人原稿；儿童及老年应用尚未在本条专门核对，不据此推定不适用。",
+        "safety_pin": false
+      },
+      "annotation_basis": "original_adult_scope_not_new_population_review"
+    },
+    "skin-007": {
+      "audience": {
+        "age_groups": [
+          "adult"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "沿用成人原稿；儿童及老年应用尚未在本条专门核对，不据此推定不适用。",
+        "safety_pin": false
+      },
+      "annotation_basis": "original_adult_scope_not_new_population_review"
+    },
+    "skin-008": {
+      "audience": {
+        "age_groups": [
+          "adult"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "沿用成人原稿；儿童及老年应用尚未在本条专门核对，不据此推定不适用。",
+        "safety_pin": false
+      },
+      "annotation_basis": "original_adult_scope_not_new_population_review"
+    },
+    "skin-009": {
+      "audience": {
+        "age_groups": [
+          "adult"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "沿用成人原稿；儿童及老年应用尚未在本条专门核对，不据此推定不适用。",
+        "safety_pin": false
+      },
+      "annotation_basis": "original_adult_scope_not_new_population_review"
+    },
+    "skin-010": {
+      "audience": {
+        "age_groups": [
+          "adult"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "沿用成人原稿；儿童及老年应用尚未在本条专门核对，不据此推定不适用。",
+        "safety_pin": false
+      },
+      "annotation_basis": "original_adult_scope_not_new_population_review"
+    },
+    "skin-011": {
+      "audience": {
+        "age_groups": [
+          "adult"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "沿用成人原稿；儿童及老年应用尚未在本条专门核对，不据此推定不适用。",
+        "safety_pin": false
+      },
+      "annotation_basis": "original_adult_scope_not_new_population_review"
+    },
+    "skin-012": {
+      "audience": {
+        "age_groups": [
+          "adult"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "沿用成人原稿；儿童及老年应用尚未在本条专门核对，不据此推定不适用。",
+        "safety_pin": false
+      },
+      "annotation_basis": "original_adult_scope_not_new_population_review"
+    },
+    "skin-013": {
+      "audience": {
+        "age_groups": [
+          "adult"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "沿用成人原稿；儿童及老年应用尚未在本条专门核对，不据此推定不适用。",
+        "safety_pin": false
+      },
+      "annotation_basis": "original_adult_scope_not_new_population_review"
+    },
+    "skin-020": {
+      "audience": {
+        "age_groups": [
+          "adult"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "沿用成人原稿；儿童及老年应用尚未在本条专门核对，不据此推定不适用。",
+        "safety_pin": false
+      },
+      "annotation_basis": "original_adult_scope_not_new_population_review"
+    },
+    "skin-014": {
+      "audience": {
+        "age_groups": [
+          "adult"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "沿用成人原稿；儿童及老年应用尚未在本条专门核对，不据此推定不适用。",
+        "safety_pin": false
+      },
+      "annotation_basis": "original_adult_scope_not_new_population_review"
+    },
+    "skin-015": {
+      "audience": {
+        "age_groups": [
+          "adult"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "沿用成人原稿；儿童及老年应用尚未在本条专门核对，不据此推定不适用。",
+        "safety_pin": false
+      },
+      "annotation_basis": "original_adult_scope_not_new_population_review"
+    },
+    "skin-021": {
+      "audience": {
+        "age_groups": [
+          "adult"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "沿用成人原稿；儿童及老年应用尚未在本条专门核对，不据此推定不适用。",
+        "safety_pin": false
+      },
+      "annotation_basis": "original_adult_scope_not_new_population_review"
+    },
+    "skin-022": {
+      "audience": {
+        "age_groups": [
+          "adult"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "沿用成人原稿；儿童及老年应用尚未在本条专门核对，不据此推定不适用。",
+        "safety_pin": false
+      },
+      "annotation_basis": "original_adult_scope_not_new_population_review"
+    },
+    "skin-023": {
+      "audience": {
+        "age_groups": [
+          "adult"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "沿用成人原稿；儿童及老年应用尚未在本条专门核对，不据此推定不适用。",
+        "safety_pin": false
+      },
+      "annotation_basis": "original_adult_scope_not_new_population_review"
+    }
+  }
+}

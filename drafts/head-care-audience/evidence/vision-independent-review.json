@@ -1,0 +1,124 @@
+{
+  "checked_on": "2026-10-29",
+  "review_type": "独立案头审阅，非眼科医生临床签审",
+  "clinical_review_status": "not_clinically_reviewed",
+  "scope": "眼睛新增020至030共11条，18项新增来源；重点分流、视力指标、成人外推及屈光手术；2篇DOI题录逐项核对。",
+  "overall": "未发现阻止整合的主要临床方向错误。急症分流明确，视力和度数不混同，成人儿童证据有区分；术式介绍未写成全部人群排名，ICL可取出不作完全可逆承诺。",
+  "required_changes": [],
+  "optional_precision": [
+    {
+      "id": "V-R01",
+      "target": "eyes-024.fields.plain及证据描述",
+      "issue": "2023成人综述的证据空缺是有时间范围的，正文虽归因IMI但未在句内写年份。",
+      "suggestion": "可写“这份2023综述总结时，成人控制的大型临床研究仍不足”，避免读者理解为截至2026已穷尽检索、保证没有任何新研究。新试验是否改变建议仍需更新检索。",
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10153577/"
+    },
+    {
+      "id": "V-R02",
+      "target": "eyes-025首次出现高度近视",
+      "issue": "较深与高度近视对小白仍不够具体。",
+      "suggestion": "可用一句简短定义或链接解释常用高度近视的度数口径，同时说明是否有病理改变取决于眼底结构，风险和检查不只由这个界限决定。不要把600度当无需检查/必须同套检查的二分阈值。",
+      "source": "2026国家近视指南（已有来源）"
+    },
+    {
+      "id": "V-R03",
+      "target": "eyes-023.summary",
+      "issue": "“瞳孔异常”比原文enlarged/dilated宽泛，正文已经更精确。",
+      "suggestion": "摘要可同步成“瞳孔异常变大”，不影响现行急症方向。",
+      "source": "https://www.nhs.uk/symptoms/double-vision/"
+    }
+  ],
+  "directly_checked": [
+    {
+      "source_id": "VISION-S01",
+      "url": "https://www.gzzoc.org.cn/sites/zoc.live1.sysucloud2.sysu.edu.cn/files/2025-10/biaozhunduishushilibiao-2011.pdf",
+      "scope": "原标准12页表3/表7核1.0=5.0、0.5=4.7，首页2017转推荐性；未重读全12页所有印制条款。"
+    },
+    {
+      "source_id": "VISION-S02",
+      "url": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=A9F9E03A346211223DE34421A85CA1C8",
+      "scope": "官方国家标准平台现行状态、发布单位和2017转推荐性备注。"
+    },
+    {
+      "source_id": "VISION-S04",
+      "url": "https://www.nhs.uk/symptoms/double-vision/",
+      "scope": "NHS全文短页，突然/眼痛紧急；严重头痛或扩瞳伴模糊/重影、头伤后复视急症，2024-01-12实际审阅日一致。"
+    },
+    {
+      "source_id": "VISION-S06",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10153577/",
+      "scope": "PMC原文前6作者、年卷期文号、摘要及成人研究空缺/手术后进展相关段；非全文重读。"
+    },
+    {
+      "source_id": "VISION-S08",
+      "url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/convergence-insufficiency",
+      "scope": "NEI症状、正常视力仍可集合不足、诊断与训练部分。"
+    },
+    {
+      "source_id": "VISION-S09",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8092638/",
+      "scope": "PMC六作者、摘要、成人结果与作者结论；PubMed正文仅返回空壳，原PubMed索引显示12(12)，没有冒称直接全文PubMed读取。"
+    },
+    {
+      "source_id": "VISION-S12",
+      "url": "https://www.fda.gov/medical-devices/phakic-intraocular-lenses/what-are-phakic-lenses",
+      "scope": "FDA保留天然晶状体定义、取出不保证视力或眼状态回到从前。"
+    },
+    {
+      "source_id": "VISION-S13",
+      "url": "https://www.fda.gov/medical-devices/phakic-intraocular-lenses/are-phakic-lenses-you",
+      "scope": "FDA前房、内皮及病史适用条件；未采旧全部无长期数据措辞。"
+    },
+    {
+      "source_id": "VISION-S14",
+      "url": "https://www.rcophth.ac.uk/wp-content/uploads/2026/08/PHAKIC1.pdf",
+      "scope": "24页PDF定义、适用、风险与第10物理页年度随访；文件PROF/2024/500，URL2026未当更新日。"
+    },
+    {
+      "source_id": "VISION-S15",
+      "url": "https://www.fda.gov/medical-devices/lasik/what-should-i-expect-during-and-after-surgery",
+      "scope": "FDA术前后相关段，LASIK 24–48小时复查、不揉眼不自行戴回隐形、严重痛或症状恶化立即联系。"
+    }
+  ],
+  "doi_metadata_checks": [
+    {
+      "source_id": "VISION-S06",
+      "doi": "10.1167/iovs.64.6.2",
+      "status": "匹配",
+      "authors": "Bullimore MA, Lee SSY, Schmid KL, Rozema JJ, Leveziel N, Mallen EAH, et al.",
+      "journal": "Invest Ophthalmol Vis Sci. 2023;64(6):2.",
+      "verification": "PMC原期刊题录和作者信息直接读取。"
+    },
+    {
+      "source_id": "VISION-S09",
+      "doi": "10.1002/14651858.CD006768.pub3",
+      "status": "匹配，卷号有索引表示差异",
+      "authors": "Scheiman M, Kulp MT, Cotter SA, Lawrenson JG, Wang L, Li T.",
+      "journal": "Cochrane Database Syst Rev. 2020;12(12):CD006768.",
+      "verification": "六作者/题名/DOI和正式日期由PMC原文核对；PMC显示2020(12)、PubMed原记录搜索索引显示12(12)，现稿采用后者，不应机械判为错误。"
+    }
+  ],
+  "graph_checks": {
+    "new_entries": 11,
+    "new_sources": 18,
+    "errors": [],
+    "summary_lengths": {
+      "eyes-023": 120,
+      "eyes-020": 119,
+      "eyes-021": 114,
+      "eyes-022": 116,
+      "eyes-026": 111,
+      "eyes-024": 116,
+      "eyes-025": 116,
+      "eyes-030": 126,
+      "eyes-027": 128,
+      "eyes-028": 128,
+      "eyes-029": 118
+    }
+  },
+  "limits": [
+    "本次没有重新逐项通读所有18新增来源，实际直接核读列表如上。",
+    "既有2026NHC指南本次只对照既有读取记录，未重做整份指南审读。",
+    "这是编辑/来源核查，不是持证眼科临床审阅；未诊断个人或给个体处方。"
+  ]
+}

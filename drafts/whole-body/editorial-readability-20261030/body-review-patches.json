@@ -1,0 +1,778 @@
+[
+  {
+    "id": "neck-001",
+    "document": "rewrites",
+    "field": "summary",
+    "before": "手臂突然无力又脸歪、说话不清",
+    "after": "手臂突然无力，尤其伴脸歪、说话不清",
+    "reason": "避免把突然手臂无力误读为必须同时脸歪、说话不清才需急救；与正文紧迫性一致。"
+  },
+  {
+    "id": "neck-007",
+    "document": "rewrites",
+    "field": "summary",
+    "before": "停止训练并复评",
+    "after": "停止训练并重新检查",
+    "reason": "改成自然完整的读者用语，保留原医学条件与引用。"
+  },
+  {
+    "id": "neck-009",
+    "document": "rewrites",
+    "field": "title",
+    "before": "慢性颈痛试针灸，要配合活动并复评效果",
+    "after": "慢性颈痛试针灸，要配合活动并看是否改善",
+    "reason": "改成自然完整的读者用语，保留原医学条件与引用。"
+  },
+  {
+    "id": "neck-009",
+    "document": "rewrites",
+    "field": "plain",
+    "before": "效果未达目标就重评，不无限续疗程。",
+    "after": "到约定时间仍未改善，就重新讨论方案，不无限续疗程。",
+    "reason": "改成自然完整的读者用语，保留原医学条件与引用。"
+  },
+  {
+    "id": "neck-010",
+    "document": "rewrites",
+    "field": "plain",
+    "before": "尤其不自助敲颈前侧血管区",
+    "after": "尤其不要自行敲击颈前侧的血管区域",
+    "reason": "改成自然完整的读者用语，保留原医学条件与引用。"
+  },
+  {
+    "id": "neck-014",
+    "document": "rewrites",
+    "field": "summary",
+    "before": "持续麻木、拇指无力或自护无效，需要复评。",
+    "after": "持续麻木、拇指无力或自护无效，需要重新检查。",
+    "reason": "改成自然完整的读者用语，保留原医学条件与引用。"
+  },
+  {
+    "id": "hands-009",
+    "document": "rewrites",
+    "field": "notes",
+    "before": "儿童许可和给药、具体国内产品适应证另核。",
+    "after": "儿童的适用年龄和给药方式，以及国内具体产品的批准用途，都要另外确认。",
+    "reason": "改成自然完整的读者用语，保留原医学条件与引用。"
+  },
+  {
+    "id": "hands-011",
+    "document": "rewrites",
+    "field": "plain",
+    "before": "必要时斑贴检查",
+    "after": "必要时做斑贴试验",
+    "reason": "改成自然完整的读者用语，保留原医学条件与引用。"
+  },
+  {
+    "id": "legs-003",
+    "document": "rewrites",
+    "field": "summary",
+    "before": "几周不改善、反复影响生活或越来越痛要复评",
+    "after": "几周不改善、反复影响生活或越来越痛，要重新检查",
+    "reason": "改成自然完整的读者用语，保留原医学条件与引用。"
+  },
+  {
+    "id": "legs-005",
+    "document": "rewrites",
+    "field": "plain",
+    "before": "只当下放松、必须不断续费才能维持时，重评方案，不仅追加被动疗程。",
+    "after": "若只有治疗当下舒服、必须不断续费才能维持，就重新讨论方案，而不是只追加被动疗程。",
+    "reason": "改成自然完整的读者用语，保留原医学条件与引用。"
+  },
+  {
+    "id": "legs-002",
+    "document": "rewrites",
+    "field": "plain",
+    "before": "单侧腿新肿、痛，伴颜色或静脉变化",
+    "after": "一条腿新出现肿胀或疼痛，尤其伴颜色或静脉变化",
+    "reason": "把无需凑齐全部症状的条件写明确，保留原血栓警示紧迫性。"
+  },
+  {
+    "id": "legs-006",
+    "document": "rewrites",
+    "field": "plain",
+    "before": "髋部新肿、发烫，即使无全身发热；或没摔却突然严重髋痛，都应当天评估。",
+    "after": "髋部新出现肿胀、发烫，即使没有全身发热，也应当天检查；没摔伤却突然出现严重髋痛，同样如此。",
+    "reason": "改成自然完整的读者用语，保留原医学条件与引用。"
+  },
+  {
+    "id": "legs-007",
+    "document": "rewrites",
+    "field": "summary",
+    "before": "就调负荷并复评",
+    "after": "就减少负荷并重新检查",
+    "reason": "改成自然完整的读者用语，保留原医学条件与引用。"
+  },
+  {
+    "id": "legs-008",
+    "document": "rewrites",
+    "field": "plain",
+    "before": "再核尺寸与用法",
+    "after": "再确认尺寸与用法",
+    "reason": "改成自然完整的读者用语，保留原医学条件与引用。"
+  },
+  {
+    "id": "legs-009",
+    "document": "rewrites",
+    "field": "summary",
+    "before": "优先运动、合适止痛与功能复评",
+    "after": "优先安排运动、合适止痛，并观察活动能力是否改善",
+    "reason": "改成自然完整的读者用语，保留原医学条件与引用。"
+  },
+  {
+    "id": "legs-011",
+    "document": "rewrites",
+    "field": "plain",
+    "before": "做康重新评估估",
+    "after": "重新评估并调整康复方案",
+    "reason": "修正乱码，同时保留恢复迟缓或功能不恢复时需重新评估的原意。"
+  },
+  {
+    "id": "legs-012",
+    "document": "rewrites",
+    "field": "plain",
+    "before": "穿平整、不卷边，新冷、麻、蓝紫或痛时脱下并及时求助",
+    "after": "穿平整、不卷边；新出现发冷、发麻、蓝紫变色或疼痛时，脱下并及时求助",
+    "reason": "改成自然完整的读者用语，保留原医学条件与引用。"
+  },
+  {
+    "id": "feet-005",
+    "document": "rewrites",
+    "field": "plain",
+    "before": "不越刺激涂越多",
+    "after": "不要因为刺激明显还继续加量",
+    "reason": "改成自然完整的读者用语，保留原医学条件与引用。"
+  },
+  {
+    "id": "feet-006",
+    "document": "rewrites",
+    "field": "plain",
+    "before": "先少热水久泡、温和无香清洗",
+    "after": "先避免用热水久泡，选温和无香产品清洗",
+    "reason": "改成自然完整的读者用语，保留原医学条件与引用。"
+  },
+  {
+    "id": "feet-006",
+    "document": "rewrites",
+    "field": "plain",
+    "before": "睡前可凡士林配干净袜",
+    "after": "睡前可涂凡士林，再穿干净袜子",
+    "reason": "改成自然完整的读者用语，保留原医学条件与引用。"
+  },
+  {
+    "id": "feet-014",
+    "document": "rewrites",
+    "field": "plain",
+    "before": "软垫、硅胶套或分趾用品可比较减摩擦",
+    "after": "软垫、硅胶套或分趾用品可能减轻摩擦，可按实际舒适程度选择",
+    "reason": "改成自然完整的读者用语，保留原医学条件与引用。"
+  },
+  {
+    "id": "feet-013",
+    "document": "rewrites",
+    "field": "summary",
+    "before": "两周不好或影响走路要复评",
+    "after": "两周不好或影响走路，要重新检查",
+    "reason": "改成自然完整的读者用语，保留原医学条件与引用。"
+  },
+  {
+    "id": "bodyskin-001",
+    "document": "rewrites",
+    "field": "plain",
+    "before": "伴寒战、快呼吸、眩晕、意识异常或全身明显不适",
+    "after": "伴寒战、呼吸急促、眩晕、意识异常或全身明显不适",
+    "reason": "改成自然完整的读者用语，保留原医学条件与引用。"
+  },
+  {
+    "id": "bodyskin-005",
+    "document": "rewrites",
+    "field": "plain",
+    "before": "小范围轻症去诱因后可能缓解，池后轻疹常数天改善。",
+    "after": "小范围轻症在去除诱因后可能缓解；泡池后出现的轻微皮疹，常在数天内改善。",
+    "reason": "改成自然完整的读者用语，保留原医学条件与引用。"
+  },
+  {
+    "id": "bodyskin-023",
+    "document": "rewrites",
+    "field": "plain",
+    "before": "风团伴面部、口唇、咽喉肿胀，呼吸吞咽困难，明显眩晕或将晕倒，立即联系急救或急诊，不等涂药。",
+    "after": "风团伴面部、口唇或咽喉肿胀、呼吸或吞咽困难、明显眩晕或将晕倒，出现其中一种就立即联系急救或急诊，不等涂药。",
+    "reason": "明确任一严重表现即可急救，不能把并列清单误读为全部同时出现。"
+  },
+  {
+    "id": "bodyskin-024",
+    "document": "rewrites",
+    "field": "summary",
+    "before": "新疹或2至4周仍痒需复评",
+    "after": "新疹或2至4周仍痒需重新检查",
+    "reason": "改成自然完整的读者用语，保留原医学条件与引用。"
+  },
+  {
+    "id": "bodyskin-025",
+    "document": "rewrites",
+    "field": "plain",
+    "before": "带受伤时间、动物种类、部位、既往疫苗和免疫病资料，兼评破伤风与伤口处理。",
+    "after": "就诊时说明受伤时间、动物种类和受伤部位，带上既往疫苗和免疫相关疾病资料，同时评估破伤风预防与伤口处理。",
+    "reason": "改成自然完整的读者用语，保留原医学条件与引用。"
+  },
+  {
+    "id": "sleep-006",
+    "document": "rewrites",
+    "field": "plain",
+    "before": "夜班先护下班主睡眠",
+    "after": "夜班后先保证主要睡眠",
+    "reason": "改成自然完整的读者用语，保留原医学条件与引用。"
+  },
+  {
+    "id": "sleep-006",
+    "document": "rewrites",
+    "field": "plain",
+    "before": "计划小睡后留清醒时间再开车上机",
+    "after": "计划小睡后，给自己留出恢复清醒的时间，再开车或操作机器",
+    "reason": "改成自然完整的读者用语，保留原医学条件与引用。"
+  },
+  {
+    "id": "sleep-010",
+    "document": "rewrites",
+    "field": "plain",
+    "before": "夜汗、噩梦、醒后异常可核血糖",
+    "after": "夜汗、噩梦或醒后不适时，可检查血糖",
+    "reason": "改成自然完整的读者用语，保留原医学条件与引用。"
+  },
+  {
+    "id": "sleep-011",
+    "document": "rewrites",
+    "field": "plain",
+    "before": "停会刷久的内容",
+    "after": "停下容易让自己一直刷下去的内容",
+    "reason": "改成自然完整的读者用语，保留原医学条件与引用。"
+  },
+  {
+    "id": "sleep-014",
+    "document": "rewrites",
+    "field": "plain",
+    "before": "暂去安全处坐着，轻松纸书或安静内容，困了回来",
+    "after": "暂时到安全处坐着，读点轻松的纸书或听安静的内容，困了再回床",
+    "reason": "改成自然完整的读者用语，保留原医学条件与引用。"
+  },
+  {
+    "id": "sleep-015",
+    "document": "rewrites",
+    "field": "plain",
+    "before": "次白天犯困",
+    "after": "次日白天犯困",
+    "reason": "修正错字。"
+  },
+  {
+    "id": "sleep-012",
+    "document": "rewrites",
+    "field": "plain",
+    "before": "先取消改派危险任务",
+    "after": "先取消危险任务或交给清醒的人处理",
+    "reason": "改成自然完整的读者用语，保留原医学条件与引用。"
+  },
+  {
+    "id": "sleep-012",
+    "document": "rewrites",
+    "field": "plain",
+    "before": "反复难入睡者可缩短提前午睡，少睡到傍晚。",
+    "after": "反复难入睡者可缩短午睡或把午睡提前，避免一直睡到傍晚。",
+    "reason": "消除“缩短提前”歧义，保留少睡次日午睡个体调整。"
+  },
+  {
+    "id": "sleep-013",
+    "document": "rewrites",
+    "field": "plain",
+    "before": "不为研究里晨间表现较好就早叫醒晨练",
+    "after": "不因为某项研究发现晨间表现较好，就提前叫醒自己去晨练",
+    "reason": "改成自然完整的读者用语，保留原医学条件与引用。"
+  },
+  {
+    "id": "nutrition-015",
+    "document": "rewrites",
+    "field": "summary",
+    "before": "用胰岛素或促泌剂者",
+    "after": "用胰岛素或易引起低血糖的降糖药者",
+    "reason": "摘要避免未解释的“促泌剂”，正文保留具体药物类别。"
+  },
+  {
+    "id": "nutrition-015",
+    "document": "rewrites",
+    "field": "plain",
+    "before": "胰岛素、磺脲或格列奈类使用者，不突然漏餐大减主食或猛加运动，先约监测、补食与联系调整方案。",
+    "after": "使用胰岛素，或磺脲、格列奈等促使胰腺分泌胰岛素的降糖药时，不要突然漏餐、大减主食或猛加运动。先与治疗团队确定怎样监测血糖、何时补食，以及何时联系调整方案。",
+    "reason": "保留全部高风险药物类别与低血糖条件，补足主语和行动顺序。"
+  },
+  {
+    "id": "nutrition-016",
+    "document": "rewrites",
+    "field": "plain",
+    "before": "CGM以皮下传感器估计组织间液葡萄糖",
+    "after": "持续葡萄糖监测（CGM）用皮下传感器估计组织间液中的葡萄糖",
+    "reason": "首次出现给出中文全称和测量对象，不新添疗效。"
+  },
+  {
+    "id": "nutrition-016",
+    "document": "rewrites",
+    "field": "plain",
+    "before": "宣称独立无创测糖的表戒不用于诊疗",
+    "after": "宣称不接传感器、只靠手表或戒指就能无创测糖的产品，不用于诊疗",
+    "reason": "改成自然完整的读者用语，保留原医学条件与引用。"
+  },
+  {
+    "id": "nutrition-020",
+    "document": "rewrites",
+    "field": "plain",
+    "before": "家用体脂秤常用生物电阻抗（BIA）结合身高年龄推算，并非直接看见成分。",
+    "after": "家用体脂秤常用生物电阻抗（BIA）：让微弱电流通过身体，再结合身高、年龄等推算成分，并非直接看见脂肪或肌肉。",
+    "reason": "恢复原文测量原理，避免只给专业名词。"
+  },
+  {
+    "id": "nutrition-020",
+    "document": "rewrites",
+    "field": "plain",
+    "before": "就改吃练",
+    "after": "就改变饮食或训练安排",
+    "reason": "改成自然完整的读者用语，保留原医学条件与引用。"
+  },
+  {
+    "id": "nutrition-020",
+    "document": "rewrites",
+    "field": "summary",
+    "before": "药物门槛还需另核",
+    "after": "药物适用条件还需另外确认",
+    "reason": "改成自然完整的读者用语，保留原医学条件与引用。"
+  },
+  {
+    "id": "nutrition-021",
+    "document": "rewrites",
+    "field": "title",
+    "before": "减脂同时练力量，用腰围体力而非掉秤速度复评",
+    "after": "减脂时保留力量训练，也看腰围和体力是否改善",
+    "reason": "改成自然完整的读者用语，保留原医学条件与引用。"
+  },
+  {
+    "id": "nutrition-021",
+    "document": "rewrites",
+    "field": "plain",
+    "before": "去脂还含水、器官骨骼",
+    "after": "去脂体重还包括水分、器官和骨骼",
+    "reason": "改成自然完整的读者用语，保留原医学条件与引用。"
+  },
+  {
+    "id": "nutrition-021",
+    "document": "rewrites",
+    "field": "plain",
+    "before": "正常主食蔬菜蛋白仍吃",
+    "after": "仍要正常吃主食、蔬菜和蛋白质来源食物",
+    "reason": "改成自然完整的读者用语，保留原医学条件与引用。"
+  },
+  {
+    "id": "nutrition-021",
+    "document": "rewrites",
+    "field": "plain",
+    "before": "持续无力头晕、训练倒退或总靠饿撑，回营养医疗评估",
+    "after": "持续无力、头晕，训练表现倒退或总靠挨饿硬撑，应接受营养与医疗评估",
+    "reason": "改成自然完整的读者用语，保留原医学条件与引用。"
+  },
+  {
+    "id": "nutrition-022",
+    "document": "rewrites",
+    "field": "plain",
+    "before": "多余脂肪看整体吃动，线条和力量看循序全身抗阻。",
+    "after": "想减少多余脂肪，要调整整体饮食和活动；想改善肌肉线条与力量，要逐步进行全身力量训练。",
+    "reason": "改成自然完整的读者用语，保留原医学条件与引用。"
+  },
+  {
+    "id": "nutrition-022",
+    "document": "rewrites",
+    "field": "plain",
+    "before": "不冰袋仿做",
+    "after": "不要用冰袋在家模仿",
+    "reason": "改成自然完整的读者用语，保留原医学条件与引用。"
+  },
+  {
+    "id": "nutrition-002",
+    "document": "rewrites",
+    "field": "plain",
+    "before": "同时LDL更高",
+    "after": "同时低密度脂蛋白胆固醇（LDL）更高",
+    "reason": "首次给出血脂指标中文名，避免读者卡在缩写。"
+  },
+  {
+    "id": "nutrition-004",
+    "document": "rewrites",
+    "field": "title",
+    "before": "别自行长期吃不足800千卡，快速减重需支持",
+    "after": "每天不足800千卡的减重方案，先接受医疗评估",
+    "reason": "标题不暗示自行短期极低能量饮食就安全；与正文12周不是DIY许可一致。"
+  },
+  {
+    "id": "nutrition-008",
+    "document": "rewrites",
+    "field": "plain",
+    "before": "普通奶昔、蛋白粉、青汁、棒的名称",
+    "after": "普通奶昔、蛋白粉、青汁或零食棒的名称",
+    "reason": "改成自然完整的读者用语，保留原医学条件与引用。"
+  },
+  {
+    "id": "nutrition-008",
+    "document": "rewrites",
+    "field": "plain",
+    "before": "查每份能量、蛋白、纤维、维矿及过敏原",
+    "after": "查每份能量、蛋白质、纤维、维生素、矿物质及过敏原",
+    "reason": "改成自然完整的读者用语，保留原医学条件与引用。"
+  },
+  {
+    "id": "nutrition-008",
+    "document": "rewrites",
+    "field": "plain",
+    "before": "没有这些不长期无人监督全代餐。",
+    "after": "这些安排不齐备，就不要在无人监督下长期只吃全代餐。",
+    "reason": "改成自然完整的读者用语，保留原医学条件与引用。"
+  },
+  {
+    "id": "basics-007",
+    "document": "rewrites",
+    "field": "plain",
+    "before": "了解成分污染控制，不能保证适用疗效",
+    "after": "了解成分与污染控制，但不能保证符合你的用途或确有疗效",
+    "reason": "改成自然完整的读者用语，保留原医学条件与引用。"
+  },
+  {
+    "id": "basics-007",
+    "document": "rewrites",
+    "field": "plain",
+    "before": "有什么摄入缺口或已证用途",
+    "after": "是否有摄入缺口，或已有证据支持的具体用途",
+    "reason": "改成自然完整的读者用语，保留原医学条件与引用。"
+  },
+  {
+    "id": "basics-007",
+    "document": "rewrites",
+    "field": "plain",
+    "before": "不停处方来迁就补剂，不拿补剂代需治疗的病。",
+    "after": "不要自行停处方药来迁就补剂，也不用补剂代替已经需要的治疗。",
+    "reason": "改成自然完整的读者用语，保留原医学条件与引用。"
+  },
+  {
+    "id": "nutrition-005",
+    "document": "rewrites",
+    "field": "plain",
+    "before": "蛋白粉是补蛋白的便利用食。",
+    "after": "蛋白粉是方便补充蛋白质的食品。",
+    "reason": "修正错词。"
+  },
+  {
+    "id": "nutrition-005",
+    "document": "rewrites",
+    "field": "plain",
+    "before": "前后能正常吃饭就分散日常、顾总量与恢复，不方便再用粉。",
+    "after": "训练前后能正常吃饭，就把蛋白质分散到日常餐食中，顾好全天总量和恢复；进食不方便时再考虑用粉。",
+    "reason": "改成自然完整的读者用语，保留原医学条件与引用。"
+  },
+  {
+    "id": "nutrition-006",
+    "document": "rewrites",
+    "field": "plain",
+    "before": "储量相近也不证明即时成绩相同",
+    "after": "肌肉中的肌酸储量相近，也不证明当时的运动成绩相同",
+    "reason": "改成自然完整的读者用语，保留原医学条件与引用。"
+  },
+  {
+    "id": "nutrition-006",
+    "document": "rewrites",
+    "field": "plain",
+    "before": "但不保证所有疾病产品安全",
+    "after": "但不能保证所有疾病情况下、所有产品都安全",
+    "reason": "改成自然完整的读者用语，保留原医学条件与引用。"
+  },
+  {
+    "id": "nutrition-009",
+    "document": "rewrites",
+    "field": "plain",
+    "before": "带体重腰围、吃动、全部药物补剂",
+    "after": "带上体重腰围记录、饮食活动安排、全部药物和补剂清单",
+    "reason": "改成自然完整的读者用语，保留原医学条件与引用。"
+  },
+  {
+    "id": "nutrition-009",
+    "document": "rewrites",
+    "field": "plain",
+    "before": "开始前约复查、不适联系和停换药维持。",
+    "after": "开始前就约定复查时间、出现不适时联系谁，以及停药或换药后的维持方案。",
+    "reason": "改成自然完整的读者用语，保留原医学条件与引用。"
+  },
+  {
+    "id": "nutrition-009",
+    "document": "rewrites",
+    "field": "plain",
+    "before": "一盒非治愈，亦非人人终身",
+    "after": "一盒药不等于治愈，也不是每个人都必须终身使用",
+    "reason": "改成自然完整的读者用语，保留原医学条件与引用。"
+  },
+  {
+    "id": "nutrition-017",
+    "document": "rewrites",
+    "field": "plain",
+    "before": "替尔泊肽同时作用GLP-1与GIP受体",
+    "after": "替尔泊肽同时作用于GLP-1与葡萄糖依赖性促胰岛素多肽（GIP）受体",
+    "reason": "展开GIP中文名称，保留作用靶点；不新增疗效比较。"
+  },
+  {
+    "id": "nutrition-017",
+    "document": "rewrites",
+    "field": "plain",
+    "before": "72周最大耐受方案下，替尔泊肽平均−20.2%、司美格鲁肽−13.7%",
+    "after": "采用最大耐受剂量方案72周后，替尔泊肽组平均体重下降20.2%，司美格鲁肽组下降13.7%",
+    "reason": "写清结局是平均体重百分比变化，不改变数值、方向、时长与最大耐受条件。"
+  },
+  {
+    "id": "nutrition-017",
+    "document": "rewrites",
+    "field": "plain",
+    "before": "48周4/6毫克组−11.00%/−14.01%，安慰剂+0.30%",
+    "after": "48周时，4毫克组平均体重下降11.00%，6毫克组下降14.01%，安慰剂组增加0.30%",
+    "reason": "拆开斜杠避免混淆两个研究剂量和结局；原注释研究剂量不是处方保留。"
+  },
+  {
+    "id": "nutrition-018",
+    "document": "rewrites",
+    "field": "plain",
+    "before": "严重过敏亦逐药核",
+    "after": "有严重过敏史，也要按具体药物核对禁忌",
+    "reason": "改成自然完整的读者用语，保留原医学条件与引用。"
+  },
+  {
+    "id": "nutrition-018",
+    "document": "rewrites",
+    "field": "plain",
+    "before": "糖尿病眼底病、胰岛素或磺脲类需眼底/血糖监测，不自停胰岛素、减药或叠GLP-1针。",
+    "after": "有糖尿病视网膜病变，应安排眼底监测；使用胰岛素或磺脲类降糖药，应安排血糖监测。不要自行停用胰岛素、减少降糖药或叠加另一支GLP-1针剂。",
+    "reason": "恢复原文分别安排眼底与血糖监测的对象，避免名词并列造成错误对应。"
+  },
+  {
+    "id": "nutrition-018",
+    "document": "rewrites",
+    "field": "plain",
+    "before": "穆峰达加口服激素避孕药，改非口服或开始、每次加量后前4周加屏障避孕。",
+    "after": "使用穆峰达且服口服激素避孕药时，应改用非口服避孕措施，或在开始治疗及每次加量后的前4周，在原口服避孕药基础上加用避孕套等屏障措施。",
+    "reason": "恢复开始治疗和每次加量后前4周两种情境，以及屏障法加在原口服药基础上的具体要求；原中国说明书引用不变。"
+  },
+  {
+    "id": "nutrition-018",
+    "document": "rewrites",
+    "field": "plain",
+    "before": "先约维持、复查、体重进食活动记录",
+    "after": "开始治疗前就约定长期维持和复查安排，并继续记录体重、进食与活动",
+    "reason": "改成自然完整的读者用语，保留原医学条件与引用。"
+  },
+  {
+    "id": "nutrition-019",
+    "document": "rewrites",
+    "field": "plain",
+    "before": "首次仍要求咨询",
+    "after": "首次用药前仍要求咨询医生",
+    "reason": "明确中国非处方范本首次使用的咨询对象。"
+  },
+  {
+    "id": "nutrition-019",
+    "document": "rewrites",
+    "field": "plain",
+    "before": "用前查脂溶性维生素、相互作用和肾病结石史。",
+    "after": "用前询问是否需要补充脂溶性维生素、是否存在药物相互作用，并说明肾病或结石史。",
+    "reason": "改成自然完整的读者用语，保留原医学条件与引用。"
+  },
+  {
+    "id": "activity-002",
+    "document": "rewrites",
+    "field": "plain",
+    "before": "凉水湿皮扇风",
+    "after": "用凉水打湿皮肤并扇风",
+    "reason": "改成自然完整的读者用语，保留原医学条件与引用。"
+  },
+  {
+    "id": "activity-002",
+    "document": "rewrites",
+    "field": "plain",
+    "before": "清醒能吞咽可小口水",
+    "after": "人清醒且能安全吞咽时，可小口饮水",
+    "reason": "改成自然完整的读者用语，保留原医学条件与引用。"
+  },
+  {
+    "id": "activity-003",
+    "document": "rewrites",
+    "field": "plain",
+    "before": "可造成肾和电解质危险",
+    "after": "可能造成肾脏损伤和危险的电解质紊乱",
+    "reason": "改成自然完整的读者用语，保留原医学条件与引用。"
+  },
+  {
+    "id": "activity-003",
+    "document": "rewrites",
+    "field": "plain",
+    "before": "带运动、突增负荷、高温暴露、发作时间和药物和补充剂清单。",
+    "after": "就诊时说明运动项目、是否突然加量、是否在高温下训练、症状开始时间，并带上药物和补充剂清单。",
+    "reason": "改成自然完整的读者用语，保留原医学条件与引用。"
+  },
+  {
+    "id": "activity-004",
+    "document": "rewrites",
+    "field": "plain",
+    "before": "不弹震、不痛拉、不请人强压",
+    "after": "不弹震、不拉到疼痛、不请别人强压身体",
+    "reason": "改成自然完整的读者用语，保留原医学条件与引用。"
+  },
+  {
+    "id": "activity-005",
+    "document": "rewrites",
+    "field": "plain",
+    "before": "突然锐痛、很重、明显肿或不能正常用",
+    "after": "突然出现锐痛、疼痛很重、肢体明显肿胀或不能正常使用",
+    "reason": "改成自然完整的读者用语，保留原医学条件与引用。"
+  },
+  {
+    "id": "activity-006",
+    "document": "rewrites",
+    "field": "plain",
+    "before": "先训练试，不比赛当天突换",
+    "after": "先在训练时尝试，不在比赛当天突然更换",
+    "reason": "改成自然完整的读者用语，保留原医学条件与引用。"
+  },
+  {
+    "id": "activity-006",
+    "document": "rewrites",
+    "field": "plain",
+    "before": "慢肾病",
+    "after": "慢性肾病",
+    "reason": "改成自然完整的读者用语，保留原医学条件与引用。"
+  },
+  {
+    "id": "activity-007",
+    "document": "rewrites",
+    "field": "plain",
+    "before": "不能据此排2026新品",
+    "after": "不能据此给2026年的新品排名",
+    "reason": "改成自然完整的读者用语，保留原医学条件与引用。"
+  },
+  {
+    "id": "activity-008",
+    "document": "rewrites",
+    "field": "plain",
+    "before": "先与照护团队定进食、监测、运动和药物计划",
+    "after": "先与照护团队确定进食、血糖监测、运动和用药计划",
+    "reason": "改成自然完整的读者用语，保留原医学条件与引用。"
+  },
+  {
+    "id": "basics-003",
+    "document": "rewrites",
+    "field": "plain",
+    "before": "带睡眠、感染、工作照护负荷、吃饭变化和完整药补酒精清单",
+    "after": "带上睡眠、近期感染、工作和照护负荷、饮食变化，以及药物、补剂和酒精摄入记录",
+    "reason": "改成自然完整的读者用语，保留原医学条件与引用。"
+  },
+  {
+    "id": "basics-003",
+    "document": "rewrites",
+    "field": "plain",
+    "before": "不未明需求就补铁",
+    "after": "没有确认需求，就不要自行补铁",
+    "reason": "改成自然完整的读者用语，保留原医学条件与引用。"
+  },
+  {
+    "id": "basics-003",
+    "document": "rewrites",
+    "field": "plain",
+    "before": "突胸痛、重气短、晕厥或新神经症状另急救。",
+    "after": "突然胸痛、明显气短、晕厥或新出现神经症状，另按急症处理。",
+    "reason": "改成自然完整的读者用语，保留原医学条件与引用。"
+  },
+  {
+    "id": "energy-002",
+    "document": "rewrites",
+    "field": "title",
+    "before": "轻活动后隔天垮掉，先评估，别硬加训练量",
+    "after": "轻活动后反复明显加重，先评估，别硬加训练量",
+    "reason": "避免标题把活动后不适限定为次日或单纯疲劳。"
+  },
+  {
+    "id": "energy-002",
+    "document": "rewrites",
+    "field": "summary",
+    "before": "反复延迟到隔天加重",
+    "after": "反复延迟加重",
+    "reason": "改成自然完整的读者用语，保留原医学条件与引用。"
+  },
+  {
+    "id": "energy-002",
+    "document": "rewrites",
+    "field": "plain",
+    "before": "是轻身体或脑力活动后，一组症状明显加重、可迟发数日",
+    "after": "是轻微体力或脑力活动后，一组症状明显加重；可能延迟出现，并持续数日",
+    "reason": "修复把“迟发并持续数日”压缩为“迟发数日”造成的时间意义改变。"
+  },
+  {
+    "id": "energy-001",
+    "document": "rewrites",
+    "field": "plain",
+    "before": "停止继续加并求助",
+    "after": "停止继续增加摄入并求助",
+    "reason": "改成自然完整的读者用语，保留原医学条件与引用。"
+  },
+  {
+    "id": "nutrition-020",
+    "document": "merges",
+    "field": "summary",
+    "before": "不凭一天读数改吃练",
+    "after": "不凭一天读数改变饮食训练安排",
+    "reason": "改成自然完整的读者用语，保留原医学条件与引用。"
+  },
+  {
+    "id": "nutrition-020",
+    "document": "merges",
+    "field": "plain",
+    "before": "不能推广所有新品都差",
+    "after": "不能推断所有新品都不准确",
+    "reason": "改成自然完整的读者用语，保留原医学条件与引用。"
+  },
+  {
+    "id": "nutrition-020",
+    "document": "merges",
+    "field": "plain",
+    "before": "先顾营养功能",
+    "after": "先保证营养和活动能力",
+    "reason": "改成自然完整的读者用语，保留原医学条件与引用。"
+  },
+  {
+    "id": "sleep-012",
+    "document": "merges",
+    "field": "title",
+    "before": "少睡次日先保安全，短休息、咖啡和训练都降风险",
+    "after": "少睡次日先保安全，短睡、咖啡和训练这样安排",
+    "reason": "改成自然完整的读者用语，保留原医学条件与引用。"
+  },
+  {
+    "id": "sleep-012",
+    "document": "merges",
+    "field": "plain",
+    "before": "注意协调已完全恢复",
+    "after": "注意力和动作协调已完全恢复",
+    "reason": "改成自然完整的读者用语，保留原医学条件与引用。"
+  },
+  {
+    "id": "sleep-012",
+    "document": "merges",
+    "field": "plain",
+    "before": "反复难睡者缩短、提前午睡，尽量留日常起床和主睡眠框架；今晚留足机会",
+    "after": "反复难睡者可缩短午睡或把午睡提前，尽量保持日常起床时间；今晚留足主要睡眠的时间",
+    "reason": "改成自然完整的读者用语，保留原医学条件与引用。"
+  },
+  {
+    "id": "sleep-012",
+    "document": "merges",
+    "field": "plain",
+    "before": "靠近今晚睡眠提前停",
+    "after": "考虑今晚的睡觉时间，把末次咖啡因摄入提前",
+    "reason": "改成自然完整的读者用语，保留原医学条件与引用。"
+  }
+]

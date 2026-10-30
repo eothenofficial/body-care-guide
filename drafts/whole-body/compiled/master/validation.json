@@ -1,0 +1,12 @@
+{
+  "part": "master",
+  "status": "passed_structural_and_export_checks",
+  "entries": 300,
+  "sources": 516,
+  "standalone_html_sha256": "da0a252c3091019177043a738ba21f8101e36fb7ee23fb434f10249056695624",
+  "source_graph_resolves": true,
+  "export_data_equal": true,
+  "all_audience_ranges_retained": true,
+  "canonical_content_unchanged": true,
+  "clinical_review_status": "not_clinically_reviewed"
+}

@@ -1,0 +1,46 @@
+{
+  "date": "2026-10-30",
+  "version": "2026.10.30-3",
+  "reviewer": "root AI整合编辑",
+  "clinical_review_status": "not_clinically_reviewed",
+  "scope": "逐条实读新增8条标题、摘要、六字段与人群；旧330条沿用上版审校，本次未声称重新研究全书。",
+  "inputs": {
+    "exercise-entries.json": "19439c50ab7fb86a68699b5183981faa933e6cd7689284d9663b7cffb2aa4c7f",
+    "exercise-sources.json": "18d16ffac3a032cce092c6211bf1d601e454be34ff7db29e6eee088fdb9c21ba",
+    "meals-entries.json": "bd83a19b15539d9b6ba2fe9c0ef9afd9fa4d60bc287e5c508c065f60ef1271ee",
+    "meals-sources.json": "c17e05095183288fc25456d7643c0bc5808a00ec70c0c3f8677beb6f532669db",
+    "screen-entries.json": "8183e023980f20e5d1830828f8dc38ddd800755976f892d31440331c3c7c51d1",
+    "screen-sources.json": "446b327d90aab302075b14f88ad4b9149517c9e00a62839c920ab61f12269295",
+    "recovery-entries.json": "d783bda05141df3d4104b478fa5b8f1054141d7854b870d595e7c9f8417a357a",
+    "recovery-sources.json": "881a825885b93c4aa744b00e6059496a741b9828043a3cfddce46af7a05fee86"
+  },
+  "actual_checks": [
+    "用户原写作SOP、项目完善SOP及既有睡眠数据已实读，按先问题/习惯/具体选择/次日恢复重排五单元，保留旧ID与正文。",
+    "原始新增八条六字段实读，关键数字限定在人群、对照、结局与时间；未用只有定义或因人而异代替具体动作。",
+    "根独立核FDA/NHTSA/NHLBI/NHS相关原文、恢复睡眠原刊方法/主要结果/限制/资助、AASM2015两页原PDF、VA2025指南相关章节与RLS原刊公开推荐。",
+    "晚练/晚餐/手机临床操作由另一AI按原始全文或完整摘要交叉核；实际范围见三份独立审记录，未冒充医生签审。",
+    "Elsevier EM-consulte正式元数据和作者机构原记录均由root实读，Cuddihy条校2026;36(2):100542，不以DOI或版权年份代发表年；正式订阅全文未读。",
+    "2021晚餐对照源补正餐/点心交换；相互作用补NHS直接原页；运动急症补稳定链接；标题011去语病，章导览不混作者制作指令。",
+    "未写睡前几点后不能一口吃/不能所有运动，不承诺夜间模式/眼镜疗效；睡眠缺乏不由咖啡因自觉清醒解除风险。"
+  ],
+  "coverage": {
+    "user_requests": [
+      "晚间运动时点和强度",
+      "夜宵/消化/反流",
+      "情绪收尾/手机蓝光",
+      "缺觉次日咖啡因",
+      "缺觉次日健身与其他安排"
+    ],
+    "added_expert_topics": [
+      "越躺越清醒与刺激控制",
+      "镇静抗组胺药/复方误用",
+      "不宁腿线索与评估"
+    ]
+  },
+  "remaining_limits": [
+    "没有检测市售品牌或批次；不提供个体处方。",
+    "睡眠科学结论存在研究人群与时长限制，不保证100%或200%正确。",
+    "医学状态未临床签审，测试仅验证其工程合同和编辑约束。"
+  ],
+  "blocking_unresolved": []
+}

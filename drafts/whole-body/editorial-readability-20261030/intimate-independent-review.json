@@ -1,0 +1,2160 @@
+{
+  "reviewed_by": "rewrite_body (independent of intimate author)",
+  "reviewed_at": "2026-10-30",
+  "scope": "100条全部原始字段与最终改写逐条对照，另审3个合并；逐句看临床含义、限制、警示、引用位置、首次概念和自然语法。",
+  "count": 100,
+  "merged_count": 3,
+  "applied_patch_count": 88,
+  "input_sha256": {
+    "intimate-rewrites.json": "275db1547f800854d0bea5fe880599f0c6bf34cdd525ea601ba14bd6ebdc02a4",
+    "intimate-merges.json": "ee3257cafdea5b9e843fca4f1044fdd9f48165b12226a8a8def7c0138e4bcc3e"
+  },
+  "final_sha256": {
+    "intimate-rewrites.json": "275db1547f800854d0bea5fe880599f0c6bf34cdd525ea601ba14bd6ebdc02a4",
+    "intimate-merges.json": "ee3257cafdea5b9e843fca4f1044fdd9f48165b12226a8a8def7c0138e4bcc3e"
+  },
+  "original_input_sha256": "f44bded1e5b109d38703c9d065428ee7cfe7f4a2f6cfdd1f44b81f00949220f3",
+  "patch_file_sha256": "968daa632ba1b727ec394c494ea86385518eb0a0507bd4c4191261471cbff3c6",
+  "patches_verified_applied": true,
+  "blocking_unresolved": [],
+  "covered_ids": [
+    "chest-001",
+    "chest-002",
+    "chest-003",
+    "chest-004",
+    "chest-005",
+    "chest-006",
+    "chest-007",
+    "chest-008",
+    "chest-012",
+    "chest-009",
+    "chest-010",
+    "chest-011",
+    "abdomen-001",
+    "abdomen-004",
+    "abdomen-005",
+    "abdomen-006",
+    "abdomen-007",
+    "abdomen-002",
+    "abdomen-003",
+    "private-001",
+    "private-002",
+    "private-009",
+    "private-036",
+    "private-019",
+    "private-003",
+    "private-004",
+    "private-005",
+    "private-006",
+    "private-007",
+    "private-008",
+    "private-020",
+    "private-021",
+    "private-022",
+    "private-023",
+    "private-024",
+    "private-025",
+    "private-026",
+    "private-027",
+    "private-010",
+    "private-011",
+    "private-028",
+    "private-012",
+    "private-013",
+    "private-029",
+    "private-030",
+    "private-031",
+    "private-014",
+    "private-017",
+    "private-015",
+    "private-035",
+    "private-016",
+    "private-032",
+    "private-033",
+    "private-034",
+    "private-018",
+    "private-037",
+    "private-038",
+    "private-045",
+    "private-039",
+    "private-040",
+    "private-041",
+    "private-046",
+    "private-042",
+    "private-043",
+    "private-044",
+    "private-047",
+    "private-048",
+    "private-049",
+    "private-050",
+    "private-051",
+    "private-052",
+    "private-053",
+    "private-054",
+    "private-055",
+    "private-056",
+    "anal-001",
+    "anal-002",
+    "anal-003",
+    "anal-004",
+    "anal-005",
+    "anal-006",
+    "anal-007",
+    "anal-008",
+    "anal-009",
+    "anal-010",
+    "anal-011",
+    "anal-012",
+    "bodyskin-009",
+    "bodyskin-010",
+    "bodyskin-011",
+    "bodyskin-013",
+    "bodyskin-014",
+    "bodyskin-015",
+    "bodyskin-016",
+    "bodyskin-017",
+    "bodyskin-018",
+    "bodyskin-019",
+    "bodyskin-020",
+    "bodyskin-021",
+    "bodyskin-022"
+  ],
+  "checks": [
+    {
+      "id": "chest-001",
+      "all_original_and_final_fields_compared": true,
+      "original_fields_sha256": "ecacaea7b3db06a56cc07821eeb7a1b0aa0f8f698e56176aa02bb6d9d4ddb3ee",
+      "final_fields_sha256": "c5b5838b8c94f75e9b817430fecd0c1669881160fb03db4e53d013ca7caac67c",
+      "clinical_scope_review": "保留急性胸痛先急救、不自行驾车与120的行动；不将所有胸痛自诊为心脏病。",
+      "source_ids_preserved": [
+        "@src-853b7234a9c7",
+        "@src-f235a6e31043"
+      ],
+      "source_placement_reviewed": true,
+      "age_sex_and_special_population_limits_reviewed": true,
+      "concept_evidence_action_and_normal_sentences_reviewed": true,
+      "patch_count": 0,
+      "patch_reasons": [],
+      "status": "reviewed_after_patches"
+    },
+    {
+      "id": "chest-002",
+      "all_original_and_final_fields_compared": true,
+      "original_fields_sha256": "118420e4af14fdaff28d0f124017aef0866a7631a9338397d7fb2d01798cf10f",
+      "final_fields_sha256": "eec67b42e2b1627f1ebb37c9b56de1b9eeeaae1eaa84aaa48af6c2019860ae89",
+      "clinical_scope_review": "保留年轻、无痛也不能忽略新乳房改变；去掉没有分母的“多数”表述。",
+      "source_ids_preserved": [
+        "@src-4123c3aa0528",
+        "@src-c28cd82cc181",
+        "@src-fe66f745ffaf"
+      ],
+      "source_placement_reviewed": true,
+      "age_sex_and_special_population_limits_reviewed": true,
+      "concept_evidence_action_and_normal_sentences_reviewed": true,
+      "patch_count": 1,
+      "patch_reasons": [
+        "删除无明确分母的“多数”和双重含糊，保留不能自诊也需检查的原意。"
+      ],
+      "status": "reviewed_after_patches"
+    },
+    {
+      "id": "chest-003",
+      "all_original_and_final_fields_compared": true,
+      "original_fields_sha256": "e845198bc08d678993560448a3bd1e9589783c562a78f220661ffe2cd87eaa79",
+      "final_fields_sha256": "6d462bc07c9a1aaacd1a791d276987227410fe206ca7a9a81754b80b08072674",
+      "clinical_scope_review": "区分周期性乳痛与新固定痛、红热肿痛；不把疼痛与否当肿瘤排除工具。",
+      "source_ids_preserved": [
+        "@src-fe66f745ffaf"
+      ],
+      "source_placement_reviewed": true,
+      "age_sex_and_special_population_limits_reviewed": true,
+      "concept_evidence_action_and_normal_sentences_reviewed": true,
+      "patch_count": 0,
+      "patch_reasons": [],
+      "status": "reviewed_after_patches"
+    },
+    {
+      "id": "chest-004",
+      "all_original_and_final_fields_compared": true,
+      "original_fields_sha256": "993ebe945d4b1cdcff60fc7bb342117a29f44a69bda6c51fd0f2904c150539ab",
+      "final_fields_sha256": "d8091fcfdf8d0faaec63154604f42bfc66969dd9c294ac7b3071cac9771db9e4",
+      "clinical_scope_review": "保留男性乳房发育、青春期与成年用药病因差别；衣物不承诺消除腺体。",
+      "source_ids_preserved": [
+        "@src-c28cd82cc181",
+        "@src-d11ff27b8dba"
+      ],
+      "source_placement_reviewed": true,
+      "age_sex_and_special_population_limits_reviewed": true,
+      "concept_evidence_action_and_normal_sentences_reviewed": true,
+      "patch_count": 0,
+      "patch_reasons": [],
+      "status": "reviewed_after_patches"
+    },
+    {
+      "id": "chest-005",
+      "all_original_and_final_fields_compared": true,
+      "original_fields_sha256": "f292f5942921e83176c8ac0bc3d8198e998634e27dd080987ea7d5b76382f919",
+      "final_fields_sha256": "642de9ef48cffadeb27c521d8da6ec45b387cafdf0c869d2dcdc31037d9dd135",
+      "clinical_scope_review": "文胸按实际合身、受压和摩擦选择，术后另评估；不制造杯型与健康的统一排名。",
+      "source_ids_preserved": [
+        "@src-eb6782523d89",
+        "@src-fe66f745ffaf"
+      ],
+      "source_placement_reviewed": true,
+      "age_sex_and_special_population_limits_reviewed": true,
+      "concept_evidence_action_and_normal_sentences_reviewed": true,
+      "patch_count": 0,
+      "patch_reasons": [],
+      "status": "reviewed_after_patches"
+    },
+    {
+      "id": "chest-006",
+      "all_original_and_final_fields_compared": true,
+      "original_fields_sha256": "79278eb3f07124f55452b1343d749f7151b1934170b662c1d01fcec17c1efeb9",
+      "final_fields_sha256": "93a3d9566b044f570232d0330978ce734ee44e7a8b773daf568d9465315e7049",
+      "clinical_scope_review": "保留2016年21名中国女性的小样本、短期及跑步场景，未外推永久防下垂。",
+      "source_ids_preserved": [
+        "@src-1be8355018b0",
+        "@src-fe66f745ffaf"
+      ],
+      "source_placement_reviewed": true,
+      "age_sex_and_special_population_limits_reviewed": true,
+      "concept_evidence_action_and_normal_sentences_reviewed": true,
+      "patch_count": 0,
+      "patch_reasons": [],
+      "status": "reviewed_after_patches"
+    },
+    {
+      "id": "chest-007",
+      "all_original_and_final_fields_compared": true,
+      "original_fields_sha256": "63cb3de67db088a18b77672bb7fa51ff89db362e85fcff092062be646302c91e",
+      "final_fields_sha256": "a67ce379f3bdbb87ec62240dba558c60e239b03cc1517125ca70e4b9a464e5a6",
+      "clinical_scope_review": "保留55–74岁绝经后病例对照适用范围，未把未发现关联写成所有人零风险；丰胸补充剂不承诺有效。",
+      "source_ids_preserved": [
+        "@src-74a05a2ec010",
+        "@src-b9f74e471351"
+      ],
+      "source_placement_reviewed": true,
+      "age_sex_and_special_population_limits_reviewed": true,
+      "concept_evidence_action_and_normal_sentences_reviewed": true,
+      "patch_count": 0,
+      "patch_reasons": [],
+      "status": "reviewed_after_patches"
+    },
+    {
+      "id": "chest-008",
+      "all_original_and_final_fields_compared": true,
+      "original_fields_sha256": "2f5ac45a4b85811e0a2af1841929d7c59735dd5457107ddbb9a434c64e80288d",
+      "final_fields_sha256": "8fff5ee7daa064caed82e03122b8d946de57dbdc24b009139303a65d07720aa6",
+      "clinical_scope_review": "保留褶皱红疹多病因与强激素变薄风险，修正间擦疹定义的直译；发热红肿痛仍需及时就医。",
+      "source_ids_preserved": [
+        "@src-1e803010cd18",
+        "@src-fe66f745ffaf"
+      ],
+      "source_placement_reviewed": true,
+      "age_sex_and_special_population_limits_reviewed": true,
+      "concept_evidence_action_and_normal_sentences_reviewed": true,
+      "patch_count": 1,
+      "patch_reasons": [
+        "原“相对皮肤”像直译，说明实际接触关系，不增加疗效主张。"
+      ],
+      "status": "reviewed_after_patches"
+    },
+    {
+      "id": "chest-012",
+      "all_original_and_final_fields_compared": true,
+      "original_fields_sha256": "1fd35bbd82c95788de7cccec2c8ea53398e19daeb2fe4cd03593ed6537e042e8",
+      "final_fields_sha256": "8e07c9f1a11cd5d2ff76f1cf868e464f3533c3557e0240547c170ff3edc7864e",
+      "clinical_scope_review": "化脓性汗腺炎有中文概念解释，反复深部结节需诊断；不归咎卫生，也不自行挤引流。",
+      "source_ids_preserved": [
+        "@src-61d8eabe3384",
+        "@src-b2541393d675"
+      ],
+      "source_placement_reviewed": true,
+      "age_sex_and_special_population_limits_reviewed": true,
+      "concept_evidence_action_and_normal_sentences_reviewed": true,
+      "patch_count": 0,
+      "patch_reasons": [],
+      "status": "reviewed_after_patches"
+    },
+    {
+      "id": "chest-009",
+      "all_original_and_final_fields_compared": true,
+      "original_fields_sha256": "fcde5134cbaa0fdd45061c9a47cdcbb0f25d6daed669cbb1a5872b68ae363c9d",
+      "final_fields_sha256": "089f074d0d008878cb18922f4452738564cfedb1c6ca644ce2ce1234c727a7c0",
+      "clinical_scope_review": "剃腋毛可选，破皮刺激时停；持续异常肿块不靠脱毛解决。",
+      "source_ids_preserved": [
+        "@src-4bc578cd41e4",
+        "@src-61d8eabe3384",
+        "@src-6de4ffe1edd0",
+        "@src-b2541393d675"
+      ],
+      "source_placement_reviewed": true,
+      "age_sex_and_special_population_limits_reviewed": true,
+      "concept_evidence_action_and_normal_sentences_reviewed": true,
+      "patch_count": 0,
+      "patch_reasons": [],
+      "status": "reviewed_after_patches"
+    },
+    {
+      "id": "chest-010",
+      "all_original_and_final_fields_compared": true,
+      "original_fields_sha256": "c342eb64544824b19cc915e83e2cc5cbe15bfad4db97967eb05fdcab28cb0f42",
+      "final_fields_sha256": "e49436b9bab14c313c0807b6c2234219dd247d9118f76ce3a10b0f8787b83bb4",
+      "clinical_scope_review": "止汗与除臭用途区分，保留铝盐证据边界及干燥皮肤按标签使用；不将癌症关联讨论当零风险保证。",
+      "source_ids_preserved": [
+        "@src-67e8a69b846e",
+        "@src-819df96108ac",
+        "@src-876bce1c9bbf"
+      ],
+      "source_placement_reviewed": true,
+      "age_sex_and_special_population_limits_reviewed": true,
+      "concept_evidence_action_and_normal_sentences_reviewed": true,
+      "patch_count": 1,
+      "patch_reasons": [
+        "补齐动词、对象或首次名词解释，保持原医学限定与建议强度。"
+      ],
+      "status": "reviewed_after_patches"
+    },
+    {
+      "id": "chest-011",
+      "all_original_and_final_fields_compared": true,
+      "original_fields_sha256": "7392081c905178ff08b47a07f2b82f8369b90a9fe96a2567a9854ed20ea507a3",
+      "final_fields_sha256": "c2eefb40263880e18b6ac2640a496895b6a8d49aaff466927f102e05a9417eb6",
+      "clinical_scope_review": "保留多汗的病因检查、口服抗胆碱风险、能量治疗不可逆及手术代偿出汗；离子导入部位不随意外推。",
+      "source_ids_preserved": [
+        "@src-0cc1bc768a11",
+        "@src-876bce1c9bbf"
+      ],
+      "source_placement_reviewed": true,
+      "age_sex_and_special_population_limits_reviewed": true,
+      "concept_evidence_action_and_normal_sentences_reviewed": true,
+      "patch_count": 1,
+      "patch_reasons": [
+        "补齐动词、对象或首次名词解释，保持原医学限定与建议强度。"
+      ],
+      "status": "reviewed_after_patches"
+    },
+    {
+      "id": "abdomen-001",
+      "all_original_and_final_fields_compared": true,
+      "original_fields_sha256": "d42f08052f7e263a49ed9701e0a80e8c944b53bffb3ff1c7cec16f2a045a1b9d",
+      "final_fields_sha256": "59810e36224d08ed2a771ef89bc76f480a08a281ba267b99b6aeea2f6495fbe8",
+      "clinical_scope_review": "保留急腹痛、消化道出血与全身危险表现的急诊路径，非用保养品等待。",
+      "source_ids_preserved": [
+        "@src-f050b05a2664"
+      ],
+      "source_placement_reviewed": true,
+      "age_sex_and_special_population_limits_reviewed": true,
+      "concept_evidence_action_and_normal_sentences_reviewed": true,
+      "patch_count": 0,
+      "patch_reasons": [],
+      "status": "reviewed_after_patches"
+    },
+    {
+      "id": "abdomen-004",
+      "all_original_and_final_fields_compared": true,
+      "original_fields_sha256": "7ede9982bb04d03eef954dc2d2bc465c2b2e76a60337a915c864a1eb779fb12f",
+      "final_fields_sha256": "54388fa2359c4ce938b8e409d0fc1e354e56ac3bf528ddcbfe050fd0e57afa3d",
+      "clinical_scope_review": "成人与儿童疝的处理仍分开；修复“更肿且周围变色”被改为“或”的条件变化。",
+      "source_ids_preserved": [
+        "@src-080dbcb6499a",
+        "@src-49d3210c7e5e",
+        "@src-f050b05a2664"
+      ],
+      "source_placement_reviewed": true,
+      "age_sex_and_special_population_limits_reviewed": true,
+      "concept_evidence_action_and_normal_sentences_reviewed": true,
+      "patch_count": 1,
+      "patch_reasons": [
+        "恢复原文组合条件，避免把单独变肿自动升级成同一急诊指征。"
+      ],
+      "status": "reviewed_after_patches"
+    },
+    {
+      "id": "abdomen-005",
+      "all_original_and_final_fields_compared": true,
+      "original_fields_sha256": "0ae8ecc3f5e0fba73aaccebe9cc04c5abb2ef5c7ab077f41605c1d0d4b102663",
+      "final_fields_sha256": "f32fbc0781512cb29a0ce6124b577fadd815acc46e0338adb6d4e065114d1a1c",
+      "clinical_scope_review": "保留胀气记录、按病因限制食物及红旗；不统一禁奶果，不按菌种数给益生菌排疗效。",
+      "source_ids_preserved": [
+        "@src-26c3012f1b6a",
+        "@src-917b8708ebdb",
+        "@src-f050b05a2664"
+      ],
+      "source_placement_reviewed": true,
+      "age_sex_and_special_population_limits_reviewed": true,
+      "concept_evidence_action_and_normal_sentences_reviewed": true,
+      "patch_count": 0,
+      "patch_reasons": [],
+      "status": "reviewed_after_patches"
+    },
+    {
+      "id": "abdomen-006",
+      "all_original_and_final_fields_compared": true,
+      "original_fields_sha256": "3ea222926ba7aadfbdeca13eaf5705c32501eeb2a6f3a3f53606c3264214e8ef",
+      "final_fields_sha256": "3d607c2eb108e5238991843c3b7ba8738ff7fbb06a69f1fbfe425abdd0ed8408",
+      "clinical_scope_review": "保留反流饮食时点3–4小时的来源范围、不同胃药用途与警示；不把缓解等同查清病因。",
+      "source_ids_preserved": [
+        "@src-f235a6e31043",
+        "@src-f655fe6316e5"
+      ],
+      "source_placement_reviewed": true,
+      "age_sex_and_special_population_limits_reviewed": true,
+      "concept_evidence_action_and_normal_sentences_reviewed": true,
+      "patch_count": 1,
+      "patch_reasons": [
+        "补齐动词、对象或首次名词解释，保持原医学限定与建议强度。"
+      ],
+      "status": "reviewed_after_patches"
+    },
+    {
+      "id": "abdomen-007",
+      "all_original_and_final_fields_compared": true,
+      "original_fields_sha256": "08adfec84c71a06a4aa6c0566c3951f523ad28fca88515d4d10736fe837fedb1",
+      "final_fields_sha256": "dad49dcb0d9339e9a325c2e015dedadad1b7a9b61e629f632c92af3ca95f3d53",
+      "clinical_scope_review": "商业排毒与正规医疗肠道准备区分；清断食错词已改，不要求自行停处方准备。",
+      "source_ids_preserved": [
+        "@src-2691e48da729",
+        "@src-f050b05a2664"
+      ],
+      "source_placement_reviewed": true,
+      "age_sex_and_special_population_limits_reviewed": true,
+      "concept_evidence_action_and_normal_sentences_reviewed": true,
+      "patch_count": 1,
+      "patch_reasons": [
+        "“清断食”并非清楚概念，改成此处真实讨论的排毒断食。"
+      ],
+      "status": "reviewed_after_patches"
+    },
+    {
+      "id": "abdomen-002",
+      "all_original_and_final_fields_compared": true,
+      "original_fields_sha256": "0e65d80609e6da27098dc290f1b67df8441f89622425828fcd980a64469588f9",
+      "final_fields_sha256": "4661c40ee2ae969cc21c12cd4ce765977e52ac794dd34116efef2ae077587805",
+      "clinical_scope_review": "肚脐温和清洁和干燥，非无菌化；持续渗液异味等需查因。",
+      "source_ids_preserved": [
+        "@src-4db5c66da544",
+        "@src-b1ef3c808371"
+      ],
+      "source_placement_reviewed": true,
+      "age_sex_and_special_population_limits_reviewed": true,
+      "concept_evidence_action_and_normal_sentences_reviewed": true,
+      "patch_count": 0,
+      "patch_reasons": [],
+      "status": "reviewed_after_patches"
+    },
+    {
+      "id": "abdomen-003",
+      "all_original_and_final_fields_compared": true,
+      "original_fields_sha256": "7d551b375dd889529d122a823f92b640659358fb491b0c92d0e1803e8bf64b91",
+      "final_fields_sha256": "65fed29729b611b5a9523be97b363d2cf5b36816cae25326e50a74e57661e41d",
+      "clinical_scope_review": "保留摩擦、感染及皮炎鉴别；修复否定歧义，不允许见红就自行上混合药膏。",
+      "source_ids_preserved": [
+        "@src-4024e0722752",
+        "@src-4db5c66da544",
+        "@src-f050b05a2664"
+      ],
+      "source_placement_reviewed": true,
+      "age_sex_and_special_population_limits_reviewed": true,
+      "concept_evidence_action_and_normal_sentences_reviewed": true,
+      "patch_count": 1,
+      "patch_reasons": [
+        "原压缩句“不见红就用”产生反向歧义，恢复清楚的否定动作。"
+      ],
+      "status": "reviewed_after_patches"
+    },
+    {
+      "id": "private-001",
+      "all_original_and_final_fields_compared": true,
+      "original_fields_sha256": "74e3557324205b418d471daabbb003111db29573ad55c94fe3f62ecd9cd64b1e",
+      "final_fields_sha256": "5221525a95c34c72a7c4815db325d17d38d75411c97a5c0090b7d29c959f5550",
+      "clinical_scope_review": "突发或静息持续睾丸痛急诊，1小时不是等待门槛；无痛新块也检查，儿童不延误。",
+      "source_ids_preserved": [
+        "@src-dd0d2636b14a"
+      ],
+      "source_placement_reviewed": true,
+      "age_sex_and_special_population_limits_reviewed": true,
+      "concept_evidence_action_and_normal_sentences_reviewed": true,
+      "patch_count": 0,
+      "patch_reasons": [],
+      "status": "reviewed_after_patches"
+    },
+    {
+      "id": "private-002",
+      "all_original_and_final_fields_compared": true,
+      "original_fields_sha256": "5aa52d18047466c542356a764a7b6d1697812e96c470629f01d5b44fc5a276a3",
+      "final_fields_sha256": "763522bd73c6a8e3f35e1bf545257c1404e820fba2408a46637ba114c07656f3",
+      "clinical_scope_review": "保留可能妊娠即使未测阳性也按腹痛、出血及肩尖痛分流，重症不等症状齐全。",
+      "source_ids_preserved": [
+        "@src-cfd60f79685f",
+        "@src-e464bfa8f2ed",
+        "@src-fa29a6a28c7b"
+      ],
+      "source_placement_reviewed": true,
+      "age_sex_and_special_population_limits_reviewed": true,
+      "concept_evidence_action_and_normal_sentences_reviewed": true,
+      "patch_count": 0,
+      "patch_reasons": [],
+      "status": "reviewed_after_patches"
+    },
+    {
+      "id": "private-009",
+      "all_original_and_final_fields_compared": true,
+      "original_fields_sha256": "1377dc05c5ceb32632ab2d00eae25670307b1aa438816a48042f597fcaba5c31",
+      "final_fields_sha256": "9ba073c1ae00153feefd1c42f71f85ef30ebcfdf30e1f9b849b71f2a31c96547",
+      "clinical_scope_review": "中毒性休克综合征有解释，移除用品不延误急救；不要求等所有症状齐全。",
+      "source_ids_preserved": [
+        "@src-0e6338d86c66",
+        "@src-8284bb8bb747",
+        "@src-91d92a4dce5a"
+      ],
+      "source_placement_reviewed": true,
+      "age_sex_and_special_population_limits_reviewed": true,
+      "concept_evidence_action_and_normal_sentences_reviewed": true,
+      "patch_count": 0,
+      "patch_reasons": [],
+      "status": "reviewed_after_patches"
+    },
+    {
+      "id": "private-036",
+      "all_original_and_final_fields_compared": true,
+      "original_fields_sha256": "a924d8ecfbd079caf87cb269f156e7e438bd869f3dbf575f7891dfe24ae5fccc",
+      "final_fields_sha256": "c71ed721328dd6b538c4e6abf01e598eefd3799fbb7a8fe3c3e841ea473b0f57",
+      "clinical_scope_review": "保留持续勃起3–4小时与镰状细胞病1小时的特殊阈值、严重疼痛可更早求助；不冰敷或靠性活动处理。",
+      "source_ids_preserved": [
+        "@src-d28e8b694167",
+        "@src-f1b3b7cb1d9d"
+      ],
+      "source_placement_reviewed": true,
+      "age_sex_and_special_population_limits_reviewed": true,
+      "concept_evidence_action_and_normal_sentences_reviewed": true,
+      "patch_count": 0,
+      "patch_reasons": [],
+      "status": "reviewed_after_patches"
+    },
+    {
+      "id": "private-019",
+      "all_original_and_final_fields_compared": true,
+      "original_fields_sha256": "b4f9914ce252bb4fd5b6146f8b8113187a83073002a929c798f0cc631c4765cc",
+      "final_fields_sha256": "1b7632d56523fdf96e327142448e0f51ac8646da4d12bf83d13906db1c6c6d73",
+      "clinical_scope_review": "HIV暴露后预防保留尽早且72小时内启动，不等检测阳性、不用剩药拼方案，也不覆盖所有感染。",
+      "source_ids_preserved": [
+        "@src-8f8c7f5e911d",
+        "@src-f006a72f8028"
+      ],
+      "source_placement_reviewed": true,
+      "age_sex_and_special_population_limits_reviewed": true,
+      "concept_evidence_action_and_normal_sentences_reviewed": true,
+      "patch_count": 0,
+      "patch_reasons": [],
+      "status": "reviewed_after_patches"
+    },
+    {
+      "id": "private-003",
+      "all_original_and_final_fields_compared": true,
+      "original_fields_sha256": "65f62f3a91f2156f3f1c8d5a1097725b99db0806233fedad8b9eea6e8fd6419b",
+      "final_fields_sha256": "da9d2761c66ca74de09e928d4adf3934fd4722e621f38eb0b43e533127ccf843",
+      "clinical_scope_review": "区分外阴与阴道，外部轻洗而不灌洗；清凉香味不证明治疗作用。",
+      "source_ids_preserved": [
+        "@src-1fd87c7fa1b3",
+        "@src-3daa1ac66c97",
+        "@src-5f26960cddcb"
+      ],
+      "source_placement_reviewed": true,
+      "age_sex_and_special_population_limits_reviewed": true,
+      "concept_evidence_action_and_normal_sentences_reviewed": true,
+      "patch_count": 0,
+      "patch_reasons": [],
+      "status": "reviewed_after_patches"
+    },
+    {
+      "id": "private-004",
+      "all_original_and_final_fields_compared": true,
+      "original_fields_sha256": "8a54b8eed5f3bbf31ce9c6b1e8eaa3153fcad953736f05d4eeea726fdaceff42",
+      "final_fields_sha256": "a4bcc6004de8ee479042c474516a8845fc249365f8555edd6791cf7a80bd2c8e",
+      "clinical_scope_review": "成人包皮可轻松回缩才清洁且必须复位；嵌顿盖不回急诊，不硬翻消毒。",
+      "source_ids_preserved": [
+        "@src-56a485adb37d"
+      ],
+      "source_placement_reviewed": true,
+      "age_sex_and_special_population_limits_reviewed": true,
+      "concept_evidence_action_and_normal_sentences_reviewed": true,
+      "patch_count": 0,
+      "patch_reasons": [],
+      "status": "reviewed_after_patches"
+    },
+    {
+      "id": "private-005",
+      "all_original_and_final_fields_compared": true,
+      "original_fields_sha256": "543dbbf7cff4758a61bef203b719ea92992bd0b6e493bd8016c4fc950b05f2cf",
+      "final_fields_sha256": "78c70ad26f8d82e347bb07e0058c139e512a628db90d740b44a0544699412052",
+      "clinical_scope_review": "儿童包皮不设统一回缩年龄，不强行翻开；生理性现象与痛肿排尿问题仍分开。",
+      "source_ids_preserved": [
+        "@src-2676faa56ba1",
+        "@src-56a485adb37d"
+      ],
+      "source_placement_reviewed": true,
+      "age_sex_and_special_population_limits_reviewed": true,
+      "concept_evidence_action_and_normal_sentences_reviewed": true,
+      "patch_count": 0,
+      "patch_reasons": [],
+      "status": "reviewed_after_patches"
+    },
+    {
+      "id": "private-006",
+      "all_original_and_final_fields_compared": true,
+      "original_fields_sha256": "482dc92e00cd1afe5093c38f713b8a04104606886a051836128568544751da75",
+      "final_fields_sha256": "9bacc98489ca073cd757f4b79b432380f783d20011c5e50e8eb073396ea3ae7d",
+      "clinical_scope_review": "阴囊皮肤瘙痒不等于全部真菌，亦不混同深部急性睾丸痛；不用长期强激素掩盖。",
+      "source_ids_preserved": [
+        "@src-742d81c62efc",
+        "@src-dd0d2636b14a"
+      ],
+      "source_placement_reviewed": true,
+      "age_sex_and_special_population_limits_reviewed": true,
+      "concept_evidence_action_and_normal_sentences_reviewed": true,
+      "patch_count": 0,
+      "patch_reasons": [],
+      "status": "reviewed_after_patches"
+    },
+    {
+      "id": "private-007",
+      "all_original_and_final_fields_compared": true,
+      "original_fields_sha256": "e4d42cc44de76b965906170b32de5ce52e817bf8d1cd1be382f568e6f9d09e9f",
+      "final_fields_sha256": "b4e9b6d2778444dcfc3ace3a9add11d0c9e0057aa5f0ad945617e08fe0765789",
+      "clinical_scope_review": "内裤按清洁干爽与耐受，不把银离子、石墨烯等材料标签当零感染保证。",
+      "source_ids_preserved": [
+        "@src-5f26960cddcb",
+        "@src-742d81c62efc"
+      ],
+      "source_placement_reviewed": true,
+      "age_sex_and_special_population_limits_reviewed": true,
+      "concept_evidence_action_and_normal_sentences_reviewed": true,
+      "patch_count": 0,
+      "patch_reasons": [],
+      "status": "reviewed_after_patches"
+    },
+    {
+      "id": "private-008",
+      "all_original_and_final_fields_compared": true,
+      "original_fields_sha256": "094c2be0c56e1cfb1345eed738c1b33c8933e50cc63249e4fdc99dc5526123bf",
+      "final_fields_sha256": "39aff0575cf7bc1381c2a69dac24ca572e0a334b6853dddfb636bfc600006b29",
+      "clinical_scope_review": "经期用品按置入意愿、清洁条件和使用负担选择，入口链接由主项目别名兼容处理。",
+      "source_ids_preserved": [
+        "@src-39ed642655b4",
+        "@src-5f26960cddcb",
+        "@src-a0c2a16ede0b",
+        "@src-c69c5b50ab76",
+        "@src-d32a07f57967",
+        "@src-e22855dc8311"
+      ],
+      "source_placement_reviewed": true,
+      "age_sex_and_special_population_limits_reviewed": true,
+      "concept_evidence_action_and_normal_sentences_reviewed": true,
+      "patch_count": 0,
+      "patch_reasons": [],
+      "status": "reviewed_after_patches"
+    },
+    {
+      "id": "private-020",
+      "all_original_and_final_fields_compared": true,
+      "original_fields_sha256": "0c800a485a21b0161d78f3952c4509d3a2b73ce1925497fbc5e7adc2b9fd4b7c",
+      "final_fields_sha256": "6ff6cef7febc00f3b1057ef92cd5919ab5a9828e8965e1bbbeb1f4cae818644f",
+      "clinical_scope_review": "卫生巾按流量和湿闷及时更换，少量也非无限留置；洗护按标签，不以草本负离子证明疗效。",
+      "source_ids_preserved": [
+        "@src-5f26960cddcb",
+        "@src-8339b51c87a6"
+      ],
+      "source_placement_reviewed": true,
+      "age_sex_and_special_population_limits_reviewed": true,
+      "concept_evidence_action_and_normal_sentences_reviewed": true,
+      "patch_count": 0,
+      "patch_reasons": [],
+      "status": "reviewed_after_patches"
+    },
+    {
+      "id": "private-021",
+      "all_original_and_final_fields_compared": true,
+      "original_fields_sha256": "329734ac84976c1af3a94da12893e84015801149b0ef4d084fc7beacbd7e3a1d",
+      "final_fields_sha256": "04fe240620729f653728c7727ad195601bf707544238f77c76cd0799dc060f15",
+      "clinical_scope_review": "棉条4–8小时、更不可超过8小时及最低足够吸收量均保留；不非经期使用，取不出或全身不适按相应路径求助。",
+      "source_ids_preserved": [
+        "@src-0e6338d86c66",
+        "@src-8284bb8bb747"
+      ],
+      "source_placement_reviewed": true,
+      "age_sex_and_special_population_limits_reviewed": true,
+      "concept_evidence_action_and_normal_sentences_reviewed": true,
+      "patch_count": 1,
+      "patch_reasons": [
+        "补齐动词、对象或首次名词解释，保持原医学限定与建议强度。"
+      ],
+      "status": "reviewed_after_patches"
+    },
+    {
+      "id": "private-022",
+      "all_original_and_final_fields_compared": true,
+      "original_fields_sha256": "9a8db048dc4c5b5f792899fe294a8e5b4d467262694d02384278a9d85048c9d4",
+      "final_fields_sha256": "526cef011fc93ad6cd88fb9cbaba08acbb3df16c3cc7c8b0c6b0704100c7d105",
+      "clinical_scope_review": "杯和碟的结构位置、解除密封与托前缘取法均保留；修复“不仅抓柄”歧义，不能互套取法或用作避孕。",
+      "source_ids_preserved": [
+        "@src-39ed642655b4",
+        "@src-c69c5b50ab76",
+        "@src-d32a07f57967",
+        "@src-e22855dc8311"
+      ],
+      "source_placement_reviewed": true,
+      "age_sex_and_special_population_limits_reviewed": true,
+      "concept_evidence_action_and_normal_sentences_reviewed": true,
+      "patch_count": 2,
+      "patch_reasons": [
+        "“不仅”误写成增加动作，恢复原文禁止只拽长柄的明确否定。",
+        "把省略主宾语和未说明的感染屏障展开，保留产品限制。"
+      ],
+      "status": "reviewed_after_patches"
+    },
+    {
+      "id": "private-023",
+      "all_original_and_final_fields_compared": true,
+      "original_fields_sha256": "c7359d4c5c25f55ed0eaf4daeb444bd59e0ef3b4be8fcbed651b80cc8fd4772c",
+      "final_fields_sha256": "d83af64812627a8d16d620df2aa76452c8cbae1df71164bc481116e95019eb8d",
+      "clinical_scope_review": "保留Mooncup4–8小时与Flex至少每12小时仅限对应型号；一次性不复用，无法取出或全身不适仍求助。",
+      "source_ids_preserved": [
+        "@src-39ed642655b4",
+        "@src-5f26960cddcb",
+        "@src-8284bb8bb747",
+        "@src-c69c5b50ab76",
+        "@src-d32a07f57967"
+      ],
+      "source_placement_reviewed": true,
+      "age_sex_and_special_population_limits_reviewed": true,
+      "concept_evidence_action_and_normal_sentences_reviewed": true,
+      "patch_count": 1,
+      "patch_reasons": [
+        "用完整动作说明取出失败的处理。"
+      ],
+      "status": "reviewed_after_patches"
+    },
+    {
+      "id": "private-024",
+      "all_original_and_final_fields_compared": true,
+      "original_fields_sha256": "8d66f379e4c8c59829aea0883a37fcd101178ce12356bc6eb3be61d9c8013ebc",
+      "final_fields_sha256": "e43db2ae12d460f912fa1be4c24fc7327f1516bb451b7866241998eb08b6508a",
+      "clinical_scope_review": "保留杯与IUD脱落关联研究非随机用杯、型号差异，不外推激素型；碟资料不足不等于零风险，尾丝异常需检查和补避孕。",
+      "source_ids_preserved": [
+        "@src-5c82bf3db27f",
+        "@src-e22855dc8311"
+      ],
+      "source_placement_reviewed": true,
+      "age_sex_and_special_population_limits_reviewed": true,
+      "concept_evidence_action_and_normal_sentences_reviewed": true,
+      "patch_count": 2,
+      "patch_reasons": [
+        "去掉电报式“新痛新出血”，保持同一警示。",
+        "恢复正常语法，说明向谁报告。"
+      ],
+      "status": "reviewed_after_patches"
+    },
+    {
+      "id": "private-025",
+      "all_original_and_final_fields_compared": true,
+      "original_fields_sha256": "b006d47683cf6ff59c7514785503396731f2366649b202b64701556e1540c52f",
+      "final_fields_sha256": "279a6ea4b323693795049649c70b07e9eb892913cfb5b3fc3a433f2d97aaa284",
+      "clinical_scope_review": "经血颜色不确诊贫血炎症也不排除怀孕；非经期、性交后或绝经后出血及妊娠腹痛分流仍保留。",
+      "source_ids_preserved": [
+        "@src-9191b941b3e3",
+        "@src-cfd60f79685f",
+        "@src-e464bfa8f2ed",
+        "@src-fbf250914644"
+      ],
+      "source_placement_reviewed": true,
+      "age_sex_and_special_population_limits_reviewed": true,
+      "concept_evidence_action_and_normal_sentences_reviewed": true,
+      "patch_count": 0,
+      "patch_reasons": [],
+      "status": "reviewed_after_patches"
+    },
+    {
+      "id": "private-026",
+      "all_original_and_final_fields_compared": true,
+      "original_fields_sha256": "4fc50a9010722336c969c66ed488b52c3b07f7bca43b8317fd7deabf35c80b65",
+      "final_fields_sha256": "fc1e6710f875167adb0f3d2179222297b5a1c33b12bce36f92e2baf990dc2742",
+      "clinical_scope_review": "保留1–2小时浸透、超过7天及影响生活即可评估的线索；急性失血分流、青少年凝血线索和按病史检查均未丢。",
+      "source_ids_preserved": [
+        "@src-22e7fc34cdd2",
+        "@src-dd8055a3f09f",
+        "@src-e464bfa8f2ed",
+        "@src-f1b70f63791a",
+        "@src-fbf250914644",
+        "@src-fcde41b5101c"
+      ],
+      "source_placement_reviewed": true,
+      "age_sex_and_special_population_limits_reviewed": true,
+      "concept_evidence_action_and_normal_sentences_reviewed": true,
+      "patch_count": 1,
+      "patch_reasons": [
+        "明确检查是什么，保留不是统一套餐和按病史选择的限制。"
+      ],
+      "status": "reviewed_after_patches"
+    },
+    {
+      "id": "private-027",
+      "all_original_and_final_fields_compared": true,
+      "original_fields_sha256": "41ae0c1e3be543434591437c1a8db505c789dec9fefe0e3528fac201477af8b8",
+      "final_fields_sha256": "f32029c31fec7552424a642fe84a6629e45c84545865750755342f35449910f2",
+      "clinical_scope_review": "保留18岁以上止痛药范围、胃肾心肝/哮喘/过敏/抗凝及孕哺备孕限制，不叠同类；继发痛经与妊娠急症分开。",
+      "source_ids_preserved": [
+        "@src-00c58088bbe3",
+        "@src-0bb01db05528",
+        "@src-cfd60f79685f"
+      ],
+      "source_placement_reviewed": true,
+      "age_sex_and_special_population_limits_reviewed": true,
+      "concept_evidence_action_and_normal_sentences_reviewed": true,
+      "patch_count": 2,
+      "patch_reasons": [
+        "恢复原文专业咨询对象和具体禁忌动作，避免“核药”“不叠”的业内简写。",
+        "补齐动词、对象或首次名词解释，保持原医学限定与建议强度。"
+      ],
+      "status": "reviewed_after_patches"
+    },
+    {
+      "id": "private-010",
+      "all_original_and_final_fields_compared": true,
+      "original_fields_sha256": "474c6585071a76f9d4b7760aa805bc7f5e28d389adf77ef00780f45ddf4ad07a",
+      "final_fields_sha256": "563c0035f644de44daf7e9c212a0ea0b4f43fcf48ab3e4526245afcd06ed0e86",
+      "clinical_scope_review": "白带外观只是线索，pH与镜检阴性不能包办排除；儿童和伴侣忠诚推断限制保留。",
+      "source_ids_preserved": [
+        "@src-1fd87c7fa1b3",
+        "@src-3daa1ac66c97",
+        "@src-fa29a6a28c7b"
+      ],
+      "source_placement_reviewed": true,
+      "age_sex_and_special_population_limits_reviewed": true,
+      "concept_evidence_action_and_normal_sentences_reviewed": true,
+      "patch_count": 2,
+      "patch_reasons": [
+        "交代记录是症状而非抽象开始时间，恢复被删的性接触定义。",
+        "解释镜检阴性并补足被排除对象，不新增检测能力。"
+      ],
+      "status": "reviewed_after_patches"
+    },
+    {
+      "id": "private-011",
+      "all_original_and_final_fields_compared": true,
+      "original_fields_sha256": "b4d017b58f0615ba711259c7f4637d3d3bb877a9e0e619530ed0efe099f7203d",
+      "final_fields_sha256": "2f3b76d296e4797efd23b67c63c40ee3348f267d587631cc7c0b1e411f57aae2",
+      "clinical_scope_review": "无症状念珠菌带菌不自动治疗，复发不足2个月需检查；孕期局部唑类7天及不自行口服氟康唑保留。",
+      "source_ids_preserved": [
+        "@src-dce332a2abd4"
+      ],
+      "source_placement_reviewed": true,
+      "age_sex_and_special_population_limits_reviewed": true,
+      "concept_evidence_action_and_normal_sentences_reviewed": true,
+      "patch_count": 0,
+      "patch_reasons": [],
+      "status": "reviewed_after_patches"
+    },
+    {
+      "id": "private-028",
+      "all_original_and_final_fields_compared": true,
+      "original_fields_sha256": "57b3f83c072f2cfc55ea0a520489023300c5b8835a5af6e48dd59c40f3be8730",
+      "final_fields_sha256": "fdd79da2dbb0b6a6c015c2621f57ebd0d7a9456c96bc28e5a043be9e2b244562",
+      "clinical_scope_review": "BV与滴虫区分，滴虫伴侣管理保留；2025开放试验仅特定稳定男女伴侣和12周复发，未泛化所有阴道炎。",
+      "source_ids_preserved": [
+        "@src-4df2f9f6db84",
+        "@src-aa16cc74eb1d",
+        "@src-de22d1b20c93"
+      ],
+      "source_placement_reviewed": true,
+      "age_sex_and_special_population_limits_reviewed": true,
+      "concept_evidence_action_and_normal_sentences_reviewed": true,
+      "patch_count": 0,
+      "patch_reasons": [],
+      "status": "reviewed_after_patches"
+    },
+    {
+      "id": "private-012",
+      "all_original_and_final_fields_compared": true,
+      "original_fields_sha256": "a3cfca8180438c4b09dedf05f713f8515843bc665d2b2e65534a81a43da3d0d5",
+      "final_fields_sha256": "5eabbfe329c5dae5df1cddf4a6e9e921abf7b1521ddd446ef945c3de3697c804",
+      "clinical_scope_review": "强处方激素、瘢痕与低但需监测癌变风险保留；重新读NHS确认不是感染且不性传播，修正“不必然”的歧义。",
+      "source_ids_preserved": [
+        "@src-770d368ba6fc"
+      ],
+      "source_placement_reviewed": true,
+      "age_sex_and_special_population_limits_reviewed": true,
+      "concept_evidence_action_and_normal_sentences_reviewed": true,
+      "patch_count": 1,
+      "patch_reasons": [
+        "已重新打开NHS原文核对：not caused by an infection、not contagious including sex；原“不必然”会留下可能性传播的错误印象。"
+      ],
+      "status": "reviewed_after_patches"
+    },
+    {
+      "id": "private-013",
+      "all_original_and_final_fields_compared": true,
+      "original_fields_sha256": "256ebfabc8384fd28cdf855852ae8759599fea23d76ebb7e87c43367ae098a10",
+      "final_fields_sha256": "30d3469126279826d4c55f6de61a95d72675ebd89322cdb291a5cfcb067b2d92",
+      "clinical_scope_review": "龟头包皮炎不是病原诊断，温和清洁复位及按因选药保留；嵌顿和睾丸痛急诊。",
+      "source_ids_preserved": [
+        "@src-56a485adb37d",
+        "@src-6ca83468a6b5",
+        "@src-dd0d2636b14a"
+      ],
+      "source_placement_reviewed": true,
+      "age_sex_and_special_population_limits_reviewed": true,
+      "concept_evidence_action_and_normal_sentences_reviewed": true,
+      "patch_count": 0,
+      "patch_reasons": [],
+      "status": "reviewed_after_patches"
+    },
+    {
+      "id": "private-029",
+      "all_original_and_final_fields_compared": true,
+      "original_fields_sha256": "4a970c9eb76766331cfe15f3492b4a3c4b7ed328737a88a334968c4e1d51726a",
+      "final_fields_sha256": "2ef5f7d781c77758a40153b5c636944c801d7b082696e848234e528e31745c67",
+      "clinical_scope_review": "尿道流液尿痛需按接触选择检测，采样准备依机构，伴侣与恢复接触时机保留；发热或睾丸痛另分流。",
+      "source_ids_preserved": [
+        "@src-0240beb37f55",
+        "@src-2c9df95277a4",
+        "@src-dd0d2636b14a"
+      ],
+      "source_placement_reviewed": true,
+      "age_sex_and_special_population_limits_reviewed": true,
+      "concept_evidence_action_and_normal_sentences_reviewed": true,
+      "patch_count": 0,
+      "patch_reasons": [],
+      "status": "reviewed_after_patches"
+    },
+    {
+      "id": "private-030",
+      "all_original_and_final_fields_compared": true,
+      "original_fields_sha256": "829c071f1494b6d29a7b79973eb69009047ab6be876a064c08ab5c000f468df6",
+      "final_fields_sha256": "34036427b5e4fc8a22078652bb7aa7d6a3a5b6ce8fa1ef9830dab3bc49607a38",
+      "clinical_scope_review": "正常阴茎变异不等于湿疣，睾丸新块无痛也查；不自行腐蚀处理，突发痛急诊。",
+      "source_ids_preserved": [
+        "@src-63802d8e1b9a",
+        "@src-833d4e8a27b6",
+        "@src-dd0d2636b14a"
+      ],
+      "source_placement_reviewed": true,
+      "age_sex_and_special_population_limits_reviewed": true,
+      "concept_evidence_action_and_normal_sentences_reviewed": true,
+      "patch_count": 0,
+      "patch_reasons": [],
+      "status": "reviewed_after_patches"
+    },
+    {
+      "id": "private-031",
+      "all_original_and_final_fields_compared": true,
+      "original_fields_sha256": "b40e93f7f70c20a5be6e17695bcc671c86c5437f4e47b2b7c22579ee3247ab82",
+      "final_fields_sha256": "124b05129390d89e0d9f698a891676cbbbff0ae4a51649405ab0b2de45c7b40b",
+      "clinical_scope_review": "血精多数不严重但颜色不确诊，仍预约查因；睾丸痛或发热腰侧痛加急路径保留。",
+      "source_ids_preserved": [
+        "@src-1551cb688294",
+        "@src-a755f1106323",
+        "@src-dd0d2636b14a"
+      ],
+      "source_placement_reviewed": true,
+      "age_sex_and_special_population_limits_reviewed": true,
+      "concept_evidence_action_and_normal_sentences_reviewed": true,
+      "patch_count": 0,
+      "patch_reasons": [],
+      "status": "reviewed_after_patches"
+    },
+    {
+      "id": "private-014",
+      "all_original_and_final_fields_compared": true,
+      "original_fields_sha256": "bd9184976c2fc022e5c6f50f3510ce4391f946232cb8fdd728cce11d2c1822de",
+      "final_fields_sha256": "5a7902c54385fe308b9031b0a6b2bf949479efd247988d538ca320f26fd6054a",
+      "clinical_scope_review": "妊娠、男性、儿童、年长、免疫/糖尿病/导尿人群不套普通成人；48小时不是高风险等待期，意识改变急救。",
+      "source_ids_preserved": [
+        "@src-0240beb37f55",
+        "@src-1551cb688294",
+        "@src-3daa1ac66c97"
+      ],
+      "source_placement_reviewed": true,
+      "age_sex_and_special_population_limits_reviewed": true,
+      "concept_evidence_action_and_normal_sentences_reviewed": true,
+      "patch_count": 1,
+      "patch_reasons": [
+        "补齐动词、对象或首次名词解释，保持原医学限定与建议强度。"
+      ],
+      "status": "reviewed_after_patches"
+    },
+    {
+      "id": "private-017",
+      "all_original_and_final_fields_compared": true,
+      "original_fields_sha256": "a2a9fc15b279345829b28ecf781b72b3057e3d3a4fe3c2c7c5a1f0236dba4bbe",
+      "final_fields_sha256": "ec548411949c7e68036dcb048bf3f0acbcceccd118f5facbaa20593a48912f38",
+      "clinical_scope_review": "盆底训练证据的人群限制及收缩放松均保留；疼痛或过紧先评估，不以中断尿流练习或直接买设备替代。",
+      "source_ids_preserved": [
+        "@src-ac497bbbce22",
+        "@src-ad853c53adf0",
+        "@src-e38bc5ebcf61"
+      ],
+      "source_placement_reviewed": true,
+      "age_sex_and_special_population_limits_reviewed": true,
+      "concept_evidence_action_and_normal_sentences_reviewed": true,
+      "patch_count": 0,
+      "patch_reasons": [],
+      "status": "reviewed_after_patches"
+    },
+    {
+      "id": "private-015",
+      "all_original_and_final_fields_compared": true,
+      "original_fields_sha256": "0921b4ea5cc64f2e4869f8753db056d6709b40f7443a6f6427c9121947a94023",
+      "final_fields_sha256": "a6f638ceb25a86a561d96255cfa3423cd195f1dacef4a4ad53a363be7fac6919",
+      "clinical_scope_review": "无症状不能排除性传播感染，按部位/时间选检测；乳胶润滑剂兼容、未覆盖皮肤风险和HIV紧急预防仍保留。",
+      "source_ids_preserved": [
+        "@src-157140cbc6c1",
+        "@src-8f8c7f5e911d",
+        "@src-f006a72f8028"
+      ],
+      "source_placement_reviewed": true,
+      "age_sex_and_special_population_limits_reviewed": true,
+      "concept_evidence_action_and_normal_sentences_reviewed": true,
+      "patch_count": 0,
+      "patch_reasons": [],
+      "status": "reviewed_after_patches"
+    },
+    {
+      "id": "private-035",
+      "all_original_and_final_fields_compared": true,
+      "original_fields_sha256": "606459a5229a902ff301f9f962ebdbcd3a11e2d479a5549eaa7199a6bb2719b0",
+      "final_fields_sha256": "5cdbf003759cb9c9e4776e53b75b2776cfd922a72ce876525e41acd5538ad03d",
+      "clinical_scope_review": "疫苗预防而非清除已有感染，男性与不同型号年龄程序不通套；漏针补种和有宫颈者筛查保留。",
+      "source_ids_preserved": [
+        "@src-591301ce053c",
+        "@src-799753e19855"
+      ],
+      "source_placement_reviewed": true,
+      "age_sex_and_special_population_limits_reviewed": true,
+      "concept_evidence_action_and_normal_sentences_reviewed": true,
+      "patch_count": 2,
+      "patch_reasons": [
+        "该条主要是疫苗及筛查，不宜把证据来源一概写作症状评估。",
+        "补齐动词、对象或首次名词解释，保持原医学限定与建议强度。"
+      ],
+      "status": "reviewed_after_patches"
+    },
+    {
+      "id": "private-016",
+      "all_original_and_final_fields_compared": true,
+      "original_fields_sha256": "0233a4b5bb8bd81430363fb67a20712c5e902002e9bf95a1751a7789def9b6aa",
+      "final_fields_sha256": "f2a47a3aa1dff5e98458843ace1ab0d2778109377b96b819d7dde11b54d636d5",
+      "clinical_scope_review": "润滑与阴道保湿的用途区分，痛先停止；出血、孕哺、激素相关肿瘤史和术后另评估，紧致不能替代查因。",
+      "source_ids_preserved": [
+        "@src-078988429fae",
+        "@src-157140cbc6c1",
+        "@src-799753e19855",
+        "@src-e38bc5ebcf61"
+      ],
+      "source_placement_reviewed": true,
+      "age_sex_and_special_population_limits_reviewed": true,
+      "concept_evidence_action_and_normal_sentences_reviewed": true,
+      "patch_count": 2,
+      "patch_reasons": [
+        "补齐动词、对象或首次名词解释，保持原医学限定与建议强度。",
+        "补齐动词、对象或首次名词解释，保持原医学限定与建议强度。"
+      ],
+      "status": "reviewed_after_patches"
+    },
+    {
+      "id": "private-032",
+      "all_original_and_final_fields_compared": true,
+      "original_fields_sha256": "3f23630314645ae5f72f59b174de7a4e9aa37bbecdd3316e2480d80fd6a4d417",
+      "final_fields_sha256": "f86d5e8e1658feac82718b711d2e69c84fd793e3ff912786150de60481f30faa",
+      "clinical_scope_review": "PDE5药非营养品，硝酸酯、NO供体及尼可地尔禁同用；去掉“影响生活才评估”新增门槛并补中文缩写解释。",
+      "source_ids_preserved": [
+        "@src-f1b3b7cb1d9d",
+        "@src-f21c7741a54d"
+      ],
+      "source_placement_reviewed": true,
+      "age_sex_and_special_population_limits_reviewed": true,
+      "concept_evidence_action_and_normal_sentences_reviewed": true,
+      "patch_count": 2,
+      "patch_reasons": [
+        "去除“身体报废”的贬损比喻，以及额外增加的影响生活才就诊门槛。",
+        "恢复原文已给出的NO中文解释，避免默认读者了解药理缩写。"
+      ],
+      "status": "reviewed_after_patches"
+    },
+    {
+      "id": "private-033",
+      "all_original_and_final_fields_compared": true,
+      "original_fields_sha256": "e3d254736b7deaf0ca0fab8af2b3cff7f18d9b18bd24023e81ca4aa94d7020f9",
+      "final_fields_sha256": "66e3621123e78e9531ffd3eb62dc63f3d27d498e3e615f8cbc14cad787e17cec",
+      "clinical_scope_review": "射精诊断不只分钟，持续性控制感与困扰保留；局麻延时药伴侣麻木、备孕谨慎及不能推成一用就不孕均保留。",
+      "source_ids_preserved": [
+        "@src-2c9df95277a4",
+        "@src-838b216af500",
+        "@src-a755f1106323"
+      ],
+      "source_placement_reviewed": true,
+      "age_sex_and_special_population_limits_reviewed": true,
+      "concept_evidence_action_and_normal_sentences_reviewed": true,
+      "patch_count": 1,
+      "patch_reasons": [
+        "补齐动词、对象或首次名词解释，保持原医学限定与建议强度。"
+      ],
+      "status": "reviewed_after_patches"
+    },
+    {
+      "id": "private-034",
+      "all_original_and_final_fields_compared": true,
+      "original_fields_sha256": "c757699398d59bc1b48cfa02951ea968c890caeb48baf3288172ee714545108d",
+      "final_fields_sha256": "a2abe19c4bfc872d0dec2bb232dfe8faff603fd77eab12b98e2d9ae17dd6bdb0",
+      "clinical_scope_review": "自慰无统一健康次数，不必任务化或归为不孕视力受损；疼痛与失控求助、自由同意及用品卫生限制保留。",
+      "source_ids_preserved": [
+        "@src-2c9df95277a4",
+        "@src-f4328254cb03"
+      ],
+      "source_placement_reviewed": true,
+      "age_sex_and_special_population_limits_reviewed": true,
+      "concept_evidence_action_and_normal_sentences_reviewed": true,
+      "patch_count": 0,
+      "patch_reasons": [],
+      "status": "reviewed_after_patches"
+    },
+    {
+      "id": "private-018",
+      "all_original_and_final_fields_compared": true,
+      "original_fields_sha256": "911c5c9ca592b8bdd9f7476d935dd7432d7d67cf5bd28cfe121f0d98676b9e59",
+      "final_fields_sha256": "673e3a4280a238f01ab0420da2dd3a5fd438b004357b8b08e85350c02e073027",
+      "clinical_scope_review": "2026澳大利亚监管复核限相关用途，非中国或全球全部激光禁令；证据不足不写成全部技术已无效。",
+      "source_ids_preserved": [
+        "@src-078988429fae",
+        "@src-799753e19855",
+        "@src-e38bc5ebcf61"
+      ],
+      "source_placement_reviewed": true,
+      "age_sex_and_special_population_limits_reviewed": true,
+      "concept_evidence_action_and_normal_sentences_reviewed": true,
+      "patch_count": 0,
+      "patch_reasons": [],
+      "status": "reviewed_after_patches"
+    },
+    {
+      "id": "private-037",
+      "all_original_and_final_fields_compared": true,
+      "original_fields_sha256": "7c125a78916d1bff9e3ea44260003d8867ecfcc449e33657cf004339e371db8f",
+      "final_fields_sha256": "a6a7223768b11632bf529bce5457b7a167c12c0381dfd1926754c4a3e67d28ad",
+      "clinical_scope_review": "年度100人使用效果及典型/正确使用分母保留，全部表中数字未变；不作单次成功率或中国个体预测。",
+      "source_ids_preserved": [
+        "@src-16620c1435b4",
+        "@src-984cf5f320d6",
+        "@src-bcda0b502c63"
+      ],
+      "source_placement_reviewed": true,
+      "age_sex_and_special_population_limits_reviewed": true,
+      "concept_evidence_action_and_normal_sentences_reviewed": true,
+      "patch_count": 2,
+      "patch_reasons": [
+        "条目可从搜索直接进入，首次出现的缩写改成中文全称。",
+        "补齐动词、对象或首次名词解释，保持原医学限定与建议强度。"
+      ],
+      "status": "reviewed_after_patches"
+    },
+    {
+      "id": "private-038",
+      "all_original_and_final_fields_compared": true,
+      "original_fields_sha256": "c941e6148a9f2a4a3450326689267b6a331fb2a73e27b0b303a0f7c0e0d30cf6",
+      "final_fields_sha256": "7cb526bf4548bc9fc44f773637d7ca53b2e2ee2d7abc92136225a5471c172840",
+      "clinical_scope_review": "外置/内置不叠用，安全套位置和取出动作已补全；乳胶润滑兼容、失败当天补救与PEP尽早72小时保留。",
+      "source_ids_preserved": [
+        "@src-2a916bf2f209",
+        "@src-3fc969b2b1ad",
+        "@src-8f8c7f5e911d",
+        "@src-9ea0e3ca5176"
+      ],
+      "source_placement_reviewed": true,
+      "age_sex_and_special_population_limits_reviewed": true,
+      "concept_evidence_action_and_normal_sentences_reviewed": true,
+      "patch_count": 5,
+      "patch_reasons": [
+        "操作性建议不能压缩成“捏顶/扶根”等难以理解的动作词。",
+        "补回操作对象和具体位置，避免“套壁之间”丢失阴道壁。",
+        "恢复独立阅读所需的PEP解释和“尽早”要求。",
+        "条目可从搜索直接进入，首次出现的缩写改成中文全称。",
+        "补齐动词、对象或首次名词解释，保持原医学限定与建议强度。"
+      ],
+      "status": "reviewed_after_patches"
+    },
+    {
+      "id": "private-045",
+      "all_original_and_final_fields_compared": true,
+      "original_fields_sha256": "8a6a66c5cdacc4aaaca4a8fe8b99db536a8e78e63522ca061fa99321b09516ff",
+      "final_fields_sha256": "7bd1dd896eb61f05d0b235bcc70e257632af68bfafe806024d035b71b11623b6",
+      "clinical_scope_review": "体外法与日历App不等同规范生育力识别，不说绝对安全日；特别需避孕者优先比较少依赖预测的方法。",
+      "source_ids_preserved": [
+        "@src-16620c1435b4",
+        "@src-9ea0e3ca5176",
+        "@src-d31ae455d011"
+      ],
+      "source_placement_reviewed": true,
+      "age_sex_and_special_population_limits_reviewed": true,
+      "concept_evidence_action_and_normal_sentences_reviewed": true,
+      "patch_count": 1,
+      "patch_reasons": [
+        "条目可从搜索直接进入，首次出现的缩写改成中文全称。"
+      ],
+      "status": "reviewed_after_patches"
+    },
+    {
+      "id": "private-039",
+      "all_original_and_final_fields_compared": true,
+      "original_fields_sha256": "6e1846d9ea937354dca2763c60a06e0a68ef9ad61e7d98820c166cf31df63c13",
+      "final_fields_sha256": "1ca13361df7a2dc2b9e7aba90dd6a9bd94d1a6ad0af5fbd4a0815de3a28dda95",
+      "clinical_scope_review": "复方与单方、有效片/安慰片和各款漏服规则分清；21+7不可套全部，近5天风险需评估紧急避孕，中国供应限制保留。",
+      "source_ids_preserved": [
+        "@src-2c1a769f1176",
+        "@src-3fc969b2b1ad",
+        "@src-6bf706443b46"
+      ],
+      "source_placement_reviewed": true,
+      "age_sex_and_special_population_limits_reviewed": true,
+      "concept_evidence_action_and_normal_sentences_reviewed": true,
+      "patch_count": 3,
+      "patch_reasons": [
+        "标题使用读者熟悉的动作，去掉研究员式“核规则”。",
+        "解释有效片与安慰片含义，补齐句子的服用动作。",
+        "不要用“核补服和屏障”替代给读者的完整行动。"
+      ],
+      "status": "reviewed_after_patches"
+    },
+    {
+      "id": "private-040",
+      "all_original_and_final_fields_compared": true,
+      "original_fields_sha256": "ea305d717dd7af24b9bc7593f0d6a197770039c3ec8613e7de8a0d211529cf85",
+      "final_fields_sha256": "5fa5a74548309cfe67c89304a4c8413709d9a37c6ca3d2137377142743ecedc1",
+      "clinical_scope_review": "贴、环、针的成分周期不通套，非口服未消除雌激素禁忌；部分针停后可约1年恢复及非永久不孕保留。",
+      "source_ids_preserved": [
+        "@src-0558c9335c83",
+        "@src-3d6d42cd3905",
+        "@src-3fc969b2b1ad",
+        "@src-960bc2438434",
+        "@src-9997b4cddd88",
+        "@src-b3015630ac23"
+      ],
+      "source_placement_reviewed": true,
+      "age_sex_and_special_population_limits_reviewed": true,
+      "concept_evidence_action_and_normal_sentences_reviewed": true,
+      "patch_count": 2,
+      "patch_reasons": [
+        "补齐产品名称和更换/使用动作，保留地域及产品限定。",
+        "把省略判断动作展开，不自动建议所有情形都紧急避孕。"
+      ],
+      "status": "reviewed_after_patches"
+    },
+    {
+      "id": "private-041",
+      "all_original_and_final_fields_compared": true,
+      "original_fields_sha256": "18c3c030b6b398206106901696316b0d7a9613277ccd0df00fdf08236e5e8348",
+      "final_fields_sha256": "da509c8dfdbd5f3bded78129475fc949d52369fff893ca5e9b356537a4b34ba0",
+      "clinical_scope_review": "皮埋与宫内装置位置及铜/激素经量差别保留；放置前妊娠感染评估、镇痛与取放计划、海外延长期不通套。",
+      "source_ids_preserved": [
+        "@src-2e9a407de155",
+        "@src-529463296105",
+        "@src-68c4a222a6c7",
+        "@src-6c4a463e6b1a",
+        "@src-887891b745d5",
+        "@src-ee937dd66107",
+        "@src-f1f6c015fed5"
+      ],
+      "source_placement_reviewed": true,
+      "age_sex_and_special_population_limits_reviewed": true,
+      "concept_evidence_action_and_normal_sentences_reviewed": true,
+      "patch_count": 3,
+      "patch_reasons": [
+        "关键选择步骤保留完整语法，并解释何时可靠及屏障多久。",
+        "说明拉什么、挖什么，避免内行缩称。",
+        "补齐动词、对象或首次名词解释，保持原医学限定与建议强度。"
+      ],
+      "status": "reviewed_after_patches"
+    },
+    {
+      "id": "private-046",
+      "all_original_and_final_fields_compared": true,
+      "original_fields_sha256": "7f101d11164d8c448dc3226ec8719f24e9396d1c2c6639dc2c7508f94e458390",
+      "final_fields_sha256": "80ee36b44d128216e25e65ffa9906e0426445ac24ac78e3a4beac391343dbeca",
+      "clinical_scope_review": "永久选择不能以必可复通决定，男性术后8–16周精液分析并确认前继续避孕；非次数或三个月自动可靠。",
+      "source_ids_preserved": [
+        "@src-32b170b07dba",
+        "@src-53e36aa06e1a",
+        "@src-984cf5f320d6"
+      ],
+      "source_placement_reviewed": true,
+      "age_sex_and_special_population_limits_reviewed": true,
+      "concept_evidence_action_and_normal_sentences_reviewed": true,
+      "patch_count": 1,
+      "patch_reasons": [
+        "条目可从搜索直接进入，首次出现的缩写改成中文全称。"
+      ],
+      "status": "reviewed_after_patches"
+    },
+    {
+      "id": "private-042",
+      "all_original_and_final_fields_compared": true,
+      "original_fields_sha256": "d4df9d851bc39939de9ad281a64fab8c4e4deed6b211f38d08e07b413c191b85",
+      "final_fields_sha256": "a24a6ed1dd497e0cfcafaa95af7e12154ed67934f0779da6938390dd8bef2642",
+      "clinical_scope_review": "保留LNG/UPA不同制剂72/120小时、CDC5天与第3–5天差异，铜宫内装置首次接触5天内及排卵判断例外。",
+      "source_ids_preserved": [
+        "@src-3fc969b2b1ad",
+        "@src-c551f82acbfb",
+        "@src-d2432c54b3be",
+        "@src-f1f6c015fed5"
+      ],
+      "source_placement_reviewed": true,
+      "age_sex_and_special_population_limits_reviewed": true,
+      "concept_evidence_action_and_normal_sentences_reviewed": true,
+      "patch_count": 1,
+      "patch_reasons": [
+        "恢复原文必须报告的接触时间，并补全动作对象。"
+      ],
+      "status": "reviewed_after_patches"
+    },
+    {
+      "id": "private-043",
+      "all_original_and_final_fields_compared": true,
+      "original_fields_sha256": "2e71950addfacf4f48c6af5cd9e3c32521f338044232d8e0db9c51697bd01682",
+      "final_fields_sha256": "9a004db9cdb363a899b246f7bfdcdacb25334d3a36538f48cac23e3d01f0cddc",
+      "clinical_scope_review": "LNG后立即常规、UPA至少5天第6天、额外7天、呕吐2或3小时制剂差异和最后接触21天验孕全部保留。",
+      "source_ids_preserved": [
+        "@src-3ecd1673a926",
+        "@src-3fc969b2b1ad",
+        "@src-a1165806c729",
+        "@src-c551f82acbfb",
+        "@src-fa29a6a28c7b"
+      ],
+      "source_placement_reviewed": true,
+      "age_sex_and_special_population_limits_reviewed": true,
+      "concept_evidence_action_and_normal_sentences_reviewed": true,
+      "patch_count": 3,
+      "patch_reasons": [
+        "首次出现的IUD应解释为宫内节育器，不能依赖其他条目。",
+        "恢复时限分歧的具体含义，补齐补服判断而非机械报数字。",
+        "补齐动词、对象或首次名词解释，保持原医学限定与建议强度。"
+      ],
+      "status": "reviewed_after_patches"
+    },
+    {
+      "id": "private-044",
+      "all_original_and_final_fields_compared": true,
+      "original_fields_sha256": "b8ace0bf9a30fc59e7bc3fa9b12c6341795e507ce83a35646dcd4f1fb934faab",
+      "final_fields_sha256": "32ec10a30d7697960737118f690f534e65e67573023ad171361904dfdc0b2ac5",
+      "clinical_scope_review": "常见出血适应与警示分开，宫内器具首用有中文解释；新痛发热大出血尾丝异常当天查，胸痛气短晕厥急诊。",
+      "source_ids_preserved": [
+        "@src-529463296105",
+        "@src-68c4a222a6c7",
+        "@src-887891b745d5",
+        "@src-8e7c75d195e6",
+        "@src-bb1e4f8af841",
+        "@src-fa29a6a28c7b"
+      ],
+      "source_placement_reviewed": true,
+      "age_sex_and_special_population_limits_reviewed": true,
+      "concept_evidence_action_and_normal_sentences_reviewed": true,
+      "patch_count": 3,
+      "patch_reasons": [
+        "读者标题不使用“复评”缩称，也不能把所有出血直接当需改变方案。",
+        "解释独立阅读时未经定义的IUD/IUS，并补齐经量变化的正常语法。",
+        "说明停用对象和衔接动作，保留原避孕空档限制。"
+      ],
+      "status": "reviewed_after_patches"
+    },
+    {
+      "id": "private-047",
+      "all_original_and_final_fields_compared": true,
+      "original_fields_sha256": "fd9daabd7c5c818b0d066c3659208f9b0551cb3de2fc0c2de89a36a5ad8d7d8f",
+      "final_fields_sha256": "224c4c57872511d88cf8f2543ef742750c697e3b47794cc24e4d520fd520094c",
+      "clinical_scope_review": "含雌激素方法禁忌与35岁以上吸烟、偏头痛先兆保留；哺乳闭经需全部条件及不足6个月，药物相互作用不概括全部抗生素。",
+      "source_ids_preserved": [
+        "@src-984cf5f320d6",
+        "@src-9997b4cddd88"
+      ],
+      "source_placement_reviewed": true,
+      "age_sex_and_special_population_limits_reviewed": true,
+      "concept_evidence_action_and_normal_sentences_reviewed": true,
+      "patch_count": 0,
+      "patch_reasons": [],
+      "status": "reviewed_after_patches"
+    },
+    {
+      "id": "private-048",
+      "all_original_and_final_fields_compared": true,
+      "original_fields_sha256": "aba6a10f322d78502b24aaa65006e119ac0424ea197fec3ee710780140114abd",
+      "final_fields_sha256": "e3d9c5863f71744e5adf37bbd127ba257693ac385b0414efecd4c7e2ba55c2bd",
+      "clinical_scope_review": "双方孕前评估、用药疫苗与病史记录，潜在致畸药不能自行停，必要时调整完成前继续避孕。",
+      "source_ids_preserved": [
+        "@src-7829f62624b1",
+        "@src-79f7c3e88223",
+        "@src-db48d0c024d2"
+      ],
+      "source_placement_reviewed": true,
+      "age_sex_and_special_population_limits_reviewed": true,
+      "concept_evidence_action_and_normal_sentences_reviewed": true,
+      "patch_count": 1,
+      "patch_reasons": [
+        "恢复疫苗补种和等待的具体决策，不用省略谓语的专业记事句。"
+      ],
+      "status": "reviewed_after_patches"
+    },
+    {
+      "id": "private-049",
+      "all_original_and_final_fields_compared": true,
+      "original_fields_sha256": "0a5fcb5d1d172397bc2e828d0177baa702b254ec4e999f9497209aeda4e181d1",
+      "final_fields_sha256": "e54ddeaf950f211390ef26579d76df4525d8e10ef1e7bf014ce28d72d76d9694",
+      "clinical_scope_review": "400微克=0.4毫克、最好3个月至少1个月至孕12周保留；高风险个体化、不叠复合维生素、MTHFR不必昂贵活性叶酸。",
+      "source_ids_preserved": [
+        "@src-2995532e2270",
+        "@src-c5119d8b6bc2"
+      ],
+      "source_placement_reviewed": true,
+      "age_sex_and_special_population_limits_reviewed": true,
+      "concept_evidence_action_and_normal_sentences_reviewed": true,
+      "patch_count": 3,
+      "patch_reasons": [
+        "补回基因这个概念说明，不把陌生缩写当读者已知。",
+        "明确高风险者找谁、确认什么。",
+        "补齐动词、对象或首次名词解释，保持原医学限定与建议强度。"
+      ],
+      "status": "reviewed_after_patches"
+    },
+    {
+      "id": "private-050",
+      "all_original_and_final_fields_compared": true,
+      "original_fields_sha256": "7ef1b3cf0cbd5baf4e3cbf777d2480777d25e3b3cb309e6e6d18a0ad81ae7da3",
+      "final_fields_sha256": "1a722afd50be358cd9c274ca576377090bf441f0b5daa80ea8f20b60f4b8ba7b",
+      "clinical_scope_review": "备孕双方减少有害暴露，妊娠方从尝试起不饮酒；男性生活方式与精子指标关联不推成人人更快生下孩子。",
+      "source_ids_preserved": [
+        "@src-79f7c3e88223",
+        "@src-977ce92073eb",
+        "@src-db48d0c024d2",
+        "@src-e12063c55d5b"
+      ],
+      "source_placement_reviewed": true,
+      "age_sex_and_special_population_limits_reviewed": true,
+      "concept_evidence_action_and_normal_sentences_reviewed": true,
+      "patch_count": 1,
+      "patch_reasons": [
+        "把活产等研究术语转成自然语句，保留相关性及终点限制。"
+      ],
+      "status": "reviewed_after_patches"
+    },
+    {
+      "id": "private-051",
+      "all_original_and_final_fields_compared": true,
+      "original_fields_sha256": "dbb0d198033ea029982a01d1b9ce05e6f73167fa12be2c8aca0cc06325f08525",
+      "final_fields_sha256": "876af3144cec64c938883fd1ed9d191e1196cf5c72a3a87cbd1253fae9765392",
+      "clinical_scope_review": "自然阴道性交每2–3天，易孕前5天至当天共6天及每1–2天保留；体位抬腿不承诺促孕或选性别。",
+      "source_ids_preserved": [
+        "@src-79f7c3e88223",
+        "@src-977ce92073eb",
+        "@src-ce7fc78b2ed1"
+      ],
+      "source_placement_reviewed": true,
+      "age_sex_and_special_population_limits_reviewed": true,
+      "concept_evidence_action_and_normal_sentences_reviewed": true,
+      "patch_count": 0,
+      "patch_reasons": [],
+      "status": "reviewed_after_patches"
+    },
+    {
+      "id": "private-052",
+      "all_original_and_final_fields_compared": true,
+      "original_fields_sha256": "cbc22b016d98bab4e8e5b33f7f775e68ed7b2bc887fd547a547769d026de1a37",
+      "final_fields_sha256": "c145a7b92b7b86d2de5f282b979d888a9c1493de07bef23d84f17d94006d648d",
+      "clinical_scope_review": "LH阳性只间接提示1–2天，40岁以下尝试不足12个月综述的可能收益、厂商资助和PCOS假阳性限制保留。",
+      "source_ids_preserved": [
+        "@src-706a9dea6c2c",
+        "@src-977ce92073eb",
+        "@src-ce7fc78b2ed1"
+      ],
+      "source_placement_reviewed": true,
+      "age_sex_and_special_population_limits_reviewed": true,
+      "concept_evidence_action_and_normal_sentences_reviewed": true,
+      "patch_count": 1,
+      "patch_reasons": [
+        "摘要与原文综述的“可能提高”保持同等确定性，不写成已确定的收益。"
+      ],
+      "status": "reviewed_after_patches"
+    },
+    {
+      "id": "private-053",
+      "all_original_and_final_fields_compared": true,
+      "original_fields_sha256": "a1e36e74b07cf5d851f476832bbf6360e3be982759d4204e3e13549a39cfc221",
+      "final_fields_sha256": "95196d8cdcf3798bcf9c8c35d46ed4f40c94e79687c7757fb63122fc9701f82e",
+      "clinical_scope_review": "男性同步生育评估、精液指标不能单项定论；睾酮和合成代谢类固醇可能少精无精，处方治疗不自行停换。",
+      "source_ids_preserved": [
+        "@src-7829f62624b1",
+        "@src-ce7fc78b2ed1",
+        "@src-e12063c55d5b"
+      ],
+      "source_placement_reviewed": true,
+      "age_sex_and_special_population_limits_reviewed": true,
+      "concept_evidence_action_and_normal_sentences_reviewed": true,
+      "patch_count": 0,
+      "patch_reasons": [],
+      "status": "reviewed_after_patches"
+    },
+    {
+      "id": "private-054",
+      "all_original_and_final_fields_compared": true,
+      "original_fields_sha256": "ea3cce5a7ee44ebe0b8e8767c2effaa92d536cb8cd7c63f1de7d23e4a501f42f",
+      "final_fields_sha256": "98bb76694cfe4ae6056056eef20ef514ac180602192841c7e4e2b070f33c94a8",
+      "clinical_scope_review": "小于35岁12个月、35岁以上6个月、超过40岁尽早，以及病因/症状提前评估例外保留；辅助生殖需求不套等待。",
+      "source_ids_preserved": [
+        "@src-ce7fc78b2ed1",
+        "@src-e12063c55d5b"
+      ],
+      "source_placement_reviewed": true,
+      "age_sex_and_special_population_limits_reviewed": true,
+      "concept_evidence_action_and_normal_sentences_reviewed": true,
+      "patch_count": 1,
+      "patch_reasons": [
+        "去掉业内式“核”，明确要检查的对象。"
+      ],
+      "status": "reviewed_after_patches"
+    },
+    {
+      "id": "private-055",
+      "all_original_and_final_fields_compared": true,
+      "original_fields_sha256": "f07b188cc7ee157223bbe0a51f5f53fdbff3b74950d2be8ea03b6ab86ccfd23d",
+      "final_fields_sha256": "6d8bc6288e6474060ac51c10048640de824b5005f3fcbb856e2efe7b53d91471",
+      "clinical_scope_review": "AMH是促排反应辅助不判自然生育力，补剂证据不足不等于所有营养无用；PRP侵入风险与缺乏可靠疗效证据均保留。",
+      "source_ids_preserved": [
+        "@src-2995532e2270",
+        "@src-c3d50298c2a4",
+        "@src-ce7fc78b2ed1",
+        "@src-e12063c55d5b"
+      ],
+      "source_placement_reviewed": true,
+      "age_sex_and_special_population_limits_reviewed": true,
+      "concept_evidence_action_and_normal_sentences_reviewed": true,
+      "patch_count": 2,
+      "patch_reasons": [
+        "解释监管机构缩写，区分缺乏可靠疗效证据与已证明收益很小。",
+        "恢复原文重要的真实生育结局限制，补齐省略动词。"
+      ],
+      "status": "reviewed_after_patches"
+    },
+    {
+      "id": "private-056",
+      "all_original_and_final_fields_compared": true,
+      "original_fields_sha256": "b22b4e0c695d3c8540e5b29c489d988a672edbfa7f1c9e2165b5323e6d0d4776",
+      "final_fields_sha256": "7254e012391d050278e4cfc62fd4280cc18c15dc1ba7419b26dcddca9962ca57",
+      "clinical_scope_review": "hCG、月经未到首日或最后接触至少21天检测、复测和检查保留；可能宫外孕不以阴性排除，重症不等复测。",
+      "source_ids_preserved": [
+        "@src-4bbc618f97c8",
+        "@src-a1165806c729"
+      ],
+      "source_placement_reviewed": true,
+      "age_sex_and_special_population_limits_reviewed": true,
+      "concept_evidence_action_and_normal_sentences_reviewed": true,
+      "patch_count": 0,
+      "patch_reasons": [],
+      "status": "reviewed_after_patches"
+    },
+    {
+      "id": "anal-001",
+      "all_original_and_final_fields_compared": true,
+      "original_fields_sha256": "ac310d559726400441c2ba42c0a5912f5a0391de95713f74b61e8223e9e8cbe1",
+      "final_fields_sha256": "93adbc813d7ebb166af583c335f5c13acda8a8bed5212c2d30cff38992afd72b",
+      "clinical_scope_review": "持续/大量便血或大块急诊，全身失血表现急诊；黑暗红便血泻当天、儿童检查及不自行停重要处方均保留。",
+      "source_ids_preserved": [
+        "@src-74499d8a3f05",
+        "@src-e9bf8d43912a"
+      ],
+      "source_placement_reviewed": true,
+      "age_sex_and_special_population_limits_reviewed": true,
+      "concept_evidence_action_and_normal_sentences_reviewed": true,
+      "patch_count": 0,
+      "patch_reasons": [],
+      "status": "reviewed_after_patches"
+    },
+    {
+      "id": "anal-002",
+      "all_original_and_final_fields_compared": true,
+      "original_fields_sha256": "3cb930271eb6edcc39379ecb7e1b911d0398547524b69056d2cd09974c698cbe",
+      "final_fields_sha256": "d6fa0da4dcd7252d530623d8ed08651ddb5eb04f36caa02298a2f0e58a100727",
+      "clinical_scope_review": "肛周脓肿深部可能外观不明显，需当天检查且多需引流；抗生素按感染范围与免疫情况，不用坐浴替代。",
+      "source_ids_preserved": [
+        "@src-541add7a970f",
+        "@src-f130e25e9ec8"
+      ],
+      "source_placement_reviewed": true,
+      "age_sex_and_special_population_limits_reviewed": true,
+      "concept_evidence_action_and_normal_sentences_reviewed": true,
+      "patch_count": 0,
+      "patch_reasons": [],
+      "status": "reviewed_after_patches"
+    },
+    {
+      "id": "anal-003",
+      "all_original_and_final_fields_compared": true,
+      "original_fields_sha256": "9cd0fe577ffaba0ea60767399df082f16d47fbf66e593505a1c67d2248a5fdfd",
+      "final_fields_sha256": "45543c19b385806fa505561baeab5bdf2d49584d8773158e9cd406fa3d963951",
+      "clinical_scope_review": "有外阴者擦拭方向与污染转移解释，非一次反向必感染；厕后肥皂流水搓约20秒，男性也避免污染。",
+      "source_ids_preserved": [
+        "@src-0240beb37f55",
+        "@src-1812ebc41441",
+        "@src-99cbddd76bb9"
+      ],
+      "source_placement_reviewed": true,
+      "age_sex_and_special_population_limits_reviewed": true,
+      "concept_evidence_action_and_normal_sentences_reviewed": true,
+      "patch_count": 0,
+      "patch_reasons": [],
+      "status": "reviewed_after_patches"
+    },
+    {
+      "id": "anal-004",
+      "all_original_and_final_fields_compared": true,
+      "original_fields_sha256": "50dceaf9ca3555c219685e41c283a478b2863f5c1dfc4817e0b5f87c98af6628",
+      "final_fields_sha256": "77893948b4d14d74713abbc921c403c7e19013e73d2a2d7a12871f9914b1f796",
+      "clinical_scope_review": "干纸湿纸清水按舒适选择，不追求消毒；无香、过敏/破损标签、湿巾丢垃圾与医疗效果分开。",
+      "source_ids_preserved": [
+        "@src-210a9e678aae",
+        "@src-41a19f5951d6",
+        "@src-97d74ad74186",
+        "@src-cd62670faffe"
+      ],
+      "source_placement_reviewed": true,
+      "age_sex_and_special_population_limits_reviewed": true,
+      "concept_evidence_action_and_normal_sentences_reviewed": true,
+      "patch_count": 1,
+      "patch_reasons": [
+        "补齐动词、对象或首次名词解释，保持原医学限定与建议强度。"
+      ],
+      "status": "reviewed_after_patches"
+    },
+    {
+      "id": "anal-005",
+      "all_original_and_final_fields_compared": true,
+      "original_fields_sha256": "eb222d8f35cd7cdf39ef75ad95dcb77b1e2e17d7ccc9a43aaa184b2f5c965b11",
+      "final_fields_sha256": "3f8c0e7ab6a81465dc7afc838bd6cd3b632785cef438efae1a5059180780dc2f",
+      "clinical_scope_review": "外部低压不烫、洗后拍干，非灌肠或痔疮治疗；有限观察资料不算个人风险，感觉减退术后等需帮助。",
+      "source_ids_preserved": [
+        "@src-210a9e678aae",
+        "@src-6e4faf020eeb"
+      ],
+      "source_placement_reviewed": true,
+      "age_sex_and_special_population_limits_reviewed": true,
+      "concept_evidence_action_and_normal_sentences_reviewed": true,
+      "patch_count": 0,
+      "patch_reasons": [],
+      "status": "reviewed_after_patches"
+    },
+    {
+      "id": "anal-006",
+      "all_original_and_final_fields_compared": true,
+      "original_fields_sha256": "b44c591b911948533b27ea942a5df4cb99571c7c49e5536379371d4146ce787b",
+      "final_fields_sha256": "7e4342458fc351cbceb1c6ec628b0ae5dc0857334fd5f14cc8b4ef50fc1f8054",
+      "clinical_scope_review": "响应便意、少硬推久坐、不强迫每日任务，儿童不责怪；不将手机本身或蹲凳作确定病因/治疗。",
+      "source_ids_preserved": [
+        "@src-1812ebc41441",
+        "@src-5db346e61e9f",
+        "@src-b221ded799ca"
+      ],
+      "source_placement_reviewed": true,
+      "age_sex_and_special_population_limits_reviewed": true,
+      "concept_evidence_action_and_normal_sentences_reviewed": true,
+      "patch_count": 0,
+      "patch_reasons": [],
+      "status": "reviewed_after_patches"
+    },
+    {
+      "id": "anal-007",
+      "all_original_and_final_fields_compared": true,
+      "original_fields_sha256": "d5b10ea08b5389a46804321bfceee578cbb6160a17c8e875d20ebd53a32777c5",
+      "final_fields_sha256": "0203c1f9df950c6f65dc2b0b39a505b3ee12aa0907ec4260d0cac69a770ea44f",
+      "clinical_scope_review": "硬痛费力排不净而非只看频次，逐步纤维水分活动与心肾/限水/吞咽限制保留；出血消瘦及梗阻样症状仍分流。",
+      "source_ids_preserved": [
+        "@src-5db346e61e9f",
+        "@src-6a76da70b88d",
+        "@src-e7f5c76bd29a"
+      ],
+      "source_placement_reviewed": true,
+      "age_sex_and_special_population_limits_reviewed": true,
+      "concept_evidence_action_and_normal_sentences_reviewed": true,
+      "patch_count": 0,
+      "patch_reasons": [],
+      "status": "reviewed_after_patches"
+    },
+    {
+      "id": "anal-008",
+      "all_original_and_final_fields_compared": true,
+      "original_fields_sha256": "4938c743ec6da82b79511ccbce3cfb11ff270877423bc6ee4bb178f8a2ebd845",
+      "final_fields_sha256": "ced22234c6c675800e1682a20caed6a8ecf4dc083cd9b5d1d24483f77253fad2",
+      "clinical_scope_review": "纤维/渗透/刺激药分类及PEG成人特发性范围保留；纠正无表称此表、特殊人群不照搬，反复救援或软仍难排需再评估。",
+      "source_ids_preserved": [
+        "@src-5a5ce3fe5474",
+        "@src-5db346e61e9f",
+        "@src-e7f5c76bd29a"
+      ],
+      "source_placement_reviewed": true,
+      "age_sex_and_special_population_limits_reviewed": true,
+      "concept_evidence_action_and_normal_sentences_reviewed": true,
+      "patch_count": 5,
+      "patch_reasons": [
+        "改写后已没有表格，不能仍指向“此表”；解释阿片便秘的关联。",
+        "标题避免临床内部常用的复评缩称。",
+        "补齐动词、对象或首次名词解释，保持原医学限定与建议强度。",
+        "补齐动词、对象或首次名词解释，保持原医学限定与建议强度。",
+        "补齐动词、对象或首次名词解释，保持原医学限定与建议强度。"
+      ],
+      "status": "reviewed_after_patches"
+    },
+    {
+      "id": "anal-009",
+      "all_original_and_final_fields_compared": true,
+      "original_fields_sha256": "c372702c259521a95ea9c22d8bacb7bfa39e6cd8e344a0f2920e24440bba8f75",
+      "final_fields_sha256": "93dc7c5798d0f485cd46b2740bcb93f3f04a050a70cbd8ad265a4da8012c5842",
+      "clinical_scope_review": "肛裂概念、硬便稀便均刺激、外用处方与低血压头痛风险保留；不能自行调心血管药，发热跳痛当天查脓肿。",
+      "source_ids_preserved": [
+        "@src-c5b743f47c0f",
+        "@src-f130e25e9ec8"
+      ],
+      "source_placement_reviewed": true,
+      "age_sex_and_special_population_limits_reviewed": true,
+      "concept_evidence_action_and_normal_sentences_reviewed": true,
+      "patch_count": 1,
+      "patch_reasons": [
+        "“便质”是业内缩称，标题先让读者理解可做的事。"
+      ],
+      "status": "reviewed_after_patches"
+    },
+    {
+      "id": "anal-010",
+      "all_original_and_final_fields_compared": true,
+      "original_fields_sha256": "72ff5c18e70785c9296f1aee9d2037cf652f92ed1856e401123813b8f5399b08",
+      "final_fields_sha256": "268ae08fcff2e1b436855c13060b74e776ee3ed97f06b4e8fd3229922a57a4e3",
+      "clinical_scope_review": "正常痔组织不因看到就治疗，既往痔不能诊断新便血；短期局部缓解与病因检查/结扎手术分层保留。",
+      "source_ids_preserved": [
+        "@src-b221ded799ca",
+        "@src-c4985b619365",
+        "@src-e9bf8d43912a"
+      ],
+      "source_placement_reviewed": true,
+      "age_sex_and_special_population_limits_reviewed": true,
+      "concept_evidence_action_and_normal_sentences_reviewed": true,
+      "patch_count": 0,
+      "patch_reasons": [],
+      "status": "reviewed_after_patches"
+    },
+    {
+      "id": "anal-011",
+      "all_original_and_final_fields_compared": true,
+      "original_fields_sha256": "bee1e04299c11edeabc349da561b756c167a4334ac64665f5a545b2a97347579",
+      "final_fields_sha256": "0e32a66beb0a64444a248d429e31b2a8875458a24a64d347c642a88250642c9e",
+      "clinical_scope_review": "肛痒不等于不洁或真菌，夜痒不确诊蛲虫；早晨清洁如厕前取样及家人/衣物安排、孕哺婴幼儿药物单独确认。",
+      "source_ids_preserved": [
+        "@src-210a9e678aae",
+        "@src-3e1bb76cc1e3",
+        "@src-7c2d259c9504",
+        "@src-97d74ad74186"
+      ],
+      "source_placement_reviewed": true,
+      "age_sex_and_special_population_limits_reviewed": true,
+      "concept_evidence_action_and_normal_sentences_reviewed": true,
+      "patch_count": 1,
+      "patch_reasons": [
+        "补全人群、药物与咨询对象，保留特殊人群限制。"
+      ],
+      "status": "reviewed_after_patches"
+    },
+    {
+      "id": "anal-012",
+      "all_original_and_final_fields_compared": true,
+      "original_fields_sha256": "7d9307d462013d336b840684edc1cf93b61ea888018eb8ac30f8294bba029c41",
+      "final_fields_sha256": "aae8904d37d06c0aca1dfabc5dee3e47c0d68a44058a9283044009a3c04b74af",
+      "clinical_scope_review": "粪渍可能渗漏，便秘嵌塞也可漏稀便；不直接止泻手掏强冲，温和皮肤护理与按因训练保留。",
+      "source_ids_preserved": [
+        "@src-2e0aca7209c6",
+        "@src-c95ce135169a"
+      ],
+      "source_placement_reviewed": true,
+      "age_sex_and_special_population_limits_reviewed": true,
+      "concept_evidence_action_and_normal_sentences_reviewed": true,
+      "patch_count": 1,
+      "patch_reasons": [
+        "把排便处理写成完整中文句子。"
+      ],
+      "status": "reviewed_after_patches"
+    },
+    {
+      "id": "bodyskin-009",
+      "all_original_and_final_fields_compared": true,
+      "original_fields_sha256": "0811339431105b67ad1c928e620e055bc0d88e71511909a24bd4a0041c6f7117",
+      "final_fields_sha256": "f94788e9d55284e823f2f9c6d1353f3fecbdc41872de1d095cbea790fd0678bd",
+      "clinical_scope_review": "体毛无必须清除的卫生要求，个人外观可选；修剪减少贴皮损伤为实用取舍而非疗效排名。",
+      "source_ids_preserved": [
+        "@src-4bc578cd41e4",
+        "@src-8d6d71c3d8cd"
+      ],
+      "source_placement_reviewed": true,
+      "age_sex_and_special_population_limits_reviewed": true,
+      "concept_evidence_action_and_normal_sentences_reviewed": true,
+      "patch_count": 0,
+      "patch_reasons": [],
+      "status": "reviewed_after_patches"
+    },
+    {
+      "id": "bodyskin-010",
+      "all_original_and_final_fields_compared": true,
+      "original_fields_sha256": "c5e21a22865c75bf7841fdb7f4e4e564af4c4038c444ba5c46edf04ea54dfb9f",
+      "final_fields_sha256": "37a9c39b11a85eb3b1715005ff1948fac44e397eed9cd86e930dd6b015fd6fec",
+      "clinical_scope_review": "剃/膏/蜡不同机制和操作限制保留，局测不保证不过敏；异维A酸等用药、破皮黏膜/孕哺年龄限制仍在。",
+      "source_ids_preserved": [
+        "@src-4bc578cd41e4",
+        "@src-ae0ea75684df"
+      ],
+      "source_placement_reviewed": true,
+      "age_sex_and_special_population_limits_reviewed": true,
+      "concept_evidence_action_and_normal_sentences_reviewed": true,
+      "patch_count": 2,
+      "patch_reasons": [
+        "补齐动词、对象或首次名词解释，保持原医学限定与建议强度。",
+        "补齐动词、对象或首次名词解释，保持原医学限定与建议强度。"
+      ],
+      "status": "reviewed_after_patches"
+    },
+    {
+      "id": "bodyskin-011",
+      "all_original_and_final_fields_compared": true,
+      "original_fields_sha256": "14a71ec43b4e347cfc7e6a2cff77048dd63ef14fded1164e92a0f318ebf51102",
+      "final_fields_sha256": "34d5b34a15dfbd191502204a68e3cc7745bbb94ea677c07a0aa77b24183bc0cd",
+      "clinical_scope_review": "IPL/激光概念和黑色素光热机制保留，有限型号不泛化；眼周黏膜禁用、肤色药物评估及异常痛水疱视力急停。",
+      "source_ids_preserved": [
+        "@src-8925bd9e539d",
+        "@src-a3aae1e9ae9c",
+        "@src-cfa8da48dd7f"
+      ],
+      "source_placement_reviewed": true,
+      "age_sex_and_special_population_limits_reviewed": true,
+      "concept_evidence_action_and_normal_sentences_reviewed": true,
+      "patch_count": 2,
+      "patch_reasons": [
+        "补齐动词、对象或首次名词解释，保持原医学限定与建议强度。",
+        "补齐动词、对象或首次名词解释，保持原医学限定与建议强度。"
+      ],
+      "status": "reviewed_after_patches"
+    },
+    {
+      "id": "bodyskin-013",
+      "all_original_and_final_fields_compared": true,
+      "original_fields_sha256": "92a3a98cac3cbbe2e5a38a43db69b709566a0ab38f91735318817fd6bc90bb55",
+      "final_fields_sha256": "755131c4bc42719be9e37202e7f697290185f2acff2e2d9dd90cad663eb6b716",
+      "clinical_scope_review": "普通/肥厚/越界瘢痕疙瘩与凹陷挛缩分开；照片不确诊，无外伤硬块需排除肿物。",
+      "source_ids_preserved": [
+        "@src-810234e0967a",
+        "@src-c2d980d417b6"
+      ],
+      "source_placement_reviewed": true,
+      "age_sex_and_special_population_limits_reviewed": true,
+      "concept_evidence_action_and_normal_sentences_reviewed": true,
+      "patch_count": 0,
+      "patch_reasons": [],
+      "status": "reviewed_after_patches"
+    },
+    {
+      "id": "bodyskin-014",
+      "all_original_and_final_fields_compared": true,
+      "original_fields_sha256": "d7a7cd5d30e6cdd99f62448e5c9a9bb172a9bbd240b709ef8664344b42c0b9fe",
+      "final_fields_sha256": "0c3d739786bf86c014bab8299f368f50664ddde8b75d9388f14bce4cb9e93b38",
+      "clinical_scope_review": "瘢痕体质非通用测试，病史家族与部位影响风险；小耳洞测试也留伤，必要手术不因怕疤延误。",
+      "source_ids_preserved": [
+        "@src-ae70be0aa294",
+        "@src-f4ddf61a22cf"
+      ],
+      "source_placement_reviewed": true,
+      "age_sex_and_special_population_limits_reviewed": true,
+      "concept_evidence_action_and_normal_sentences_reviewed": true,
+      "patch_count": 3,
+      "patch_reasons": [
+        "此条针对异常瘢痕疙瘩风险，不应泛化为所有伤口留痕。",
+        "“不仅凭”容易读成还需凭其他信息购买，恢复原文不轻信宣传的否定动作。",
+        "避免“约缝合护理”这类主宾语不清的省略。"
+      ],
+      "status": "reviewed_after_patches"
+    },
+    {
+      "id": "bodyskin-015",
+      "all_original_and_final_fields_compared": true,
+      "original_fields_sha256": "7334ae1c9ca8e7f0f3b79c4638706f2c5759d4e5289b35a4159e756bce8ffd34",
+      "final_fields_sha256": "775337feffdc021ba9cdd2bf3b17b304cd1bd26ed86d7208519e9850b6ce8c39",
+      "clinical_scope_review": "硅酮待闭合无痂，既有瘢痕疙瘩贴片确定性很低；凝胶/贴片及预防/治疗不互借，证据不足非全部无效。",
+      "source_ids_preserved": [
+        "@src-32271a84417d",
+        "@src-ce03d22e0ee6",
+        "@src-f9cc42735a4e"
+      ],
+      "source_placement_reviewed": true,
+      "age_sex_and_special_population_limits_reviewed": true,
+      "concept_evidence_action_and_normal_sentences_reviewed": true,
+      "patch_count": 1,
+      "patch_reasons": [
+        "补齐动词、对象或首次名词解释，保持原医学限定与建议强度。"
+      ],
+      "status": "reviewed_after_patches"
+    },
+    {
+      "id": "bodyskin-016",
+      "all_original_and_final_fields_compared": true,
+      "original_fields_sha256": "06b3712b041ae92812a54c66f5a4185ba146341deb8d8acf5111a891d8914c68",
+      "final_fields_sha256": "f12abf81ff78e281e7d380e3adcabb7ea518b7e2a1ea65304223f72d46481399",
+      "clinical_scope_review": "压力装置为医疗辅助非普通耳夹或瘦身衣，部位依从与痛麻破损停压联系团队保留。",
+      "source_ids_preserved": [
+        "@src-32271a84417d",
+        "@src-f9cc42735a4e"
+      ],
+      "source_placement_reviewed": true,
+      "age_sex_and_special_population_limits_reviewed": true,
+      "concept_evidence_action_and_normal_sentences_reviewed": true,
+      "patch_count": 0,
+      "patch_reasons": [],
+      "status": "reviewed_after_patches"
+    },
+    {
+      "id": "bodyskin-017",
+      "all_original_and_final_fields_compared": true,
+      "original_fields_sha256": "92452e48865e2f22e326c7fdac7d453f6c6a543cebe041db5eb087315d7508ed",
+      "final_fields_sha256": "6820912591092db26b69b0a0d23c23214fa598e53aa4b4d7d2a143f7a46f82c3",
+      "clinical_scope_review": "局部激素与5-FU机制有解释，方案异质而非网络通用剂量；多次评估疗效损伤及孕哺备孕儿童药物限制保留。",
+      "source_ids_preserved": [
+        "@src-810234e0967a",
+        "@src-c77bb281fd7f",
+        "@src-f4ddf61a22cf",
+        "@src-f9cc42735a4e"
+      ],
+      "source_placement_reviewed": true,
+      "age_sex_and_special_population_limits_reviewed": true,
+      "concept_evidence_action_and_normal_sentences_reviewed": true,
+      "patch_count": 3,
+      "patch_reasons": [
+        "补齐动词、对象或首次名词解释，保持原医学限定与建议强度。",
+        "补齐动词、对象或首次名词解释，保持原医学限定与建议强度。",
+        "补齐动词、对象或首次名词解释，保持原医学限定与建议强度。"
+      ],
+      "status": "reviewed_after_patches"
+    },
+    {
+      "id": "bodyskin-018",
+      "all_original_and_final_fields_compared": true,
+      "original_fields_sha256": "23af3ccd103c2acde23809e9d617743cadb2a77591261d9470e8a2f8c51073fc",
+      "final_fields_sha256": "461f8cb8f163efd21d86c29d9e1162032b60821d10f62f85d443b87da4e9bef6",
+      "clinical_scope_review": "冷冻与激光的目标、深肤色持久浅斑及联合治疗保留；表面变淡不能推增长复发已控制。",
+      "source_ids_preserved": [
+        "@src-32271a84417d",
+        "@src-f9cc42735a4e"
+      ],
+      "source_placement_reviewed": true,
+      "age_sex_and_special_population_limits_reviewed": true,
+      "concept_evidence_action_and_normal_sentences_reviewed": true,
+      "patch_count": 0,
+      "patch_reasons": [],
+      "status": "reviewed_after_patches"
+    },
+    {
+      "id": "bodyskin-019",
+      "all_original_and_final_fields_compared": true,
+      "original_fields_sha256": "3d670930b3db7e1a60d73be6f8203d98a547917ebb03d6e76cbb8e59031b5dd1",
+      "final_fields_sha256": "d16913ad156134ff07946e86f494354e5098c771f20ca858c5acc51e02cd1946",
+      "clinical_scope_review": "切除即时去除不等于长期控制，闭合减张及注射压力放疗须术前衔接；不套网络复发率。",
+      "source_ids_preserved": [
+        "@src-0e7dbd779472",
+        "@src-5db7549e990f",
+        "@src-810234e0967a",
+        "@src-f9cc42735a4e"
+      ],
+      "source_placement_reviewed": true,
+      "age_sex_and_special_population_limits_reviewed": true,
+      "concept_evidence_action_and_normal_sentences_reviewed": true,
+      "patch_count": 0,
+      "patch_reasons": [],
+      "status": "reviewed_after_patches"
+    },
+    {
+      "id": "bodyskin-020",
+      "all_original_and_final_fields_compared": true,
+      "original_fields_sha256": "5b2b0fa89e777b4f7f77a9e329425818e123baad0b80e56013ec7b795ed46444",
+      "final_fields_sha256": "66c4d36042e01894f547e88ab262ca5b862705cf120ffbeab409e9f8e635087d",
+      "clinical_scope_review": "核素锶90/磷32、X线、电子线技术不同，2021小薄病灶联合试验与2026综述不外推；孕未成年及长期肿瘤风险保留。",
+      "source_ids_preserved": [
+        "@src-00bed7e60881",
+        "@src-0e7dbd779472",
+        "@src-5db7549e990f",
+        "@src-a25fc25a04a0",
+        "@src-f85db5a8a518"
+      ],
+      "source_placement_reviewed": true,
+      "age_sex_and_special_population_limits_reviewed": true,
+      "concept_evidence_action_and_normal_sentences_reviewed": true,
+      "patch_count": 1,
+      "patch_reasons": [
+        "补齐动词、对象或首次名词解释，保持原医学限定与建议强度。"
+      ],
+      "status": "reviewed_after_patches"
+    },
+    {
+      "id": "bodyskin-021",
+      "all_original_and_final_fields_compared": true,
+      "original_fields_sha256": "3770d110a4c020e7ca71b8100a58a86c4175960fa9d763ac6ebd421c44d3b40d",
+      "final_fields_sha256": "a0bc2a9f90fe2691176feca9c79722314b1e2d6cf1e7d1891ce0f29f9f82a64e",
+      "clinical_scope_review": "创面促愈合与既有增生消退终点不同，EGF和寡肽不互借，康复新缺可靠直接证据而非证明全创面无用。",
+      "source_ids_preserved": [
+        "@src-bf29eebc24fb",
+        "@src-f9cc42735a4e"
+      ],
+      "source_placement_reviewed": true,
+      "age_sex_and_special_population_limits_reviewed": true,
+      "concept_evidence_action_and_normal_sentences_reviewed": true,
+      "patch_count": 1,
+      "patch_reasons": [
+        "补齐动词、对象或首次名词解释，保持原医学限定与建议强度。"
+      ],
+      "status": "reviewed_after_patches"
+    },
+    {
+      "id": "bodyskin-022",
+      "all_original_and_final_fields_compared": true,
+      "original_fields_sha256": "f9ad942a7eaf761f64367225f40360ba7e413cab7506fca86c9a9d9ecbc564b7",
+      "final_fields_sha256": "960c15a448a3b95026ee9d3c7ff8ba5f8ae80fdbc3227df72b03f3e8f30c250e",
+      "clinical_scope_review": "普通稳定疤可观察，增长痒痛功能或异常破溃无伤史需评估；围绕实际目标而非完全无痕。",
+      "source_ids_preserved": [
+        "@src-810234e0967a",
+        "@src-c2d980d417b6",
+        "@src-f4ddf61a22cf"
+      ],
+      "source_placement_reviewed": true,
+      "age_sex_and_special_population_limits_reviewed": true,
+      "concept_evidence_action_and_normal_sentences_reviewed": true,
+      "patch_count": 0,
+      "patch_reasons": [],
+      "status": "reviewed_after_patches"
+    }
+  ],
+  "merge_checks": [
+    {
+      "target": "private-022",
+      "retired": [
+        "private-023"
+      ],
+      "all_original_members_compared": true,
+      "source_union_preserved": [
+        "@src-39ed642655b4",
+        "@src-5f26960cddcb",
+        "@src-8284bb8bb747",
+        "@src-c69c5b50ab76",
+        "@src-d32a07f57967",
+        "@src-e22855dc8311"
+      ],
+      "age_groups_and_sexes_equal": true,
+      "original_safety_pins": [
+        false,
+        false
+      ],
+      "merged_safety_pin": false,
+      "review_note": "已重写合并正文为自然句，全部操作与两型号时限、清洗/遗留/急症限制保留。",
+      "status": "reviewed_after_patches"
+    },
+    {
+      "target": "anal-007",
+      "retired": [
+        "anal-008"
+      ],
+      "all_original_members_compared": true,
+      "source_union_preserved": [
+        "@src-5a5ce3fe5474",
+        "@src-5db346e61e9f",
+        "@src-6a76da70b88d",
+        "@src-e7f5c76bd29a"
+      ],
+      "age_groups_and_sexes_equal": true,
+      "original_safety_pins": [
+        false,
+        false
+      ],
+      "merged_safety_pin": false,
+      "review_note": "已重写生活—用药—检查路径；类型、成人适用、医用标签与特殊人群和急症限制保留。",
+      "status": "reviewed_after_patches"
+    },
+    {
+      "target": "private-042",
+      "retired": [
+        "private-043"
+      ],
+      "all_original_members_compared": true,
+      "source_union_preserved": [
+        "@src-3ecd1673a926",
+        "@src-3fc969b2b1ad",
+        "@src-a1165806c729",
+        "@src-c551f82acbfb",
+        "@src-d2432c54b3be",
+        "@src-f1f6c015fed5",
+        "@src-fa29a6a28c7b"
+      ],
+      "age_groups_and_sexes_equal": true,
+      "original_safety_pins": [
+        true,
+        false
+      ],
+      "merged_safety_pin": true,
+      "review_note": "已重写当日处理—方法—后续—验孕路径；全部时间、药理区别、中国供应、妊娠急症保留；安全置顶沿用target true，未扩年龄性别。",
+      "status": "reviewed_after_patches"
+    }
+  ],
+  "numeric_comparison": {
+    "scope": "只比正文阿拉伯数字，剔除引用哈希与entry路由ID；不是所有题录数字，也不以数字集合证明临床等效。",
+    "differences": [
+      {
+        "id": "private-023",
+        "removed_tokens": {
+          "12": 1
+        },
+        "added_tokens": {}
+      },
+      {
+        "id": "private-032",
+        "removed_tokens": {},
+        "added_tokens": {
+          "5": 1
+        }
+      },
+      {
+        "id": "private-040",
+        "removed_tokens": {},
+        "added_tokens": {
+          "3": 1
+        }
+      },
+      {
+        "id": "private-043",
+        "removed_tokens": {
+          "2024": 1
+        },
+        "added_tokens": {}
+      }
+    ],
+    "interpretation": "private-023少一次12是删除重复而非改时限；private-032额外5为PDE5缩写重复出现；private-040额外3来自原备注的非每3个月统一规则；private-043正文2024年份省略但该指南年份仍在证据/来源及合并正文，均非临床数字丢失。"
+  },
+  "additional_primary_source_check": [
+    {
+      "url": "https://www.nhs.uk/conditions/lichen-sclerosus/",
+      "purpose": "核实非感染且不经性接触传播，以修正原稿易误导措辞。"
+    },
+    {
+      "url": "https://www.nhs.uk/conditions/urethritis/",
+      "purpose": "核对尿道症状、尿样/拭子及其他性传播感染检测，伴侣和恢复性接触条件。"
+    }
+  ],
+  "limitations": [
+    "本轮是全文编辑与医学含义对照，不是重新完成全部原始研究的系统综述，也未逐一重新查证所有来源页面。",
+    "已核保留旧来源ID和重要主张相邻引用；保留并非声称每个来源达到同一等级。",
+    "无临床医生签审；clinical_review_status仍为not_clinically_reviewed。"
+  ],
+  "clinical_review_status": "not_clinically_reviewed"
+}

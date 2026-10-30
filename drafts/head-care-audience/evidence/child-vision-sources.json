@@ -1,0 +1,22 @@
+[
+  {
+    "id": "CHILDVIEW-S01",
+    "citation": "American Academy of Pediatrics. Myopia (nearsightedness) in children & teens [Internet]. 2023 Sep 6. [cited 2026 Oct 29]. Available from: https://www.healthychildren.org/English/health-issues/conditions/eyes/Pages/Myopia-Nearsightedness.aspx",
+    "url": "https://www.healthychildren.org/English/health-issues/conditions/eyes/Pages/Myopia-Nearsightedness.aspx",
+    "type": "专业学会患者指导",
+    "support": "儿童眯眼/远处模糊、筛查后需完整检查；矫正和控制分别讨论；镜架贴合与备用框架；户外和接触镜安全。",
+    "limitations": "不使用该2023页将现行控制器械统称尚在研究，不借美国专业资质分类推中国验光权限；不据此规定全国统一戴镜时长。",
+    "reading_depth": "2026-10-29打开AAP原页，核读症状、诊断、Glasses、Contact lenses、控制与户外段及页脚实际更新日。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "CHILDVIEW-S02",
+    "citation": "American Academy of Pediatrics. Give your child's eyes a screen-time break: here's why [Internet]. 2024 Feb 29. [cited 2026 Oct 29]. Available from: https://www.healthychildren.org/English/health-issues/conditions/eyes/Pages/What-Too-Much-Screen-Time-Does-to-Your-Childs-Eyes.aspx",
+    "url": "https://www.healthychildren.org/English/health-issues/conditions/eyes/Pages/What-Too-Much-Screen-Time-Does-to-Your-Childs-Eyes.aspx",
+    "type": "专业学会患者指导",
+    "support": "儿童用屏幕间歇、20-20-20提醒、眨眼、屏幕位置及不把防蓝光镜列为必买。",
+    "limitations": "患者教育不是近视预防节拍RCT；不使用其旧二手屏幕时长数据、特殊橙色镜片或照明亮度说法作购买建议。休息用于舒适，不承诺延缓眼轴增长。",
+    "reading_depth": "2026-10-29打开AAP原页，核读What parents can do与blue-light部分，核对2024-02-29为更新日。",
+    "content_checked_at": "2026-10-29"
+  }
+]

@@ -1,0 +1,109 @@
+{
+  "status": "independent_ai_editorial_review_passed",
+  "reviewer": "independent_ai_whole_hands",
+  "reviewed_on": "2026-10-29",
+  "extension_id": "contraception",
+  "target_chapter": "private",
+  "entries_reviewed": 11,
+  "source_records_reviewed": 31,
+  "blocking_unresolved": [],
+  "clinical_review_status": "not_clinically_reviewed",
+  "actual_reading_scope": {
+    "local_files": [
+      "drafts/whole-body/extensions/contraception-entries.json",
+      "drafts/whole-body/extensions/contraception-sources.json",
+      "drafts/whole-body/extensions/contraception-audit.json"
+    ],
+    "primary_source_sections": {
+      "CONTRA-S01": "NHS原页全年分母解释、典型/正确使用定义与全表数字、2024Jan31真实复审日。",
+      "CONTRA-S02": "CDC方法选择的自主知情/可逆性/移除、方法定义、LAM三条件；核到其数字不同，正文未混进NHS表。",
+      "CONTRA-S03": "NHS外套全程/接触前、排空气/戴反换新、扶根退出、润滑材料兼容与破滑后紧急求助。",
+      "CONTRA-S04": "NHS内套阴道操作的内外环、阴茎路径、取出转外环及不叠内外套；未把肛交不确定防护外推成保证。",
+      "CONTRA-S05": "CDC复方CHC定义、周期/起始、血压、产后、漏有效片/贴环与呕吐图的相关段；没有把一套漏服规则搬到全部产品。",
+      "CONTRA-S06": "CDC孕激素单方成分、宫颈黏液与抑排卵区别、2天/7天备份与不同漏服定义；原文并不含norgestimate。",
+      "CONTRA-S07": "NHS所述孕激素注射8–13周与停用后可达约一年恢复生育力及真实2024Feb8。",
+      "CONTRA-S08": "NHS复方经皮激素、按周更换、英国对应方法及2024Feb9；不作中国标签。",
+      "CONTRA-S09": "NHS复方阴道环位置、释放激素、对应数周周期及真实日期；不是宫内装置。",
+      "CONTRA-S10": "CDC植入定义、起始与备份、青少年、随访、出血病因排查及尊重任意时点移除意愿；未复核每个出血药物原始试验。",
+      "CONTRA-S11": "CDC两类IUD起始/妊娠排除/铜EC、年轻未育资格、STI筛查同日与现症例外、镇痛讨论、带器妊娠排异位及取器风险。",
+      "CONTRA-S12": "NHS含铜器具原理、即时生效、取出后生育力与英国期限；正文未抄期限。",
+      "CONTRA-S13": "NHS激素IUS原理、经量/痛经收益、取出后生育力及英国期限，不等同国内规格。",
+      "CONTRA-S14": "NHS铜IUD常见经量/痛经变化与痛、热、异常分泌物、大出血、疑孕/尾丝改变及时求助；备用保护和EC咨询。",
+      "CONTRA-S15": "NHS激素IUS早期不规则/月经减轻或闭经、因果不确定的不适、紧急症状与尾丝异常处理。",
+      "CONTRA-S16": "CDC全文相关窗口、最早相关接触/排卵判断、LNG/UPA晚窗比较、5日激素衔接、7日屏障、3周未撤退血验孕与3h内呕吐。",
+      "CONTRA-S17": "NHS英国LNG72h/UPA120h及越早越好，对应页面2024Feb9。",
+      "CONTRA-S18": "WHO2021紧急避孕机制/非流产、LNG与UPA后续、重复使用及铜IUD；未采用旧页所有失误数字/感染限制或未核2025细表。",
+      "CONTRA-S19": "NHS月经迟来可测、周期未知最后无保护≥21天、阴性较不可靠/复查；页面2022与2026视频日期分开。",
+      "CONTRA-S20": "NHS复方早期点滴血、症状报告/因果、血压及血栓；正文未抄没有时间分母的1/1000。",
+      "CONTRA-S21": "NHS体外法不推荐、生育力识别需学习及每日观察、App非官方推荐、易孕日行为、不规则和LAM边界。",
+      "CONTRA-S22": "CDC永久意图、自愿咨询、男性术后8–16周精液确认、继续屏障/禁欲，射精次数不能替代，成功非100%保证。",
+      "CONTRA-S23": "NHS女性绝育为阻断/切断输卵管，非切卵巢，不防STI；不复制英国复通或服务条件。",
+      "CONTRA-S24": "CDC MEC分类含义与年龄、未育、产后/哺乳、吸烟、血压/血栓、偏头痛先兆、乳癌和药物相互作用表；分类须看方法具体说明。",
+      "CONTRA-S25": "牟定县卫健2026May14页实际服务网点和用品类别表，含宫内/皮埋/口服/紧急药；只核入口不核全国库存。",
+      "CONTRA-S26": "花都卫健2023Dec13原文第42–50行，口服/外用/套/宫内/皮埋及部分医疗点注射服务；没有2026现场服务保证。",
+      "CONTRA-S27": "CDC公众PEP2024Dec2页的套破后立即求助、最迟72h且越早越好；另核2026Oct7临床页，未引入具体药物处方。",
+      "CONTRA-S28": "NHS2026Apr30 DVT一侧腿肿痛紧急评估、胸痛/气短即时急诊及含雌激素风险；未采用治疗剂量。",
+      "CONTRA-S29": "NHS2025Nov24骨盆痛的可能妊娠及时检查，严重加重痛/晕厥/肩尖痛/重血/呼吸困难等急诊，不待验孕日。",
+      "CONTRA-S30": "NHS植入上臂/孕激素、可专业随时取出、迅速恢复生育力；正文当前5年未被误写成2024以来全球统一期限。",
+      "CONTRA-S31": "NHS紧急药副反应页2h内呕吐咨询可能补服，与CDC3h不同；正文按成分/制剂及时求助而非自行猜加药。"
+    },
+    "additional_cross_checks": [
+      {
+        "url": "https://www.cdc.gov/hivnexus/hcp/pep/index.html",
+        "scope": "2026Oct7临床页交叉核PEP最早及最迟启动，不采用其海外处方权限/服务或自行开药。"
+      },
+      {
+        "url": "https://www.nmpa.gov.cn/wwwroot/sms0829/073.htm",
+        "scope": "中文药名核对尝试：官方搜索结果显示Norgestrel=炔诺孕酮，但原页412未读全文；未作为临床或国内上市证明。最终S06直接保留CDC英文成分，避免靠失败页面支撑译名。"
+      }
+    ]
+  },
+  "checks": [
+    "表格单一NHS口径、100人首年而非单次；91%例子换算正确，未混用CDC7%失败估计、LAM半年与紧急一次收益。",
+    "外/内套位置与操作、乳胶润滑、接触前/破滑漏补救和PEP72h均有对应；未复制境外认证/未成年法律与服务保证。",
+    "复方/单方、有效/安慰片、漏服/呕吐/腹泻按制剂核，不把每次漏服均判失败或所有剂型共用规则。",
+    "贴片/环/针定义、含雌激素禁忌及停针恢复可延迟明确；未将所有针都写成3月一次或永久不孕。",
+    "IUD与皮埋知情选择、未育/青少年非自动排除、感染例外、镇痛与移除渠道成立；国外期限不冒充国内标签。",
+    "紧急避孕尽早，英国LNG72h/UPA120h与CDC5天区分；超过72h仍当日求助，不自行延长当地用药/加量。",
+    "铜IUD最初相关无保护5天及排卵特殊判断正确，未让读者用App自己延长窗口；不是任意一种环都可替换。",
+    "UPA至少等5天、第6天恢复激素，等待期间与恢复后7天屏障；LNG可立即恢复加7天，未外推所有普通起始。",
+    "CDC允许UPA当天某些医疗方法的例外由接诊者权衡，没有读者自行套例外。",
+    "服后呕吐及时报告并核药物；NHS2h与CDC3h来源分别准确，不任意混成唯一全药品阈值。",
+    "验孕按月经迟来/最后无保护21天复查；早阴性/服后出血不证明成功，严重下腹痛/晕厥不等验孕。",
+    "IUD疑孕要查位置，带器失败妊娠的宫外孕比例不能误当所有使用者绝对风险上升；不自行取器。",
+    "常见适应变化不压过强烈痛/发热/大血/线变化和胸痛气短急诊；不强迫忍够固定月数。",
+    "体外法和日历App不能可靠兜底，规范识别不被说成全部无效，不误把备孕预测反向保证避孕。",
+    "绝育作为成人永久决定；男性8–16周精液医疗确认前继续保护，不靠日历和射精次数，成功非零失败。",
+    "MEC对先兆/血压血栓/35+吸烟/乳癌/孕产/相互作用有正确分支；普通抗生素不一概失效，不自行停抗癫痫原药。",
+    "未核WHO2025完整细表明确承认，没有假称本轮已逐项按2025更新；未核中国注册或库存不当已核。",
+    "全部cost空、11条摘要120–131字、引用/来源图完整、无海外急救号移植、仍未临床签审。"
+  ],
+  "resolved_findings": [
+    {
+      "id": "C-REVIEW-01",
+      "location": "CONTRA-S06 limitations",
+      "finding": "初版将norgestrel误译为诺孕酯，容易与另一孕激素norgestimate混淆。",
+      "resolution": "作者已将三成分保留为CDC英文norethindrone/norgestrel/drospirenone，重新读取核实；正文未曾使用错误中文成分。"
+    },
+    {
+      "id": "C-REVIEW-02",
+      "location": "CONTRA-S02 citation",
+      "finding": "初版来源题名省略Contraception and。",
+      "resolution": "作者已改为Contraception and birth control methods，与原页题名匹配，大小写属Vancouver句式。"
+    }
+  ],
+  "nonblocking_notes": [
+    {
+      "location": "contraception-007",
+      "finding": "CDC的UPA恢复后屏障建议还允许下一次月经先到时结束；正文采用7天并保留接诊具体方案，是更保守的默认，不形成避孕保护缺口。",
+      "suggestion": "以后若产品提供精确日期计算器，需逐制剂实现，而非把当前一般7天当所有起始/漏服规则。"
+    }
+  ],
+  "validation_errors": [],
+  "limitations": "独立AI对11条及31项来源相关原页的编辑/推理核查，非医生临床签审。没有重做各指南系统检索、逐项阅读全部纳入原始试验，也没有完成中国全部制剂注册/库存/说明书核查；已明确限制，不将海外规则当中国处方。",
+  "file_sha256": {
+    "contraception-entries.json": "dd3ada56ecc1c7c3d86a4b2a4268c84e7efb1721d7d7619d35cc90247eaaa461",
+    "contraception-sources.json": "9857a473b0b94d11c9251f32b28386fd5437479375337b53d05f9668c4fe3bd8",
+    "contraception-audit.json": "f853b3188052f979a253f8942698c62885a03ba67d7afe245a2396840f3b4d0d"
+  }
+}

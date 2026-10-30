@@ -1,0 +1,26 @@
+{
+  "checked_on": "2026-10-29",
+  "status": "passed_structural_checks",
+  "entries": 126,
+  "sources": 244,
+  "doi_sources": 39,
+  "empty_cost_sections_omitted": 123,
+  "summary_length_range": [
+    111,
+    142
+  ],
+  "all_references_resolve": true,
+  "all_cross_entry_links_resolve": true,
+  "static_entry_pages": 126,
+  "published_medical_content_unchanged": true,
+  "clinical_review_status": "not_clinically_reviewed",
+  "audience_metadata_complete": true,
+  "moved_entry_urls_preserved": true,
+  "age_groups": {
+    "child": 14,
+    "teen": 15,
+    "adult": 122,
+    "older": 19
+  },
+  "limits": "结构、引用格式与导出检查通过不等于临床结论已获专业签审；题录和支持范围另看独立复核及来源记录。"
+}

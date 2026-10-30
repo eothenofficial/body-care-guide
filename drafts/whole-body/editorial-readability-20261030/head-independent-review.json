@@ -1,0 +1,1503 @@
+{
+  "reviewer": "independent agent rewrite_intimate; original author rewrite_head",
+  "scope": {
+    "entries": 126,
+    "merges": 3,
+    "sampling": false,
+    "coverage": "126条原/新正文逐条完整对照；其余五字段先逐项比较、再针对改变处校对；3组合并逐一与双方原文比较。"
+  },
+  "review_method": [
+    "阅读全文及标题、梗概；核临床意义、紧迫性、孕哺年龄、产品用途与操作边界。",
+    "所有原字段与最终重写字段逐项比较；对数字、引用ID做程序核对，结合逐条语义审查。",
+    "概念定义与自然语言独立审稿；发现问题以精确patch交根代理统一应用，再核最终文件。",
+    "本轮没有重新开展全部原始医学文献的系统检索；审查的是现有证据约束下的改写保真、来源位置与可读性，不将其标作临床专家签核。"
+  ],
+  "patches": {
+    "file": "head-review-patches.json",
+    "count": 160,
+    "sha256": "52ca306dd175d91b2c50c9e898a0a1e4ba021d6af73d3ae1c728e677c26837c9",
+    "status": "all_applied_and_final_checked"
+  },
+  "input_sha256": {
+    "head-input.json": "e1fbd2567f1c542fe892c77265f2406687001be6cd2a2d3a9f7251aec6ef7ed4",
+    "head-rewrites.json": "2fc6de13c6647eeee903446ef9b958a96de19da4ed0790ce28fade68e666ae3a",
+    "head-merges.json": "d85b66f0c84d395f0c0422c7f41cf9284a88b75a040813d3f3a1f1535373667d"
+  },
+  "final_input_sha256": {
+    "head-rewrites.json": "2fc6de13c6647eeee903446ef9b958a96de19da4ed0790ce28fade68e666ae3a",
+    "head-merges.json": "d85b66f0c84d395f0c0422c7f41cf9284a88b75a040813d3f3a1f1535373667d"
+  },
+  "all_entry_source_sets_preserved": true,
+  "all_merge_source_unions_preserved": true,
+  "all_merge_age_sex_groups_equal": true,
+  "numeric_resolution": [
+    {
+      "id": "oral-005",
+      "removed": "99.9%",
+      "reason": "原稿仅举营销杀菌口号，删除不损失任何临床效果数字。"
+    }
+  ],
+  "resolved_findings": [
+    {
+      "id": "hair-012",
+      "issue": "甲醛与全身过敏反应就近引用错位",
+      "resolution": "甲醛段补回FDA加热顺直来源，急性过敏行动段恢复过敏来源。"
+    },
+    {
+      "id": "eyes-008",
+      "issue": "框架/软镜/OK与儿童控制设计被压成难理解的缩略说明",
+      "resolution": "补全聚焦、角膜、夜间暂时塑形、DIMS/HAL功能与选择路径，关键复查窗完整保留。"
+    },
+    {
+      "id": "eyes-027",
+      "issue": "手术类别定义被压空",
+      "resolution": "恢复角膜定义和LASIK/SMILE/PRK实际操作与恢复差别。"
+    },
+    {
+      "id": "eyes-028",
+      "issue": "植入术及解剖定义不自足",
+      "resolution": "完整解释保留天然晶状体额外植入、角膜内皮与前房。"
+    },
+    {
+      "id": "nose-006",
+      "issue": "设计时错字",
+      "resolution": "恢复设个计时器与连续捏压动作。"
+    },
+    {
+      "id": "multiple",
+      "issue": "大量主语对象省略及重复notes",
+      "resolution": "160项精确补丁完成自然语言和重复备注清理；合并版本另行修正。"
+    }
+  ],
+  "coverage": [
+    {
+      "id": "hair-001",
+      "original_and_rewrite_full_read": true,
+      "all_retained_fields_compared": true,
+      "clinical_meaning_and_eligibility_reviewed": true,
+      "numbers_and_time_windows_reviewed": true,
+      "source_set_preserved": true,
+      "natural_language_reviewed": true,
+      "applied_patch_count": 0,
+      "result": "pass"
+    },
+    {
+      "id": "hair-002",
+      "original_and_rewrite_full_read": true,
+      "all_retained_fields_compared": true,
+      "clinical_meaning_and_eligibility_reviewed": true,
+      "numbers_and_time_windows_reviewed": true,
+      "source_set_preserved": true,
+      "natural_language_reviewed": true,
+      "applied_patch_count": 0,
+      "result": "pass"
+    },
+    {
+      "id": "hair-003",
+      "original_and_rewrite_full_read": true,
+      "all_retained_fields_compared": true,
+      "clinical_meaning_and_eligibility_reviewed": true,
+      "numbers_and_time_windows_reviewed": true,
+      "source_set_preserved": true,
+      "natural_language_reviewed": true,
+      "applied_patch_count": 0,
+      "result": "pass"
+    },
+    {
+      "id": "hair-004",
+      "original_and_rewrite_full_read": true,
+      "all_retained_fields_compared": true,
+      "clinical_meaning_and_eligibility_reviewed": true,
+      "numbers_and_time_windows_reviewed": true,
+      "source_set_preserved": true,
+      "natural_language_reviewed": true,
+      "applied_patch_count": 0,
+      "result": "pass"
+    },
+    {
+      "id": "hair-005",
+      "original_and_rewrite_full_read": true,
+      "all_retained_fields_compared": true,
+      "clinical_meaning_and_eligibility_reviewed": true,
+      "numbers_and_time_windows_reviewed": true,
+      "source_set_preserved": true,
+      "natural_language_reviewed": true,
+      "applied_patch_count": 0,
+      "result": "pass"
+    },
+    {
+      "id": "hair-006",
+      "original_and_rewrite_full_read": true,
+      "all_retained_fields_compared": true,
+      "clinical_meaning_and_eligibility_reviewed": true,
+      "numbers_and_time_windows_reviewed": true,
+      "source_set_preserved": true,
+      "natural_language_reviewed": true,
+      "applied_patch_count": 0,
+      "result": "pass"
+    },
+    {
+      "id": "hair-007",
+      "original_and_rewrite_full_read": true,
+      "all_retained_fields_compared": true,
+      "clinical_meaning_and_eligibility_reviewed": true,
+      "numbers_and_time_windows_reviewed": true,
+      "source_set_preserved": true,
+      "natural_language_reviewed": true,
+      "applied_patch_count": 0,
+      "result": "pass"
+    },
+    {
+      "id": "hair-014",
+      "original_and_rewrite_full_read": true,
+      "all_retained_fields_compared": true,
+      "clinical_meaning_and_eligibility_reviewed": true,
+      "numbers_and_time_windows_reviewed": true,
+      "source_set_preserved": true,
+      "natural_language_reviewed": true,
+      "applied_patch_count": 0,
+      "result": "pass"
+    },
+    {
+      "id": "hair-008",
+      "original_and_rewrite_full_read": true,
+      "all_retained_fields_compared": true,
+      "clinical_meaning_and_eligibility_reviewed": true,
+      "numbers_and_time_windows_reviewed": true,
+      "source_set_preserved": true,
+      "natural_language_reviewed": true,
+      "applied_patch_count": 0,
+      "result": "pass"
+    },
+    {
+      "id": "hair-009",
+      "original_and_rewrite_full_read": true,
+      "all_retained_fields_compared": true,
+      "clinical_meaning_and_eligibility_reviewed": true,
+      "numbers_and_time_windows_reviewed": true,
+      "source_set_preserved": true,
+      "natural_language_reviewed": true,
+      "applied_patch_count": 0,
+      "result": "pass"
+    },
+    {
+      "id": "hair-011",
+      "original_and_rewrite_full_read": true,
+      "all_retained_fields_compared": true,
+      "clinical_meaning_and_eligibility_reviewed": true,
+      "numbers_and_time_windows_reviewed": true,
+      "source_set_preserved": true,
+      "natural_language_reviewed": true,
+      "applied_patch_count": 0,
+      "result": "pass"
+    },
+    {
+      "id": "hair-012",
+      "original_and_rewrite_full_read": true,
+      "all_retained_fields_compared": true,
+      "clinical_meaning_and_eligibility_reviewed": true,
+      "numbers_and_time_windows_reviewed": true,
+      "source_set_preserved": true,
+      "natural_language_reviewed": true,
+      "applied_patch_count": 3,
+      "result": "pass"
+    },
+    {
+      "id": "hair-013",
+      "original_and_rewrite_full_read": true,
+      "all_retained_fields_compared": true,
+      "clinical_meaning_and_eligibility_reviewed": true,
+      "numbers_and_time_windows_reviewed": true,
+      "source_set_preserved": true,
+      "natural_language_reviewed": true,
+      "applied_patch_count": 0,
+      "result": "pass"
+    },
+    {
+      "id": "hair-022",
+      "original_and_rewrite_full_read": true,
+      "all_retained_fields_compared": true,
+      "clinical_meaning_and_eligibility_reviewed": true,
+      "numbers_and_time_windows_reviewed": true,
+      "source_set_preserved": true,
+      "natural_language_reviewed": true,
+      "applied_patch_count": 0,
+      "result": "pass"
+    },
+    {
+      "id": "hair-015",
+      "original_and_rewrite_full_read": true,
+      "all_retained_fields_compared": true,
+      "clinical_meaning_and_eligibility_reviewed": true,
+      "numbers_and_time_windows_reviewed": true,
+      "source_set_preserved": true,
+      "natural_language_reviewed": true,
+      "applied_patch_count": 0,
+      "result": "pass"
+    },
+    {
+      "id": "hair-010",
+      "original_and_rewrite_full_read": true,
+      "all_retained_fields_compared": true,
+      "clinical_meaning_and_eligibility_reviewed": true,
+      "numbers_and_time_windows_reviewed": true,
+      "source_set_preserved": true,
+      "natural_language_reviewed": true,
+      "applied_patch_count": 0,
+      "result": "pass"
+    },
+    {
+      "id": "hair-016",
+      "original_and_rewrite_full_read": true,
+      "all_retained_fields_compared": true,
+      "clinical_meaning_and_eligibility_reviewed": true,
+      "numbers_and_time_windows_reviewed": true,
+      "source_set_preserved": true,
+      "natural_language_reviewed": true,
+      "applied_patch_count": 0,
+      "result": "pass"
+    },
+    {
+      "id": "hair-017",
+      "original_and_rewrite_full_read": true,
+      "all_retained_fields_compared": true,
+      "clinical_meaning_and_eligibility_reviewed": true,
+      "numbers_and_time_windows_reviewed": true,
+      "source_set_preserved": true,
+      "natural_language_reviewed": true,
+      "applied_patch_count": 3,
+      "result": "pass"
+    },
+    {
+      "id": "hair-018",
+      "original_and_rewrite_full_read": true,
+      "all_retained_fields_compared": true,
+      "clinical_meaning_and_eligibility_reviewed": true,
+      "numbers_and_time_windows_reviewed": true,
+      "source_set_preserved": true,
+      "natural_language_reviewed": true,
+      "applied_patch_count": 0,
+      "result": "pass"
+    },
+    {
+      "id": "hair-019",
+      "original_and_rewrite_full_read": true,
+      "all_retained_fields_compared": true,
+      "clinical_meaning_and_eligibility_reviewed": true,
+      "numbers_and_time_windows_reviewed": true,
+      "source_set_preserved": true,
+      "natural_language_reviewed": true,
+      "applied_patch_count": 0,
+      "result": "pass"
+    },
+    {
+      "id": "hair-020",
+      "original_and_rewrite_full_read": true,
+      "all_retained_fields_compared": true,
+      "clinical_meaning_and_eligibility_reviewed": true,
+      "numbers_and_time_windows_reviewed": true,
+      "source_set_preserved": true,
+      "natural_language_reviewed": true,
+      "applied_patch_count": 1,
+      "result": "pass"
+    },
+    {
+      "id": "hair-021",
+      "original_and_rewrite_full_read": true,
+      "all_retained_fields_compared": true,
+      "clinical_meaning_and_eligibility_reviewed": true,
+      "numbers_and_time_windows_reviewed": true,
+      "source_set_preserved": true,
+      "natural_language_reviewed": true,
+      "applied_patch_count": 0,
+      "result": "pass"
+    },
+    {
+      "id": "hair-023",
+      "original_and_rewrite_full_read": true,
+      "all_retained_fields_compared": true,
+      "clinical_meaning_and_eligibility_reviewed": true,
+      "numbers_and_time_windows_reviewed": true,
+      "source_set_preserved": true,
+      "natural_language_reviewed": true,
+      "applied_patch_count": 0,
+      "result": "pass"
+    },
+    {
+      "id": "eyes-005",
+      "original_and_rewrite_full_read": true,
+      "all_retained_fields_compared": true,
+      "clinical_meaning_and_eligibility_reviewed": true,
+      "numbers_and_time_windows_reviewed": true,
+      "source_set_preserved": true,
+      "natural_language_reviewed": true,
+      "applied_patch_count": 0,
+      "result": "pass"
+    },
+    {
+      "id": "eyes-013",
+      "original_and_rewrite_full_read": true,
+      "all_retained_fields_compared": true,
+      "clinical_meaning_and_eligibility_reviewed": true,
+      "numbers_and_time_windows_reviewed": true,
+      "source_set_preserved": true,
+      "natural_language_reviewed": true,
+      "applied_patch_count": 2,
+      "result": "pass"
+    },
+    {
+      "id": "eyes-014",
+      "original_and_rewrite_full_read": true,
+      "all_retained_fields_compared": true,
+      "clinical_meaning_and_eligibility_reviewed": true,
+      "numbers_and_time_windows_reviewed": true,
+      "source_set_preserved": true,
+      "natural_language_reviewed": true,
+      "applied_patch_count": 0,
+      "result": "pass"
+    },
+    {
+      "id": "eyes-006",
+      "original_and_rewrite_full_read": true,
+      "all_retained_fields_compared": true,
+      "clinical_meaning_and_eligibility_reviewed": true,
+      "numbers_and_time_windows_reviewed": true,
+      "source_set_preserved": true,
+      "natural_language_reviewed": true,
+      "applied_patch_count": 0,
+      "result": "pass"
+    },
+    {
+      "id": "eyes-023",
+      "original_and_rewrite_full_read": true,
+      "all_retained_fields_compared": true,
+      "clinical_meaning_and_eligibility_reviewed": true,
+      "numbers_and_time_windows_reviewed": true,
+      "source_set_preserved": true,
+      "natural_language_reviewed": true,
+      "applied_patch_count": 0,
+      "result": "pass"
+    },
+    {
+      "id": "eyes-020",
+      "original_and_rewrite_full_read": true,
+      "all_retained_fields_compared": true,
+      "clinical_meaning_and_eligibility_reviewed": true,
+      "numbers_and_time_windows_reviewed": true,
+      "source_set_preserved": true,
+      "natural_language_reviewed": true,
+      "applied_patch_count": 0,
+      "result": "pass"
+    },
+    {
+      "id": "eyes-001",
+      "original_and_rewrite_full_read": true,
+      "all_retained_fields_compared": true,
+      "clinical_meaning_and_eligibility_reviewed": true,
+      "numbers_and_time_windows_reviewed": true,
+      "source_set_preserved": true,
+      "natural_language_reviewed": true,
+      "applied_patch_count": 0,
+      "result": "pass"
+    },
+    {
+      "id": "eyes-021",
+      "original_and_rewrite_full_read": true,
+      "all_retained_fields_compared": true,
+      "clinical_meaning_and_eligibility_reviewed": true,
+      "numbers_and_time_windows_reviewed": true,
+      "source_set_preserved": true,
+      "natural_language_reviewed": true,
+      "applied_patch_count": 0,
+      "result": "pass"
+    },
+    {
+      "id": "eyes-022",
+      "original_and_rewrite_full_read": true,
+      "all_retained_fields_compared": true,
+      "clinical_meaning_and_eligibility_reviewed": true,
+      "numbers_and_time_windows_reviewed": true,
+      "source_set_preserved": true,
+      "natural_language_reviewed": true,
+      "applied_patch_count": 0,
+      "result": "pass"
+    },
+    {
+      "id": "eyes-026",
+      "original_and_rewrite_full_read": true,
+      "all_retained_fields_compared": true,
+      "clinical_meaning_and_eligibility_reviewed": true,
+      "numbers_and_time_windows_reviewed": true,
+      "source_set_preserved": true,
+      "natural_language_reviewed": true,
+      "applied_patch_count": 3,
+      "result": "pass"
+    },
+    {
+      "id": "eyes-031",
+      "original_and_rewrite_full_read": true,
+      "all_retained_fields_compared": true,
+      "clinical_meaning_and_eligibility_reviewed": true,
+      "numbers_and_time_windows_reviewed": true,
+      "source_set_preserved": true,
+      "natural_language_reviewed": true,
+      "applied_patch_count": 1,
+      "result": "pass"
+    },
+    {
+      "id": "eyes-032",
+      "original_and_rewrite_full_read": true,
+      "all_retained_fields_compared": true,
+      "clinical_meaning_and_eligibility_reviewed": true,
+      "numbers_and_time_windows_reviewed": true,
+      "source_set_preserved": true,
+      "natural_language_reviewed": true,
+      "applied_patch_count": 2,
+      "result": "pass"
+    },
+    {
+      "id": "eyes-024",
+      "original_and_rewrite_full_read": true,
+      "all_retained_fields_compared": true,
+      "clinical_meaning_and_eligibility_reviewed": true,
+      "numbers_and_time_windows_reviewed": true,
+      "source_set_preserved": true,
+      "natural_language_reviewed": true,
+      "applied_patch_count": 0,
+      "result": "pass"
+    },
+    {
+      "id": "eyes-025",
+      "original_and_rewrite_full_read": true,
+      "all_retained_fields_compared": true,
+      "clinical_meaning_and_eligibility_reviewed": true,
+      "numbers_and_time_windows_reviewed": true,
+      "source_set_preserved": true,
+      "natural_language_reviewed": true,
+      "applied_patch_count": 0,
+      "result": "pass"
+    },
+    {
+      "id": "eyes-030",
+      "original_and_rewrite_full_read": true,
+      "all_retained_fields_compared": true,
+      "clinical_meaning_and_eligibility_reviewed": true,
+      "numbers_and_time_windows_reviewed": true,
+      "source_set_preserved": true,
+      "natural_language_reviewed": true,
+      "applied_patch_count": 1,
+      "result": "pass"
+    },
+    {
+      "id": "eyes-002",
+      "original_and_rewrite_full_read": true,
+      "all_retained_fields_compared": true,
+      "clinical_meaning_and_eligibility_reviewed": true,
+      "numbers_and_time_windows_reviewed": true,
+      "source_set_preserved": true,
+      "natural_language_reviewed": true,
+      "applied_patch_count": 2,
+      "result": "pass"
+    },
+    {
+      "id": "eyes-007",
+      "original_and_rewrite_full_read": true,
+      "all_retained_fields_compared": true,
+      "clinical_meaning_and_eligibility_reviewed": true,
+      "numbers_and_time_windows_reviewed": true,
+      "source_set_preserved": true,
+      "natural_language_reviewed": true,
+      "applied_patch_count": 4,
+      "result": "pass"
+    },
+    {
+      "id": "eyes-015",
+      "original_and_rewrite_full_read": true,
+      "all_retained_fields_compared": true,
+      "clinical_meaning_and_eligibility_reviewed": true,
+      "numbers_and_time_windows_reviewed": true,
+      "source_set_preserved": true,
+      "natural_language_reviewed": true,
+      "applied_patch_count": 3,
+      "result": "pass"
+    },
+    {
+      "id": "eyes-016",
+      "original_and_rewrite_full_read": true,
+      "all_retained_fields_compared": true,
+      "clinical_meaning_and_eligibility_reviewed": true,
+      "numbers_and_time_windows_reviewed": true,
+      "source_set_preserved": true,
+      "natural_language_reviewed": true,
+      "applied_patch_count": 4,
+      "result": "pass"
+    },
+    {
+      "id": "eyes-003",
+      "original_and_rewrite_full_read": true,
+      "all_retained_fields_compared": true,
+      "clinical_meaning_and_eligibility_reviewed": true,
+      "numbers_and_time_windows_reviewed": true,
+      "source_set_preserved": true,
+      "natural_language_reviewed": true,
+      "applied_patch_count": 0,
+      "result": "pass"
+    },
+    {
+      "id": "eyes-004",
+      "original_and_rewrite_full_read": true,
+      "all_retained_fields_compared": true,
+      "clinical_meaning_and_eligibility_reviewed": true,
+      "numbers_and_time_windows_reviewed": true,
+      "source_set_preserved": true,
+      "natural_language_reviewed": true,
+      "applied_patch_count": 0,
+      "result": "pass"
+    },
+    {
+      "id": "eyes-008",
+      "original_and_rewrite_full_read": true,
+      "all_retained_fields_compared": true,
+      "clinical_meaning_and_eligibility_reviewed": true,
+      "numbers_and_time_windows_reviewed": true,
+      "source_set_preserved": true,
+      "natural_language_reviewed": true,
+      "applied_patch_count": 4,
+      "result": "pass"
+    },
+    {
+      "id": "eyes-009",
+      "original_and_rewrite_full_read": true,
+      "all_retained_fields_compared": true,
+      "clinical_meaning_and_eligibility_reviewed": true,
+      "numbers_and_time_windows_reviewed": true,
+      "source_set_preserved": true,
+      "natural_language_reviewed": true,
+      "applied_patch_count": 1,
+      "result": "pass"
+    },
+    {
+      "id": "eyes-010",
+      "original_and_rewrite_full_read": true,
+      "all_retained_fields_compared": true,
+      "clinical_meaning_and_eligibility_reviewed": true,
+      "numbers_and_time_windows_reviewed": true,
+      "source_set_preserved": true,
+      "natural_language_reviewed": true,
+      "applied_patch_count": 1,
+      "result": "pass"
+    },
+    {
+      "id": "eyes-027",
+      "original_and_rewrite_full_read": true,
+      "all_retained_fields_compared": true,
+      "clinical_meaning_and_eligibility_reviewed": true,
+      "numbers_and_time_windows_reviewed": true,
+      "source_set_preserved": true,
+      "natural_language_reviewed": true,
+      "applied_patch_count": 2,
+      "result": "pass"
+    },
+    {
+      "id": "eyes-028",
+      "original_and_rewrite_full_read": true,
+      "all_retained_fields_compared": true,
+      "clinical_meaning_and_eligibility_reviewed": true,
+      "numbers_and_time_windows_reviewed": true,
+      "source_set_preserved": true,
+      "natural_language_reviewed": true,
+      "applied_patch_count": 3,
+      "result": "pass"
+    },
+    {
+      "id": "eyes-029",
+      "original_and_rewrite_full_read": true,
+      "all_retained_fields_compared": true,
+      "clinical_meaning_and_eligibility_reviewed": true,
+      "numbers_and_time_windows_reviewed": true,
+      "source_set_preserved": true,
+      "natural_language_reviewed": true,
+      "applied_patch_count": 1,
+      "result": "pass"
+    },
+    {
+      "id": "eyes-011",
+      "original_and_rewrite_full_read": true,
+      "all_retained_fields_compared": true,
+      "clinical_meaning_and_eligibility_reviewed": true,
+      "numbers_and_time_windows_reviewed": true,
+      "source_set_preserved": true,
+      "natural_language_reviewed": true,
+      "applied_patch_count": 2,
+      "result": "pass"
+    },
+    {
+      "id": "eyes-012",
+      "original_and_rewrite_full_read": true,
+      "all_retained_fields_compared": true,
+      "clinical_meaning_and_eligibility_reviewed": true,
+      "numbers_and_time_windows_reviewed": true,
+      "source_set_preserved": true,
+      "natural_language_reviewed": true,
+      "applied_patch_count": 0,
+      "result": "pass"
+    },
+    {
+      "id": "eyes-017",
+      "original_and_rewrite_full_read": true,
+      "all_retained_fields_compared": true,
+      "clinical_meaning_and_eligibility_reviewed": true,
+      "numbers_and_time_windows_reviewed": true,
+      "source_set_preserved": true,
+      "natural_language_reviewed": true,
+      "applied_patch_count": 0,
+      "result": "pass"
+    },
+    {
+      "id": "eyes-018",
+      "original_and_rewrite_full_read": true,
+      "all_retained_fields_compared": true,
+      "clinical_meaning_and_eligibility_reviewed": true,
+      "numbers_and_time_windows_reviewed": true,
+      "source_set_preserved": true,
+      "natural_language_reviewed": true,
+      "applied_patch_count": 0,
+      "result": "pass"
+    },
+    {
+      "id": "eyes-019",
+      "original_and_rewrite_full_read": true,
+      "all_retained_fields_compared": true,
+      "clinical_meaning_and_eligibility_reviewed": true,
+      "numbers_and_time_windows_reviewed": true,
+      "source_set_preserved": true,
+      "natural_language_reviewed": true,
+      "applied_patch_count": 0,
+      "result": "pass"
+    },
+    {
+      "id": "nose-001",
+      "original_and_rewrite_full_read": true,
+      "all_retained_fields_compared": true,
+      "clinical_meaning_and_eligibility_reviewed": true,
+      "numbers_and_time_windows_reviewed": true,
+      "source_set_preserved": true,
+      "natural_language_reviewed": true,
+      "applied_patch_count": 0,
+      "result": "pass"
+    },
+    {
+      "id": "nose-002",
+      "original_and_rewrite_full_read": true,
+      "all_retained_fields_compared": true,
+      "clinical_meaning_and_eligibility_reviewed": true,
+      "numbers_and_time_windows_reviewed": true,
+      "source_set_preserved": true,
+      "natural_language_reviewed": true,
+      "applied_patch_count": 2,
+      "result": "pass"
+    },
+    {
+      "id": "nose-005",
+      "original_and_rewrite_full_read": true,
+      "all_retained_fields_compared": true,
+      "clinical_meaning_and_eligibility_reviewed": true,
+      "numbers_and_time_windows_reviewed": true,
+      "source_set_preserved": true,
+      "natural_language_reviewed": true,
+      "applied_patch_count": 0,
+      "result": "pass"
+    },
+    {
+      "id": "nose-007",
+      "original_and_rewrite_full_read": true,
+      "all_retained_fields_compared": true,
+      "clinical_meaning_and_eligibility_reviewed": true,
+      "numbers_and_time_windows_reviewed": true,
+      "source_set_preserved": true,
+      "natural_language_reviewed": true,
+      "applied_patch_count": 0,
+      "result": "pass"
+    },
+    {
+      "id": "nose-004",
+      "original_and_rewrite_full_read": true,
+      "all_retained_fields_compared": true,
+      "clinical_meaning_and_eligibility_reviewed": true,
+      "numbers_and_time_windows_reviewed": true,
+      "source_set_preserved": true,
+      "natural_language_reviewed": true,
+      "applied_patch_count": 2,
+      "result": "pass"
+    },
+    {
+      "id": "nose-006",
+      "original_and_rewrite_full_read": true,
+      "all_retained_fields_compared": true,
+      "clinical_meaning_and_eligibility_reviewed": true,
+      "numbers_and_time_windows_reviewed": true,
+      "source_set_preserved": true,
+      "natural_language_reviewed": true,
+      "applied_patch_count": 2,
+      "result": "pass"
+    },
+    {
+      "id": "nose-008",
+      "original_and_rewrite_full_read": true,
+      "all_retained_fields_compared": true,
+      "clinical_meaning_and_eligibility_reviewed": true,
+      "numbers_and_time_windows_reviewed": true,
+      "source_set_preserved": true,
+      "natural_language_reviewed": true,
+      "applied_patch_count": 1,
+      "result": "pass"
+    },
+    {
+      "id": "nose-003",
+      "original_and_rewrite_full_read": true,
+      "all_retained_fields_compared": true,
+      "clinical_meaning_and_eligibility_reviewed": true,
+      "numbers_and_time_windows_reviewed": true,
+      "source_set_preserved": true,
+      "natural_language_reviewed": true,
+      "applied_patch_count": 0,
+      "result": "pass"
+    },
+    {
+      "id": "ears-005",
+      "original_and_rewrite_full_read": true,
+      "all_retained_fields_compared": true,
+      "clinical_meaning_and_eligibility_reviewed": true,
+      "numbers_and_time_windows_reviewed": true,
+      "source_set_preserved": true,
+      "natural_language_reviewed": true,
+      "applied_patch_count": 1,
+      "result": "pass"
+    },
+    {
+      "id": "ears-001",
+      "original_and_rewrite_full_read": true,
+      "all_retained_fields_compared": true,
+      "clinical_meaning_and_eligibility_reviewed": true,
+      "numbers_and_time_windows_reviewed": true,
+      "source_set_preserved": true,
+      "natural_language_reviewed": true,
+      "applied_patch_count": 2,
+      "result": "pass"
+    },
+    {
+      "id": "ears-002",
+      "original_and_rewrite_full_read": true,
+      "all_retained_fields_compared": true,
+      "clinical_meaning_and_eligibility_reviewed": true,
+      "numbers_and_time_windows_reviewed": true,
+      "source_set_preserved": true,
+      "natural_language_reviewed": true,
+      "applied_patch_count": 3,
+      "result": "pass"
+    },
+    {
+      "id": "ears-003",
+      "original_and_rewrite_full_read": true,
+      "all_retained_fields_compared": true,
+      "clinical_meaning_and_eligibility_reviewed": true,
+      "numbers_and_time_windows_reviewed": true,
+      "source_set_preserved": true,
+      "natural_language_reviewed": true,
+      "applied_patch_count": 1,
+      "result": "pass"
+    },
+    {
+      "id": "ears-004",
+      "original_and_rewrite_full_read": true,
+      "all_retained_fields_compared": true,
+      "clinical_meaning_and_eligibility_reviewed": true,
+      "numbers_and_time_windows_reviewed": true,
+      "source_set_preserved": true,
+      "natural_language_reviewed": true,
+      "applied_patch_count": 1,
+      "result": "pass"
+    },
+    {
+      "id": "ears-006",
+      "original_and_rewrite_full_read": true,
+      "all_retained_fields_compared": true,
+      "clinical_meaning_and_eligibility_reviewed": true,
+      "numbers_and_time_windows_reviewed": true,
+      "source_set_preserved": true,
+      "natural_language_reviewed": true,
+      "applied_patch_count": 1,
+      "result": "pass"
+    },
+    {
+      "id": "ears-007",
+      "original_and_rewrite_full_read": true,
+      "all_retained_fields_compared": true,
+      "clinical_meaning_and_eligibility_reviewed": true,
+      "numbers_and_time_windows_reviewed": true,
+      "source_set_preserved": true,
+      "natural_language_reviewed": true,
+      "applied_patch_count": 2,
+      "result": "pass"
+    },
+    {
+      "id": "ears-009",
+      "original_and_rewrite_full_read": true,
+      "all_retained_fields_compared": true,
+      "clinical_meaning_and_eligibility_reviewed": true,
+      "numbers_and_time_windows_reviewed": true,
+      "source_set_preserved": true,
+      "natural_language_reviewed": true,
+      "applied_patch_count": 1,
+      "result": "pass"
+    },
+    {
+      "id": "ears-010",
+      "original_and_rewrite_full_read": true,
+      "all_retained_fields_compared": true,
+      "clinical_meaning_and_eligibility_reviewed": true,
+      "numbers_and_time_windows_reviewed": true,
+      "source_set_preserved": true,
+      "natural_language_reviewed": true,
+      "applied_patch_count": 4,
+      "result": "pass"
+    },
+    {
+      "id": "ears-008",
+      "original_and_rewrite_full_read": true,
+      "all_retained_fields_compared": true,
+      "clinical_meaning_and_eligibility_reviewed": true,
+      "numbers_and_time_windows_reviewed": true,
+      "source_set_preserved": true,
+      "natural_language_reviewed": true,
+      "applied_patch_count": 2,
+      "result": "pass"
+    },
+    {
+      "id": "ears-011",
+      "original_and_rewrite_full_read": true,
+      "all_retained_fields_compared": true,
+      "clinical_meaning_and_eligibility_reviewed": true,
+      "numbers_and_time_windows_reviewed": true,
+      "source_set_preserved": true,
+      "natural_language_reviewed": true,
+      "applied_patch_count": 3,
+      "result": "pass"
+    },
+    {
+      "id": "oral-018",
+      "original_and_rewrite_full_read": true,
+      "all_retained_fields_compared": true,
+      "clinical_meaning_and_eligibility_reviewed": true,
+      "numbers_and_time_windows_reviewed": true,
+      "source_set_preserved": true,
+      "natural_language_reviewed": true,
+      "applied_patch_count": 0,
+      "result": "pass"
+    },
+    {
+      "id": "oral-013",
+      "original_and_rewrite_full_read": true,
+      "all_retained_fields_compared": true,
+      "clinical_meaning_and_eligibility_reviewed": true,
+      "numbers_and_time_windows_reviewed": true,
+      "source_set_preserved": true,
+      "natural_language_reviewed": true,
+      "applied_patch_count": 1,
+      "result": "pass"
+    },
+    {
+      "id": "oral-007",
+      "original_and_rewrite_full_read": true,
+      "all_retained_fields_compared": true,
+      "clinical_meaning_and_eligibility_reviewed": true,
+      "numbers_and_time_windows_reviewed": true,
+      "source_set_preserved": true,
+      "natural_language_reviewed": true,
+      "applied_patch_count": 2,
+      "result": "pass"
+    },
+    {
+      "id": "oral-001",
+      "original_and_rewrite_full_read": true,
+      "all_retained_fields_compared": true,
+      "clinical_meaning_and_eligibility_reviewed": true,
+      "numbers_and_time_windows_reviewed": true,
+      "source_set_preserved": true,
+      "natural_language_reviewed": true,
+      "applied_patch_count": 2,
+      "result": "pass"
+    },
+    {
+      "id": "oral-002",
+      "original_and_rewrite_full_read": true,
+      "all_retained_fields_compared": true,
+      "clinical_meaning_and_eligibility_reviewed": true,
+      "numbers_and_time_windows_reviewed": true,
+      "source_set_preserved": true,
+      "natural_language_reviewed": true,
+      "applied_patch_count": 0,
+      "result": "pass"
+    },
+    {
+      "id": "oral-003",
+      "original_and_rewrite_full_read": true,
+      "all_retained_fields_compared": true,
+      "clinical_meaning_and_eligibility_reviewed": true,
+      "numbers_and_time_windows_reviewed": true,
+      "source_set_preserved": true,
+      "natural_language_reviewed": true,
+      "applied_patch_count": 2,
+      "result": "pass"
+    },
+    {
+      "id": "oral-004",
+      "original_and_rewrite_full_read": true,
+      "all_retained_fields_compared": true,
+      "clinical_meaning_and_eligibility_reviewed": true,
+      "numbers_and_time_windows_reviewed": true,
+      "source_set_preserved": true,
+      "natural_language_reviewed": true,
+      "applied_patch_count": 2,
+      "result": "pass"
+    },
+    {
+      "id": "oral-016",
+      "original_and_rewrite_full_read": true,
+      "all_retained_fields_compared": true,
+      "clinical_meaning_and_eligibility_reviewed": true,
+      "numbers_and_time_windows_reviewed": true,
+      "source_set_preserved": true,
+      "natural_language_reviewed": true,
+      "applied_patch_count": 2,
+      "result": "pass"
+    },
+    {
+      "id": "oral-005",
+      "original_and_rewrite_full_read": true,
+      "all_retained_fields_compared": true,
+      "clinical_meaning_and_eligibility_reviewed": true,
+      "numbers_and_time_windows_reviewed": true,
+      "source_set_preserved": true,
+      "natural_language_reviewed": true,
+      "applied_patch_count": 0,
+      "result": "pass"
+    },
+    {
+      "id": "oral-006",
+      "original_and_rewrite_full_read": true,
+      "all_retained_fields_compared": true,
+      "clinical_meaning_and_eligibility_reviewed": true,
+      "numbers_and_time_windows_reviewed": true,
+      "source_set_preserved": true,
+      "natural_language_reviewed": true,
+      "applied_patch_count": 0,
+      "result": "pass"
+    },
+    {
+      "id": "oral-019",
+      "original_and_rewrite_full_read": true,
+      "all_retained_fields_compared": true,
+      "clinical_meaning_and_eligibility_reviewed": true,
+      "numbers_and_time_windows_reviewed": true,
+      "source_set_preserved": true,
+      "natural_language_reviewed": true,
+      "applied_patch_count": 0,
+      "result": "pass"
+    },
+    {
+      "id": "oral-020",
+      "original_and_rewrite_full_read": true,
+      "all_retained_fields_compared": true,
+      "clinical_meaning_and_eligibility_reviewed": true,
+      "numbers_and_time_windows_reviewed": true,
+      "source_set_preserved": true,
+      "natural_language_reviewed": true,
+      "applied_patch_count": 3,
+      "result": "pass"
+    },
+    {
+      "id": "oral-021",
+      "original_and_rewrite_full_read": true,
+      "all_retained_fields_compared": true,
+      "clinical_meaning_and_eligibility_reviewed": true,
+      "numbers_and_time_windows_reviewed": true,
+      "source_set_preserved": true,
+      "natural_language_reviewed": true,
+      "applied_patch_count": 2,
+      "result": "pass"
+    },
+    {
+      "id": "oral-012",
+      "original_and_rewrite_full_read": true,
+      "all_retained_fields_compared": true,
+      "clinical_meaning_and_eligibility_reviewed": true,
+      "numbers_and_time_windows_reviewed": true,
+      "source_set_preserved": true,
+      "natural_language_reviewed": true,
+      "applied_patch_count": 3,
+      "result": "pass"
+    },
+    {
+      "id": "oral-009",
+      "original_and_rewrite_full_read": true,
+      "all_retained_fields_compared": true,
+      "clinical_meaning_and_eligibility_reviewed": true,
+      "numbers_and_time_windows_reviewed": true,
+      "source_set_preserved": true,
+      "natural_language_reviewed": true,
+      "applied_patch_count": 1,
+      "result": "pass"
+    },
+    {
+      "id": "oral-010",
+      "original_and_rewrite_full_read": true,
+      "all_retained_fields_compared": true,
+      "clinical_meaning_and_eligibility_reviewed": true,
+      "numbers_and_time_windows_reviewed": true,
+      "source_set_preserved": true,
+      "natural_language_reviewed": true,
+      "applied_patch_count": 2,
+      "result": "pass"
+    },
+    {
+      "id": "oral-011",
+      "original_and_rewrite_full_read": true,
+      "all_retained_fields_compared": true,
+      "clinical_meaning_and_eligibility_reviewed": true,
+      "numbers_and_time_windows_reviewed": true,
+      "source_set_preserved": true,
+      "natural_language_reviewed": true,
+      "applied_patch_count": 2,
+      "result": "pass"
+    },
+    {
+      "id": "oral-017",
+      "original_and_rewrite_full_read": true,
+      "all_retained_fields_compared": true,
+      "clinical_meaning_and_eligibility_reviewed": true,
+      "numbers_and_time_windows_reviewed": true,
+      "source_set_preserved": true,
+      "natural_language_reviewed": true,
+      "applied_patch_count": 0,
+      "result": "pass"
+    },
+    {
+      "id": "oral-022",
+      "original_and_rewrite_full_read": true,
+      "all_retained_fields_compared": true,
+      "clinical_meaning_and_eligibility_reviewed": true,
+      "numbers_and_time_windows_reviewed": true,
+      "source_set_preserved": true,
+      "natural_language_reviewed": true,
+      "applied_patch_count": 2,
+      "result": "pass"
+    },
+    {
+      "id": "oral-023",
+      "original_and_rewrite_full_read": true,
+      "all_retained_fields_compared": true,
+      "clinical_meaning_and_eligibility_reviewed": true,
+      "numbers_and_time_windows_reviewed": true,
+      "source_set_preserved": true,
+      "natural_language_reviewed": true,
+      "applied_patch_count": 2,
+      "result": "pass"
+    },
+    {
+      "id": "lips-001",
+      "original_and_rewrite_full_read": true,
+      "all_retained_fields_compared": true,
+      "clinical_meaning_and_eligibility_reviewed": true,
+      "numbers_and_time_windows_reviewed": true,
+      "source_set_preserved": true,
+      "natural_language_reviewed": true,
+      "applied_patch_count": 0,
+      "result": "pass"
+    },
+    {
+      "id": "lips-002",
+      "original_and_rewrite_full_read": true,
+      "all_retained_fields_compared": true,
+      "clinical_meaning_and_eligibility_reviewed": true,
+      "numbers_and_time_windows_reviewed": true,
+      "source_set_preserved": true,
+      "natural_language_reviewed": true,
+      "applied_patch_count": 0,
+      "result": "pass"
+    },
+    {
+      "id": "lips-003",
+      "original_and_rewrite_full_read": true,
+      "all_retained_fields_compared": true,
+      "clinical_meaning_and_eligibility_reviewed": true,
+      "numbers_and_time_windows_reviewed": true,
+      "source_set_preserved": true,
+      "natural_language_reviewed": true,
+      "applied_patch_count": 0,
+      "result": "pass"
+    },
+    {
+      "id": "lips-004",
+      "original_and_rewrite_full_read": true,
+      "all_retained_fields_compared": true,
+      "clinical_meaning_and_eligibility_reviewed": true,
+      "numbers_and_time_windows_reviewed": true,
+      "source_set_preserved": true,
+      "natural_language_reviewed": true,
+      "applied_patch_count": 0,
+      "result": "pass"
+    },
+    {
+      "id": "lips-005",
+      "original_and_rewrite_full_read": true,
+      "all_retained_fields_compared": true,
+      "clinical_meaning_and_eligibility_reviewed": true,
+      "numbers_and_time_windows_reviewed": true,
+      "source_set_preserved": true,
+      "natural_language_reviewed": true,
+      "applied_patch_count": 0,
+      "result": "pass"
+    },
+    {
+      "id": "lips-006",
+      "original_and_rewrite_full_read": true,
+      "all_retained_fields_compared": true,
+      "clinical_meaning_and_eligibility_reviewed": true,
+      "numbers_and_time_windows_reviewed": true,
+      "source_set_preserved": true,
+      "natural_language_reviewed": true,
+      "applied_patch_count": 0,
+      "result": "pass"
+    },
+    {
+      "id": "oral-014",
+      "original_and_rewrite_full_read": true,
+      "all_retained_fields_compared": true,
+      "clinical_meaning_and_eligibility_reviewed": true,
+      "numbers_and_time_windows_reviewed": true,
+      "source_set_preserved": true,
+      "natural_language_reviewed": true,
+      "applied_patch_count": 0,
+      "result": "pass"
+    },
+    {
+      "id": "oral-015",
+      "original_and_rewrite_full_read": true,
+      "all_retained_fields_compared": true,
+      "clinical_meaning_and_eligibility_reviewed": true,
+      "numbers_and_time_windows_reviewed": true,
+      "source_set_preserved": true,
+      "natural_language_reviewed": true,
+      "applied_patch_count": 0,
+      "result": "pass"
+    },
+    {
+      "id": "oral-008",
+      "original_and_rewrite_full_read": true,
+      "all_retained_fields_compared": true,
+      "clinical_meaning_and_eligibility_reviewed": true,
+      "numbers_and_time_windows_reviewed": true,
+      "source_set_preserved": true,
+      "natural_language_reviewed": true,
+      "applied_patch_count": 0,
+      "result": "pass"
+    },
+    {
+      "id": "skin-001",
+      "original_and_rewrite_full_read": true,
+      "all_retained_fields_compared": true,
+      "clinical_meaning_and_eligibility_reviewed": true,
+      "numbers_and_time_windows_reviewed": true,
+      "source_set_preserved": true,
+      "natural_language_reviewed": true,
+      "applied_patch_count": 1,
+      "result": "pass"
+    },
+    {
+      "id": "skin-002",
+      "original_and_rewrite_full_read": true,
+      "all_retained_fields_compared": true,
+      "clinical_meaning_and_eligibility_reviewed": true,
+      "numbers_and_time_windows_reviewed": true,
+      "source_set_preserved": true,
+      "natural_language_reviewed": true,
+      "applied_patch_count": 2,
+      "result": "pass"
+    },
+    {
+      "id": "skin-003",
+      "original_and_rewrite_full_read": true,
+      "all_retained_fields_compared": true,
+      "clinical_meaning_and_eligibility_reviewed": true,
+      "numbers_and_time_windows_reviewed": true,
+      "source_set_preserved": true,
+      "natural_language_reviewed": true,
+      "applied_patch_count": 2,
+      "result": "pass"
+    },
+    {
+      "id": "skin-004",
+      "original_and_rewrite_full_read": true,
+      "all_retained_fields_compared": true,
+      "clinical_meaning_and_eligibility_reviewed": true,
+      "numbers_and_time_windows_reviewed": true,
+      "source_set_preserved": true,
+      "natural_language_reviewed": true,
+      "applied_patch_count": 2,
+      "result": "pass"
+    },
+    {
+      "id": "skin-019",
+      "original_and_rewrite_full_read": true,
+      "all_retained_fields_compared": true,
+      "clinical_meaning_and_eligibility_reviewed": true,
+      "numbers_and_time_windows_reviewed": true,
+      "source_set_preserved": true,
+      "natural_language_reviewed": true,
+      "applied_patch_count": 3,
+      "result": "pass"
+    },
+    {
+      "id": "skin-021",
+      "original_and_rewrite_full_read": true,
+      "all_retained_fields_compared": true,
+      "clinical_meaning_and_eligibility_reviewed": true,
+      "numbers_and_time_windows_reviewed": true,
+      "source_set_preserved": true,
+      "natural_language_reviewed": true,
+      "applied_patch_count": 2,
+      "result": "pass"
+    },
+    {
+      "id": "skin-005",
+      "original_and_rewrite_full_read": true,
+      "all_retained_fields_compared": true,
+      "clinical_meaning_and_eligibility_reviewed": true,
+      "numbers_and_time_windows_reviewed": true,
+      "source_set_preserved": true,
+      "natural_language_reviewed": true,
+      "applied_patch_count": 2,
+      "result": "pass"
+    },
+    {
+      "id": "skin-006",
+      "original_and_rewrite_full_read": true,
+      "all_retained_fields_compared": true,
+      "clinical_meaning_and_eligibility_reviewed": true,
+      "numbers_and_time_windows_reviewed": true,
+      "source_set_preserved": true,
+      "natural_language_reviewed": true,
+      "applied_patch_count": 4,
+      "result": "pass"
+    },
+    {
+      "id": "skin-018",
+      "original_and_rewrite_full_read": true,
+      "all_retained_fields_compared": true,
+      "clinical_meaning_and_eligibility_reviewed": true,
+      "numbers_and_time_windows_reviewed": true,
+      "source_set_preserved": true,
+      "natural_language_reviewed": true,
+      "applied_patch_count": 1,
+      "result": "pass"
+    },
+    {
+      "id": "skin-016",
+      "original_and_rewrite_full_read": true,
+      "all_retained_fields_compared": true,
+      "clinical_meaning_and_eligibility_reviewed": true,
+      "numbers_and_time_windows_reviewed": true,
+      "source_set_preserved": true,
+      "natural_language_reviewed": true,
+      "applied_patch_count": 3,
+      "result": "pass"
+    },
+    {
+      "id": "skin-017",
+      "original_and_rewrite_full_read": true,
+      "all_retained_fields_compared": true,
+      "clinical_meaning_and_eligibility_reviewed": true,
+      "numbers_and_time_windows_reviewed": true,
+      "source_set_preserved": true,
+      "natural_language_reviewed": true,
+      "applied_patch_count": 2,
+      "result": "pass"
+    },
+    {
+      "id": "skin-022",
+      "original_and_rewrite_full_read": true,
+      "all_retained_fields_compared": true,
+      "clinical_meaning_and_eligibility_reviewed": true,
+      "numbers_and_time_windows_reviewed": true,
+      "source_set_preserved": true,
+      "natural_language_reviewed": true,
+      "applied_patch_count": 3,
+      "result": "pass"
+    },
+    {
+      "id": "skin-007",
+      "original_and_rewrite_full_read": true,
+      "all_retained_fields_compared": true,
+      "clinical_meaning_and_eligibility_reviewed": true,
+      "numbers_and_time_windows_reviewed": true,
+      "source_set_preserved": true,
+      "natural_language_reviewed": true,
+      "applied_patch_count": 2,
+      "result": "pass"
+    },
+    {
+      "id": "skin-008",
+      "original_and_rewrite_full_read": true,
+      "all_retained_fields_compared": true,
+      "clinical_meaning_and_eligibility_reviewed": true,
+      "numbers_and_time_windows_reviewed": true,
+      "source_set_preserved": true,
+      "natural_language_reviewed": true,
+      "applied_patch_count": 0,
+      "result": "pass"
+    },
+    {
+      "id": "skin-009",
+      "original_and_rewrite_full_read": true,
+      "all_retained_fields_compared": true,
+      "clinical_meaning_and_eligibility_reviewed": true,
+      "numbers_and_time_windows_reviewed": true,
+      "source_set_preserved": true,
+      "natural_language_reviewed": true,
+      "applied_patch_count": 2,
+      "result": "pass"
+    },
+    {
+      "id": "skin-010",
+      "original_and_rewrite_full_read": true,
+      "all_retained_fields_compared": true,
+      "clinical_meaning_and_eligibility_reviewed": true,
+      "numbers_and_time_windows_reviewed": true,
+      "source_set_preserved": true,
+      "natural_language_reviewed": true,
+      "applied_patch_count": 2,
+      "result": "pass"
+    },
+    {
+      "id": "skin-011",
+      "original_and_rewrite_full_read": true,
+      "all_retained_fields_compared": true,
+      "clinical_meaning_and_eligibility_reviewed": true,
+      "numbers_and_time_windows_reviewed": true,
+      "source_set_preserved": true,
+      "natural_language_reviewed": true,
+      "applied_patch_count": 3,
+      "result": "pass"
+    },
+    {
+      "id": "skin-012",
+      "original_and_rewrite_full_read": true,
+      "all_retained_fields_compared": true,
+      "clinical_meaning_and_eligibility_reviewed": true,
+      "numbers_and_time_windows_reviewed": true,
+      "source_set_preserved": true,
+      "natural_language_reviewed": true,
+      "applied_patch_count": 3,
+      "result": "pass"
+    },
+    {
+      "id": "skin-013",
+      "original_and_rewrite_full_read": true,
+      "all_retained_fields_compared": true,
+      "clinical_meaning_and_eligibility_reviewed": true,
+      "numbers_and_time_windows_reviewed": true,
+      "source_set_preserved": true,
+      "natural_language_reviewed": true,
+      "applied_patch_count": 4,
+      "result": "pass"
+    },
+    {
+      "id": "skin-020",
+      "original_and_rewrite_full_read": true,
+      "all_retained_fields_compared": true,
+      "clinical_meaning_and_eligibility_reviewed": true,
+      "numbers_and_time_windows_reviewed": true,
+      "source_set_preserved": true,
+      "natural_language_reviewed": true,
+      "applied_patch_count": 4,
+      "result": "pass"
+    },
+    {
+      "id": "skin-014",
+      "original_and_rewrite_full_read": true,
+      "all_retained_fields_compared": true,
+      "clinical_meaning_and_eligibility_reviewed": true,
+      "numbers_and_time_windows_reviewed": true,
+      "source_set_preserved": true,
+      "natural_language_reviewed": true,
+      "applied_patch_count": 3,
+      "result": "pass"
+    },
+    {
+      "id": "skin-015",
+      "original_and_rewrite_full_read": true,
+      "all_retained_fields_compared": true,
+      "clinical_meaning_and_eligibility_reviewed": true,
+      "numbers_and_time_windows_reviewed": true,
+      "source_set_preserved": true,
+      "natural_language_reviewed": true,
+      "applied_patch_count": 3,
+      "result": "pass"
+    },
+    {
+      "id": "skin-023",
+      "original_and_rewrite_full_read": true,
+      "all_retained_fields_compared": true,
+      "clinical_meaning_and_eligibility_reviewed": true,
+      "numbers_and_time_windows_reviewed": true,
+      "source_set_preserved": true,
+      "natural_language_reviewed": true,
+      "applied_patch_count": 2,
+      "result": "pass"
+    }
+  ],
+  "merge_coverage": [
+    {
+      "target": "eyes-007",
+      "retired": [
+        "eyes-015"
+      ],
+      "both_originals_full_read": true,
+      "merged_full_read": true,
+      "source_union_preserved": true,
+      "age_sex_consistency_checked": true,
+      "operations_and_time_windows_checked": true,
+      "natural_language_final_checked": true,
+      "result": "pass"
+    },
+    {
+      "target": "lips-001",
+      "retired": [
+        "lips-002"
+      ],
+      "both_originals_full_read": true,
+      "merged_full_read": true,
+      "source_union_preserved": true,
+      "age_sex_consistency_checked": true,
+      "operations_and_time_windows_checked": true,
+      "natural_language_final_checked": true,
+      "result": "pass"
+    },
+    {
+      "target": "oral-005",
+      "retired": [
+        "oral-006"
+      ],
+      "both_originals_full_read": true,
+      "merged_full_read": true,
+      "source_union_preserved": true,
+      "age_sex_consistency_checked": true,
+      "operations_and_time_windows_checked": true,
+      "natural_language_final_checked": true,
+      "result": "pass"
+    }
+  ],
+  "blocking_unresolved": [],
+  "status": "pass"
+}

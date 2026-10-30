@@ -1,0 +1,37 @@
+[
+  {
+    "alias": "NFB-S09",
+    "id": "src-207969b16db6",
+    "reason": "同DOI或规范URL，合并实际核读用途，保留永久来源身份。",
+    "prior_citation": "World Health Organization. Healthy diet [Internet]. 2026 Jan 26. [cited 2026 Oct 29]. Available from: https://www.who.int/news-room/fact-sheets/detail/healthy-diet",
+    "final_citation": "World Health Organization. Healthy diet [Internet]. 2026 Jan 26. [cited 2026 Oct 29]. Available from: https://www.who.int/news-room/fact-sheets/detail/healthy-diet"
+  },
+  {
+    "alias": "NFG-S01",
+    "id": "src-207969b16db6",
+    "reason": "同DOI或规范URL，合并实际核读用途，保留永久来源身份。",
+    "prior_citation": "World Health Organization. Healthy diet [Internet]. 2026 Jan 26. [cited 2026 Oct 29]. Available from: https://www.who.int/news-room/fact-sheets/detail/healthy-diet",
+    "final_citation": "World Health Organization. Healthy diet [Internet]. 2026 Jan 26. [cited 2026 Oct 29]. Available from: https://www.who.int/news-room/fact-sheets/detail/healthy-diet"
+  },
+  {
+    "alias": "NFG-S05",
+    "id": "src-f7a1589039c6",
+    "reason": "同DOI或规范URL，合并实际核读用途，保留永久来源身份。",
+    "prior_citation": "National Institute of Diabetes and Digestive and Kidney Diseases. Low blood glucose (hypoglycemia) [Internet]. 2021 Jul [cited 2026 Oct 30]. Available from: https://www.niddk.nih.gov/health-information/diabetes/overview/preventing-problems/low-blood-glucose-hypoglycemia",
+    "final_citation": "National Institute of Diabetes and Digestive and Kidney Diseases. Low blood glucose (hypoglycemia) [Internet]. 2021 Jul [cited 2026 Oct 30]. Available from: https://www.niddk.nih.gov/health-information/diabetes/overview/preventing-problems/low-blood-glucose-hypoglycemia"
+  },
+  {
+    "alias": "NFM-S10",
+    "id": "src-6e89c66826b0",
+    "reason": "同DOI或规范URL，合并实际核读用途，保留永久来源身份。",
+    "prior_citation": "US Food and Drug Administration. FDA’s concerns with unapproved GLP-1 drugs used for weight loss [Internet]. [cited 2026 Oct 30]. Available from: https://www.fda.gov/drugs/drug-alerts-and-statements/fdas-concerns-unapproved-glp-1-drugs-used-weight-loss",
+    "final_citation": "US Food and Drug Administration. FDA’s concerns with unapproved GLP-1 drugs used for weight loss [Internet]. [cited 2026 Oct 30]. Available from: https://www.fda.gov/drugs/drug-alerts-and-statements/fdas-concerns-unapproved-glp-1-drugs-used-weight-loss"
+  },
+  {
+    "alias": "NFW-S01",
+    "id": "src-d9882eacf41f",
+    "reason": "同DOI或规范URL，合并实际核读用途，保留永久来源身份。",
+    "prior_citation": "国家卫生健康委办公厅. 肥胖症诊疗指南（2024年版）[Internet]. 2024 [cited 2026 Oct 30]. Available from: https://www.nhc.gov.cn/cms-search/downFiles/c171fa2416864a21b69278fd04a33f21.pdf",
+    "final_citation": "国家卫生健康委办公厅. 肥胖症诊疗指南（2024年版）[Internet]. 2024 [cited 2026 Oct 30]. Available from: https://www.nhc.gov.cn/cms-search/downFiles/c171fa2416864a21b69278fd04a33f21.pdf"
+  }
+]

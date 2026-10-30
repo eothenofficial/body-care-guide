@@ -1,0 +1,696 @@
+[
+  {
+    "id": "src-69bfaa3ff171",
+    "number": 1,
+    "citation": "National Health Service. Red eye [Internet]. [cited 2026 Oct 29]. Available from: https://www.nhs.uk/symptoms/red-eye/",
+    "url": "https://www.nhs.uk/symptoms/red-eye/",
+    "type": "官方症状分流说明",
+    "support": "红眼原因多样；明显痛红或接触镜红眼尽快专业评估；红眼伴视力变化、畏光等立即就医。",
+    "limitations": "不自诊病因；英国GP/111/A&E改写成中国适当就医路径，不能照搬电话号码。",
+    "legacy_id": "E011",
+    "legacy_aliases": [
+      "E011"
+    ],
+    "content_checked_at": "2026-10-29",
+    "reading_depth": "已打开完整症状与分流正文并核对页脚：Page last reviewed 27 October 2025。",
+    "metadata_checked_at": "2026-10-29"
+  },
+  {
+    "id": "src-32d4a2191452",
+    "number": 2,
+    "citation": "National Eye Institute. Retinal detachment [Internet]. [cited 2026 Oct 29]. Available from: https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/retinal-detachment",
+    "url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/retinal-detachment",
+    "type": "官方患者教育",
+    "support": "突然增加飞蚊、闪光、黑幕应立即眼科或急诊评估。",
+    "limitations": "不将稳定多年的少量飞蚊都判急症。",
+    "legacy_id": "E030",
+    "legacy_aliases": [
+      "E030"
+    ],
+    "content_checked_at": "2026-10-29",
+    "reading_depth": "已打开正文相关部分",
+    "metadata_checked_at": "2026-10-29"
+  },
+  {
+    "id": "src-22ced7910425",
+    "citation": "National Health Service. Eye injuries [Internet]. [cited 2026 Oct 29]. Available from: https://www.nhs.uk/conditions/eye-injuries/",
+    "url": "https://www.nhs.uk/conditions/eye-injuries/",
+    "type": "官方急救分流与护理",
+    "support": "灰尘/洗发水等轻微刺激可清水冲洗；不要揉眼，改善前停隐形和眼妆。强清洁剂、穿刺和高速碎屑入眼急诊；强清洁剂立即清水冲洗并继续求助。",
+    "limitations": "不能将一般泳后脸部清洁改成每天固定睁眼冲洗20分钟；化学伤急救另列，不能因镜片避水耽误冲洗。",
+    "content_checked_at": "2026-10-29",
+    "reading_depth": "本轮直接重开，已读急诊指征、在家处理、如何冲洗和24小时后未改善分支；更新日已核。",
+    "number": 3,
+    "metadata_checked_at": "2026-10-29"
+  },
+  {
+    "id": "src-b255e614b6c8",
+    "number": 4,
+    "citation": "National Health Service. Dry eyes [Internet]. [cited 2026 Oct 29]. Available from: https://www.nhs.uk/symptoms/dry-eyes/",
+    "url": "https://www.nhs.uk/symptoms/dry-eyes/",
+    "type": "官方患者教育",
+    "support": "干眼可伴流泪、刺激与模糊；休息和环境调整、自护后仍持续需查因。",
+    "limitations": "症状列表不是诊断，不自行停处方药。",
+    "legacy_id": "E010",
+    "legacy_aliases": [
+      "E010"
+    ],
+    "content_checked_at": "2026-10-29",
+    "reading_depth": "已打开正文相关部分",
+    "metadata_checked_at": "2026-10-29"
+  },
+  {
+    "id": "src-52d3bcfa76ba",
+    "citation": "Moorfields Eye Hospital NHS Foundation Trust. Dry eye diagnosis and treatment [Internet]. [cited 2026 Oct 29]. Available from: https://www.moorfields.nhs.uk/eye-conditions/dry-eye/diagnosis-and-treatment",
+    "url": "https://www.moorfields.nhs.uk/eye-conditions/dry-eye/diagnosis-and-treatment",
+    "type": "专科医院治疗路径",
+    "support": "轻中度润滑起步、夜间眼膏、需要进一步治疗时的阶梯；戴镜或频繁使用时讨论无防腐。",
+    "limitations": "英国非处方和服务体系不移植中国；不从该页给所有人统一频率和疗程。",
+    "reading_depth": "机构Treatment for dry eye正文已读。",
+    "content_checked_at": "2026-10-29",
+    "number": 5,
+    "metadata_checked_at": "2026-10-29"
+  },
+  {
+    "id": "src-7c0d4e81a5d7",
+    "citation": "National Eye Institute. Blepharitis [Internet]. [cited 2026 Oct 29]. Available from: https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/blepharitis",
+    "url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/blepharitis",
+    "type": "官方患者教育",
+    "support": "睑缘结痂、干和流泪可相关；评估眼睑油腺并按原因管理。",
+    "limitations": "不把所有患者都写成细菌感染；不直接复制自制清洁液到所有读者。",
+    "content_checked_at": "2026-10-29",
+    "reading_depth": "已打开正文相关部分",
+    "number": 6,
+    "metadata_checked_at": "2026-10-29"
+  },
+  {
+    "id": "src-825af03a95e3",
+    "citation": "中华医学会眼科学分会角膜病学组, 中国医师协会眼科医师分会角膜病学组. 中国干眼临床诊疗专家共识（2024年）. 中华眼科杂志. 2024;60(12):968-976. doi:10.3760/cma.j.cn112142-20240517-00227.",
+    "url": "https://www.gzzoc.org.cn/sites/zoc.live1.sysucloud2.sysu.edu.cn/files/2025-10/2024_zhongguoganyanlinchuangzhenliaozhuanjiagongshi2024nian.pdf",
+    "type": "专业学会临床共识，医院官方提供原文",
+    "support": "按病因与严重度分层；泪膜、睑板腺和角膜检查如何改变处理；长期/高频润滑的防腐体系选择。",
+    "limitations": "本稿不复制整套药物剂量、设备参数或国内外上市状态；未把每项共识等同高确定性RCT，亦未按文中营养补充概述做购买推荐。",
+    "reading_depth": "9页原PDF已打开，重点审读第4至6页分层治疗、人工泪液及物理护理；题录和DOI另核。",
+    "content_checked_at": "2026-10-29",
+    "number": 7,
+    "metadata_checked_at": "2026-10-29",
+    "doi": "10.3760/cma.j.cn112142-20240517-00227",
+    "doi_url": "https://doi.org/10.3760/cma.j.cn112142-20240517-00227",
+    "metadata_verification_urls": [
+      "https://www.gzzoc.org.cn/sites/zoc.live1.sysucloud2.sysu.edu.cn/files/2025-10/2024_zhongguoganyanlinchuangzhenliaozhuanjiagongshi2024nian.pdf"
+    ]
+  },
+  {
+    "id": "src-f0843bc9ef2d",
+    "citation": "Moorfields Eye Hospital NHS Foundation Trust. Allergic conjunctivitis [Internet]. [cited 2026 Oct 29]. Available from: https://www.moorfields.nhs.uk/ae/patient-guides/allergic-conjunctivitis",
+    "url": "https://www.moorfields.nhs.uk/ae/patient-guides/allergic-conjunctivitis",
+    "type": "专科医院患者教育",
+    "support": "过敏冷敷、避免揉眼及分流；不移植英国药物销售/处方身份。",
+    "limitations": "见适用范围与读取深度",
+    "content_checked_at": "2026-10-29",
+    "reading_depth": "机构患者指导正文已读",
+    "number": 8,
+    "metadata_checked_at": "2026-10-29"
+  },
+  {
+    "id": "src-9acd930a6e72",
+    "citation": "Moorfields Eye Hospital NHS Foundation Trust. Allergic conjunctivitis: patient information [Internet]. [cited 2026 Oct 29]. Available from: https://www.moorfields.nhs.uk/mediaLocal/vo2cmzoj/allergic-conjunctivitis.pdf",
+    "url": "https://www.moorfields.nhs.uk/mediaLocal/vo2cmzoj/allergic-conjunctivitis.pdf",
+    "type": "专科医院患者指导和药物类别表",
+    "support": "奥洛他定、酮替芬等双效滴剂与单纯润滑的不同作用；红旗、停戴与冷敷。",
+    "limitations": "PDF的2025-05是预定复审日，不冒充已完成更新；英国供应类别与剂量不作中国用药规则，稿中不复制给药表。",
+    "reading_depth": "4页PDF相关正文、末页类别表和版次已读。",
+    "content_checked_at": "2026-10-29",
+    "number": 9,
+    "metadata_checked_at": "2026-10-29"
+  },
+  {
+    "id": "src-69ce10a39dad",
+    "citation": "US Food and Drug Administration. Eye cosmetic safety [Internet]. [cited 2026 Oct 29]. Available from: https://www.fda.gov/cosmetics/cosmetic-products/eye-cosmetic-safety",
+    "url": "https://www.fda.gov/cosmetics/cosmetic-products/eye-cosmetic-safety",
+    "type": "监管机构眼妆安全建议",
+    "support": "手和用具清洁；不共享眼妆；睫毛膏干了不加水或唾液；眼感染期间停妆并丢弃当时使用眼妆品；不在行驶车辆上化眼妆。",
+    "limitations": "美国色素审批不搬成中国法规；不把所有眼妆一律设为三个月保质期，FDA原文是制造商常建议睫毛膏2–4个月，仍需看具体标签。",
+    "content_checked_at": "2026-10-29",
+    "reading_depth": "本轮原页直接打开；全文重点读Keep it clean、Don't share、Hold still和Safety Checklist；明确文末2006-12-18更新信息，未冒充2026更新。",
+    "number": 10,
+    "metadata_checked_at": "2026-10-29"
+  },
+  {
+    "id": "src-90f2804c54b5",
+    "number": 11,
+    "citation": "National Health Service. Stye [Internet]. [cited 2026 Oct 29]. Available from: https://www.nhs.uk/conditions/stye/",
+    "url": "https://www.nhs.uk/conditions/stye/",
+    "type": "官方患者教育",
+    "support": "痛性小包与硬而少痛小包的不同线索，温敷护理及加重复评。",
+    "limitations": "不把观察线索当确诊；时长属于该情境护理，不推广全部热敷产品。",
+    "legacy_id": "E012",
+    "legacy_aliases": [
+      "E012"
+    ],
+    "content_checked_at": "2026-10-29",
+    "reading_depth": "已打开正文相关部分",
+    "metadata_checked_at": "2026-10-29"
+  },
+  {
+    "id": "src-db22121170e5",
+    "citation": "National Eye Institute. Refractive errors [Internet]. [cited 2026 Oct 29]. Available from: https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/refractive-errors",
+    "url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/refractive-errors",
+    "type": "官方患者教育",
+    "support": "屈光不正含近视、远视、散光等；视物模糊需检查，矫正选择按专业评估。",
+    "limitations": "不讨论儿童近视控制或保证摘镜后眼底风险消失。",
+    "content_checked_at": "2026-10-29",
+    "reading_depth": "已打开正文相关部分",
+    "number": 12,
+    "metadata_checked_at": "2026-10-29"
+  },
+  {
+    "id": "src-ef3d7b7a8fb9",
+    "citation": "国家卫生健康委办公厅. 近视防治指南（2026年版） [Internet]. 2026 Jul 23 [cited 2026 Oct 29]. Available from: https://www.nhc.gov.cn/yzygj/c100067/202607/c4a1c6f628fa45c29328db0671b68d57/files/%E8%BF%91%E8%A7%86%E9%98%B2%E6%B2%BB%E6%8C%87%E5%8D%97%EF%BC%882026%E5%B9%B4%E7%89%88%EF%BC%89.pdf",
+    "url": "https://www.nhc.gov.cn/yzygj/c100067/202607/c4a1c6f628fa45c29328db0671b68d57/files/%E8%BF%91%E8%A7%86%E9%98%B2%E6%B2%BB%E6%8C%87%E5%8D%97%EF%BC%882026%E5%B9%B4%E7%89%88%EF%BC%89.pdf",
+    "type": "国家临床指南",
+    "support": "框架基础矫正；儿童特殊光学设计适用与禁忌；OK镜8岁及以上与监护护理；近视患儿至少半年复查。",
+    "limitations": "仅读取本稿相关段落，不照搬全部措施；一般半年随访不能替代OK镜早期更密复查；欠矫控制判断仍引IMI2025。",
+    "reading_depth": "2026-10-29直接打开NHC原PDF19页，重点核读第9至14页中的验光、框架、接触镜和随访；非全文临床签审。通知发布日期与落款日期区分：2026-07-23发布，2026-07-13落款。",
+    "content_checked_at": "2026-10-29",
+    "metadata_checked_at": "2026-10-29",
+    "metadata_verification_urls": [
+      "https://www.nhc.gov.cn/yzygj/c100067/202607/c4a1c6f628fa45c29328db0671b68d57/files/%E8%BF%91%E8%A7%86%E9%98%B2%E6%B2%BB%E6%8C%87%E5%8D%97%EF%BC%882026%E5%B9%B4%E7%89%88%EF%BC%89.pdf",
+      "https://www.hebeicdc.cn/pxzl/101837.jhtml"
+    ]
+  },
+  {
+    "id": "src-609e76825b6e",
+    "citation": "Bullimore MA, Saunders KJ, Baraas RC, Berntsen DA, Chen Z, Chia AWL, et al. IMI—Interventions for controlling myopia onset and progression 2025. Invest Ophthalmol Vis Sci. 2025;66(12):39. doi:10.1167/iovs.66.12.39.",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12448128/",
+    "type": "专业指南或临床研究",
+    "support": "矫正与控制的机制/结局区别，欠矫不作为控制，干预差异及安全边界。",
+    "limitations": "综述不是各产品的统一头对头试验；不据其跨研究图自行排个人最佳方案，不照搬国外批准。",
+    "reading_depth": "PMC全文可见；已读框架、欠矫、软镜、OK、阿托品与安全/反跳相关段落和表，未逐条重做其参考文献审读。",
+    "content_checked_at": "2026-10-29",
+    "number": 14,
+    "metadata_checked_at": "2026-10-29",
+    "doi": "10.1167/iovs.66.12.39",
+    "doi_url": "https://doi.org/10.1167/iovs.66.12.39",
+    "metadata_verification_urls": [
+      "https://pubmed.ncbi.nlm.nih.gov/40960225/"
+    ]
+  },
+  {
+    "id": "src-6275979d29e1",
+    "citation": "亚洲干眼协会中国分会, 海峡两岸医药卫生交流协会眼科学专业委员会眼表与泪液病学组, 中国医师协会眼科医师分会眼表与干眼学组. 中国干眼专家共识：治疗（2020年）. 中华眼科杂志. 2020;56(12):907-913. doi:10.3760/cma.j.cn112142-20200925-00618.",
+    "url": "https://cmab.yiigle.com/uploads/guide_html/%E4%B8%AD%E5%9B%BD%E5%B9%B2%E7%9C%BC%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86%EF%BC%9A%E6%B2%BB%E7%96%97%EF%BC%882020%E5%B9%B4%EF%BC%89.html",
+    "type": "原始专家共识",
+    "support": "人工泪液一线定位、常见成分与黏度、脂质型用途和有效眨眼；与2024共识及较新患者指导对照。",
+    "limitations": "旧版而非2026最新指南；不用旧版处方剂量或抗菌药方案指导自用，不借原料支持整个品牌。",
+    "reading_depth": "原期刊HTML已打开，审读治疗原则、病因处理、人工泪液段，未逐项审查全部药物及文献。",
+    "content_checked_at": "2026-10-29",
+    "number": 15,
+    "metadata_checked_at": "2026-10-29",
+    "doi": "10.3760/cma.j.cn112142-20200925-00618",
+    "doi_url": "https://doi.org/10.3760/cma.j.cn112142-20200925-00618",
+    "metadata_verification_urls": [
+      "https://cmab.yiigle.com/uploads/guide_html/%E4%B8%AD%E5%9B%BD%E5%B9%B2%E7%9C%BC%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86%EF%BC%9A%E6%B2%BB%E7%96%97%EF%BC%882020%E5%B9%B4%EF%BC%89.html"
+    ]
+  },
+  {
+    "id": "src-4aa64ece9e72",
+    "citation": "Mayo Clinic. 人工泪液：如何选择缓解眼睛干涩的滴眼液 [Internet]. [cited 2026 Oct 29]. Available from: https://www.mayoclinic.org/zh-hans/diseases-conditions/dry-eyes/expert-answers/artificial-tears/faq-20058422",
+    "url": "https://www.mayoclinic.org/zh-hans/diseases-conditions/dry-eyes/expert-answers/artificial-tears/faq-20058422",
+    "type": "医院患者决策指导",
+    "support": "频繁或中重度时优先无防腐剂；凝胶/眼膏可能短暂模糊，夜间应用的实际取舍。",
+    "limitations": "每日超过四次是该机构的实用建议，不是毒性阈值，也不改变中国具体药品的处方属性。",
+    "reading_depth": "医院原页全文相关正文与2026-04-04日期已读。",
+    "content_checked_at": "2026-10-29",
+    "number": 16,
+    "metadata_checked_at": "2026-10-29"
+  },
+  {
+    "id": "src-1351aae33df7",
+    "citation": "Kenvue Brands LLC. VISINE Red Eye Total Comfort Multi-Symptom: drug label. DailyMed [Internet]. [cited 2026 Oct 29]. Available from: https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=5747edef-7a87-41d7-9594-6c78508b9ba2&type=display",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=5747edef-7a87-41d7-9594-6c78508b9ba2&type=display",
+    "type": "政府标签库收载的制造商现行标签",
+    "support": "具体含四氢唑啉配方的暂时去红用途、过量可能更红、使用前取镜及异常停用。",
+    "limitations": "标签不是独立比较试验，不能由一款推全部去红产品；美国OTC标签不是中国批准或推荐购买依据。",
+    "content_checked_at": "2026-10-29",
+    "reading_depth": "已打开并读Drug Facts、警告及成分；页面显示Revised 6/2026",
+    "number": 17,
+    "metadata_checked_at": "2026-10-29"
+  },
+  {
+    "id": "src-11f9c67cebe9",
+    "citation": "US Food and Drug Administration. What you should know about eye drops [Internet]. [cited 2026 Oct 29]. Available from: https://www.fda.gov/drugs/buying-using-medicine-safely/what-you-should-know-about-eye-drops",
+    "url": "https://www.fda.gov/drugs/buying-using-medicine-safely/what-you-should-know-about-eye-drops",
+    "type": "监管机构原始安全说明",
+    "support": "无菌要求、防腐剂的污染控制作用、瓶口不接触、异常停用及召回按具体产品/批次核对。",
+    "limitations": "不移植美国法规为中国法规，不将召回扩大为所有PF滴剂有害；不据病例估感染发生率。",
+    "content_checked_at": "2026-10-29",
+    "reading_depth": "已打开正文与使用提示；含2026-10-16仿冒警示链接，但未将此链接当整页更新日",
+    "number": 18,
+    "metadata_checked_at": "2026-10-29"
+  },
+  {
+    "id": "src-365a650a6e2f",
+    "number": 19,
+    "citation": "US Food and Drug Administration. Contact lens care [Internet]. [cited 2026 Oct 29]. Available from: https://www.fda.gov/consumers/womens-health-topics/contact-lens-care",
+    "url": "https://www.fda.gov/consumers/womens-health-topics/contact-lens-care",
+    "type": "监管机构原始患者教育",
+    "support": "用眼科建议的镜片相容液与滴剂、异常取镜联系医生、说明书开封时限。",
+    "limitations": "不复制页面美国购买处方与服务体系；不将其中其他镜片周期概括为中国所有镜片规则。",
+    "legacy_id": "E029",
+    "legacy_aliases": [
+      "E029"
+    ],
+    "content_checked_at": "2026-10-29",
+    "reading_depth": "已读General tips、Lens solution及Top things to know相关正文",
+    "metadata_checked_at": "2026-10-29"
+  },
+  {
+    "citation": "Jones L, Craig JP, Markoulli M, Karpecki P, Akpek EK, Basu S, et al. TFOS DEWS III: management and therapy. Am J Ophthalmol. 2025;279:289-386. doi:10.1016/j.ajo.2025.05.039.",
+    "url": "https://publications.aston.ac.uk/id/document/112699",
+    "type": "专业学会循证报告，作者大学库提供原文",
+    "support": "2025报告第3.1节的润滑配方与防腐体系：水样与脂质型、抗污染包装及含较温和防腐体系与无防腐的区别。",
+    "limitations": "不借报告给所有人工泪液作品牌排名；仅核相关治疗段落，不移植国外药品批准或全部治疗。",
+    "reading_depth": "Aston作者大学库98页PDF已打开，重点读物理第3页（刊页291）的3.1节与防腐剂段；PubMed40467022和作者大学题录核对年卷页、前六作者与DOI。未通读其余全部治疗及参考文献。",
+    "metadata_verification_urls": [
+      "https://pubmed.ncbi.nlm.nih.gov/40467022/"
+    ],
+    "id": "src-5930e79bcb41",
+    "content_checked_at": "2026-10-29",
+    "metadata_checked_at": "2026-10-29",
+    "number": 20,
+    "doi": "10.1016/j.ajo.2025.05.039",
+    "doi_url": "https://doi.org/10.1016/j.ajo.2025.05.039"
+  },
+  {
+    "id": "src-6893a3b22344",
+    "citation": "Ribeiro MVMR, Barbosa FT, Ribeiro LEF, de Sousa-Rodrigues CF, Ribeiro EAN. Effectiveness of using preservative-free artificial tears versus preserved lubricants for the treatment of dry eyes: a systematic review. Arq Bras Oftalmol. 2019;82(5):436-445. doi:10.5935/0004-2749.20190097.",
+    "url": "https://www.scielo.br/j/abo/a/n9Rk7BccgkVG3yS8dhN7gTy/?format=html",
+    "type": "直接比较的系统综述",
+    "support": "4项试验未证明PF普遍疗效优越；配方、病因和结局不同，样本、随访及报告质量限制判断。",
+    "limitations": "不能由未显著推导等效，也不能排除长期或特定高风险人群受益；不沿用摘要人数表述与正文样本定义混淆的数字作宣传。",
+    "content_checked_at": "2026-10-29",
+    "reading_depth": "已读期刊原始全文的方法、结果、讨论与限制",
+    "number": 21,
+    "metadata_checked_at": "2026-10-29",
+    "doi": "10.5935/0004-2749.20190097",
+    "doi_url": "https://doi.org/10.5935/0004-2749.20190097",
+    "metadata_verification_urls": [
+      "https://pubmed.ncbi.nlm.nih.gov/31508669/"
+    ]
+  },
+  {
+    "id": "src-537054270e41",
+    "number": 22,
+    "citation": "US Food and Drug Administration. Hydrogen peroxide solution [Internet]. [cited 2026 Oct 29]. Available from: https://www.fda.gov/medical-devices/contact-lenses/hydrogen-peroxide-solution",
+    "url": "https://www.fda.gov/medical-devices/contact-lenses/hydrogen-peroxide-solution",
+    "type": "器械安全说明",
+    "support": "过氧化氢护理液须配套中和，不可直接入眼或未中和就戴镜。",
+    "limitations": "不同系统时长、盒型与要求按各标签；不是自配双氧水教程。",
+    "legacy_id": "E027",
+    "legacy_aliases": [
+      "E027"
+    ],
+    "content_checked_at": "2026-10-29",
+    "reading_depth": "已打开正文相关部分",
+    "metadata_checked_at": "2026-10-29"
+  },
+  {
+    "id": "src-bce6253d9313",
+    "citation": "Lee G. Evidence-based strategies for warm compress therapy in meibomian gland dysfunction. Ophthalmol Ther. 2024;13(9):2481-2493. doi:10.1007/s40123-024-00988-x.",
+    "url": "https://link.springer.com/article/10.1007/s40123-024-00988-x",
+    "type": "20项研究的定性文献综述，非新RCT，非所有眼罩的系统质量认证",
+    "support": "温敷方式与MGD相关疗效；不输出统一家用温度或品牌排名。作者声明无资助与利益冲突。",
+    "limitations": "见适用范围与读取深度",
+    "content_checked_at": "2026-10-29",
+    "reading_depth": "出版社开放HTML已读方法、结果、讨论及利益声明相关正文；PMC打开遇到验证，未绕过。",
+    "number": 23,
+    "metadata_checked_at": "2026-10-29",
+    "doi": "10.1007/s40123-024-00988-x",
+    "doi_url": "https://doi.org/10.1007/s40123-024-00988-x",
+    "metadata_verification_urls": [
+      "https://pubmed.ncbi.nlm.nih.gov/38990464/"
+    ]
+  },
+  {
+    "id": "src-9b31044fe73a",
+    "citation": "Cambridge University Hospitals NHS Foundation Trust. Blepharitis [Internet]. [cited 2026 Oct 29]. Available from: https://www.cuh.nhs.uk/patient-information/blepharitis/",
+    "url": "https://www.cuh.nhs.uk/patient-information/blepharitis/",
+    "type": "医院眼睑护理指导",
+    "support": "确有睑缘问题时的温敷、清洁与重复护理，毛巾和商品用品的执行区别。",
+    "limitations": "不把自制稀释洗剂配方推广到所有人，不输出自行挤腺教程。",
+    "reading_depth": "原页护理正文及批准日期已读。",
+    "content_checked_at": "2026-10-29",
+    "number": 24,
+    "metadata_checked_at": "2026-10-29"
+  },
+  {
+    "id": "src-e2a23124c32c",
+    "citation": "Moorfields Eye Hospital NHS Foundation Trust. Blepharitis diagnosis and treatment [Internet]. [cited 2026 Oct 29]. Available from: https://www.moorfields.nhs.uk/eye-conditions/blepharitis/diagnosis-and-treatment",
+    "url": "https://www.moorfields.nhs.uk/eye-conditions/blepharitis/diagnosis-and-treatment",
+    "type": "专科医院患者教育",
+    "support": "眼睑护理、闭眼温敷、摘镜与避免烫伤；不把全文中的手法照搬为自行挤腺教程。",
+    "limitations": "见适用范围与读取深度",
+    "content_checked_at": "2026-10-29",
+    "reading_depth": "机构正文、视频文字稿及三步护理内容已读；未见明确页末更新日",
+    "number": 25,
+    "metadata_checked_at": "2026-10-29"
+  },
+  {
+    "id": "src-9edafe35e197",
+    "number": 26,
+    "citation": "Singh S, Keller PR, Busija L, McMillan P, Makrai E, Lawrenson JG, et al. Blue-light filtering spectacle lenses for visual performance, sleep, and macular health in adults. Cochrane Database Syst Rev. 2023;8(8):CD013244. doi:10.1002/14651858.CD013244.pub2.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/37593770/",
+    "type": "系统综述",
+    "support": "短期电脑视疲劳未显示明确优势；睡眠结论不确定，长期黄斑结局未获相应试验支持。",
+    "limitations": "17试验且随访短，不能写成所有用途已证实无效；本轮读书目和完整结构式摘要。",
+    "legacy_id": "E006",
+    "legacy_aliases": [
+      "E006"
+    ],
+    "content_checked_at": "2026-10-29",
+    "reading_depth": "已打开PubMed书目与完整结构式摘要，未阅读全文",
+    "metadata_checked_at": "2026-10-29",
+    "doi": "10.1002/14651858.CD013244.pub2",
+    "doi_url": "https://doi.org/10.1002/14651858.CD013244.pub2",
+    "metadata_verification_urls": [
+      "https://pubmed.ncbi.nlm.nih.gov/37593770/"
+    ]
+  },
+  {
+    "id": "src-5d3439c88a0c",
+    "citation": "National Eye Institute. AREDS/AREDS2 frequently asked questions [Internet]. [cited 2026 Oct 29]. Available from: https://www.nei.nih.gov/eye-health-information/clinical-trials/age-related-eye-disease-studies-aredsareds2/aredsareds2-frequently-asked-questions",
+    "url": "https://www.nei.nih.gov/eye-health-information/clinical-trials/age-related-eye-disease-studies-aredsareds2/aredsareds2-frequently-asked-questions",
+    "type": "试验官方解释",
+    "support": "人群限制、配方与品牌界限及补充剂风险；不能当作健康年轻人疗效证据。",
+    "limitations": "见适用范围与读取深度",
+    "content_checked_at": "2026-10-29",
+    "reading_depth": "试验主持机构全文关键部分已读；不是本轮对全部AREDS原论文逐篇重审",
+    "number": 27,
+    "metadata_checked_at": "2026-10-29"
+  },
+  {
+    "id": "src-f32084c827ef",
+    "citation": "Lopresti AL, Smith SJ. The effects of lutein/zeaxanthin (Lute-gen®) on eye health, eye strain, sleep quality, and attention in high electronic screen users: a randomized, double-blind, placebo-controlled study. Front Nutr. 2025;12:1522302. doi:10.3389/fnut.2025.1522302.",
+    "url": "https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1522302/pdf",
+    "type": "随机双盲安慰剂对照试验",
+    "support": "70名18-65岁、每天屏幕至少6小时；不能只称青年样本。Bio-gen Extracts资助并提供制剂；主要自评未见优势。多结局、单侧检验等设计需谨慎解释。",
+    "limitations": "见适用范围与读取深度",
+    "content_checked_at": "2026-10-29",
+    "reading_depth": "出版社12页PDF已读研究方法、结果表、讨论、局限和资助声明；PMC验证页未绕过",
+    "number": 28,
+    "metadata_checked_at": "2026-10-29",
+    "doi": "10.3389/fnut.2025.1522302",
+    "doi_url": "https://doi.org/10.3389/fnut.2025.1522302",
+    "metadata_verification_urls": [
+      "https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1522302/pdf"
+    ]
+  },
+  {
+    "id": "src-119b6da8cecc",
+    "citation": "Rhee MK, Jacobs DS, Dhaliwal DK, Szczotka-Flynn L, Prescott CR, Jhanji V, et al. Contact Lens Safety for the Correction of Refractive Error in Healthy Eyes. Eye Contact Lens. 2022;48(11):449-454. doi:10.1097/ICL.0000000000000938.",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9584055/",
+    "type": "专业作者临床安全综述",
+    "support": "适合时优先日抛；复用在参数/视觉及费用条件下有位置；护理液/镜盒需计成本；高透氧不抵消夜戴风险。",
+    "limitations": "不是所有结局均来自高确定性RCT；文内当时美国批准/off-label状态不当作中国2026规定。",
+    "reading_depth": "原始全文已读佩戴周期、镜盒、材料、OK和讨论相关段落",
+    "content_checked_at": "2026-10-29",
+    "number": 29,
+    "metadata_checked_at": "2026-10-29",
+    "doi": "10.1097/ICL.0000000000000938",
+    "doi_url": "https://doi.org/10.1097/ICL.0000000000000938",
+    "metadata_verification_urls": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC9584055/"
+    ]
+  },
+  {
+    "id": "src-859bde34b7d5",
+    "number": 30,
+    "citation": "US Food and Drug Administration. Types of contact lenses [Internet]. [cited 2026 Oct 29]. Available from: https://www.fda.gov/medical-devices/contact-lenses/types-contact-lenses",
+    "url": "https://www.fda.gov/medical-devices/contact-lenses/types-contact-lenses",
+    "type": "监管机构患者教育",
+    "support": "软镜、硬镜和角膜塑形镜；OK镜暂时改变角膜曲率并需维持。",
+    "limitations": "不照搬美国认证与处方规定，不提供OK镜自选和夜戴时数。",
+    "legacy_id": "E019",
+    "legacy_aliases": [
+      "E019"
+    ],
+    "content_checked_at": "2026-10-29",
+    "reading_depth": "已打开正文相关部分",
+    "metadata_checked_at": "2026-10-29"
+  },
+  {
+    "id": "src-bdd50cd9682b",
+    "citation": "US Food and Drug Administration. Optimum Infinite (tisilfocon A) Orthokeratology Lenses II for overnight wear: package insert and patient information booklet. P240045C [Internet]. [cited 2026 Oct 29]. Available from: https://www.accessdata.fda.gov/cdrh_docs/pdf24/P240045C.pdf",
+    "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf24/P240045C.pdf",
+    "type": "FDA数据库原始产品标签",
+    "support": "严重干眼/活动炎症等不使用情境，需持续维持及可能的夜视/眩光问题。",
+    "limitations": "单一产品标签不是中国通用说明书或独立比较试验；不外推其近视/散光数值上限。",
+    "reading_depth": "12页PDF已打开，重点核对暂时矫正、持续佩戴、禁忌、成人视觉质量与警示段落；非全部技术参数审查",
+    "content_checked_at": "2026-10-29",
+    "number": 31,
+    "metadata_checked_at": "2026-10-29"
+  },
+  {
+    "id": "src-8db415075a67",
+    "citation": "国家卫生健康委办公厅. 角膜塑形镜验配技术操作规范（2024年版） [Internet]. [cited 2026 Oct 29]. Available from: https://www.nhc.gov.cn/wjw/yzs/202412/7336d41653b943e4a3f071a377a81a44/files/1736385429361_35862.pdf",
+    "url": "https://www.nhc.gov.cn/wjw/yzs/202412/7336d41653b943e4a3f071a377a81a44/files/1736385429361_35862.pdf",
+    "type": "专业指南或临床研究",
+    "support": "8岁门槛准确语境、注册范围、监护卫生与依从、关键禁忌、首夜后及长期复查。",
+    "limitations": "适用于医疗机构验配技术，不代表任何家用品牌都已获批控制适应证。",
+    "reading_depth": "原始9页PDF文本已打开；适应证、禁忌及例外、流程与随访重点段落逐项核对，不把医生操作章节改写为家庭用药教程。",
+    "content_checked_at": "2026-10-29",
+    "number": 32,
+    "metadata_checked_at": "2026-10-29"
+  },
+  {
+    "id": "src-c5a29c6f3b99",
+    "citation": "Lam CSY, Tang WC, Tse DY, Lee RPK, Chun RKM, Hasegawa K, et al. Defocus Incorporated Multiple Segments (DIMS) spectacle lenses slow myopia progression: a 2-year randomised clinical trial. Br J Ophthalmol. 2020;104(3):363-368. doi:10.1136/bjophthalmol-2018-313739.",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7041503/",
+    "type": "专业指南或临床研究",
+    "support": "8—13岁中国儿童，特定DIMS与单焦框架的直接控制证据。",
+    "limitations": "商业开发与专利背景；不推广为所有离焦框架效果。模型调整与完成人差值不能混写。",
+    "reading_depth": "原论文PMC全文相关方法、结果与调整分析段落已打开；摘要与完成人分析的口径分别核对。",
+    "content_checked_at": "2026-10-29",
+    "number": 33,
+    "metadata_checked_at": "2026-10-29",
+    "doi": "10.1136/bjophthalmol-2018-313739",
+    "doi_url": "https://doi.org/10.1136/bjophthalmol-2018-313739",
+    "metadata_verification_urls": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC7041503/"
+    ]
+  },
+  {
+    "id": "src-887f321d2cd0",
+    "citation": "Shen J, Hunt C, Young G, Drobe B. Spectacle lenses with highly aspherical lenslets for myopia control: a randomized clinical trial. JAMA Ophthalmol. 2026;144(10):889-896. doi:10.1001/jamaophthalmol.2026.3288.",
+    "url": "https://jamanetwork.com/journals/jamaophthalmology/fullarticle/2852979",
+    "type": "专业指南或临床研究",
+    "support": "6—12岁美国儿童、预设24月分析，HAL对单焦框架的直接效果；支持框架控制并非只靠机理。",
+    "limitations": "Essilor资助并参与研究；135/159完成24月，使用调整及缺失插补；不能由美国授权推中国批准。",
+    "reading_depth": "期刊原站完整HTML可见；2026-08-20发表日期、入组、结果、缺失处理及资助段落已核，未逐项复算补充数据。",
+    "content_checked_at": "2026-10-29",
+    "number": 34,
+    "metadata_checked_at": "2026-10-29",
+    "doi": "10.1001/jamaophthalmol.2026.3288",
+    "doi_url": "https://doi.org/10.1001/jamaophthalmol.2026.3288",
+    "metadata_verification_urls": [
+      "https://jamanetwork.com/journals/jamaophthalmology/fullarticle/2852979"
+    ]
+  },
+  {
+    "id": "src-f806e033b961",
+    "citation": "Walline JJ, Walker MK, Mutti DO, Jones-Jordan LA, Sinnott LT, Giannoni AG, et al. Effect of high add power, medium add power, or single-vision contact lenses on myopia progression in children: the BLINK randomized clinical trial. JAMA. 2020;324(6):571-580. doi:10.1001/jama.2020.10834.",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7420158/",
+    "type": "专业指南或临床研究",
+    "support": "7—11岁，特定高附加多焦软镜相对普通单焦软镜的控制效果。",
+    "limitations": "不是全部软镜；试验出现结膜/角膜等不良事件。不得把美国当时的超适应证使用当中国许可。",
+    "reading_depth": "原论文PMC相关摘要、入组、三年结果、佩戴时间及不良事件段落已读。",
+    "content_checked_at": "2026-10-29",
+    "number": 35,
+    "metadata_checked_at": "2026-10-29",
+    "doi": "10.1001/jama.2020.10834",
+    "doi_url": "https://doi.org/10.1001/jama.2020.10834",
+    "metadata_verification_urls": [
+      "https://pubmed.ncbi.nlm.nih.gov/32780139/"
+    ]
+  },
+  {
+    "id": "src-3c35cdf2bde8",
+    "citation": "Centers for Disease Control and Prevention. About contact lens types [Internet]. [cited 2026 Oct 29]. Available from: https://www.cdc.gov/contact-lenses/about/about-contact-lens-types.html",
+    "url": "https://www.cdc.gov/contact-lenses/about/about-contact-lens-types.html",
+    "type": "公共卫生机构原始说明",
+    "support": "区分材料、佩戴与更换；日抛单次弃置；日戴不睡眠；OK需按计划维持。",
+    "limitations": "美国处方/监管表述不复制为中国法规；没有支持所有人的统一每日时长。",
+    "reading_depth": "已打开并读类型、佩戴/更换周期及OK相关正文",
+    "content_checked_at": "2026-10-29",
+    "number": 36,
+    "metadata_checked_at": "2026-10-29"
+  },
+  {
+    "id": "src-38e670efc1d4",
+    "number": 37,
+    "citation": "Centers for Disease Control and Prevention. Preventing eye infections when wearing contacts [Internet]. [cited 2026 Oct 29]. Available from: https://www.cdc.gov/contact-lenses/prevention/index.html",
+    "url": "https://www.cdc.gov/contact-lenses/prevention/index.html",
+    "type": "官方预防指导",
+    "support": "洗手擦干、无医嘱不夜戴、新液清洁和镜盒维护及备用框架镜。",
+    "limitations": "一般多功能护理与过氧化氢系统必须区分，不编感染降低百分比。",
+    "legacy_id": "E025",
+    "legacy_aliases": [
+      "E025"
+    ],
+    "content_checked_at": "2026-10-29",
+    "reading_depth": "已打开正文相关部分",
+    "metadata_checked_at": "2026-10-29"
+  },
+  {
+    "id": "src-403d2a80b863",
+    "number": 38,
+    "citation": "Centers for Disease Control and Prevention. Healthy habits: keeping water away from contact lenses [Internet]. [cited 2026 Oct 29]. Available from: https://www.cdc.gov/contact-lenses/about/healthy-habits-keeping-water-away-from-contact-lenses.html",
+    "url": "https://www.cdc.gov/contact-lenses/about/healthy-habits-keeping-water-away-from-contact-lenses.html",
+    "type": "公共卫生机构接触镜安全指导",
+    "support": "洗澡/游泳前摘镜；水碰镜片尽快摘，丢弃或完成清洁消毒再用；近视可用有度数泳镜。",
+    "limitations": "不把戴泳镜解释成可继续戴隐形的许可，不量化个人每次游泳感染概率。",
+    "legacy_id": "E026",
+    "legacy_aliases": [
+      "E026"
+    ],
+    "content_checked_at": "2026-10-29",
+    "reading_depth": "本轮直接重开原文，已读Overview、Contact lenses and water及Developing healthy habits。",
+    "metadata_checked_at": "2026-10-29"
+  },
+  {
+    "id": "src-0dba271b9918",
+    "citation": "Szczotka-Flynn LB, Raghupathy S, Shah S, Suri K, Briggs F, Iyengar SK. Risk Factors for Bacterial Keratitis and Severe Disease in Hydrogel Contact Lens Users: A Multicenter Case-Control Study and Case-Only Analysis. Eye Contact Lens. 2024;50(11):461-466. doi:10.1097/ICL.0000000000001125.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/39252204/",
+    "type": "多中心病例对照及病例内分析",
+    "support": "区分发病关联与病例内严重程度；日抛优势不能泛化所有感染概率。",
+    "limitations": "高风险对照、细菌性病例定义，非随机或普通年轻人群发生率队列；不把摘要当全文。",
+    "reading_depth": "PubMed书目及完整摘要已读；PMC全文和PDF均出现访问验证，未阅读全文",
+    "content_checked_at": "2026-10-29",
+    "number": 39,
+    "metadata_checked_at": "2026-10-29",
+    "doi": "10.1097/ICL.0000000000001125",
+    "doi_url": "https://doi.org/10.1097/ICL.0000000000001125",
+    "metadata_verification_urls": [
+      "https://pubmed.ncbi.nlm.nih.gov/39252204/"
+    ]
+  },
+  {
+    "id": "src-7591fd76e514",
+    "number": 40,
+    "citation": "Carnt N, Minassian DC, Dart JKG. Acanthamoeba Keratitis Risk Factors for Daily Wear Contact Lens Users: A Case-Control Study. Ophthalmology. 2023;130(1):48-55. doi:10.1016/j.ophtha.2022.08.002.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/35952937/",
+    "type": "特定病原病例对照研究",
+    "support": "AK与复用、日抛重用/夜戴/水接触的关联；日抛仍需守安全要求。",
+    "limitations": "OR不是人年发生率；作者稿摘要数值与最终PubMed不同，正式定量使用再核最终版；英国结果不直接量化中国个人风险。",
+    "legacy_id": "E022",
+    "legacy_aliases": [
+      "E022"
+    ],
+    "content_checked_at": "2026-10-29",
+    "reading_depth": "最终PubMed摘要已读；另读UCL作者稿方法/结果相关段落，非最终刊本逐页审读",
+    "metadata_checked_at": "2026-10-29",
+    "doi": "10.1016/j.ophtha.2022.08.002",
+    "doi_url": "https://doi.org/10.1016/j.ophtha.2022.08.002",
+    "metadata_verification_urls": [
+      "https://pubmed.ncbi.nlm.nih.gov/35952937/"
+    ]
+  },
+  {
+    "id": "src-23f104c31aa7",
+    "number": 41,
+    "citation": "国家药品监督管理局. 选购使用装饰性彩色平光隐形眼镜（美瞳）的提示 [Internet]. [cited 2026 Oct 29]. Available from: https://www.samr.gov.cn/xw/mtjj/art/2023/art_ef43ce0f58a242faabba42a59800856b.html",
+    "url": "https://www.samr.gov.cn/xw/mtjj/art/2023/art_ef43ce0f58a242faabba42a59800856b.html",
+    "type": "中国监管提示，市场监管总局转载",
+    "support": "美瞳按第三类器械管理，核对注册、来源资质、包装信息及中文说明。",
+    "limitations": "正文日期为2022-06-14，不能因URL含2023改出版年；注册不是个体适合或零风险证明。",
+    "legacy_id": "E023",
+    "legacy_aliases": [
+      "E023"
+    ],
+    "content_checked_at": "2026-10-29",
+    "reading_depth": "已打开正文相关部分",
+    "metadata_checked_at": "2026-10-29"
+  },
+  {
+    "id": "src-fd6b2e291d71",
+    "number": 42,
+    "citation": "National Eye Institute. Contact lenses [Internet]. [cited 2026 Oct 29]. Available from: https://www.nei.nih.gov/eye-health-information/healthy-vision/contact-lenses",
+    "url": "https://www.nei.nih.gov/eye-health-information/healthy-vision/contact-lenses",
+    "type": "官方患者教育",
+    "support": "隐形镜位于角膜表面；一次性与复用、验配试戴和护理。",
+    "limitations": "不将文中美国常见更换周期当中国市场完整清单。",
+    "legacy_id": "E021",
+    "legacy_aliases": [
+      "E021"
+    ],
+    "content_checked_at": "2026-10-29",
+    "reading_depth": "已打开正文相关部分",
+    "metadata_checked_at": "2026-10-29"
+  },
+  {
+    "citation": "World Health Organization. Antimicrobial resistance [Internet]. 2026 Jul 16 [cited 2026 Oct 29]. Available from: https://www.who.int/news-room/fact-sheets/detail/antimicrobial-resistance",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/antimicrobial-resistance",
+    "type": "国际公共卫生机构药物合理使用原则",
+    "support": "抗微生物药物的误用和过度使用推动耐药；与医院对刺激、感染及抗菌药适用范围的说明共同形成不自行常规预防用药的实践建议。",
+    "limitations": "不是泳客预防性滴抗生素的随机试验，也不单独证明任何特定滴眼液的个体收益。",
+    "reading_depth": "WHO原页已打开，核对2026-07-16日期，阅读关键事实、概述和不当用药相关段。",
+    "id": "src-751d8e2baf7a",
+    "content_checked_at": "2026-10-29",
+    "metadata_checked_at": "2026-10-29",
+    "number": 43
+  },
+  {
+    "citation": "Centers for Disease Control and Prevention. Preventing eye irritation from pool chemicals [Internet]. 2025 May 28 [cited 2026 Oct 29]. Available from: https://www.cdc.gov/healthy-swimming/prevention/preventing-eye-irritation-from-pool-chemicals.html",
+    "url": "https://www.cdc.gov/healthy-swimming/prevention/preventing-eye-irritation-from-pool-chemicals.html",
+    "type": "公共卫生机构预防指导",
+    "support": "氯与汗、污物等反应形成氯胺；后者可以刺激眼、皮肤和呼吸道。下水前冲淋约一分钟、勿在水中排尿、出现刺激向泳池运营方报告。",
+    "limitations": "不提供眼部感染诊断，不证明所有泳后红眼均由氯胺引起，也未研究抗生素预防效果。",
+    "reading_depth": "直接打开原机构全文，阅读Overview、Exposure、Signs and symptoms、Prevention tips；日期2025-05-28已核。",
+    "id": "src-a4c2ee5b4665",
+    "content_checked_at": "2026-10-29",
+    "number": 44,
+    "metadata_checked_at": "2026-10-29"
+  },
+  {
+    "citation": "Moorfields Eye Hospital NHS Foundation Trust. Conjunctivitis diagnosis and treatment [Internet]. [cited 2026 Oct 29]. Available from: https://www.moorfields.nhs.uk/eye-conditions/conjunctivitis/diagnosis-and-treatment",
+    "url": "https://www.moorfields.nhs.uk/eye-conditions/conjunctivitis/diagnosis-and-treatment",
+    "type": "专科医院结膜炎治疗路径",
+    "support": "抗菌滴眼液可能有助于细菌性结膜炎，对病毒不响应；润滑可改善不适，但不缩短病程。避免揉眼与共享毛巾等传播接触。",
+    "limitations": "治疗已有结膜炎的说明，不是健康泳客预防用药RCT。不能从该页推出所有感染无需药或所有泳后红眼可以等几周。",
+    "reading_depth": "原页直接打开，读感染性和过敏性结膜炎治疗、传播段。",
+    "id": "src-534b4d78f8c6",
+    "content_checked_at": "2026-10-29",
+    "number": 45,
+    "metadata_checked_at": "2026-10-29"
+  },
+  {
+    "citation": "Cleveland Clinic. How to keep chlorine out of your eyes this summer [Internet]. 2025 Jun 20 [cited 2026 Oct 29]. Available from: https://health.clevelandclinic.org/how-does-chlorine-affect-your-eyes",
+    "url": "https://health.clevelandclinic.org/how-does-chlorine-affect-your-eyes",
+    "type": "医院眼科医师患者指导",
+    "support": "泳后刺激可与化学刺激、干眼及角膜水肿有关；可清洁脸和手、冲去残留，按需润滑/冷敷；不戴隐形游泳；选泳镜。",
+    "limitations": "不是抗生素预防试验，也不能从泳后刺激直接诊断感染。正文有将saline用于store contact lenses的宽泛句，本研究不采用，不能把盐水当镜片消毒液。",
+    "reading_depth": "原医院页面直接打开；阅读泳后症状、缓解方法、预防与持续症状处理段，作者采访对象Craig See MD、页面日期已核。",
+    "id": "src-0554b25c495f",
+    "content_checked_at": "2026-10-29",
+    "number": 46,
+    "metadata_checked_at": "2026-10-29"
+  },
+  {
+    "citation": "Hewett Brumberg EK, Douma MJ, Alibertis K, Charlton NP, Goldman MP, Harper-Kirksey K, et al. 2024 American Heart Association and American Red Cross guidelines for first aid. Circulation. 2024;150(24):e519-e579. doi:10.1161/CIR.0000000000001281.",
+    "url": "https://cpr.heart.org/en/resuscitation-science/2024-first-aid-guidelines",
+    "type": "专业组织原始急救指南",
+    "support": "第9.10节区分低能量灰尘/睫毛、持续异物感、戴镜相关异物感、高速与穿入伤；不揉、低压冲洗及就医分支。",
+    "limitations": "重点段落中的直接研究有限，部分属专家实践；自定C级不等于该指南原有推荐等级。没有把全部眼外伤改成可以在家冲洗，未复制取异物手术或止痛剂量。",
+    "reading_depth": "AHA官方完整HTML已打开，逐项审读9.10节建议及支持解释；题录作者和DOI核对官方引文，卷页另核期刊原PDF索引。未通读其他全部急救章节。",
+    "content_checked_at": "2026-10-29",
+    "id": "src-5fde61fd25a3",
+    "number": 47,
+    "metadata_checked_at": "2026-10-29",
+    "doi": "10.1161/CIR.0000000000001281",
+    "doi_url": "https://doi.org/10.1161/CIR.0000000000001281",
+    "metadata_verification_urls": [
+      "https://cpr.heart.org/en/resuscitation-science/2024-first-aid-guidelines"
+    ]
+  }
+]

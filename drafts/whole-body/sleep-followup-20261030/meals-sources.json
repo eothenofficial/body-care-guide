@@ -1,0 +1,77 @@
+[
+  {
+    "id": "SLM-S01",
+    "citation": "National Heart, Lung, and Blood Institute. Sleep deprivation and deficiency: healthy sleep habits [Internet]. 2022 Mar 24 [cited 2026 Oct 30]. Available from: https://www.nhlbi.nih.gov/health/sleep-deprivation/healthy-sleep-habits",
+    "url": "https://www.nhlbi.nih.gov/health/sleep-deprivation/healthy-sleep-habits",
+    "type": "政府机构患者教育",
+    "support": "睡前几小时避免大份或油腻大餐；轻点心可以；与睡眠机会和规律安排一起考虑。",
+    "limitations": "常规健康行为指导，不是确定最佳禁食间隔的随机试验；不能证明某一种助眠零食有效，也不把几小时写成人人相同钟点。",
+    "reading_depth": "直接读取healthy sleep habits与shift workers全部相关正文，核实际更新2022-03-24；并与最新小型原始研究和反流指南交核，不把年份旧视作自动失效。",
+    "funding_disclosure": "官方公共教育页；未见单页研究资助声明，不视为独立临床试验。",
+    "content_checked_at": "2026-10-30",
+    "reviewed_at": "2022-03-24"
+  },
+  {
+    "id": "SLM-S02",
+    "citation": "Katz PO, Dunbar KB, Schnoll-Sussman FH, Greer KB, Yadlapati R, Spechler SJ. ACG Clinical Guideline for the Diagnosis and Management of Gastroesophageal Reflux Disease. Am J Gastroenterol. 2022;117(1):27-56. doi:10.14309/ajg.0000000000001538.",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8754510/",
+    "type": "专业学会临床指南",
+    "support": "反流人群避免睡前2–3小时进餐为低确定性、有条件建议；按自身触发食物调整，吞咽困难及其他警示症状进一步检查。",
+    "limitations": "针对GERD而非所有健康人的睡眠；饮食与生活方式研究有限、异质，不能由反流建议推每个健康人的统一禁食线或所有油辣食物都须戒；不提供抑酸药个体处方。",
+    "reading_depth": "直接核PubMed正式题名、六位作者、卷期页和DOI；PMC实读推荐表、Medical Management建议、Diet and Lifestyle Changes及Footnotes利益披露，不声称通读全部药物/手术章节。",
+    "funding_disclosure": "Footnotes列多作者与Phathom、Medtronic、Ironwood、Diversatek、Takeda等顾问/研究或权益关系；未将学会名头当作零利益冲突保证。",
+    "content_checked_at": "2026-10-30",
+    "doi": "10.14309/ajg.0000000000001538",
+    "doi_url": "https://doi.org/10.14309/ajg.0000000000001538"
+  },
+  {
+    "id": "SLM-S03",
+    "citation": "Enomoto M, Kitamura S, Kunieda T, Eto T. Effects of later dinner timing on subsequent metabolic function and nocturnal sleep in healthy young women. J Physiol Anthropol. 2026;45(1):12. doi:10.1186/s40101-026-00430-0.",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13196191/",
+    "type": "小样本随机交叉原始研究",
+    "support": "13名健康年轻女性，睡前1小时与5小时约700千卡正餐、各4日干预；家庭脑电显示晚餐较近时睡眠连续性指标较差，而入睡潜伏期未显著改变。",
+    "limitations": "样本小、仅健康年轻女性、短期且未控制月经周期；不能外推全部男性、老年、孕妇、病人或小点心；未直接测机制，不能由血糖变化证明消化过程导致失眠，也不将4日观察写成长期疾病风险。摘要与表格睡眠效率p值稍有出入，不用该精确数值承载建议。",
+    "reading_depth": "PubMed核完整四位作者、年卷期文章号与DOI；PMC实读摘要、Participants/Protocol/Dietary control、睡眠指标与表2、Discussion限制、Funding/Competing interests；未重析原始个体数据或读取补充DOCX。",
+    "funding_disclosure": "资助来自Yazuya Co., Ltd.旗下Institute for Food and Health Science；作者申报无竞争性利益，两项分别保留。",
+    "content_checked_at": "2026-10-30",
+    "doi": "10.1186/s40101-026-00430-0",
+    "doi_url": "https://doi.org/10.1186/s40101-026-00430-0"
+  },
+  {
+    "id": "SLM-S04",
+    "citation": "Duan D, Gu C, Polotsky VY, Jun JC, Pham LV. Effects of Dinner Timing on Sleep Stage Distribution and EEG Power Spectrum in Healthy Volunteers. Nat Sci Sleep. 2021;13:601-612. doi:10.2147/NSS.S301113.",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8131073/",
+    "type": "随机交叉试验的事后睡眠分析",
+    "support": "20名18–30岁健康非肥胖成人，实验室固定睡眠机会；18:00正餐、22:00小点心与相反时序作交叉比较，正餐和点心约占全天能量35%及10%。两组均在睡前1小时进食；整夜常规分期相近，脑电频谱有前后半夜不同变化。",
+    "limitations": "单晚、事后分析、样本小且排除睡眠及代谢疾病；是正餐与小点心交换时点，不是睡前吃东西与完全禁食的比较。未见显著整体不利差异不等于证明严格等效、临睡大餐人人安全或可以治疗失眠；不能把论文对潜在治疗的推测变推荐。",
+    "reading_depth": "直接核PubMed题录五作者、年卷页与DOI；PMC读完整摘要、Participants and Study Protocol、主要睡眠结果、Discussion结论和Funding/Disclosure；未重算频谱模型。",
+    "funding_disclosure": "NIH、AHA博士后奖、American Thoracic Society unrestricted grant等资助，原文声明本工作无利益冲突；这不是全品类商业安全保证。",
+    "content_checked_at": "2026-10-30",
+    "doi": "10.2147/NSS.S301113",
+    "doi_url": "https://doi.org/10.2147/NSS.S301113"
+  },
+  {
+    "id": "SLM-S05",
+    "citation": "National Institute of Diabetes and Digestive and Kidney Diseases. Low blood glucose (hypoglycemia) [Internet]. 2021 Jul [cited 2026 Oct 30]. Available from: https://www.niddk.nih.gov/health-information/diabetes/overview/preventing-problems/low-blood-glucose-hypoglycemia",
+    "url": "https://www.niddk.nih.gov/health-information/diabetes/overview/preventing-problems/low-blood-glucose-hypoglycemia",
+    "type": "政府机构患者教育",
+    "support": "胰岛素及部分促胰岛素分泌药与低血糖风险；漏餐、延迟进餐和禁食可增加风险；夜间低血糖线索与按预定监测/饮食/治疗计划处理。",
+    "limitations": "未把普通饥饿或所有夜醒诊断为低血糖，也不将旧网页中的固定阈值、克数等改成统一个人处方；此条不新增夜间加餐和药物调整方案。",
+    "reading_depth": "实读夜间低血糖、药物/漏餐/禁食原因、预防及处理相关完整段，核实际Last Reviewed July 2021；未声称所引全部试验均读全文。",
+    "funding_disclosure": "机构官方教育；未见此网页独立专项研究资助声明。",
+    "content_checked_at": "2026-10-30",
+    "reviewed_at": "2021-07"
+  },
+  {
+    "id": "SLM-S06",
+    "citation": "National Health Service. Indigestion and heartburn in pregnancy [Internet]. 2023 Nov 14 [cited 2026 Oct 30]. Available from: https://www.nhs.uk/pregnancy/common-symptoms/indigestion-and-heartburn/",
+    "url": "https://www.nhs.uk/pregnancy/common-symptoms/indigestion-and-heartburn/",
+    "type": "公共医疗机构患者教育",
+    "support": "孕期反酸可少量多餐、调整晚餐与躺下间隔；调整无效或出现吞咽异常等需联系产科/全科，药师须知已孕，部分抗酸药不适用。",
+    "limitations": "只支持孕期反酸分支，不证明所有孕妇需要睡前禁食；不将英国供药方式或完整药单移植中国，也不建议自行停处方。",
+    "reading_depth": "读取症状、生活调整、when to get help、用药和原因相关全文，核真实复核日2023-11-14；2026-11-14仅预定复审日。",
+    "funding_disclosure": "NHS公共患者教育，非产品赞助试验；未见单页独立专项资助声明。",
+    "content_checked_at": "2026-10-30",
+    "reviewed_at": "2023-11-14"
+  }
+]

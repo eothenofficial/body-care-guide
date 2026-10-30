@@ -1,5 +1,8 @@
 # 发布与托管方案
 
+> 当前发布以[更新步骤](GITHUB_MVP.md)、`release/current.json`及`python build.py`为准：版本2026.10.30-8，29个专题、341条建议、638项来源。CI与Pages调用`scripts/build_current.py`，定期维护显式读取`.draft-preview/current`。以下为2026-10-29的历史试点与平台调研记录；其中42文件、66条、旧构建命令和成功运行不能代替此次提交的实际部署核验，也不能作为当前全书入口。
+
+
 当前状态：公开仓库[eothenofficial/body-care-guide](https://github.com/eothenofficial/body-care-guide)已创建，42个源文件已齐，Pages来源已设为GitHub Actions。完整提交`b76e1e3c4510834db9635b1d07d6f5baf408243f`的[CI检查](https://github.com/eothenofficial/body-care-guide/actions/runs/40823536707)与[Pages发布](https://github.com/eothenofficial/body-care-guide/actions/runs/40823536658)均已成功。正式阅读网址为[身体护理指南](https://eothenofficial.github.io/body-care-guide/)，首页、搜索、正文、来源、分享页和线上离线HTML已实际打开，manifest接口内容已核对。许可证、维护分工、分支保护、临床专业签审及每周维护首次远端运行尚未完成。以下同时保留后续迁移或重新部署的操作说明，不表示所有设置和检查均已完成。平台文档核查日期：2026-10-29；另行开通服务时复核配额和账户可用功能。
 
 ## 建议先选一个发布入口

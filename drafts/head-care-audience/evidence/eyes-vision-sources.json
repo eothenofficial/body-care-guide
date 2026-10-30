@@ -1,0 +1,182 @@
+[
+  {
+    "id": "VISION-S01",
+    "citation": "中华人民共和国卫生部, 中国国家标准化管理委员会. 标准对数视力表：GB/T 11533-2011 [Internet]. 2011 Dec 30 [cited 2026 Oct 29]. Available from: https://www.gzzoc.org.cn/sites/zoc.live1.sysucloud2.sysu.edu.cn/files/2025-10/biaozhunduishushilibiao-2011.pdf",
+    "url": "https://www.gzzoc.org.cn/sites/zoc.live1.sysucloud2.sysu.edu.cn/files/2025-10/biaozhunduishushilibiao-2011.pdf",
+    "type": "国家测量标准原文",
+    "support": "小数与五分记录、1.0=5.0，以及检查距离、照明和记录条件。",
+    "limitations": "2011原标准于2017转为推荐性；不作现行强制法律或诊疗阈值。",
+    "reading_depth": "直接打开中山大学中山眼科中心托管原标准12页，核首页2017说明、定义、3.2及表3、5节。NHC和疾控局同文PDF超时，未冒称已读该入口。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "VISION-S02",
+    "citation": "国家市场监督管理总局, 国家标准化管理委员会. 国家标准：GB/T 11533-2011 标准对数视力表 [Internet]. [cited 2026 Oct 29]. Available from: https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=A9F9E03A346211223DE34421A85CA1C8",
+    "url": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=A9F9E03A346211223DE34421A85CA1C8",
+    "type": "国家标准官方记录",
+    "support": "核现行状态和2017转推荐性记录。",
+    "limitations": "仅用于标准状态和书目，不证明疗效。",
+    "reading_depth": "已读取官方记录的现行状态、日期与备注，不仅据PDF年代猜现行性。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "VISION-S03",
+    "citation": "Association of Optometrists. Your prescription explained [Internet]. [cited 2026 Oct 29]. Available from: https://www.aop.org.uk/advice-and-support/for-patients/sight-tests/your-prescription-explained",
+    "url": "https://www.aop.org.uk/advice-and-support/for-patients/sight-tests/your-prescription-explained",
+    "type": "专业机构原始指导",
+    "support": "屈光类型，SPH/CYL/axis、近中附加与镜眼距离。",
+    "limitations": "英国处方说明不等于中国处方法律；不采眼形比喻作自行诊断。",
+    "reading_depth": "直接打开完整短页，核Understanding your written prescription及各参数段；无明确可核更新时间，只列访问日。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "VISION-S04",
+    "citation": "National Health Service. Double vision [Internet]. 2024 Jan 12 [cited 2026 Oct 29]. Available from: https://www.nhs.uk/symptoms/double-vision/",
+    "url": "https://www.nhs.uk/symptoms/double-vision/",
+    "type": "专业机构原始指导",
+    "support": "突然或眼痛伴复视紧急评估，严重头痛/瞳孔异常、头伤后复视急诊；单/双眼病史。",
+    "limitations": "英国号码及驾驶申报制度不搬中国，遮眼线索不作排除急症。",
+    "reading_depth": "直接核读症状、urgent/immediate action、单/双眼原因与页脚审阅日。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "VISION-S05",
+    "citation": "National Eye Institute. Get a dilated eye exam [Internet]. [cited 2026 Oct 29]. Available from: https://www.nei.nih.gov/eye-health-information/healthy-vision/finding-eye-doctor/get-dilated-eye-exam",
+    "url": "https://www.nei.nih.gov/eye-health-information/healthy-vision/finding-eye-doctor/get-dilated-eye-exam",
+    "type": "专业机构原始指导",
+    "support": "视力、视野、眼压、散瞳的不同检查任务；风险决定频率及散瞳后返程。",
+    "limitations": "不采唯一检查等修辞为绝对事实，不把老年或糖尿病频次移给普通年轻人。",
+    "reading_depth": "直接核读原页Risk factors、Parts of exam、Dilation及返程段；无核定日期只列访问日。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "VISION-S06",
+    "citation": "Bullimore MA, Lee SSY, Schmid KL, Rozema JJ, Leveziel N, Mallen EAH, et al. IMI—Onset and progression of myopia in young adults. Invest Ophthalmol Vis Sci. 2023;64(6):2. doi:10.1167/iovs.64.6.2.",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10153577/",
+    "type": "专业叙述综述",
+    "support": "18至40岁可新发和进展、眼轴与手术后增长；成人控制研究不足，儿童效果不直接移成人。",
+    "limitations": "叙述综述、许多观察和大学人群资料，不能预测个人进展或证明成人治疗无效；作者含产业关系。",
+    "reading_depth": "直接打开PMC原期刊，核前六作者、年卷期文号及DOI；审读摘要、成人风险、手术后变化和Myopia Control in Young Adults；未复算各研究表格和所有引用。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "VISION-S07",
+    "citation": "National Eye Institute. Nearsightedness (myopia) [Internet]. 2024 Dec 4 [cited 2026 Oct 29]. Available from: https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/nearsightedness-myopia",
+    "url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/nearsightedness-myopia",
+    "type": "专业机构原始指导",
+    "support": "近视定义、眼轴与角膜聚焦，高度近视及视网膜脱离风险。",
+    "limitations": "一般教育不给个人发病率或度数转眼轴公式；治疗名单不作中国干预全集。",
+    "reading_depth": "已取得原页正文，审读定义、症状、风险、病因和实际更新日。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "VISION-S08",
+    "citation": "National Eye Institute. Convergence insufficiency [Internet]. 2024 Dec 4 [cited 2026 Oct 29]. Available from: https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/convergence-insufficiency",
+    "url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/convergence-insufficiency",
+    "type": "专业机构原始指导",
+    "support": "近用重影等症状、正常视力仍可有集合不足；检查和训练路径。",
+    "limitations": "患者指导不替代成人方案直接比较，不将全部阅读困难归为眼病。",
+    "reading_depth": "直接打开并读症状、诊断三类测量、治疗及实际更新日。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "VISION-S09",
+    "citation": "Scheiman M, Kulp MT, Cotter SA, Lawrenson JG, Wang L, Li T. Interventions for convergence insufficiency: a network meta-analysis. Cochrane Database Syst Rev. 2020;12(12):CD006768. doi:10.1002/14651858.CD006768.pub3.",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8092638/",
+    "type": "系统综述与网络荟萃分析",
+    "support": "有症状集合不足的成人儿童分开：儿童诊室训练加家庭强化有较多比较支持，成人效果证据不清楚。",
+    "limitations": "检索截止2019年9月，2020发表，未冒称2026最新合集；成人偏倚、不精确；集合改善不等于治愈近视。",
+    "reading_depth": "直接打开PMC核六作者、题名、年卷期文号及DOI，审读完整摘要、成人结果和确定性、作者结论；未重算模型。PubMed正文返回不全，仅原记录索引与PMC交叉核。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "VISION-S10",
+    "citation": "US Food and Drug Administration. When is LASIK not for me? [Internet]. [cited 2026 Oct 29]. Available from: https://www.fda.gov/medical-devices/lasik/when-lasik-not-me",
+    "url": "https://www.fda.gov/medical-devices/lasik/when-lasik-not-me",
+    "type": "专业机构原始指导",
+    "support": "屈光稳定、角膜、干眼、孕哺、用药和夜间任务影响筛查。",
+    "limitations": "不套美国年龄、收费、职业规则到中国；不取全部当前术式无长期数据的旧笼统措辞。",
+    "reading_depth": "直接打开原页候选条件、Precautions、Other risk factors。；root再核接触运动、薄角膜及干眼段；不采旧页无任何长期资料的概括。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "VISION-S11",
+    "citation": "European Society of Cataract and Refractive Surgeons. Refractive surgery [Internet]. [cited 2026 Oct 29]. Available from: https://www.escrs.org/patient-portal/refractive-surgery",
+    "url": "https://www.escrs.org/patient-portal/refractive-surgery",
+    "type": "专业机构原始指导",
+    "support": "LASIK、SMILE、PRK等原理与恢复任务；检查后按需求选择。",
+    "limitations": "不作成品或术式疗效排名，不采泛化无风险措辞，不套外国停药/运动天数。",
+    "reading_depth": "直接打开学会患者原页，读laser vision correction、三个术式段和副作用；未重做其引用试验。；root再核术式、Alternative laser procedures及接触运动/恢复段，条件性选择不复制通用术后倒计时。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "VISION-S12",
+    "citation": "US Food and Drug Administration. What are phakic lenses? [Internet]. [cited 2026 Oct 29]. Available from: https://www.fda.gov/medical-devices/phakic-intraocular-lenses/what-are-phakic-lenses",
+    "url": "https://www.fda.gov/medical-devices/phakic-intraocular-lenses/what-are-phakic-lenses",
+    "type": "专业机构原始指导",
+    "support": "保留天然晶状体眼内植入定义；可取出不保证回到原眼部状态。",
+    "limitations": "具体镜片位置和适应证另核，美国批准范围不当中国规则。",
+    "reading_depth": "直接打开定义、Can they be removed和白内障植入区别相关段。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "VISION-S13",
+    "citation": "US Food and Drug Administration. Are phakic lenses for you? [Internet]. [cited 2026 Oct 29]. Available from: https://www.fda.gov/medical-devices/phakic-intraocular-lenses/are-phakic-lenses-you",
+    "url": "https://www.fda.gov/medical-devices/phakic-intraocular-lenses/are-phakic-lenses-you",
+    "type": "专业机构原始指导",
+    "support": "植入前需评估眼内空间、角膜内皮、屈光稳定与病史。",
+    "limitations": "不采用美国21岁条件作中国许可，不用旧版全部植入无长期资料统称。",
+    "reading_depth": "直接打开并审读内皮、前房、眼病和屈光变化相关条件。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "VISION-S14",
+    "citation": "The Royal College of Ophthalmologists. Phakic intraocular lens implantation: patient information [Internet]. [cited 2026 Oct 29]. Available from: https://www.rcophth.ac.uk/wp-content/uploads/2026/08/PHAKIC1.pdf",
+    "url": "https://www.rcophth.ac.uk/wp-content/uploads/2026/08/PHAKIC1.pdf",
+    "type": "专业机构原始指导",
+    "support": "ICL与其他植入区别、感染/再手术/白内障等风险、长期复查。",
+    "limitations": "文档标PROF/2024/500，URL含2026不当更新日；不采用发生率或英国收费，不把不同位置镜片风险机械互套。",
+    "reading_depth": "直接打开24页原PDF，重点读3至5页定义和适用、9至11页风险和随访；不冒称全24页通读。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "VISION-S15",
+    "citation": "US Food and Drug Administration. What should I expect before, during, and after surgery? [Internet]. [cited 2026 Oct 29]. Available from: https://www.fda.gov/medical-devices/lasik/what-should-i-expect-during-and-after-surgery",
+    "url": "https://www.fda.gov/medical-devices/lasik/what-should-i-expect-during-and-after-surgery",
+    "type": "专业机构原始指导",
+    "support": "LASIK术前隐形停戴和测量；术后不揉不自行戴回隐形，24–48小时早复查、症状加重提前联系。",
+    "limitations": "LASIK专属不套全部激光和ICL；不复制游泳、运动或停镜统一周数。",
+    "reading_depth": "直接打开术前、返程与After Surgery完整相关段，核24–48小时及加重立即联系。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "VISION-S16",
+    "citation": "US Food and Drug Administration. LASIK quality of life collaboration project [Internet]. [cited 2026 Oct 29]. Available from: https://www.fda.gov/medical-devices/lasik/lasik-quality-life-collaboration-project",
+    "url": "https://www.fda.gov/medical-devices/lasik/lasik-quality-life-collaboration-project",
+    "type": "专业机构原始指导",
+    "support": "PROWL同时评价视觉症状、满意和生活影响；满意和症状可并存。",
+    "limitations": "不是全部当代设备共通风险率，不用短期比例预测个人长期损伤。",
+    "reading_depth": "已直接取得项目原页，核PROWL设计及Study results；只取结局区分，不用具体比例作推荐。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "VISION-S17",
+    "citation": "The College of Optometrists. Prescribing spectacles [Internet]. [cited 2026 Oct 29]. Available from: https://www.college-optometrists.org/clinical-guidance/guidance/knowledge,-skills-and-performance/prescribing-spectacles",
+    "url": "https://www.college-optometrists.org/clinical-guidance/guidance/knowledge,-skills-and-performance/prescribing-spectacles",
+    "type": "专业机构原始指导",
+    "support": "用途解释、小改处方需有具体收益，瞳距不一定列验光处方。",
+    "limitations": "英国法律和NHS条款不搬中国，不取老年跌倒指南给年轻人。",
+    "reading_depth": "直接打开规范原页核A329至A344，特别key points、解释目的与小改处方。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "VISION-S18",
+    "citation": "US Food and Drug Administration. Contact lens prescription [Internet]. [cited 2026 Oct 29]. Available from: https://www.fda.gov/medical-devices/contact-lenses/contact-lens-prescription",
+    "url": "https://www.fda.gov/medical-devices/contact-lenses/contact-lens-prescription",
+    "type": "专业机构原始指导",
+    "support": "验配后处方含度数、材质/厂商、基弧和适用直径，不只框架球镜数字。",
+    "limitations": "只取镜片参数和验配流程，不照搬FTC签名/处方交付法律。",
+    "reading_depth": "直接打开原页67至76行，核验配及字段。",
+    "content_checked_at": "2026-10-29"
+  }
+]

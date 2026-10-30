@@ -1,0 +1,444 @@
+{
+  "status": "author_self_check_passed_not_clinical_review",
+  "content_checked_at": "2026-10-29",
+  "chapter": "private",
+  "entries": 19,
+  "sources": 25,
+  "doi_sources": 1,
+  "summary_length_range": [
+    114,
+    144
+  ],
+  "source_graph": "all 25 aliases cited; six fields, unit membership and summary constraints checked",
+  "clinical_review_status": "not_clinically_reviewed",
+  "important_boundaries": [
+    "睾丸突发明显疼痛、持续不退或静息仍痛直接急诊；不把非突发持续痛降级普通预约",
+    "儿童包皮不强翻，卡住盖不回即急症，不要求先出现肿痛",
+    "性别标签按器官供查找，不取代妊娠、术后、绝经与免疫状态；急症保留",
+    "正常皮肤温和无香清洁与发炎皮肤水或润肤替代清洁不同，不机械拼出所有香皂一概有害",
+    "棉条4—8小时最长8小时；杯按具体说明，不套统一12小时；TSS取出与求助不相互拖延",
+    "孕期不用自行口服氟康唑，不将美国制剂表当国内购买处方；儿童无成人剂量",
+    "尿路感染高风险立即评估，不把治疗后48小时复评误写所有人先等48小时",
+    "盆底可紧又弱，强化不适先评估放松，不把女性RCT效果外推所有男女或训练器",
+    "TGA2026仅澳大利亚相应用途行动，不称中国/全球激光禁令",
+    "TSS警示不要求一定发热或多个症状同时凑齐；出现新全身警示停用立即求医，重症急救。",
+    "UTI入口补意识混乱、异常嗜睡或说话困难直接急救，不将老年新意识变化自动归为UTI。"
+  ],
+  "source_dates": [
+    "使用2026NHS包皮、2026FDA经期、2026CDC检测、2026TGA复核",
+    "CDC2021临床指南如实标版本，不冒充2026更新",
+    "DermNet阴囊2018稳定护理与NIDDK2021动作资料交叉核，不写新药综述",
+    "FDA棉条和杯原页未核到确切发布日期，引用不编造"
+  ],
+  "excluded_or_not_used": [
+    {
+      "source": "ACOG Vulvovaginal Health FAQ",
+      "reason": "打开402，未声称读到全文或将搜索摘要当已核"
+    },
+    {
+      "source": "DermNet Genital skin problems index 2002",
+      "reason": "实际打开但过于老旧且有简化的病原外观描述，改用疾病专页和公共卫生诊断指南"
+    },
+    {
+      "source": "NHS2022 ectopic symptoms",
+      "reason": "已读但急症分流优先用2025Pelvic pain更新页"
+    },
+    {
+      "source": "Kent2024vulva-care page",
+      "reason": "实际读到内裤仅清水洗等不宜通用建议，正文不采用；基础外阴阴道边界改用NHS/CDC"
+    },
+    {
+      "source": "CDC menstrual hygiene all secondary claims",
+      "reason": "仅采用更换与外部卫生，不采饮水防酵母、所有人年度Pap/内诊等笼统话"
+    },
+    {
+      "source": "NHS UTI chronic mechanism and D-mannose prevention paragraph",
+      "reason": "不据单页作争议机制或最新补剂预防结论"
+    }
+  ],
+  "uncovered": "不含肛周擦拭湿厕纸、具体脱毛技术、完整避孕性教育与生殖器整形全谱，不展开男性所有性功能病或妇科疾病百科。",
+  "checks": [
+    {
+      "id": "private-001",
+      "summary_characters": 119,
+      "source_ids": [
+        "PRIVATE-S01"
+      ],
+      "audience": {
+        "age_groups": [
+          "child",
+          "teen",
+          "adult",
+          "older"
+        ],
+        "sexes": [
+          "male"
+        ],
+        "scope_note": "实际有睾丸者，各年龄突发明显疼痛都不靠年龄或性别身份标签排除。",
+        "safety_pin": true
+      }
+    },
+    {
+      "id": "private-002",
+      "summary_characters": 115,
+      "source_ids": [
+        "PRIVATE-S02"
+      ],
+      "audience": {
+        "age_groups": [
+          "teen",
+          "adult",
+          "older"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "按实际器官和症状阅读；年龄、性别筛选不替代妊娠、产后、手术及免疫状态判断。",
+        "safety_pin": true
+      }
+    },
+    {
+      "id": "private-003",
+      "summary_characters": 114,
+      "source_ids": [
+        "PRIVATE-S05",
+        "PRIVATE-S11",
+        "PRIVATE-S06"
+      ],
+      "audience": {
+        "age_groups": [
+          "teen",
+          "adult",
+          "older"
+        ],
+        "sexes": [
+          "female"
+        ],
+        "scope_note": "实际有外阴或阴道者；儿童阴部不适另作儿科评估，本条未提供儿童阴道处理方案。",
+        "safety_pin": false
+      }
+    },
+    {
+      "id": "private-004",
+      "summary_characters": 116,
+      "source_ids": [
+        "PRIVATE-S03"
+      ],
+      "audience": {
+        "age_groups": [
+          "adult",
+          "older"
+        ],
+        "sexes": [
+          "male"
+        ],
+        "scope_note": "成年或老年实际有阴茎及包皮者；儿童清洁方式不能由本条外推。",
+        "safety_pin": false
+      }
+    },
+    {
+      "id": "private-005",
+      "summary_characters": 114,
+      "source_ids": [
+        "PRIVATE-S04",
+        "PRIVATE-S03"
+      ],
+      "audience": {
+        "age_groups": [
+          "child",
+          "teen"
+        ],
+        "sexes": [
+          "male"
+        ],
+        "scope_note": "儿童与仍在自然分离阶段的青少年；未提供统一分离年龄、环切年龄或用药剂量。",
+        "safety_pin": true
+      }
+    },
+    {
+      "id": "private-006",
+      "summary_characters": 116,
+      "source_ids": [
+        "PRIVATE-S10",
+        "PRIVATE-S01"
+      ],
+      "audience": {
+        "age_groups": [
+          "teen",
+          "adult",
+          "older"
+        ],
+        "sexes": [
+          "male"
+        ],
+        "scope_note": "按实际器官和症状阅读；年龄、性别筛选不替代妊娠、产后、手术及免疫状态判断。",
+        "safety_pin": false
+      }
+    },
+    {
+      "id": "private-007",
+      "summary_characters": 123,
+      "source_ids": [
+        "PRIVATE-S11",
+        "PRIVATE-S10"
+      ],
+      "audience": {
+        "age_groups": [
+          "teen",
+          "adult",
+          "older"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "按实际器官和症状阅读；年龄、性别筛选不替代妊娠、产后、手术及免疫状态判断。",
+        "safety_pin": false
+      }
+    },
+    {
+      "id": "private-008",
+      "summary_characters": 114,
+      "source_ids": [
+        "PRIVATE-S12",
+        "PRIVATE-S11",
+        "PRIVATE-S20"
+      ],
+      "audience": {
+        "age_groups": [
+          "teen",
+          "adult"
+        ],
+        "sexes": [
+          "female"
+        ],
+        "scope_note": "实际有月经者；绝经、妊娠或产后出血不凭年龄直接当作正常经期。",
+        "safety_pin": false
+      }
+    },
+    {
+      "id": "private-009",
+      "summary_characters": 126,
+      "source_ids": [
+        "PRIVATE-S13",
+        "PRIVATE-S25",
+        "PRIVATE-S14"
+      ],
+      "audience": {
+        "age_groups": [
+          "teen",
+          "adult"
+        ],
+        "sexes": [
+          "female"
+        ],
+        "scope_note": "实际有月经且使用置入用品者；儿童不套成人置入方式，产后与手术状态另评估。",
+        "safety_pin": true
+      }
+    },
+    {
+      "id": "private-010",
+      "summary_characters": 117,
+      "source_ids": [
+        "PRIVATE-S05",
+        "PRIVATE-S06",
+        "PRIVATE-S02"
+      ],
+      "audience": {
+        "age_groups": [
+          "teen",
+          "adult",
+          "older"
+        ],
+        "sexes": [
+          "female"
+        ],
+        "scope_note": "按实际器官和症状阅读；年龄、性别筛选不替代妊娠、产后、手术及免疫状态判断。",
+        "safety_pin": false
+      }
+    },
+    {
+      "id": "private-011",
+      "summary_characters": 118,
+      "source_ids": [
+        "PRIVATE-S07"
+      ],
+      "audience": {
+        "age_groups": [
+          "adult",
+          "older"
+        ],
+        "sexes": [
+          "female"
+        ],
+        "scope_note": "成人阴道症状与治疗边界；妊娠、免疫抑制与儿童另评估，未给儿童剂量。",
+        "safety_pin": false
+      }
+    },
+    {
+      "id": "private-012",
+      "summary_characters": 119,
+      "source_ids": [
+        "PRIVATE-S08"
+      ],
+      "audience": {
+        "age_groups": [
+          "child",
+          "teen",
+          "adult",
+          "older"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "按实际器官和症状阅读；年龄、性别筛选不替代妊娠、产后、手术及免疫状态判断。",
+        "safety_pin": false
+      }
+    },
+    {
+      "id": "private-013",
+      "summary_characters": 119,
+      "source_ids": [
+        "PRIVATE-S09",
+        "PRIVATE-S03",
+        "PRIVATE-S01"
+      ],
+      "audience": {
+        "age_groups": [
+          "teen",
+          "adult",
+          "older"
+        ],
+        "sexes": [
+          "male"
+        ],
+        "scope_note": "按实际器官和症状阅读；年龄、性别筛选不替代妊娠、产后、手术及免疫状态判断。",
+        "safety_pin": false
+      }
+    },
+    {
+      "id": "private-014",
+      "summary_characters": 144,
+      "source_ids": [
+        "PRIVATE-S15",
+        "PRIVATE-S16",
+        "PRIVATE-S06"
+      ],
+      "audience": {
+        "age_groups": [
+          "child",
+          "teen",
+          "adult",
+          "older"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "按实际器官和症状阅读；年龄、性别筛选不替代妊娠、产后、手术及免疫状态判断。",
+        "safety_pin": true
+      }
+    },
+    {
+      "id": "private-015",
+      "summary_characters": 123,
+      "source_ids": [
+        "PRIVATE-S17",
+        "PRIVATE-S18",
+        "PRIVATE-S19"
+      ],
+      "audience": {
+        "age_groups": [
+          "teen",
+          "adult",
+          "older"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "按实际器官和症状阅读；年龄、性别筛选不替代妊娠、产后、手术及免疫状态判断。",
+        "safety_pin": false
+      }
+    },
+    {
+      "id": "private-016",
+      "summary_characters": 126,
+      "source_ids": [
+        "PRIVATE-S20",
+        "PRIVATE-S18",
+        "PRIVATE-S22",
+        "PRIVATE-S23"
+      ],
+      "audience": {
+        "age_groups": [
+          "adult",
+          "older"
+        ],
+        "sexes": [
+          "female"
+        ],
+        "scope_note": "按实际器官和症状阅读；年龄、性别筛选不替代妊娠、产后、手术及免疫状态判断。",
+        "safety_pin": false
+      }
+    },
+    {
+      "id": "private-017",
+      "summary_characters": 130,
+      "source_ids": [
+        "PRIVATE-S24",
+        "PRIVATE-S21",
+        "PRIVATE-S22"
+      ],
+      "audience": {
+        "age_groups": [
+          "adult",
+          "older"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "按实际器官和症状阅读；年龄、性别筛选不替代妊娠、产后、手术及免疫状态判断。",
+        "safety_pin": false
+      }
+    },
+    {
+      "id": "private-018",
+      "summary_characters": 136,
+      "source_ids": [
+        "PRIVATE-S23",
+        "PRIVATE-S20",
+        "PRIVATE-S22"
+      ],
+      "audience": {
+        "age_groups": [
+          "adult",
+          "older"
+        ],
+        "sexes": [
+          "female"
+        ],
+        "scope_note": "按实际器官和症状阅读；年龄、性别筛选不替代妊娠、产后、手术及免疫状态判断。",
+        "safety_pin": false
+      }
+    },
+    {
+      "id": "private-019",
+      "summary_characters": 127,
+      "source_ids": [
+        "PRIVATE-S19",
+        "PRIVATE-S17"
+      ],
+      "audience": {
+        "age_groups": [
+          "child",
+          "teen",
+          "adult",
+          "older"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "任何实际可能暴露者，不能被男女筛选隐藏；儿童需要年龄相应医疗保护和评估。",
+        "safety_pin": true
+      }
+    }
+  ]
+}

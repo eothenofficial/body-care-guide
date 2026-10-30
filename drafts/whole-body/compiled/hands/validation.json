@@ -1,0 +1,12 @@
+{
+  "part": "hands",
+  "status": "passed_structural_and_export_checks",
+  "entries": 12,
+  "sources": 23,
+  "standalone_html_sha256": "366c8cf0031721decc9984361e105f3dc10d874cdbeb174aa9828102ea450b75",
+  "source_graph_resolves": true,
+  "export_data_equal": true,
+  "all_audience_ranges_retained": true,
+  "canonical_content_unchanged": true,
+  "clinical_review_status": "not_clinically_reviewed"
+}

@@ -1,0 +1,93 @@
+{
+  "version": "2026.10.29-whole-body-1",
+  "authorized_scope": "用户已授权按既定全书框架逐篇研究与交付全部剩余身体部位；本轮本地校对，不自动发布。",
+  "directory_principle": "主目录按身体位置，跨部位体表护理与生活基础放在末尾；症状/产品/人群是交叉检索，不复制正文。",
+  "parts": [
+    {
+      "id": "neck",
+      "title": "颈肩、上背与上肢篇",
+      "description": "颈肩上背、肩肘腕的活动与不适；按摩、针灸、筋膜枪、工位和护具。",
+      "order": 1,
+      "status": "delivered_for_review"
+    },
+    {
+      "id": "chest",
+      "title": "胸部与腋下篇",
+      "description": "男女乳房变化、文胸与运动支持、胸下皮肤、腋下清洁止汗及反复疙瘩。",
+      "order": 2,
+      "status": "delivered_for_review"
+    },
+    {
+      "id": "hands",
+      "title": "手部与指甲篇",
+      "description": "干裂、手湿疹、洗手、护手、倒刺甲周炎、美甲及指甲异常。",
+      "order": 3,
+      "status": "delivered_for_review"
+    },
+    {
+      "id": "abdomen",
+      "title": "腹部与肚脐篇",
+      "description": "肚脐清洁、发炎、疝、腹痛、胀气和反流的日常处理与分流。",
+      "order": 4,
+      "status": "delivered_for_review"
+    },
+    {
+      "id": "private",
+      "title": "私密护理篇",
+      "description": "清洁与男女症状、经期用品实际操作、分泌物与经血、避孕与紧急补救、双方备孕。",
+      "order": 5,
+      "status": "delivered_for_review",
+      "delivery_suffix": "经期与生育健康增补版"
+    },
+    {
+      "id": "anal",
+      "title": "肛周与如厕篇",
+      "description": "擦拭方向、干湿纸与冲洗、排便习惯、便秘、肛痛瘙痒与便血。",
+      "order": 6,
+      "status": "delivered_for_review"
+    },
+    {
+      "id": "legs",
+      "title": "腰髋与膝腿篇",
+      "description": "腰背痛、髋膝活动、久坐与运动负荷、护具、静脉及小腿异常。",
+      "order": 7,
+      "status": "delivered_for_review"
+    },
+    {
+      "id": "feet",
+      "title": "足部与趾甲篇",
+      "description": "趾缝发白脱皮、脚气、脚汗脚臭、鞋袜、水疱、足底和趾甲。",
+      "order": 8,
+      "status": "delivered_for_review"
+    },
+    {
+      "id": "bodyskin",
+      "title": "全身皮肤、体毛与瘢痕篇",
+      "description": "沐浴保湿、胸背痘、粗糙颗粒、脱毛、伤口、瘢痕疙瘩及治疗辨别。",
+      "order": 9,
+      "status": "delivered_for_review",
+      "delivery_suffix": "查漏增补版"
+    },
+    {
+      "id": "basics",
+      "title": "日常基础与身心状态篇",
+      "description": "睡眠、运动、饮食、补充剂、疲劳与情绪：服务各部位，不承诺护理能解决所有问题。",
+      "order": 10,
+      "status": "delivered_for_review"
+    }
+  ],
+  "delivered": [
+    "neck",
+    "chest",
+    "hands",
+    "abdomen",
+    "feet",
+    "bodyskin",
+    "private",
+    "anal",
+    "legs",
+    "basics"
+  ],
+  "extension_status": "delivered_for_review",
+  "extension_version": "2026.10.29-private-and-reader-gaps"
+}

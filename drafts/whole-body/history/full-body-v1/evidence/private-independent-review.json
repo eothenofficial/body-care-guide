@@ -1,0 +1,88 @@
+{
+  "status": "passed_after_author_revision_not_clinically_reviewed",
+  "reviewed_on": "2026-10-29",
+  "reviewer": "independent_ai_whole_neck",
+  "chapter_id": "private",
+  "entries_reviewed": 19,
+  "source_records_reviewed": 25,
+  "blocking_unresolved": [],
+  "resolved_findings": [
+    {
+      "entry": "private-001",
+      "severity_original": "blocking",
+      "finding": "原稿非突发持续隐痛泛放预约检查，可能把持续/静息仍痛降级。",
+      "resolution": "已实际重读修订：题名、摘要、首段纳持续不退/静息仍痛急诊，注明超过1小时不是等待门槛；末段新包块若伴上述痛仍优先急诊。",
+      "source": "PRIVATE-S01"
+    },
+    {
+      "entry": "private-004/private-005",
+      "severity_original": "safety_clarification",
+      "finding": "儿童卡住盖不回与肿痛联结可能引入不必要条件。",
+      "resolution": "已重读004/005摘要及005正文：盖不回本身立即就医，不需等肿痛。成人正文也以盖不回为急症。",
+      "source": "PRIVATE-S03"
+    },
+    {
+      "entry": "private-009",
+      "severity_original": "safety_clarification",
+      "finding": "原发热伴其他表现可能被理解为组合才求医。",
+      "resolution": "已实际重读修订后的题名/摘要/正文：高热、明显呕吐腹泻、皮疹或头晕等新异常立即停用求医，不必全齐或一定发热；晕厥/意识/呼吸重症急救。",
+      "source": "PRIVATE-S13/PRIVATE-S14"
+    },
+    {
+      "entry": "PRIVATE-S13",
+      "severity_original": "citation_metadata",
+      "finding": "引用题名沿用旧链接描述。",
+      "resolution": "已核来源表改为当前实际标题The Facts on Tampons and Tampon Safety。"
+    }
+  ],
+  "nonblocking_notes": [
+    {
+      "entry": "private-014",
+      "finding": "现有高风险与肾感染分流正确，可再补同一NHS来源的意识混乱、嗜睡或说话困难急诊，增强儿童/老年入口。",
+      "status": "resolved",
+      "resolution": "已实际重读014：正文加意识混乱/异常嗜睡/说话困难急诊；不把年长者新意识变化自动归UTI；摘要同步，safety_pin=true。"
+    }
+  ],
+  "actually_read": {
+    "local_files": [
+      "drafts/whole-body/chapters/private.json：全部19条，后重读001/004/005/009修订，并重读014末次急症补强",
+      "drafts/whole-body/evidence/private-sources.json：全部25项citation/support/limitations/reading_depth"
+    ],
+    "web_primary_sections": {
+      "PRIVATE-S01": "NHS睾丸痛：突发重痛、伴恶心/腹痛、超过1小时或静息仍痛急诊；肿块及变化及时评估。",
+      "PRIVATE-S02": "NHS骨盆痛：妊娠可能与严重/加重、晕厥、出血等分流。",
+      "PRIVATE-S03": "NHS2026包皮：成人轻回缩与复位、儿童不强翻、嵌顿本身即急症。",
+      "PRIVATE-S04": "AAP2024：自然分离时间差异、不强翻、不用棉签/消毒剂，分离后清洁并盖回。",
+      "PRIVATE-S05": "NHS分泌物：正常变化、异常求助、外部温和无香清洁和不灌洗。",
+      "PRIVATE-S06": "CDC2021：病史/pH不足以确定病原、镜检局限与非感染原因。",
+      "PRIVATE-S07": "CDC2021：无症状定植、自行治疗失败/两月内复发评估、妊娠局部唑类7日且避免口服氟康唑、乳胶相互影响。",
+      "PRIVATE-S08": "NHS硬化性苔藓：各年龄性别、白斑与瘢痕、处方强激素、低但需监测的肿瘤风险。",
+      "PRIVATE-S09": "NHS龟头炎：多病因、取样和血糖、发炎仅水/润肤替代皂及儿童不强翻。",
+      "PRIVATE-S10": "DermNet2018：汗湿摩擦/刺激等原因、鉴别采样和长期强效激素风险；未采用生育推测。",
+      "PRIVATE-S11": "CDC经期：用品更换、体外清洁不灌洗、透气与无香；不采纳其饮水防酵母/年年Pap泛化。",
+      "PRIVATE-S12": "FDA2026经期总览：产品分类、经期使用、标签和卫生；未另读其金属研究全文。",
+      "PRIVATE-S13": "FDA当前棉条页：4–8小时且不超8、最低适合吸收、经期使用，任何相关新全身异常立即停止求医。",
+      "PRIVATE-S14": "NHS TSS：罕见但急症、棉条与杯均可相关、无需症状全部齐、停用和紧急求助。",
+      "PRIVATE-S15": "NHS UTI：儿童/65岁以上/男性/妊娠等及时评估，48小时不改善、意识/嗜睡/说话异常急诊，补剂不治既有感染。",
+      "PRIVATE-S16": "NIDDK2024成人膀胱：发热寒战/呕吐/背侧腹股沟痛提示肾感染需及时处理。",
+      "PRIVATE-S17": "CDC2026STI检测：无症状、按实践与部位选择，血尿与阴道/咽/直肠采样；未采全部美国频率。",
+      "PRIVATE-S18": "CDC安全套：乳胶与水/硅基润滑兼容、油性风险、部分未覆盖皮肤感染保护有限。",
+      "PRIVATE-S19": "CDC PEP：72小时内启动、越早越好、及时接诊、不是反复暴露常规替代；未搬具体组合剂量。",
+      "PRIVATE-S20": "NHS2025干涩：润滑与阴道保湿不同、普通皮肤乳不入阴道、持续/异常出血复评及激素条件。",
+      "PRIVATE-S21": "NIDDK2021凯格尔：男女可用、动作收缩放松、不要反复截断尿流或过度训练。",
+      "PRIVATE-S22": "StGeorge2025四页PDF文本：紧且弱时先处理紧张、排尿和性痛、放松与强化分流；核末页May2025/May2027。",
+      "PRIVATE-S23": "TGA2026原页：有效性/长期安全不足、澳洲对应年轻化用途取消；部分其他用途保留；读Outcomes与市场动作说明，未独立查每条ARTG器械。",
+      "PRIVATE-S24": "Cochrane公开简明及结构化摘要/作者引用DOI：女性研究、方案异质、随访短；未读付费全文和31个试验。",
+      "PRIVATE-S25": "FDA杯原页：倒空/清洁按说明、IUD核对、非感染/近期产后异常引流用途。"
+    },
+    "not_claimed": "没有通读所有指南附件或25页各自全部外链；未替代临床体检、个体药品审方或专家签审。"
+  },
+  "structural_checks": {
+    "all_source_tokens_resolve": true,
+    "all_sources_used": true,
+    "all_summaries_110_170": true,
+    "all_entries_not_clinically_reviewed": true
+  },
+  "clinical_review_status": "not_clinically_reviewed",
+  "conclusion": "按指定高风险重点完成独立AI编辑核对，已提出并核实修复的临床分流点无未决阻断；其余核心建议与相应权威原页范围相符。"
+}

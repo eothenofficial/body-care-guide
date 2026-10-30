@@ -1,0 +1,173 @@
+{
+  "review_status": "pass_with_optional_clarity_notes",
+  "reviewer": "independent AI editorial and evidence review; not a clinical sign-off",
+  "clinical_review_status": "not_clinically_reviewed",
+  "content_checked_at": "2026-10-29",
+  "scope": [
+    "oral-019",
+    "oral-020",
+    "oral-021",
+    "oral-022",
+    "oral-023",
+    "oral-012 replacement"
+  ],
+  "overall": "未发现年龄、地包天或成人/老年修复方向性和即时安全阻断错误。原窝沟封闭引文缺口已由root补NIDCR直接来源，独立打开确认；固定桥表格已限定天然牙支持。剩余为摘要术语和义齿清洁的可选精度建议。",
+  "findings": [
+    {
+      "id": "DENT-R1",
+      "priority": "must_fix_before_delivery",
+      "entry_id": "oral-019",
+      "location": "plain第一段窝沟封闭句",
+      "issue": "该段以DENTAGE-S01/S02支持按牙医评估讨论窝沟封闭及降低相应牙面龋坏风险。独立打开两页，只有六龄齿、换牙、清洁和乳牙脱落内容，没有封闭或防龋效果内容。",
+      "action": "给窝沟封闭句追加权威直接来源，或删除该句；不要仅补在总来源栏而不把引文放到对应判断后。",
+      "evidence_urls": [
+        "https://www.toothclub.gov.hk/sc/pnc/sc_pnc_2_1_2_2.html",
+        "https://www.cda-adc.ca/for-the-public/understanding-your-oral-health/dental-care-children/development"
+      ],
+      "status": "resolved",
+      "resolution": "root已追加DENTAGE-S21至对应判断及来源；独立打开NIDCR Dental sealants，Overview直接支持保护后牙咬合面防龋，HelpfulTips支持含氟刷牙及复查，Last Reviewed September2025。",
+      "resolution_url": "https://www.nidcr.nih.gov/health-info/dental-sealants"
+    },
+    {
+      "id": "DENT-R2",
+      "priority": "should_fix_for_precision",
+      "entry_id": "oral-022",
+      "location": "固定桥定义及表格",
+      "issue": "正文与摘要把固定桥统称借邻牙支撑，但ADA原页也介绍种植支持桥；表格种植行已写可承托桥，因此容易让读者误认为固定桥没有种植支持形式。",
+      "action": "表格第二行改天然牙支持固定桥，前后概述相应加通常或本表指天然牙支持桥；保留种植修复行承托冠/桥/义齿。",
+      "evidence_urls": [
+        "https://www.mouthhealthy.org/all-topics-a-z/bridges",
+        "https://www.fda.gov/medical-devices/dental-devices/dental-implants-what-you-should-know"
+      ],
+      "status": "table_resolved_optional_summary_tightening",
+      "resolution": "root已把表格第二行改天然牙支持固定桥；摘要仍简写固定桥借邻牙支撑，若进一步求精确可同样改天然牙支持桥。"
+    },
+    {
+      "id": "DENT-R3",
+      "priority": "optional_reader_clarity",
+      "entry_id": "oral-023",
+      "location": "plain第一段清洁方法",
+      "issue": "用软刷配合适用的清洁方法仍略抽象，用户在此需要可执行方法。两页实际已支持软刷配温和液体皂且冲净，以及具体清洁剂按材料说明。",
+      "action": "可以明确软刷配少量温和液体皂、刷各表面后用冷水冲净；专用清洁剂按材料与标签；保留普通牙膏不用于义齿、自然牙含氟牙膏及夜间摘戴例外。",
+      "evidence_urls": [
+        "https://www.nhs.uk/tests-and-treatments/dentures/",
+        "https://www.health.nsw.gov.au/denture-care"
+      ],
+      "status": "optional"
+    },
+    {
+      "id": "DENT-R4",
+      "priority": "compiler_must_recompute",
+      "entry_id": "oral-012",
+      "location": "source_ids",
+      "issue": "替换对象source_ids仍是旧ORAL-S15/25，但字段引用已换成DENTAGE来源及ORAL-S25。",
+      "action": "整合编译时按fields实际引用重新计算；当前preview.py会重算，故不属于正文阻断。",
+      "evidence_urls": [],
+      "status": "expected_resolved_by_preview_compiler"
+    }
+  ],
+  "key_checks": [
+    {
+      "topic": "AAO七岁",
+      "result": "2026-10-21页面实际可打开，直接明确首次发现问题或不晚于七岁检查，不等于七岁人人戴牙套。标题与摘要条件一致。",
+      "urls": [
+        "https://aaoinfo.org/whats-trending/does-my-child-need-to-wait-to-see-an-orthodontist/"
+      ]
+    },
+    {
+      "topic": "地包天分类与早治局限",
+      "result": "AAPD当前PDF题录确为2025:497-515、Latest Revision2024；506–507页明确牙性/骨性/功能前移及组合，早期可改善但不能保证避开后续正颌手术；正文没有越界承诺。",
+      "urls": [
+        "https://www.aapd.org/media/Policies_Guidelines/BP_DevelopDentition.pdf",
+        "https://www.cma.org.cn/art/2023/6/20/art_4584_51429.html"
+      ]
+    },
+    {
+      "topic": "成人及老年正畸",
+      "result": "中华医学会2023-06-26页及ADA直接支持年龄不单独排除、先控牙周与整体评估；正文未把任何年龄可评估写成人人可治。",
+      "urls": [
+        "https://www.cma.org.cn/art/2023/6/26/art_4584_51477.html",
+        "https://www.mouthhealthy.org/all-topics-a-z/braces"
+      ]
+    },
+    {
+      "topic": "长期保持",
+      "result": "AAO实际日期2025-10-15，正文支持牙齿终生变化与长期保持；本稿没有无条件保证，也没照抄透明保持器治磨牙的表格。",
+      "urls": [
+        "https://aaoinfo.org/whats-trending/will-i-need-to-wear-retainers/"
+      ]
+    },
+    {
+      "topic": "缺牙选择/贴面/老年种植",
+      "result": "ADA贴面为已有牙前表面，不能替缺牙。ADA种植页明确health more than age，FDA列疾病、吸烟、维护和失败风险；未承诺种植终身或所有老年人最佳。",
+      "urls": [
+        "https://www.mouthhealthy.org/all-topics-a-z/veneers",
+        "https://www.mouthhealthy.org/all-topics-a-z/implants",
+        "https://www.fda.gov/medical-devices/dental-devices/dental-implants-what-you-should-know"
+      ]
+    },
+    {
+      "topic": "义齿清洁及干放/保湿差异",
+      "result": "NHS2025-03-19页建议夜摘并保湿选项；NSW2022-05-27页建议干容器。稿件明确按材料和制作方分流，没有把任一方案强套所有材料；无牙也检查、勿自调、普通牙膏不用均有支持。",
+      "urls": [
+        "https://www.nhs.uk/tests-and-treatments/dentures/",
+        "https://www.health.nsw.gov.au/denture-care"
+      ]
+    },
+    {
+      "topic": "义齿胶",
+      "result": "FDA直接支持按说明量、加量不能解决不适合义齿；本稿没有把含锌适量使用等同中毒。",
+      "urls": [
+        "https://www.fda.gov/medical-devices/dental-devices/denture-adhesives"
+      ]
+    },
+    {
+      "topic": "补充窝沟封闭引用",
+      "result": "DENTAGE-S21已经放在oral019对应判断后；NIDCR官方正文直接支持，不再存在R1引文缺口。",
+      "urls": [
+        "https://www.nidcr.nih.gov/health-info/dental-sealants"
+      ]
+    }
+  ],
+  "reading_depth_note": "本轮独立打开AAO首检、保持器，AAPD19页PDF对应反咬合/Ⅲ类段及题录，香港卫生署两页，CDA发育页，中华医学会两页，ADA桥/种植/贴面/牙套，FDA种植/义齿胶，NHS牙套/义齿，NSW义齿清洁。国家卫健委2022指南PDF已打开并核题名及总原则，未逐页独立复读67页；2025新闻会未重新全文下载，本轮不为作者完整读取声明背书。所有新增文献为机构网页/手册，无新DOI可验。 后续另独立打开NIDCR新增窝沟封闭原页，核其Overview、HelpfulTips及2025September复审日期。",
+  "structural_checks": [
+    {
+      "id": "oral-019",
+      "summary_characters": 128,
+      "six_fields_in_order": true,
+      "all_source_tokens_exist": true
+    },
+    {
+      "id": "oral-020",
+      "summary_characters": 130,
+      "six_fields_in_order": true,
+      "all_source_tokens_exist": true
+    },
+    {
+      "id": "oral-021",
+      "summary_characters": 123,
+      "six_fields_in_order": true,
+      "all_source_tokens_exist": true
+    },
+    {
+      "id": "oral-022",
+      "summary_characters": 129,
+      "six_fields_in_order": true,
+      "all_source_tokens_exist": true
+    },
+    {
+      "id": "oral-023",
+      "summary_characters": 123,
+      "six_fields_in_order": true,
+      "all_source_tokens_exist": true
+    },
+    {
+      "id": "oral-012",
+      "summary_characters": 129,
+      "six_fields_in_order": true,
+      "all_source_tokens_exist": true
+    }
+  ],
+  "cost_policy": "六条成本空，不新增或猜价格。",
+  "audience_policy": "child/teen为发育导览，adult/older为成人与老年修复、正畸讨论；地包天全龄条目明分儿童/成人，不按某生日作处方。无需按性别强行分流。"
+}

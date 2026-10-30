@@ -1,0 +1,90 @@
+{
+  "checked_at": "2026-10-30",
+  "reviewer": "independent AI reviewer /root/nutrition_foundation",
+  "clinical_review_status": "not_clinically_reviewed",
+  "input_sha256": {
+    "management-entries.json": "593a0ca5a4cc7238d00b2e97df9729149c78226aac3e5e06dffac74fb5bdda34",
+    "management-sources.json": "36a807ba3c6d39d7e372524d07b723c90ec207e7dcf4c728161123f6f560ec3b"
+  },
+  "output_sha256": {
+    "management-entries.json": "d88178e8d1939ce48f2b53a5a88723e06773f367f70b63127dfa7a77ee2ea5b2",
+    "management-sources.json": "9b6aee86d0e7bfe3c0bbc1f51ad0ee3cae367a8df87b9714c6397b1b348453e1"
+  },
+  "entry_ids": [
+    "nutrition-020",
+    "nutrition-021",
+    "nutrition-022",
+    "nutrition-023"
+  ],
+  "blocking_unresolved": [],
+  "status": "passed_after_precise_edits",
+  "edits": [
+    {
+      "entry": "nutrition-021",
+      "change": "证据字段加18–65岁、BMI≥25研究人群边界，避免以older筛选可见误认为65岁以上及虚弱人群已纳足随机证据；保留正文老年个体化限制。"
+    },
+    {
+      "sources": [
+        "NFW-S01",
+        "NFW-S02",
+        "NFW-S04",
+        "NFW-S05"
+      ],
+      "change": "来源类型改成实际的临床指南、指导原则、公益科研机构患者教育或横断面验证研究，去掉“原始临床研究或正式指南”含糊并列标签。"
+    }
+  ],
+  "checks": [
+    {
+      "item": "中国成人BMI与腰围",
+      "result": "本地官方nhc-obesity-2024原文第5–6页核BMI18.5/24/28与腰围男90女85；正文不把低于界值等同零风险，保留老年/运动员BMI局限，儿童孕期不套成人目标。"
+    },
+    {
+      "item": "测量与体脂秤",
+      "result": "独立读取BHF实际腰围操作与JMIR正式原刊摘要/方法相关段；三型号样本53/52/48，各自不同，不扩大为2026全部设备均不准。体脂/肌肉为BIA模型估算，正文未要求人人去做DXA、未把波动当真实肌肉损失。"
+    },
+    {
+      "item": "合理减重目标",
+      "result": "NIDDK正文明确5%–10%/6个月，正文以5%为讨论起点而非所有人必达或固定速度；BMI正常无风险不套减重目标。"
+    },
+    {
+      "item": "去脂体重与抗阻",
+      "result": "PMC原文首访完整摘要、Table1 PICOS与相关介绍核25项RCT、成人18–65、BMI≥25；去脂保存中等/力量低确定性，体重差未显著。未以去脂=肌肉，也未把未显著差异写严格等效；独立补年龄外推边界。"
+    },
+    {
+      "item": "局部减脂",
+      "result": "原刊2022卷期页和HTML完整摘要核13研究1158人、单侧肢体比较、37对比。正文未声称所有未来方案绝不可能，更未用生理脂解机制推局部实效。"
+    },
+    {
+      "item": "器械风险与监管地域",
+      "result": "FDA原页用途/冷冻/风险段核不能治疗肥胖、家用安全有效性未建立、冻伤/麻木/PAH；正文不以FDA代中国注册，未排名疗效或给风险概率。"
+    },
+    {
+      "item": "进食安全",
+      "result": "NIMH原页年龄性别体重、失控/催吐/泻药/禁食/过练、身体风险与治疗段均吻合。正文不凭单次行为确诊、不以正常BMI排除、不提倡惩罚性禁食、未直接开抑食药或补剂。青少年筛选可见与病症适用吻合；不是把一般减重成人标准推广儿童。"
+    },
+    {
+      "item": "引用与输出",
+      "result": "核6位作者/et al策略、3篇论文DOI/年卷页，与实际原刊吻合；机构页面未核日期留空而非编造；无金额估计、无正文伪图示/制作指令/校对字样。六字段/cost空/摘要长度检查通过。"
+    }
+  ],
+  "actual_reading_limits": [
+    "本次独立审没有通读每个来源全文或重析个体数据，也不是持证临床专家签审。",
+    "NHC肥胖指南通过本地下载原PDF的文本逐段独立核第5–6页；体重管理指导原则在线PDF本次超时，未假称独立通读其30页，作者已记录其实际阅读范围；针对目标和抗阻另用可直接读取的一手机构/论文交核。",
+    "抗阻Glasgow PDF本次超时，PMC首访成功读取完整摘要/相关方法与PICOS，后续find遇验证码即停止，不改路径绕过；独立未读补充表或全文全部资助段。",
+    "局部减脂PDF超时，改读出版商正常开放的文章HTML完整摘要和正式卷期信息，未将摘要伪称全文；未复核其所有纳入旧试验。",
+    "NICE进食障碍推荐原页403，仅检索索引可见，不作为本次新增建议或新来源；未绕过验证。进食行为内容由已直接读取NIMH与现有急症入口交核。",
+    "未逐一核中国每款塑形器械注册与服务资质，不以美国监管作中国准入证明；未证实任何新型号体脂秤品牌优劣。"
+  ],
+  "format_checks": {
+    "summary_lengths": {
+      "nutrition-020": 122,
+      "nutrition-021": 125,
+      "nutrition-022": 119,
+      "nutrition-023": 117
+    },
+    "six_fields": true,
+    "cost_empty": true,
+    "all_source_refs_resolved": true
+  },
+  "scope_note": "只审management-entries/sources四条；未改author_management.py；需整合者最终核全站内部跳转、单元归属及筛选行为。"
+}

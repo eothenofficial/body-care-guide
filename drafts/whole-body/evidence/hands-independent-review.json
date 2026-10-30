@@ -1,0 +1,15 @@
+{
+  "status": "independent_ai_editorial_review_passed",
+  "blocking_unresolved": [],
+  "clinical_review_status": "not_clinically_reviewed",
+  "date": "2026-10-29",
+  "scope": "root独立审读全部标题及感染/水疱/甲周炎/抗真菌/甲色带/甲胶卸除正文；重开BAD2026真菌甲与FDA卸除剂原文核重点，其他来源依作者记录，不冒充临床签审。",
+  "checks": [
+    "灰指甲口服前检查、肝功能与相互作用边界保留",
+    "汗疱与疱疹手指感染分开，不指导自行针挑或放脓",
+    "美甲UV防护不包装成零风险，成分过敏不外推所有医疗材料都禁用",
+    "FDA检出警示限定列明样品，未推所有快卸胶或全品牌",
+    "新色带和持续变化检查，不靠甲油遮盖无限观察"
+  ],
+  "resolutions": []
+}

@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-29",
+  "status": "editorial_not_clinical",
+  "additions": [
+    "eyes-031",
+    "eyes-032"
+  ],
+  "reused": [
+    "VISION-S07",
+    "src-ef3d7b7a8fb9",
+    "src-609e76825b6e"
+  ],
+  "reading_note": "新增两篇AAP原页及既有NEI近视页已实读。NHC PDF本轮重新请求超时；沿用同日上一轮已核第9–14页的验光与镜片结论，不声称新读其全文。",
+  "boundaries": [
+    "年龄分组用于导览，不是药物或镜片年龄许可",
+    "20-20-20不包装成经试验证明的近视控制治疗",
+    "儿童干预不得由筛选器自动推荐药物浓度或产品"
+  ]
+}

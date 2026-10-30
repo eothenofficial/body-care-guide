@@ -1,0 +1,112 @@
+{
+  "status": "author_self_checked_ready_for_independent_review_not_clinically_reviewed",
+  "checked_on": "2026-10-29",
+  "extension": "fertility",
+  "target_chapter": "private",
+  "entry_count": 9,
+  "source_count": 12,
+  "doi_count": 4,
+  "file_contract": {
+    "fertility-entries.json": "JSON数组，9条与private.entries同形，临时id fertility-001起，chapter_id=private、unit_id=fertility-u1等，待root归一化。",
+    "fertility-sources.json": "12项FERTILITY-Sxx来源数组，4项期刊DOI已核元数据。"
+  },
+  "unit_suggestions": [
+    {
+      "id": "fertility-u1",
+      "title": "开始尝试前，先把双方的健康准备做好",
+      "intro": "先核病史、药物和疫苗，再处理叶酸与生活准备，不把备孕变成购买套餐。",
+      "entry_ids": [
+        "fertility-001",
+        "fertility-002",
+        "fertility-003"
+      ]
+    },
+    {
+      "id": "fertility-u2",
+      "title": "把握自然受孕机会，工具按需要使用",
+      "intro": "从能维持的同房安排开始，按需用尿LH工具；不承诺怀孕或提供安全期避孕。",
+      "entry_ids": [
+        "fertility-004",
+        "fertility-005"
+      ]
+    },
+    {
+      "id": "fertility-u3",
+      "title": "需要时双方一起评估，把医学需要和促孕营销分开",
+      "intro": "男性因素、就诊时点、检查指标与补剂/附加治疗各按人群和结局判断。",
+      "entry_ids": [
+        "fertility-006",
+        "fertility-007",
+        "fertility-008"
+      ]
+    },
+    {
+      "id": "fertility-u4",
+      "title": "验孕与早孕安全，危险症状先处理",
+      "intro": "家用检测不判断妊娠位置，急症不等复测阳性。",
+      "entry_ids": [
+        "fertility-009"
+      ]
+    }
+  ],
+  "coverage": {
+    "001": "双方孕前病史/全部用药/慢病/疫苗/感染和遗传风险",
+    "002": "常规叶酸400微克=0.4mg/提前时间/孕12周/高风险不自开/常见MTHFR不自动加量换型",
+    "003": "烟酒/饮食活动/职业暴露/指标不等于活产",
+    "004": "6日易孕窗/每2至3日或窗内1至2日/不凭体位或技巧选性别",
+    "005": "LH用途机制/真实有限临床获益/厂商资助/假阳性和App边界",
+    "006": "男方同步/精液局限/外源睾酮及类固醇不壮精",
+    "007": "<35岁12月/≥35岁6月/>40更早及已知风险直接评估",
+    "008": "AMH解释/补剂证据/卵巢PRP用途与独立风险收益",
+    "009": "验孕时机/早阴性复测/宫外孕和急症不等阳性"
+  },
+  "overlap_routing": [
+    "月经异常完整鉴别、停经及相关病种主要归月经作者；这里只留会改变评估时点和LH解释的边界。",
+    "whole_chest负责避孕11条，会保留紧急避孕后21日验孕与激素重启/衔接屏障的场景建议；009自然备孕的验孕与宫外孕入口作交叉，不复制紧急避孕流程。",
+    "排卵App不得用于本指南推荐的安全期避孕；避孕条目不重复LH促孕操作。已与whole_chest消息协调，root统一主归属。"
+  ],
+  "actual_reading_limits": [
+    "各来源真实读取范围逐项在fertility-sources.json的reading_depth。未读所有原始试验与附录。",
+    "ASRM2021评估页当前404，已从官网索引打开2026替代原页，并经PubMed42901815核2026Oct20在线先发、PII和DOI，不填旧卷期页。",
+    "AUA2024完整PDF直接403，其搜索索引文本不作为关键临床来源或已读全文。以EAU实际可读男性章与ASRM原始意见补足。",
+    "WHO2025官网主介绍/推荐摘要介绍页打开，但PDF403/超时、NCBI正文验证码；未将搜索摘要作为正式结论来源，未放进source表。",
+    "EAU男性章未确认最后更新年，其Citation Information仍示例Paris2024，不因为当前2026就造正式年份。",
+    "NHS验孕和宫外孕主文均2022。前者2026视频复核不冒充全页更新；只取稳定操作/急症原则，不采用旧宫外孕治疗或等待方案。",
+    "Cochrane已读简明及结构化摘要/题录与披露，尚未通读全综述方法附录和7项RCT全文。"
+  ],
+  "clinical_reasoning_checks": [
+    "叶酸常规公共卫生剂量可列，高风险不写4/5mg自服处方；不因常见MTHFR自动加量或换活性叶酸。",
+    "尿LH试纸并非全无效，但具体人群获益不能外推所有产品/年龄/病因；信号不等于已排卵/怀孕/正常宫内妊娠。",
+    "生活方式与精子/AMH替代指标不直接推成活产因果，不保证养身体必怀孕，不把迟迟未孕归责于不自律。",
+    "35/40节点指拟妊娠方，已知风险/性交困难/反复妊娠丢失可更早评估，供精等不要求无意义等待。",
+    "外源睾酮不作促孕，已用处方者联系开药/生殖专科，不自停换、不配自用恢复激素组合。",
+    "抗氧化等补剂不确定不等于所有营养补充无用；卵巢PRP是侵入注射，不与按摩/精油混用研究。",
+    "可能怀孕且疼痛/出血等立即评估；突发或重痛、晕厥等急症不等复测，不需所有症状和阳性齐全。"
+  ],
+  "structural_checks": {
+    "errors": [],
+    "all_sources_resolve": true,
+    "all_sources_used": true,
+    "all_summaries_110_170": true,
+    "summary_min": 119,
+    "summary_max": 131,
+    "all_summaries_plain_text": true,
+    "all_costs_blank": true,
+    "all_notes_blank": true,
+    "all_not_clinically_reviewed": true
+  },
+  "summary_lengths": {
+    "fertility-001": 124,
+    "fertility-002": 128,
+    "fertility-003": 126,
+    "fertility-004": 126,
+    "fertility-005": 119,
+    "fertility-006": 126,
+    "fertility-007": 131,
+    "fertility-008": 126,
+    "fertility-009": 125
+  },
+  "clinical_review_status": "not_clinically_reviewed",
+  "independent_review_status": "pending_root_assignment",
+  "scope_limits": "只写本轮备孕促孕扩展；不含不孕全套治疗、治疗药物剂量、辅助生殖方案/国内准入/收费，不改private19条或已交付文件。"
+}

@@ -1,0 +1,107 @@
+[
+  {
+    "id": "NFW-S01",
+    "citation": "国家卫生健康委员会. 肥胖症诊疗指南（2024年版）[Internet]. 2024 [cited 2026 Oct 30]. Available from: https://www.nhc.gov.cn/cms-search/downFiles/c171fa2416864a21b69278fd04a33f21.pdf",
+    "url": "https://www.nhc.gov.cn/cms-search/downFiles/c171fa2416864a21b69278fd04a33f21.pdf",
+    "type": "国家卫生主管部门正式临床指南",
+    "support": "中国成人BMI与腰围分类；BMI在老年人、肌肉发达人群中的局限。",
+    "limitations": "不是每一种药的说明书，也不能用成人BMI诊断儿童；腰围未达到中心性肥胖界值不代表零风险。",
+    "reading_depth": "直接核读官方79页PDF第4–6页评估与第52页测量、相关药物章节；未把文件年份改成检索年份。",
+    "funding_disclosure": "机构公开指导；未列本页专项研究资助。",
+    "content_checked_at": "2026-10-30"
+  },
+  {
+    "id": "NFW-S02",
+    "citation": "国家卫生健康委员会办公厅. 体重管理指导原则（2024年版）[Internet]. 2024 [cited 2026 Oct 30]. Available from: https://www.nhc.gov.cn/ylyjs/zcwj/202412/75cb79c171c94def9e768193e65484f7/files/1736390749000_59785.pdf",
+    "url": "https://www.nhc.gov.cn/ylyjs/zcwj/202412/75cb79c171c94def9e768193e65484f7/files/1736390749000_59785.pdf",
+    "type": "国家卫生主管部门正式指导原则",
+    "support": "个体化目标、饮食与有氧/抗阻结合、监测和维持；去脂体重包含肌肉以外的组织。",
+    "limitations": "不把指南一般用药原则等同具体产品核准适应证；成人减重目标不直接套给未成年人、孕哺或虚弱老年人。",
+    "reading_depth": "直接核读官方30页PDF成人/老年评估、饮食运动与行为管理、术语；能量缺口与速度不作为人人固定处方。",
+    "funding_disclosure": "机构公开指导；未列本页专项研究资助。",
+    "content_checked_at": "2026-10-30"
+  },
+  {
+    "id": "NFW-S03",
+    "citation": "National Institute of Diabetes and Digestive and Kidney Diseases. Choosing a safe and successful weight-loss program [Internet]. [cited 2026 Oct 30]. Available from: https://www.niddk.nih.gov/health-information/weight-management/choosing-a-safe-successful-weight-loss-program",
+    "url": "https://www.niddk.nih.gov/health-information/weight-management/choosing-a-safe-successful-weight-loss-program",
+    "type": "机构指导",
+    "support": "对有减重需要的成人，以初始体重5%–10%/6个月作为可讨论的起点；可维持的饮食、运动、自我监测。",
+    "limitations": "一般规划例子，不是每个人必须达到的速度；活动收益不能仅按秤上减重判断。",
+    "reading_depth": "实读项目选择、目标、饮食活动、自我监测及商业警示正文；网页实际更新日未可靠核定，未填日期。",
+    "funding_disclosure": "机构公开指导；未列本页专项研究资助。",
+    "content_checked_at": "2026-10-30"
+  },
+  {
+    "id": "NFW-S04",
+    "citation": "British Heart Foundation. Why your waist size matters [Internet]. [cited 2026 Oct 30]. Available from: https://www.bhf.org.uk/informationsupport/heart-matters-magazine/medical/measuring-your-waist",
+    "url": "https://www.bhf.org.uk/informationsupport/heart-matters-magazine/medical/measuring-your-waist",
+    "type": "心血管公益科研机构患者教育",
+    "support": "腰围在肋骨下缘与髋骨上缘间中点水平、自然呼气测量的操作说明。",
+    "limitations": "只用于解释测量操作；没有把英国阈值替换为中国成人诊断标准，腹型特殊者自测会有误差。",
+    "reading_depth": "实读腹部脂肪、腰围与腰高比测量段；本条不要求读者根据照片操作，未将相关阅读日期当本页更新日期。",
+    "funding_disclosure": "机构公开指导；未列本页专项研究资助。",
+    "content_checked_at": "2026-10-30"
+  },
+  {
+    "id": "NFW-S05",
+    "citation": "Frija-Masson J, Mullaert J, Vidal-Petiot E, Pons-Kerjean N, Flamant M, d'Ortho MP. Accuracy of smart scales on weight and body composition: observational study. JMIR Mhealth Uhealth. 2021;9(4):e22487. doi:10.2196/22487.",
+    "url": "https://mhealth.jmir.org/2021/4/e22487",
+    "type": "横断面测量验证原始研究",
+    "support": "所测三款秤的体重较准确，脂肪/肌肉估算与DXA一致性不足；BIA依赖阻抗与推算模型。",
+    "limitations": "法国单中心、2021年三款具体型号；不能外推为所有2026年设备均同样误差，或作品牌排名。",
+    "reading_depth": "实读原刊完整摘要、方法、结果、讨论局限和利益披露；核三型号样本分别53/52/48，未误写每型号153人。",
+    "funding_disclosure": "研究获MSD France对AP-HP基金会的捐赠支持；一位作者披露与本研究无关的企业旅行/住宿支持，其他作者未报冲突。",
+    "content_checked_at": "2026-10-30",
+    "doi": "10.2196/22487",
+    "doi_url": "https://doi.org/10.2196/22487"
+  },
+  {
+    "id": "NFW-S06",
+    "citation": "Binmahfoz A, Dighriri A, Gray C, Gray SR. Effect of resistance exercise on body composition, muscle strength and cardiometabolic health during dietary weight loss in people living with overweight or obesity: a systematic review and meta-analysis. BMJ Open Sport Exerc Med. 2025;11(3):e002363. doi:10.1136/bmjsem-2024-002363.",
+    "url": "https://eprints.gla.ac.uk/361857/2/361857.pdf",
+    "type": "系统综述",
+    "support": "25项RCT、1608名18–65岁BMI≥25成人：饮食减重加抗阻，对去脂体重保存、脂肪与力量部分结局有益。",
+    "limitations": "去脂体重不全是肌肉；力量证据低确定性，长期依从与≥6个月保存效果有限；不能承诺每个人越练秤上越轻。",
+    "reading_depth": "从作者大学官方库取得期刊已出版PDF；实读方法、主要结果、讨论局限及资助披露。原刊网页403未绕过，也未声称从原刊读取全文。",
+    "funding_disclosure": "作者未声明本研究特定资助；未声明利益冲突。",
+    "content_checked_at": "2026-10-30",
+    "doi": "10.1136/bmjsem-2024-002363",
+    "doi_url": "https://doi.org/10.1136/bmjsem-2024-002363"
+  },
+  {
+    "id": "NFW-S07",
+    "citation": "Ramirez-Campillo R, Andrade DC, Clemente FM, Afonso J, Pérez-Castilla A, Gentil P. A proposed model to test the hypothesis of exercise-induced localized fat reduction (spot reduction), including a systematic review with meta-analysis. Hum Mov. 2022;23(3):1–14. doi:10.5114/hm.2022.110373.",
+    "url": "https://hummov.awf.wroc.pl/pdf-143162-103926?filename=103926.pdf",
+    "type": "系统综述",
+    "support": "13项研究1158人，单侧肢体训练相对另一侧未显示汇总局部减脂优势。",
+    "limitations": "检索截至2021年；单侧肢体模型不能涵盖所有腹部方案或证明未来任何局部效应绝不可能。",
+    "reading_depth": "直接核读期刊PDF摘要、模型、方法和汇总结果；正式卷期为2022，不因2021在线而拼接年份；本次未完整核实末尾资助段。",
+    "funding_disclosure": "未完整核实原文资助段，不标作无产业关系。",
+    "content_checked_at": "2026-10-30",
+    "doi": "10.5114/hm.2022.110373",
+    "doi_url": "https://doi.org/10.5114/hm.2022.110373"
+  },
+  {
+    "id": "NFW-S08",
+    "citation": "Food and Drug Administration. Non-invasive body contouring technologies [Internet]. [cited 2026 Oct 30]. Available from: https://www.fda.gov/medical-devices/aesthetic-cosmetic-devices/non-invasive-body-contouring-technologies",
+    "url": "https://www.fda.gov/medical-devices/aesthetic-cosmetic-devices/non-invasive-body-contouring-technologies",
+    "type": "机构指导",
+    "support": "塑形用途与减重治疗有别；冷冻程序可有冻伤、反常性脂肪增生等，家用冷冻安全有效性未建立。",
+    "limitations": "美国器械监管信息不代表中国注册；不提供具体器械效果排名，也未用罕见并发症推断所有治疗必有害。",
+    "reading_depth": "实读用途、一般风险、冷冻原理/禁忌/各级并发症及家用警示；页面未可靠核定实际更新日，未填。",
+    "funding_disclosure": "机构公开指导；未列本页专项研究资助。",
+    "content_checked_at": "2026-10-30"
+  },
+  {
+    "id": "NFW-S09",
+    "citation": "National Institute of Mental Health. Eating disorders: what you need to know [Internet]. 2024 [cited 2026 Oct 30]. Available from: https://www.nimh.nih.gov/health/publications/eating-disorders",
+    "url": "https://www.nimh.nih.gov/health/publications/eating-disorders",
+    "type": "机构指导",
+    "support": "进食障碍可发生于不同体重、年龄与性别；失控暴食及催吐/泻药/禁食补偿需评估，营养与医疗支持有作用。",
+    "limitations": "不凭单一行为确诊，也不把所有节食当精神疾病；美国药品许可、就诊系统与求助号码未移植中国。",
+    "reading_depth": "直接实读各类型症状、躯体风险、治疗及就医入口；末尾标Revised 2024，未宣称2026更新。",
+    "funding_disclosure": "机构公开指导；未列本页专项研究资助。",
+    "content_checked_at": "2026-10-30"
+  }
+]

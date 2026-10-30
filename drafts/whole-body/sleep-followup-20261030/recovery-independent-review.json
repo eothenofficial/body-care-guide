@@ -1,0 +1,206 @@
+{
+  "checked_at": "2026-10-30",
+  "reviewer": "独立AI编辑 sleep_screen；不是临床医生",
+  "clinical_review_status": "not_clinically_reviewed",
+  "reviewed_file_sha256": {
+    "recovery-entries.json": "d783bda05141df3d4104b478fa5b8f1054141d7854b870d595e7c9f8417a357a",
+    "recovery-sources.json": "881a825885b93c4aa744b00e6059496a741b9828043a3cfddce46af7a05fee86"
+  },
+  "reviewed_fields": [
+    "title",
+    "summary",
+    "fields.cost",
+    "fields.plain",
+    "fields.benefit",
+    "fields.evidence",
+    "fields.sources",
+    "fields.notes",
+    "audience",
+    "clinical_review_status",
+    "content_checked_at"
+  ],
+  "entries": [
+    {
+      "id": "sleep-012",
+      "summary_length": 117,
+      "age_groups": [
+        "adult",
+        "older"
+      ],
+      "sexes": [
+        "all"
+      ],
+      "all_fields_read": true
+    },
+    {
+      "id": "sleep-015",
+      "summary_length": 113,
+      "age_groups": [
+        "adult",
+        "older"
+      ],
+      "sexes": [
+        "all"
+      ],
+      "all_fields_read": true
+    },
+    {
+      "id": "sleep-016",
+      "summary_length": 114,
+      "age_groups": [
+        "adult",
+        "older"
+      ],
+      "sexes": [
+        "all"
+      ],
+      "all_fields_read": true
+    }
+  ],
+  "source_records_read": [
+    "SLR-S01",
+    "SLR-S02",
+    "SLR-S03",
+    "SLR-S04",
+    "SLR-S05",
+    "SLR-S06",
+    "SLR-S07",
+    "SLR-S08",
+    "SLR-S09",
+    "SLR-S10",
+    "SLR-S11",
+    "SLR-S12",
+    "SLR-S13"
+  ],
+  "independently_opened": [
+    {
+      "url": "https://www.nhtsa.gov/risky-driving/drowsy-driving",
+      "depth": "实际读安全驾驶及短期干预全文，咖啡/能量饮料不能保证严重缺觉者无微睡眠；未用美国事故率外推个人。"
+    },
+    {
+      "url": "https://www.nhlbi.nih.gov/health/sleep-deprivation/healthy-sleep-habits",
+      "depth": "本代理本轮前面实际读习惯与轮班全文，含较早短小睡、20分钟参考、夜难睡者调整午睡及主睡眠；未把它当缺觉后恢复处方。"
+    },
+    {
+      "url": "https://www.fda.gov/consumers/consumer-updates/spilling-beans-how-much-caffeine-too-much",
+      "depth": "实读成年400mg、人群差异、标签/全来源、浓缩咖啡因及过量症状相关正文；400mg不是目标或保证。"
+    },
+    {
+      "url": "https://www.nhs.uk/conditions/insomnia/",
+      "depth": "实读症状、自护、药房/就诊与日期；常规起床和不困驾并列，不把3个月当就医等待期。"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4442216/",
+      "depth": "原AASM官网PDF本次取回受限，另读同文PMC公开全文共识、18–60岁范围、方法与资助段，核正式2015卷期DOI；没有冒称独立读过PDF。"
+    },
+    {
+      "url": "https://academic.oup.com/sleep/article/44/4/zsaa224/5959861",
+      "depth": "实际读取原刊完整摘要、题录及引言相邻相关段；83成人、5晚限制或36h全剥夺、4晚12h机会及恢复差异。未独立重审全部方法、资助或原始数据。"
+    },
+    {
+      "url": "https://healthquality.va.gov/HEALTHQUALITY/guidelines/CD/insomnia/I-OSA-CPG_2025-Guideline_final_20250915.pdf",
+      "depth": "实读182页PDF范围说明、建议10及印刷57–60页苯海拉明相关讨论；弱反对、短期5–28天混合结果、长期不足、抗胆碱及老年和驾驶风险；未通读182页。"
+    },
+    {
+      "url": "https://www.nhs.uk/medicines/diphenhydramine/about-diphenhydramine/",
+      "depth": "实际读全页介绍/关键事实、复方、嗜睡/酒精与2025-05-13日期。"
+    },
+    {
+      "url": "https://www.nhs.uk/medicines/diphenhydramine/who-can-and-cannot-take-diphenhydramine/",
+      "depth": "实际读全页禁忌/儿童/肝肾/青光眼/排尿/老年混乱与日期。"
+    },
+    {
+      "url": "https://www.nhs.uk/medicines/diphenhydramine/taking-or-using-diphenhydramine-with-other-medicines-and-herbal-supplements/",
+      "depth": "复核发现可补引，实际读全页药物/复方重复止痛、镇静叠加、补剂及2025-05-13日期，直接支持正文已有正确动作。"
+    },
+    {
+      "url": "https://www.nhs.uk/conditions/restless-legs-syndrome/",
+      "depth": "实际读全页症状、鉴别线索、轻走/伸展/按摩、就诊、病因与治疗、2025-09-22日期；未复制其所有药物选择。"
+    },
+    {
+      "url": "https://link.springer.com/article/10.5664/jcsm.11390",
+      "depth": "实际读公开完整摘要、Good Practice Statement、推荐表及作者/卷期DOI；铁状态与加重因素为共识，不给读者自开铁剂剂量。"
+    }
+  ],
+  "access_limits": [
+    "AASM官方RLS发布页本次独立访问受限；已读source记录，但其资助披露不声称由本代理独立取得。原刊公开临床内容与NHS已独立交核。",
+    "原AASM2015官网PDF受限，同文PMC公开原文支持共识；未绕过访问限制。"
+  ],
+  "findings": [
+    {
+      "id": "REC-01",
+      "entries": [
+        "sleep-012"
+      ],
+      "status": "passed",
+      "finding": "先撤危险任务/通宵先安全休息，之后尽量保留作息框架；没有为了守起床时间要求缺觉者硬撑。成人短小睡参考与允许恢复睡眠超过8h分开。"
+    },
+    {
+      "id": "REC-02",
+      "entries": [
+        "sleep-012"
+      ],
+      "status": "passed",
+      "finding": "400mg是多数成人总量参考，不是缺觉加量目标；习惯用量不自动禁掉属于临床安全信息下的编辑取舍，非新试验证实缺觉专用剂量。没有以主观提神许可驾驶。"
+    },
+    {
+      "id": "REC-03",
+      "entries": [
+        "sleep-012"
+      ],
+      "status": "passed",
+      "finding": "慢性限制睡眠与一次普通晚睡没有混为同等损伤；恢复试验支持不同指标不同步，不推永久损伤或固定补觉小时数。"
+    },
+    {
+      "id": "REC-04",
+      "entries": [
+        "sleep-015"
+      ],
+      "status": "passed",
+      "finding": "正确限定苯海拉明/镇静抗组胺的慢性失眠用途，弱反对不写成所有短期使用无效；不教加量、不擅停其他适应证药、不复制英国儿童或销售许可。"
+    },
+    {
+      "id": "REC-05",
+      "entries": [
+        "sleep-015"
+      ],
+      "status": "resolved_and_reread",
+      "finding": "不叠复方同成分或镇静药的动作正确；S08/S09所指页面不直接完整展示该交互，建议新增NHS Taking or using...专页并在对应两段引用。已把精确URL及实际核读结果发给整合者；不是临床建议错误。",
+      "resolution": "整合者新增已独立核读的NHS交互专页SLR-S13；正文第一段和末段及来源列表均引入；已回读完整sleep-015与SLR-S13来源，核日期/支持/限制，没有扩成所有配伍禁用。"
+    },
+    {
+      "id": "REC-06",
+      "entries": [
+        "sleep-016"
+      ],
+      "status": "passed",
+      "finding": "症状时段/静止/移动暂缓仅作评估入口；与抽筋神经病相似不能自诊。铁蛋白和转铁饱和度会改变治疗，不把共识阈值公开成自开铁或静脉铁处方；孕期儿童明确不套成人方案。"
+    },
+    {
+      "id": "REC-07",
+      "entries": [
+        "sleep-012",
+        "sleep-015",
+        "sleep-016"
+      ],
+      "status": "passed",
+      "finding": "摘要100–180字纯文本，六字段无空泛费用，adult/older all与实际核心动作相符；没有不存在的配图或作者过程语言。"
+    },
+    {
+      "id": "REC-08",
+      "entries": [
+        "sleep-015"
+      ],
+      "status": "resolved_and_reread",
+      "finding": "VA指南删除无法确认具体日的2025-01-01 reviewed_at；题录仍如实保留印刷January2025，未改变临床推荐。"
+    }
+  ],
+  "blocking_unresolved": [],
+  "remaining_editorial_requests": [],
+  "disposition": "passed_independent_ai_editorial_review_after_citation_patch",
+  "initial_reviewed_file_sha256": {
+    "recovery-entries.json": "ca66c7785cef7b894a262279ba582b287faf3994bf94e9e6c5a3e5691ae3d2e0",
+    "recovery-sources.json": "d229044f1ceb6b095ba152a84dd6fcc5d725258fee8c5e70908e08f56e160368"
+  },
+  "final_recheck": "2026-10-30：只回读变更后的sleep-015整条、SLR-S13整项、SLR-S07日期元数据，结合先前全3条逐句审读；记录最终冻结输入SHA，未修改原稿。"
+}

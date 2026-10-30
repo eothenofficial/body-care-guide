@@ -1,0 +1,135 @@
+{
+  "checked_at": "2026-10-30",
+  "reviewer": "independent AI editorial reviewer sleep_meals",
+  "clinical_review_status": "not_clinically_reviewed",
+  "entry_ids": [
+    "sleep-009",
+    "sleep-013"
+  ],
+  "input_sha256": {
+    "exercise-entries.json": "19439c50ab7fb86a68699b5183981faa933e6cd7689284d9663b7cffb2aa4c7f",
+    "exercise-sources.json": "18d16ffac3a032cce092c6211bf1d601e454be34ff7db29e6eee088fdb9c21ba"
+  },
+  "actual_read_fields": [
+    "title",
+    "summary",
+    "fields.cost",
+    "fields.plain",
+    "fields.benefit",
+    "fields.evidence",
+    "fields.sources",
+    "fields.notes",
+    "audience.age_groups",
+    "audience.sexes",
+    "audience.scope_note",
+    "audience.safety_pin",
+    "source.citation",
+    "source.support",
+    "source.limitations",
+    "source.reading_depth",
+    "source.funding_disclosure"
+  ],
+  "independent_primary_reading": [
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40234380/",
+      "scope": "完整题录、摘要、Competing interests及habitual/actual两组图注；14,689参与者与4,084,354人夜，四小时观察参考与非随机设计一致。",
+      "limitations": "Nature当前请求被身份跳转阻断，PMC当前为校验页，未绕过；本次独立审读未取得完整Nature全文，不能声称独立重读全部方法或致谢。"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34416428/",
+      "scope": "完整摘要、四位作者、2021卷60文章101535、DOI与利益声明；15项急性试验194人、18–50岁良好睡眠者、0.5–4h REM变化与2–4h总体结论分开。",
+      "limitations": "只读摘要与题录，不称完整综述全文或15项原试验均读。"
+    },
+    {
+      "url": "https://link.springer.com/article/10.1007/s40279-022-01706-y",
+      "scope": "原刊摘要、2.1/2.2方法、4.3/4.4限制与结论、Funding/Conflict及正式书目。研究排除连续多晚缺觉、兴奋剂和已恢复睡眠后的任务；控制者>6h与缺觉者≤6h是研究纳入定义。89%男性、任务和时间异质性很高。",
+      "limitations": "未重析所有原始试验；未将平均表现下降推到个人伤害率或睡眠禁练阈值。"
+    },
+    {
+      "url": "https://www.nhlbi.nih.gov/health/sleep-deprivation/healthy-sleep-habits",
+      "scope": "本代理此前同轮任务已实读全部习惯/小睡/轮班相关正文；一般指导说睡前1h安静、避免intense exercise。",
+      "limitations": "并非最优截止时间RCT或所有NIH页面的一致口径。"
+    },
+    {
+      "url": "https://www.nhs.uk/conditions/insomnia/",
+      "scope": "直接读取症状、Do/Do not、运动4h、勿困倦驾驶、坏一夜后规律时点与就诊等段。",
+      "limitations": "失眠患者页、未区分强度；不能外推所有健康人4h内轻活动有害，也不把禁午睡移给所有缺觉者。"
+    },
+    {
+      "url": "https://www.nhlbi.nih.gov/health/insomnia/treatment",
+      "scope": "独立打开Healthy sleep habits段，明确白天运动至少距上床5–6h；同页慢性失眠治疗与sleep hygiene关系可辨。",
+      "limitations": "与同机构一般睡眠页面的睡前1h避免剧烈并非统一一条截止线；仅记录差异，未用它覆盖原始研究结论。"
+    },
+    {
+      "url": "https://www.nhlbi.nih.gov/health/sleep-deprivation/health-effects",
+      "scope": "读取白天困倦/反应/决策/微睡眠与风险自觉不足相关正文及实际更新日2022-06-15。",
+      "limitations": "不以长期关联恐吓一晚失眠，也不作运动伤害率试验。"
+    },
+    {
+      "url": "https://www.nhtsa.gov/risky-driving/drowsy-driving",
+      "scope": "Tips to drive alert与Short-term interventions段，严重缺觉咖啡后仍微睡眠、短暂提神不补眠。",
+      "limitations": "作用是通勤/警觉安全，不证明某个训练强度安全或某补剂恢复体能。"
+    }
+  ],
+  "checks": [
+    {
+      "id": "exercise-timing",
+      "status": "passed",
+      "detail": "sleep-009从个人预计入睡时点倒推，区分强度与时长，4h明示观察性参考而非生理开关；有条件先提前/减量合理，未写固定8/9点截止。"
+    },
+    {
+      "id": "causality-and-null",
+      "status": "passed",
+      "detail": "2025研究关联未写因果；2021健康好睡人群未显著恶化未当严格等效或老年/失眠保证，REM微小变化没有推成疾病。"
+    },
+    {
+      "id": "guideline-disagreement",
+      "status": "passed",
+      "detail": "正文准确限定NHS失眠4h与NHLBI一般习惯页1h；来源限制和实读范围同时记录NHLBI失眠治疗页另5–6h，不声称机构口径一致或存在唯一最优间隔。"
+    },
+    {
+      "id": "sleep-loss-training",
+      "status": "passed",
+      "detail": "sleep-013区分通宵/明显困倦与偶发稍少睡；改轻活动及延后高风险项目明示保守编辑取舍，而非安全RCT、个人损伤概率或统一禁动时长。"
+    },
+    {
+      "id": "morning-exercise-and-caffeine",
+      "status": "passed",
+      "detail": "没有由AM较少受影响建议早起进一步挤睡；浓咖啡或训练前补剂不当恢复许可证，未从无咖啡因试验推咖啡因全部无表现收益。"
+    },
+    {
+      "id": "audience-and-safety",
+      "status": "passed",
+      "detail": "成人/老年入口以一般安全取舍为主，scope_note明确较年轻健康人证据不足以替老人或病者开量；没有无依据套儿童。症状急症有activity-001链接，通勤及咖啡因亦链接既有已核条目。"
+    }
+  ],
+  "nonblocking_editorial_suggestions": [
+    {
+      "target": "SLX-S03 limitations 或整合审计",
+      "suggestion": "可补一句NHLBI失眠治疗页另有5–6h说法，表明同机构不同患者教育页也不构成统一截止线；不必把1/4/5–6h全部堆到读者正文。",
+      "reason": "避免后续复用者把所举两个页面误读为全部机构口径。",
+      "status": "resolved_and_reread",
+      "resolution": "SLX-S03 limitations与reading_depth已明确另一个NHLBI失眠页5–6h口径，正文限定一般睡眠习惯页而非全机构。与独立已核原文一致。"
+    },
+    {
+      "target": "sleep-009 plain",
+      "suggestion": "若保留“心跳迟迟平复不了”，可附短句：伴胸痛、晕厥或明显气短按activity-001处理；不能只改运动时点。",
+      "reason": "这不是当前医学阻断，但该条独立阅读时可更清楚区分训练后兴奋与急症。",
+      "status": "resolved_and_reread",
+      "resolution": "sleep-009正文已新增伴胸痛、晕厥或明显气短停止运动、按activity-001求助，明确不能只调整时间等待观察。"
+    }
+  ],
+  "blocking_unresolved": [],
+  "disposition": "ready_for_root_integration_after_independent_ai_editorial_review",
+  "no_edits_to_authored_inputs": true,
+  "previously_reviewed_sha256": {
+    "exercise-entries.json": "7ca17c405a57a33fec24661daa15ab4469c2fd1d93a20b6064e9bd37bf688e3b",
+    "exercise-sources.json": "b37ef8a7dfde6555b56cca4258cfdb5b7ed47fe071a835681b6aa79186392ab3"
+  },
+  "final_revision_reread": [
+    "重新读取sleep-009与sleep-013全文及受改来源SLX-S03，旧医学限定均保留。",
+    "009急症跨链明确停止和求助；013收益改“提神产品”，避免“兴奋剂”容易引起药物概念混淆，不扩大临床判断。",
+    "逐文件SHA256已实际计算且与本次作者冻结值一致。"
+  ],
+  "remaining_literal_patches": []
+}

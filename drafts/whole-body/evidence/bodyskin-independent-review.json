@@ -1,0 +1,94 @@
+{
+  "status": "independent_reviews_merged_not_clinical_review",
+  "blocking_unresolved": [],
+  "clinical_review_status": "not_clinically_reviewed",
+  "baseline": {
+    "status": "independent_ai_editorial_review_passed",
+    "blocking_unresolved": [],
+    "clinical_review_status": "not_clinically_reviewed",
+    "reviewed_on": "2026-10-29",
+    "scope": "root独立读22条正文；实际打开并核读Cochrane硅酮公众摘要、RCR瘢痕建议/年龄远期风险段、DEGRO4.3.3、5FU及2026放疗综述PubMed摘要/题录、锶90试验原页与药监EGF原文转发、昆士兰光电风险页。不是对31项来源的逐篇全文重审或临床签审。",
+    "checks": [
+      "普通瘢痕、肥厚性瘢痕与越界生长瘢痕疙瘩分开，选择观察与就诊有具体线索",
+      "硅酮预防/治疗、贴片/凝胶不互借证据，既有瘢痕疗效不确定保留",
+      "注射、压力、冷冻、激光、手术和放疗按目标与局限写，无通用剂量或虚构个体复发率",
+      "不同射线技术与局部适用场景区分，未显著差异不当作等效；放疗术前协调不主张任意延误",
+      "EGF/康复新创面愈合不外推既有瘢痕消退，未找到不等于已证明无效",
+      "光电操作保留肤色、用药、病变和眼保护边界，伤口急症不延后到祛疤"
+    ],
+    "resolutions": [
+      {
+        "entry": "bodyskin-021",
+        "action": "去掉方法报告存在问题且对象不匹配的84人烧伤研究作为建议引用，保留排除记录；缩窄到本轮未找到可靠直接证据的购买结论，不作全面无效判定。"
+      }
+    ]
+  },
+  "extension_reviews": {
+    "body-gaps": {
+      "status": "passed_after_author_clarification_not_clinically_reviewed",
+      "reviewed_on": "2026-10-29",
+      "reviewer": "independent_ai_whole_neck",
+      "extension": "body-gaps",
+      "entries_reviewed": 3,
+      "source_records_reviewed": 5,
+      "blocking_unresolved": [],
+      "resolved_findings": [
+        {
+          "entry": "GAPS-S01",
+          "finding": "泛化机构资助披露遗漏网页明确支持。",
+          "resolution": "已实际重读最终funding_disclosure，Sanofi/Regeneron支持与AAD独立开发均记录，不据此自动否定建议。",
+          "status": "resolved"
+        },
+        {
+          "entry": "bodygap-002",
+          "finding": "同期接触者可更明确，避免只找也痒者。",
+          "resolution": "已重读最终正文，家庭与密切接触者按医嘱同时处理，含没有瘙痒的人，未扩大同楼所有人或照搬儿童剂量。",
+          "status": "resolved"
+        }
+      ],
+      "actually_read": {
+        "local_files": [
+          "body-gaps-entries.json全部3条及002最终修订",
+          "body-gaps-sources.json全部5项及GAPS-S01最终披露",
+          "body-gaps-audit.json全部元数据/范围；BODYSKIN来源表解析引用"
+        ],
+        "primary_sections": {
+          "GAPS-S01": "AAD2026Jul13风团口咽肿/呼吸吞咽/晕厥急评、轻症非嗜睡抗组胺、广泛与6周就诊、病史/选择性检查、页末日期，及AAD独立开发和Sanofi/Regeneron支持。未将全部新药器械清单照搬。",
+          "GAPS-S02": "CDC2024夜痒/常见部位/无症状可传播、幼儿部位不同；症状不作自诊。",
+          "GAPS-S03": "CDC2024杀疥螨药/按说明、衣物热洗或密封至少72h至1周、不喷杀虫剂、治后可痒数周与2至4周/新疥道新疹复评、感染及时求助。",
+          "GAPS-S04": "CDC2023家庭/近接触者同时处理、前3日用品清洁、不能洗的密封数日至1周；不套机构暴发流程。",
+          "GAPS-S05": "中国2023规范第1至10条：暴露定义分级、未出血抓擦/黏膜与蝙蝠、普通皮肤肥皂水和流动清水交替约15min并净残留、特殊眼内伤无菌盐水/通常不用消毒剂、抗菌和破伤风等；网页Sep16与署发Sep13分开。未重核完整免疫程序。",
+          "BODYSKIN-S01": "NHS2026Apr2 cuts：大出血先压迫、止不住急诊，深伤/脸部重伤/异物需处理；不让一般清洁覆盖狂犬特殊规范。"
+        },
+        "not_claimed": "未读全部原始试验或地方门诊现行操作细则；不是临床审签。"
+      },
+      "clinical_reasoning_checks": [
+        "风团严重反应优先急救，不等涂药或6周，未给儿童孕哺通用剂量。",
+        "疥疮不能靠夜痒自诊；患者/接触者/用品同期安排，治后痒不立即视失败，新疹/感染/长痒需复评。",
+        "狂犬暴露不凭无出血或动物外观排除，早伤口处理和暴露门诊评估，不等症状/感染，不把抗生素替疫苗。",
+        "普通皮肤约15min与眼内伤特殊处置分开，不教眼内灌肥皂消毒剂；大出血不为凑冲洗时长延误。",
+        "署发与上网日期区分，不给家庭自行暴露判级后开疫苗/免疫制剂剂量。"
+      ],
+      "structural_checks": {
+        "errors": [],
+        "all_source_tokens_resolve": true,
+        "all_local_sources_used": true,
+        "summary_lengths": {
+          "bodygap-001": 126,
+          "bodygap-002": 121,
+          "bodygap-003": 131
+        },
+        "all_not_clinically_reviewed": true,
+        "all_costs_blank": true
+      },
+      "input_sha256": {
+        "body-gaps-entries.json": "e2d37e5c355c5ef663ff2de56f41c0bd245c2044e5ee161bddbb73775a95ecbe",
+        "body-gaps-sources.json": "b6ac0e88a8d0964679d62989035cd821b17d7557b636abc37b73a1daef385872",
+        "body-gaps-audit.json": "ad885e1a87c7a947f47bce4e1b061ce62a81804e7f1e3282be48427280f94431"
+      },
+      "clinical_review_status": "not_clinically_reviewed",
+      "conclusion": "3条关键分流与护理在实际读取原文范围内，接触者及资助补强已核修订；无未决阻断。"
+    }
+  },
+  "integration_note": "已分别核新增临床分支；随后校验合并后引用、单元、人群与实际输出，不能冒充重新逐篇临床签审。"
+}

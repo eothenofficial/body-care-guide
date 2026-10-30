@@ -1,0 +1,172 @@
+{
+  "checked_on": "2026-10-29",
+  "role": "独立案头证据与引用复核；不是临床专家签审",
+  "clinical_review_status": "not_clinically_reviewed",
+  "scope": [
+    "chapters/oral.json全文",
+    "chapters/lips.json全文",
+    "evidence/oral-lips-sources.json题录及关键支持关系"
+  ],
+  "overall": "主要急症分流、口腔溃疡三周检查、含氟刷牙和唇疱疹传播防护判断，与实际打开的机构原文基本一致。发现1项术语、1项用药复评时点、1项作者首字母必须改；另2处需补直接来源，不能仅依笼统参考。",
+  "must_change": [
+    {
+      "id": "R-01",
+      "priority": "P2",
+      "target": "oral-014.fields.plain",
+      "issue": "sodium lauryl sulphate少了钠，不能准确对应牙膏标签。",
+      "current": "不含月桂醇硫酸酯的牙膏",
+      "suggested": "不含月桂醇硫酸酯钠（SLS，也称十二烷基硫酸钠）的牙膏",
+      "basis": "NHS Mouth ulcers原文明确sodium lauryl sulphate。",
+      "url": "https://www.nhs.uk/conditions/mouth-ulcers/"
+    },
+    {
+      "id": "R-02",
+      "priority": "P2",
+      "target": "oral-006.fields.plain",
+      "issue": "现文只说疗程后仍不改善；NHS同页另要求用药一周仍不改善即复评。若疗程较长，现文可能让读者等待过久。",
+      "current": "疗程后仍不改善或任何时候恶化，都应回到检查病因",
+      "suggested": "按方案使用约一周仍没有改善，或任何时候加重，都联系牙科复评，不为凑完较长疗程而继续等；是否停用按具体指导",
+      "basis": "NHS原页How to use dental treatments明确one week/no improve或any time worse联系，另有疗程完成但未改善提示；应一并呈现。",
+      "url": "https://www.nhs.uk/medicines/chlorhexidine/how-and-when-to-use-chlorhexidine/"
+    },
+    {
+      "id": "R-03",
+      "priority": "P2",
+      "target": "ORAL-S02.citation",
+      "issue": "第4作者Marinho首字母少一个C。",
+      "current": "Marinho VC",
+      "suggested": "Marinho VCC",
+      "basis": "PubMed作者为Valeria Cc Marinho；Vancouver缩写VCC。标题、其他作者、2019;3(3):CD007868和DOI已核对。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30829399/"
+    },
+    {
+      "id": "R-04",
+      "priority": "P2",
+      "target": "oral-018.fields.plain与来源表",
+      "issue": "别把阿司匹林贴牙龈判断正确，但当前单引NHS Dental abscess页没有这一具体提醒。",
+      "suggested": "在该句补引已实际打开的ADA Dental Emergencies，并加入来源对象；不需删除有用安全动作。",
+      "basis": "ADA原页toothaches段明确Do not put aspirin on the aching tooth or gum tissues。",
+      "url": "https://www.mouthhealthy.org/all-topics-a-z/dental-emergencies/"
+    },
+    {
+      "id": "R-05",
+      "priority": "P2",
+      "target": "lips-004.fields.plain与来源表",
+      "issue": "固定一处破损、出血或肿块需要检查是合理的，但现引AAD/NHS干唇页对肿块没有直接支持。",
+      "suggested": "持续溃破或肿块句补引NHS Symptoms of mouth cancer；明确这些表现有其他常见原因，检查不等于诊断癌。粗糙与普通护理2–3周不改善仍由AAD干裂唇支持。",
+      "basis": "NHS原文包括lump on lip、持续口内溃疡/痛和就医，并明确症状不等于癌。",
+      "url": "https://www.nhs.uk/conditions/mouth-cancer/symptoms/"
+    }
+  ],
+  "verified_decisions": [
+    {
+      "entry": "oral-018",
+      "finding": "脸肿发热疑脓肿需紧急牙科；呼吸吞咽说话困难、大肿胀、张口明显困难、眼肿痛或视力异常急诊，与NHS一致；引流/根管/拔牙处理病源，不将抗生素当唯一处理。",
+      "url": "https://www.nhs.uk/conditions/dental-abscess/"
+    },
+    {
+      "entry": "oral-014",
+      "finding": "常见溃疡1–2周可愈；超过3周或不寻常/出血等检查，三周不是有危险表现也等满，与NHS一致。未把反复口疮一律当B族缺乏。",
+      "url": "https://www.nhs.uk/conditions/mouth-ulcers/"
+    },
+    {
+      "entry": "oral-001",
+      "finding": "每日两次约两分钟、睡前一次、成人含氟至少1350ppm，刷后吐而不立即水漱，与NHS一致。本文1350–1500作可选择范围未写成中国法定门槛；高浓度未自行处方。",
+      "url": "https://www.nhs.uk/live-well/healthy-teeth-and-gums/how-to-keep-your-teeth-clean/"
+    },
+    {
+      "entry": "oral-001/ORAL-S02",
+      "finding": "Cochrane成人有1000/1100ppm对无氟的直接资料，成人结果确定性中等；不能把所有浓度效果视为等同或越高越好。当前正文没有挪用儿童数字，属可接受表述；项目A不应被读成GRADE高确定性。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30829399/"
+    },
+    {
+      "entry": "lips-005",
+      "finding": "复发前驱期尽早抗病毒类别、严重频繁考虑口服；前驱到全愈合避免亲吻/口交、碰后洗手，NHS/AAD直接支持。眼附近、免疫低下等需评估；眼痛畏光视变不自己涂唇膏进眼，处理妥当。",
+      "urls": [
+        "https://www.nhs.uk/conditions/cold-sores/",
+        "https://www.aad.org/public/diseases/a-z/cold-sores-treatment"
+      ]
+    },
+    {
+      "entry": "lips-006",
+      "finding": "口角炎常有唾液刺激、局部感染或其他原因；不默认缺B，不自行堆抗感染/激素，和医院病因路径一致；没有把成簇疱疹误当普通口角裂。",
+      "url": "https://my.clevelandclinic.org/health/diseases/21470-angular-cheilitis"
+    },
+    {
+      "entry": "oral-010",
+      "finding": "贴面仅前面与冠整个牙体区别、釉质磨除不可逆、先处理龋/牙龈问题、后续修换，ADA原页直接支持。",
+      "url": "https://www.mouthhealthy.org/all-topics-a-z/veneers/"
+    },
+    {
+      "entry": "ORAL-S04/ORAL-S05",
+      "finding": "2篇Cochrane的题名、前六作者、卷期文章号及DOI与实际打开的PubMed一致；电动2014;2014(6)是实际索引形式，不应擅自改成6(6)。",
+      "urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/24934383/",
+        "https://pubmed.ncbi.nlm.nih.gov/30968949/"
+      ]
+    }
+  ],
+  "metadata_enrichment_optional": [
+    {
+      "source_id": "ORAL-S01",
+      "verified_date": "2025 Jun 30",
+      "basis": "NHS原页Page last reviewed，非copyright。"
+    },
+    {
+      "source_id": "ORAL-S18",
+      "verified_date": "2024 Mar 11",
+      "basis": "NHS原页Page last reviewed。"
+    },
+    {
+      "source_id": "ORAL-S22",
+      "verified_date": "2026 Mar 18",
+      "basis": "NHS原页Page last reviewed。"
+    },
+    {
+      "source_id": "LIP-S05",
+      "verified_date": "2024 Feb 1",
+      "basis": "AAD原页Last updated 2/1/24。"
+    },
+    {
+      "source_id": "LIP-S06",
+      "verified_date": "2021 Jun 15",
+      "basis": "医院原页Last updated；如补日期要明确实际年代，不冒称近期综述。"
+    }
+  ],
+  "suggested_source_additions": [
+    {
+      "id": "ORAL-ADD-01",
+      "citation": "American Dental Association. Dental emergencies [Internet]. [cited 2026 Oct 29]. Available from: https://www.mouthhealthy.org/all-topics-a-z/dental-emergencies",
+      "url": "https://www.mouthhealthy.org/all-topics-a-z/dental-emergencies",
+      "type": "专业协会患者指导",
+      "support": "牙痛时不要把阿司匹林放在痛牙或牙龈表面。",
+      "limitations": "仅引用此护理动作，不复制成人牙外伤再植步骤到脓肿条目。",
+      "reading_depth": "2026-10-29独立复核者直接打开完整短页，审读toothaches段。",
+      "content_checked_at": "2026-10-29"
+    },
+    {
+      "id": "LIP-ADD-01",
+      "citation": "National Health Service. Symptoms of mouth cancer [Internet]. 2023 Jun 19 [cited 2026 Oct 29]. Available from: https://www.nhs.uk/conditions/mouth-cancer/symptoms/",
+      "url": "https://www.nhs.uk/conditions/mouth-cancer/symptoms/",
+      "type": "公共医疗机构症状分流",
+      "support": "持续口内溃疡与唇部肿块应检查；症状也常由其他原因造成，不能据此自诊癌。",
+      "limitations": "不是凭干裂判断癌；页审阅日2023而预定2026复审，不冒称已复审；只用稳定分流事实。",
+      "reading_depth": "2026-10-29直接打开原页并审读症状、就医及非特异性说明。",
+      "content_checked_at": "2026-10-29"
+    }
+  ],
+  "mechanical_checks": {
+    "chapters": {
+      "oral": 18,
+      "lips": 6
+    },
+    "source_count": 32,
+    "all_inline_citations_have_sources": true,
+    "missing_source_ids": []
+  },
+  "limits": [
+    "本次独立核原文集中在高风险与用户点名判断，不是重做所有原始研究。",
+    "PubMed核的是题录和摘要；本次未声称全文系统综述已通读。",
+    "没有修改其他代理正文或题录，由root整合并再次校验。"
+  ]
+}

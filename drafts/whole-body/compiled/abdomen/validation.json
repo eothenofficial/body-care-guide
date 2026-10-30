@@ -1,0 +1,12 @@
+{
+  "part": "abdomen",
+  "status": "passed_structural_and_export_checks",
+  "entries": 7,
+  "sources": 11,
+  "standalone_html_sha256": "1c1ec5b6aef2b3cd02290c8fbc4734c2bd937461f39eeb97f2b168923726bc89",
+  "source_graph_resolves": true,
+  "export_data_equal": true,
+  "all_audience_ranges_retained": true,
+  "canonical_content_unchanged": true,
+  "clinical_review_status": "not_clinically_reviewed"
+}

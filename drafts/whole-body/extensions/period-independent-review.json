@@ -1,0 +1,99 @@
+{
+  "extension_id": "period",
+  "reviewer": "independent_AI_editor_whole_chest",
+  "checked_at": "2026-10-29",
+  "status": "passed_after_metadata_corrections_not_clinical_review",
+  "clinical_review_status": "not_clinically_reviewed",
+  "blocking_unresolved": [],
+  "files_read": [
+    "drafts\\whole-body\\extensions\\period-entries.json",
+    "drafts\\whole-body\\extensions\\period-sources.json",
+    "drafts\\whole-body\\extensions\\period-audit.json"
+  ],
+  "actual_reading_scope": {
+    "entries": "全部10条标题、summary、六字段、年龄/性别/急症标识及来源别名。",
+    "source_records": "全部20项引用、支持范围、限制、阅读深度及资助说明。",
+    "original_sources": "独立实际打开全部20项对应原页并核相关段；S20 DOI直连失败，另打开PubMed PMID38431257及PMC11081833正文交叉核。",
+    "pdf": "S07官方163页PDF实际读封面/版次、修订表信息和PDF第98—100页(印刷79—81)13.3—13.5及相关证据段。",
+    "manufacturer_ifu": "S05 Mooncup网页主体及插入/位置/取出FAQ(4—8小时、捏杯底/沿壁解除密封)；S06 Flex网页具体碟插取、可复用/一次性、12小时、清洗和月度煮10分钟、特殊拉环杯解释。未读其外链完整PDF，不以营销FAQ证明独立疗效。",
+    "study": "S20 PubMed核全部作者/题名/2024年134卷110415文章号和DOI；PMC读设计、用杯暴露记录与中途劝停、结果/表2—4、讨论局限及资助利益声明；未重算数据或审全部补充表。"
+  },
+  "checks_passed": [
+    {
+      "focus": "杯/碟结构和取出",
+      "finding": "004明确普通钟形杯先解除密封、不能抓柄硬拽；特殊拉环按型号。碟托前缘、较水平移出，没将两者混同或笼统全部拉柄；碟不避孕/防STI。"
+    },
+    {
+      "focus": "时限/清洗/消毒",
+      "finding": "003棉条最低够用吸收量、4—8小时/最多8小时；005 Mooncup4—8与Flex可复用碟每12小时仅型号示例，以实际说明为准；满前排空，自动漏一点不当取出清洗；一次性不复用、煮洗不泛化。"
+    },
+    {
+      "focus": "IUD合用证据推理",
+      "finding": "006保持可能风险而非统一因果百分比；2024随机的是两种铜IUD，不是用杯。NTCu380-Mini和TCu380A总体差异/意外自拔风险区别被保留，未套激素IUD；碟30人样本不足不等于绝无研究/零风险。"
+    },
+    {
+      "focus": "IUD尾丝与保护",
+      "finding": "006线长/摸不到/摸到硬装置检查位置，确认前屏障或避免无保护，近期无保护及时问EC；不自行剪线，先解除杯密封，未把等几周当永远无风险。"
+    },
+    {
+      "focus": "TSS急症与遗留",
+      "finding": "001标题和summary将发热、呕吐/腹泻、皮疹或头晕按任一可疑情况立即求助，不等症状全齐；意识/呼吸异常/晕厥急救，取不出不拖延，005遗留不用镊钳且全身不适紧急就医。"
+    },
+    {
+      "focus": "经血/用品营销",
+      "finding": "颜色限通常月经内轻量可粉褐；没有颜色诊断炎症/体质或用品草本/负离子/香味防病功效。香型刺激停用，湿厕纸/香味不被描写为疾病预防。"
+    },
+    {
+      "focus": "经量和年龄",
+      "finding": "008结合浸透及功能影响而非卫生性勤换，突增或伴晕弱紧急评估；青少年鼻血/淤青提示凝血评估，成人检查不套所有初潮后人群。绝经后血即使少/一次需查。"
+    },
+    {
+      "focus": "止痛药边界",
+      "finding": "009口服布洛芬限定18+无禁忌按本地说明，解释NSAID；孕备孕哺乳、肾心肝病/溃疡/过敏/抗凝另核，不叠加同类。热敷防烫、不将普通痛经自护覆盖剧痛或妊娠痛。"
+    },
+    {
+      "focus": "宫外孕与早阴性",
+      "finding": "010不以尚无阳性、褐色少量血或症状不全排除；可能妊娠伴痛血及时检查，突发剧痛/明显晕厥及肩尖异常紧急求助，不等大出血或热敷止痛后决定。"
+    },
+    {
+      "focus": "引用与技术",
+      "finding": "20项别名无缺失或孤立；DOI格式10.1016/j.contraception.2024.110415与PubMed一致，6作者后et al正确；summary131—143字符且独立、无引文/表格；cost全部空。"
+    }
+  ],
+  "nonblocking_suggestions": [
+    {
+      "id": "period-meta-01",
+      "location": "PERIOD-S11 citation/limitations",
+      "finding": "独立实读NHS Heavy periods原页页尾有Page last reviewed: 19 September 2024；当前citation没日期且limitations说未核到明确更新日。",
+      "suggestion": "补2024 Sep19，移除未核到日期句；不影响正文治疗与分流结论。",
+      "status": "applied_and_reread_by_independent_reviewer_with_root_authorization"
+    },
+    {
+      "id": "period-meta-02",
+      "location": "PERIOD-S19 citation/reading_depth",
+      "finding": "RCH原页同时写Reviewed August 2026和Updated July 2025。",
+      "suggestion": "可按medical review引用2026Aug，限制中注明页面还列2025July更新，避免冒称整篇首次发布2026。",
+      "status": "applied_and_reread_by_independent_reviewer_with_root_authorization"
+    },
+    {
+      "id": "period-meta-03",
+      "location": "PERIOD-S07 funding_note",
+      "finding": "FSRH PDF封面P1明确FSRH向CEU提供本指南制作资助；现写未核本页专项资助。",
+      "suggestion": "可改记FSRH支持CEU指南制作；未对所有原始研究重做资助审计。",
+      "status": "applied_and_reread_by_independent_reviewer_with_root_authorization"
+    },
+    {
+      "id": "period-language-01",
+      "location": "period-001 plain首句",
+      "finding": "标题及summary已清楚任一风险信号立即求助；正文‘突然发热并明显不适、呕吐腹泻、皮疹或头晕’仍可读出首项并列语感。",
+      "suggestion": "可在编辑整合时写‘突然发热，或出现呕吐腹泻、皮疹、明显头晕等新全身不适’以消除阅读歧义；当前后文明确不等全齐，因此非临床阻断。",
+      "status": "optional_copy_edit"
+    }
+  ],
+  "limits": "本复核为独立AI资料与编辑审核，不是临床医生签审、注册审评、个体诊断或医疗处方。没有审重全部源引用的试验或厂商外链PDF。",
+  "file_sha256": {
+    "period-entries.json": "40ae48beb3c003c84121833180cb49d35f89d5fa862550c9b2208810cbd4c7bf",
+    "period-sources.json": "aad5d0d719ac887264d19668589726dbf6e0aa9599a0379d30b5329b19a3b153",
+    "period-audit.json": "c60770e03cc469a4f0d30d16dfd1bc01b4eda1a1c0f1f4c75ca8c0eb10a4b6ed"
+  }
+}

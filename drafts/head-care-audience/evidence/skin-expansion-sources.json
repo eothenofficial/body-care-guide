@@ -1,0 +1,96 @@
+[
+  {
+    "id": "SKINNEW-S01",
+    "citation": "American Academy of Dermatology Association. What can get rid of age spots? [Internet]. [cited 2026 Oct 29]. Available from: https://www.aad.org/public/cosmetic/age-spots-marks/get-rid-spots",
+    "url": "https://www.aad.org/public/cosmetic/age-spots-marks/get-rid-spots",
+    "type": "专业机构原始患者指导",
+    "support": "先确认晒斑性质；外用与操作选择及色沉等风险。",
+    "limitations": "只取治疗方向，不采价格、次数或原页引用研究的百分比。",
+    "reading_depth": "直接核读诊断、外用、操作风险和防晒段，未读其全部引文。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "SKINNEW-S02",
+    "citation": "American Academy of Dermatology Association. Melasma: diagnosis and treatment [Internet]. 2022 Feb 15 [cited 2026 Oct 29]. Available from: https://www.aad.org/public/diseases/a-z/melasma-treatment",
+    "url": "https://www.aad.org/public/diseases/a-z/melasma-treatment",
+    "type": "专业机构原始患者指导",
+    "support": "黄褐斑识别、外用类别、氨甲环酸须评估血栓史及维护。",
+    "limitations": "旧页具体治疗顺序另与2026共识协调；不将美国处方规则套中国，不采其所有新项目的疗效。",
+    "reading_depth": "直接打开核读诊断、药物、氨甲环酸与页脚真实日期。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "SKINNEW-S03",
+    "citation": "American Academy of Dermatology Association. Melasma: self-care [Internet]. 2023 Sep 12 [cited 2026 Oct 29]. Available from: https://www.aad.org/public/diseases/a-z/melasma-self-care",
+    "url": "https://www.aad.org/public/diseases/a-z/melasma-self-care",
+    "type": "专业机构原始患者指导",
+    "support": "广谱SPF30+防晒、有色含氧化铁配方、温和护理与遮瑕。",
+    "limitations": "不是所有有色粉底都有等量防护，不给所有肤色与色斑统一效果。",
+    "reading_depth": "直接核读4项护理和真实更新日。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "SKINNEW-S04",
+    "citation": "Sarkar R, Desai SR, Sinha S, Dogra S, Arellano-Mendoza MI, Ailawadi P, et al. Delphi consensus on melasma management by international experts and pigmentary disorders society. J Eur Acad Dermatol Venereol. 2026;40(4):680-692. doi:10.1111/jdv.70066.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40996222/",
+    "type": "专家共识",
+    "support": "防晒与受监督外用为基础；激光主要用于难治情况；外用替代与维护。",
+    "limitations": "仅题录及完整摘要，非全文方案；检索2014–2024经Delphi，不是新RCT；出版商披露Galderma India资助，不给特定成品排名。",
+    "reading_depth": "直接打开PubMed题录摘要及出版商how to cite/资助；核正式2026卷期与2025先发区别，未读付费全文。",
+    "metadata_verification_urls": [
+      "https://pubmed.ncbi.nlm.nih.gov/40996222/",
+      "https://onlinelibrary.wiley.com/doi/10.1111/jdv.70066"
+    ],
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "SKINNEW-S05",
+    "citation": "American Academy of Dermatology Association. Red rash around your mouth could be perioral dermatitis [Internet]. [cited 2026 Oct 29]. Available from: https://www.aad.org/public/diseases/a-z/perioral-dermatitis",
+    "url": "https://www.aad.org/public/diseases/a-z/perioral-dermatitis",
+    "type": "专业机构原始患者指导",
+    "support": "口鼻眼周皮炎；自用/处方激素区别、反跳、治疗与恢复。",
+    "limitations": "不能凭小疹自诊；不把停面部激素泛化为突然停所有鼻喷或吸入处方；部分过渡方案须医生确定。",
+    "reading_depth": "直接核读症状、激素分支、反跳、治疗与恢复段。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "SKINNEW-S06",
+    "citation": "British Association of Dermatologists. Peri-oral dermatitis [Internet]. 2023 Feb [cited 2026 Oct 29]. Available from: https://www.skinhealthinfo.org.uk/condition/peri-oral-dermatitis/",
+    "url": "https://www.skinhealthinfo.org.uk/condition/peri-oral-dermatitis/",
+    "type": "专业机构原始患者指导",
+    "support": "口周皮炎症状、减刺激和外用/口服路径。",
+    "limitations": "2026为计划复审非已更新，不复制所有人同一抗生素时长；与AAD的处方调整分支协调。",
+    "reading_depth": "直接打开完整短页，核真实更新日、治疗与自护；未冒称2026已复审。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "SKINNEW-S07",
+    "citation": "American Academy of Dermatology Association. Botulinum toxin therapy: FAQs [Internet]. [cited 2026 Oct 29]. Available from: https://www.aad.org/public/cosmetic/wrinkles/botulinum-toxin-faqs",
+    "url": "https://www.aad.org/public/cosmetic/wrinkles/botulinum-toxin-faqs",
+    "type": "专业机构原始患者指导",
+    "support": "暂时放松目标肌肉、效果数月与下垂等风险。",
+    "limitations": "末段从未严重事件说法与同页风险段和2026CDC不一致，明确不采；不套美国购买规则或照搬术后精确时间要求。",
+    "reading_depth": "直接核读原理持续时间和安全各段，发现冲突后安全改依据2026CDC。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "SKINNEW-S08",
+    "citation": "Camargo CP, Xia J, Costa CS, Gemperli R, Tatini MDC, Bulsara MK, et al. Botulinum toxin type A for facial wrinkles. Cochrane Database Syst Rev. 2021;7(7):CD011301. doi:10.1002/14651858.CD011301.pub2.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/34224576/",
+    "type": "系统综述",
+    "support": "部分面部皱纹短期改善、眼睑下垂风险，长期和多周期限制。",
+    "limitations": "只读题录与摘要结论，制剂部位剂量异质；不推为永久抗老、统一风险率或制剂剂量可互换。",
+    "reading_depth": "直接核PubMed前6作者、正式卷期文章号与DOI、完整摘要，未通读全部试验。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "SKINNEW-S09",
+    "citation": "Centers for Disease Control and Prevention. How to stay safe when getting botulinum toxin injections [Internet]. 2026 Apr 22 [cited 2026 Oct 29]. Available from: https://www.cdc.gov/botulism/prevention/botulinum-toxin-injections.html",
+    "url": "https://www.cdc.gov/botulism/prevention/botulinum-toxin-injections.html",
+    "type": "专业机构原始患者指导",
+    "support": "正规来源操作者、不自注射；注射后模糊重影/下垂、吞咽呼吸困难、肌无力立即求助；可数小时至数周出现。",
+    "limitations": "通报不计算个人发生率；FDA清单及美国权限不套中国，不外推所有医美相同风险。",
+    "reading_depth": "直接核读2026-04-22整页相关风险、来源、预防和After getting injections段。",
+    "content_checked_at": "2026-10-29"
+  }
+]

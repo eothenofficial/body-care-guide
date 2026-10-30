@@ -1,0 +1,52 @@
+{
+  "checked_on": "2026-10-29",
+  "clinical_review_status": "not_clinically_reviewed",
+  "status": "required_editorial_findings_addressed",
+  "scope": [
+    "保留既有五官79条",
+    "新增视力11条",
+    "新增头皮头发23条",
+    "面部补充3条"
+  ],
+  "resolutions": [
+    {
+      "review": "skin-expansion-independent-review.json",
+      "actions": [
+        "未经指导自用面部激素先停；处方先联系调整，摘要同步",
+        "2篇新增DOI元数据复核通过"
+      ]
+    },
+    {
+      "review": "hair-medical-independent-review.json",
+      "actions": [
+        "口服米诺地尔单条补备孕/孕哺核对及用药期间怀孕联系",
+        "降压处方不依据美容稿自行停换",
+        "妊娠或可能妊娠者接触破碎非那雄胺药片条件明确",
+        "Delphi共识与综述/RCT来源类型细分",
+        "6篇DOI核作者与卷期页通过，保留Müller Ramos复姓"
+      ]
+    },
+    {
+      "review": "vision-independent-review.json",
+      "actions": [
+        "成人证据限制标明2023综述总结年代",
+        "高度近视补约600度口径，不作为眼底检查唯一门槛",
+        "急性复视标题明确当天，瞳孔变化摘要同步",
+        "2篇DOI元数据复核通过"
+      ]
+    },
+    {
+      "review": "root头发护理复核",
+      "actions": [
+        "逐条读护理造型正文与原始3篇题录；PubMed硅油页未返回，改核原刊正式PDF",
+        "K18/Olaplex只写离体9束每组3束和具体产品，不升为人头生发证据",
+        "吹干损伤实验不被当通用距离安全线；产业关系与读取范围保留"
+      ]
+    }
+  ],
+  "reader_refinements": [
+    "激光比较表补按恢复需求、角膜瓣与运动需求的条件性选择，不仅定义术式",
+    "再次核ESCRS原页和FDA候选条件，未给术式零风险或统一时长承诺",
+    "去除头发导览中的本轮写作范围叙述，范围保存README与总纲"
+  ]
+}

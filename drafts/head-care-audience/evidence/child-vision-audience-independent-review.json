@@ -1,0 +1,85 @@
+{
+  "checked_at": "2026-10-29",
+  "status": "output_blockers_resolved_title_precision_recommended",
+  "review_kind": "independent editorial and source-scope review, not clinical sign-off",
+  "scope": [
+    "drafts/head-care-audience/add_child_vision.py: eyes-031 and eyes-032",
+    "docs/身体护理指南全书规划与调用SOP.md: section 14",
+    "web/app.js audience routing, demographic filtering, printView and markdownExport",
+    "scripts/build.py and scripts/static_pages.py audience output"
+  ],
+  "sources_opened": [
+    {
+      "url": "https://www.healthychildren.org/English/health-issues/conditions/eyes/Pages/Myopia-Nearsightedness.aspx",
+      "read": "原页正文全部可见，重点症状、筛查与诊断、框架/接触镜、控制与户外；核到更新日2023-09-06",
+      "finding": "支持儿童远处模糊/眯眼需检查；矫正与控制分别讨论；镜架适配、接触镜红痛需联系专业人员和备用框架。未把该2023页尚在研究的措辞覆盖2026器械/指南状态。"
+    },
+    {
+      "url": "https://www.healthychildren.org/English/health-issues/conditions/eyes/Pages/What-Too-Much-Screen-Time-Does-to-Your-Childs-Eyes.aspx",
+      "read": "原页正文全部可见，重点What parents can do、20/20/20、眨眼、屏幕位置、蓝光问答；核到更新日2024-02-29",
+      "finding": "20-20-20作为眼疲劳间歇提醒有直接机构支持；原页不是证明该节拍降低近视发生/进展的试验。草稿正文保留了这个区别。"
+    },
+    {
+      "url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/nearsightedness-myopia",
+      "read": "由旧/learn-about路径重定向至现行原页；核读症状、风险、病因、诊断与治疗，更新日2024-12-04",
+      "finding": "原页直接称更多户外的儿童较少发生近视，适合草稿关联性措辞，不需要把其解释成个人保证。"
+    }
+  ],
+  "not_independently_reread": [
+    {
+      "source": "src-ef3d7b7a8fb9 国家2026近视指南",
+      "reason": "本独立复核未重新打开PDF；仅检查既有来源记录的阅读范围和草稿引用用途，不重复声称完成全文审读。"
+    },
+    {
+      "source": "src-609e76825b6e IMI 2025 interventions review",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12448128/",
+      "reason": "本轮直接打开和find均返回reCAPTCHA，未取得全文，不能把本轮操作算为欠矫结论的独立全文核查。草稿沿用前轮已记录的全文读取，须保留这个来源深度差别。"
+    }
+  ],
+  "medical_findings": [
+    {
+      "entry": "eyes-031",
+      "severity": "wording_accuracy",
+      "issue": "标题把“防近视”同时统领户外和用眼间歇，容易把后者也读成已有近视预防效果证明；正文却正确把20-20-20限定为舒适提醒。",
+      "recommended_action": "标题改为“孩子用眼先安排户外和间歇，别只换防蓝光镜片”，或分别写出户外用于预防、间歇用于疲劳。无需推翻正文。"
+    },
+    {
+      "entry": "eyes-032",
+      "severity": "pass_with_recorded_limits",
+      "finding": "未发现需推翻的直接医学结论。筛查不等于诊断、儿童正规验光与部分需散瞳、看清/控制目标分开、欠矫不当控制、镜架/备用框架/红痛提前检查的逻辑有相应来源定位；欠矫与散瞳细节本轮只核来源记录，不冒充再次独立实读原指南。"
+    }
+  ],
+  "sop_ui_consistency": {
+    "age_url": "已实现age=整数与band=child/teen/under18/adult/older，具体年龄优先，age与sex参数传播到阅读内链；清除人群筛选移除这三参数。年龄状态在前端内存与URL，未写账号或年龄localStorage。",
+    "scope_note": "显示在详情框；按SOP仅描述阅读范围，不承载新的医疗结论。正文临床判断仍须引用。schema可阻止引用/HTML混入，但能否是新医疗结论仍靠人工审读。",
+    "safety_pin": "audienceMatches中仅跳过年龄/男女筛选，未绕过关键词、章节、证据或方向条件；卡片和正文badge标“急症提示保留”，工具栏明确人口筛选不能隐藏急症。不能把pin误读为该年龄处方适用。",
+    "legacy": "缺metadata以adult兼容并显示儿童/老年尚未逐条核对；无匹配章节提供未系统整理与清除入口，与SOP一致。",
+    "print": "当前app.printView未输出audience信息，构成SOP14.2明确要求的缺口。浏览器直接打印详情页可见audience-detail，不等于#/print全书导出已合规。",
+    "markdown": "Python build.book_markdown调用audience_caption，静态页面亦调用；但离线点击下载正文走app.markdownExport，当前遗漏audience。",
+    "json": "内容对象的audience作为附加字段保留；未见UI为筛选而改写医学正文。"
+  },
+  "required_changes": [
+    {
+      "id": "AUD-PRINT-01",
+      "severity": "blocking_output_contract",
+      "file": "web/app.js",
+      "target": "printView",
+      "action": "为每条打印正文加入年龄、男女、scope_note和safety_pin标识，并保留导览非治疗资格提醒；勿只加入年龄标签遗漏范围边界。"
+    },
+    {
+      "id": "AUD-MD-01",
+      "severity": "blocking_output_contract",
+      "file": "web/app.js",
+      "target": "markdownExport",
+      "action": "离线动态Markdown也逐条输出同一完整阅读范围说明，使其与Python生成Markdown一致。"
+    }
+  ],
+  "tests_observed": "本任务此前实际reader测试8项+旧56项共64项通过；测试不等于临床签审。本轮独立审阅不修改正文/web，不以测试通过替代输出缺口核查。",
+  "resolution": {
+    "at": "2026-10-29",
+    "AUD-PRINT-01": "已补：printView每条加入audienceCaption，包括阅读年龄/男女/边界说明/急症保留和非治疗资格提醒。",
+    "AUD-MD-01": "已补：离线markdownExport按条加入同一audienceCaption。",
+    "tests": "实际执行node --check web/app.js及全套unittest，71项全部通过；新增打印、离线Markdown下载、离线JSON下载三项，执行完整reader和真实下载事件路径（浏览器基础API以小DOM模拟），不是仅检查源码字符串。",
+    "remaining": "root负责eyes031标题精确化；本轮未再次读取NHC/IMI全文的限制保留。"
+  }
+}

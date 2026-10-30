@@ -1,0 +1,44 @@
+{
+  "checked_on": "2026-10-29",
+  "status": "editorial_audit_not_clinical_signoff",
+  "removed": [
+    {
+      "id": "src-2d9c01cea588",
+      "reason": "历史医院价目不代表现行费用；删除金额及整项引用"
+    },
+    {
+      "id": "src-b8531eb7575f",
+      "reason": "个人科普平台旧采访不符合本轮权威来源要求；改用机构临床路径与WHO合理用药原则"
+    },
+    {
+      "id": "src-c8e6f466cff9",
+      "reason": "防腐体系段落改核2025 TFOS DEWS III，旧版不再承担此处主要依据"
+    }
+  ],
+  "citation_corrections": {
+    "src-c5a29c6f3b99": "Lam CSY, Tang WC, Tse DY, Lee RPK, Chun RKM, Hasegawa K, et al. Defocus Incorporated Multiple Segments (DIMS) spectacle lenses slow myopia progression: a 2-year randomised clinical trial. Br J Ophthalmol. 2020;104(3):363-368. doi:10.1136/bjophthalmol-2018-313739.",
+    "src-f806e033b961": "Walline JJ, Walker MK, Mutti DO, Jones-Jordan LA, Sinnott LT, Giannoni AG, et al. Effect of high add power, medium add power, or single-vision contact lenses on myopia progression in children: the BLINK randomized clinical trial. JAMA. 2020;324(6):571-580. doi:10.1001/jama.2020.10834."
+  },
+  "doi_records_checked": 15,
+  "doi_rule": "doi:10...; DOI另存裸值及https://doi.org/链接；无DOI的机构网页不造DOI",
+  "metadata_verification": {
+    "10.3760/cma.j.cn112142-20240517-00227": "https://www.gzzoc.org.cn/sites/zoc.live1.sysucloud2.sysu.edu.cn/files/2025-10/2024_zhongguoganyanlinchuangzhenliaozhuanjiagongshi2024nian.pdf",
+    "10.3760/cma.j.cn112142-20200925-00618": "https://cmab.yiigle.com/uploads/guide_html/%E4%B8%AD%E5%9B%BD%E5%B9%B2%E7%9C%BC%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86%EF%BC%9A%E6%B2%BB%E7%96%97%EF%BC%882020%E5%B9%B4%EF%BC%89.html",
+    "10.1167/iovs.66.12.39": "https://pubmed.ncbi.nlm.nih.gov/40960225/",
+    "10.5935/0004-2749.20190097": "https://pubmed.ncbi.nlm.nih.gov/31508669/",
+    "10.1007/s40123-024-00988-x": "https://pubmed.ncbi.nlm.nih.gov/38990464/",
+    "10.1002/14651858.CD013244.pub2": "https://pubmed.ncbi.nlm.nih.gov/37593770/",
+    "10.3389/fnut.2025.1522302": "https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1522302/pdf",
+    "10.1097/ICL.0000000000000938": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9584055/",
+    "10.1136/bjophthalmol-2018-313739": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7041503/",
+    "10.1001/jamaophthalmol.2026.3288": "https://jamanetwork.com/journals/jamaophthalmology/fullarticle/2852979",
+    "10.1001/jama.2020.10834": "https://pubmed.ncbi.nlm.nih.gov/32780139/",
+    "10.1097/ICL.0000000000001125": "https://pubmed.ncbi.nlm.nih.gov/39252204/",
+    "10.1016/j.ophtha.2022.08.002": "https://pubmed.ncbi.nlm.nih.gov/35952937/",
+    "10.1161/CIR.0000000000001281": "https://cpr.heart.org/en/resuscitation-science/2024-first-aid-guidelines",
+    "10.1016/j.ajo.2025.05.039": "https://pubmed.ncbi.nlm.nih.gov/40467022/"
+  },
+  "cost_changes": "删除历史价目、假设金额、无信息量的成本段；仅保留有机构指导的护理/包装负担。OK随访移回正文。",
+  "source_count": 47,
+  "entries": 19
+}

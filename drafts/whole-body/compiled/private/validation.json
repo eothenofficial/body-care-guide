@@ -1,0 +1,12 @@
+{
+  "part": "private",
+  "status": "passed_structural_and_export_checks",
+  "entries": 56,
+  "sources": 94,
+  "standalone_html_sha256": "144f0e32697c8d51d31138c1220ea2e86fbdb5202c2596104f3d15dc61e5c193",
+  "source_graph_resolves": true,
+  "export_data_equal": true,
+  "all_audience_ranges_retained": true,
+  "canonical_content_unchanged": true,
+  "clinical_review_status": "not_clinically_reviewed"
+}

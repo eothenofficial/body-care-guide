@@ -1,0 +1,58 @@
+{
+  "status": "author_checked_not_clinically_reviewed",
+  "checked_on": "2026-10-29",
+  "chapter_id": "feet",
+  "entries": 14,
+  "sources": 21,
+  "doi_sources": 1,
+  "summary_lengths": {
+    "feet-001": 116,
+    "feet-002": 115,
+    "feet-003": 118,
+    "feet-004": 110,
+    "feet-005": 119,
+    "feet-006": 115,
+    "feet-007": 111,
+    "feet-008": 114,
+    "feet-009": 113,
+    "feet-010": 117,
+    "feet-011": 114,
+    "feet-012": 118,
+    "feet-013": 120,
+    "feet-014": 121
+  },
+  "checks": {
+    "entry_count_14": true,
+    "unique_entry_ids": true,
+    "all_source_tokens_resolve": true,
+    "source_ids_match_tokens": true,
+    "all_sources_used": true,
+    "six_fields_order": true,
+    "summary_range_110_170": true,
+    "no_summary_references_tables": true,
+    "unit_membership_once": true,
+    "unit_id_matches": true,
+    "not_clinically_reviewed": true,
+    "cost_blank": true,
+    "no_cross_chapter_links": true
+  },
+  "summary_out_of_range": [],
+  "source_scope_notes": [
+    "2026 CDC抗真菌、2026 BAD患者资料与2026Oct22甲真菌指南补足治疗与鉴别；没有用商家页、医院报价或搜索摘要承担关键治疗建议。",
+    "DermNet2018用于稳定鉴别；AAD2021甲黑线/2022干裂与2024–2026机构资料分别按问题核范围，未伪造更新；NHS跖疣页超过计划复审日期，与AAD2025交叉核。",
+    "PMC足癣综述遇验证码，未引用或声称实读；NICE NG19抓取403，未引用。出版社DOI直达首次500，随后同一出版社原文URL成功实读相关建议。",
+    "不把脚气2–4周作为所有剂型固定疗程；不以“部分医生合用激素”鼓励自行选激素复方。",
+    "不把成人自护给儿童/孕哺；年龄选择不是诊断或许可判断，老年标签在鸡眼条目用于显示不自行去茧的风险分支。",
+    "甲真菌指南混合证据推荐与GPP；激光单疗证据不足不等于所有联合或未来治疗已被证伪；没有移植英国用药许可和剂量。"
+  ],
+  "no_fabricated_prices": true,
+  "clinical_review_status": "not_clinically_reviewed",
+  "notes": "作者自检不等于独立AI复核或临床签审；应由整合者复核关键医疗分支、引用及成品交互。",
+  "files_frozen_for_integration": true,
+  "final_safety_check": [
+    "趾缝软白与真菌/皮炎分开，不凭单/双侧确诊；成人低风险与糖尿病/循环/感觉异常的自护分开。",
+    "糖尿病足新伤口即求助；突发冷麻变色、严重感染等急症；不提供新药/儿科/孕哺剂量。",
+    "干裂新增伤口/炎症不使用酸类脱皮足膜的直接医学中心依据；费用留空，药品价格与包疗程不推断。",
+    "复查21个来源全部使用、14条六字段及独立摘要、source_ids与内文token和unit_id归属。"
+  ]
+}

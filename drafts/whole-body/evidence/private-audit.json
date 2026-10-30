@@ -1,0 +1,789 @@
+{
+  "status": "merged_reviewed_extension_not_clinically_reviewed",
+  "clinical_review_status": "not_clinically_reviewed",
+  "content_checked_at": "2026-10-29",
+  "previous_version_audit": {
+    "status": "author_self_check_passed_not_clinical_review",
+    "content_checked_at": "2026-10-29",
+    "chapter": "private",
+    "entries": 19,
+    "sources": 25,
+    "doi_sources": 1,
+    "summary_length_range": [
+      114,
+      144
+    ],
+    "source_graph": "all 25 aliases cited; six fields, unit membership and summary constraints checked",
+    "clinical_review_status": "not_clinically_reviewed",
+    "important_boundaries": [
+      "睾丸突发明显疼痛、持续不退或静息仍痛直接急诊；不把非突发持续痛降级普通预约",
+      "儿童包皮不强翻，卡住盖不回即急症，不要求先出现肿痛",
+      "性别标签按器官供查找，不取代妊娠、术后、绝经与免疫状态；急症保留",
+      "正常皮肤温和无香清洁与发炎皮肤水或润肤替代清洁不同，不机械拼出所有香皂一概有害",
+      "棉条4—8小时最长8小时；杯按具体说明，不套统一12小时；TSS取出与求助不相互拖延",
+      "孕期不用自行口服氟康唑，不将美国制剂表当国内购买处方；儿童无成人剂量",
+      "尿路感染高风险立即评估，不把治疗后48小时复评误写所有人先等48小时",
+      "盆底可紧又弱，强化不适先评估放松，不把女性RCT效果外推所有男女或训练器",
+      "TGA2026仅澳大利亚相应用途行动，不称中国/全球激光禁令",
+      "TSS警示不要求一定发热或多个症状同时凑齐；出现新全身警示停用立即求医，重症急救。",
+      "UTI入口补意识混乱、异常嗜睡或说话困难直接急救，不将老年新意识变化自动归为UTI。"
+    ],
+    "source_dates": [
+      "使用2026NHS包皮、2026FDA经期、2026CDC检测、2026TGA复核",
+      "CDC2021临床指南如实标版本，不冒充2026更新",
+      "DermNet阴囊2018稳定护理与NIDDK2021动作资料交叉核，不写新药综述",
+      "FDA棉条和杯原页未核到确切发布日期，引用不编造"
+    ],
+    "excluded_or_not_used": [
+      {
+        "source": "ACOG Vulvovaginal Health FAQ",
+        "reason": "打开402，未声称读到全文或将搜索摘要当已核"
+      },
+      {
+        "source": "DermNet Genital skin problems index 2002",
+        "reason": "实际打开但过于老旧且有简化的病原外观描述，改用疾病专页和公共卫生诊断指南"
+      },
+      {
+        "source": "NHS2022 ectopic symptoms",
+        "reason": "已读但急症分流优先用2025Pelvic pain更新页"
+      },
+      {
+        "source": "Kent2024vulva-care page",
+        "reason": "实际读到内裤仅清水洗等不宜通用建议，正文不采用；基础外阴阴道边界改用NHS/CDC"
+      },
+      {
+        "source": "CDC menstrual hygiene all secondary claims",
+        "reason": "仅采用更换与外部卫生，不采饮水防酵母、所有人年度Pap/内诊等笼统话"
+      },
+      {
+        "source": "NHS UTI chronic mechanism and D-mannose prevention paragraph",
+        "reason": "不据单页作争议机制或最新补剂预防结论"
+      }
+    ],
+    "uncovered": "不含肛周擦拭湿厕纸、具体脱毛技术、完整避孕性教育与生殖器整形全谱，不展开男性所有性功能病或妇科疾病百科。",
+    "checks": [
+      {
+        "id": "private-001",
+        "summary_characters": 119,
+        "source_ids": [
+          "PRIVATE-S01"
+        ],
+        "audience": {
+          "age_groups": [
+            "child",
+            "teen",
+            "adult",
+            "older"
+          ],
+          "sexes": [
+            "male"
+          ],
+          "scope_note": "实际有睾丸者，各年龄突发明显疼痛都不靠年龄或性别身份标签排除。",
+          "safety_pin": true
+        }
+      },
+      {
+        "id": "private-002",
+        "summary_characters": 115,
+        "source_ids": [
+          "PRIVATE-S02"
+        ],
+        "audience": {
+          "age_groups": [
+            "teen",
+            "adult",
+            "older"
+          ],
+          "sexes": [
+            "all"
+          ],
+          "scope_note": "按实际器官和症状阅读；年龄、性别筛选不替代妊娠、产后、手术及免疫状态判断。",
+          "safety_pin": true
+        }
+      },
+      {
+        "id": "private-003",
+        "summary_characters": 114,
+        "source_ids": [
+          "PRIVATE-S05",
+          "PRIVATE-S11",
+          "PRIVATE-S06"
+        ],
+        "audience": {
+          "age_groups": [
+            "teen",
+            "adult",
+            "older"
+          ],
+          "sexes": [
+            "female"
+          ],
+          "scope_note": "实际有外阴或阴道者；儿童阴部不适另作儿科评估，本条未提供儿童阴道处理方案。",
+          "safety_pin": false
+        }
+      },
+      {
+        "id": "private-004",
+        "summary_characters": 116,
+        "source_ids": [
+          "PRIVATE-S03"
+        ],
+        "audience": {
+          "age_groups": [
+            "adult",
+            "older"
+          ],
+          "sexes": [
+            "male"
+          ],
+          "scope_note": "成年或老年实际有阴茎及包皮者；儿童清洁方式不能由本条外推。",
+          "safety_pin": false
+        }
+      },
+      {
+        "id": "private-005",
+        "summary_characters": 114,
+        "source_ids": [
+          "PRIVATE-S04",
+          "PRIVATE-S03"
+        ],
+        "audience": {
+          "age_groups": [
+            "child",
+            "teen"
+          ],
+          "sexes": [
+            "male"
+          ],
+          "scope_note": "儿童与仍在自然分离阶段的青少年；未提供统一分离年龄、环切年龄或用药剂量。",
+          "safety_pin": true
+        }
+      },
+      {
+        "id": "private-006",
+        "summary_characters": 116,
+        "source_ids": [
+          "PRIVATE-S10",
+          "PRIVATE-S01"
+        ],
+        "audience": {
+          "age_groups": [
+            "teen",
+            "adult",
+            "older"
+          ],
+          "sexes": [
+            "male"
+          ],
+          "scope_note": "按实际器官和症状阅读；年龄、性别筛选不替代妊娠、产后、手术及免疫状态判断。",
+          "safety_pin": false
+        }
+      },
+      {
+        "id": "private-007",
+        "summary_characters": 123,
+        "source_ids": [
+          "PRIVATE-S11",
+          "PRIVATE-S10"
+        ],
+        "audience": {
+          "age_groups": [
+            "teen",
+            "adult",
+            "older"
+          ],
+          "sexes": [
+            "all"
+          ],
+          "scope_note": "按实际器官和症状阅读；年龄、性别筛选不替代妊娠、产后、手术及免疫状态判断。",
+          "safety_pin": false
+        }
+      },
+      {
+        "id": "private-008",
+        "summary_characters": 114,
+        "source_ids": [
+          "PRIVATE-S12",
+          "PRIVATE-S11",
+          "PRIVATE-S20"
+        ],
+        "audience": {
+          "age_groups": [
+            "teen",
+            "adult"
+          ],
+          "sexes": [
+            "female"
+          ],
+          "scope_note": "实际有月经者；绝经、妊娠或产后出血不凭年龄直接当作正常经期。",
+          "safety_pin": false
+        }
+      },
+      {
+        "id": "private-009",
+        "summary_characters": 126,
+        "source_ids": [
+          "PRIVATE-S13",
+          "PRIVATE-S25",
+          "PRIVATE-S14"
+        ],
+        "audience": {
+          "age_groups": [
+            "teen",
+            "adult"
+          ],
+          "sexes": [
+            "female"
+          ],
+          "scope_note": "实际有月经且使用置入用品者；儿童不套成人置入方式，产后与手术状态另评估。",
+          "safety_pin": true
+        }
+      },
+      {
+        "id": "private-010",
+        "summary_characters": 117,
+        "source_ids": [
+          "PRIVATE-S05",
+          "PRIVATE-S06",
+          "PRIVATE-S02"
+        ],
+        "audience": {
+          "age_groups": [
+            "teen",
+            "adult",
+            "older"
+          ],
+          "sexes": [
+            "female"
+          ],
+          "scope_note": "按实际器官和症状阅读；年龄、性别筛选不替代妊娠、产后、手术及免疫状态判断。",
+          "safety_pin": false
+        }
+      },
+      {
+        "id": "private-011",
+        "summary_characters": 118,
+        "source_ids": [
+          "PRIVATE-S07"
+        ],
+        "audience": {
+          "age_groups": [
+            "adult",
+            "older"
+          ],
+          "sexes": [
+            "female"
+          ],
+          "scope_note": "成人阴道症状与治疗边界；妊娠、免疫抑制与儿童另评估，未给儿童剂量。",
+          "safety_pin": false
+        }
+      },
+      {
+        "id": "private-012",
+        "summary_characters": 119,
+        "source_ids": [
+          "PRIVATE-S08"
+        ],
+        "audience": {
+          "age_groups": [
+            "child",
+            "teen",
+            "adult",
+            "older"
+          ],
+          "sexes": [
+            "all"
+          ],
+          "scope_note": "按实际器官和症状阅读；年龄、性别筛选不替代妊娠、产后、手术及免疫状态判断。",
+          "safety_pin": false
+        }
+      },
+      {
+        "id": "private-013",
+        "summary_characters": 119,
+        "source_ids": [
+          "PRIVATE-S09",
+          "PRIVATE-S03",
+          "PRIVATE-S01"
+        ],
+        "audience": {
+          "age_groups": [
+            "teen",
+            "adult",
+            "older"
+          ],
+          "sexes": [
+            "male"
+          ],
+          "scope_note": "按实际器官和症状阅读；年龄、性别筛选不替代妊娠、产后、手术及免疫状态判断。",
+          "safety_pin": false
+        }
+      },
+      {
+        "id": "private-014",
+        "summary_characters": 144,
+        "source_ids": [
+          "PRIVATE-S15",
+          "PRIVATE-S16",
+          "PRIVATE-S06"
+        ],
+        "audience": {
+          "age_groups": [
+            "child",
+            "teen",
+            "adult",
+            "older"
+          ],
+          "sexes": [
+            "all"
+          ],
+          "scope_note": "按实际器官和症状阅读；年龄、性别筛选不替代妊娠、产后、手术及免疫状态判断。",
+          "safety_pin": true
+        }
+      },
+      {
+        "id": "private-015",
+        "summary_characters": 123,
+        "source_ids": [
+          "PRIVATE-S17",
+          "PRIVATE-S18",
+          "PRIVATE-S19"
+        ],
+        "audience": {
+          "age_groups": [
+            "teen",
+            "adult",
+            "older"
+          ],
+          "sexes": [
+            "all"
+          ],
+          "scope_note": "按实际器官和症状阅读；年龄、性别筛选不替代妊娠、产后、手术及免疫状态判断。",
+          "safety_pin": false
+        }
+      },
+      {
+        "id": "private-016",
+        "summary_characters": 126,
+        "source_ids": [
+          "PRIVATE-S20",
+          "PRIVATE-S18",
+          "PRIVATE-S22",
+          "PRIVATE-S23"
+        ],
+        "audience": {
+          "age_groups": [
+            "adult",
+            "older"
+          ],
+          "sexes": [
+            "female"
+          ],
+          "scope_note": "按实际器官和症状阅读；年龄、性别筛选不替代妊娠、产后、手术及免疫状态判断。",
+          "safety_pin": false
+        }
+      },
+      {
+        "id": "private-017",
+        "summary_characters": 130,
+        "source_ids": [
+          "PRIVATE-S24",
+          "PRIVATE-S21",
+          "PRIVATE-S22"
+        ],
+        "audience": {
+          "age_groups": [
+            "adult",
+            "older"
+          ],
+          "sexes": [
+            "all"
+          ],
+          "scope_note": "按实际器官和症状阅读；年龄、性别筛选不替代妊娠、产后、手术及免疫状态判断。",
+          "safety_pin": false
+        }
+      },
+      {
+        "id": "private-018",
+        "summary_characters": 136,
+        "source_ids": [
+          "PRIVATE-S23",
+          "PRIVATE-S20",
+          "PRIVATE-S22"
+        ],
+        "audience": {
+          "age_groups": [
+            "adult",
+            "older"
+          ],
+          "sexes": [
+            "female"
+          ],
+          "scope_note": "按实际器官和症状阅读；年龄、性别筛选不替代妊娠、产后、手术及免疫状态判断。",
+          "safety_pin": false
+        }
+      },
+      {
+        "id": "private-019",
+        "summary_characters": 127,
+        "source_ids": [
+          "PRIVATE-S19",
+          "PRIVATE-S17"
+        ],
+        "audience": {
+          "age_groups": [
+            "child",
+            "teen",
+            "adult",
+            "older"
+          ],
+          "sexes": [
+            "all"
+          ],
+          "scope_note": "任何实际可能暴露者，不能被男女筛选隐藏；儿童需要年龄相应医疗保护和评估。",
+          "safety_pin": true
+        }
+      }
+    ]
+  },
+  "entries": 56,
+  "extensions": {
+    "period": {
+      "status": "draft_completed_independently_editorially_reviewed_not_clinically_reviewed",
+      "extension_id": "period",
+      "target_chapter": "private",
+      "checked_at": "2026-10-29",
+      "entry_count": 10,
+      "source_count": 20,
+      "doi_count": 1,
+      "clinical_review_status": "not_clinically_reviewed",
+      "blocking_unresolved": [],
+      "summary_lengths": {
+        "period-001": 132,
+        "period-002": 131,
+        "period-003": 134,
+        "period-004": 136,
+        "period-005": 133,
+        "period-006": 143,
+        "period-007": 137,
+        "period-008": 139,
+        "period-009": 139,
+        "period-010": 132
+      },
+      "validation_errors": [],
+      "checks": [
+        "10条均为动作标题，独立summary为131–143字，不含引用、表格或正文段落",
+        "六字段顺序正确；cost全部空，不用厂商售价或无权威依据的成本推算",
+        "19项官方/专业/制造商使用来源加1项直接研究；20来源均实际打开阅读相关原页，无孤立来源、无缺失别名",
+        "20号作者、题名、2024年/134卷/110415文章号及DOI在PubMed与PMC交叉一致",
+        "TSS少见但高后果；发热/呕吐/皮疹/头晕按可疑情况立即求助，不等症状齐全，意识呼吸异常直接急诊",
+        "棉条最低所需吸收量、4–8小时且单次不超过8小时，睡得更久改体外用品；一次只放一根/非经期不用/取出最后一根",
+        "卫生巾按流量/舒适/接触刺激选择，数小时更换，不给全品类精确统一4小时阈值",
+        "杯与碟的收集/放置/取出机制分别解释；普通杯先解除密封，特殊结构按本款；碟不能避孕或预防STI",
+        "杯/碟最长佩戴和清洁消毒按该型号IFU；Mooncup4–8小时与Flex可复用碟至少12小时仅作差异示例，不作品牌推荐",
+        "可复用与一次性分开；没有所有杯都能煮、都煮1–2分钟或都戴12小时的建议；不复制厂商商业安全/性体验宣称",
+        "漏液先核容量/位置，疼痛/排尿困难停用；取不出温和尝试仍困难就尽快医疗帮助，不用器械掏，伴全身危险信号紧急处理",
+        "IUD合用核具体器型、勿拉尾丝/先解除杯密封；碟缺吸附不等于零风险，线变化/新痛血核位置并补足避孕安全分流",
+        "2024论文不是随机用杯试验，无全体统一风险比，不由铜IUD外推激素IUD，也不宣称月经碟完全没有任何研究",
+        "经血褐色只有在通常经期情境下可观察，非经期/性交后/绝经后或妊娠可能的血迹有明确分流",
+        "经量结合浸透/功能影响，不把卫生性勤换当大出血；突然增多/头晕无力及时检查，青少年严重经量不以青春期打发",
+        "痛经有热敷/活动与药物路径；成人布洛芬仅18岁以上按本地制剂说明，无未成年人剂量，孕备孕哺乳/禁忌/抗凝核适用且不叠加NSAID",
+        "疑似宫外孕不等待家用阳性或大量阴道出血；突发剧痛、晕厥等急症；中国入口不抄海外急救号",
+        "保留2022/2023官方基础资料实际日期，和新专题交叉，不把预定复审日冒充实际更新；未临床签审"
+      ],
+      "units_suggestion": [
+        {
+          "id": "period-u1",
+          "title": "先认急症：置入用品后全身不适与可能妊娠的腹痛",
+          "entry_ids": [
+            "period-001",
+            "period-010"
+          ]
+        },
+        {
+          "id": "period-u2",
+          "title": "按场景选经期用品，把置入、取出和清洁操作做对",
+          "entry_ids": [
+            "period-002",
+            "period-003",
+            "period-004",
+            "period-005",
+            "period-006"
+          ]
+        },
+        {
+          "id": "period-u3",
+          "title": "看懂经血、流量与疼痛，把该查的问题记录下来",
+          "entry_ids": [
+            "period-007",
+            "period-008",
+            "period-009"
+          ]
+        }
+      ],
+      "integration_note": "仅写extensions三文件，未改private现有19条。period-001可替换/展开原private-009的TSS内容；period-002至006可展开原private-008概括，root合并时消除重复并统一ID/单元。其余月经症状和宫外孕与root分泌物/其他急症条合理交叉，不提供不存在的跨章链接。",
+      "not_adopted_claims": [
+        {
+          "source": "PERIOD-S02",
+          "claim": "多喝水预防念珠菌感染、每个人每年宫颈涂片及盆腔检查",
+          "reason": "不能作普适建议，本扩展未采用；引用仅限明确卫生/记录段。"
+        },
+        {
+          "source": "PERIOD-S02/PERIOD-S04",
+          "claim": "所有杯周期末统一煮1–2分钟、所有杯8–12小时",
+          "reason": "通用页典型例子与型号说明有差异，以本款说明为准；未统一外推。"
+        },
+        {
+          "source": "PERIOD-S06",
+          "claim": "FDA approved、不会滋生有毒细菌、IUD友好和性体验保证",
+          "reason": "商业宣称不作独立医学证据；这里只取型号操作说明。"
+        },
+        {
+          "source": "PERIOD-S19",
+          "claim": "氨甲环酸不会导致血栓",
+          "reason": "面向青少年的简化表述不可成为所有病史/药物合用的安全保证；只介绍可讨论止血治疗，不给自开处方。"
+        },
+        {
+          "source": "PERIOD-S07/PERIOD-S20",
+          "claim": "杯使用随机、所有IUD都提高同一个风险；碟绝对安全",
+          "reason": "杯暴露未随机，型号结果有差异、碟样本不足，不能强推因果/统一数值。"
+        }
+      ],
+      "reading_limits": "20项来源均实际打开读相关内容；制造商网页使用说明已读，外链完整PDF未能完成可读提取，不声称读过。未逐项重审指南全部原始参考文献或重算试验数据。当前为AI资料与编辑自检，等待独立审读，不冒充医生签审。",
+      "file_sha256": {
+        "period-entries.json": "40ae48beb3c003c84121833180cb49d35f89d5fa862550c9b2208810cbd4c7bf",
+        "period-sources.json": "aad5d0d719ac887264d19668589726dbf6e0aa9599a0379d30b5329b19a3b153"
+      },
+      "metadata_corrections_after_independent_review": [
+        "S11补实际复审2024 Sep19。",
+        "S19采用医学复审2026Aug，另存updated_date2025-07，区别两时间。",
+        "S07引用本修订2025 Jan21，另存首发2023-03与updated2025-01-21；按封面记录FSRH资助CEU制作。"
+      ],
+      "independent_review_file": "period-independent-review.json"
+    },
+    "contraception": {
+      "extension_id": "contraception",
+      "checked_at": "2026-10-29",
+      "status": "author_self_checked_ready_for_independent_editorial_review",
+      "clinical_review_status": "not_clinically_reviewed",
+      "entry_count": 11,
+      "source_count": 31,
+      "summary_range": [
+        120,
+        131
+      ],
+      "source_integrity": {
+        "missing": [],
+        "unused": [],
+        "doi_count": 0,
+        "citation_style": "Vancouver Internet机构作者/题名/页面日期/访问日/URL；本轮不为无DOI的机构网页制造DOI。"
+      },
+      "scope": [
+        "一般避孕选择与同分母效果比较",
+        "外置/内置安全套",
+        "复方与单方口服/贴环针/植入与宫内装置",
+        "紧急方法时限与UPA后续/验孕",
+        "副作用分流",
+        "预测与体外法边界",
+        "永久选择和男性术后确认",
+        "偏头痛先兆/血压血栓/产后哺乳/药物相互作用"
+      ],
+      "not_in_scope": [
+        "个体开药及全部药品剂量",
+        "国内未核具体品牌的批准和供应保证",
+        "完整避孕性教育或产科百科",
+        "已冻结private19条修改"
+      ],
+      "quantification_checks": [
+        "唯一首年效果表来自NHS同页，100名使用者追踪一年，典型/正确并列；无混用CDC不同估计。",
+        "未将LAM半年、紧急一次干预效果与第一年表混合。",
+        "LNG英国说明72小时与CDC指南5天明确分层，超过72小时仍求助而非自行延长国内标签。",
+        "UPA至少等5天、第6天再激素并等待期及启动后7天屏障；LNG立即续并7天屏障。",
+        "最后一次无保护满21天复查，早测阴性与单纯出血不能保证未孕。",
+        "男性8—16周精液检查医疗确认前继续保护，不以日历或射精次数代替。"
+      ],
+      "safety_checks": [
+        "任何下腹严重痛/晕厥或胸痛气短急诊；IUD多个警示是任一项，不需同时出现。",
+        "UPA与孕激素过早衔接相互作用、不同漏服规则和重要病史不靠一套说明。",
+        "安全套破损可需HIV PEP，尽早且72小时内，不被妊娠补救替代。",
+        "儿童不提供成人避孕药剂量；绝育只标成人/老年成人，青少年只为可有妊娠风险的按需咨询，不从年龄自动推性行为。"
+      ],
+      "domestic_applicability": [
+        "已实际读2026牟定县卫健服务目录和2023花都卫健入口，限服务类别，不代表全国库存或特定成分批准。",
+        "UPA与所有贴/阴道环/单方制剂的中国批准及现场供应未核实，正文明确未知，未称一定未获批。",
+        "没有可靠全国价格来源，11条cost均空。",
+        "国外方法期限不照搬国内，NHS植入页当前5年与CDC2024概览3年不用于国内固定年限建议。"
+      ],
+      "evidence_access_limits": [
+        {
+          "resource": "WHO2025 MEC第6版官方落地页",
+          "url": "https://www.who.int/publications/i/item/9789240115583",
+          "actual_access": "2025 Nov 3版次与概览可读；iris全文/摘要超时，NCBI推荐表reCAPTCHA，未读完整细表。",
+          "decision": "不列为条目实证源，不宣称完成WHO2025细则逐行更新；具体规则依实读CDC2024。"
+        },
+        {
+          "resource": "中国卫健旧规范/NMPA批准送达通知",
+          "actual_access": "部分入口超时/412，仅搜索片段不可作为临床与国内期限的核实。",
+          "decision": "不纳入来源，不据此推注册、库存、时限或价格。"
+        },
+        {
+          "resource": "部分gov域名转载含紧急药年度最多3次、频用必伤卵巢等口径",
+          "actual_access": "搜索发现2026转载仍含该说法。",
+          "decision": "因缺可靠证据和与WHO重复使用说明矛盾而排除，不因域名为gov直接复制。"
+        }
+      ],
+      "cross_module_overlap": [
+        "fertility-009主讲备孕验孕与宫外孕；此处007保留紧急避孕后21天复查和严重腹痛急诊的必要闭环，后续可互链但当前无悬空链接。",
+        "fertility-005尿LH找机会不代表安全日；此处009仅说明预测不能反向保证避孕，不复制促孕操作。",
+        "period篇负责月经用品与月经异常详细鉴别；此处008只分流避孕相关出血。"
+      ],
+      "merge_recommendation": "在private下新增4个避孕单元，按u1选择屏障/预测、u2持续与永久、u3紧急和后续、u4副作用特殊状态；最终private ID由root统一重排，保留原19条不在本素材阶段改动。",
+      "independent_review": "pending",
+      "blocking_unresolved": null,
+      "files": {
+        "contraception-entries.json": "dd3ada56ecc1c7c3d86a4b2a4268c84e7efb1721d7d7619d35cc90247eaaa461",
+        "contraception-sources.json": "9857a473b0b94d11c9251f32b28386fd5437479375337b53d05f9668c4fe3bd8"
+      },
+      "peer_corrections_applied": [
+        "S06美国POP成分限定保留英文norethindrone/norgestrel/drospirenone，纠正错译诺孕酯。",
+        "S02题名与当前原页Contraception and Birth Control Methods同步。"
+      ]
+    },
+    "fertility": {
+      "status": "author_self_checked_ready_for_independent_review_not_clinically_reviewed",
+      "checked_on": "2026-10-29",
+      "extension": "fertility",
+      "target_chapter": "private",
+      "entry_count": 9,
+      "source_count": 12,
+      "doi_count": 4,
+      "file_contract": {
+        "fertility-entries.json": "JSON数组，9条与private.entries同形，临时id fertility-001起，chapter_id=private、unit_id=fertility-u1等，待root归一化。",
+        "fertility-sources.json": "12项FERTILITY-Sxx来源数组，4项期刊DOI已核元数据。"
+      },
+      "unit_suggestions": [
+        {
+          "id": "fertility-u1",
+          "title": "开始尝试前，先把双方的健康准备做好",
+          "intro": "先核病史、药物和疫苗，再处理叶酸与生活准备，不把备孕变成购买套餐。",
+          "entry_ids": [
+            "fertility-001",
+            "fertility-002",
+            "fertility-003"
+          ]
+        },
+        {
+          "id": "fertility-u2",
+          "title": "把握自然受孕机会，工具按需要使用",
+          "intro": "从能维持的同房安排开始，按需用尿LH工具；不承诺怀孕或提供安全期避孕。",
+          "entry_ids": [
+            "fertility-004",
+            "fertility-005"
+          ]
+        },
+        {
+          "id": "fertility-u3",
+          "title": "需要时双方一起评估，把医学需要和促孕营销分开",
+          "intro": "男性因素、就诊时点、检查指标与补剂/附加治疗各按人群和结局判断。",
+          "entry_ids": [
+            "fertility-006",
+            "fertility-007",
+            "fertility-008"
+          ]
+        },
+        {
+          "id": "fertility-u4",
+          "title": "验孕与早孕安全，危险症状先处理",
+          "intro": "家用检测不判断妊娠位置，急症不等复测阳性。",
+          "entry_ids": [
+            "fertility-009"
+          ]
+        }
+      ],
+      "coverage": {
+        "001": "双方孕前病史/全部用药/慢病/疫苗/感染和遗传风险",
+        "002": "常规叶酸400微克=0.4mg/提前时间/孕12周/高风险不自开/常见MTHFR不自动加量换型",
+        "003": "烟酒/饮食活动/职业暴露/指标不等于活产",
+        "004": "6日易孕窗/每2至3日或窗内1至2日/不凭体位或技巧选性别",
+        "005": "LH用途机制/真实有限临床获益/厂商资助/假阳性和App边界",
+        "006": "男方同步/精液局限/外源睾酮及类固醇不壮精",
+        "007": "<35岁12月/≥35岁6月/>40更早及已知风险直接评估",
+        "008": "AMH解释/补剂证据/卵巢PRP用途与独立风险收益",
+        "009": "验孕时机/早阴性复测/宫外孕和急症不等阳性"
+      },
+      "overlap_routing": [
+        "月经异常完整鉴别、停经及相关病种主要归月经作者；这里只留会改变评估时点和LH解释的边界。",
+        "whole_chest负责避孕11条，会保留紧急避孕后21日验孕与激素重启/衔接屏障的场景建议；009自然备孕的验孕与宫外孕入口作交叉，不复制紧急避孕流程。",
+        "排卵App不得用于本指南推荐的安全期避孕；避孕条目不重复LH促孕操作。已与whole_chest消息协调，root统一主归属。"
+      ],
+      "actual_reading_limits": [
+        "各来源真实读取范围逐项在fertility-sources.json的reading_depth。未读所有原始试验与附录。",
+        "ASRM2021评估页当前404，已从官网索引打开2026替代原页，并经PubMed42901815核2026Oct20在线先发、PII和DOI，不填旧卷期页。",
+        "AUA2024完整PDF直接403，其搜索索引文本不作为关键临床来源或已读全文。以EAU实际可读男性章与ASRM原始意见补足。",
+        "WHO2025官网主介绍/推荐摘要介绍页打开，但PDF403/超时、NCBI正文验证码；未将搜索摘要作为正式结论来源，未放进source表。",
+        "EAU男性章未确认最后更新年，其Citation Information仍示例Paris2024，不因为当前2026就造正式年份。",
+        "NHS验孕和宫外孕主文均2022。前者2026视频复核不冒充全页更新；只取稳定操作/急症原则，不采用旧宫外孕治疗或等待方案。",
+        "Cochrane已读简明及结构化摘要/题录与披露，尚未通读全综述方法附录和7项RCT全文。"
+      ],
+      "clinical_reasoning_checks": [
+        "叶酸常规公共卫生剂量可列，高风险不写4/5mg自服处方；不因常见MTHFR自动加量或换活性叶酸。",
+        "尿LH试纸并非全无效，但具体人群获益不能外推所有产品/年龄/病因；信号不等于已排卵/怀孕/正常宫内妊娠。",
+        "生活方式与精子/AMH替代指标不直接推成活产因果，不保证养身体必怀孕，不把迟迟未孕归责于不自律。",
+        "35/40节点指拟妊娠方，已知风险/性交困难/反复妊娠丢失可更早评估，供精等不要求无意义等待。",
+        "外源睾酮不作促孕，已用处方者联系开药/生殖专科，不自停换、不配自用恢复激素组合。",
+        "抗氧化等补剂不确定不等于所有营养补充无用；卵巢PRP是侵入注射，不与按摩/精油混用研究。",
+        "可能怀孕且疼痛/出血等立即评估；突发或重痛、晕厥等急症不等复测，不需所有症状和阳性齐全。"
+      ],
+      "structural_checks": {
+        "errors": [],
+        "all_sources_resolve": true,
+        "all_sources_used": true,
+        "all_summaries_110_170": true,
+        "summary_min": 119,
+        "summary_max": 131,
+        "all_summaries_plain_text": true,
+        "all_costs_blank": true,
+        "all_notes_blank": true,
+        "all_not_clinically_reviewed": true
+      },
+      "summary_lengths": {
+        "fertility-001": 124,
+        "fertility-002": 128,
+        "fertility-003": 126,
+        "fertility-004": 126,
+        "fertility-005": 119,
+        "fertility-006": 126,
+        "fertility-007": 131,
+        "fertility-008": 126,
+        "fertility-009": 125
+      },
+      "clinical_review_status": "not_clinically_reviewed",
+      "independent_review_status": "pending_root_assignment",
+      "scope_limits": "只写本轮备孕促孕扩展；不含不孕全套治疗、治疗药物剂量、辅助生殖方案/国内准入/收费，不改private19条或已交付文件。"
+    },
+    "reader": {
+      "status": "author_checked_pending_independent_review",
+      "clinical_review_status": "not_clinically_reviewed",
+      "entries": 9,
+      "source_records": 13,
+      "existing_entry_edits": [
+        "private-010"
+      ],
+      "actual_reading": "逐项记录原页相关段与题录；EAU2026限相关临床分支；StepUp为摘要，不声称全文或穷尽后续Meta分析。",
+      "excluded": [
+        {
+          "source": "ACOG2025伴侣治疗新闻与更新、ISSVD2026原页/正式PDF",
+          "reason": "原站403或PubMed验证码；仅作检索线索，未引用搜索摘要承担临床建议。"
+        }
+      ],
+      "conflicts": [
+        {
+          "topic": "BV伴侣治疗",
+          "resolution": "不以CDC2021普遍不推荐覆盖2025新联合试验；写为特定人群可讨论，不一律同治，也不自行分药。"
+        }
+      ],
+      "limits": "旧NHS页只承担稳定分流并如实注明过计划复审；成人性功能方案不外推儿童；男女按器官范围看。"
+    }
+  },
+  "integration": "Existing stable IDs retained; period-001 expands private-009; period-010 joins private-002; other new IDs explicit in integration report."
+}

@@ -1,0 +1,92 @@
+{
+  "status": "passed_after_author_clarification_not_clinically_reviewed",
+  "reviewed_on": "2026-10-29",
+  "reviewer": "independent_ai_whole_neck",
+  "chapter_id": "anal",
+  "entries_reviewed": 12,
+  "source_records_reviewed": 23,
+  "blocking_unresolved": [],
+  "nonblocking_notes": [
+    {
+      "entry": "anal-001",
+      "finding": "NHS来源明确孩子粪便有血也应检查；010仅成人/老年，儿童筛选后宜在001补一般便血的就诊入口。",
+      "suggestion": "补孩子即使少量便血也应由照护者安排检查，不能靠痔/肛裂自诊；原有大量血等急诊分流保留。",
+      "source": "ANAL-S01",
+      "status": "resolved",
+      "resolution": "已实际重读修订正文：加入儿童粪便有血即使量小也安排检查。"
+    },
+    {
+      "entry": "anal-009",
+      "finding": "末段发热/持续跳痛/肿胀只说重新考虑脓肿，单条阅读时可更明确行动。",
+      "suggestion": "同002与NHS肛痛，写当天就医检查。",
+      "source": "ANAL-S03/ANAL-S04",
+      "status": "resolved",
+      "resolution": "已实际重读修订正文：加入发热、持续跳痛或肿胀当天就医检查脓肿等原因。"
+    }
+  ],
+  "actually_read": {
+    "local_files": [
+      "drafts/whole-body/chapters/anal.json：全部12条、导览、4单元、年龄/性别范围；后重读001与009最终修订",
+      "drafts/whole-body/evidence/anal-sources.json：全部23项citation/support/limitations/reading_depth"
+    ],
+    "primary_source_sections": {
+      "ANAL-S01": "NHS直肠出血：儿童便血检查、黑/暗红/血性腹泻及时分流、不停或大量/血块急诊、不能自行诊断。",
+      "ANAL-S02": "NIDDK2024消化道出血：急性与慢性表现、晕厥气短/休克危险、NSAID和抗凝等用药背景。",
+      "ANAL-S03": "ASCRS脓肿/肛瘘：深部无外观表现、引流、抗生素限度、糖尿病/免疫状态及复发通道；未把成人手术方案转儿童。",
+      "ANAL-S04": "NHS2025肛痛：严重/数日不缓解检查，重痛伴发热寒战急评、出血急症和一般自护。",
+      "ANAL-S05": "NHS2025UTI：粪便细菌入尿路、前后擦拭与风险、前往后建议；只用于清洁方向，未采用网页所有补剂或糖摄入推论。",
+      "ANAL-S06": "GOSH2017儿童肠道：便意、脚部支撑、前往后尤其女孩、不要责怪意外。页面确为2017，未把其旧饮水表或益生菌观点引入正文。",
+      "ANAL-S07": "CDC2024洗手：厕后/照护儿童后，肥皂流动水和至少20秒。",
+      "ANAL-S08": "NHS2023肛痒：温和清洁拍干、不要过擦/过多湿巾、持续/血/痛/漏便检查，驱虫儿童及孕哺边界。",
+      "ANAL-S09": "GSTT2023肛痒：水洗、湿纸/不含酒精湿巾可选、少摩擦无香与拍干；未采其90%漏便估计或肛内塞棉建议。",
+      "ANAL-S10": "FDA湿巾：不同用途、完整未破损皮肤、标签、香精/防腐过敏、家用消毒巾不得人体混用。",
+      "ANAL-S11": "NYC环保部门：湿巾包括flushable进垃圾，管道风险；这是工程用途来源，不作医疗有效性来源。",
+      "ANAL-S12": "PMC2022综述：题名作者期刊年卷文章号DOI、摘要、纳入设计/偏倚、症状关联与反向因果、无既有痔/肛裂治疗试验、病例烫伤/感觉障碍、结论及利益冲突。未另读所有原始研究、测压全文及附录。正文未复制其中相互不一致的OR/CI数字。",
+      "ANAL-S13": "NIDDK2018便秘治疗：饮食/活动/如厕训练、改变药物须评估，软便药类别、生物反馈及肌肉协调。未采用每人固定水量或所有人停泻药结论。",
+      "ANAL-S14": "NIDDK2018便秘症状：不只频率，便血、持续腹痛、呕吐、不排气需及时求助，梗阻/药物等病因。",
+      "ANAL-S15": "NHS成人便秘：渐加纤维、排便训练、持续/血/消瘦/习惯变化检查，粪嵌塞可溢出稀便，不自行手掏；儿童另有路径。",
+      "ANAL-S16": "NHS2026泻药：容积/渗透/刺激分类、自购短期与医嘱长期区别、吞咽/妊娠/肾心情况，不等同中国批准。",
+      "ANAL-S17": "AGA/ACG2023AJG版PMC10544839：元数据DOI、Table1、fiber/PEG/bisacodyl推荐与证据质量、成人CIC范围/排除儿童孕期继发性便秘、短程与救援及禁忌、经费和利益披露；没有混用同发Gastroenterology版DOI，未通读所有附录和试验全文。",
+      "ANAL-S18": "ASCRS肛裂：裂伤与括约肌痉挛、硬便/腹泻、软而成形、温水舒适、处方外用类别/头痛低血压和不愈复查。",
+      "ANAL-S19": "ASCRS痔：正常组织与症状区分、不能自行把便血全归痔、查体/肛镜及按风险上游检查、生活与门诊/手术选项；未采其固定水杯量或所有咖啡一律不计饮水。",
+      "ANAL-S20": "NHS2026痔：软便少用力、症状用药、持续/出血检查、发热流脓/重痛和大量血分流、非手术与手术。",
+      "ANAL-S21": "CDC2024蛲虫：夜间肛痒、非特异表现、传播/家庭接触与卫生和药物配合，不用夜痒自行确诊。",
+      "ANAL-S22": "CDC2024蛲虫诊断：医护指导清晨洗澡排便前采样、连续晨间及手卫生。",
+      "ANAL-S23": "NHS2024控便：渗便/污迹应查原因，按病因治疗、屏障护理，儿童便秘可溢出稀便且不责怪。"
+    },
+    "not_claimed": "这是独立AI编辑与来源范围核对，未进行临床签审，未通读23页全部外链、所有原始试验或中国具体药品说明书。"
+  },
+  "evidence_limits": [
+    "权威机构页面发布日期不等同证据全部新鲜；旧页仅用于相对稳定的清洁与分流建议，便秘药物核心另核2023专业指南及2026公共医疗页。",
+    "成人CIC指南不能直接当成儿童、孕哺、药物/器质性病因便秘的通用处方；正文已排除，并未给剂量。",
+    "冲洗器综述设计异质、病例及观察性证据有限；不应从不增加痔风险或测压变化推到治疗有效，正文没有作此推论。",
+    "脓肿引流为专科治疗原则；儿童治疗需独立个体路径，当前scope_note已明确不套成人手术/抗生素。"
+  ],
+  "structural_checks": {
+    "all_source_tokens_resolve": true,
+    "all_sources_used": true,
+    "all_source_ids_match_tokens": true,
+    "all_summaries_110_170": true,
+    "all_summaries_plain_text": true,
+    "six_fields_in_order": true,
+    "units_cover_each_entry_once": true,
+    "costs_blank_without_authoritative_cost_data": true,
+    "all_entries_not_clinically_reviewed": true
+  },
+  "summary_lengths": {
+    "anal-001": 121,
+    "anal-002": 121,
+    "anal-003": 120,
+    "anal-004": 125,
+    "anal-005": 128,
+    "anal-006": 125,
+    "anal-007": 127,
+    "anal-008": 131,
+    "anal-009": 123,
+    "anal-010": 130,
+    "anal-011": 122,
+    "anal-012": 126
+  },
+  "clinical_review_status": "not_clinically_reviewed",
+  "conclusion": "未发现未决安全阻断。大量出血、不能自诊痔、疑脓肿检查/引流、成人CIC药物适用与冲洗/湿巾边界均有对应实际读取来源；儿童便血入口与009当天检查两项补强已经作者采纳，已重读核实。"
+}

@@ -1,0 +1,68 @@
+{
+  "checked_on": "2026-10-29",
+  "scope": "头屑、异常掉发、逐渐型脱发、治疗选择、补剂与医疗操作",
+  "entry_ids": [
+    "hair-002",
+    "hair-010",
+    "hair-015",
+    "hair-016",
+    "hair-017",
+    "hair-018",
+    "hair-019",
+    "hair-020",
+    "hair-021",
+    "hair-022",
+    "hair-023"
+  ],
+  "entry_count": 11,
+  "source_count": 28,
+  "used_source_count": 28,
+  "doi_count": 6,
+  "summary_lengths": {
+    "hair-002": 114,
+    "hair-010": 125,
+    "hair-015": 122,
+    "hair-016": 127,
+    "hair-017": 126,
+    "hair-018": 141,
+    "hair-019": 135,
+    "hair-020": 133,
+    "hair-021": 141,
+    "hair-022": 131,
+    "hair-023": 132
+  },
+  "clinical_review_status": "not_clinically_reviewed",
+  "source_policy": "优先学会、监管、原始人体研究和机构短页；制造商标签如实标明，不升级为政府疗效研究。",
+  "not_used": [
+    {
+      "url": "https://www.nhs.uk/conditions/dandruff/",
+      "reason": "本轮页脚last reviewed和next review均显示2029未来日期，元数据异常，不用作关键日期或4周分流来源；改AAD/BAD及药物指导。"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/019501Orig1s036%2C020834Orig1s021%2C021812Orig1s020lbl.pdf",
+      "reason": "工具显示内容约100MB过大，未阅读全文，不列已读来源。"
+    }
+  ],
+  "citation_checks": [
+    "6篇带DOI的作者/正式卷期页已核；口服米诺地尔原试验是4作者，非前三作者et al",
+    "LLLT为2024先发、2025正式51(2):179-183",
+    "Cochrane为2016;2016(5):CD007628，检索2015，不称最新",
+    "经典非那雄胺1998试验只支撑疗效方向，安全以2025EMA/2026MHRA补足"
+  ],
+  "inference_guards": [
+    "未见口服优效不等于严格等效",
+    "自发不良事件报告数不算发生率",
+    "美国复配外用非那雄胺警示不外推所有地区正规喷剂",
+    "不同光疗和PRP综述不作头对头排名",
+    "未用营养缺乏案例证明健康人补剂生发",
+    "海外标签不当作中国监管状态"
+  ],
+  "reading_limits": [
+    "PRP、LLLT与低剂量口服共识仅完整摘要与题录；未冒称全文审读",
+    "原口服米诺地尔随机试验读原刊摘要、入组、不良反应表，未逐表复算",
+    "尚需独立编辑复核、临床专业审阅",
+    "2025口服共识的大学全文镜像遇机器人验证，不绕过；具体胸痛/呼吸警示另引MedlinePlus口服药原页，仅作为药物安全而非低剂量风险率。"
+  ],
+  "all_inline_refs_resolve": true,
+  "unused_sources": []
+}

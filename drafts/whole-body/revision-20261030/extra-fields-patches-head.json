@@ -1,0 +1,2029 @@
+{
+  "version": "2026-10-30",
+  "scope": "126 head entries, remaining cost/evidence/sources fields",
+  "input_status": "raw baseline chapters with prose-patches.json then frozen head-reader-patches.json applied",
+  "apply_after": [
+    "prose-patches.json",
+    "head-reader-patches.json"
+  ],
+  "method": "实际通读每条cost/evidence/sources三栏；删除或重写作者未做何事的过程用语，保留证据类型、等级和不确定性，不新增医学推荐。",
+  "limitations": "此轮通读不是重新完成126条的系统临床核证。来源栏为简短引用说明与稳定来源引用，未据此宣称已重新逐篇核读来源账本中全部完整文献。",
+  "patches": [
+    {
+      "file": "drafts/whole-body/baseline/chapters/hair.json",
+      "target": "entry",
+      "id": "hair-001",
+      "field": "fields.evidence",
+      "old": "未以固定频率保证不脱发。",
+      "new": "不能据此确定一种适合所有人、还能预防脱发的固定洗发频率。",
+      "reason": "将作者怎样写、没做什么的过程陈述改为资料能支持什么的证据边界；不改变评级、临床建议和引用。"
+    },
+    {
+      "file": "drafts/whole-body/baseline/chapters/hair.json",
+      "target": "entry",
+      "id": "hair-002",
+      "field": "fields.evidence",
+      "old": "没有据此给所有去屑品牌作头对头疗效排名。",
+      "new": "这些指导不足以判断所有去屑品牌之间的疗效高低。",
+      "reason": "将作者怎样写、没做什么的过程陈述改为资料能支持什么的证据边界；不改变评级、临床建议和引用。"
+    },
+    {
+      "file": "drafts/whole-body/baseline/chapters/hair.json",
+      "target": "entry",
+      "id": "hair-005",
+      "field": "fields.evidence",
+      "old": "没有为胶囊或深海营销词补造临床证据。",
+      "new": "胶囊剂型和“深海”名称本身不能证明人体生发效果。",
+      "reason": "将作者怎样写、没做什么的过程陈述改为资料能支持什么的证据边界；不改变评级、临床建议和引用。"
+    },
+    {
+      "file": "drafts/whole-body/baseline/chapters/hair.json",
+      "target": "entry",
+      "id": "hair-006",
+      "field": "fields.evidence",
+      "old": "离体发束实验支持物性线索，尚不能作为本项目B级人体疗效证据；",
+      "new": "离体发束实验支持物性变化线索，不能直接证明使用者长期护理的效果；",
+      "reason": "将作者怎样写、没做什么的过程陈述改为资料能支持什么的证据边界；不改变评级、临床建议和引用。"
+    },
+    {
+      "file": "drafts/whole-body/baseline/chapters/hair.json",
+      "target": "entry",
+      "id": "hair-009",
+      "field": "fields.evidence",
+      "old": "没有将某次品牌召回或个案扩成所有干洗产品必然有害。",
+      "new": "这些指导不能证明所有干洗产品必然有害，也不能用于全品类安全排名。",
+      "reason": "将作者怎样写、没做什么的过程陈述改为资料能支持什么的证据边界；不改变评级、临床建议和引用。"
+    },
+    {
+      "file": "drafts/whole-body/baseline/chapters/hair.json",
+      "target": "entry",
+      "id": "hair-011",
+      "field": "fields.evidence",
+      "old": "本文未完成所有乌发产品的系统综述，不将缺少证据写成每种产品均已被证伪。",
+      "new": "这些护理资料不能证明所有乌发产品有效或无效。",
+      "reason": "将作者怎样写、没做什么的过程陈述改为资料能支持什么的证据边界；不改变评级、临床建议和引用。"
+    },
+    {
+      "file": "drafts/whole-body/baseline/chapters/hair.json",
+      "target": "entry",
+      "id": "hair-013",
+      "field": "fields.evidence",
+      "old": "具体产品比较未有直接研究支持。",
+      "new": "所引资料未直接比较具体产品。",
+      "reason": "将作者怎样写、没做什么的过程陈述改为资料能支持什么的证据边界；不改变评级、临床建议和引用。"
+    },
+    {
+      "file": "drafts/whole-body/baseline/chapters/hair.json",
+      "target": "entry",
+      "id": "hair-019",
+      "field": "fields.evidence",
+      "old": "共识全文未读，不提供具体剂量与完整禁忌表。",
+      "new": "具体剂量、禁忌和监测仍须按完整用药指导及个人情况评估。",
+      "reason": "读取深度继续留在对应来源账本，删除公共证据栏的作者未读全文声明；不补写任何剂量或禁忌。"
+    },
+    {
+      "file": "drafts/whole-body/baseline/chapters/hair.json",
+      "target": "entry",
+      "id": "hair-023",
+      "field": "fields.evidence",
+      "old": "未独立审读不同植发术式的头对头试验，不给统一成活率。",
+      "new": "这些指导不能用于比较不同植发术式的成活率。",
+      "reason": "将作者怎样写、没做什么的过程陈述改为资料能支持什么的证据边界；不改变评级、临床建议和引用。"
+    },
+    {
+      "file": "drafts/whole-body/baseline/chapters/eyes.json",
+      "target": "entry",
+      "id": "eyes-014",
+      "field": "fields.evidence",
+      "old": "此处给药物类别，不做具体品牌或浓度的疗效排名。",
+      "new": "药物类别指导不能直接证明某个品牌或浓度更好。",
+      "reason": "将作者怎样写、没做什么的过程陈述改为资料能支持什么的证据边界；不改变评级、临床建议和引用。"
+    },
+    {
+      "file": "drafts/whole-body/baseline/chapters/eyes.json",
+      "target": "entry",
+      "id": "eyes-006",
+      "field": "fields.evidence",
+      "old": "没有把它写成高确定性量化疗效。",
+      "new": "不能据此给出高确定性的改善幅度。",
+      "reason": "将作者怎样写、没做什么的过程陈述改为资料能支持什么的证据边界；不改变评级、临床建议和引用。"
+    },
+    {
+      "file": "drafts/whole-body/baseline/chapters/eyes.json",
+      "target": "entry",
+      "id": "eyes-022",
+      "field": "fields.evidence",
+      "old": "不提供自行改处方的算法。",
+      "new": "处方参数说明不能替代验光。",
+      "reason": "将作者怎样写、没做什么的过程陈述改为资料能支持什么的证据边界；不改变评级、临床建议和引用。"
+    },
+    {
+      "file": "drafts/whole-body/baseline/chapters/eyes.json",
+      "target": "entry",
+      "id": "eyes-031",
+      "field": "fields.evidence",
+      "old": "户外与风险的关联不在此换算成个人获益，",
+      "new": "人群层面的户外活动与风险关联不能直接换算成个人获益，",
+      "reason": "将作者怎样写、没做什么的过程陈述改为资料能支持什么的证据边界；不改变评级、临床建议和引用。"
+    },
+    {
+      "file": "drafts/whole-body/baseline/chapters/eyes.json",
+      "target": "entry",
+      "id": "eyes-025",
+      "field": "fields.evidence",
+      "old": "不提供个人发病概率或统一复查套餐。",
+      "new": "不能由这些指导计算个人发病概率或确定适合所有人的复查套餐。",
+      "reason": "将作者怎样写、没做什么的过程陈述改为资料能支持什么的证据边界；不改变评级、临床建议和引用。"
+    },
+    {
+      "file": "drafts/whole-body/baseline/chapters/eyes.json",
+      "target": "entry",
+      "id": "eyes-030",
+      "field": "fields.evidence",
+      "old": "不声称已检验市场上每款商品或证明它们全部无效。",
+      "new": "所引资料未逐款验证市场商品，不能据此断定它们全部无效。",
+      "reason": "将作者怎样写、没做什么的过程陈述改为资料能支持什么的证据边界；不改变评级、临床建议和引用。"
+    },
+    {
+      "file": "drafts/whole-body/baseline/chapters/eyes.json",
+      "target": "entry",
+      "id": "eyes-002",
+      "field": "fields.evidence",
+      "old": "没有把固定休息间隔写成保证疗效的处方。",
+      "new": "固定休息间隔不是保证疗效的统一处方。",
+      "reason": "将作者怎样写、没做什么的过程陈述改为资料能支持什么的证据边界；不改变评级、临床建议和引用。"
+    },
+    {
+      "file": "drafts/whole-body/baseline/chapters/eyes.json",
+      "target": "entry",
+      "id": "eyes-010",
+      "field": "fields.evidence",
+      "old": "未据色素名称给全部成品作毒理判断。",
+      "new": "色素名称本身不足以判断所有成品的毒理安全性。",
+      "reason": "将作者怎样写、没做什么的过程陈述改为资料能支持什么的证据边界；不改变评级、临床建议和引用。"
+    },
+    {
+      "file": "drafts/whole-body/baseline/chapters/eyes.json",
+      "target": "entry",
+      "id": "eyes-027",
+      "field": "fields.evidence",
+      "old": "本文不作术式疗效排行榜。",
+      "new": "这些资料不足以按术式名称给出适合所有人的疗效排名。",
+      "reason": "将作者怎样写、没做什么的过程陈述改为资料能支持什么的证据边界；不改变评级、临床建议和引用。"
+    },
+    {
+      "file": "drafts/whole-body/baseline/chapters/eyes.json",
+      "target": "entry",
+      "id": "eyes-028",
+      "field": "fields.evidence",
+      "old": "未做具体ICL型号之间的直接疗效比较。",
+      "new": "这些指导未直接比较具体ICL型号的疗效。",
+      "reason": "将作者怎样写、没做什么的过程陈述改为资料能支持什么的证据边界；不改变评级、临床建议和引用。"
+    },
+    {
+      "file": "drafts/whole-body/baseline/chapters/eyes.json",
+      "target": "entry",
+      "id": "eyes-012",
+      "field": "fields.evidence",
+      "old": "不据此排护理液品牌优劣。",
+      "new": "这些规范不能用于比较护理液品牌的疗效高低。",
+      "reason": "将作者怎样写、没做什么的过程陈述改为资料能支持什么的证据边界；不改变评级、临床建议和引用。"
+    },
+    {
+      "file": "drafts/whole-body/baseline/chapters/eyes.json",
+      "target": "entry",
+      "id": "eyes-017",
+      "field": "fields.evidence",
+      "old": "不声称已证明健康泳客预防性用药无效，也不冒充随机试验。",
+      "new": "这不是健康泳客预防性抗生素的随机试验证据，也不能据此判定该用法已被证明无效。",
+      "reason": "将作者怎样写、没做什么的过程陈述改为资料能支持什么的证据边界；不改变评级、临床建议和引用。"
+    },
+    {
+      "file": "drafts/whole-body/baseline/chapters/nose.json",
+      "target": "entry",
+      "id": "nose-008",
+      "field": "fields.evidence",
+      "old": "本条不根据症状自诊肿瘤，也不提供远程病因概率。",
+      "new": "这些表现不能确定个体病因或计算肿瘤概率。",
+      "reason": "将作者怎样写、没做什么的过程陈述改为资料能支持什么的证据边界；不改变评级、临床建议和引用。"
+    },
+    {
+      "file": "drafts/whole-body/baseline/chapters/nose.json",
+      "target": "entry",
+      "id": "nose-003",
+      "field": "fields.evidence",
+      "old": "不作鼻贴或吸力仪全品牌疗效排名。",
+      "new": "不能据此判断具体鼻贴或吸力仪的效果优劣。",
+      "reason": "将作者怎样写、没做什么的过程陈述改为资料能支持什么的证据边界；不改变评级、临床建议和引用。"
+    },
+    {
+      "file": "drafts/whole-body/baseline/chapters/ears.json",
+      "target": "entry",
+      "id": "ears-006",
+      "field": "fields.evidence",
+      "old": "未用该页排名所有新器械。",
+      "new": "上述资料不能证明某种新器械优于其他方案。",
+      "reason": "将作者怎样写、没做什么的过程陈述改为资料能支持什么的证据边界；不改变评级、临床建议和引用。"
+    },
+    {
+      "file": "drafts/whole-body/baseline/chapters/ears.json",
+      "target": "entry",
+      "id": "ears-007",
+      "field": "fields.evidence",
+      "old": "航空机构健康指导及听损分流；不提供潜水平压教程或鼻喷药统一剂量。",
+      "new": "航空机构的气压不适护理与听力下降分流指导。",
+      "reason": "将作者怎样写、没做什么的过程陈述改为资料能支持什么的证据边界；不改变评级、临床建议和引用。"
+    },
+    {
+      "file": "drafts/whole-body/baseline/chapters/ears.json",
+      "target": "entry",
+      "id": "ears-008",
+      "field": "fields.evidence",
+      "old": "未验证所有合金、涂层和低敏营销标签。",
+      "new": "这些指导不能仅凭“低敏”标签判断具体合金或涂层一定适合。",
+      "reason": "将作者怎样写、没做什么的过程陈述改为资料能支持什么的证据边界；不改变评级、临床建议和引用。"
+    },
+    {
+      "file": "drafts/whole-body/baseline/chapters/oral.json",
+      "target": "entry",
+      "id": "oral-006",
+      "field": "fields.evidence",
+      "old": "本文不提供个体处方或品牌比较。",
+      "new": "具体处方需要结合个人情况，来源并未直接比较品牌。",
+      "reason": "将作者怎样写、没做什么的过程陈述改为资料能支持什么的证据边界；不改变评级、临床建议和引用。"
+    },
+    {
+      "file": "drafts/whole-body/baseline/chapters/oral.json",
+      "target": "entry",
+      "id": "oral-019",
+      "field": "fields.evidence",
+      "old": "未宣称所有孩子按同一天换牙。",
+      "new": "换牙时间存在个体差异，不能只按同学进度判断异常。",
+      "reason": "将作者怎样写、没做什么的过程陈述改为资料能支持什么的证据边界；不改变评级、临床建议和引用。"
+    },
+    {
+      "file": "drafts/whole-body/baseline/chapters/oral.json",
+      "target": "entry",
+      "id": "oral-017",
+      "field": "fields.evidence",
+      "old": "未将牙垫保护作用写成治愈磨牙。",
+      "new": "牙垫保护作用不等于治愈磨牙。",
+      "reason": "将作者怎样写、没做什么的过程陈述改为资料能支持什么的证据边界；不改变评级、临床建议和引用。"
+    },
+    {
+      "file": "drafts/whole-body/baseline/chapters/oral.json",
+      "target": "entry",
+      "id": "oral-022",
+      "field": "fields.evidence",
+      "old": "不建立“所有缺牙者最佳材料”排名。",
+      "new": "这些资料支持分条件选择，不能证明一种方式适合所有缺牙者。",
+      "reason": "将作者怎样写、没做什么的过程陈述改为资料能支持什么的证据边界；不改变评级、临床建议和引用。"
+    },
+    {
+      "file": "drafts/whole-body/baseline/chapters/skin.json",
+      "target": "entry",
+      "id": "skin-001",
+      "field": "fields.evidence",
+      "old": "没有据此给所有洁面或面霜排效果名次。",
+      "new": "这些建议不足以比较所有洁面或面霜的效果高低。",
+      "reason": "将作者怎样写、没做什么的过程陈述改为资料能支持什么的证据边界；不改变评级、临床建议和引用。"
+    },
+    {
+      "file": "drafts/whole-body/baseline/chapters/skin.json",
+      "target": "entry",
+      "id": "skin-004",
+      "field": "fields.evidence",
+      "old": "没有据此量化不同品牌、喷雾或膜布的长期效果。",
+      "new": "不能据此估算不同品牌、喷雾或膜布的长期效果。",
+      "reason": "将作者怎样写、没做什么的过程陈述改为资料能支持什么的证据边界；不改变评级、临床建议和引用。"
+    },
+    {
+      "file": "drafts/whole-body/baseline/chapters/skin.json",
+      "target": "entry",
+      "id": "skin-019",
+      "field": "fields.evidence",
+      "old": "没有把ABCDE作为自行排除或确诊的工具。",
+      "new": "ABCDE用于提醒检查，不能自行排除或确诊病变。",
+      "reason": "将作者怎样写、没做什么的过程陈述改为资料能支持什么的证据边界；不改变评级、临床建议和引用。"
+    },
+    {
+      "file": "drafts/whole-body/baseline/chapters/skin.json",
+      "target": "entry",
+      "id": "skin-021",
+      "field": "fields.evidence",
+      "old": "未重做药物试验，不据此比较所有美白成品。",
+      "new": "这些治疗路径不能直接比较市售美白成品的效果。",
+      "reason": "将作者怎样写、没做什么的过程陈述改为资料能支持什么的证据边界；不改变评级、临床建议和引用。"
+    },
+    {
+      "file": "drafts/whole-body/baseline/chapters/skin.json",
+      "target": "entry",
+      "id": "skin-005",
+      "field": "fields.evidence",
+      "old": "未声称所有轻微短暂感觉都代表过敏。",
+      "new": "并非所有轻微短暂感觉都意味着过敏。",
+      "reason": "将作者怎样写、没做什么的过程陈述改为资料能支持什么的证据边界；不改变评级、临床建议和引用。"
+    },
+    {
+      "file": "drafts/whole-body/baseline/chapters/skin.json",
+      "target": "entry",
+      "id": "skin-006",
+      "field": "fields.evidence",
+      "old": "未独立重评所有药物试验或作品牌排序；",
+      "new": "不能据此给所有成品作品牌排名；",
+      "reason": "将作者怎样写、没做什么的过程陈述改为资料能支持什么的证据边界；不改变评级、临床建议和引用。"
+    },
+    {
+      "file": "drafts/whole-body/baseline/chapters/skin.json",
+      "target": "entry",
+      "id": "skin-017",
+      "field": "fields.evidence",
+      "old": "没有据此比较全部去屑或抗真菌品牌，也不把抗真菌等同所有病例的唯一治疗。",
+      "new": "这些指导不足以确定某一品牌优于其他品牌，抗真菌也不是所有病例的唯一治疗。",
+      "reason": "将作者怎样写、没做什么的过程陈述改为资料能支持什么的证据边界；不改变评级、临床建议和引用。"
+    },
+    {
+      "file": "drafts/whole-body/baseline/chapters/skin.json",
+      "target": "entry",
+      "id": "skin-007",
+      "field": "fields.evidence",
+      "old": "未给不同医美项目统一有效率，不承诺完全复原。",
+      "new": "这类分流指导不能确定不同医美项目的统一有效率，也不能承诺完全复原。",
+      "reason": "将作者怎样写、没做什么的过程陈述改为资料能支持什么的证据边界；不改变评级、临床建议和引用。"
+    },
+    {
+      "file": "drafts/whole-body/baseline/chapters/skin.json",
+      "target": "entry",
+      "id": "skin-008",
+      "field": "fields.evidence",
+      "old": "未把观察性食物关联、糖化机制或个人记录写成治疗因果证据。",
+      "new": "观察性食物关联、糖化机制或个人记录不能确立治疗因果关系。",
+      "reason": "将作者怎样写、没做什么的过程陈述改为资料能支持什么的证据边界；不改变评级、临床建议和引用。"
+    },
+    {
+      "file": "drafts/whole-body/baseline/chapters/skin.json",
+      "target": "entry",
+      "id": "skin-011",
+      "field": "fields.evidence",
+      "old": "没有引用直接比较各类眼霜或按摩的高质量试验。",
+      "new": "所引机构资料未直接比较各类眼霜或按摩的效果。",
+      "reason": "将作者怎样写、没做什么的过程陈述改为资料能支持什么的证据边界；不改变评级、临床建议和引用。"
+    },
+    {
+      "file": "drafts/whole-body/baseline/chapters/skin.json",
+      "target": "entry",
+      "id": "skin-013",
+      "field": "fields.evidence",
+      "old": "本文未提供头对头器械试验结论。",
+      "new": "所引护理资料未直接比较不同器械的效果。",
+      "reason": "将作者怎样写、没做什么的过程陈述改为资料能支持什么的证据边界；不改变评级、临床建议和引用。"
+    }
+  ],
+  "coverage": {
+    "entry_count": 126,
+    "entries": [
+      {
+        "id": "hair-001",
+        "chapter": "hair",
+        "actual_read_fields": [
+          "fields.cost",
+          "fields.evidence",
+          "fields.sources"
+        ],
+        "method": "完整展开三栏后逐句阅读，非关键词扫描替代",
+        "result": "editorial_patch",
+        "medical_claim_changed": false,
+        "grading_changed": false
+      },
+      {
+        "id": "hair-002",
+        "chapter": "hair",
+        "actual_read_fields": [
+          "fields.cost",
+          "fields.evidence",
+          "fields.sources"
+        ],
+        "method": "完整展开三栏后逐句阅读，非关键词扫描替代",
+        "result": "editorial_patch",
+        "medical_claim_changed": false,
+        "grading_changed": false
+      },
+      {
+        "id": "hair-003",
+        "chapter": "hair",
+        "actual_read_fields": [
+          "fields.cost",
+          "fields.evidence",
+          "fields.sources"
+        ],
+        "method": "完整展开三栏后逐句阅读，非关键词扫描替代",
+        "result": "read_no_additional_patch",
+        "medical_claim_changed": false,
+        "grading_changed": false
+      },
+      {
+        "id": "hair-004",
+        "chapter": "hair",
+        "actual_read_fields": [
+          "fields.cost",
+          "fields.evidence",
+          "fields.sources"
+        ],
+        "method": "完整展开三栏后逐句阅读，非关键词扫描替代",
+        "result": "read_no_additional_patch",
+        "medical_claim_changed": false,
+        "grading_changed": false
+      },
+      {
+        "id": "hair-005",
+        "chapter": "hair",
+        "actual_read_fields": [
+          "fields.cost",
+          "fields.evidence",
+          "fields.sources"
+        ],
+        "method": "完整展开三栏后逐句阅读，非关键词扫描替代",
+        "result": "editorial_patch",
+        "medical_claim_changed": false,
+        "grading_changed": false
+      },
+      {
+        "id": "hair-006",
+        "chapter": "hair",
+        "actual_read_fields": [
+          "fields.cost",
+          "fields.evidence",
+          "fields.sources"
+        ],
+        "method": "完整展开三栏后逐句阅读，非关键词扫描替代",
+        "result": "editorial_patch",
+        "medical_claim_changed": false,
+        "grading_changed": false
+      },
+      {
+        "id": "hair-007",
+        "chapter": "hair",
+        "actual_read_fields": [
+          "fields.cost",
+          "fields.evidence",
+          "fields.sources"
+        ],
+        "method": "完整展开三栏后逐句阅读，非关键词扫描替代",
+        "result": "read_no_additional_patch",
+        "medical_claim_changed": false,
+        "grading_changed": false
+      },
+      {
+        "id": "hair-014",
+        "chapter": "hair",
+        "actual_read_fields": [
+          "fields.cost",
+          "fields.evidence",
+          "fields.sources"
+        ],
+        "method": "完整展开三栏后逐句阅读，非关键词扫描替代",
+        "result": "read_no_additional_patch",
+        "medical_claim_changed": false,
+        "grading_changed": false
+      },
+      {
+        "id": "hair-008",
+        "chapter": "hair",
+        "actual_read_fields": [
+          "fields.cost",
+          "fields.evidence",
+          "fields.sources"
+        ],
+        "method": "完整展开三栏后逐句阅读，非关键词扫描替代",
+        "result": "read_no_additional_patch",
+        "medical_claim_changed": false,
+        "grading_changed": false
+      },
+      {
+        "id": "hair-009",
+        "chapter": "hair",
+        "actual_read_fields": [
+          "fields.cost",
+          "fields.evidence",
+          "fields.sources"
+        ],
+        "method": "完整展开三栏后逐句阅读，非关键词扫描替代",
+        "result": "editorial_patch",
+        "medical_claim_changed": false,
+        "grading_changed": false
+      },
+      {
+        "id": "hair-011",
+        "chapter": "hair",
+        "actual_read_fields": [
+          "fields.cost",
+          "fields.evidence",
+          "fields.sources"
+        ],
+        "method": "完整展开三栏后逐句阅读，非关键词扫描替代",
+        "result": "editorial_patch",
+        "medical_claim_changed": false,
+        "grading_changed": false
+      },
+      {
+        "id": "hair-012",
+        "chapter": "hair",
+        "actual_read_fields": [
+          "fields.cost",
+          "fields.evidence",
+          "fields.sources"
+        ],
+        "method": "完整展开三栏后逐句阅读，非关键词扫描替代",
+        "result": "read_no_additional_patch",
+        "medical_claim_changed": false,
+        "grading_changed": false
+      },
+      {
+        "id": "hair-013",
+        "chapter": "hair",
+        "actual_read_fields": [
+          "fields.cost",
+          "fields.evidence",
+          "fields.sources"
+        ],
+        "method": "完整展开三栏后逐句阅读，非关键词扫描替代",
+        "result": "editorial_patch",
+        "medical_claim_changed": false,
+        "grading_changed": false
+      },
+      {
+        "id": "hair-022",
+        "chapter": "hair",
+        "actual_read_fields": [
+          "fields.cost",
+          "fields.evidence",
+          "fields.sources"
+        ],
+        "method": "完整展开三栏后逐句阅读，非关键词扫描替代",
+        "result": "read_no_additional_patch",
+        "medical_claim_changed": false,
+        "grading_changed": false
+      },
+      {
+        "id": "hair-015",
+        "chapter": "hair",
+        "actual_read_fields": [
+          "fields.cost",
+          "fields.evidence",
+          "fields.sources"
+        ],
+        "method": "完整展开三栏后逐句阅读，非关键词扫描替代",
+        "result": "read_no_additional_patch",
+        "medical_claim_changed": false,
+        "grading_changed": false
+      },
+      {
+        "id": "hair-010",
+        "chapter": "hair",
+        "actual_read_fields": [
+          "fields.cost",
+          "fields.evidence",
+          "fields.sources"
+        ],
+        "method": "完整展开三栏后逐句阅读，非关键词扫描替代",
+        "result": "read_no_additional_patch",
+        "medical_claim_changed": false,
+        "grading_changed": false
+      },
+      {
+        "id": "hair-016",
+        "chapter": "hair",
+        "actual_read_fields": [
+          "fields.cost",
+          "fields.evidence",
+          "fields.sources"
+        ],
+        "method": "完整展开三栏后逐句阅读，非关键词扫描替代",
+        "result": "read_no_additional_patch",
+        "medical_claim_changed": false,
+        "grading_changed": false
+      },
+      {
+        "id": "hair-017",
+        "chapter": "hair",
+        "actual_read_fields": [
+          "fields.cost",
+          "fields.evidence",
+          "fields.sources"
+        ],
+        "method": "完整展开三栏后逐句阅读，非关键词扫描替代",
+        "result": "read_no_additional_patch",
+        "medical_claim_changed": false,
+        "grading_changed": false
+      },
+      {
+        "id": "hair-018",
+        "chapter": "hair",
+        "actual_read_fields": [
+          "fields.cost",
+          "fields.evidence",
+          "fields.sources"
+        ],
+        "method": "完整展开三栏后逐句阅读，非关键词扫描替代",
+        "result": "read_no_additional_patch",
+        "medical_claim_changed": false,
+        "grading_changed": false
+      },
+      {
+        "id": "hair-019",
+        "chapter": "hair",
+        "actual_read_fields": [
+          "fields.cost",
+          "fields.evidence",
+          "fields.sources"
+        ],
+        "method": "完整展开三栏后逐句阅读，非关键词扫描替代",
+        "result": "editorial_patch",
+        "medical_claim_changed": false,
+        "grading_changed": false
+      },
+      {
+        "id": "hair-020",
+        "chapter": "hair",
+        "actual_read_fields": [
+          "fields.cost",
+          "fields.evidence",
+          "fields.sources"
+        ],
+        "method": "完整展开三栏后逐句阅读，非关键词扫描替代",
+        "result": "read_no_additional_patch",
+        "medical_claim_changed": false,
+        "grading_changed": false
+      },
+      {
+        "id": "hair-021",
+        "chapter": "hair",
+        "actual_read_fields": [
+          "fields.cost",
+          "fields.evidence",
+          "fields.sources"
+        ],
+        "method": "完整展开三栏后逐句阅读，非关键词扫描替代",
+        "result": "read_no_additional_patch",
+        "medical_claim_changed": false,
+        "grading_changed": false
+      },
+      {
+        "id": "hair-023",
+        "chapter": "hair",
+        "actual_read_fields": [
+          "fields.cost",
+          "fields.evidence",
+          "fields.sources"
+        ],
+        "method": "完整展开三栏后逐句阅读，非关键词扫描替代",
+        "result": "editorial_patch",
+        "medical_claim_changed": false,
+        "grading_changed": false
+      },
+      {
+        "id": "eyes-005",
+        "chapter": "eyes",
+        "actual_read_fields": [
+          "fields.cost",
+          "fields.evidence",
+          "fields.sources"
+        ],
+        "method": "完整展开三栏后逐句阅读，非关键词扫描替代",
+        "result": "read_no_additional_patch",
+        "medical_claim_changed": false,
+        "grading_changed": false
+      },
+      {
+        "id": "eyes-013",
+        "chapter": "eyes",
+        "actual_read_fields": [
+          "fields.cost",
+          "fields.evidence",
+          "fields.sources"
+        ],
+        "method": "完整展开三栏后逐句阅读，非关键词扫描替代",
+        "result": "read_no_additional_patch",
+        "medical_claim_changed": false,
+        "grading_changed": false
+      },
+      {
+        "id": "eyes-014",
+        "chapter": "eyes",
+        "actual_read_fields": [
+          "fields.cost",
+          "fields.evidence",
+          "fields.sources"
+        ],
+        "method": "完整展开三栏后逐句阅读，非关键词扫描替代",
+        "result": "editorial_patch",
+        "medical_claim_changed": false,
+        "grading_changed": false
+      },
+      {
+        "id": "eyes-006",
+        "chapter": "eyes",
+        "actual_read_fields": [
+          "fields.cost",
+          "fields.evidence",
+          "fields.sources"
+        ],
+        "method": "完整展开三栏后逐句阅读，非关键词扫描替代",
+        "result": "editorial_patch",
+        "medical_claim_changed": false,
+        "grading_changed": false
+      },
+      {
+        "id": "eyes-023",
+        "chapter": "eyes",
+        "actual_read_fields": [
+          "fields.cost",
+          "fields.evidence",
+          "fields.sources"
+        ],
+        "method": "完整展开三栏后逐句阅读，非关键词扫描替代",
+        "result": "read_no_additional_patch",
+        "medical_claim_changed": false,
+        "grading_changed": false
+      },
+      {
+        "id": "eyes-020",
+        "chapter": "eyes",
+        "actual_read_fields": [
+          "fields.cost",
+          "fields.evidence",
+          "fields.sources"
+        ],
+        "method": "完整展开三栏后逐句阅读，非关键词扫描替代",
+        "result": "read_no_additional_patch",
+        "medical_claim_changed": false,
+        "grading_changed": false
+      },
+      {
+        "id": "eyes-001",
+        "chapter": "eyes",
+        "actual_read_fields": [
+          "fields.cost",
+          "fields.evidence",
+          "fields.sources"
+        ],
+        "method": "完整展开三栏后逐句阅读，非关键词扫描替代",
+        "result": "read_no_additional_patch",
+        "medical_claim_changed": false,
+        "grading_changed": false
+      },
+      {
+        "id": "eyes-021",
+        "chapter": "eyes",
+        "actual_read_fields": [
+          "fields.cost",
+          "fields.evidence",
+          "fields.sources"
+        ],
+        "method": "完整展开三栏后逐句阅读，非关键词扫描替代",
+        "result": "read_no_additional_patch",
+        "medical_claim_changed": false,
+        "grading_changed": false
+      },
+      {
+        "id": "eyes-022",
+        "chapter": "eyes",
+        "actual_read_fields": [
+          "fields.cost",
+          "fields.evidence",
+          "fields.sources"
+        ],
+        "method": "完整展开三栏后逐句阅读，非关键词扫描替代",
+        "result": "editorial_patch",
+        "medical_claim_changed": false,
+        "grading_changed": false
+      },
+      {
+        "id": "eyes-026",
+        "chapter": "eyes",
+        "actual_read_fields": [
+          "fields.cost",
+          "fields.evidence",
+          "fields.sources"
+        ],
+        "method": "完整展开三栏后逐句阅读，非关键词扫描替代",
+        "result": "read_no_additional_patch",
+        "medical_claim_changed": false,
+        "grading_changed": false
+      },
+      {
+        "id": "eyes-031",
+        "chapter": "eyes",
+        "actual_read_fields": [
+          "fields.cost",
+          "fields.evidence",
+          "fields.sources"
+        ],
+        "method": "完整展开三栏后逐句阅读，非关键词扫描替代",
+        "result": "editorial_patch",
+        "medical_claim_changed": false,
+        "grading_changed": false
+      },
+      {
+        "id": "eyes-032",
+        "chapter": "eyes",
+        "actual_read_fields": [
+          "fields.cost",
+          "fields.evidence",
+          "fields.sources"
+        ],
+        "method": "完整展开三栏后逐句阅读，非关键词扫描替代",
+        "result": "read_no_additional_patch",
+        "medical_claim_changed": false,
+        "grading_changed": false
+      },
+      {
+        "id": "eyes-024",
+        "chapter": "eyes",
+        "actual_read_fields": [
+          "fields.cost",
+          "fields.evidence",
+          "fields.sources"
+        ],
+        "method": "完整展开三栏后逐句阅读，非关键词扫描替代",
+        "result": "read_no_additional_patch",
+        "medical_claim_changed": false,
+        "grading_changed": false
+      },
+      {
+        "id": "eyes-025",
+        "chapter": "eyes",
+        "actual_read_fields": [
+          "fields.cost",
+          "fields.evidence",
+          "fields.sources"
+        ],
+        "method": "完整展开三栏后逐句阅读，非关键词扫描替代",
+        "result": "editorial_patch",
+        "medical_claim_changed": false,
+        "grading_changed": false
+      },
+      {
+        "id": "eyes-030",
+        "chapter": "eyes",
+        "actual_read_fields": [
+          "fields.cost",
+          "fields.evidence",
+          "fields.sources"
+        ],
+        "method": "完整展开三栏后逐句阅读，非关键词扫描替代",
+        "result": "editorial_patch",
+        "medical_claim_changed": false,
+        "grading_changed": false
+      },
+      {
+        "id": "eyes-002",
+        "chapter": "eyes",
+        "actual_read_fields": [
+          "fields.cost",
+          "fields.evidence",
+          "fields.sources"
+        ],
+        "method": "完整展开三栏后逐句阅读，非关键词扫描替代",
+        "result": "editorial_patch",
+        "medical_claim_changed": false,
+        "grading_changed": false
+      },
+      {
+        "id": "eyes-007",
+        "chapter": "eyes",
+        "actual_read_fields": [
+          "fields.cost",
+          "fields.evidence",
+          "fields.sources"
+        ],
+        "method": "完整展开三栏后逐句阅读，非关键词扫描替代",
+        "result": "read_no_additional_patch",
+        "medical_claim_changed": false,
+        "grading_changed": false
+      },
+      {
+        "id": "eyes-015",
+        "chapter": "eyes",
+        "actual_read_fields": [
+          "fields.cost",
+          "fields.evidence",
+          "fields.sources"
+        ],
+        "method": "完整展开三栏后逐句阅读，非关键词扫描替代",
+        "result": "read_no_additional_patch",
+        "medical_claim_changed": false,
+        "grading_changed": false
+      },
+      {
+        "id": "eyes-016",
+        "chapter": "eyes",
+        "actual_read_fields": [
+          "fields.cost",
+          "fields.evidence",
+          "fields.sources"
+        ],
+        "method": "完整展开三栏后逐句阅读，非关键词扫描替代",
+        "result": "read_no_additional_patch",
+        "medical_claim_changed": false,
+        "grading_changed": false
+      },
+      {
+        "id": "eyes-003",
+        "chapter": "eyes",
+        "actual_read_fields": [
+          "fields.cost",
+          "fields.evidence",
+          "fields.sources"
+        ],
+        "method": "完整展开三栏后逐句阅读，非关键词扫描替代",
+        "result": "read_no_additional_patch",
+        "medical_claim_changed": false,
+        "grading_changed": false
+      },
+      {
+        "id": "eyes-004",
+        "chapter": "eyes",
+        "actual_read_fields": [
+          "fields.cost",
+          "fields.evidence",
+          "fields.sources"
+        ],
+        "method": "完整展开三栏后逐句阅读，非关键词扫描替代",
+        "result": "read_no_additional_patch",
+        "medical_claim_changed": false,
+        "grading_changed": false
+      },
+      {
+        "id": "eyes-008",
+        "chapter": "eyes",
+        "actual_read_fields": [
+          "fields.cost",
+          "fields.evidence",
+          "fields.sources"
+        ],
+        "method": "完整展开三栏后逐句阅读，非关键词扫描替代",
+        "result": "read_no_additional_patch",
+        "medical_claim_changed": false,
+        "grading_changed": false
+      },
+      {
+        "id": "eyes-009",
+        "chapter": "eyes",
+        "actual_read_fields": [
+          "fields.cost",
+          "fields.evidence",
+          "fields.sources"
+        ],
+        "method": "完整展开三栏后逐句阅读，非关键词扫描替代",
+        "result": "read_no_additional_patch",
+        "medical_claim_changed": false,
+        "grading_changed": false
+      },
+      {
+        "id": "eyes-010",
+        "chapter": "eyes",
+        "actual_read_fields": [
+          "fields.cost",
+          "fields.evidence",
+          "fields.sources"
+        ],
+        "method": "完整展开三栏后逐句阅读，非关键词扫描替代",
+        "result": "editorial_patch",
+        "medical_claim_changed": false,
+        "grading_changed": false
+      },
+      {
+        "id": "eyes-027",
+        "chapter": "eyes",
+        "actual_read_fields": [
+          "fields.cost",
+          "fields.evidence",
+          "fields.sources"
+        ],
+        "method": "完整展开三栏后逐句阅读，非关键词扫描替代",
+        "result": "editorial_patch",
+        "medical_claim_changed": false,
+        "grading_changed": false
+      },
+      {
+        "id": "eyes-028",
+        "chapter": "eyes",
+        "actual_read_fields": [
+          "fields.cost",
+          "fields.evidence",
+          "fields.sources"
+        ],
+        "method": "完整展开三栏后逐句阅读，非关键词扫描替代",
+        "result": "editorial_patch",
+        "medical_claim_changed": false,
+        "grading_changed": false
+      },
+      {
+        "id": "eyes-029",
+        "chapter": "eyes",
+        "actual_read_fields": [
+          "fields.cost",
+          "fields.evidence",
+          "fields.sources"
+        ],
+        "method": "完整展开三栏后逐句阅读，非关键词扫描替代",
+        "result": "read_no_additional_patch",
+        "medical_claim_changed": false,
+        "grading_changed": false
+      },
+      {
+        "id": "eyes-011",
+        "chapter": "eyes",
+        "actual_read_fields": [
+          "fields.cost",
+          "fields.evidence",
+          "fields.sources"
+        ],
+        "method": "完整展开三栏后逐句阅读，非关键词扫描替代",
+        "result": "read_no_additional_patch",
+        "medical_claim_changed": false,
+        "grading_changed": false
+      },
+      {
+        "id": "eyes-012",
+        "chapter": "eyes",
+        "actual_read_fields": [
+          "fields.cost",
+          "fields.evidence",
+          "fields.sources"
+        ],
+        "method": "完整展开三栏后逐句阅读，非关键词扫描替代",
+        "result": "editorial_patch",
+        "medical_claim_changed": false,
+        "grading_changed": false
+      },
+      {
+        "id": "eyes-017",
+        "chapter": "eyes",
+        "actual_read_fields": [
+          "fields.cost",
+          "fields.evidence",
+          "fields.sources"
+        ],
+        "method": "完整展开三栏后逐句阅读，非关键词扫描替代",
+        "result": "editorial_patch",
+        "medical_claim_changed": false,
+        "grading_changed": false
+      },
+      {
+        "id": "eyes-018",
+        "chapter": "eyes",
+        "actual_read_fields": [
+          "fields.cost",
+          "fields.evidence",
+          "fields.sources"
+        ],
+        "method": "完整展开三栏后逐句阅读，非关键词扫描替代",
+        "result": "read_no_additional_patch",
+        "medical_claim_changed": false,
+        "grading_changed": false
+      },
+      {
+        "id": "eyes-019",
+        "chapter": "eyes",
+        "actual_read_fields": [
+          "fields.cost",
+          "fields.evidence",
+          "fields.sources"
+        ],
+        "method": "完整展开三栏后逐句阅读，非关键词扫描替代",
+        "result": "read_no_additional_patch",
+        "medical_claim_changed": false,
+        "grading_changed": false
+      },
+      {
+        "id": "nose-001",
+        "chapter": "nose",
+        "actual_read_fields": [
+          "fields.cost",
+          "fields.evidence",
+          "fields.sources"
+        ],
+        "method": "完整展开三栏后逐句阅读，非关键词扫描替代",
+        "result": "read_no_additional_patch",
+        "medical_claim_changed": false,
+        "grading_changed": false
+      },
+      {
+        "id": "nose-002",
+        "chapter": "nose",
+        "actual_read_fields": [
+          "fields.cost",
+          "fields.evidence",
+          "fields.sources"
+        ],
+        "method": "完整展开三栏后逐句阅读，非关键词扫描替代",
+        "result": "read_no_additional_patch",
+        "medical_claim_changed": false,
+        "grading_changed": false
+      },
+      {
+        "id": "nose-005",
+        "chapter": "nose",
+        "actual_read_fields": [
+          "fields.cost",
+          "fields.evidence",
+          "fields.sources"
+        ],
+        "method": "完整展开三栏后逐句阅读，非关键词扫描替代",
+        "result": "read_no_additional_patch",
+        "medical_claim_changed": false,
+        "grading_changed": false
+      },
+      {
+        "id": "nose-007",
+        "chapter": "nose",
+        "actual_read_fields": [
+          "fields.cost",
+          "fields.evidence",
+          "fields.sources"
+        ],
+        "method": "完整展开三栏后逐句阅读，非关键词扫描替代",
+        "result": "read_no_additional_patch",
+        "medical_claim_changed": false,
+        "grading_changed": false
+      },
+      {
+        "id": "nose-004",
+        "chapter": "nose",
+        "actual_read_fields": [
+          "fields.cost",
+          "fields.evidence",
+          "fields.sources"
+        ],
+        "method": "完整展开三栏后逐句阅读，非关键词扫描替代",
+        "result": "read_no_additional_patch",
+        "medical_claim_changed": false,
+        "grading_changed": false
+      },
+      {
+        "id": "nose-006",
+        "chapter": "nose",
+        "actual_read_fields": [
+          "fields.cost",
+          "fields.evidence",
+          "fields.sources"
+        ],
+        "method": "完整展开三栏后逐句阅读，非关键词扫描替代",
+        "result": "read_no_additional_patch",
+        "medical_claim_changed": false,
+        "grading_changed": false
+      },
+      {
+        "id": "nose-008",
+        "chapter": "nose",
+        "actual_read_fields": [
+          "fields.cost",
+          "fields.evidence",
+          "fields.sources"
+        ],
+        "method": "完整展开三栏后逐句阅读，非关键词扫描替代",
+        "result": "editorial_patch",
+        "medical_claim_changed": false,
+        "grading_changed": false
+      },
+      {
+        "id": "nose-003",
+        "chapter": "nose",
+        "actual_read_fields": [
+          "fields.cost",
+          "fields.evidence",
+          "fields.sources"
+        ],
+        "method": "完整展开三栏后逐句阅读，非关键词扫描替代",
+        "result": "editorial_patch",
+        "medical_claim_changed": false,
+        "grading_changed": false
+      },
+      {
+        "id": "ears-005",
+        "chapter": "ears",
+        "actual_read_fields": [
+          "fields.cost",
+          "fields.evidence",
+          "fields.sources"
+        ],
+        "method": "完整展开三栏后逐句阅读，非关键词扫描替代",
+        "result": "read_no_additional_patch",
+        "medical_claim_changed": false,
+        "grading_changed": false
+      },
+      {
+        "id": "ears-001",
+        "chapter": "ears",
+        "actual_read_fields": [
+          "fields.cost",
+          "fields.evidence",
+          "fields.sources"
+        ],
+        "method": "完整展开三栏后逐句阅读，非关键词扫描替代",
+        "result": "read_no_additional_patch",
+        "medical_claim_changed": false,
+        "grading_changed": false
+      },
+      {
+        "id": "ears-002",
+        "chapter": "ears",
+        "actual_read_fields": [
+          "fields.cost",
+          "fields.evidence",
+          "fields.sources"
+        ],
+        "method": "完整展开三栏后逐句阅读，非关键词扫描替代",
+        "result": "read_no_additional_patch",
+        "medical_claim_changed": false,
+        "grading_changed": false
+      },
+      {
+        "id": "ears-003",
+        "chapter": "ears",
+        "actual_read_fields": [
+          "fields.cost",
+          "fields.evidence",
+          "fields.sources"
+        ],
+        "method": "完整展开三栏后逐句阅读，非关键词扫描替代",
+        "result": "read_no_additional_patch",
+        "medical_claim_changed": false,
+        "grading_changed": false
+      },
+      {
+        "id": "ears-004",
+        "chapter": "ears",
+        "actual_read_fields": [
+          "fields.cost",
+          "fields.evidence",
+          "fields.sources"
+        ],
+        "method": "完整展开三栏后逐句阅读，非关键词扫描替代",
+        "result": "read_no_additional_patch",
+        "medical_claim_changed": false,
+        "grading_changed": false
+      },
+      {
+        "id": "ears-006",
+        "chapter": "ears",
+        "actual_read_fields": [
+          "fields.cost",
+          "fields.evidence",
+          "fields.sources"
+        ],
+        "method": "完整展开三栏后逐句阅读，非关键词扫描替代",
+        "result": "editorial_patch",
+        "medical_claim_changed": false,
+        "grading_changed": false
+      },
+      {
+        "id": "ears-007",
+        "chapter": "ears",
+        "actual_read_fields": [
+          "fields.cost",
+          "fields.evidence",
+          "fields.sources"
+        ],
+        "method": "完整展开三栏后逐句阅读，非关键词扫描替代",
+        "result": "editorial_patch",
+        "medical_claim_changed": false,
+        "grading_changed": false
+      },
+      {
+        "id": "ears-009",
+        "chapter": "ears",
+        "actual_read_fields": [
+          "fields.cost",
+          "fields.evidence",
+          "fields.sources"
+        ],
+        "method": "完整展开三栏后逐句阅读，非关键词扫描替代",
+        "result": "read_no_additional_patch",
+        "medical_claim_changed": false,
+        "grading_changed": false
+      },
+      {
+        "id": "ears-010",
+        "chapter": "ears",
+        "actual_read_fields": [
+          "fields.cost",
+          "fields.evidence",
+          "fields.sources"
+        ],
+        "method": "完整展开三栏后逐句阅读，非关键词扫描替代",
+        "result": "read_no_additional_patch",
+        "medical_claim_changed": false,
+        "grading_changed": false
+      },
+      {
+        "id": "ears-008",
+        "chapter": "ears",
+        "actual_read_fields": [
+          "fields.cost",
+          "fields.evidence",
+          "fields.sources"
+        ],
+        "method": "完整展开三栏后逐句阅读，非关键词扫描替代",
+        "result": "editorial_patch",
+        "medical_claim_changed": false,
+        "grading_changed": false
+      },
+      {
+        "id": "ears-011",
+        "chapter": "ears",
+        "actual_read_fields": [
+          "fields.cost",
+          "fields.evidence",
+          "fields.sources"
+        ],
+        "method": "完整展开三栏后逐句阅读，非关键词扫描替代",
+        "result": "read_no_additional_patch",
+        "medical_claim_changed": false,
+        "grading_changed": false
+      },
+      {
+        "id": "oral-018",
+        "chapter": "oral",
+        "actual_read_fields": [
+          "fields.cost",
+          "fields.evidence",
+          "fields.sources"
+        ],
+        "method": "完整展开三栏后逐句阅读，非关键词扫描替代",
+        "result": "read_no_additional_patch",
+        "medical_claim_changed": false,
+        "grading_changed": false
+      },
+      {
+        "id": "oral-013",
+        "chapter": "oral",
+        "actual_read_fields": [
+          "fields.cost",
+          "fields.evidence",
+          "fields.sources"
+        ],
+        "method": "完整展开三栏后逐句阅读，非关键词扫描替代",
+        "result": "read_no_additional_patch",
+        "medical_claim_changed": false,
+        "grading_changed": false
+      },
+      {
+        "id": "oral-007",
+        "chapter": "oral",
+        "actual_read_fields": [
+          "fields.cost",
+          "fields.evidence",
+          "fields.sources"
+        ],
+        "method": "完整展开三栏后逐句阅读，非关键词扫描替代",
+        "result": "read_no_additional_patch",
+        "medical_claim_changed": false,
+        "grading_changed": false
+      },
+      {
+        "id": "oral-001",
+        "chapter": "oral",
+        "actual_read_fields": [
+          "fields.cost",
+          "fields.evidence",
+          "fields.sources"
+        ],
+        "method": "完整展开三栏后逐句阅读，非关键词扫描替代",
+        "result": "read_no_additional_patch",
+        "medical_claim_changed": false,
+        "grading_changed": false
+      },
+      {
+        "id": "oral-002",
+        "chapter": "oral",
+        "actual_read_fields": [
+          "fields.cost",
+          "fields.evidence",
+          "fields.sources"
+        ],
+        "method": "完整展开三栏后逐句阅读，非关键词扫描替代",
+        "result": "read_no_additional_patch",
+        "medical_claim_changed": false,
+        "grading_changed": false
+      },
+      {
+        "id": "oral-003",
+        "chapter": "oral",
+        "actual_read_fields": [
+          "fields.cost",
+          "fields.evidence",
+          "fields.sources"
+        ],
+        "method": "完整展开三栏后逐句阅读，非关键词扫描替代",
+        "result": "read_no_additional_patch",
+        "medical_claim_changed": false,
+        "grading_changed": false
+      },
+      {
+        "id": "oral-004",
+        "chapter": "oral",
+        "actual_read_fields": [
+          "fields.cost",
+          "fields.evidence",
+          "fields.sources"
+        ],
+        "method": "完整展开三栏后逐句阅读，非关键词扫描替代",
+        "result": "read_no_additional_patch",
+        "medical_claim_changed": false,
+        "grading_changed": false
+      },
+      {
+        "id": "oral-016",
+        "chapter": "oral",
+        "actual_read_fields": [
+          "fields.cost",
+          "fields.evidence",
+          "fields.sources"
+        ],
+        "method": "完整展开三栏后逐句阅读，非关键词扫描替代",
+        "result": "read_no_additional_patch",
+        "medical_claim_changed": false,
+        "grading_changed": false
+      },
+      {
+        "id": "oral-005",
+        "chapter": "oral",
+        "actual_read_fields": [
+          "fields.cost",
+          "fields.evidence",
+          "fields.sources"
+        ],
+        "method": "完整展开三栏后逐句阅读，非关键词扫描替代",
+        "result": "read_no_additional_patch",
+        "medical_claim_changed": false,
+        "grading_changed": false
+      },
+      {
+        "id": "oral-006",
+        "chapter": "oral",
+        "actual_read_fields": [
+          "fields.cost",
+          "fields.evidence",
+          "fields.sources"
+        ],
+        "method": "完整展开三栏后逐句阅读，非关键词扫描替代",
+        "result": "editorial_patch",
+        "medical_claim_changed": false,
+        "grading_changed": false
+      },
+      {
+        "id": "oral-019",
+        "chapter": "oral",
+        "actual_read_fields": [
+          "fields.cost",
+          "fields.evidence",
+          "fields.sources"
+        ],
+        "method": "完整展开三栏后逐句阅读，非关键词扫描替代",
+        "result": "editorial_patch",
+        "medical_claim_changed": false,
+        "grading_changed": false
+      },
+      {
+        "id": "oral-020",
+        "chapter": "oral",
+        "actual_read_fields": [
+          "fields.cost",
+          "fields.evidence",
+          "fields.sources"
+        ],
+        "method": "完整展开三栏后逐句阅读，非关键词扫描替代",
+        "result": "read_no_additional_patch",
+        "medical_claim_changed": false,
+        "grading_changed": false
+      },
+      {
+        "id": "oral-021",
+        "chapter": "oral",
+        "actual_read_fields": [
+          "fields.cost",
+          "fields.evidence",
+          "fields.sources"
+        ],
+        "method": "完整展开三栏后逐句阅读，非关键词扫描替代",
+        "result": "read_no_additional_patch",
+        "medical_claim_changed": false,
+        "grading_changed": false
+      },
+      {
+        "id": "oral-012",
+        "chapter": "oral",
+        "actual_read_fields": [
+          "fields.cost",
+          "fields.evidence",
+          "fields.sources"
+        ],
+        "method": "完整展开三栏后逐句阅读，非关键词扫描替代",
+        "result": "read_no_additional_patch",
+        "medical_claim_changed": false,
+        "grading_changed": false
+      },
+      {
+        "id": "oral-009",
+        "chapter": "oral",
+        "actual_read_fields": [
+          "fields.cost",
+          "fields.evidence",
+          "fields.sources"
+        ],
+        "method": "完整展开三栏后逐句阅读，非关键词扫描替代",
+        "result": "read_no_additional_patch",
+        "medical_claim_changed": false,
+        "grading_changed": false
+      },
+      {
+        "id": "oral-010",
+        "chapter": "oral",
+        "actual_read_fields": [
+          "fields.cost",
+          "fields.evidence",
+          "fields.sources"
+        ],
+        "method": "完整展开三栏后逐句阅读，非关键词扫描替代",
+        "result": "read_no_additional_patch",
+        "medical_claim_changed": false,
+        "grading_changed": false
+      },
+      {
+        "id": "oral-011",
+        "chapter": "oral",
+        "actual_read_fields": [
+          "fields.cost",
+          "fields.evidence",
+          "fields.sources"
+        ],
+        "method": "完整展开三栏后逐句阅读，非关键词扫描替代",
+        "result": "read_no_additional_patch",
+        "medical_claim_changed": false,
+        "grading_changed": false
+      },
+      {
+        "id": "oral-017",
+        "chapter": "oral",
+        "actual_read_fields": [
+          "fields.cost",
+          "fields.evidence",
+          "fields.sources"
+        ],
+        "method": "完整展开三栏后逐句阅读，非关键词扫描替代",
+        "result": "editorial_patch",
+        "medical_claim_changed": false,
+        "grading_changed": false
+      },
+      {
+        "id": "oral-022",
+        "chapter": "oral",
+        "actual_read_fields": [
+          "fields.cost",
+          "fields.evidence",
+          "fields.sources"
+        ],
+        "method": "完整展开三栏后逐句阅读，非关键词扫描替代",
+        "result": "editorial_patch",
+        "medical_claim_changed": false,
+        "grading_changed": false
+      },
+      {
+        "id": "oral-023",
+        "chapter": "oral",
+        "actual_read_fields": [
+          "fields.cost",
+          "fields.evidence",
+          "fields.sources"
+        ],
+        "method": "完整展开三栏后逐句阅读，非关键词扫描替代",
+        "result": "read_no_additional_patch",
+        "medical_claim_changed": false,
+        "grading_changed": false
+      },
+      {
+        "id": "lips-001",
+        "chapter": "lips",
+        "actual_read_fields": [
+          "fields.cost",
+          "fields.evidence",
+          "fields.sources"
+        ],
+        "method": "完整展开三栏后逐句阅读，非关键词扫描替代",
+        "result": "read_no_additional_patch",
+        "medical_claim_changed": false,
+        "grading_changed": false
+      },
+      {
+        "id": "lips-002",
+        "chapter": "lips",
+        "actual_read_fields": [
+          "fields.cost",
+          "fields.evidence",
+          "fields.sources"
+        ],
+        "method": "完整展开三栏后逐句阅读，非关键词扫描替代",
+        "result": "read_no_additional_patch",
+        "medical_claim_changed": false,
+        "grading_changed": false
+      },
+      {
+        "id": "lips-003",
+        "chapter": "lips",
+        "actual_read_fields": [
+          "fields.cost",
+          "fields.evidence",
+          "fields.sources"
+        ],
+        "method": "完整展开三栏后逐句阅读，非关键词扫描替代",
+        "result": "read_no_additional_patch",
+        "medical_claim_changed": false,
+        "grading_changed": false
+      },
+      {
+        "id": "lips-004",
+        "chapter": "lips",
+        "actual_read_fields": [
+          "fields.cost",
+          "fields.evidence",
+          "fields.sources"
+        ],
+        "method": "完整展开三栏后逐句阅读，非关键词扫描替代",
+        "result": "read_no_additional_patch",
+        "medical_claim_changed": false,
+        "grading_changed": false
+      },
+      {
+        "id": "lips-005",
+        "chapter": "lips",
+        "actual_read_fields": [
+          "fields.cost",
+          "fields.evidence",
+          "fields.sources"
+        ],
+        "method": "完整展开三栏后逐句阅读，非关键词扫描替代",
+        "result": "read_no_additional_patch",
+        "medical_claim_changed": false,
+        "grading_changed": false
+      },
+      {
+        "id": "lips-006",
+        "chapter": "lips",
+        "actual_read_fields": [
+          "fields.cost",
+          "fields.evidence",
+          "fields.sources"
+        ],
+        "method": "完整展开三栏后逐句阅读，非关键词扫描替代",
+        "result": "read_no_additional_patch",
+        "medical_claim_changed": false,
+        "grading_changed": false
+      },
+      {
+        "id": "oral-014",
+        "chapter": "lips",
+        "actual_read_fields": [
+          "fields.cost",
+          "fields.evidence",
+          "fields.sources"
+        ],
+        "method": "完整展开三栏后逐句阅读，非关键词扫描替代",
+        "result": "read_no_additional_patch",
+        "medical_claim_changed": false,
+        "grading_changed": false
+      },
+      {
+        "id": "oral-015",
+        "chapter": "lips",
+        "actual_read_fields": [
+          "fields.cost",
+          "fields.evidence",
+          "fields.sources"
+        ],
+        "method": "完整展开三栏后逐句阅读，非关键词扫描替代",
+        "result": "read_no_additional_patch",
+        "medical_claim_changed": false,
+        "grading_changed": false
+      },
+      {
+        "id": "oral-008",
+        "chapter": "lips",
+        "actual_read_fields": [
+          "fields.cost",
+          "fields.evidence",
+          "fields.sources"
+        ],
+        "method": "完整展开三栏后逐句阅读，非关键词扫描替代",
+        "result": "read_no_additional_patch",
+        "medical_claim_changed": false,
+        "grading_changed": false
+      },
+      {
+        "id": "skin-001",
+        "chapter": "skin",
+        "actual_read_fields": [
+          "fields.cost",
+          "fields.evidence",
+          "fields.sources"
+        ],
+        "method": "完整展开三栏后逐句阅读，非关键词扫描替代",
+        "result": "editorial_patch",
+        "medical_claim_changed": false,
+        "grading_changed": false
+      },
+      {
+        "id": "skin-002",
+        "chapter": "skin",
+        "actual_read_fields": [
+          "fields.cost",
+          "fields.evidence",
+          "fields.sources"
+        ],
+        "method": "完整展开三栏后逐句阅读，非关键词扫描替代",
+        "result": "read_no_additional_patch",
+        "medical_claim_changed": false,
+        "grading_changed": false
+      },
+      {
+        "id": "skin-003",
+        "chapter": "skin",
+        "actual_read_fields": [
+          "fields.cost",
+          "fields.evidence",
+          "fields.sources"
+        ],
+        "method": "完整展开三栏后逐句阅读，非关键词扫描替代",
+        "result": "read_no_additional_patch",
+        "medical_claim_changed": false,
+        "grading_changed": false
+      },
+      {
+        "id": "skin-004",
+        "chapter": "skin",
+        "actual_read_fields": [
+          "fields.cost",
+          "fields.evidence",
+          "fields.sources"
+        ],
+        "method": "完整展开三栏后逐句阅读，非关键词扫描替代",
+        "result": "editorial_patch",
+        "medical_claim_changed": false,
+        "grading_changed": false
+      },
+      {
+        "id": "skin-019",
+        "chapter": "skin",
+        "actual_read_fields": [
+          "fields.cost",
+          "fields.evidence",
+          "fields.sources"
+        ],
+        "method": "完整展开三栏后逐句阅读，非关键词扫描替代",
+        "result": "editorial_patch",
+        "medical_claim_changed": false,
+        "grading_changed": false
+      },
+      {
+        "id": "skin-021",
+        "chapter": "skin",
+        "actual_read_fields": [
+          "fields.cost",
+          "fields.evidence",
+          "fields.sources"
+        ],
+        "method": "完整展开三栏后逐句阅读，非关键词扫描替代",
+        "result": "editorial_patch",
+        "medical_claim_changed": false,
+        "grading_changed": false
+      },
+      {
+        "id": "skin-005",
+        "chapter": "skin",
+        "actual_read_fields": [
+          "fields.cost",
+          "fields.evidence",
+          "fields.sources"
+        ],
+        "method": "完整展开三栏后逐句阅读，非关键词扫描替代",
+        "result": "editorial_patch",
+        "medical_claim_changed": false,
+        "grading_changed": false
+      },
+      {
+        "id": "skin-006",
+        "chapter": "skin",
+        "actual_read_fields": [
+          "fields.cost",
+          "fields.evidence",
+          "fields.sources"
+        ],
+        "method": "完整展开三栏后逐句阅读，非关键词扫描替代",
+        "result": "editorial_patch",
+        "medical_claim_changed": false,
+        "grading_changed": false
+      },
+      {
+        "id": "skin-018",
+        "chapter": "skin",
+        "actual_read_fields": [
+          "fields.cost",
+          "fields.evidence",
+          "fields.sources"
+        ],
+        "method": "完整展开三栏后逐句阅读，非关键词扫描替代",
+        "result": "read_no_additional_patch",
+        "medical_claim_changed": false,
+        "grading_changed": false
+      },
+      {
+        "id": "skin-016",
+        "chapter": "skin",
+        "actual_read_fields": [
+          "fields.cost",
+          "fields.evidence",
+          "fields.sources"
+        ],
+        "method": "完整展开三栏后逐句阅读，非关键词扫描替代",
+        "result": "read_no_additional_patch",
+        "medical_claim_changed": false,
+        "grading_changed": false
+      },
+      {
+        "id": "skin-017",
+        "chapter": "skin",
+        "actual_read_fields": [
+          "fields.cost",
+          "fields.evidence",
+          "fields.sources"
+        ],
+        "method": "完整展开三栏后逐句阅读，非关键词扫描替代",
+        "result": "editorial_patch",
+        "medical_claim_changed": false,
+        "grading_changed": false
+      },
+      {
+        "id": "skin-022",
+        "chapter": "skin",
+        "actual_read_fields": [
+          "fields.cost",
+          "fields.evidence",
+          "fields.sources"
+        ],
+        "method": "完整展开三栏后逐句阅读，非关键词扫描替代",
+        "result": "read_no_additional_patch",
+        "medical_claim_changed": false,
+        "grading_changed": false
+      },
+      {
+        "id": "skin-007",
+        "chapter": "skin",
+        "actual_read_fields": [
+          "fields.cost",
+          "fields.evidence",
+          "fields.sources"
+        ],
+        "method": "完整展开三栏后逐句阅读，非关键词扫描替代",
+        "result": "editorial_patch",
+        "medical_claim_changed": false,
+        "grading_changed": false
+      },
+      {
+        "id": "skin-008",
+        "chapter": "skin",
+        "actual_read_fields": [
+          "fields.cost",
+          "fields.evidence",
+          "fields.sources"
+        ],
+        "method": "完整展开三栏后逐句阅读，非关键词扫描替代",
+        "result": "editorial_patch",
+        "medical_claim_changed": false,
+        "grading_changed": false
+      },
+      {
+        "id": "skin-009",
+        "chapter": "skin",
+        "actual_read_fields": [
+          "fields.cost",
+          "fields.evidence",
+          "fields.sources"
+        ],
+        "method": "完整展开三栏后逐句阅读，非关键词扫描替代",
+        "result": "read_no_additional_patch",
+        "medical_claim_changed": false,
+        "grading_changed": false
+      },
+      {
+        "id": "skin-010",
+        "chapter": "skin",
+        "actual_read_fields": [
+          "fields.cost",
+          "fields.evidence",
+          "fields.sources"
+        ],
+        "method": "完整展开三栏后逐句阅读，非关键词扫描替代",
+        "result": "read_no_additional_patch",
+        "medical_claim_changed": false,
+        "grading_changed": false
+      },
+      {
+        "id": "skin-011",
+        "chapter": "skin",
+        "actual_read_fields": [
+          "fields.cost",
+          "fields.evidence",
+          "fields.sources"
+        ],
+        "method": "完整展开三栏后逐句阅读，非关键词扫描替代",
+        "result": "editorial_patch",
+        "medical_claim_changed": false,
+        "grading_changed": false
+      },
+      {
+        "id": "skin-012",
+        "chapter": "skin",
+        "actual_read_fields": [
+          "fields.cost",
+          "fields.evidence",
+          "fields.sources"
+        ],
+        "method": "完整展开三栏后逐句阅读，非关键词扫描替代",
+        "result": "read_no_additional_patch",
+        "medical_claim_changed": false,
+        "grading_changed": false
+      },
+      {
+        "id": "skin-013",
+        "chapter": "skin",
+        "actual_read_fields": [
+          "fields.cost",
+          "fields.evidence",
+          "fields.sources"
+        ],
+        "method": "完整展开三栏后逐句阅读，非关键词扫描替代",
+        "result": "editorial_patch",
+        "medical_claim_changed": false,
+        "grading_changed": false
+      },
+      {
+        "id": "skin-020",
+        "chapter": "skin",
+        "actual_read_fields": [
+          "fields.cost",
+          "fields.evidence",
+          "fields.sources"
+        ],
+        "method": "完整展开三栏后逐句阅读，非关键词扫描替代",
+        "result": "read_no_additional_patch",
+        "medical_claim_changed": false,
+        "grading_changed": false
+      },
+      {
+        "id": "skin-014",
+        "chapter": "skin",
+        "actual_read_fields": [
+          "fields.cost",
+          "fields.evidence",
+          "fields.sources"
+        ],
+        "method": "完整展开三栏后逐句阅读，非关键词扫描替代",
+        "result": "read_no_additional_patch",
+        "medical_claim_changed": false,
+        "grading_changed": false
+      },
+      {
+        "id": "skin-015",
+        "chapter": "skin",
+        "actual_read_fields": [
+          "fields.cost",
+          "fields.evidence",
+          "fields.sources"
+        ],
+        "method": "完整展开三栏后逐句阅读，非关键词扫描替代",
+        "result": "read_no_additional_patch",
+        "medical_claim_changed": false,
+        "grading_changed": false
+      },
+      {
+        "id": "skin-023",
+        "chapter": "skin",
+        "actual_read_fields": [
+          "fields.cost",
+          "fields.evidence",
+          "fields.sources"
+        ],
+        "method": "完整展开三栏后逐句阅读，非关键词扫描替代",
+        "result": "read_no_additional_patch",
+        "medical_claim_changed": false,
+        "grading_changed": false
+      }
+    ]
+  },
+  "input_sha256": {
+    "prose-patches.json": "edae0f0a00a34a4571f0a4601cbed4b57907dc9ef978f0d6e2f89de26c03fa4f",
+    "head-reader-patches.json": "a7b3427cd0df3b1f264ba5637f60f262fcdca11975ea051ddc681d59e33d0118"
+  }
+}

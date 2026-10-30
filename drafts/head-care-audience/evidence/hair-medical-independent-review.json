@@ -1,0 +1,104 @@
+{
+  "checked_on": "2026-10-29",
+  "review_type": "独立案头来源、引用与推论复核；不是临床医师签审",
+  "clinical_review_status": "not_clinically_reviewed",
+  "scope": "11条毛发医疗内容、当前28项来源；直接打开关键监管与用药页面并逐项核6篇DOI题录。未修改正文。",
+  "overall": "未发现需要推翻米诺地尔、非那雄胺、感染分流或光疗/PRP方向的重大错误。妊娠与停药条件基本有直接支持；建议补强口服米诺地尔独立阅读时的孕哺提示，并更正共识来源类型。",
+  "findings": [
+    {
+      "id": "HM-R01",
+      "priority": "P2",
+      "target": "hair-019.fields.plain或notes",
+      "issue": "此条可被单独读到，目前未重述口服米诺地尔的备孕、孕期及哺乳核对条件；不能假设读者先读外用017。",
+      "suggested": "在开始评估段明确：备孕、怀孕或哺乳者不要自行改用口服，开始前主动说明；服药期间怀孕及时联系处方医生。降压用药者不能按美容稿自行停降压治疗。",
+      "direct_source": "https://medlineplus.gov/druginfo/meds/a682608.html",
+      "evidence": "原页Before taking列pregnant、plan pregnant、breast-feeding，以及服药期怀孕联系。它是降压适应证资料，只引安全核对，不转化低剂量处方或统一禁用时长。"
+    },
+    {
+      "id": "HM-R02",
+      "priority": "P2",
+      "target": "HAIRMED-S17.type",
+      "issue": "实际是Delphi专家共识，不应被统称原始临床研究或系统综述。",
+      "suggested": "改为国际专家共识/Delphi；S09/S20/S21可细化系统综述，S11/S16细化随机临床研究，来源设计显示更准确。"
+    }
+  ],
+  "passed_checks": [
+    {
+      "entry": "hair-017",
+      "detail": "AAD女性型脱发原页明确孕期、计划怀孕、哺乳避免米诺地尔，支持现文；DailyMed男用5%泡沫仅作具体制剂安全动作并已披露标签性质。",
+      "url": "https://www.aad.org/public/diseases/hair-loss/types/female-pattern"
+    },
+    {
+      "entry": "hair-018",
+      "detail": "2026-05-11 MHRA确为现行已发布更新：1mg脱发用途出现抑郁/自杀想法停用并尽快联系，5mg及度他雄胺另核；性功能症状可能持续、出现后联系而非保证停药即消失，现文吻合。",
+      "url": "https://www.gov.uk/drug-safety-update/finasteride-and-dutasteride-updated-safety-warnings-for-psychiatric-side-effects-and-sexual-dysfunction"
+    },
+    {
+      "entry": "hair-018",
+      "detail": "FDA美国复配外用非那雄胺原页明确皮肤吸收入血、他人转移暴露及孕妇破片；现文没有误写成全球所有外用成品被禁。",
+      "url": "https://www.fda.gov/drugs/human-drug-compounding/fda-alerts-health-care-providers-compounders-and-consumers-potential-risks-associated-compounded"
+    },
+    {
+      "entry": "hair-019",
+      "detail": "90名男性、24周、68完成与JAMA原文一致；未显示口服主要结局优效不等于已证实等效，现文推论正确。",
+      "url": "https://jamanetwork.com/journals/jamadermatology/fullarticle/2817326"
+    },
+    {
+      "entry": "hair-021",
+      "detail": "光疗及PRP两篇摘要分别核读，偏倚与设备异质性保留，未用两篇独立综述跨研究直接排名。"
+    }
+  ],
+  "doi_checks": [
+    {
+      "id": "HAIRMED-S09",
+      "doi": "10.1002/14651858.CD007628.pub4",
+      "result": "3作者、2016;2016(5):CD007628，与PubMed原记录吻合；此卷期形式不擅改。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27225981/"
+    },
+    {
+      "id": "HAIRMED-S11",
+      "doi": "10.1016/S0190-9622(98)70007-6",
+      "result": "前6作者Kaufman KD、Olsen EA、Whiting D、Savin R、DeVillez R、Bergfeld W；1998;39(4 Pt1):578–589。PubMed DOI大小写差异不是错误。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9777765/"
+    },
+    {
+      "id": "HAIRMED-S16",
+      "doi": "10.1001/jamadermatol.2024.0284",
+      "result": "4作者和2024;160(6):600–605核过。原刊Cite This直接写Müller Ramos P，保留复姓，不改成Ramos PM。",
+      "urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/38598226/",
+        "https://jamanetwork.com/journals/jamadermatology/fullarticle/2817326"
+      ]
+    },
+    {
+      "id": "HAIRMED-S17",
+      "doi": "10.1001/jamadermatol.2024.4593",
+      "result": "前6作者Akiska YM、Mirmirani P、Roseborough I、Mathes E、Bhutani T、Ambrosy A，与PubMed署名一致，不擅加中间首字母；2025;161(1):87–95正确。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39565602/"
+    },
+    {
+      "id": "HAIRMED-S20",
+      "doi": "10.1111/jocd.16185",
+      "result": "前6作者Donnelly C、Minty I、Dsouza A、Wong YY、Mukhopadhyay I、Nagarajan V；2024;23(5):1551–1559，正确。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38284294/"
+    },
+    {
+      "id": "HAIRMED-S21",
+      "doi": "10.1097/DSS.0000000000004442",
+      "result": "4作者Perez SM、Vattigunta M、Kelly C、Eber A；2025;51(2):179–183。2024先发不改正式刊年2025。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39404126/"
+    }
+  ],
+  "graph_check": {
+    "entries": 11,
+    "sources": 28,
+    "missing_source_ids": [],
+    "passed": true
+  },
+  "limits": [
+    "未将独立AI案头复核称临床医生审核。",
+    "6篇题录直接核过，临床结果只读本报告列明的摘要或原文相关段，没有独立复算。",
+    "未重开全部28项来源；来源其余读取深度沿用作者记录。",
+    "本次只写审阅文件，不改毛发正文；由root整合修订。"
+  ]
+}

@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import argparse
+import base64
 import json
 import os
 import re
@@ -13,11 +14,11 @@ from urllib.parse import quote
 
 try:
     from .content_model import (FIELD_NAMES, SCHEMA_VERSION, STABLE_REF, ContentError,
-                                load_content, read_json, write_json)
+                                load_content, read_json, write_json, audience_caption)
     from .static_pages import preview_index_html, site_base, write_static_pages
 except ImportError:
     from content_model import (FIELD_NAMES, SCHEMA_VERSION, STABLE_REF, ContentError,
-                               load_content, read_json, write_json)
+                               load_content, read_json, write_json, audience_caption)
     from static_pages import preview_index_html, site_base, write_static_pages
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -55,6 +56,17 @@ def pack_data(root: Path = ROOT, built_at: str | None = None) -> dict:
         "book": {"title": book["title"], "front_matter": book["front_matter"], "back_matter": book["back_matter"],
                  "tags_note": book["tags_note"], "review_note": book["review_note"]},
     }
+    if book.get("audience_schema_version"):
+        manifest["audience_schema_version"] = book["audience_schema_version"]
+        manifest["audience_note"] = "专属条目按所选年龄与男女标签筛选，通用内容保留；急症遵守相同规则。筛选不判断诊断、用药或治疗资格。"
+    if book.get("body_layout"):
+        manifest["body_layout"] = book["body_layout"]
+    if book.get("search_examples"):
+        manifest["search_examples"] = book["search_examples"]
+    if book.get("chapter_aliases"):
+        manifest["chapter_aliases"] = book["chapter_aliases"]
+    for key in ('entry_aliases','home_content'):
+        if book.get(key):manifest[key]=book[key]
     return {"manifest": manifest, "entries": entries, "sources": sources, "chapters": chapter_index}
 
 
@@ -83,8 +95,11 @@ def book_markdown(data: dict) -> str:
             for identifier in unit["entry_ids"]:
                 entry = entry_lookup[identifier]
                 blocks.append(f"### {entry['ordinal']} {entry['title']}")
+                if audience_caption(entry):
+                    blocks.append(audience_caption(entry))
                 for field, label in FIELD_LABELS.items():
-                    blocks.append(f"**{label}：** {entry['fields'][field]}")
+                    if entry['fields'][field].strip():
+                        blocks.append(f"**{label}：** {entry['fields'][field]}")
     blocks.extend([book["back_matter"], "# 参考文献"])
     for source in sorted(data["sources"], key=lambda value: value["number"]):
         citation = source["citation"].strip()
@@ -171,7 +186,16 @@ def build(root: Path = ROOT, check_only=False, output: Path | None = None, built
     (downloads / "guide.md").write_text(book_markdown(data), encoding="utf-8")
     write_json(downloads / "guide.json", data)
     favicon_path = root / "web" / "favicon.svg"
-    offline = inline_offline(web["index.html"], web["styles.css"], web["app.js"], script,
+    offline_app = web["app.js"]
+    for filename in ("home-portrait.png", "home-portrait-abstract.png"):
+        asset_path = "assets/" + filename
+        if "'" + asset_path + "'" in offline_app:
+            portrait = root / "web" / asset_path
+            if not portrait.is_file():
+                raise ContentError("Missing homepage portrait: web/" + asset_path)
+            portrait_url = "data:image/png;base64," + base64.b64encode(portrait.read_bytes()).decode("ascii")
+            offline_app = offline_app.replace("'" + asset_path + "'", "'" + portrait_url + "'")
+    offline = inline_offline(web["index.html"], web["styles.css"], offline_app, script,
                              favicon_path.read_text(encoding="utf-8") if favicon_path.exists() else None)
     (downloads / "guide-offline.html").write_text(offline, encoding="utf-8")
     write_static_pages(data, dist)

@@ -1,0 +1,39 @@
+{
+  "date": "2026-10-30",
+  "entries": 8,
+  "sources": 16,
+  "clinical_review_status": "not_clinically_reviewed",
+  "approach": "成人/老年睡眠决策为主；机构与指南定位问题，原始人体研究核具体产品结论；无可靠费用则省略。",
+  "input_scope": "新增8条，保留原basics001睡眠机会/起床及basics002睡眠呼吸暂停，不重复旧正文。",
+  "corrections_and_limits": [
+    "NCCIH2024慢性失眠一个月定义未采用，未将其2014轮班综述作为2026最终结论。",
+    "2026-10-24AASM轮班指南PubMed和PMC正文已核，条件性建议与ABC分开，未复制刺激药/强光个人处方。",
+    "中国保健食品1–3mg每日范围、CDC成人时差0.5–1mg临床参考、EMA特定欧洲2mg缓释方案分别限定，不能彼此替代。",
+    "NHS时差页与用药页的推荐差异不用于制造统一疗效结论；未采用NHS6mg加量和每年16疗程作为中国通用规则。",
+    "2026粉红噪音试验只核完整摘要与题录，不能推所有白噪音有害；全文资助未完整核读，如实公开。",
+    "欧洲2023指南仅核摘要、题录及出版方索引相关段，未称36页全读；具体缓释用法另外核EMA当前2025产品资料。",
+    "耳机风险机构患者指导与原始睡眠研究分列，不根据感染机制给个人发生率，不按手机滑块百分比保证安全。",
+    "情绪仅保留季节性异常识别与光疗/日晒边界，不写心理治疗百科或多说废话有医学疗效。"
+  ],
+  "reviewed_fields": [
+    "title",
+    "summary",
+    "plain",
+    "benefit",
+    "evidence",
+    "sources",
+    "notes",
+    "audience"
+  ],
+  "summaries": {
+    "sleep-001": 113,
+    "sleep-002": 123,
+    "sleep-003": 117,
+    "sleep-004": 110,
+    "sleep-005": 107,
+    "sleep-006": 112,
+    "sleep-007": 114,
+    "sleep-008": 116
+  },
+  "disposition": "ready_for_independent_editorial_review"
+}

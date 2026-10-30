@@ -1,0 +1,160 @@
+{
+  "scope": {
+    "mode": "bounded read-only consistency review",
+    "read": [
+      "SOP第1、5、32节（完整）",
+      "继续写作Prompt.txt（完整）",
+      "身体护理项目验收清单.md（完整）"
+    ],
+    "not_reviewed": [
+      "SOP其他节的逐句规则",
+      "350条医学正文",
+      "网页当前实现",
+      "新医学事实或原文献重新核查"
+    ],
+    "source_documents_modified": false,
+    "followup_read": [
+      "SOP第65行所在段、Prompt第27行所在段、验收清单第40行所在项（完整）",
+      "SOP第32.2节（完整）"
+    ],
+    "source_documents_modified_by_reviewer": false
+  },
+  "input_sha256": {
+    "docs/身体护理指南全书规划与调用SOP.md": "3e3b43336c3871806f312dd3e26b27338ec536048359cc08ce09627bf9e048d0",
+    "docs/继续写作Prompt.txt": "9a02352c8bb971975b50e06364ca82f7d90f67b213fffd7e7ad6260cd129dcda",
+    "docs/身体护理项目验收清单.md": "bff62e37fd986c1549868ffe2f60d1f188e028687d023d66bd3fa9e196b24782"
+  },
+  "coverage": [
+    {
+      "requirement": "全年龄、所有性别；不自动扩大单条适用人群",
+      "status": "covered",
+      "evidence": [
+        "SOP §1、§32.4",
+        "Prompt 一、六及第5次迭代",
+        "验收清单 第5/6节及第5次迭代"
+      ]
+    },
+    {
+      "requirement": "What→Why→How；急症先行动；首次术语解释",
+      "status": "covered",
+      "evidence": [
+        "SOP §32.2–32.3",
+        "Prompt 四后半段",
+        "验收清单 第5次迭代第二项"
+      ],
+      "finding": "CONSISTENCY-001",
+      "resolution": "三处旧顺序已统一，并与第32.2节逐句对照。"
+    },
+    {
+      "requirement": "删除车轱辘话，完整读每条，同一决定合并",
+      "status": "covered",
+      "evidence": [
+        "SOP §5、§32.1、§32.3",
+        "Prompt 四、九及第5次迭代",
+        "验收清单 第4节及第5次迭代"
+      ]
+    },
+    {
+      "requirement": "60–140字独立纯文本摘要；列表不塞正文表格",
+      "status": "covered",
+      "evidence": [
+        "SOP §5、§32.1",
+        "Prompt 四",
+        "验收清单 第4节"
+      ]
+    },
+    {
+      "requirement": "默认20px、18/20/22/24可调、可见阅读设置与持久化",
+      "status": "covered",
+      "evidence": [
+        "SOP §32.5",
+        "Prompt 第5次迭代",
+        "验收清单 第5次迭代"
+      ]
+    },
+    {
+      "requirement": "保留引用及医学含义，合并旧ID别名兼容",
+      "status": "covered",
+      "evidence": [
+        "SOP §32.1–32.3、§32.6",
+        "Prompt 五、九、第5次迭代",
+        "验收清单 第3、7节及第5次迭代"
+      ]
+    },
+    {
+      "requirement": "首页清楚、有吸引力；说明用途/受众/收益/用法；身心关系不夸大",
+      "status": "covered",
+      "evidence": [
+        "SOP §1、§32.4",
+        "Prompt 一及第5次迭代",
+        "验收清单 第5次迭代"
+      ]
+    },
+    {
+      "requirement": "忠实公开范围、没有医学签审不得冒称；多格式同版",
+      "status": "covered",
+      "evidence": [
+        "SOP §32.6",
+        "Prompt 八、九、第5次迭代",
+        "验收清单 第8/9节及第5次迭代"
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "id": "CONSISTENCY-001",
+      "severity": "blocking_for_reusable_instructions",
+      "description": "第32节采用陌生概念What→Why→How且急症先行动，但三个旧规则仍要求所有正文开篇先行动或定义后立即行动；后续AI或验收者可能按相反顺序执行，重新压缩定义。",
+      "locations": [
+        {
+          "file": "docs/身体护理指南全书规划与调用SOP.md",
+          "line": 65,
+          "exact_conflicting_text": "按“结论与动作 → 理由 → 具体选择或例子 → 改选、停止或升级条件”写。"
+        },
+        {
+          "file": "docs/继续写作Prompt.txt",
+          "line": 27,
+          "exact_conflicting_text": "正文按：一句话解释陌生名词用途/必要原理（需要时）→直接给起步建议→解释理由→具体做法或比较→停止、改选或求助条件。"
+        },
+        {
+          "file": "docs/身体护理项目验收清单.md",
+          "line": 40,
+          "exact_conflicting_text": "正文第一段给直接、正确的起步动作，后续解释理由、具体选择、停止/改选/求助条件。"
+        }
+      ],
+      "recommended_consistent_rule": "标题和摘要先给主要判断与行动；正文涉及陌生概念时按What是什么→Why证据及真正改变选择的限制→How具体做法展开。急症先行动再解释；已知日常习惯不硬加定义。",
+      "recommended_changes": [
+        {
+          "file": "docs/身体护理指南全书规划与调用SOP.md",
+          "section": "5",
+          "action": "用第32.2节的正文顺序取代旧动作优先模板，并说明标题/摘要仍先给结论。"
+        },
+        {
+          "file": "docs/继续写作Prompt.txt",
+          "section": "四第一段",
+          "action": "删除定义→起步动作→理由的旧独立顺序，直接引用同段后文一致的What→Why→How与急症例外。"
+        },
+        {
+          "file": "docs/身体护理项目验收清单.md",
+          "section": "4",
+          "action": "把“正文第一段给起步动作”改为概念定义先解释、急症第一段行动；标题/摘要直接给判断。"
+        }
+      ],
+      "status": "resolved",
+      "resolution": "根代理修改三处后独立复读确认：标题/摘要给主要判断和动作；陌生概念正文What→Why→How，急症先行动，已知日常动作不强行定义；三文件一致。"
+    }
+  ],
+  "blocking_unresolved": [],
+  "status": "pass",
+  "conclusion": "限定范围内，本次要求覆盖完整；三处旧顺序冲突已实际修正并复读确认，与SOP第32.2节一致。此结论不扩大到未重读章节、原医学文献或网页功能验收。",
+  "original_input_sha256": {
+    "docs/身体护理指南全书规划与调用SOP.md": "8ad0b41f423bfe7c2b19604434ef86cfe27c5f4de47d396edd4d73c3f98356b6",
+    "docs/继续写作Prompt.txt": "c65d00579e0ef474dd678ae8006ef799b8f62fb20c7f31e0e44e60d804b5025d",
+    "docs/身体护理项目验收清单.md": "c4458a648a665202724e7491952ea7dc5d68a841626a0fa121b1ba51411d2578"
+  },
+  "final_input_sha256": {
+    "docs/身体护理指南全书规划与调用SOP.md": "3e3b43336c3871806f312dd3e26b27338ec536048359cc08ce09627bf9e048d0",
+    "docs/继续写作Prompt.txt": "9a02352c8bb971975b50e06364ca82f7d90f67b213fffd7e7ad6260cd129dcda",
+    "docs/身体护理项目验收清单.md": "bff62e37fd986c1549868ffe2f60d1f188e028687d023d66bd3fa9e196b24782"
+  }
+}

@@ -1,0 +1,112 @@
+[
+  {
+    "id": "EARNEW-S01",
+    "citation": "World Health Organization. Tips for healthy ears [Internet]. [cited 2026 Oct 29]. Available from: https://cdn.who.int/media/docs/default-source/ncds/tips_for_healthy_ears.pdf?sfvrsn=44b56f5a_1",
+    "url": "https://cdn.who.int/media/docs/default-source/ncds/tips_for_healthy_ears.pdf?sfvrsn=44b56f5a_1",
+    "type": "机构原始临床与患者指导",
+    "support": "只以软布清洁外耳；耳道自然清洁、耳垢保护，避免把棉签等伸入耳道。",
+    "limitations": "两页公共卫生海报，不是耳廓洗涤剂比较试验；不从泛化的勿滴油外推否定医护判断后的软化耳垢治疗。",
+    "reading_depth": "已打开WHO域名两页PDF，审读DO/DONT、耳垢自清洁和清洁范围问答；海报未见可核定发布日期，不根据文件名推年份。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "EARNEW-S02",
+    "citation": "American Academy of Dermatology Association. Seborrheic dermatitis: signs and symptoms [Internet]. 2022 Dec 6. [cited 2026 Oct 29]. Available from: https://www.aad.org/public/diseases/a-z/seborrheic-dermatitis-symptoms",
+    "url": "https://www.aad.org/public/diseases/a-z/seborrheic-dermatitis-symptoms",
+    "type": "机构原始临床与患者指导",
+    "support": "耳内外与耳后可发生脂溢性皮炎，表现包括脱屑、结痂、裂口或渗液；不能把所有脱屑当污垢硬搓。",
+    "limitations": "症状可有重叠，不凭图片或单一症状自行确诊；不据此开抗真菌药或耳道用激素剂量。",
+    "reading_depth": "已打开官方完整正文，核读部位列表、耳部表现、成人和婴儿段，以及2022-12-06实际更新日。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "EARNEW-S03",
+    "citation": "Mayo Clinic. Piercings: how to prevent complications [Internet]. 2024 Mar 1. [cited 2026 Oct 29]. Available from: https://www.mayoclinic.org/healthy-lifestyle/adult-health/in-depth/piercings/art-20047317",
+    "url": "https://www.mayoclinic.org/healthy-lifestyle/adult-health/in-depth/piercings/art-20047317",
+    "type": "机构原始临床与患者指导",
+    "support": "受训操作者、洗手手套、全新无菌一次性针、复用设备灭菌；正规伤口盐水或温和清洁、减少刺激摩擦、愈合期避泳及首饰保留。",
+    "limitations": "机构患者指导，不是所有穿孔设备直接比较试验；不照搬美国许可规则；不把大多数六周愈合外推到所有耳软骨，也不照搬网页口腔穿孔漱口方案。",
+    "reading_depth": "已打开官方完整正文，审读风险、操作流程核实、清洁、避泳和愈合段；核对显示日期2024-03-01。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "EARNEW-S04",
+    "citation": "Kesser BW. Perichondritis of the ear. Merck Manual Professional Version [Internet]. 2026 May. [cited 2026 Oct 29]. Available from: https://www.merckmanuals.com/professional/ear-nose-and-throat-disorders/external-ear-disorders/perichondritis-of-the-ear",
+    "url": "https://www.merckmanuals.com/professional/ear-nose-and-throat-disorders/external-ear-disorders/perichondritis-of-the-ear",
+    "type": "专业医学手册",
+    "support": "耳软骨膜作用、软骨穿孔可诱发炎症感染、供血受损及耳廓变形；需要及时检查和专业治疗。",
+    "limitations": "专业参考资料，不是穿孔部位风险随机比较；软骨膜炎不全由感染引起，不根据耳痛自行选抗生素、激素或切开操作。",
+    "reading_depth": "已打开原页，核读病因、供血机制、症状及治疗原则，确认Full Review与Last updated均为2026-05；未逐项打开所链2019原研究。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "EARNEW-S05",
+    "citation": "American Academy of Dermatology Association. Keloid scars: self-care [Internet]. 2023 Dec 5. [cited 2026 Oct 29]. Available from: https://www.aad.org/public/diseases/a-z/keloids-self-care",
+    "url": "https://www.aad.org/public/diseases/a-z/keloids-self-care",
+    "type": "机构原始临床与患者指导",
+    "support": "本人或血亲瘢痕疙瘩史提示穿孔前谨慎选择，不穿孔最能避开该诱因；持续增厚应及早评估；医疗压力耳饰不等于普通时尚耳夹。",
+    "limitations": "患者指导，不据此给瘢痕体质自诊标准；不复制网上购买压力耳夹和每日12–20小时自行压迫方案；疑感染时不套用去首饰治疤的步骤。",
+    "reading_depth": "已打开原页，审读穿孔风险、压力耳夹及就诊段，核对2023-12-05；没有称已审读该页全部引用试验。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "EARNEW-S06",
+    "citation": "American Academy of Dermatology Association. Caring for new piercings [Internet]. 2023 Sep 18. [cited 2026 Oct 29]. Available from: https://www.aad.org/public/everyday-care/skin-care-basics/tattoos/caring-for-pierced-ears",
+    "url": "https://www.aad.org/public/everyday-care/skin-care-basics/tattoos/caring-for-pierced-ears",
+    "type": "机构原始临床与患者指导",
+    "support": "洗手、温和无香清洁并冲净、避免双氧水及抗菌肥皂损伤；初始首饰保留六周或更久，留意感染和增厚。",
+    "limitations": "该页建议薄涂管装凡士林，与部分穿孔行业指南存在护理差异，本稿不将其列为必需；保留时间不是所有部位统一治愈日。",
+    "reading_depth": "已打开原页完整正文，核读4项护理、感染和瘢痕提醒，2023-09-18更新日已核。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "EARNEW-S07",
+    "citation": "American Academy of Pediatrics. Body piercings, teens & potential health risks: AAP report explained [Internet]. 2021 Apr 28. [cited 2026 Oct 29]. Available from: https://www.healthychildren.org/English/ages-stages/teen/Pages/body-piercings.aspx",
+    "url": "https://www.healthychildren.org/English/ages-stages/teen/Pages/body-piercings.aspx",
+    "type": "机构原始临床与患者指导",
+    "support": "重耳饰牵拉耳垂、尖耳针睡眠压伤；部分金饰也含镍；慢性疾病或每日用药的青少年先核对穿孔风险。",
+    "limitations": "儿科学会家长指导，基于2017报告且网页2021更新；不用其调查发生率承诺中国人群绝对风险，也不照搬美国未成年人法规和处方。",
+    "reading_depth": "已打开AAP原站全文，核读allergic reactions、jewelry-related problems、teens chronic illness和日期，区分Last Updated2021-04-28与©2017来源。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "EARNEW-S08",
+    "citation": "Johns Hopkins Medicine. When to pierce a childs ears and other jewelry questions [Internet]. [cited 2026 Oct 29]. Available from: https://www.hopkinsmedicine.org/health/wellness-and-prevention/when-to-pierce-a-childs-ears-and-other-jewelry-questions",
+    "url": "https://www.hopkinsmedicine.org/health/wellness-and-prevention/when-to-pierce-a-childs-ears-and-other-jewelry-questions",
+    "type": "机构原始临床与患者指导",
+    "support": "耳扣过紧可导致皮肤破损和耳扣嵌入，需医护处理；儿童耳饰应经照护者检查。",
+    "limitations": "儿科专家临床经验，不是普通耳夹夹力或时长研究。耳夹的压力建议明确为对机械刺激的谨慎外推，不冒称直接试验证据。",
+    "reading_depth": "已打开医院原页，核读耳扣嵌入与日常检查段；不根据搜索结果显示的抓取时间伪造发布日期。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "EARNEW-S09",
+    "citation": "Johns Hopkins Medicine. How to safely get your child's ears pierced [Internet]. [cited 2026 Oct 29]. Available from: https://www.hopkinsmedicine.org/health/wellness-and-prevention/how-to-safely-get-your-childs-ears-pierced",
+    "url": "https://www.hopkinsmedicine.org/health/wellness-and-prevention/how-to-safely-get-your-childs-ears-pierced",
+    "type": "机构原始临床与患者指导",
+    "support": "转述AAP建议：可等到儿童成熟到能护理穿孔区域后再考虑；年龄和家庭选择并不能替代无菌与护理能力。",
+    "limitations": "同页专家另称可婴儿期穿孔，并建议酒精和旋转耳钉，与AAD等指导不同；本稿只采用成熟度与护理能力，不采用婴儿月龄推荐、酒精护理或旋转方案。",
+    "reading_depth": "已打开医院原页并审读最佳年龄与护理段；明确记录同页内部观点分歧，不选择性隐藏局限。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "EARNEW-S10",
+    "citation": "American Academy of Dermatology Association. Patch testing can find what's causing your rash [Internet]. 2021 Mar 15. [cited 2026 Oct 29]. Available from: https://www.aad.org/public/diseases/eczema/types/contact-dermatitis/patch-testing-rash",
+    "url": "https://www.aad.org/public/diseases/eczema/types/contact-dermatitis/patch-testing-rash",
+    "type": "机构原始临床与患者指导",
+    "support": "反复或难辨接触皮炎可由医生安排斑贴试验；接触过敏可延迟数小时至数天，不能以当场不痒排除。",
+    "limitations": "患者指导，不等于每个耳饰皮疹都需要斑贴；不据阳性结果脱离暴露史诊断所有症状，也不教居家自行测试过敏原。",
+    "reading_depth": "已打开AAD官方全文，审读patch vs prick、48小时及4–7天复诊、未找到需再测等段，核对2021-03-15实际更新时间。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "EARNEW-S11",
+    "citation": "American Academy of Pediatrics. Ear piercing symptoms [Internet]. [cited 2026 Oct 29]. Available from: https://www.healthychildren.org/English/tips-tools/symptom-checker/Pages/symptomviewer.aspx?symptom=Ear%2BPiercing%2BSymptoms",
+    "url": "https://www.healthychildren.org/English/tips-tools/symptom-checker/Pages/symptomviewer.aspx?symptom=Ear%2BPiercing%2BSymptoms",
+    "type": "机构原始临床与患者指导",
+    "support": "年幼儿童可能拔下耳饰放入口中导致误吞或窒息；耳扣过紧和嵌顿需警惕。",
+    "limitations": "站内署Barton Schmitt MD的症状分流工具，不是AAP独立新研究；未将其通常8岁后作为统一穿孔年龄，也未采用旋转3圈及酒精处理步骤。",
+    "reading_depth": "已打开原站完整症状工具，核读年龄段、紧扣压力、何时就医和预防部分；未看到可靠发表日期，引用不填年份。",
+    "content_checked_at": "2026-10-29"
+  }
+]

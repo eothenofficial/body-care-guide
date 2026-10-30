@@ -1,0 +1,126 @@
+{
+  "checked_at": "2026-10-30",
+  "reviewer_role": "independent_content_and_source_audit_not_clinical_review",
+  "input_sha256": {
+    "medications-entries.json": "ce4ca640d999486cf5a70ccc5f924f870a0590cce653102e68e75667f7e9a78f",
+    "medications-sources.json": "fadadaca87f904dfdc50aeb02be0491b9e003b177b9eeb3942f74629990e3662",
+    "medications-audit.json": "4960cf926fdfa4312bc052e7a0635bfc1c8bb05ef68f1f7e7ff771500e147f1f"
+  },
+  "output_sha256": {
+    "medications-entries.json": "4d195e29c031e38e12a65226502b0fecfd397bb0a01e7c72f282ea7b5d6f5584",
+    "medications-sources.json": "26d04dbb9485845d37fad8caf1155e768b25773f41fc61a018ec3e0f09a5509a",
+    "medications-audit.json": "79d1951c9022d8b307c1fab139e7bbebb7f2297e3709d70f5533aa1dee89a22e"
+  },
+  "reviewed_entries": [
+    "nutrition-009",
+    "nutrition-017",
+    "nutrition-018",
+    "nutrition-019"
+  ],
+  "reviewed_sources": [
+    "NFM-S01",
+    "NFM-S02",
+    "NFM-S03",
+    "NFM-S04",
+    "NFM-S05",
+    "NFM-S06",
+    "NFM-S07",
+    "NFM-S08",
+    "NFM-S09",
+    "NFM-S10",
+    "NFM-S11",
+    "NFM-S12"
+  ],
+  "changes_applied": [
+    {
+      "field": "title",
+      "before": "符合减重适应证再选针剂，用同一项试验判断药物差别",
+      "after": "符合减重适应证再选针剂，比较效果优先看直接对照试验",
+      "reason": "并非所有药均来自同一项试验，原标题有误导。"
+    },
+    {
+      "field": "notes",
+      "before": "其他选择见下一条。",
+      "after": "其他选择见[其他药物与渠道核验](#/entry/nutrition-019)。",
+      "reason": "018为安全条目，其他选择实际在019；使用明确链接。"
+    },
+    {
+      "field": "plain",
+      "before": "不要把前两种的月份直接套给所有药；正在用药又准备怀孕、哺乳或依赖口服避孕药时，让处方团队逐药核对停药窗口和避孕方案。",
+      "after": "不要把前两种的月份直接套给所有药；准备怀孕或哺乳时，先让处方团队逐药核对停药窗口与替代方案。**使用穆峰达且服用口服激素避孕药，应改用非口服避孕措施，或在开始治疗、每次增加剂量后的前4周，在原口服避孕药基础上加用避孕套等屏障措施。** 这条相互作用建议来自该药中国说明书，不能套给所有GLP-1药。",
+      "reason": "独立实读穆峰达2025-08-20中国PI第19页，存在明确四周措施；原文仅让咨询不足以传达已知安全行动。"
+    },
+    {
+      "field": "citation",
+      "before": "2024 Oct 17",
+      "after": "2024",
+      "reason": "17日无可直接核实依据；原指南版本年份明确，去掉虚假精确日。"
+    },
+    {
+      "field": "NFM-S01.published_at",
+      "before": "2024-10-17",
+      "after": "2024",
+      "reason": "日期精度降到实际确认范围。"
+    },
+    {
+      "field": "url",
+      "before": "https://www.lillymedical.cn/file/raw/d0627564-e671-4e11-a57d-1e3206ff0688/%E6%9B%BF%E5%B0%94%E6%B3%8A%E8%82%BD%E6%B3%A8%E5%B0%84%E6%B6%B2%E4%BA%A7%E5%93%81%E8%AF%B4%E6%98%8E%E4%B9%A6%EF%BC%88%E5%A4%9A%E5%89%82%E9%A2%84%E8%A3%85%E7%AC%94%E5%BC%8F%E6%B3%A8%E5%B0%84%E5%99%A8%EF%BC%89%E3%80%90%E4%BF%AE%E8%AE%A2%E6%97%A5%E6%9C%9F%EF%BC%9A2025%E5%B9%B408%E6%9C%8820%E6%97%A5%E3%80%91.pdf",
+      "after": "https://www.lillymedical.cn/file/raw/d0627564-e671-4e11-a57d-1e3206ff0688/%E6%9B%BF%E5%B0%94%E6%B3%8A%E8%82%BD%E6%B3%A8%E5%B0%84%E6%B6%B2%E4%BA%A7%E5%93%81%E8%AF%B4%E6%98%8E%E4%B9%A6%EF%BC%88%E5%A4%9A%E5%89%82%E9%87%8F%E9%A2%84%E8%A3%85%E7%AC%94%E5%BC%8F%E6%B3%A8%E5%B0%84%E5%99%A8%EF%BC%89%E3%80%90%E4%BF%AE%E8%AE%A2%E6%97%A5%E6%9C%9F%EF%BC%9A2025%E5%B9%B408%E6%9C%8820%E6%97%A5%E3%80%91.pdf",
+      "reason": "原URL漏“量”导致失效，已正常公开打开44页正确PDF。"
+    },
+    {
+      "field": "citation",
+      "before": "多剂预装",
+      "after": "多剂量预装",
+      "reason": "按说明书和实际文件名核对制剂名称。"
+    },
+    {
+      "field": "citation",
+      "before": "https://www.lillymedical.cn/file/raw/d0627564-e671-4e11-a57d-1e3206ff0688/%E6%9B%BF%E5%B0%94%E6%B3%8A%E8%82%BD%E6%B3%A8%E5%B0%84%E6%B6%B2%E4%BA%A7%E5%93%81%E8%AF%B4%E6%98%8E%E4%B9%A6%EF%BC%88%E5%A4%9A%E5%89%82%E9%A2%84%E8%A3%85%E7%AC%94%E5%BC%8F%E6%B3%A8%E5%B0%84%E5%99%A8%EF%BC%89%E3%80%90%E4%BF%AE%E8%AE%A2%E6%97%A5%E6%9C%9F%EF%BC%9A2025%E5%B9%B408%E6%9C%8820%E6%97%A5%E3%80%91.pdf",
+      "after": "https://www.lillymedical.cn/file/raw/d0627564-e671-4e11-a57d-1e3206ff0688/%E6%9B%BF%E5%B0%94%E6%B3%8A%E8%82%BD%E6%B3%A8%E5%B0%84%E6%B6%B2%E4%BA%A7%E5%93%81%E8%AF%B4%E6%98%8E%E4%B9%A6%EF%BC%88%E5%A4%9A%E5%89%82%E9%87%8F%E9%A2%84%E8%A3%85%E7%AC%94%E5%BC%8F%E6%B3%A8%E5%B0%84%E5%99%A8%EF%BC%89%E3%80%90%E4%BF%AE%E8%AE%A2%E6%97%A5%E6%9C%9F%EF%BC%9A2025%E5%B9%B408%E6%9C%8820%E6%97%A5%E3%80%91.pdf",
+      "reason": "题录使用同一正确来源URL。"
+    },
+    {
+      "field": "NFM-S03.support/limitations/reading_depth",
+      "reason": "补充已实读中国口服激素避孕四周要求；保留新版未取得的限制，并核持有人。"
+    },
+    {
+      "field": "NFM-S05/S06.published_at",
+      "reason": "明确线上发表日与正式期刊日；GLORY-1原2025-05-29错误，改原刊PDF及PubMed均确认的2025-05-25。"
+    }
+  ],
+  "blocking_unresolved": [],
+  "checks": [
+    "已逐句读取009及017–019的标题、摘要和六字段，核引用指向与人群；未修改共享构建器、旧条目或其他分工文件。",
+    "中国一般超重/肥胖24/28，与诺和盈30/27、穆峰达及信尔美28/24伴病门槛分开；均不是达到门槛就自动用药。",
+    "实读诺和盈2026-07-27中国PI的适应证、MTC/MEN2、NAION、肝肾/胃轻瘫、孕哺和至少2月停药；未套美国青少年批准或处方方案。",
+    "实读穆峰达2025-08-20多剂量中国PI的适应证、安全、孕哺和相互作用；MTC/MEN2/严重超敏禁忌存在。孕期减重禁用与糖尿病孕期特殊权衡未混成统一绝对标签；哺乳不是本版标签中一概禁用。",
+    "实读信尔美前部体重管理PI，至少3月备孕停药、孕哺不得使用及65岁以上仅3人；未将后部糖尿病适应证的老年数据混用。",
+    "实读SURMOUNT-5原刊PDF方法、主modified treatment-regimen estimand、基线及结果：20.2%/13.7%、72周、751人、最大耐受剂量方案正确；不称无条件纯ITT。",
+    "GLORY-1原刊PDF和PubMed题录、完整摘要核610人、基线87.2kg/BMI31.1及疗法策略48周-11.00%/-14.01%/+0.30%；主终点32周与次要48周分开。",
+    "SURMOUNT-5系两活性药直接比较，GLORY-1是安慰剂对照；各自资助披露保留，没有跨试验排名或把最高剂量当个人用法。",
+    "实读STEP1延伸完整摘要与利益披露：327人探索性随访、停药及生活方式干预均终止，回升约三分之二不能变成每个人必须终身治疗。",
+    "实读奥利司他2012监管范本及2024指南相关段；BMI24、机制、孕期禁用、哺乳/18岁以下不宜、吸收/胆汁/药物相互作用和肝肾警讯有依据，没有给个人剂量。",
+    "已实读埃诺格鲁肽2026-03-06持有人原始声明，仅用于获批声明，不据公告排序、补精确BMI或安全禁忌；未假称拿到完整PI。",
+    "已实读FDA质量/单位误算/盐形式/科研标签相关段、上海药监查询答复和湖南西布曲明风险原页；未将美国名单变成中国名单、旧通告变成2026抽检。"
+  ],
+  "reading_depth_and_limits": [
+    "独立复核用了本地原始PDF提取文本（NHC、诺和盈、信尔美、SURMOUNT5）与web可读的穆峰达44页原PDF、GLORY1原PDF及相关原刊/监管网页；不是只接受作者的来源摘要。",
+    "未逐条复算RCT数据、重读所有试验附录，亦未完成任何品牌全规格/全国药品库穷尽核查。",
+    "穆峰达官方2026-09-20新版索引已看到，完整新版未取得；本条限定实际读到的2025-08-20版及其稳定事实，当前临床使用仍须核现行PI。",
+    "诺和盈未取得2026-10储运更新原件；正文没有给储运温度/小时数，故未以旧储运规定替代新规定。",
+    "该独立复核是文字和证据核对，不是持证临床人员签审；未声称结论100%正确。"
+  ],
+  "validation": {
+    "summary_lengths": {
+      "nutrition-009": 121,
+      "nutrition-017": 124,
+      "nutrition-018": 119,
+      "nutrition-019": 119
+    },
+    "all_source_ids_resolve": true,
+    "six_fields_present": true,
+    "costs_empty": true
+  },
+  "freeze": "完成后不再运行write-medications.mjs；若再次改原始JSON，须重核并更新hash记录。"
+}

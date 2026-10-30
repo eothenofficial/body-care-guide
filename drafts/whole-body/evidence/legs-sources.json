@@ -1,0 +1,176 @@
+[
+  {
+    "id": "LEGS-S01",
+    "citation": "National Health Service. Back pain [Internet]. 2026 Mar 5. [cited 2026 Oct 29]. Available from: https://www.nhs.uk/conditions/back-pain/",
+    "url": "https://www.nhs.uk/conditions/back-pain/",
+    "type": "机构原始临床与患者指导",
+    "support": "新发大小便/会阴/双腿神经变化与外伤急诊；普通腰痛保持活动，不长期卧床；冷热敷和复评。",
+    "limitations": "普通腰痛不等于全部病因；不是把严重神经变化也让读者先试运动；未照搬固定药物剂量。",
+    "reading_depth": "2026-10-29实际打开原页并实读相关自护、就医与治疗段及页面日期。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "LEGS-S02",
+    "citation": "Cambridge University Hospitals NHS Foundation Trust. Back pain [Internet]. 2025 Jan 14. [cited 2026 Oct 29]. Available from: https://www.cuh.nhs.uk/patient-information/back-pain/",
+    "url": "https://www.cuh.nhs.uk/patient-information/back-pain/",
+    "type": "机构原始临床与患者指导",
+    "support": "马尾警示、坐骨神经痛解释、普通腰痛影像非首要、逐步活动和功能恢复。",
+    "limitations": "原页MRI在急诊不做等泛化表述只限非急症普通腰痛，本稿明确马尾等不适用；不采用“几乎全部自行恢复”等保证式语言。",
+    "reading_depth": "2026-10-29实读症状/影像/CES、自护和活动段，核Document approved2025Jan14，未把打印时戳2026当更新。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "LEGS-S03",
+    "citation": "National Health Service. DVT (deep vein thrombosis) [Internet]. 2026 Apr 30. [cited 2026 Oct 29]. Available from: https://www.nhs.uk/conditions/deep-vein-thrombosis-dvt/",
+    "url": "https://www.nhs.uk/conditions/deep-vein-thrombosis-dvt/",
+    "type": "机构原始临床与患者指导",
+    "support": "单侧新肿痛尽快评估，伴胸痛/气短急救；风险线索、超声诊断、活动与长途旅行预防。",
+    "limitations": "症状不能线上确诊；英国24小时转诊流程不写成中国时间承诺；不提供抗凝处方，未把走动视为治疗已确诊血栓的替代。",
+    "reading_depth": "2026-10-29实际打开原页并实读相关自护、就医与治疗段及页面日期。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "LEGS-S04",
+    "citation": "National Health Service. Sprains and strains [Internet]. 2024 Apr 23. [cited 2026 Oct 29]. Available from: https://www.nhs.uk/conditions/sprains-and-strains/",
+    "url": "https://www.nhs.uk/conditions/sprains-and-strains/",
+    "type": "机构原始临床与患者指导",
+    "support": "韧带扭伤和肌肉拉伤定义、早期保护减负/冷敷抬高、避热按摩、恢复活动与严重损伤分流。",
+    "limitations": "不把最多八周等例子作人人统一停跑期限；冷敷用于症状缓解，不宣称已证明加速组织修复。",
+    "reading_depth": "2026-10-29实际打开原页并实读相关自护、就医与治疗段及页面日期。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "LEGS-S05",
+    "citation": "National Health Service. Knee pain [Internet]. 2023 Dec 21. [cited 2026 Oct 29]. Available from: https://www.nhs.uk/symptoms/knee-pain/",
+    "url": "https://www.nhs.uk/symptoms/knee-pain/",
+    "type": "机构原始临床与患者指导",
+    "support": "严重痛、无法负重、变形/锁住/打软腿、红热发热需及时评估；轻症减刺激和持续复评；无痛弹响可常见。",
+    "limitations": "临床入口，不凭症状表为读者确诊半月板或关节炎；不将所有青少年膝痛套成人退变。",
+    "reading_depth": "2026-10-29实际打开原页并实读相关自护、就医与治疗段及页面日期。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "LEGS-S06",
+    "citation": "National Health Service. Hip pain in adults [Internet]. 2025 Nov 20. [cited 2026 Oct 29]. Available from: https://www.nhs.uk/symptoms/hip-pain/",
+    "url": "https://www.nhs.uk/symptoms/hip-pain/",
+    "type": "机构原始临床与患者指导",
+    "support": "髋痛外伤不能负重或神经变化急诊；热肿/发热/突发重痛及时检查；轻症活动减负和持续复评。",
+    "limitations": "明确成人专页，儿童髋痛需不同路径；晨僵超过30分钟是检查线索不在线诊断炎症病。",
+    "reading_depth": "2026-10-29实际打开原页并实读相关自护、就医与治疗段及页面日期。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "LEGS-S07",
+    "citation": "World Health Organization. WHO releases guidelines on chronic low back pain [Internet]. 2023 Dec 7. [cited 2026 Oct 29]. Available from: https://www.who.int/news/item/07-12-2023-who-releases-guidelines-on-chronic-low-back-pain",
+    "url": "https://www.who.int/news/item/07-12-2023-who-releases-guidelines-on-chronic-low-back-pain",
+    "type": "WHO官方指南发布摘要",
+    "support": "慢性原发性腰痛超过3个月且不由其他明确病因解释；整体活动/教育/部分手法心理等组合；不常规护腰牵引。",
+    "limitations": "官方指南发布摘要，不是对全部指南附录重审；结论仅限成人慢性原发性腰痛，多数情境不推荐不等于骨折术后支具全禁。",
+    "reading_depth": "2026-10-29实际打开WHO原页，实读慢性原发性腰痛定义、适合/不常规干预及整体照护段；NCBI指南章遇验证码，未称读全文。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "LEGS-S08",
+    "citation": "Brinjikji W, Luetmer PH, Comstock B, Bresnahan BW, Chen LE, Deyo RA, et al. Systematic literature review of imaging features of spinal degeneration in asymptomatic populations. AJNR Am J Neuroradiol. 2015;36(4):811-816. doi:10.3174/ajnr.A4173.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/25430861/",
+    "doi": "10.3174/ajnr.A4173",
+    "doi_url": "https://doi.org/10.3174/ajnr.A4173",
+    "type": "系统综述（实读PubMed摘要与题录）",
+    "support": "无症状成人也常见退变影像且随年龄增加，影像应放在临床条件中解读。",
+    "limitations": "实读摘要而非全文；纳入文献截至2014，稳定的影像/临床区别可保留，不用于当前个人预后、手术选择或排除所有影像病因。",
+    "reading_depth": "2026-10-29打开PubMed，核前六作者、题名、年卷期页码和DOI，读全部摘要方法/结果/结论；没有重算年龄百分比。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "LEGS-S09",
+    "citation": "American College of Rheumatology. 2026 update of the American College of Rheumatology recommendations for the management of osteoarthritis of the knee, hip, and hand [Internet]. 2026 Sep 14. [cited 2026 Oct 29]. Available from: https://assets.contentstack.io/v3/assets/bltee37abb6b278ab2c/bltb3d12c34020da842/oa-guideline-summary-2026.pdf",
+    "url": "https://assets.contentstack.io/v3/assets/bltee37abb6b278ab2c/bltb3d12c34020da842/oa-guideline-summary-2026.pdf",
+    "type": "专业学会已批准推荐摘要",
+    "support": "髋膝OA运动与适当减重、膝支具条件性推荐、楔形鞋垫条件性不推荐，氨糖/软骨素及组合强烈不推荐；局部NSAIDs等。",
+    "limitations": "官网已发布的是摘要而非已刊完整论文；2026Sep8董事会通过、Sep14官网贴出要分开。推荐强度与证据确定性不同，不把所有结论标A或移植为中国处方。",
+    "reading_depth": "2026-10-29从ACR官方guideline页点击2026摘要，读取4页文本，重点核第1页运动/支具、第2页鞋垫与NSAIDs、第3页氨糖/软骨素、第4页批准与拟投刊状态；请求第1/3页截图但工具未返回可见像素，未声称视觉验表。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "LEGS-S10",
+    "citation": "National Health Service. Osteoarthritis: Treatment and support [Internet]. 2023 Mar 20. [cited 2026 Oct 29]. Available from: https://www.nhs.uk/conditions/osteoarthritis/treatment/",
+    "url": "https://www.nhs.uk/conditions/osteoarthritis/treatment/",
+    "type": "机构原始临床与患者指导",
+    "support": "骨关节炎适配活动、力量和有氧、渐进负荷；辅助器具与持续功能受损时讨论手术。",
+    "limitations": "已超过预计复审日期；只用稳定临床原则并与2026ACR交叉核。未采用其辣椒素接触黏膜“不会损伤”等不恰当绝对表述，不把NHS支付政策作疗效证据。",
+    "reading_depth": "2026-10-29实读运动、体重、NSAIDs、辅助装置/手术及页脚日期；没有引用所有手术技术细节。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "LEGS-S11",
+    "citation": "Dhillon J, Kraeutler MJ, Belk JW, Scillia AJ, McCarty EC, Ansah-Twum JK, et al. Effects of running on the development of knee osteoarthritis: an updated systematic review at short-term follow-up. Orthop J Sports Med. 2023;11(3):23259671231152900. doi:10.1177/23259671231152900.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/36875337/",
+    "doi": "10.1177/23259671231152900",
+    "doi_url": "https://doi.org/10.1177/23259671231152900",
+    "type": "系统综述（实读PubMed摘要与题录）",
+    "support": "纳入成人研究在所观察随访内未发现跑步普遍恶化膝OA影像/症状，不能简单说跑步必磨坏膝。",
+    "limitations": "17研究中多观察性、均龄约中老年、随访不等；不是终身因果安全证明，更不能保证儿童、精英超量或伤后继续硬跑安全。",
+    "reading_depth": "2026-10-29实际打开PubMed，核作者/年卷期/文章号/DOI，读摘要研究层级、样本/随访、结果/结论和利益冲突；未声称全文复核。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "LEGS-S12",
+    "citation": "Berkshire Healthcare NHS Foundation Trust. Physiotherapy advice for returning to running [Internet]. [cited 2026 Oct 29]. Available from: https://www.berkshirehealthcare.nhs.uk/advice/return-to-running-programme",
+    "url": "https://www.berkshirehealthcare.nhs.uk/advice/return-to-running-programme",
+    "type": "机构原始临床与患者指导",
+    "support": "返跑需据损伤与能力、渐进走跑、恢复日；锐痛、加重、持续肿和48小时后仍痛要减量复评。",
+    "limitations": "临床返跑指导不是人人通用处方；没有采用固定10%增长作经证实安全阈值，不推“同日不能力量训练”等全称规则。无明确原页日期，不由页脚版权推更新时间。",
+    "reading_depth": "2026-10-29实际打开原页读起跑条件、训练分阶段、acceptable/unacceptable症状、恢复与求助段。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "LEGS-S13",
+    "citation": "National Health Service. Knee pain and other running injuries [Internet]. 2022 Nov 25. [cited 2026 Oct 29]. Available from: https://www.nhs.uk/live-well/exercise/knee-pain-and-other-running-injuries/",
+    "url": "https://www.nhs.uk/live-well/exercise/knee-pain-and-other-running-injuries/",
+    "type": "机构原始临床与患者指导",
+    "support": "跑步膝痛暂停诱发负荷，严重/肿及一周不改善时评估；鞋合适，不以价格保证适配。",
+    "limitations": "已超过预计复审日期；使用稳定求助与鞋具原则并结合2026返跑资料。未采用“足跟痛全叫筋膜炎”等过度概括。",
+    "reading_depth": "2026-10-29实际打开原页并实读相关自护、就医与治疗段及页面日期。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "LEGS-S14",
+    "citation": "National Health Service. Varicose veins [Internet]. 2024 Jul 1. [cited 2026 Oct 29]. Available from: https://www.nhs.uk/conditions/varicose-veins/",
+    "url": "https://www.nhs.uk/conditions/varicose-veins/",
+    "type": "机构原始临床与患者指导",
+    "support": "静脉曲张表现、活动抬腿、症状/出血/不愈合伤口检查；超声与消融等选择；压力袜与动脉供血禁忌、孕期分支。",
+    "limitations": "不将缓解症状等同永久修复，NHS供给条件不套中国，未照抄所有人必须先哪项手术。",
+    "reading_depth": "2026-10-29实际打开原页并实读相关自护、就医与治疗段及页面日期。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "LEGS-S15",
+    "citation": "Dorset County Hospital NHS Foundation Trust. Advice for applying and wearing compression garments [Internet]. 2025 Dec. [cited 2026 Oct 29]. Available from: https://dchft.nhs.uk/leaflets/advice-for-applying-and-wearing-compression-garments/",
+    "url": "https://dchft.nhs.uk/leaflets/advice-for-applying-and-wearing-compression-garments/",
+    "type": "机构原始临床与患者指导",
+    "support": "医用压力衣测量与适配、平整不卷边、出现新麻冷变色或疼痛脱下并联系团队。",
+    "limitations": "原页以淋巴水肿/肿腿临床护理为背景，仅取通用穿戴警示；不将其供给、更换次数或长期方案套到所有静脉病/健康人。",
+    "reading_depth": "2026-10-29实读专业测量、穿脱与警示段，核Updated and approved December2025，不将2028复审日当更新。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "LEGS-S16",
+    "citation": "National Health Service. NSAIDs [Internet]. 2026 Apr 28. [cited 2026 Oct 29]. Available from: https://www.nhs.uk/medicines/nsaids/",
+    "url": "https://www.nhs.uk/medicines/nsaids/",
+    "type": "机构原始临床与患者指导",
+    "support": "非甾体抗炎药类别、胃出血/肾等风险，孕哺核对，与其他NSAIDs和抗凝等相互作用。",
+    "limitations": "海外供药分类不作中国批准状态；不列剂量、疗程或个体心肾安全保证。",
+    "reading_depth": "2026-10-29实际打开原页并实读相关自护、就医与治疗段及页面日期。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "LEGS-S17",
+    "citation": "National Center for Complementary and Integrative Health. Glucosamine and chondroitin for osteoarthritis: what you need to know [Internet]. 2023 Oct. [cited 2026 Oct 29]. Available from: https://www.nccih.nih.gov/health/glucosamine-and-chondroitin-for-osteoarthritis-what-you-need-to-know",
+    "url": "https://www.nccih.nih.gov/health/glucosamine-and-chondroitin-for-osteoarthritis-what-you-need-to-know",
+    "type": "NIH研究与安全信息概括",
+    "support": "氨糖/软骨素定义与历史研究/制剂不一致，不能保证结构修复；华法林出血、部分血糖变化及孕哺资料有限。",
+    "limitations": "旧资料仅承担定义、历史分歧和安全信息；当前推荐采用2026ACR，未把网页仍列2019/2021推荐当2026共识。",
+    "reading_depth": "2026-10-29实际打开NIH原页，读定义、症状证据分歧、结构与安全及Last Updated2023Oct；未冒称逐篇读完其引用试验。",
+    "content_checked_at": "2026-10-29"
+  }
+]

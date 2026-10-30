@@ -1,0 +1,313 @@
+[
+  {
+    "id": "ENT-S01",
+    "citation": "Cleveland Clinic. Why nose hairs grow so long [Internet]. 2022 May 3 [cited 2026 Oct 29]. Available from: https://health.clevelandclinic.org/nose-hair",
+    "url": "https://health.clevelandclinic.org/nose-hair",
+    "type": "机构原始临床与患者指导",
+    "support": "鼻毛保留作用；外露毛发可修剪，不主张拔或蜜蜡清空。",
+    "limitations": "医院专家患者教育，不是修剪vs拔毛随机试验；不使用其鼻毛密度与哮喘关联作因果承诺。",
+    "reading_depth": "原页正文已打开，审读鼻毛用途、修剪与No yanking段，并核对页面日期。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "ENT-S02",
+    "citation": "Mayo Clinic. Petroleum jelly: safe for a dry nose? [Internet]. 2023 Mar 16 [cited 2026 Oct 29]. Available from: https://www.mayoclinic.org/diseases-conditions/pneumonia/expert-answers/petroleum-jelly/faq-20057784",
+    "url": "https://www.mayoclinic.org/diseases-conditions/pneumonia/expert-answers/petroleum-jelly/faq-20057784",
+    "type": "机构原始临床与患者指导",
+    "support": "鼻腔干燥可用盐水喷雾；长期鼻内油脂可能罕见吸入风险，必要润滑选水溶性少量。",
+    "limitations": "不把罕见脂质肺炎说成偶尔用凡士林必然伤肺；不用该页给药物涂抹剂量。",
+    "reading_depth": "原医院页问题、风险解释、盐水和水溶性润滑段已读，日期2023-03-16已核。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "ENT-S03",
+    "citation": "National Health Service. Nosebleed [Internet]. 2023 Dec 5 [cited 2026 Oct 29]. Available from: https://www.nhs.uk/conditions/nosebleed/",
+    "url": "https://www.nhs.uk/conditions/nosebleed/",
+    "type": "机构原始临床与患者指导",
+    "support": "前倾、连续捏软部10–15分钟；持续出血、量大、头伤、虚弱或呼吸问题急诊；反复出血评估；出血后短期避免擤抠。",
+    "limitations": "英国急救联系方式改为中国急诊路径；页面视频2026日期不当正文更新日；不据此诊断出血原因。",
+    "reading_depth": "原页原因、家庭止血、急诊分流、止血后24小时段已读，页脚2023-12-05与视频日期分开核对。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "ENT-S04",
+    "citation": "National Health Service. Allergic rhinitis [Internet]. 2026 Jan 8 [cited 2026 Oct 29]. Available from: https://www.nhs.uk/conditions/allergic-rhinitis/",
+    "url": "https://www.nhs.uk/conditions/allergic-rhinitis/",
+    "type": "机构原始临床与患者指导",
+    "support": "过敏模式、诱因、可选择抗组胺/鼻用激素/盐水；影响睡眠或无改善应复评。",
+    "limitations": "症状只用于识别模式而非自我确诊；不采用其自制盐水配方，也不将英国供药分类当中国规则。",
+    "reading_depth": "原页症状、药物、自护、就医和预防段已读，2026-01-08页脚已核。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "ENT-S05",
+    "citation": "British Society for Allergy and Clinical Immunology. Allergic rhinitis: patient information leaflet [Internet]. [cited 2026 Oct 29]. Available from: https://www.bsaci.org/wp-content/uploads/2024/03/Allergic-Rhinitis-PIL.pdf",
+    "url": "https://www.bsaci.org/wp-content/uploads/2024/03/Allergic-Rhinitis-PIL.pdf",
+    "type": "机构原始临床与患者指导",
+    "support": "非镇静抗组胺与鼻用激素作用、规律使用、花粉与室内诱因管理。",
+    "limitations": "URL目录2024不是核定出版日；不照搬全部环境措施及英国专科服务安排，不承诺永久治愈。",
+    "reading_depth": "2页原始PDF已打开，重点审读药物及回避措施；未用无法核定的发布日期。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "ENT-S06",
+    "citation": "British Society for Allergy and Clinical Immunology. Topical nasal corticosteroid spray: standard operating procedure [Internet]. [cited 2026 Oct 29]. Available from: https://www.bsaci.org/wp-content/uploads/2023/11/Nasal-corticosteroid-SOP-BSACI.pdf",
+    "url": "https://www.bsaci.org/wp-content/uploads/2023/11/Nasal-corticosteroid-SOP-BSACI.pdf",
+    "type": "机构原始临床与患者指导",
+    "support": "鼻用激素抗炎定位与非即刻起效；喷头朝外侧、避鼻中隔、轻吸不猛吸的手法。",
+    "limitations": "不复制第2页品牌、年龄、剂量和生物利用度排名，英国标签不可移植中国；文件夹日期不作出版日。",
+    "reading_depth": "4页PDF已打开；审读第1页治疗定位与第3页操作步骤，核对文字而非只凭示意图。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "ENT-S07",
+    "citation": "National Health Service. Decongestants [Internet]. 2026 Oct 15 [cited 2026 Oct 29]. Available from: https://www.nhs.uk/medicines/decongestants/",
+    "url": "https://www.nhs.uk/medicines/decongestants/",
+    "type": "机构原始临床与患者指导",
+    "support": "羟甲唑啉、赛洛唑啉等快速减充血药及反跳风险；最新NHS连续不超过5天，合并疾病需核对。",
+    "limitations": "5天是这份机构指导，不代表所有中国成品标签；不复制英国非处方规则或推荐孕妇自行用药。",
+    "reading_depth": "原页完整药物种类、用法、禁忌段已读，页脚2026-10-15已核；与旧页一周上限的差异另记录。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "ENT-S08",
+    "citation": "Centers for Disease Control and Prevention. How to safely rinse sinuses [Internet]. 2025 Jul 16 [cited 2026 Oct 29]. Available from: https://www.cdc.gov/naegleria/prevention/sinus-rinsing.html",
+    "url": "https://www.cdc.gov/naegleria/prevention/sinus-rinsing.html",
+    "type": "机构原始临床与患者指导",
+    "support": "鼻冲洗用蒸馏/无菌/煮沸冷却水；煮沸1分钟、高海拔3分钟；冲后神经/全身警示。",
+    "limitations": "不渲染罕见感染为每次冲洗高概率，不输出家庭漂白剂消毒配方；CDC与FDA煮沸时长口径不同不混写。",
+    "reading_depth": "原页安全用水、煮沸步骤、就医警示已读；2025-07-16日期已核。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "ENT-S09",
+    "citation": "US Food and Drug Administration. Is rinsing your sinuses with neti pots safe? [Internet]. [cited 2026 Oct 29]. Available from: https://www.fda.gov/consumers/consumer-updates/rinsing-your-sinuses-neti-pots-safe",
+    "url": "https://www.fda.gov/consumers/consumer-updates/rinsing-your-sinuses-neti-pots-safe",
+    "type": "机构原始临床与患者指导",
+    "support": "细雾喷剂主要湿润，冲洗器主要带走黏液；安全用水、配盐水、清洁晾干与免疫低下者先评估。",
+    "limitations": "不把任何盐包或电动产品视为疗效更好，不复制其3–5分钟煮沸与24小时贮存到所有场景；无明确更新日不填日期。",
+    "reading_depth": "原机构页已打开，水、喷剂/冲洗器区别和器具维护全文相关段已读。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "ENT-S10",
+    "citation": "National Health Service. Symptoms of nasal and sinus cancer [Internet]. 2025 Sep 17 [cited 2026 Oct 29]. Available from: https://www.nhs.uk/conditions/nasal-and-sinus-cancer/symptoms/",
+    "url": "https://www.nhs.uk/conditions/nasal-and-sinus-cancer/symptoms/",
+    "type": "机构原始临床与患者指导",
+    "support": "不退单侧鼻塞、血性分泌物等持续或加重需要检查。",
+    "limitations": "这些症状也常由其他病引起；不能用于远程诊断癌症，不把年轻人的普通鼻塞直接癌症化。",
+    "reading_depth": "原页症状、何时检查及常见病因不等于癌症提示已读，2025-09-17页脚已核。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "ENT-S11",
+    "citation": "National Health Service. Lost or changed sense of smell [Internet]. 2023 Dec 1 [cited 2026 Oct 29]. Available from: https://www.nhs.uk/symptoms/lost-or-changed-sense-smell/",
+    "url": "https://www.nhs.uk/symptoms/lost-or-changed-sense-smell/",
+    "type": "机构原始临床与患者指导",
+    "support": "感染/过敏/鼻息肉等导致嗅觉变化，数周不恢复应检查；防燃气/食物变质风险。",
+    "limitations": "不承诺嗅觉训练人人有效，也不输出补充剂或激素滴鼻自用方案。",
+    "reading_depth": "原页病因、数周未恢复、治疗与安全提示已读；2023-12-01页脚已核。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "ENT-S12",
+    "citation": "Cleveland Clinic. Sebaceous filaments [Internet]. 2023 Jan 4 [cited 2026 Oct 29]. Available from: https://my.clevelandclinic.org/health/diseases/24571-sebaceous-filaments",
+    "url": "https://my.clevelandclinic.org/health/diseases/24571-sebaceous-filaments",
+    "type": "机构原始临床与患者指导",
+    "support": "皮脂丝为正常输送油脂结构，与黑头粉刺不同；不挤及温和皮肤护理。",
+    "limitations": "不使用其过洗必然补偿出油的机理描述；不据页面列出的成分替所有成品或鼻部操作背书。",
+    "reading_depth": "原医院页定义、黑头区别及管理相关段已打开阅读，2023-01-04日期已核。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "ENT-S13",
+    "citation": "National Health Service. Earwax build-up [Internet]. 2024 Jan 5 [cited 2026 Oct 29]. Available from: https://www.nhs.uk/conditions/earwax-build-up/",
+    "url": "https://www.nhs.uk/conditions/earwax-build-up/",
+    "type": "机构原始临床与患者指导",
+    "support": "耳垢自然排出、不伸棉签；堵塞可用滴剂或专业清除；鼓膜穿孔禁自滴。",
+    "limitations": "该页并未列出所有禁忌，手术/流液等另参考专科护理；不把油剂具体频次变成所有产品方案。",
+    "reading_depth": "原页症状、家庭与专业清除、穿孔注意及页脚2024-01-05已读。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "ENT-S14",
+    "citation": "Health Canada. Ear candling [Internet]. 2023 Feb 16 [cited 2026 Oct 29]. Available from: https://www.canada.ca/en/health-canada/services/medical-procedures/ear-candling.html",
+    "url": "https://www.canada.ca/en/health-canada/services/medical-procedures/ear-candling.html",
+    "type": "机构原始临床与患者指导",
+    "support": "耳烛无已证实医学收益，可致烧伤、蜡堵塞及鼓膜伤。",
+    "limitations": "只借监管机构医学风险判断，不把加拿大/美国销售法律搬到中国。",
+    "reading_depth": "原页误解、证据与伤害段已读，Page details 2023-02-16已核。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "ENT-S15",
+    "citation": "Centers for Disease Control and Prevention. Preventing swimmer's ear [Internet]. 2025 May 28 [cited 2026 Oct 29]. Available from: https://www.cdc.gov/healthy-swimming/prevention/preventing-swimmers-ear.html",
+    "url": "https://www.cdc.gov/healthy-swimming/prevention/preventing-swimmers-ear.html",
+    "type": "机构原始临床与患者指导",
+    "support": "泳后排水擦干、低温低风吹远距离；干耳滴剂禁忌；疼痛流液就诊；外耳道感染可针对滴药。",
+    "limitations": "预防干耳滴剂与治疗抗菌滴剂用途不同；不出家庭酒精醋配方、不承诺泳塞零感染。",
+    "reading_depth": "原页症状、预防、干耳滴剂禁忌和治疗段已读，2025-05-28日期已核。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "ENT-S16",
+    "citation": "World Health Organization. Deafness and hearing loss: safe listening [Internet]. 2026 Mar 6 [cited 2026 Oct 29]. Available from: https://www.who.int/news-room/questions-and-answers/item/deafness-and-hearing-loss-safe-listening",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/deafness-and-hearing-loss-safe-listening",
+    "type": "机构原始临床与患者指导",
+    "support": "音量与时长共同决定暴露；平均80dB每周40小时与90dB四小时的风险管理示例；贴合/降噪与正规耳塞分工。",
+    "limitations": "不是保证个人不受损的安全线；60%设备滑块不等同固定声压，不把消费降噪耳机当所有环境的听力保护器。",
+    "reading_depth": "原页2026-03-06，审读风险、耳机、演唱会、耳塞佩戴及80/90dB时间例子。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "ENT-S17",
+    "citation": "National Institute on Deafness and Other Communication Disorders. Sudden deafness [Internet]. 2018 Sep 14 [cited 2026 Oct 29]. Available from: https://www.nidcd.nih.gov/health/sudden-deafness",
+    "url": "https://www.nidcd.nih.gov/health/sudden-deafness",
+    "type": "机构原始临床与患者指导",
+    "support": "突发听力下降属急症；耳闷易被误认耳垢；检查耳道及纯音测听，早期治疗的重要性。",
+    "limitations": "2018资料并非2026新指南，与NHS当前分流交叉核对；不输出激素剂量，不以自然恢复率让人等待。",
+    "reading_depth": "原页症状、立即求助、诊断与治疗相关段已读，2018-09-14最后更新日已核。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "ENT-S18",
+    "citation": "National Health Service. Hearing loss [Internet]. [cited 2026 Oct 29]. Available from: https://www.nhs.uk/conditions/hearing-loss/",
+    "url": "https://www.nhs.uk/conditions/hearing-loss/",
+    "type": "机构原始临床与患者指导",
+    "support": "突发/快速进展听损、伴耳痛流液需紧急评估；逐渐听不清和耳垢处理后未恢复仍需检查。",
+    "limitations": "病因表不是自诊工具；不以耳闷的感觉区分内耳与外耳疾病；未核定页脚日期，不填猜测。",
+    "reading_depth": "原页症状、病因、普通/紧急分流段已打开审读。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "ENT-S19",
+    "citation": "National Institute on Deafness and Other Communication Disorders. Tinnitus [Internet]. 2023 May 1 [cited 2026 Oct 29]. Available from: https://www.nidcd.nih.gov/health/tinnitus",
+    "url": "https://www.nidcd.nih.gov/health/tinnitus",
+    "type": "机构原始临床与患者指导",
+    "support": "听力评估、助听/声音方法和认知行为治疗的不同目标；营养补充剂未获可靠疗效支持。",
+    "limitations": "不把‘没有特效药’写成所有患者无治疗，不否定已证实缺乏者的针对补充，不输出所有新设备结论。",
+    "reading_depth": "原页评估、声音/行为方法及药物补充剂段已读，2023-05-01日期已核。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "ENT-S20",
+    "citation": "National Health Service. Tinnitus [Internet]. 2024 Jan 12 [cited 2026 Oct 29]. Available from: https://www.nhs.uk/conditions/tinnitus/",
+    "url": "https://www.nhs.uk/conditions/tinnitus/",
+    "type": "机构原始临床与患者指导",
+    "support": "搏动性耳鸣尽快评估；伴突发听损/面肌无力/眩晕或头伤急诊；持续困扰可用CBT、合并听损可助听。",
+    "limitations": "不复制英国服务获得方式，不把所有声音疗法等同确定治愈；不据此自动停既有处方。",
+    "reading_depth": "原页完整分流、自护与治疗段已读，2024-01-12页脚已核。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "ENT-S21",
+    "citation": "UK Civil Aviation Authority. Air travel and your health [Internet]. [cited 2026 Oct 29]. Available from: https://www.caa.co.uk/air-passengers/about-your-trip/health-and-medical/air-travel-and-your-health/",
+    "url": "https://www.caa.co.uk/air-passengers/about-your-trip/health-and-medical/air-travel-and-your-health/",
+    "type": "机构原始临床与患者指导",
+    "support": "下降时吞咽、咀嚼、打哈欠帮助压力平衡；耳鼻窦感染时飞行风险。",
+    "limitations": "航空机构患者指引，不用它给鼻喷药剂量；只读Ear pain相关段，无明确更新时间不填。",
+    "reading_depth": "原机构页Ear pain段已读，核对中耳、咽鼓管和下降动作；未通读所有其他旅行专题。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "ENT-S22",
+    "citation": "National Health Service. Infected piercings [Internet]. 2023 Apr 18 [cited 2026 Oct 29]. Available from: https://www.nhs.uk/conditions/infected-piercings/",
+    "url": "https://www.nhs.uk/conditions/infected-piercings/",
+    "type": "机构原始临床与患者指导",
+    "support": "穿孔感染的肿热痛/脓/全身不适尽快处理；疑感染不要未经医嘱自行摘首饰；防抠抓。",
+    "limitations": "页面部分旧的旋转首饰及游泳24小时建议不推广；预定复审2026不冒充已更新。",
+    "reading_depth": "原页正常新穿孔、感染症状、急症提示及留首饰段已读，2023-04-18日期已核。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "ENT-S23",
+    "citation": "American Academy of Dermatology. Nickel allergy: how to avoid exposure and reduce symptoms [Internet]. [cited 2026 Oct 29]. Available from: https://www.aad.org/public/diseases/eczema/insider/nickel-allergy",
+    "url": "https://www.aad.org/public/diseases/eczema/insider/nickel-allergy",
+    "type": "机构原始临床与患者指导",
+    "support": "耳饰镍暴露可致接触性皮炎；反复皮疹辨过敏并减少相应接触。",
+    "limitations": "不保证‘低敏’营销标签绝对安全，不移植饮食限镍或用指甲油覆盖策略，不给中国合金准入结论。",
+    "reading_depth": "AAD原页接触过敏、耳饰和皮疹就诊段已读；未发现可核定更新日，不填日期。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "ENT-S24",
+    "citation": "Lancashire and South Cumbria NHS Foundation Trust. Ear wax self management [Internet]. [cited 2026 Oct 29]. Available from: https://www.lscft.nhs.uk/our-services/service-finder-z/treatment-room-services/ear-wax-self-management-adults",
+    "url": "https://www.lscft.nhs.uk/our-services/service-finder-z/treatment-room-services/ear-wax-self-management-adults",
+    "type": "机构原始临床与患者指导",
+    "support": "耳垢有症状才清除，手术/穿孔史及疼痛流液时不自用油或强行冲耳。",
+    "limitations": "原页软化疗程有不一致的7–10天与2–3周描述，本稿不采用其统一频次、疗程或长期保养用油承诺。",
+    "reading_depth": "原医院页自清洁、滴剂注意、穿孔手术禁忌和何时求助已读；不填写未明示更新日。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "ENT-S25",
+    "citation": "Aaron K, Cooper TE, Warner L, Burton MJ. Ear drops for the removal of ear wax. Cochrane Database Syst Rev. 2018;7(7):CD012171. doi:10.1002/14651858.CD012171.pub2.",
+    "url": "https://www.cochrane.org/evidence/CD012171_ear-drops-removal-ear-wax",
+    "type": "系统综述",
+    "support": "低确定性试验支持部分堵塞者用软化滴剂；没有可靠证据确定一种商业配方更优。",
+    "limitations": "2018综述且多数原试验更旧，不能当2026全部产品排名；不用其中无严重事件推零风险。",
+    "reading_depth": "Cochrane官方摘要、通俗摘要、方法与结果已打开；题录作者及DOI与PubMed30043448核对；PMC直接页验证拦截，未声称全文审读。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "ENT-S26",
+    "citation": "Head K, Snidvongs K, Glew S, Scadding G, Schilder AGM, Philpott C, et al. Saline irrigation for allergic rhinitis. Cochrane Database Syst Rev. 2018;6(6):CD012597. doi:10.1002/14651858.CD012597.pub2.",
+    "url": "https://www.cochrane.org/evidence/CD012597_nasal-saline-allergic-rhinitis",
+    "type": "系统综述",
+    "support": "盐水对过敏性鼻炎症状可能有帮助，低或很低确定性；不能确定浓度与水量何者更优或代替药物。",
+    "limitations": "检索到2017-11，不冒充2026新效果研究；不推健康人常规冲洗或保证盐水与激素等效。",
+    "reading_depth": "Cochrane官方摘要、通俗摘要及完整摘要已打开阅读；作者、2018-06-22、DOI和14研究747人核对。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "ENT-S27",
+    "citation": "Torres MI, Gil-Mata S, Bognanni A, Ferreira-da-Silva R, Yepes-Nuñez JJ, Lourenço-Silva N, et al. Intranasal versus oral treatments for allergic rhinitis: a systematic review with meta-analysis. J Allergy Clin Immunol Pract. 2024;12(12):3404-3418. doi:10.1016/j.jaip.2024.09.001.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/39251016/",
+    "type": "系统综述",
+    "support": "35项RCT主要为季节性鼻炎，鼻内激素/抗组胺相对口服选择改善症状与生活质量的证据。",
+    "limitations": "多数研究季节性，部分方法偏倚不清；不同对照与结局确定性不同，不据此排国内所有品牌。作者有行业利益披露。",
+    "reading_depth": "PubMed索引完整题录与摘要已核；直接PubMed页本次验证拦截，另打开都灵大学作者机构15页PDF，审读摘要、入组、方法、结果与利益披露。",
+    "content_checked_at": "2026-10-29",
+    "full_text_url": "https://iris.unito.it/retrieve/7c7b0eb9-ba7a-45be-a578-a46cde615136/1-s2.0-S2213219824008882-main.pdf"
+  },
+  {
+    "id": "ENT-S28",
+    "citation": "National Health Service. Non-allergic rhinitis [Internet]. 2026 Mar 4 [cited 2026 Oct 29]. Available from: https://www.nhs.uk/conditions/non-allergic-rhinitis/",
+    "url": "https://www.nhs.uk/conditions/non-allergic-rhinitis/",
+    "type": "机构原始临床与患者指导",
+    "support": "温湿度、烟、香水等可触发非过敏性鼻炎；根据诱因、症状负担和治疗反应分流。",
+    "limitations": "仅采用症状和诱因分支，不复制该页未区分药物类别的鼻喷一周限制或家庭配液。",
+    "reading_depth": "原页完整正文已打开，核读症状、诱因、分流和真实复审日期。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "ENT-S29",
+    "citation": "Mayo Clinic. Airplane ear [Internet]. 2025 Apr 15 [cited 2026 Oct 29]. Available from: https://www.mayoclinic.org/diseases-conditions/airplane-ear/symptoms-causes/syc-20351701",
+    "url": "https://www.mayoclinic.org/diseases-conditions/airplane-ear/symptoms-causes/syc-20351701",
+    "type": "机构原始临床与患者指导",
+    "support": "飞机耳机制；吞咽打哈欠、起降清醒、轻柔而非强行平压；持续不适与感染出行边界。",
+    "limitations": "患者指导，未采纳具体减充血药预防用法或过滤耳塞疗效保证；不作为潜水操作教程。",
+    "reading_depth": "已打开全文，核读机制、症状、when to see a doctor及prevention段和日期。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "ENT-S30",
+    "citation": "National Health Service. Ear infections [Internet]. 2025 Jan 16 [cited 2026 Oct 29]. Available from: https://www.nhs.uk/conditions/ear-infections/",
+    "url": "https://www.nhs.uk/conditions/ear-infections/",
+    "type": "机构原始临床与患者指导",
+    "support": "耳感染期间不游泳、不把水或异物送进耳道；疼痛、分泌物或听力变化需评估病因。",
+    "limitations": "未把儿童自限性病程套用所有成人外耳道炎，也不以症状直接决定抗生素或抗真菌药。",
+    "reading_depth": "原页完整正文已打开，核读外耳道区别、Do/Don’t、检查治疗与升级症状。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "ENT-S31",
+    "citation": "ARIA-EAACI Guideline Panel. Should intranasal corticosteroids vs. oral H1-antihistamines be used for the treatment of allergic rhinitis? [Internet]. [cited 2026 Oct 29]. Available from: https://aria.med.up.pt/etd_oral-04",
+    "url": "https://aria.med.up.pt/etd_oral-04",
+    "type": "机构原始临床与患者指导",
+    "support": "成人过敏性鼻炎鼻用激素优先于口服H1抗组胺的推荐；轻症或重视快速缓解者可优先口服；按品类而非品牌解读。",
+    "limitations": "官方Evidence-to-Decision网页，无可确认更新日；未引用其国际费用调查、儿童或孕期外推；不能替代中国成品标签。",
+    "reading_depth": "已打开官方完整EtD页面，审读鼻症状/不良事件证据、Recommendation/Subgroup/Implementation段；未逐项复核所链全部研究。",
+    "content_checked_at": "2026-10-29"
+  }
+]

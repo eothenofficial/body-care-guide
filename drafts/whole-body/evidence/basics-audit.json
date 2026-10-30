@@ -1,0 +1,244 @@
+{
+  "status": "author_self_check_passed_not_clinical_review",
+  "content_checked_at": "2026-10-29",
+  "chapter": "basics",
+  "entries": 10,
+  "sources": 20,
+  "doi_sources": 1,
+  "summary_length_range": [
+    117,
+    135
+  ],
+  "source_graph": "all20aliasesused;sixfieldsandunitmembershipchecked",
+  "clinical_review_status": "not_clinically_reviewed",
+  "important_boundaries": [
+    "定位附篇，不把情绪认知问题都归身体或意志差",
+    "仅adult/older，运动数字NHS19—64与65+，不外推儿童青少年或孕产统一计划",
+    "睡眠7—9小时是成人参考，不是精确8小时达标，更久不自动有害",
+    "贴嘴综述低质和选择性纳入，不量化窒息发生率；摘要213/正文233不一致所以不用总人数",
+    "普通补水与某些疾病限总液体分开，不要求人人尿全透明或每天一固定升数",
+    "疲劳按病史检查，不人人维生素激素大套餐；未把无异常检查等同心理装病",
+    "精神困扰求助2周不是硬等待线，当前危险立即急救，无未经核实热线",
+    "酒精依赖不能自行突然硬停，幻觉抽搐等急症；电子烟相对风险不等于无害或同样有害",
+    "不复制海外BMI手术或药物条件为中国标准，不写通用极低热量处方"
+  ],
+  "source_dates": [
+    "NIMH使用CaringforyourMentalHealth2026April而非2024Depression册",
+    "NHS OSA2026May11、体重2026April29、酒精支持2026Aug17",
+    "NHLBI睡眠时长2022、ODS蛋白2021等基础资料如实标日期，未伪造更新"
+  ],
+  "excluded_or_not_used": [
+    {
+      "source": "NICE NG246 physicalactivityanddiet",
+      "reason": "搜索可见但打开403，未作为已核正文来源"
+    },
+    {
+      "source": "WHO physical activity guideline NCBI fullversion",
+      "reason": "打开reCAPTCHA，未声称读到该全文或据此拼300分钟与平衡3天"
+    },
+    {
+      "source": "WHO alcoholQ&A URL",
+      "reason": "页面仅空News壳，未引用内容"
+    },
+    {
+      "source": "NHS howtogettosleep旧URL",
+      "reason": "重定向目录，改用实际可读2024失眠页"
+    }
+  ],
+  "uncovered": "不是营养学、儿童睡眠、运动处方、成瘾医学、肥胖或精神科全谱；不提供补剂逐成分完整指南、孕产通用处方与数字疗效承诺。",
+  "checks": [
+    {
+      "id": "basics-001",
+      "summary_characters": 122,
+      "source_ids": [
+        "BASICS-S01",
+        "BASICS-S02"
+      ],
+      "audience": {
+        "age_groups": [
+          "adult",
+          "older"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "本条以成人和老年为阅读范围，具体数字按正文年龄和病情限制；不直接套给儿童青少年、孕哺或特殊疾病。",
+        "safety_pin": false
+      }
+    },
+    {
+      "id": "basics-002",
+      "summary_characters": 118,
+      "source_ids": [
+        "BASICS-S03",
+        "BASICS-S04",
+        "BASICS-S05",
+        "BASICS-S06",
+        "BASICS-S02"
+      ],
+      "audience": {
+        "age_groups": [
+          "adult",
+          "older"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "本条以成人和老年为阅读范围，具体数字按正文年龄和病情限制；不直接套给儿童青少年、孕哺或特殊疾病。",
+        "safety_pin": false
+      }
+    },
+    {
+      "id": "basics-003",
+      "summary_characters": 127,
+      "source_ids": [
+        "BASICS-S07",
+        "BASICS-S10"
+      ],
+      "audience": {
+        "age_groups": [
+          "adult",
+          "older"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "本条以成人和老年为阅读范围，具体数字按正文年龄和病情限制；不直接套给儿童青少年、孕哺或特殊疾病。",
+        "safety_pin": false
+      }
+    },
+    {
+      "id": "basics-004",
+      "summary_characters": 117,
+      "source_ids": [
+        "BASICS-S08",
+        "BASICS-S09",
+        "BASICS-S18"
+      ],
+      "audience": {
+        "age_groups": [
+          "adult",
+          "older"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "本条以成人和老年为阅读范围，具体数字按正文年龄和病情限制；不直接套给儿童青少年、孕哺或特殊疾病。",
+        "safety_pin": false
+      }
+    },
+    {
+      "id": "basics-005",
+      "summary_characters": 125,
+      "source_ids": [
+        "BASICS-S11",
+        "BASICS-S12"
+      ],
+      "audience": {
+        "age_groups": [
+          "adult",
+          "older"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "本条以成人和老年为阅读范围，具体数字按正文年龄和病情限制；不直接套给儿童青少年、孕哺或特殊疾病。",
+        "safety_pin": false
+      }
+    },
+    {
+      "id": "basics-006",
+      "summary_characters": 131,
+      "source_ids": [
+        "BASICS-S13",
+        "BASICS-S14"
+      ],
+      "audience": {
+        "age_groups": [
+          "adult",
+          "older"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "本条以成人和老年为阅读范围，具体数字按正文年龄和病情限制；不直接套给儿童青少年、孕哺或特殊疾病。",
+        "safety_pin": false
+      }
+    },
+    {
+      "id": "basics-007",
+      "summary_characters": 121,
+      "source_ids": [
+        "BASICS-S10"
+      ],
+      "audience": {
+        "age_groups": [
+          "adult",
+          "older"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "本条以成人和老年为阅读范围，具体数字按正文年龄和病情限制；不直接套给儿童青少年、孕哺或特殊疾病。",
+        "safety_pin": false
+      }
+    },
+    {
+      "id": "basics-008",
+      "summary_characters": 135,
+      "source_ids": [
+        "BASICS-S15"
+      ],
+      "audience": {
+        "age_groups": [
+          "adult",
+          "older"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "本条以成人和老年为阅读范围，具体数字按正文年龄和病情限制；不直接套给儿童青少年、孕哺或特殊疾病。",
+        "safety_pin": true
+      }
+    },
+    {
+      "id": "basics-009",
+      "summary_characters": 125,
+      "source_ids": [
+        "BASICS-S16",
+        "BASICS-S17",
+        "BASICS-S19",
+        "BASICS-S20"
+      ],
+      "audience": {
+        "age_groups": [
+          "adult",
+          "older"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "本条以成人和老年为阅读范围，具体数字按正文年龄和病情限制；不直接套给儿童青少年、孕哺或特殊疾病。",
+        "safety_pin": true
+      }
+    },
+    {
+      "id": "basics-010",
+      "summary_characters": 122,
+      "source_ids": [
+        "BASICS-S18"
+      ],
+      "audience": {
+        "age_groups": [
+          "adult",
+          "older"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "本条以成人和老年为阅读范围，具体数字按正文年龄和病情限制；不直接套给儿童青少年、孕哺或特殊疾病。",
+        "safety_pin": false
+      }
+    }
+  ]
+}

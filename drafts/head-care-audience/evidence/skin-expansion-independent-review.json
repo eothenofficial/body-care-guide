@@ -1,0 +1,128 @@
+{
+  "checked_on": "2026-10-29",
+  "scope": "skin-021、022、023及9项新增来源；独立案头来源、题录与推论复核，非临床签审",
+  "clinical_review_status": "not_clinically_reviewed",
+  "overall": "未发现阻止合稿的方向性或题录错误。黄褐斑基础防护与受监督外用优先、激光难治分支与2026共识摘要一致；口周皮炎已区分自用和原处方激素；肉毒暂时表情纹目标与注射后急症分流一致。",
+  "must_change": [],
+  "precision_suggestion": [
+    {
+      "id": "SKEXP-P01",
+      "target": "skin-022.fields.plain及summary",
+      "issue": "“自行抹的氢化可的松等激素不要反复续用”略弱于原页的明确stop using，也可能让读者理解为可以把当前一管继续用完。",
+      "suggested": "可改为“未经医生指导自行抹的氢化可的松等面部激素先停用；医生开的激素先联系原开方者商量调整”，并同步summary。既有鼻喷/吸入处方不自行停的备注继续保留。",
+      "basis": "AAD perioral dermatitis原页明确无医师知情使用hydrocortisone应stop；处方则先问原开方者。",
+      "url": "https://www.aad.org/public/diseases/a-z/perioral-dermatitis",
+      "severity": "清晰度提升，当前稿已避免无差别停处方，不属阻断性安全错误"
+    }
+  ],
+  "doi_checks": [
+    {
+      "id": "SKINNEW-S04",
+      "doi": "10.1111/jdv.70066",
+      "status": "pass",
+      "authors_verified": [
+        "Sarkar R",
+        "Desai SR",
+        "Sinha S",
+        "Dogra S",
+        "Arellano-Mendoza MI",
+        "Ailawadi P",
+        "et al."
+      ],
+      "issue_verified": "J Eur Acad Dermatol Venereol. 2026;40(4):680-692",
+      "reading": "直接打开PubMed，核作者前6、正式2026年卷期页、DOI及完整摘要。先发2025-09-25与正式期分开，没把全文方案或新RCT冒充已读。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40996222/"
+    },
+    {
+      "id": "SKINNEW-S08",
+      "doi": "10.1002/14651858.CD011301.pub2",
+      "status": "pass",
+      "authors_verified": [
+        "Camargo CP",
+        "Xia J",
+        "Costa CS",
+        "Gemperli R",
+        "Tatini MDC",
+        "Bulsara MK",
+        "et al."
+      ],
+      "issue_verified": "Cochrane Database Syst Rev. 2021;7(7):CD011301",
+      "reading": "直接打开PubMed核7名作者（前6+et al.）、DOI、年卷文章号和摘要结论；短期改善、ptosis与多周期长期证据限制均对应。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34224576/"
+    }
+  ],
+  "critical_claim_checks": [
+    {
+      "entry": "skin-021",
+      "status": "pass",
+      "finding": "2026共识摘要直接写broad-spectrum photoprotection essential、regulated supervised hydroquinone triple combination、lasers reserved refractory；本文未将证据变成家庭自配三联膏。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40996222/"
+    },
+    {
+      "entry": "skin-021",
+      "status": "pass",
+      "finding": "AAD含氧化铁有色防晒、SPF30+、温和护理与遮瑕均直接可读；氨甲环酸前告知血栓史直接存在。",
+      "urls": [
+        "https://www.aad.org/public/diseases/a-z/melasma-self-care",
+        "https://www.aad.org/public/diseases/a-z/melasma-treatment"
+      ]
+    },
+    {
+      "entry": "skin-022",
+      "status": "pass_with_precision_suggestion",
+      "finding": "自用/处方分支、停药反跳、轻柔无香护理、数周至数月恢复可核；BAD按轻重讨论外用或口服。原稿没有统一指定所有人同一抗生素时长。",
+      "urls": [
+        "https://www.aad.org/public/diseases/a-z/perioral-dermatitis",
+        "https://www.skinhealthinfo.org.uk/condition/peri-oral-dermatitis/"
+      ]
+    },
+    {
+      "entry": "skin-023",
+      "status": "pass",
+      "finding": "CDC2026-04-22明确hours to weeks后模糊/重影、下垂、吞咽呼吸困难、肌无力应立即求助；稿件没有要求凑齐所有症状。正规操作非零风险与CDC一致，没有引用AAD同页“从未严重事件”的过时绝对表述。",
+      "url": "https://www.cdc.gov/botulism/prevention/botulinum-toxin-injections.html"
+    }
+  ],
+  "summary_consistency": "3条摘要均与正文条件和行动方向相符，未把诊断可能性改为确诊，未把暂时改善改为永久抗老。",
+  "mechanical_checks": [
+    {
+      "id": "skin-021",
+      "summary_length": 122,
+      "citations_match": true,
+      "unresolved": []
+    },
+    {
+      "id": "skin-022",
+      "summary_length": 127,
+      "citations_match": true,
+      "unresolved": []
+    },
+    {
+      "id": "skin-023",
+      "summary_length": 129,
+      "citations_match": true,
+      "unresolved": []
+    }
+  ],
+  "independently_opened_sources": [
+    "https://pubmed.ncbi.nlm.nih.gov/40996222/",
+    "https://pubmed.ncbi.nlm.nih.gov/34224576/",
+    "https://www.cdc.gov/botulism/prevention/botulinum-toxin-injections.html",
+    "https://www.aad.org/public/diseases/a-z/perioral-dermatitis",
+    "https://www.aad.org/public/diseases/a-z/melasma-treatment",
+    "https://www.aad.org/public/diseases/a-z/melasma-self-care",
+    "https://www.skinhealthinfo.org.uk/condition/peri-oral-dermatitis/",
+    "https://www.aad.org/public/cosmetic/wrinkles/botulinum-toxin-faqs"
+  ],
+  "date_checks": [
+    "AAD melasma treatment实际2022-02-15，与题录一致",
+    "AAD melasma self-care实际2023-09-12，与题录一致",
+    "BAD updated2023-02，2026-02是预定复审，题录没有冒称已复审",
+    "CDC botulinum safety2026-04-22，与题录一致"
+  ],
+  "limitations": [
+    "未重做2篇研究或通读全部试验，DOI核对是题录核对和相关摘要结论核对",
+    "未独立核所有监管许可与中国单品说明，正文对此保留当地核验",
+    "未修改正文或来源对象；由root决定并落实精度建议"
+  ]
+}

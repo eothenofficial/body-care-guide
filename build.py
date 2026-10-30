@@ -1,6 +1,6 @@
 """Public entry point: python build.py [--check]."""
 import sys
-from scripts.build import main
+from scripts.build_current import main
 from scripts.content_model import ContentError
 
 if __name__ == "__main__":

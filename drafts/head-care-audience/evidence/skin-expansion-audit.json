@@ -1,0 +1,16 @@
+{
+  "checked_on": "2026-10-29",
+  "entries": [
+    "skin-021",
+    "skin-022",
+    "skin-023"
+  ],
+  "sources": 9,
+  "doi_sources": 2,
+  "clinical_review_status": "not_clinically_reviewed",
+  "limits": [
+    "2篇期刊仅题录和摘要",
+    "2026共识含资助和方法限制",
+    "AAD旧页绝对安全表述被排除，安全以2026CDC为准"
+  ]
+}

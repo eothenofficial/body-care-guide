@@ -1,0 +1,38 @@
+{
+  "checked_at": "2026-10-30",
+  "scope": "新增30条整合与交叉核对；原有300条本轮迁移沿用此前逐条审校，不声称本轮重新调研全书。",
+  "reviewer": "AI整合编辑；不是临床医生审签",
+  "clinical_review_status": "not_clinically_reviewed",
+  "inputs_sha256": {
+    "sleep-entries.json": "c8af04c294439bb9e467946b7a36e9008e5f184d27998022e5943f2b6480d33c",
+    "sleep-sources.json": "44bc4d2896502c2718fc715594c07fb3040622f214b3b3219aec5cb7c7062a81",
+    "nutrition-entries.json": "a4ffb746faa54cfb19808974eecc128ccc69590b0df71f6ba2ef73d2918a6408",
+    "nutrition-sources.json": "ac94f4fa4f46a5d9cce9dd3fec1c98e4caf2025f8842821c3838c2cba7050074",
+    "activity-entries.json": "8696d63e317a4820f17b89c32a971a1ddec5306e3992e2baa77af57668bf6de3",
+    "activity-sources.json": "6f6ea9310c15faf843cce4f0861d41c65e01bd6c2d42d6dad19ccf65497a0794",
+    "energy-entries.json": "d06e86f2cf461d747f43857c4fd7aec501178ac1302049575c89b92364af15ae",
+    "energy-sources.json": "69814fb3a2eed551479060765ab32566268307563dfeb02a180ef9e35f728ee5"
+  },
+  "root_direct_reviews": [
+    "实读睡眠与饮食新增条目的标题、摘要、六字段与人群，核对定义、动作、证据及重复。运动9条与疲劳2条实读正文/证据，并由独立AI再审；发现与修复见activity-independent-review.json。",
+    "褪黑素：独立核CDC时差、NCCIH、北京监管网页及EMA Circadin当前产品资料相关原文；明确中国保健食品目录、欧洲特定缓释处方与时差参考剂量不能互换。",
+    "2026轮班指南：原刊Springer相关正文与题录支持有条件建议；没有用旧2014综述代替现行指南。2026粉红噪音试验核原刊/PubMed完整摘要与题录，未称通读全文或已核全部资助。",
+    "饮食：独立核NHS、NIDDK、WHO、NIH ODS相关原文及NICE官方索引所列低能量建议；NICE网页/PDF受限，只记录索引范围，不伪称全文。",
+    "肌酸研究剂量不写成人人处方；储量变化不等于长期表现等效；BCAA急性合成阳性不等于完整蛋白之外长期增肌优势。",
+    "咖啡因与PEM：独立阅读全文FDA相关安全指导及CDC活动后不适管理原文。400mg不是目标或个人保证；ME/CFS定义先行，PEM不凭疲劳自诊。",
+    "日光：独立核NIMH季节性抑郁与光疗原文相关段，日常见光不等于临床光疗，也不由机理推所有情绪问题获益。"
+  ],
+  "final_integration_changes": [
+    "来源以稳定DOI/URL身份合并，引用重编号；保留每项实际支持、限制、核读范围及产业资助说明。",
+    "咖啡因驾驶句补NHTSA直接来源及sleep-001稳定链接；横纹肌溶解正文末改activity-005稳定链接。",
+    "保留情绪异常必要求助，删一般心理养生展开；不把多说废话写成保养处方。",
+    "明确儿童运动急症、青少年耳机习惯与成人饮食/补剂的年龄差异；肌酸/BCAA本版成人侧重，不把成人研究泛化儿童。",
+    "空成本仍省略，不补非权威报价。"
+  ],
+  "blocking_unresolved": [],
+  "limits": [
+    "未逐个检测现售品牌和批次；不宣称全品类有效或安全。",
+    "不是临床医生审核；工程测试不能证明每项医学结论绝无错误。",
+    "沿用来源的年龄或年份不因较旧就一概判失效；核对适用性与真实更新日。"
+  ]
+}

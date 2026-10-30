@@ -1,0 +1,219 @@
+{
+  "checked_at": "2026-10-30",
+  "review_type": "整合后的读者路径、文字一致性及数据链接只读审查",
+  "reviewer": "/root/nutrition_foundation",
+  "clinical_review_status": "not_clinically_reviewed",
+  "status": "passed_with_nonblocking_editorial_suggestions",
+  "blocking_unresolved": [],
+  "input_sha256": {
+    "nutrition.json": "751543176f56a835db90261f8ad7fbad0fb56ba0e2e578e9fae0398bb26eee98",
+    "sources.json": "cb3a59d590481bd23bf0993af716305c131b564a578003562553c978177b3c7e"
+  },
+  "read_scope": {
+    "chapter": "饮食与体重",
+    "entries": 27,
+    "units": 7,
+    "entry_fields_read": [
+      "title",
+      "summary",
+      "plain",
+      "benefit",
+      "evidence",
+      "sources",
+      "notes",
+      "audience",
+      "clinical_review_status"
+    ],
+    "full_plain_evidence_notes_read_for_all_entries": true,
+    "source_scope": "核全部68个实际引用ID存在及基础元数据；结合本人先前foundation研究和management独立审的实读证据核跨条目逻辑，不把本轮称为重新审完68篇原文。",
+    "all_site_chapter_files": "只用于确认15个内部跳转的目标ID或chapter存在；未重新逐句审全站其他篇章。"
+  },
+  "reader_path_assessment": [
+    {
+      "scope": "七单元顺序",
+      "result": "急性危险信号置前；普通餐食→血糖→判断是否减重/改善线条→可选饮食方案→训练补充品→规范药物，逐步增加干预强度。导语准确描述本单元而未把药物泛化成人人必需。"
+    },
+    {
+      "scope": "旧15条与新12条的膳食数字",
+      "result": "basics-004的WHO至少400克蔬果及25克天然食物纤维，与013中国蔬菜≥300克/水果200–350克的参考口径不同且各有明确机构归属，未错误写成相等或互相替代。谷物增加以替换部分精白主食为起点，不是在原饭量外叠加。"
+    },
+    {
+      "scope": "减盐与控糖",
+      "result": "012先减少全天钠、钾盐仅适合无排钾风险成年人；013/015鼓励部分全谷杂豆替换，不鼓励为控糖彻底删主食。015给药物相关低血糖分支，并链接001；没有用少盐、纤维或一时血糖峰值保证延寿/疾病预防。"
+    },
+    {
+      "scope": "食品与消费判断",
+      "result": "014区分加工/精制/NOVA，保留可用的包装食品；011允许无糖饮料替换含糖饮料但不是追加保健品，和015优先水并不矛盾。014的标签糖和饱和脂肪为2027新强制项目，未当2026全面已强制，也未把总糖混写添加糖。"
+    },
+    {
+      "scope": "体重、体态与训练",
+      "result": "020解释中国BMI与腰围，不以秤上估算诊断；021不把去脂体重等同肌肉并说明主要18–65研究边界；022区分局部肌肉训练、整体减脂和医疗塑形；未要求正常体重者一律减肥。"
+    },
+    {
+      "scope": "饮食方案与产品",
+      "result": "002低碳、003限时、004极低能量、008代餐各处理不同决策；有共同风险提醒但没有冲突。005蛋白、006肌酸、007BCAA区分目标与结局，机制/储量/短期合成未被当成长期肌肉保证。"
+    },
+    {
+      "scope": "药物入口与细节",
+      "result": "旧009已改成是否进入处方评估及复查维持入口；017按具体中国制剂比较适应证/研究，018集中禁忌、安全、生育和停药，019为其他药与渠道。BMI普通成人肥胖界值28没有被错误套给诺和盈30/27门槛，外国FDA没有取代中国注册。"
+    },
+    {
+      "scope": "避免重复处方或越界",
+      "result": "药品不提供个人起始/加量/漏针表；017研究剂量明确不是个人加量表，018不统一规定所有药妊娠窗口或术前停一周。生活建议中遇疾病用药风险转入相应入口而非擅自调处方。023是进食安全分流，未扩成完整心理健康课程。"
+    },
+    {
+      "scope": "年龄与性别",
+      "result": "27条均为通用性别话题，标all合理；女性备孕/妊娠分支嵌于通用用药安全不构成纯女性条目错标。成人饮食/药物条目不标儿童；023适用于teen/adult/older的进食问题分流，未给teen成人减重处方。006/007仅adult；老年可见条目保留营养/肌力/用药限制。"
+    }
+  ],
+  "nonblocking_suggestions": [
+    {
+      "priority": "low",
+      "entries": [
+        "basics-010",
+        "nutrition-020",
+        "nutrition-021",
+        "nutrition-009"
+      ],
+      "finding": "basics-010仍较完整重复评估、营养、药物入口；单独阅读没有错误，但与新具体条目连读时重复感偏高。",
+      "suggestion": "后续可把basics-010收短为导览卡，直接链接020/021/009/023；保留永久ID，不必此次为此重做整合。"
+    },
+    {
+      "priority": "low",
+      "entries": [
+        "nutrition-020",
+        "nutrition-009",
+        "nutrition-017"
+      ],
+      "finding": "BMI在评估与药物入口重复解释；考虑读者可能搜索直达，重复有实际作用。",
+      "suggestion": "暂保留定义；以后若设计术语弹层，可减少连续阅读时的重复，而不牺牲首次阅读理解。"
+    },
+    {
+      "priority": "low",
+      "entries": [
+        "nutrition-012",
+        "nutrition-013"
+      ],
+      "finding": "个别notes含“本次未采用原页称量口径”等研究编辑过程信息，对普通读者帮助有限，但未误传医学结论。",
+      "suggestion": "未来可将研究取舍的操作记录完全留到source/audit，只在读者备注保留适用边界与真实不确定性；本轮不视为阻断。"
+    }
+  ],
+  "checks": {
+    "entry_count": 27,
+    "unit_count": 7,
+    "ordered_unit_members_match_entry_array": true,
+    "unit_members_unique": true,
+    "entry_unit_ids_match_membership": true,
+    "ordinals_contiguous": true,
+    "all_internal_links_resolve": true,
+    "internal_link_count": 15,
+    "all_source_ids_resolve": true,
+    "referenced_source_count": 68,
+    "all_summaries_100_to_180_chars": true,
+    "summaries_contain_no_markdown_table_or_citations": true,
+    "all_six_fields": true,
+    "all_cost_fields_empty": true,
+    "all_clinical_status_not_reviewed": true,
+    "source_minimum_metadata": true
+  },
+  "internal_links": [
+    {
+      "from_entry": "nutrition-013",
+      "kind": "entry",
+      "target": "nutrition-005",
+      "resolves": true
+    },
+    {
+      "from_entry": "nutrition-013",
+      "kind": "entry",
+      "target": "basics-004",
+      "resolves": true
+    },
+    {
+      "from_entry": "nutrition-013",
+      "kind": "entry",
+      "target": "basics-005",
+      "resolves": true
+    },
+    {
+      "from_entry": "nutrition-014",
+      "kind": "entry",
+      "target": "nutrition-012",
+      "resolves": true
+    },
+    {
+      "from_entry": "nutrition-015",
+      "kind": "entry",
+      "target": "nutrition-013",
+      "resolves": true
+    },
+    {
+      "from_entry": "nutrition-015",
+      "kind": "entry",
+      "target": "nutrition-001",
+      "resolves": true
+    },
+    {
+      "from_entry": "nutrition-016",
+      "kind": "entry",
+      "target": "nutrition-001",
+      "resolves": true
+    },
+    {
+      "from_entry": "nutrition-020",
+      "kind": "entry",
+      "target": "nutrition-023",
+      "resolves": true
+    },
+    {
+      "from_entry": "nutrition-020",
+      "kind": "entry",
+      "target": "nutrition-017",
+      "resolves": true
+    },
+    {
+      "from_entry": "nutrition-021",
+      "kind": "chapter",
+      "target": "activity",
+      "resolves": true
+    },
+    {
+      "from_entry": "nutrition-021",
+      "kind": "entry",
+      "target": "nutrition-009",
+      "resolves": true
+    },
+    {
+      "from_entry": "nutrition-009",
+      "kind": "entry",
+      "target": "nutrition-017",
+      "resolves": true
+    },
+    {
+      "from_entry": "nutrition-009",
+      "kind": "entry",
+      "target": "nutrition-018",
+      "resolves": true
+    },
+    {
+      "from_entry": "nutrition-009",
+      "kind": "entry",
+      "target": "nutrition-019",
+      "resolves": true
+    },
+    {
+      "from_entry": "nutrition-017",
+      "kind": "entry",
+      "target": "nutrition-019",
+      "resolves": true
+    }
+  ],
+  "limits": [
+    "本轮为只读整合审查，未修改冻结raw、builder或预览内容，报告为唯一新文件。",
+    "未以本人原创foundation内容完成一次自我“独立医学审稿”；专题独立复核由其他审稿者负责，本报告只核整合逻辑。",
+    "未在浏览器实际点击、滚动或操作年龄性别过滤器；本轮只检查数据标签与目标解析，不将静态检查写成UI验收。",
+    "未重取所有药品最新说明书、重算试验数据、审定全部中国药物清单或为读者开处方；药物专题证据与说明书核验以其独立审报告为准。",
+    "未核所有68条外链当前网络可达，source ID存在不等于每个站点此刻可访问；引用图完整性与外部可达性分开记录。",
+    "没有持证医生签审，不改变not_clinically_reviewed状态。"
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "status": "built_locally_not_published",
+  "part": "master",
+  "content_version": "2026.10.29-whole-body-master-300",
+  "entries": 300,
+  "sources": 516,
+  "doi_sources": 63,
+  "empty_cost_sections_omitted": 297,
+  "chapters": {
+    "hair": 23,
+    "eyes": 32,
+    "nose": 8,
+    "ears": 11,
+    "oral": 20,
+    "lips": 9,
+    "skin": 23,
+    "neck": 14,
+    "chest": 12,
+    "hands": 12,
+    "abdomen": 7,
+    "private": 56,
+    "anal": 12,
+    "legs": 12,
+    "feet": 14,
+    "bodyskin": 25,
+    "basics": 10
+  },
+  "canonical_fingerprints": {
+    "content\\book.json": "3e99b5edbf73ecbec09d1d0677e02fdf9910b8787e2c26c5ec70034c4aba7055",
+    "content\\chapters\\ears.json": "dca2accffe44caa11d618e3bf93aae972cf867de16d57b3851b2608b00158958",
+    "content\\chapters\\eyes.json": "e4801bfb0136344f497ea316c5468ab79cea4dc7e2374a66206bd5adf9e3876a",
+    "content\\chapters\\hair.json": "b8bca9c4d059a9e396a65e827a3a14c3b81c2f0d9efd44ccd38fd90494c510e5",
+    "content\\chapters\\lips.json": "d3010b43dc41ba314b2977de55f331ac88634a6c7f42be474024a27790f2bd18",
+    "content\\chapters\\nose.json": "42d36ba9970cf5ac07221a937ba8c9583e415da2b573869dae78f347504c751a",
+    "content\\chapters\\oral.json": "6c05833dec3969cccee33add7b4ba1dccb76f8ab7cd91e73d06d35307f9fabba",
+    "content\\chapters\\skin.json": "051d695a868610e4eac262568f00ae221ce65ebc3241be73289245618df17f10",
+    "content\\config.json": "94feabd0de95d6c516cab818ca74f3a2ad5247062af3a6bcdb1fa5287c9613c8",
+    "content\\id-registry.json": "c61789439fb5c12994ba8e41c16751dcde0932925361eedac0bf4859605cf741",
+    "content\\review-log.json": "2067d6bfda24e40ca5dedf8861342317ef9bd808ad5d9807fec41d4d894921c7",
+    "content\\sources.json": "651445a95145943ec4f54c5081c7e012613799c943548f2a62a3a8ba759615ab"
+  },
+  "source_collision_review": [
+    {
+      "id": "src-4bc578cd41e4",
+      "selected": "American Academy of Dermatology Association. How to shave [Internet]. [cited 2026 Oct 29]. Available from: https://www.aad.org/public/everyday-care/skin-care-basics/hair/how-to-shave",
+      "alternate": "American Academy of Dermatology Association. Hair removal: how to shave [Internet]. [cited 2026 Oct 29]. Available from: https://www.aad.org/public/everyday-care/skin-care-basics/hair/how-to-shave"
+    },
+    {
+      "id": "src-0e6338d86c66",
+      "selected": "US Food and Drug Administration. The Facts on Tampons and Tampon Safety [Internet]. [cited 2026 Oct 29]. Available from: https://www.fda.gov/consumers/consumer-updates/facts-tampons-and-tampon-safety",
+      "alternate": "U.S. Food and Drug Administration. The facts on tampons and tampon safety [Internet]. [cited 2026 Oct 29]. Available from: https://www.fda.gov/consumers/consumer-updates/facts-tampons-and-tampon-safety"
+    },
+    {
+      "id": "src-c69c5b50ab76",
+      "selected": "US Food and Drug Administration. Menstrual cups [Internet]. [cited 2026 Oct 29]. Available from: https://www.fda.gov/medical-devices/menstrual-product-options-facts-and-safe-use/menstrual-cups",
+      "alternate": "U.S. Food and Drug Administration. Menstrual cups [Internet]. [cited 2026 Oct 29]. Available from: https://www.fda.gov/medical-devices/menstrual-product-options-facts-and-safe-use/menstrual-cups"
+    },
+    {
+      "id": "src-0240beb37f55",
+      "selected": "National Health Service. Urinary tract infections (UTIs) [Internet]. 2025 Jul 11. [cited 2026 Oct 29]. Available from: https://www.nhs.uk/conditions/urinary-tract-infections-utis/",
+      "alternate": "National Health Service. Urinary tract infections (UTIs) [Internet]. [cited 2026 Oct 29]. Available from: https://www.nhs.uk/conditions/urinary-tract-infections-utis/"
+    },
+    {
+      "id": "src-876bce1c9bbf",
+      "selected": "American Academy of Dermatology Association. Hyperhidrosis: diagnosis and treatment [Internet]. 2024 Jul 16. [cited 2026 Oct 29]. Available from: https://www.aad.org/public/diseases/a-z/hyperhidrosis-treatment",
+      "alternate": "American Academy of Dermatology Association. Hyperhidrosis: Diagnosis and treatment [Internet]. 2024 Jul 16. [cited 2026 Oct 29]. Available from: https://www.aad.org/public/diseases/a-z/hyperhidrosis-treatment"
+    },
+    {
+      "id": "src-a813f43cc790",
+      "selected": "American Academy of Dermatology Association. Dermatologists' top tips for relieving dry skin [Internet]. 2026 Jan 2. [cited 2026 Oct 29]. Available from: https://www.aad.org/public/everyday-care/skin-care-basics/dry/dermatologists-tips-relieve-dry-skin",
+      "alternate": "American Academy of Dermatology Association. Dermatologists’ top tips for relieving dry skin [Internet]. 2026 Jan 2. [cited 2026 Oct 29]. Available from: https://www.aad.org/public/everyday-care/skin-care-basics/dry/dermatologists-tips-relieve-dry-skin"
+    },
+    {
+      "id": "src-4bc578cd41e4",
+      "selected": "American Academy of Dermatology Association. How to shave [Internet]. [cited 2026 Oct 29]. Available from: https://www.aad.org/public/everyday-care/skin-care-basics/hair/how-to-shave",
+      "alternate": "American Academy of Dermatology Association. Hair removal: How to shave [Internet]. [cited 2026 Oct 29]. Available from: https://www.aad.org/public/everyday-care/skin-care-basics/hair/how-to-shave"
+    },
+    {
+      "id": "src-ae70be0aa294",
+      "selected": "American Academy of Dermatology Association. Keloid scars: self-care [Internet]. 2023 Dec 5. [cited 2026 Oct 29]. Available from: https://www.aad.org/public/diseases/a-z/keloids-self-care",
+      "alternate": "American Academy of Dermatology Association. Keloid scars: Self-care [Internet]. 2023 Dec 5. [cited 2026 Oct 29]. Available from: https://www.aad.org/public/diseases/a-z/keloids-self-care"
+    }
+  ],
+  "clinical_review_status": "not_clinically_reviewed",
+  "output": ".\\.draft-preview\\whole-body\\master\\dist"
+}

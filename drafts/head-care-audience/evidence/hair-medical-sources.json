@@ -1,0 +1,282 @@
+[
+  {
+    "id": "HAIRMED-S01",
+    "citation": "American Academy of Dermatology Association. How to treat dandruff [Internet]. [cited 2026 Oct 29]. Available from: https://www.aad.org/public/everyday-care/hair-scalp-care/scalp/treat-dandruff",
+    "url": "https://www.aad.org/public/everyday-care/hair-scalp-care/scalp/treat-dandruff",
+    "type": "专业机构原始患者或药物指导",
+    "support": "头屑起步选择对应去屑成分、作用部位与按标签停留，考虑头皮和发质。",
+    "limitations": "不把美国在售成分与剂型当作中国许可清单；不为所有制剂指定同一个停留时间。",
+    "reading_depth": "直接打开相关正文，审读成分、使用、发质与未改善段；不取视频内容。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "HAIRMED-S02",
+    "citation": "British Association of Dermatologists. Seborrhoeic dermatitis [Internet]. 2023 Jan [cited 2026 Oct 29]. Available from: https://www.bad.org.uk/pils/seborrhoeic-dermatitis",
+    "url": "https://www.bad.org.uk/pils/seborrhoeic-dermatitis",
+    "type": "专业机构原始患者或药物指导",
+    "support": "脂溢性皮炎可累及头皮等皮脂区、抗真菌去屑剂与维护，必要时短程抗炎。",
+    "limitations": "患者指导不是头屑各成分的头对头试验；不搬婴儿用法或统一长期激素方案。",
+    "reading_depth": "直接审读疾病定义、病因、头皮表现与成人治疗部分；对应PDF标Jan2023。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "HAIRMED-S03",
+    "citation": "National Health Service. How and when to use ketoconazole [Internet]. [cited 2026 Oct 29]. Available from: https://www.nhs.uk/medicines/ketoconazole/how-and-when-to-use-ketoconazole/",
+    "url": "https://www.nhs.uk/medicines/ketoconazole/how-and-when-to-use-ketoconazole/",
+    "type": "专业机构原始患者或药物指导",
+    "support": "酮康唑去屑与脂溢性皮炎洗剂的起始疗程通常2至4周，之后按方案维护；不能过量使用。",
+    "limitations": "只用于解释该药类存在起始/维护阶段，不把英国频率、浓度或品牌自动当中国处方。",
+    "reading_depth": "直接打开整页，核读dandruff、seborrhoeic dermatitis、如何使用及过量刺激段。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "HAIRMED-S04",
+    "citation": "American Academy of Dermatology Association. Hair loss: Diagnosis and treatment [Internet]. [cited 2026 Oct 29]. Available from: https://www.aad.org/public/diseases/hair-loss/treatment/diagnosis-treat",
+    "url": "https://www.aad.org/public/diseases/hair-loss/treatment/diagnosis-treat",
+    "type": "专业机构原始患者或药物指导",
+    "support": "病史与头皮检查决定是否抽血或活检；部分自然恢复，诊断后选治疗；补剂先看缺乏。",
+    "limitations": "不是所有患者都需要一套抽血或活检；来源后续列治疗不能据此称所有方案同等有效。",
+    "reading_depth": "直接打开，审读诊断步骤、何时可自然恢复及营养补剂段；未将页面所引研究当作均已阅读全文。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "HAIRMED-S05",
+    "citation": "American Academy of Dermatology Association. Do you have hair loss or hair shedding? [Internet]. [cited 2026 Oct 29]. Available from: https://www.aad.org/public/diseases/hair-loss/insider/shedding",
+    "url": "https://www.aad.org/public/diseases/hair-loss/insider/shedding",
+    "type": "专业机构原始患者或药物指导",
+    "support": "发热、手术、分娩或明显体重/压力变化之后可发生弥漫性掉发；掉发和持续毛量变少的区别。",
+    "limitations": "不用每日根数作可靠自诊阈值；该页对hair loss/anagen effluvium的泛化不照搬为所有脱发正式分类。",
+    "reading_depth": "直接审读stressors、延迟数月出现与恢复、持续压力及分流段。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "HAIRMED-S06",
+    "citation": "American Academy of Dermatology Association. Hair loss: Signs and symptoms [Internet]. [cited 2026 Oct 29]. Available from: https://www.aad.org/public/diseases/hair-loss/insider/begin",
+    "url": "https://www.aad.org/public/diseases/hair-loss/insider/begin",
+    "type": "专业机构原始患者或药物指导",
+    "support": "突然斑片、毛量下降、脱发伴灼热疼痛脓液等需要明确病因；表现可来自不同疾病。",
+    "limitations": "仅提供异常线索，不凭照片区分斑秃、真菌或瘢痕性疾病，也不保证无痛就是安全。",
+    "reading_depth": "直接打开原页，重点读early signs、sudden hair loss和symptoms伴随表现段。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "HAIRMED-S07",
+    "citation": "British Association of Dermatologists. Hair loss male pattern (androgenetic alopecia) [Internet]. 2024 Jun [cited 2026 Oct 29]. Available from: https://www.bad.org.uk/pils/hair-loss-male-pattern-androgenetic-alopecia",
+    "url": "https://www.bad.org.uk/pils/hair-loss-male-pattern-androgenetic-alopecia",
+    "type": "专业机构原始患者或药物指导",
+    "support": "雄激素性脱发的逐渐细软化与模式；外用米诺地尔需要持续使用和时间，初期可能掉发。",
+    "limitations": "经典患者指导；安全信息须结合2026监管更新，本文不采用旧页约2%的统一风险数字。",
+    "reading_depth": "直接审读定义、DHT、表现、诊断、米诺地尔和非那雄胺段。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "HAIRMED-S08",
+    "citation": "American Academy of Dermatology Association. Thinning hair and hair loss: Could it be female pattern hair loss? [Internet]. [cited 2026 Oct 29]. Available from: https://www.aad.org/public/diseases/hair-loss/types/female-pattern",
+    "url": "https://www.aad.org/public/diseases/hair-loss/types/female-pattern",
+    "type": "专业机构原始患者或药物指导",
+    "support": "女性分缝逐渐变宽的诊断路径；米诺地尔初期掉发、耐受、妊娠备孕哺乳避免及持续使用。",
+    "limitations": "美国批准信息不直接当中国用药权限；未把其他处方方案列表转为女性自行用药。",
+    "reading_depth": "直接审读鉴别、minoxidil使用与孕期哺乳段，不读取评论或把参考文献视为阅读全文。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "HAIRMED-S09",
+    "citation": "van Zuuren EJ, Fedorowicz Z, Schoones J. Interventions for female pattern hair loss. Cochrane Database Syst Rev. 2016;2016(5):CD007628. doi:10.1002/14651858.CD007628.pub4.",
+    "url": "https://www.cochrane.org/evidence/CD007628_treatments-female-pattern-hair-loss",
+    "type": "系统综述",
+    "support": "女性型脱发的外用米诺地尔较安慰剂有获益，证据确定性多为中低；不同浓度不能自动排强弱。",
+    "limitations": "检索截至2015，不是2026市场现状综述；不把女性结果当男性效果大小，也不把所有浓度剂型等效。",
+    "reading_depth": "直接阅读Cochrane通俗摘要和完整研究摘要，PubMed27225981核3作者、年卷文号和DOI；未重读全文或复算统计。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "HAIRMED-S10",
+    "citation": "American Academy of Dermatology Association. What is male pattern hair loss, and can it be treated? [Internet]. [cited 2026 Oct 29]. Available from: https://www.aad.org/public/diseases/hair-loss/treatment/male-pattern-hair-loss-treatment",
+    "url": "https://www.aad.org/public/diseases/hair-loss/treatment/male-pattern-hair-loss-treatment",
+    "type": "专业机构原始患者或药物指导",
+    "support": "男性逐渐型脱发可选外用米诺地尔或处方非那雄胺，需持续维护；脱发治疗不是强制。",
+    "limitations": "不用其旧80–90%概括个人成功率；最新精神及性不良反应另引监管通报，不照抄网页对FDA cleared的泛化安全说法。",
+    "reading_depth": "直接打开，审读逐渐型、两类药物及持续使用段。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "HAIRMED-S11",
+    "citation": "Kaufman KD, Olsen EA, Whiting D, Savin R, DeVillez R, Bergfeld W, et al. Finasteride in the treatment of men with androgenetic alopecia. Finasteride Male Pattern Hair Loss Study Group. J Am Acad Dermatol. 1998;39(4 Pt 1):578-589. doi:10.1016/S0190-9622(98)70007-6.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/9777765/",
+    "type": "随机临床研究",
+    "support": "经典随机研究支持成年男性雄激素性脱发的口服非那雄胺疗效方向。",
+    "limitations": "有厂商作者和资助背景；旧试验不能评估后来识别的罕见或持续不良反应，也不代表女性或所有脱发。",
+    "reading_depth": "直接核PubMed前6作者及正式卷期页、DOI，读两项1年试验与延长阶段摘要；未获取全部原始数据。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "HAIRMED-S12",
+    "citation": "Medicines and Healthcare products Regulatory Agency. Finasteride and dutasteride – updated safety warnings for psychiatric side effects and sexual dysfunction [Internet]. 2026 May 11 [cited 2026 Oct 29]. Available from: https://www.gov.uk/drug-safety-update/finasteride-and-dutasteride-updated-safety-warnings-for-psychiatric-side-effects-and-sexual-dysfunction",
+    "url": "https://www.gov.uk/drug-safety-update/finasteride-and-dutasteride-updated-safety-warnings-for-psychiatric-side-effects-and-sexual-dysfunction",
+    "type": "专业机构原始患者或药物指导",
+    "support": "2026最新英国安全提醒：使用脱发剂量非那雄胺发生抑郁/自杀想法应停药求助；性功能问题及时联系，可能停药后持续。",
+    "limitations": "英国药物安全建议，不等同中国标签更新；自发报告不能算发生率，不将不同剂量和度他雄胺边界混为一谈。",
+    "reading_depth": "直接打开完整安全通报，核读医护/患者行动、英国适应证及2026-05-11日期。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "HAIRMED-S13",
+    "citation": "European Medicines Agency. Measures to minimise risk of suicidal thoughts with finasteride and dutasteride medicines [Internet]. 2025 Jun 20 [cited 2026 Oct 29]. Available from: https://www.ema.europa.eu/en/documents/referral/finasteride-dutasteride-containing-medicinal-products-article-31-referral-measures-minimise-risk-suicidal-thoughts-finasteride-dutasteride-medicines_en.pdf-0",
+    "url": "https://www.ema.europa.eu/en/documents/referral/finasteride-dutasteride-containing-medicinal-products-article-31-referral-measures-minimise-risk-suicidal-thoughts-finasteride-dutasteride-medicines_en.pdf-0",
+    "type": "专业机构原始患者或药物指导",
+    "support": "2025复核确认非那雄胺片自杀想法风险、频率未知；情绪和性功能症状的处理，不宣布所有药物弊大于利。",
+    "limitations": "不能从报告数算个人风险；EMA正规皮肤喷剂结果与FDA美国复配产品警示对象不同，不当作互相推翻。",
+    "reading_depth": "直接打开4页原PDF，重点读第1至3页结论、患者与医护信息；HTML入口429后未绕过。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "HAIRMED-S14",
+    "citation": "National Library of Medicine. Finasteride: MedlinePlus drug information [Internet]. 2026 Jun 15 [cited 2026 Oct 29]. Available from: https://medlineplus.gov/druginfo/meds/a698016.html",
+    "url": "https://medlineplus.gov/druginfo/meds/a698016.html",
+    "type": "专业机构原始患者或药物指导",
+    "support": "非那雄胺男性适用、持续使用、孕妇避免接触破损药片、性功能与精神症状注意。",
+    "limitations": "美国患者用药说明，不作中国处方属性证明；不将旧通用继续用药句覆盖2026安全通报停药分支。",
+    "reading_depth": "直接打开全短页，核读药物用途、注意事项、妊娠破片和不良反应；Last Revised2026-06-15。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "HAIRMED-S15",
+    "citation": "Walgreen Company; DailyMed, National Library of Medicine. Minoxidil (for men): minoxidil aerosol, foam, drug label [Internet]. 2022 Oct 10 [cited 2026 Oct 29]. Available from: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=39526f7d-5e39-4e2e-8689-94b76ddbc462",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=39526f7d-5e39-4e2e-8689-94b76ddbc462",
+    "type": "专业机构原始患者或药物指导",
+    "support": "具体外用米诺地尔标签警示：避开红痛破损头皮；不能加量求快；胸痛心悸晕眩水肿应停并求助。",
+    "limitations": "政府库所载制造商标签，不是政府独立疗效试验；2022标签只作稳定安全动作且与学会交叉核，不套用其限定部位与全部剂量到所有国内产品。",
+    "reading_depth": "直接打开HTML并读drug facts、warnings、stop use与directions；FDA2026综合标签PDF约100MB工具无法读取，因此未冒充已阅读全文。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "HAIRMED-S16",
+    "citation": "Penha MA, Miot HA, Kasprzak M, Müller Ramos P. Oral minoxidil vs topical minoxidil for male androgenetic alopecia: a randomized clinical trial. JAMA Dermatol. 2024;160(6):600-605. doi:10.1001/jamadermatol.2024.0284.",
+    "url": "https://jamanetwork.com/journals/jamadermatology/fullarticle/2817326",
+    "type": "随机临床研究",
+    "support": "90名成年男性、24周对比未显示口服方案在主要结局优于外用；口服可见多毛、头痛等。",
+    "limitations": "单中心且68人完成，不能由未显示优效推出已经严格证实等效；不能照搬剂量为自用处方。",
+    "reading_depth": "直接阅读原刊题录、关键点、摘要、入组和不良反应表，4作者及正式年卷页和DOI已核；未逐表复算。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "HAIRMED-S17",
+    "citation": "Akiska YM, Mirmirani P, Roseborough I, Mathes E, Bhutani T, Ambrosy A, et al. Low-dose oral minoxidil initiation for patients with hair loss: an international modified Delphi consensus statement. JAMA Dermatol. 2025;161(1):87-95. doi:10.1001/jamadermatol.2024.4593.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/39565602/",
+    "type": "国际Delphi专家共识",
+    "support": "口服低剂量米诺地尔的超说明书使用需选择人群、基线评估和监测；长期及比较证据仍需补充。",
+    "limitations": "本稿仅完整摘要，不能据此提供逐项禁忌清单、处方剂量或声称所有人疗效相同。",
+    "reading_depth": "直接核PubMed前6作者、正式卷页、DOI和完整摘要；原刊摘要入口另核题录，未称完整正文已读。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "HAIRMED-S18",
+    "citation": "National Institutes of Health, Office of Dietary Supplements. Biotin: fact sheet for consumers [Internet]. [cited 2026 Oct 29]. Available from: https://ods.od.nih.gov/factsheets/biotin-consumer/",
+    "url": "https://ods.od.nih.gov/factsheets/biotin-consumer/",
+    "type": "专业机构原始患者或药物指导",
+    "support": "健康毛发用生物素补充剂的证据很少；高摄入可干扰部分化验。",
+    "limitations": "缺乏者纠正营养与健康者额外生发是不同问题，不据此断定所有营养品无效。",
+    "reading_depth": "直接打开完整消费者短页，核读hair/nail/skin health、化验干扰及互动提醒；不猜更新日。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "HAIRMED-S19",
+    "citation": "US Food and Drug Administration. Biotin interference with troponin lab tests – assays subject to biotin interference [Internet]. [cited 2026 Oct 29]. Available from: https://www.fda.gov/medical-devices/in-vitro-diagnostics/biotin-interference-troponin-lab-tests-assays-subject-biotin-interference",
+    "url": "https://www.fda.gov/medical-devices/in-vitro-diagnostics/biotin-interference-troponin-lab-tests-assays-subject-biotin-interference",
+    "type": "专业机构原始患者或药物指导",
+    "support": "生物素可能干扰部分肌钙蛋白检测；检查前需告知补剂使用。",
+    "limitations": "不同检验方法敏感性不同，不能规定所有人统一停几天或据补剂自诊心脏问题。",
+    "reading_depth": "直接打开原安全说明，审读实验室干扰及部分检测已改进的条件。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "HAIRMED-S20",
+    "citation": "Donnelly C, Minty I, Dsouza A, Wong YY, Mukhopadhyay I, Nagarajan V, et al. The role of platelet-rich plasma in androgenetic alopecia: a systematic review. J Cosmet Dermatol. 2024;23(5):1551-1559. doi:10.1111/jocd.16185.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/38284294/",
+    "type": "系统综述",
+    "support": "PRP用于男性雄激素性脱发显示部分密度获益信号，研究质量和异质性限制推论。",
+    "limitations": "8随机试验加1队列291人，未能据此给所有注射套餐或女性患者统一有效率；未读全文。",
+    "reading_depth": "直接核PubMed前6作者、卷期页及DOI，完整摘要包括偏倚和高异质性限制已读。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "HAIRMED-S21",
+    "citation": "Perez SM, Vattigunta M, Kelly C, Eber A. Low-level laser and LED therapy in alopecia: a systematic review and meta-analysis. Dermatol Surg. 2025;51(2):179-183. doi:10.1097/DSS.0000000000004442.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/39404126/",
+    "type": "系统综述与荟萃分析",
+    "support": "低能量光疗对雄激素性脱发的毛密度有获益信号，其他脱发资料不足。",
+    "limitations": "2024先发2025正式刊期；研究异质性高，装置与协议不同，标准化效应量不翻成每人多长百分之几，未读全文。",
+    "reading_depth": "直接核PubMed4作者、正式年卷页和DOI，完整摘要已读；未独立核每台设备原试验。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "HAIRMED-S22",
+    "citation": "American Academy of Dermatology Association. Hairstyles that pull can lead to hair loss [Internet]. [cited 2026 Oct 29]. Available from: https://www.aad.org/public/diseases/hair-loss/causes/hairstyles?pp=1",
+    "url": "https://www.aad.org/public/diseases/hair-loss/causes/hairstyles?pp=1",
+    "type": "专业机构原始患者或药物指导",
+    "support": "持续紧扎、接发牵拉可损伤毛囊，疼痛提示需要松开；持续异常需检查。",
+    "limitations": "护理指导不是所有帽子或所有扎发都会脱发的证据，不套用具体族群发型频率为中国统一规则。",
+    "reading_depth": "直接打开，审读牵拉定义、紧发型、松开/改变习惯与危险表现段。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "HAIRMED-S23",
+    "citation": "American Academy of Dermatology Association. A hair transplant can give you permanent, natural-looking results [Internet]. [cited 2026 Oct 29]. Available from: https://www.aad.org/public/diseases/hair-loss/treatment/transplant",
+    "url": "https://www.aad.org/public/diseases/hair-loss/treatment/transplant",
+    "type": "专业机构原始患者或药物指导",
+    "support": "植发重分配供区健康毛发；需足够供发与适合受区，年轻进展者可能先药物；术后原有发仍可进展。",
+    "limitations": "标题中的permanent不当人人永久止脱保证，不给统一成活率；不复制其看不出来等审美承诺。",
+    "reading_depth": "直接阅读原页候选条件、手术原理、恢复和继续用药段；未采用费用或统一手术时长。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "HAIRMED-S24",
+    "citation": "US Food and Drug Administration. FDA alerts health care providers, compounders and consumers of potential risks associated with compounded topical finasteride products [Internet]. [cited 2026 Oct 29]. Available from: https://www.fda.gov/drugs/human-drug-compounding/fda-alerts-health-care-providers-compounders-and-consumers-potential-risks-associated-compounded",
+    "url": "https://www.fda.gov/drugs/human-drug-compounding/fda-alerts-health-care-providers-compounders-and-consumers-potential-risks-associated-compounded",
+    "type": "专业机构原始患者或药物指导",
+    "support": "美国复配外用非那雄胺可能皮肤吸收入血及转移暴露，不能承诺局部就零全身不良反应。",
+    "limitations": "警示对象是美国复配产品，不等同宣布全球所有外用成品违法或等风险；不以32例推发生率，也不抹去EMA正规喷剂评估差异。",
+    "reading_depth": "直接打开原页review、conclusion和建议，审读吸收、转移暴露和监管范围；未猜未显示的发布日期。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "HAIRMED-S25",
+    "citation": "National Health Service. Ringworm [Internet]. 2023 Aug 3 [cited 2026 Oct 29]. Available from: https://www.nhs.uk/conditions/ringworm/",
+    "url": "https://www.nhs.uk/conditions/ringworm/",
+    "type": "专业机构原始患者或药物指导",
+    "support": "头皮真菌感染可伴斑片掉发，通常需处方抗真菌片加洗剂，避免共用毛巾梳具。",
+    "limitations": "本页实际审阅2023，过计划复审日不等于已复审；只取稳定症状与头皮感染处置，不搬儿童返校规则。",
+    "reading_depth": "直接打开完整短页，核读scalp、GP条件与传播预防，核实际2023-08-03日期。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "HAIRMED-S26",
+    "citation": "National Library of Medicine. Minoxidil: MedlinePlus drug information [Internet]. 2018 Jan 15 [cited 2026 Oct 29]. Available from: https://medlineplus.gov/druginfo/meds/a682608.html",
+    "url": "https://medlineplus.gov/druginfo/meds/a682608.html",
+    "type": "公共机构原始药物安全指导",
+    "support": "口服米诺地尔原本用于高血压，胸痛、心悸、呼吸困难、水肿等需要及时求助。",
+    "limitations": "此页主要为降压适应证，不把其剂量、监测频率或发生率套到低剂量脱发方案；只补稳定药物安全提醒，低剂量选择另看2025共识与2024RCT。",
+    "reading_depth": "直接打开全页，审读用途、心脏警示及严重不良反应；核实际2018修订日，不把2026版权当更新。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "HAIRMED-S27",
+    "citation": "British Association of Dermatologists. Traction alopecia [Internet]. 2019 Feb [cited 2026 Oct 29]. Available from: https://cdn.bad.org.uk/uploads/2021/12/29200250/Traction-Alopecia-February-2019-Lay-reviewed-February-2019-1.pdf",
+    "url": "https://cdn.bad.org.uk/uploads/2021/12/29200250/Traction-Alopecia-February-2019-Lay-reviewed-February-2019-1.pdf",
+    "type": "专业学会患者指导",
+    "support": "牵拉损伤随阶段恢复不同、长期可永久；与拔毛冲动不同，形态及停止牵拉。",
+    "limitations": "旧患者说明仅用于稳定定义与护理，不采用其旧药物剂量、价格或区域可得性。",
+    "reading_depth": "直接打开5页PDF，重点读1至3页定义、表现、诊断与停牵拉；PDF实际产2019、预计2022复审不是已复审。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "HAIRMED-S28",
+    "citation": "National Health Service. Hair transplant [Internet]. 2023 Sep 29 [cited 2026 Oct 29]. Available from: https://www.nhs.uk/tests-and-treatments/cosmetic-procedures/cosmetic-surgery/hair-transplant/",
+    "url": "https://www.nhs.uk/tests-and-treatments/cosmetic-procedures/cosmetic-surgery/hair-transplant/",
+    "type": "公共医疗机构患者指导",
+    "support": "供发移植方式、瘢痕和感染等风险，原有发仍可变稀以及需问清随访处理。",
+    "limitations": "不使用英国收费区间、执业注册规则或统一恢复表来代表中国情况；实际2023审阅，未将计划2026复审当作完成。",
+    "reading_depth": "直接打开全页，审读适用、咨询、FUT/FUE、并发症及继续变稀；明确跳过收费段。",
+    "content_checked_at": "2026-10-29"
+  }
+]

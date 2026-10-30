@@ -1,0 +1,24 @@
+[
+  {
+    "id": "LIFE-ROOT-S01",
+    "citation": "US Food and Drug Administration. Spilling the beans: how much caffeine is too much? [Internet]. [cited 2026 Oct 30]. Available from: https://www.fda.gov/consumers/consumer-updates/spilling-beans-how-much-caffeine-too-much",
+    "url": "https://www.fda.gov/consumers/consumer-updates/spilling-beans-how-much-caffeine-too-much",
+    "type": "监管机构消费安全指导",
+    "support": "所有来源咖啡因合计、产品与个体差异；400mg只是多数成人的参考而非目标；儿童青少年不使用能量饮料，孕哺与用药需单独核对；高浓缩咖啡因风险。",
+    "limitations": "美国标签法规不等于中国法律。参考量不保证个人无症状，咖啡和饮料毫升/杯数不能固定换算剂量；未用该页单次中毒数字给家庭自配剂量。",
+    "reading_depth": "已打开原页，完整核读成人参考量、未成年、来源/标签、低咖、能量饮料、高浓缩产品及过量表现；页面未展示可靠更新日，引用只列访问日。",
+    "content_checked_at": "2026-10-30",
+    "funding_note": "监管患者教育；未把机构名称当单个饮料的疗效证明。"
+  },
+  {
+    "id": "LIFE-ROOT-S02",
+    "citation": "Centers for Disease Control and Prevention. Manage ME/CFS [Internet]. 2024 May 10. [cited 2026 Oct 30]. Available from: https://www.cdc.gov/me-cfs/management/index.html",
+    "url": "https://www.cdc.gov/me-cfs/management/index.html",
+    "type": "公共卫生机构患者与照护指导",
+    "support": "活动后不适可在12–48小时后加重并持续多日，日记与按耐受分配活动休息可帮助识别范围；ME/CFS不能套健康人的强有氧训练建议。",
+    "limitations": "仅提供识别与就医前减轻反复加重的原则，不能凭疲劳确诊ME/CFS；不把pacing写成治愈，不给所有疲劳者固定活动上限或要求长期卧床。",
+    "reading_depth": "已打开原页，核读PEM与活动管理全部段落、睡眠和诊断边界；2024-05-10为页内日期，资源卡片2024-05-13不作为该页更新日。未采用其他药物及补盐操作。",
+    "content_checked_at": "2026-10-30",
+    "funding_note": "机构临床教育，非不同运动疗法的直接随机比较。"
+  }
+]

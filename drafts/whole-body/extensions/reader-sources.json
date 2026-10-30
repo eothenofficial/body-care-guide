@@ -1,0 +1,146 @@
+[
+  {
+    "id": "READER-S01",
+    "citation": "Centers for Disease Control and Prevention. About bacterial vaginosis (BV) [Internet]. 2023 Dec 11. [cited 2026 Oct 29]. Available from: https://www.cdc.gov/bacterial-vaginosis/about/",
+    "url": "https://www.cdc.gov/bacterial-vaginosis/about/",
+    "type": "监管、公共卫生或专业学会原始指导",
+    "support": "BV为菌群失衡，症状、处方抗菌治疗和不灌洗。",
+    "limitations": "旧公众页不承担2025年后伴侣治疗推荐；该问题单独采用新试验并保留边界。",
+    "reading_depth": "实际读CDC原页定义、症状及治疗；没有借旧页覆盖后续新研究。",
+    "content_checked_at": "2026-10-29",
+    "funding_disclosure": "机构指导；本轮未对其引用的全部试验另作资助审查，机构名称不替代证据质量。"
+  },
+  {
+    "id": "READER-S02",
+    "citation": "Vodstrcil LA, Plummer EL, Fairley CK, Hocking JS, Law MG, Petoumenos K, et al. Male-partner treatment to prevent recurrence of bacterial vaginosis. N Engl J Med. 2025;392(10):947–957. doi:10.1056/NEJMoa2405404.",
+    "doi": "10.1056/NEJMoa2405404",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40043236/",
+    "type": "原始人体随机试验",
+    "support": "特定稳定异性伴侣中，女性治疗加男伴口服与局部联合治疗，12周BV复发低于只治女性。",
+    "limitations": "开放试验、提前终止、特定伴侣与联合方案、短随访；未推广到所有阴道炎/所有伴侣或自行分药。",
+    "reading_depth": "实际核PubMed完整结构化摘要、前六作者与正式题录；未取得NEJM付费全文，也未完成所有后续研究系统综述。",
+    "funding_disclosure": "摘要列澳大利亚NHMRC资助及StepUp注册；未逐条核作者全部利益申报。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "READER-S03",
+    "citation": "Centers for Disease Control and Prevention. Trichomoniasis: STI treatment guidelines [Internet]. 2021 Jul 22. [cited 2026 Oct 29]. Available from: https://www.cdc.gov/std/treatment-guidelines/trichomoniasis.htm",
+    "url": "https://www.cdc.gov/std/treatment-guidelines/trichomoniasis.htm",
+    "type": "监管、公共卫生或专业学会原始指导",
+    "support": "滴虫感染检测、有效抗微生物药类别、同步伴侣治疗、疗程后症状消退前避免性接触及复查。",
+    "limitations": "美国2021指导，不搬处方剂量与伴侣代处方法规；并未逐篇重读所有引用试验。",
+    "reading_depth": "实际读原页诊断、治疗、复查及Management of Sex Partners相关段。",
+    "content_checked_at": "2026-10-29",
+    "funding_disclosure": "机构指导；本轮未对其引用的全部试验另作资助审查，机构名称不替代证据质量。"
+  },
+  {
+    "id": "READER-S04",
+    "citation": "National Health Service. Urethritis [Internet]. 2023 May 10. [cited 2026 Oct 29]. Available from: https://www.nhs.uk/conditions/urethritis/",
+    "url": "https://www.nhs.uk/conditions/urethritis/",
+    "type": "监管、公共卫生或专业学会原始指导",
+    "support": "尿道灼痛与异常分泌物需评估，尿液/拭子检测、按因用药、伴侣与暂停性接触。",
+    "limitations": "超过计划复审日；仅采用稳定症状与就诊原则，与CDC现有评估资料并读，不采用英国服务号码和供药状态。",
+    "reading_depth": "实际读原页症状、就诊检测、治疗和伴侣段及页脚日期。",
+    "content_checked_at": "2026-10-29",
+    "funding_disclosure": "机构指导；本轮未对其引用的全部试验另作资助审查，机构名称不替代证据质量。"
+  },
+  {
+    "id": "READER-S05",
+    "citation": "National Health Service. Penis lumps and spots [Internet]. 2024 Jun 25. [cited 2026 Oct 29]. Available from: https://www.nhs.uk/symptoms/penis-lumps-and-spots/",
+    "url": "https://www.nhs.uk/symptoms/penis-lumps-and-spots/",
+    "type": "监管、公共卫生或专业学会原始指导",
+    "support": "阴茎新皮损可有正常变异、皮肤病或STI；需检查而非图片自诊。",
+    "limitations": "不声称所有丘疹是病，也不凭良性外观排除所有疾病。",
+    "reading_depth": "实际读原页何时检查、可能原因和检查方式。",
+    "content_checked_at": "2026-10-29",
+    "funding_disclosure": "机构指导；本轮未对其引用的全部试验另作资助审查，机构名称不替代证据质量。"
+  },
+  {
+    "id": "READER-S06",
+    "citation": "National Health Service. Testicle lumps and swellings [Internet]. 2023 Jul 18. [cited 2026 Oct 29]. Available from: https://www.nhs.uk/symptoms/testicle-lumps-and-swellings/",
+    "url": "https://www.nhs.uk/symptoms/testicle-lumps-and-swellings/",
+    "type": "监管、公共卫生或专业学会原始指导",
+    "support": "睾丸新肿块形态变化安排检查；持续静息痛与突发剧痛急诊；可需超声。",
+    "limitations": "超过预计复审日，用于稳定分流并与现有2026睾丸痛入口核对；不推荐所有无症状者做影像筛查。",
+    "reading_depth": "实际读原页全部相关症状、急诊与检查段。",
+    "content_checked_at": "2026-10-29",
+    "funding_disclosure": "机构指导；本轮未对其引用的全部试验另作资助审查，机构名称不替代证据质量。"
+  },
+  {
+    "id": "READER-S07",
+    "citation": "National Health Service. Blood in semen [Internet]. 2025 Sep 23. [cited 2026 Oct 29]. Available from: https://www.nhs.uk/symptoms/blood-in-semen/",
+    "url": "https://www.nhs.uk/symptoms/blood-in-semen/",
+    "type": "监管、公共卫生或专业学会原始指导",
+    "support": "新鲜/陈旧血精可红或褐色；通常非严重但应检查，治疗按原因。",
+    "limitations": "不能凭颜色确诊前列腺炎或肿瘤，不建议普遍自行用抗生素。",
+    "reading_depth": "实际读原页外观、伴随症状、病因及处理。",
+    "content_checked_at": "2026-10-29",
+    "funding_disclosure": "机构指导；本轮未对其引用的全部试验另作资助审查，机构名称不替代证据质量。"
+  },
+  {
+    "id": "READER-S08",
+    "citation": "European Association of Urology. EAU guidelines on sexual and reproductive health: Management of erectile dysfunction [Internet]. 2026. [cited 2026 Oct 29]. Available from: https://uroweb.org/guidelines/sexual-and-reproductive-health/chapter/management-of-erectile-dysfunction",
+    "url": "https://uroweb.org/guidelines/sexual-and-reproductive-health/chapter/management-of-erectile-dysfunction",
+    "type": "监管、公共卫生或专业学会原始指导",
+    "support": "ED病史和代谢/激素等评估、生活/心理支持、PDE5抑制剂适应选择；硝酸酯/NO供体/尼可地尔禁忌。",
+    "limitations": "2026有限更新；仅核相关正文与推荐，不是重审全部试验、器械或具体中国药品说明。",
+    "reading_depth": "实际读5.4评估、5.5推荐、5.6治疗及5.6.3.f.2禁忌段；版本状态在介绍页另核。",
+    "content_checked_at": "2026-10-29",
+    "funding_disclosure": "机构指导；本轮未对其引用的全部试验另作资助审查，机构名称不替代证据质量。"
+  },
+  {
+    "id": "READER-S09",
+    "citation": "European Association of Urology. EAU guidelines on sexual and reproductive health: Disorders of ejaculation [Internet]. 2026. [cited 2026 Oct 29]. Available from: https://uroweb.org/guidelines/sexual-and-reproductive-health/chapter/disorders-of-ejaculation",
+    "url": "https://uroweb.org/guidelines/sexual-and-reproductive-health/chapter/disorders-of-ejaculation",
+    "type": "监管、公共卫生或专业学会原始指导",
+    "support": "早泄多维判断，时间不足以单独诊断；先天后天分型、药物与心理行为方案、局麻药向伴侣转移及备孕警示。",
+    "limitations": "成人男性指南；不输出通用剂量、以秒数诊断或将延时商品等同受试制剂。",
+    "reading_depth": "实际读6.2定义/诊断及6.2.6局麻药与相应治疗段；未声称全文所有射精病种审读。",
+    "content_checked_at": "2026-10-29",
+    "funding_disclosure": "机构指导；本轮未对其引用的全部试验另作资助审查，机构名称不替代证据质量。"
+  },
+  {
+    "id": "READER-S10",
+    "citation": "National Health Service. Priapism (painful erections) [Internet]. 2023 Dec 5. [cited 2026 Oct 29]. Available from: https://www.nhs.uk/symptoms/priapism-painful-erections/",
+    "url": "https://www.nhs.uk/symptoms/priapism-painful-erections/",
+    "type": "监管、公共卫生或专业学会原始指导",
+    "support": "持续3至4小时勃起需急诊，镰状细胞病疼痛超过1小时更早；不冰敷/继续性活动拖延。",
+    "limitations": "警示时间不是必须等满；痛程度不用于家庭鉴别不同血流型。",
+    "reading_depth": "实际读原页急诊阈值、错误处理和病因。",
+    "content_checked_at": "2026-10-29",
+    "funding_disclosure": "机构指导；本轮未对其引用的全部试验另作资助审查，机构名称不替代证据质量。"
+  },
+  {
+    "id": "READER-S11",
+    "citation": "Department of Health, Victoria. Masturbation [Internet]. 2026 Apr 23. [cited 2026 Oct 29]. Available from: https://www.betterhealth.vic.gov.au/health/HealthyLiving/masturbation",
+    "url": "https://www.betterhealth.vic.gov.au/health/HealthyLiving/masturbation",
+    "type": "监管、公共卫生或专业学会原始指导",
+    "support": "各性别可选择自慰，无统一正常次数；影响生活才需评估，不能把自慰当不孕/失明原因。",
+    "limitations": "只用频率、选择、同意和误区段；未将其广泛好处叙述当随机试验证实的治病用途。",
+    "reading_depth": "实际读2026复核日期、定义、频率、同意及myths段，未核所有外链。",
+    "content_checked_at": "2026-10-29",
+    "funding_disclosure": "机构指导；本轮未对其引用的全部试验另作资助审查，机构名称不替代证据质量。"
+  },
+  {
+    "id": "READER-S12",
+    "citation": "中国疾病预防控制中心. HPV感染：常见问答 [Internet]. 2026 Jun 22. [cited 2026 Oct 29]. Available from: https://www.chinacdc.cn/jkyj/mygh02/ymkyfjb/hpvgr/202606/t20260622_1837244.html",
+    "url": "https://www.chinacdc.cn/jkyj/mygh02/ymkyfjb/hpvgr/202606/t20260622_1837244.html",
+    "type": "监管、公共卫生或专业学会原始指导",
+    "support": "男女HPV预防、国内不同疫苗/人群程序差异、疫苗不清已有感染、接种后仍应按规范筛查。",
+    "limitations": "公众问答将男性年龄概括为9–26，不当作每款产品同一适应证；本篇不替具体品牌现行标签。",
+    "reading_depth": "实际读全部11问，重点男性适用、国家免疫规划、针次差异及接种后筛查，核页面日期。",
+    "content_checked_at": "2026-10-29",
+    "funding_disclosure": "机构指导；本轮未对其引用的全部试验另作资助审查，机构名称不替代证据质量。"
+  },
+  {
+    "id": "READER-S13",
+    "citation": "European Association of Urology. EAU guidelines on sexual and reproductive health: Priapism [Internet]. 2026. [cited 2026 Oct 29]. Available from: https://uroweb.org/guidelines/sexual-and-reproductive-health/chapter/priapism",
+    "url": "https://uroweb.org/guidelines/sexual-and-reproductive-health/chapter/priapism",
+    "type": "监管、公共卫生或专业学会原始指导",
+    "support": "缺血性异常勃起属急症，疼痛程度/病史不能代替血气或超声鉴别，保守措施证据有限。",
+    "limitations": "成人专科指南，未复制穿刺、注射或手术方案供家庭操作。",
+    "reading_depth": "实际读10.1急症/时间、10.1.2鉴别血流与血气超声、10.1.3保守处理局限；未声称审完所有后续手术。",
+    "content_checked_at": "2026-10-29",
+    "funding_disclosure": "机构指导；本轮未对其引用的全部试验另作资助审查，机构名称不替代证据质量。"
+  }
+]

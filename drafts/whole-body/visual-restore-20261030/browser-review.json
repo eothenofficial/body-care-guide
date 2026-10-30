@@ -1,0 +1,26 @@
+{
+  "content_version": "2026.10.30-6",
+  "reader_sha256": "aafa17859f50fd1e4ed63918789aa604005bad89b9a4f1a0a7374e7f24359f1d",
+  "method": "Actual loopback browser inspection and screenshots; separate test run covers behavioral regressions.",
+  "desktop": {
+    "viewport_width_px": 1280,
+    "body_font_px": 15,
+    "hero_paragraph_font_px": 13,
+    "entry_summary_font_px": 13,
+    "ordinary_body_font_px": 15,
+    "plain_body_font_px": 17,
+    "portrait_loaded": true,
+    "reading_settings_present": false,
+    "horizontal_document_overflow": false
+  },
+  "mobile": {
+    "viewport_width_px": 375,
+    "document_client_width_px": 360,
+    "document_scroll_width_px": 360,
+    "portrait_hidden": true,
+    "search_inside_initial_viewport": true,
+    "temporary_viewport_reset": true
+  },
+  "screenshots": ["阅读首页.png", "手机首页.png"],
+  "scope": "Home, eye chapter summary and eyes-008 body fonts were manually inspected. Full tests check aliases, age/sex filters and bookmarks. This is not a new medical literature or clinical review."
+}

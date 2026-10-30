@@ -1,0 +1,12 @@
+{
+  "part": "legs",
+  "status": "passed_structural_and_export_checks",
+  "entries": 12,
+  "sources": 17,
+  "standalone_html_sha256": "dedc1f68b41a7226c8d48d26395564787a4811746f487cc1833517ce6f9ae8fd",
+  "source_graph_resolves": true,
+  "export_data_equal": true,
+  "all_audience_ranges_retained": true,
+  "canonical_content_unchanged": true,
+  "clinical_review_status": "not_clinically_reviewed"
+}

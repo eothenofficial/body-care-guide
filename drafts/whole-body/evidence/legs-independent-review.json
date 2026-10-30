@@ -1,0 +1,254 @@
+{
+  "status": "passed_after_root_revisions_not_clinical_review",
+  "reviewer": "independent_AI_editor_whole_chest",
+  "content_checked_at": "2026-10-29",
+  "chapter": "legs",
+  "blocking_unresolved": 0,
+  "clinical_review_status": "not_clinically_reviewed",
+  "reviewed_content_sha256": "95cb9a0c3107c71b3275580618d2aaba23c20255446efc135422e6ed2433975c",
+  "reading_scope": {
+    "local_files": [
+      "drafts/whole-body/chapters/legs.json",
+      "drafts/whole-body/evidence/legs-sources.json"
+    ],
+    "entries": "12条标题、摘要、六字段、年龄性别与安全置顶全部读过；007—011单独补读，避免第一次命令输出截断",
+    "primary_sources": "17项来源的相关主段实际打开并核对；PubMed两项只读取题录和摘要，未称全文；ACR4页摘要读关键表格和末页状态，未审其未发表完整证据表",
+    "priority": [
+      "001马尾排尿与会阴/双腿新功能变化不等全部齐全",
+      "002单腿肿痛与胸痛气短分流",
+      "003—005腰痛活动、影像临床对应和WHO慢性原发性范围",
+      "006髋膝急症条件是否被发热门槛限制",
+      "007—009运动、膝支具、楔形鞋垫、氨糖与局部NSAIDs",
+      "012压力袜动脉供血与新麻冷变色警示"
+    ]
+  },
+  "findings": [
+    {
+      "id": "LEGS-R01",
+      "severity": "blocking_safety_condition",
+      "entry_id": "legs-006",
+      "status": "resolved_and_independently_reread",
+      "issue": "摘要“关节明显红热肿并发热”、正文“关节热肿并全身不适”可能让无发热的新发髋热肿漏掉及时就诊。",
+      "source": "LEGS-S06",
+      "evidence": "NHS Hip pain urgent清单单独列“your hip is swollen and feels hot”，不要求同时发热；另列突发重痛与发热不适。",
+      "requested_change": "将髋部新发热肿单独列为尽快当天评估，即使不发热；摘要与正文一致。膝盖红热发热/剧痛/不能负重等原分支保留。",
+      "resolution": "root修改后独立重读006/009/012；摘要与正文的相关条件已明确，原阻断解除。"
+    },
+    {
+      "id": "LEGS-R02",
+      "severity": "non_blocking_precision",
+      "entry_id": "legs-009",
+      "status": "resolved_and_independently_reread",
+      "issue": "已有“有适应证”限定，但可进一步写清局部NSAIDs主要用于膝OA等，避免标题髋膝范围读成髋也同样适用。",
+      "source": "LEGS-S09/LEGS-S10",
+      "evidence": "ACR2026局部NSAIDs强推荐针对膝/手，口服另列髋；NHS同样突出膝/手。",
+      "resolution": "root修改后独立重读006/009/012；摘要与正文的相关条件已明确，原阻断解除。"
+    },
+    {
+      "id": "LEGS-R03",
+      "severity": "non_blocking_action_clarity",
+      "entry_id": "legs-012",
+      "status": "resolved_and_independently_reread",
+      "issue": "静脉出血“及时求助”可明确为当日及时医疗评估，便于实际行动。",
+      "source": "LEGS-S14",
+      "evidence": "NHS原页将varicose veins that are bleeding单列urgent，而不是普通预约。",
+      "resolution": "root修改后独立重读006/009/012；摘要与正文的相关条件已明确，原阻断解除。"
+    }
+  ],
+  "verified_points": [
+    "NHS2026腰痛与CUH2025马尾急诊条件真实，稿中不要求全套表现，不将普通腰痛无需影像规则用于马尾",
+    "CUH原页MRI不在急诊做的泛化语句没有被稿子照搬，正文保留急症影像升级",
+    "影像综述doi:10.3174/ajnr.A4173正式2015;36(4):811—816元数据与摘要吻合；未读全文与不使用精确年龄率的限制如实",
+    "ACR官网确有2026Sep14发布摘要，PDF末页2026Sep8董事会批准、完整稿拟投稿；不冒充已刊论文",
+    "ACR2026膝支具条件性推荐、楔形鞋垫条件性不推荐、氨糖软骨素及组合强烈不推荐均与原表吻合，强度不等于确定性",
+    "跑步综述doi:10.1177/23259671231152900正式2023;11(3):23259671231152900与作者前六一致；多观察性及随访限制没有外推终身安全",
+    "NCCIH2023旧氨糖资料仅用于定义历史分歧安全，未把旧手OA推荐当2026现行",
+    "NHS DVT2026症状单侧和伴胸痛气短立即急救一致，不用年龄排除，也未承诺中国24小时超声",
+    "压力袜不是越紧越好；动脉供血、尺寸适配与冷麻蓝紫痛脱下求助有直接原文支持；Dorset2025淋巴背景限用通用警示",
+    "扭伤冷敷为症状舒适而非保证修复，无固定八周返场；青少年无成人药物剂量"
+  ],
+  "source_rechecks": [
+    {
+      "id": "LEGS-S01",
+      "url": "https://www.nhs.uk/conditions/back-pain/",
+      "reading_depth": "原页相关主段或ACR4页摘要关键段实际读取"
+    },
+    {
+      "id": "LEGS-S02",
+      "url": "https://www.cuh.nhs.uk/patient-information/back-pain/",
+      "reading_depth": "原页相关主段或ACR4页摘要关键段实际读取"
+    },
+    {
+      "id": "LEGS-S03",
+      "url": "https://www.nhs.uk/conditions/deep-vein-thrombosis-dvt/",
+      "reading_depth": "原页相关主段或ACR4页摘要关键段实际读取"
+    },
+    {
+      "id": "LEGS-S04",
+      "url": "https://www.nhs.uk/conditions/sprains-and-strains/",
+      "reading_depth": "原页相关主段或ACR4页摘要关键段实际读取"
+    },
+    {
+      "id": "LEGS-S05",
+      "url": "https://www.nhs.uk/symptoms/knee-pain/",
+      "reading_depth": "原页相关主段或ACR4页摘要关键段实际读取"
+    },
+    {
+      "id": "LEGS-S06",
+      "url": "https://www.nhs.uk/symptoms/hip-pain/",
+      "reading_depth": "原页相关主段或ACR4页摘要关键段实际读取"
+    },
+    {
+      "id": "LEGS-S07",
+      "url": "https://www.who.int/news/item/07-12-2023-who-releases-guidelines-on-chronic-low-back-pain",
+      "reading_depth": "原页相关主段或ACR4页摘要关键段实际读取"
+    },
+    {
+      "id": "LEGS-S08",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25430861/",
+      "reading_depth": "PubMed题录与完整摘要，不是全文"
+    },
+    {
+      "id": "LEGS-S09",
+      "url": "https://assets.contentstack.io/v3/assets/bltee37abb6b278ab2c/bltb3d12c34020da842/oa-guideline-summary-2026.pdf",
+      "reading_depth": "原页相关主段或ACR4页摘要关键段实际读取"
+    },
+    {
+      "id": "LEGS-S10",
+      "url": "https://www.nhs.uk/conditions/osteoarthritis/treatment/",
+      "reading_depth": "原页相关主段或ACR4页摘要关键段实际读取"
+    },
+    {
+      "id": "LEGS-S11",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36875337/",
+      "reading_depth": "PubMed题录与完整摘要，不是全文"
+    },
+    {
+      "id": "LEGS-S12",
+      "url": "https://www.berkshirehealthcare.nhs.uk/advice/return-to-running-programme",
+      "reading_depth": "原页相关主段或ACR4页摘要关键段实际读取"
+    },
+    {
+      "id": "LEGS-S13",
+      "url": "https://www.nhs.uk/live-well/exercise/knee-pain-and-other-running-injuries/",
+      "reading_depth": "原页相关主段或ACR4页摘要关键段实际读取"
+    },
+    {
+      "id": "LEGS-S14",
+      "url": "https://www.nhs.uk/conditions/varicose-veins/",
+      "reading_depth": "原页相关主段或ACR4页摘要关键段实际读取"
+    },
+    {
+      "id": "LEGS-S15",
+      "url": "https://dchft.nhs.uk/leaflets/advice-for-applying-and-wearing-compression-garments/",
+      "reading_depth": "原页相关主段或ACR4页摘要关键段实际读取"
+    },
+    {
+      "id": "LEGS-S16",
+      "url": "https://www.nhs.uk/medicines/nsaids/",
+      "reading_depth": "原页相关主段或ACR4页摘要关键段实际读取"
+    },
+    {
+      "id": "LEGS-S17",
+      "url": "https://www.nccih.nih.gov/health/glucosamine-and-chondroitin-for-osteoarthritis-what-you-need-to-know",
+      "reading_depth": "原页相关主段或ACR4页摘要关键段实际读取"
+    }
+  ],
+  "additional_primary_verification": [
+    "https://rheumatology.org/osteoarthritis-guideline",
+    "https://rheumatology.org/press-releases/american-college-of-rheumatology-updates-osteoarthritis-guidance-reinforcing-personalized-comprehensive-care"
+  ],
+  "source_graph": {
+    "used": 17,
+    "listed": 17,
+    "all_used_known": true
+  },
+  "structural_checks": [
+    {
+      "id": "legs-001",
+      "summary_characters": 120,
+      "references_match": true,
+      "six_fields": true,
+      "clinical_review_status": "not_clinically_reviewed"
+    },
+    {
+      "id": "legs-002",
+      "summary_characters": 117,
+      "references_match": true,
+      "six_fields": true,
+      "clinical_review_status": "not_clinically_reviewed"
+    },
+    {
+      "id": "legs-003",
+      "summary_characters": 120,
+      "references_match": true,
+      "six_fields": true,
+      "clinical_review_status": "not_clinically_reviewed"
+    },
+    {
+      "id": "legs-004",
+      "summary_characters": 120,
+      "references_match": true,
+      "six_fields": true,
+      "clinical_review_status": "not_clinically_reviewed"
+    },
+    {
+      "id": "legs-005",
+      "summary_characters": 126,
+      "references_match": true,
+      "six_fields": true,
+      "clinical_review_status": "not_clinically_reviewed"
+    },
+    {
+      "id": "legs-006",
+      "summary_characters": 123,
+      "references_match": true,
+      "six_fields": true,
+      "clinical_review_status": "not_clinically_reviewed"
+    },
+    {
+      "id": "legs-007",
+      "summary_characters": 119,
+      "references_match": true,
+      "six_fields": true,
+      "clinical_review_status": "not_clinically_reviewed"
+    },
+    {
+      "id": "legs-008",
+      "summary_characters": 124,
+      "references_match": true,
+      "six_fields": true,
+      "clinical_review_status": "not_clinically_reviewed"
+    },
+    {
+      "id": "legs-009",
+      "summary_characters": 118,
+      "references_match": true,
+      "six_fields": true,
+      "clinical_review_status": "not_clinically_reviewed"
+    },
+    {
+      "id": "legs-010",
+      "summary_characters": 116,
+      "references_match": true,
+      "six_fields": true,
+      "clinical_review_status": "not_clinically_reviewed"
+    },
+    {
+      "id": "legs-011",
+      "summary_characters": 114,
+      "references_match": true,
+      "six_fields": true,
+      "clinical_review_status": "not_clinically_reviewed"
+    },
+    {
+      "id": "legs-012",
+      "summary_characters": 118,
+      "references_match": true,
+      "six_fields": true,
+      "clinical_review_status": "not_clinically_reviewed"
+    }
+  ],
+  "limits": "这是独立AI编辑核读与逻辑检查，不是执业临床专家签审，也未对每项指南证据表重新做系统检索或风险偏倚评估。未改作者正文。",
+  "revision_verification": "2026-10-29实际重读root修改后的006完整标题摘要plain、009plain和012plain；未只根据消息宣称已修改。"
+}

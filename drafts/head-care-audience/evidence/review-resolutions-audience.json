@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-29",
+  "status": "editorial_resolved_not_clinically_reviewed",
+  "resolutions": [
+    {
+      "entry": "oral-019",
+      "issue": "窝沟封闭句原引用不直接支持",
+      "action": "新增并实读NIDCR Dental sealants，正文及来源栏追加DENTAGE-S21"
+    },
+    {
+      "entry": "oral-022",
+      "issue": "固定桥并非都由天然邻牙支撑",
+      "action": "表格与summary均限定天然牙支持桥"
+    },
+    {
+      "entry": "oral-023",
+      "issue": "清洁步骤过于抽象",
+      "action": "补软刷、少量温和液体皂、凉水冲净和按材料选清洁剂；实读NHS/NSW"
+    },
+    {
+      "entry": "eyes-031",
+      "issue": "标题可能把用眼间歇当防近视治疗",
+      "action": "标题改为用眼安排；正文分别保留户外预防与舒适间歇边界"
+    },
+    {
+      "entry": "all",
+      "issue": "动态Markdown及打印遗漏人群范围",
+      "action": "统一输出阅读范围、scope_note及急症标记；新增真实读者导出回归测试"
+    }
+  ],
+  "root_ear_independent_check": {
+    "read": [
+      "Merck Perichondritis of the ear (May 2026)",
+      "Mayo Piercings (Mar 1 2024)",
+      "NHS Infected piercings (Apr 18 2023)"
+    ],
+    "scope": "核读急症、软骨风险、针与清洁、避泳及首饰取留；未声称重新核完所有耳朵来源",
+    "result": "无额外阻断；保留来源冲突与耳夹外推说明"
+  }
+}

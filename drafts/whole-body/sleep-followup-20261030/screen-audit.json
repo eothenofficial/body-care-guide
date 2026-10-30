@@ -1,0 +1,50 @@
+{
+  "checked_at": "2026-10-30",
+  "entries": 2,
+  "sources": 8,
+  "clinical_review_status": "not_clinically_reviewed",
+  "actual_read_scope": "已读本项目全书SOP核心写作/证据/引用/生活基础段、用户原写作SOP全文，以及既有8条睡眠条目与相关来源；新研究实际深度见各source.reading_depth。",
+  "editorial_decisions": [
+    "书目校正：SLS-S06初稿沿用PubMed在线先发记录；独立打开Elsevier自有EM-consulte正式页 https://www.em-consulte.com/article/1809190/implementation-of-stimulus-control-and-sleep-restr 核三作者、DOI及Vol36 No2 Article100542 mai2026，现用2026;36(2):100542。保留DOI中的2025，临床正文不变；PMC稿和正式付费全文读取范围分开。",
+    "sleep-011回答收尾、情绪刺激、30分钟与蓝光/产品，sleep-014回答当晚清醒烦躁的具体动作；后者链接既有CBT-I条目，不复制完整治疗。",
+    "普通生理光照效应、屏幕行为时长、内容参与与成品滤蓝光效果不互相替代。",
+    "38人中国30min试验有自报阳性；167人夜间模式试验总体无差。并列支持条件性尝试，不隐藏阴性或用亚组反转总体。",
+    "Cochrane2023检索截至2022，睡眠结局6RCT/148人、很低确定性；不以无明确证据说成已证无效。",
+    "刺激控制和睡眠限制分开。夜间易跌倒、行动不便、镇静药使用的安全调整直接放正文；不机械盯15/20分钟。",
+    "只给成人/老年入口；年轻成人手机试验不自动证实老年同样效果，也不外推儿童。",
+    "没有使用正文不存在的视频/图片，也未把NHS来源页自带资源写成本站资源。"
+  ],
+  "additional_primary_screening": [
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41341515/",
+      "doi": "10.3389/fneur.2025.1699303",
+      "finding": "2025系统综述仅3交叉RCT49人、客观睡眠各项置信区间宽；读出版商相关方法/限制/声明与PubMed完整摘要。",
+      "disposition": "不作为主要推荐升级依据：样本仍小、检索至2024，不能据新发表宣称已解决Cochrane不确定性，也不把其偏乐观结论写成已证明有效。"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39366085/",
+      "doi": "10.1016/j.sleep.2024.09.034",
+      "finding": "2024实验20名12–14岁，睡前45min社交媒体/手机读书/纸书未检出睡眠或唤醒差异。实际读PubMed完整摘要/题录/利益披露。",
+      "disposition": "避免写成所有社交内容必然令人兴奋或必然伤睡眠；未以成人条目套儿童。"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42008244/",
+      "finding": "2026青少年节律联合干预的PubMed搜索条目显示睡眠安排+晨间亮光+晚间滤蓝光联合，不是单独眼镜对照。",
+      "disposition": "只做范围筛选、未读正文，不用于证明普通成人买眼镜即可助眠。"
+    }
+  ],
+  "extra_priorities_for_parent": [
+    "睡足仍困、憋醒已有入口；可补不宁腿的夜间动腿冲动及与缺铁/药物评估，不能直接给人人补铁。",
+    "手表睡眠分数越看越焦虑，可结合睡眠日记、实际白天功能、设备不诊断及睡眠监测适应证；避免同运动手表完全重复。",
+    "夜里被尿意/疼痛/反流反复打断可做交叉入口，先分病因，不用一概禁水或把所有夜醒算失眠。",
+    "明显少睡却异常兴奋、精力亢奋和冲动可保留评估提醒，不扩展心理治疗或自诊。"
+  ],
+  "checks": {
+    "summary_lengths": {
+      "sleep-011": 121,
+      "sleep-014": 128
+    },
+    "metadata_checked": true,
+    "blocking_unresolved": []
+  }
+}

@@ -1,6 +1,7 @@
 __pycache__/
 *.py[cod]
 .test-tmp/
+.draft-preview/
 .pytest_cache/
 .venv/
 node_modules/

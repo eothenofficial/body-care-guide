@@ -1,0 +1,100 @@
+{
+  "status": "author_source_check_passed_not_clinical_review",
+  "content_checked_at": "2026-10-29",
+  "chapter": "bodyskin",
+  "entries": 22,
+  "source_records": 31,
+  "doi_sources": 6,
+  "summary_range": [
+    116,
+    130
+  ],
+  "clinical_review_status": "not_clinically_reviewed",
+  "scope": "身体皮肤与体毛选择、新伤口、瘢痕分型和瘢痕疙瘩治疗；不复制既有面部治疗，私处黏膜和下肢足病另篇。",
+  "source_policy": "实际打开专业学会、官方医疗及监管原文；网页护理归C。系统综述与原始研究读到何处逐项记录；不以域名、年份或DOI代替支持范围。",
+  "source_conflicts": [
+    {
+      "topic": "硅酮治疗既有瘢痕疙瘩",
+      "observed": "机构患者页措辞偏肯定，Cochrane2023直接贴片试验很少、确定性很低。",
+      "resolution": "保留闭合后辅助选项，不写确证明显变平；预防、凝胶与贴片不互相推导。"
+    },
+    {
+      "topic": "单纯手术复发",
+      "observed": "AAD患者页写近100%，其他指南与研究因人群、部位、联合方式不同差异很大。",
+      "resolution": "采用有较高复发风险、术前约好联合方案，不给统一个人概率。"
+    },
+    {
+      "topic": "放疗时机和方式",
+      "observed": "RCR2023倾向早期衔接，2026荟萃不同方式和≤24h组间未见统计差异。",
+      "resolution": "要求术前协调尽早衔接；不写24h硬阈值，不将未显著当等效或任意延迟安全。"
+    },
+    {
+      "topic": "不同放疗名称",
+      "observed": "中文营销将同位素敷贴、浅X线和电子线统称浅放，且有零深部风险宣称。",
+      "resolution": "用官方放疗指南与锶90人体试验解释物理差异；不拿特定β敷贴研究推全技术疗效。"
+    },
+    {
+      "topic": "身体与私处清洁",
+      "observed": "NSW体毛页建议抗菌沐浴露，但皮肤和黏膜耐受不同。",
+      "resolution": "只用其体毛非必需和方法风险，不推荐常规抗菌私处清洁，不越过外部皮肤标签。"
+    }
+  ],
+  "evidence_gap_searches": [
+    {
+      "question": "康复新液是否消退既有瘢痕疙瘩",
+      "queries": [
+        "Kangfuxin keloid",
+        "Kangfuxin keloid scars trial",
+        "site.pubmed.ncbi.nlm.nih.gov Kangfuxin keloid"
+      ],
+      "result": "发现急性烧伤84人研究和其他创面/动物资料；本轮未核到足以推荐既有瘢痕疙瘩消退的可靠直接人体证据。",
+      "limit": "不是穷尽全部中文数据库，不能据此证明无效。"
+    },
+    {
+      "question": "EGF与既有瘢痕",
+      "result": "读取2019药监问答中创面用途与名称区分，不借创面愈合证明既有瘢痕消退。",
+      "limit": "未完成2026所有化妆品新原料和每个药品的监管查询，不给全部合规判决。"
+    }
+  ],
+  "excluded": [
+    {
+      "source": "2025瘢痕疙瘩放射性核素敷贴治疗中国专家共识原刊PDF",
+      "url": "https://www.ddzxhospital.com/library/up_f/file/20251015/202510151022271496.pdf",
+      "reason": "原刊医院图书馆PDF打开502，仅核到题录/首屏；不用二手转述代替全文方案。"
+    },
+    {
+      "source": "2026瘢痕疙瘩规范化辅助放射治疗专家共识",
+      "reason": "SinoMed和上海交大期刊元数据可见，全文原页超时；不采用厂商转载中的年龄硬阈值、照射剂量或备孕月数。"
+    },
+    {
+      "source": "ACOG阴毛护理",
+      "reason": "原站打开402，虽搜索返回长正文，关键结论改用可实际读取的NSW原文，不以搜索摘要支撑。"
+    },
+    {
+      "source": "商业祛疤/脱毛品牌、门诊旧价目和非权威单院疗效宣称",
+      "reason": "不承担临床效果或价格推导。"
+    },
+    {
+      "source": "Liu C, Zhong Y, Wei C, Meng F, Pei Y, Ding X. Observation of wound healing effect and aesthetic satisfaction of patient with second degree burn wounds treated by Kangfuxin solution. Evid Based Complement Alternat Med. 2022;2022:1664225. doi:10.1155/2022/1664225.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9283044/",
+      "reason": "独立编辑复核发现对象为急性烧伤，且有方法、统计文字和表格报告局限；不列入本篇建议证据，不为丰富引用而保留。PMC/期刊当次未显示撤稿，未完成独立撤稿库穷尽核查，不宣称已撤稿。"
+    }
+  ],
+  "study_cautions": [
+    {
+      "source_id": "BODYSKIN-S28",
+      "note": "31人42病灶、选择小薄病变、3病灶失访、较敏感复发定义；不抄其44%/86%为用户风险。"
+    }
+  ],
+  "population_limits": "识别与基础伤口护理包含儿童；药物、侵入瘢痕治疗和脱毛设备主要供成人/老年理解。未成年人、孕哺及备孕不直接套用；放疗不输出通用年龄/剂量/避孕月数。",
+  "pricing": "无必要可靠当前报价，全部cost为空。",
+  "checks": {
+    "stable_ids_unique": true,
+    "unit_membership_exact": true,
+    "six_fields_order": true,
+    "summary_110_170_plain": true,
+    "all_refs_resolve_and_used": true,
+    "doi_metadata_checked": true,
+    "no_unfinished_cross_chapter_links": true
+  }
+}

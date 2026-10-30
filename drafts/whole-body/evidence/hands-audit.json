@@ -1,0 +1,55 @@
+{
+  "status": "author_source_check_passed_not_clinical_review",
+  "content_checked_at": "2026-10-29",
+  "chapter": "hands",
+  "entries": 12,
+  "source_records": 23,
+  "doi_sources": 0,
+  "summary_range": [
+    111,
+    125
+  ],
+  "clinical_review_status": "not_clinically_reviewed",
+  "scope": "手掌手指皮肤、甲及美甲；肘腕劳损归上肢，足部护理与更广泛伤口另篇。",
+  "source_policy": "已真实打开CDC、AAD、BAD、HSE、NHS、FDA与MedlinePlus原页有关段；患者护理指导均按C，不伪装为RCT效果排名。",
+  "source_conflicts": [
+    {
+      "topic": "屏障霜与职业手套",
+      "observed": "BAD部分文字可被解读为不能戴手套时用屏障霜；HSE明确不能替代手套。",
+      "resolution": "正文采用减少接触和适合任务的手套为主，屏障霜仅辅助护理，不做液体手套保证。"
+    },
+    {
+      "topic": "慢性甲周炎",
+      "observed": "MedlinePlus百科有慢性真菌表述；湿作业/刺激与手湿疹常需另分。",
+      "resolution": "急性表现依百科，反复慢性不默认真菌，依据BAD接触皮炎框架检查。"
+    },
+    {
+      "topic": "美甲灯与癌风险",
+      "observed": "AAD患者页风险概括较强，人工甲页有LED优先概括；2023细胞研究与2026临床指南原页本轮不可达。",
+      "resolution": "只给减少UV暴露的护理选择，不宣称个人癌概率、不以LED标签保证安全，不借搜索摘要冒充全文。"
+    }
+  ],
+  "excluded": [
+    {
+      "source": "https://doi.org/10.1093/bjd/ljag318",
+      "reason": "搜索发现2026新指南但原刊页面不可达；未读取全文，不引用其剂量或分级。"
+    },
+    {
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9845303/",
+      "reason": "原页遭验证页；未读取全文，不引用体外数据为人体癌症结论。"
+    },
+    {
+      "source": "商业美甲媒体与网友经验",
+      "reason": "不承担医学推荐；只采用监管抽检与专业机构护理。"
+    }
+  ],
+  "population_limits": "通用手卫生/剪甲与异常色带有儿童来源；湿疹和甲周识别为青少年及成人范围，具体处方不跨年龄推；甲真菌治疗和美甲以成人老年为主。",
+  "pricing": "无可靠必要价格，全部cost为空。",
+  "checks": {
+    "stable_ids_unique": true,
+    "unit_membership_exact": true,
+    "six_fields_order": true,
+    "all_refs_resolve": true,
+    "no_unfinished_cross_chapter_links": true
+  }
+}

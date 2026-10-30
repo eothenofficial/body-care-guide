@@ -1,0 +1,88 @@
+{
+  "extension_id": "contraception",
+  "checked_at": "2026-10-29",
+  "status": "author_self_checked_ready_for_independent_editorial_review",
+  "clinical_review_status": "not_clinically_reviewed",
+  "entry_count": 11,
+  "source_count": 31,
+  "summary_range": [
+    120,
+    131
+  ],
+  "source_integrity": {
+    "missing": [],
+    "unused": [],
+    "doi_count": 0,
+    "citation_style": "Vancouver Internet机构作者/题名/页面日期/访问日/URL；本轮不为无DOI的机构网页制造DOI。"
+  },
+  "scope": [
+    "一般避孕选择与同分母效果比较",
+    "外置/内置安全套",
+    "复方与单方口服/贴环针/植入与宫内装置",
+    "紧急方法时限与UPA后续/验孕",
+    "副作用分流",
+    "预测与体外法边界",
+    "永久选择和男性术后确认",
+    "偏头痛先兆/血压血栓/产后哺乳/药物相互作用"
+  ],
+  "not_in_scope": [
+    "个体开药及全部药品剂量",
+    "国内未核具体品牌的批准和供应保证",
+    "完整避孕性教育或产科百科",
+    "已冻结private19条修改"
+  ],
+  "quantification_checks": [
+    "唯一首年效果表来自NHS同页，100名使用者追踪一年，典型/正确并列；无混用CDC不同估计。",
+    "未将LAM半年、紧急一次干预效果与第一年表混合。",
+    "LNG英国说明72小时与CDC指南5天明确分层，超过72小时仍求助而非自行延长国内标签。",
+    "UPA至少等5天、第6天再激素并等待期及启动后7天屏障；LNG立即续并7天屏障。",
+    "最后一次无保护满21天复查，早测阴性与单纯出血不能保证未孕。",
+    "男性8—16周精液检查医疗确认前继续保护，不以日历或射精次数代替。"
+  ],
+  "safety_checks": [
+    "任何下腹严重痛/晕厥或胸痛气短急诊；IUD多个警示是任一项，不需同时出现。",
+    "UPA与孕激素过早衔接相互作用、不同漏服规则和重要病史不靠一套说明。",
+    "安全套破损可需HIV PEP，尽早且72小时内，不被妊娠补救替代。",
+    "儿童不提供成人避孕药剂量；绝育只标成人/老年成人，青少年只为可有妊娠风险的按需咨询，不从年龄自动推性行为。"
+  ],
+  "domestic_applicability": [
+    "已实际读2026牟定县卫健服务目录和2023花都卫健入口，限服务类别，不代表全国库存或特定成分批准。",
+    "UPA与所有贴/阴道环/单方制剂的中国批准及现场供应未核实，正文明确未知，未称一定未获批。",
+    "没有可靠全国价格来源，11条cost均空。",
+    "国外方法期限不照搬国内，NHS植入页当前5年与CDC2024概览3年不用于国内固定年限建议。"
+  ],
+  "evidence_access_limits": [
+    {
+      "resource": "WHO2025 MEC第6版官方落地页",
+      "url": "https://www.who.int/publications/i/item/9789240115583",
+      "actual_access": "2025 Nov 3版次与概览可读；iris全文/摘要超时，NCBI推荐表reCAPTCHA，未读完整细表。",
+      "decision": "不列为条目实证源，不宣称完成WHO2025细则逐行更新；具体规则依实读CDC2024。"
+    },
+    {
+      "resource": "中国卫健旧规范/NMPA批准送达通知",
+      "actual_access": "部分入口超时/412，仅搜索片段不可作为临床与国内期限的核实。",
+      "decision": "不纳入来源，不据此推注册、库存、时限或价格。"
+    },
+    {
+      "resource": "部分gov域名转载含紧急药年度最多3次、频用必伤卵巢等口径",
+      "actual_access": "搜索发现2026转载仍含该说法。",
+      "decision": "因缺可靠证据和与WHO重复使用说明矛盾而排除，不因域名为gov直接复制。"
+    }
+  ],
+  "cross_module_overlap": [
+    "fertility-009主讲备孕验孕与宫外孕；此处007保留紧急避孕后21天复查和严重腹痛急诊的必要闭环，后续可互链但当前无悬空链接。",
+    "fertility-005尿LH找机会不代表安全日；此处009仅说明预测不能反向保证避孕，不复制促孕操作。",
+    "period篇负责月经用品与月经异常详细鉴别；此处008只分流避孕相关出血。"
+  ],
+  "merge_recommendation": "在private下新增4个避孕单元，按u1选择屏障/预测、u2持续与永久、u3紧急和后续、u4副作用特殊状态；最终private ID由root统一重排，保留原19条不在本素材阶段改动。",
+  "independent_review": "pending",
+  "blocking_unresolved": null,
+  "files": {
+    "contraception-entries.json": "dd3ada56ecc1c7c3d86a4b2a4268c84e7efb1721d7d7619d35cc90247eaaa461",
+    "contraception-sources.json": "9857a473b0b94d11c9251f32b28386fd5437479375337b53d05f9668c4fe3bd8"
+  },
+  "peer_corrections_applied": [
+    "S06美国POP成分限定保留英文norethindrone/norgestrel/drospirenone，纠正错译诺孕酯。",
+    "S02题名与当前原页Contraception and Birth Control Methods同步。"
+  ]
+}

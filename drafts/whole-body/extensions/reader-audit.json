@@ -1,0 +1,23 @@
+{
+  "status": "author_checked_pending_independent_review",
+  "clinical_review_status": "not_clinically_reviewed",
+  "entries": 9,
+  "source_records": 13,
+  "existing_entry_edits": [
+    "private-010"
+  ],
+  "actual_reading": "逐项记录原页相关段与题录；EAU2026限相关临床分支；StepUp为摘要，不声称全文或穷尽后续Meta分析。",
+  "excluded": [
+    {
+      "source": "ACOG2025伴侣治疗新闻与更新、ISSVD2026原页/正式PDF",
+      "reason": "原站403或PubMed验证码；仅作检索线索，未引用搜索摘要承担临床建议。"
+    }
+  ],
+  "conflicts": [
+    {
+      "topic": "BV伴侣治疗",
+      "resolution": "不以CDC2021普遍不推荐覆盖2025新联合试验；写为特定人群可讨论，不一律同治，也不自行分药。"
+    }
+  ],
+  "limits": "旧NHS页只承担稳定分流并如实注明过计划复审；成人性功能方案不外推儿童；男女按器官范围看。"
+}

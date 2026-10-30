@@ -21,6 +21,9 @@ FIELD_NAMES = {
 }
 NUMERIC_REF = re.compile(r"(?<!!)\[(\d+)\](?!\()")
 STABLE_REF = re.compile(r"\[@(src-[0-9a-f]{12})\]")
+AGE_GROUP_LABELS = {"child": "儿童（0–11岁）", "teen": "青少年（12–17岁）",
+                    "adult": "成人（18–64岁）", "older": "老年（65岁及以上）"}
+SEX_LABELS = {"all": "男女通用", "female": "女性", "male": "男性"}
 FIELD = re.compile(r"^\*\*(成本|说人话|收益|证据等级|来源|备注)：\*\*\s*(.*)$")
 TAGS = {
     "习惯": ("每天", "日常", "睡前", "清洁", "洗脸", "洗头", "刷牙", "休息", "修剪", "剃须", "温敷", "舔唇"),
@@ -32,6 +35,40 @@ TAGS = {
 
 class ContentError(ValueError):
     """An actionable migration or content-validation failure."""
+
+
+def validate_audience(entry: dict, required: bool = False) -> None:
+    """Validate editorial readership metadata, never infer treatment eligibility."""
+    audience = entry.get("audience")
+    if audience is None and not required:
+        return
+    identifier = entry.get("id", "unknown")
+    if not isinstance(audience, dict):
+        raise ContentError(f"Missing/invalid audience: {identifier}")
+    for key, allowed in (("age_groups", AGE_GROUP_LABELS), ("sexes", SEX_LABELS)):
+        values = audience.get(key)
+        if (not isinstance(values, list) or not values
+                or any(not isinstance(v, str) or v not in allowed for v in values)
+                or len(set(values)) != len(values)):
+            raise ContentError(f"Invalid audience {key}: {identifier}")
+    if "all" in audience["sexes"] and len(audience["sexes"]) != 1:
+        raise ContentError(f"Ambiguous audience sexes: {identifier}")
+    note = audience.get("scope_note")
+    if (not isinstance(note, str) or not note.strip()
+            or re.search(r"[\r\n|<>]|\[@|\]\(", note)):
+        raise ContentError(f"Audience scope_note must be plain text: {identifier}")
+    if type(audience.get("safety_pin")) is not bool:
+        raise ContentError(f"Invalid audience safety_pin: {identifier}")
+
+
+def audience_caption(entry: dict) -> str:
+    audience = entry.get("audience")
+    if not audience:
+        return ""
+    age = "、".join(AGE_GROUP_LABELS[g] for g in audience["age_groups"])
+    sex = "、".join(SEX_LABELS[s] for s in audience["sexes"])
+    suffix = "；急症提示" if audience["safety_pin"] else ""
+    return f"阅读侧重：{age}；{sex}。{audience['scope_note']}{suffix}。年龄分组用于导览，不代表治疗资格。"
 
 
 def read_json(path: Path):
@@ -233,6 +270,7 @@ def validate_content(book: dict, chapters: list[dict], sources: list[dict], regi
         text_values.append(chapter["intro"])
         for entry in chapter["entries"]:
             identifier = entry["id"]
+            validate_audience(entry, required=bool(book.get("audience_schema_version")))
             # The prefix records the original allocation, not current placement.
             # Moving a registered entry must preserve its published share URL.
             if identifier in identifiers or not re.fullmatch(r"[a-z][a-z0-9]*(?:-[a-z0-9]+)*-\d{3}", identifier):
@@ -240,8 +278,15 @@ def validate_content(book: dict, chapters: list[dict], sources: list[dict], regi
             identifiers.add(identifier)
             if entry["chapter_id"] != chapter["id"] or entry["unit_id"] not in unit_ids or memberships.get(identifier) != entry["unit_id"]:
                 raise ContentError(f"Inconsistent chapter/unit: {identifier}")
-            if list(entry["fields"]) != list(FIELD_NAMES.values()) or any(not isinstance(value, str) or not value.strip() for value in entry["fields"].values()):
+            if (list(entry["fields"]) != list(FIELD_NAMES.values())
+                    or any(not isinstance(value, str) or (key not in {"cost", "notes"} and not value.strip())
+                           for key, value in entry["fields"].items())):
                 raise ContentError(f"Invalid six fields: {identifier}")
+            if "summary" in entry:
+                summary = entry["summary"]
+                if (not isinstance(summary, str) or not summary.strip()
+                        or re.search(r"[\r\n|`]|\*\*|\[[^\]]+\]|^\s*#{1,6}\s", summary)):
+                    raise ContentError(f"Summary must be one paragraph of plain text: {identifier}")
             if entry["clinical_review_status"] != "not_clinically_reviewed":
                 raise ContentError(f"Clinical sign-off is not established in this edition: {identifier}")
             date.fromisoformat(entry["content_checked_at"])
@@ -272,6 +317,12 @@ def validate_content(book: dict, chapters: list[dict], sources: list[dict], regi
         raise ContentError("Source ID registry does not match sources.json")
     if registered_entry_ids != identifiers:
         raise ContentError("Entry ID registry does not match canonical entries")
+    aliases=book.get('entry_aliases',{})
+    if not isinstance(aliases,dict):raise ContentError('Invalid entry aliases')
+    for old,target in aliases.items():
+        if (not re.fullmatch(r'[a-z][a-z0-9]*(?:-[a-z0-9]+)*-\d{3}',old)
+                or old in identifiers or target not in identifiers or old==target):
+            raise ContentError('Invalid merged entry alias: '+str(old))
 
 
 def load_content(root: Path) -> tuple[dict, list[dict], list[dict], dict]:

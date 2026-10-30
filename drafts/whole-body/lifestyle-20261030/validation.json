@@ -1,0 +1,13 @@
+{
+  "status": "passed_export_and_reader_contracts",
+  "entries": 330,
+  "sources": 573,
+  "modules": 29,
+  "source_graph_resolves": true,
+  "all_ids_preserved": true,
+  "offline_json_api_equal": true,
+  "public_copy_scan_passed": true,
+  "icons_defined": true,
+  "canonical_baseline_unchanged": true,
+  "clinical_review_status": "not_clinically_reviewed"
+}

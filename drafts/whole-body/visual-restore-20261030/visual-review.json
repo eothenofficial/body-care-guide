@@ -1,0 +1,49 @@
+{
+  "status": "pass",
+  "reviewer": "independent visual-baseline and compatibility read-through",
+  "content_version": "2026.10.30-6",
+  "scope": "Read the named current files and three current SOP documents; compare CSS with the archived 2026.10.30-4 source; invoke old and new make_data for exact equality checks; inspect generated offline portrait bytes and recorded test hash. No code or medical text edited.",
+  "checks": {
+    "old_css_is_exact_prefix": true,
+    "only_portrait_local_css_added": true,
+    "no_reading_setting_key_or_controls": true,
+    "compact_home_order": true,
+    "no_expanded_home_panels": true,
+    "aliases_unchanged": true,
+    "all_chapters_entries_unchanged": true,
+    "all_sources_unchanged": true,
+    "alias_count": 9,
+    "entry_count": 341,
+    "source_count": 638,
+    "bookmark_load_and_import_canonicalize": true,
+    "route_alias_preserves_params": true,
+    "age_and_sex_AND_filter_present": true,
+    "static_alias_shares_retained": true,
+    "offline_portrait_exact_bytes_embedded": true,
+    "online_portrait_copied": true,
+    "tests_reported": 141,
+    "tests_returncode": 0,
+    "tests_reader_hash_matches": true
+  },
+  "blockers": [],
+  "sha256": {
+    "web/styles.css": "0c70c676f4547417887fa0aef2ee7a29fb2693e44678aba95beb70af09250155",
+    "web/app.js": "2da3525b9fadde260e397c42c58d037487b91ff59c13dfbea860fde545c143d0",
+    "web/index.html": "5744cf52b089ac412d7c2579e1bb54fadc5a191f181d85809f23d08ceb095451",
+    "web/assets/home-portrait.png": "506fdaa91fb572fde67e3a7f3e893bb33a999965f0f948a8dff7ce1a4ee12a3f",
+    "scripts/build.py": "f5b5ac23bcbcc104baeb15e0c01dd2313325f706059baa5d5490cf14279a4d7d",
+    "scripts/static_pages.py": "e28abb27b4ab3940e90b9f804fa9635cef89f0cff41e3a151ccc9194cf2ac742",
+    "drafts/whole-body/visual-restore-20261030/build_release.py": "bb62f9ae24cc7980edd609dc7ff79fe93e877f2adad4ce71f95568624c23c080",
+    "drafts/whole-body/visual-restore-20261030/home-copy.json": "4bbef22d478bd3d0fc75193258b8f2960ade1343e53b1193261fe2f3690ff945",
+    "docs/身体护理指南全书规划与调用SOP.md": "b69b9ace2517010f814319a8c4f0f8f2079c1c46d8054b5c3fd3505fc89bee74",
+    "docs/继续写作Prompt.txt": "ad8c3b410e634a213620ea42d240b580727099df7db61a6283373b2bc37ab7d8",
+    "docs/身体护理项目验收清单.md": "79f941f360ab917972cf4bac1e2d0d239b1b314018855780d66af897b3fe5c5e"
+  },
+  "reader_sha256": "aafa17859f50fd1e4ed63918789aa604005bad89b9a4f1a0a7374e7f24359f1d",
+  "limits": [
+    "No manual browser or screenshot review performed by this reviewer. Pixel layout, mobile UI and image aesthetics must be checked by the parent browser review.",
+    "The existing 141-test report was read and its artifact hash checked; this reviewer did not rerun the full suite.",
+    "No medical literature was reread. Entry and source exact equality establishes preservation, not clinical correctness."
+  ],
+  "clinical_review_status": "not_clinically_reviewed"
+}

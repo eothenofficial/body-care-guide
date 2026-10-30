@@ -1,0 +1,55 @@
+{
+  "status": "editorial_draft_not_clinically_reviewed",
+  "checked_at": "2026-10-29",
+  "new_entries": 5,
+  "replacement_ids": [
+    "oral-012"
+  ],
+  "sources": 20,
+  "doi_sources": 0,
+  "checks": {
+    "summary_range": "110–170 chars",
+    "field_order": true,
+    "citation_graph": true,
+    "all_new_sources_used": true
+  },
+  "age_thresholds": [
+    {
+      "claim": "不晚于七岁首次评估",
+      "source": "DENTAGE-S05",
+      "meaning": "AAO检查建议，非强制治疗时间、非中国法定截止；有异常更早评估。"
+    },
+    {
+      "claim": "换牙完成后约十一二岁讨论多数全面矫治",
+      "source": "DENTAGE-S04",
+      "meaning": "常见发育阶段，非人人同龄；初查可以更早，地包天等另行早评估。"
+    },
+    {
+      "claim": "年龄组0–11/12–17/18–64/65+",
+      "source": "editorial_navigation_only",
+      "meaning": "界面年龄段，不是正畸或种植的临床入选标准。"
+    }
+  ],
+  "source_conflicts": [
+    {
+      "topic": "保持器停戴",
+      "details": "NHC2025发布会允许逐步停戴的概括不等同AAO2025/BOS长期保持建议；本稿不沿用统一停戴承诺，仅按个体方案强调长期保持。"
+    },
+    {
+      "topic": "义齿存放",
+      "details": "NHS列保湿选项，NSW列干放；正文不规定所有材料都泡水或干放，转具体材料及制作方的维护说明。"
+    }
+  ],
+  "reading_limitations": [
+    "NHC新闻页直开412；只采官方原页搜索索引长正文可见且获其他权威来源支持的段落，不声称成功下载全文。",
+    "AAPD2024修订PDF当前题录为2025手册497–515，不沿用搜索缓存2024旧页码。"
+  ],
+  "excluded_or_unadopted": [
+    "私人医院营销正畸年龄表与套餐价格",
+    "人民网误把七岁初查写成正畸适宜时间截止的旧标题",
+    "CMA儿童地包天病因清单不推导补维生素/晒太阳治疗",
+    "OHF与AAO的宽泛附带效果不写成治病承诺",
+    "已读OHF2026义齿指导存在Haleon赞助；本轮不纳为引用，黏附剂边界改用FDA原始患者安全页，基础护理由NHS/NSW政府页支撑。"
+  ],
+  "scope": "本任务只写牙齿年龄分支；未修改chapters及公开站点。"
+}

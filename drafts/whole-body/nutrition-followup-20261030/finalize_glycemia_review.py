@@ -1,0 +1,10 @@
+"""Root's independent editorial/evidence review of the glycemia input."""
+import hashlib,json
+from pathlib import Path
+HERE=Path(__file__).resolve().parent
+if __name__=='__main__':
+    review=dict(checked_at='2026-10-30',reviewer='root；不同于血糖原作者',clinical_review_status='not_clinically_reviewed',
+        checked=['逐句核两条正文、summary、受众、全部11源记录与主张映射','独立打开新疆卫健委2024国家政策全文，确认40岁/高危年度和糖前半年频次','独立读取JAMA2026原文患者教育页及利益披露，并对原刊检索和PubMed核正式卷期1182、DOI','独立读取Springer2022原始综述方法/摘要，确认七项单日交叉研究及短期代理结局','餐序综述独立核PubMed题录与摘要，PMC出现校验页、原刊403，未绕过、未声称独立全文阅读；原作者另有全文核读记录','GI首次给中文全称；新增一日餐食内链；不写健康人必须常规CGM、零波动或某固定分钟数防病'],
+        limitations=['独立复核并非临床签审，也未逐篇复算或完整复读作者所有机构来源。','部分原始全文独立访问受限；以已核摘要和明确保留的边界使用，不升级证据。'],blocking_unresolved=[],
+        input_sha256={name:hashlib.sha256((HERE/name).read_bytes()).hexdigest() for name in ['glycemia-entries.json','glycemia-sources.json']})
+    (HERE/'glycemia-independent-review.json').write_text(json.dumps(review,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')

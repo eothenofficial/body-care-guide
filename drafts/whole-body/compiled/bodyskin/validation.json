@@ -1,0 +1,12 @@
+{
+  "part": "bodyskin",
+  "status": "passed_structural_and_export_checks",
+  "entries": 25,
+  "sources": 36,
+  "standalone_html_sha256": "c063b9c38d5afe5ded673c175c763322a02887026f55ae7f0bf998afd9a4014a",
+  "source_graph_resolves": true,
+  "export_data_equal": true,
+  "all_audience_ranges_retained": true,
+  "canonical_content_unchanged": true,
+  "clinical_review_status": "not_clinically_reviewed"
+}

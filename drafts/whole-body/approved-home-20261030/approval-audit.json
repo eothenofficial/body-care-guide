@@ -1,0 +1,28 @@
+{
+  "status": "passed",
+  "title": "少走弯路的人体保养指南",
+  "approved_paragraphs_exact": true,
+  "paragraphs": 2,
+  "entries_unchanged": 341,
+  "sources_unchanged": 638,
+  "chapters_unchanged": 29,
+  "aliases_unchanged": true,
+  "markdown_title_and_intro_match": true,
+  "old_public_name_in_markdown": false,
+  "reader_sha256": "49e70791b9b231ec3b9c6040480bb5ba810cedea3ff34bb8adaced0ed7060ccb",
+  "browser": {
+    "desktop_paragraph_font_px": 13,
+    "mobile_paragraph_font_px": 11,
+    "mobile_viewport_px": 375,
+    "mobile_client_and_scroll_width_px": [
+      360,
+      360
+    ],
+    "portrait_hidden_on_mobile": true,
+    "viewport_reset": true,
+    "desktop_document_overflow": false,
+    "download_names_match_full_title": true
+  },
+  "clinical_content_changed": false,
+  "published": false
+}

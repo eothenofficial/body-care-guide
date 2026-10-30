@@ -1,0 +1,342 @@
+[
+  {
+    "id": "SKIN-S01",
+    "citation": "American Academy of Dermatology Association. Face washing 101 [Internet]. [cited 2026 Oct 29]. Available from: https://www.aad.org/public/everyday-care/skin-care-basics/care/face-washing-101",
+    "url": "https://www.aad.org/public/everyday-care/skin-care-basics/care/face-washing-101",
+    "type": "institutional_guidance",
+    "support": "温水、指腹、温和清洁，避免搓擦；洗后干痒按需保湿；一般每天约两次并在出汗后清洁。",
+    "limitations": "临床护理建议，未提供健康年轻人不同洁面配方的比较试验；不能把配方中所有名称含alcohol的成分一概禁用。",
+    "reading_depth": "已打开并核读与本章相关的正文；未把网页所引研究视为已阅读全文。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "SKIN-S02",
+    "citation": "American Academy of Dermatology Association. Skin care in your 20s [Internet]. [cited 2026 Oct 29]. Available from: https://www.aad.org/public/everyday-care/skin-care-basics/care/skin-care-in-your-20s",
+    "url": "https://www.aad.org/public/everyday-care/skin-care-basics/care/skin-care-in-your-20s",
+    "type": "institutional_guidance",
+    "support": "年轻成人以清洁、防晒和针对实际困扰的产品为主；干燥时保湿，睡前卸妆，减少同时叠加刺激性产品。",
+    "limitations": "不是所有护肤步骤必需性的随机试验；未采用该页笼统的糖量与衰老表述，不推导睡前没卸妆一定加速衰老。",
+    "reading_depth": "已打开并核读与本章相关的正文；未把网页所引研究视为已阅读全文。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "SKIN-S03",
+    "citation": "American Academy of Dermatology Association. How to select a sunscreen [Internet]. [cited 2026 Oct 29]. Available from: https://www.aad.org/public/everyday-care/sun-protection/shade-clothing-sunscreen/how-to-select-sunscreen",
+    "url": "https://www.aad.org/public/everyday-care/sun-protection/shade-clothing-sunscreen/how-to-select-sunscreen",
+    "type": "institutional_guidance",
+    "support": "选择广谱、SPF30或更高的防晒；游泳出汗场景考虑耐水性。",
+    "limitations": "美国40/80分钟耐水标签规则不等同中国标识；SPF不表示可不补涂的小时数，不能只由矿物/有机分类推断所有产品优劣。",
+    "reading_depth": "已打开并核读与本章相关的正文；未把网页所引研究视为已阅读全文。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "SKIN-S04",
+    "citation": "American Academy of Dermatology Association. How to apply sunscreen [Internet]. Updated 2025 Aug 15. [cited 2026 Oct 29]. Available from: https://www.aad.org/public/everyday-care/sun-protection/shade-clothing-sunscreen/how-to-apply-sunscreen",
+    "url": "https://www.aad.org/public/everyday-care/sun-protection/shade-clothing-sunscreen/how-to-apply-sunscreen",
+    "type": "institutional_guidance",
+    "support": "户外约每两小时补涂并在游泳、出汗后处理；暴露部位完整覆盖，配合衣帽遮阳；有色含氧化铁防晒可用于特定色沉问题。",
+    "limitations": "不把户外补涂频率变成所有室内场景硬性要求；未采用该页面部一茶匙的普适化用量，也不承诺一个固定用量适合所有面部面积。",
+    "reading_depth": "已打开并核读与本章相关的正文；未把网页所引研究视为已阅读全文。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "SKIN-S05",
+    "citation": "American Academy of Dermatology Association. Facial masks and your skin [Internet]. Updated 2026 Mar 3. [cited 2026 Oct 29]. Available from: https://www.aad.org/public/everyday-care/skin-care-secrets/routine/facial-masks-and-skin-care",
+    "url": "https://www.aad.org/public/everyday-care/skin-care-secrets/routine/facial-masks-and-skin-care",
+    "type": "institutional_guidance",
+    "support": "面膜是可选的保湿、舒适步骤，不替代基础护理或皮肤病治疗；遵守停留时间，避免反复叠加酸和视黄醇。",
+    "limitations": "该机构页面不构成每种面膜成分或品牌均有效的临床证明；未采用其对植物提取物、肽等的宽泛功效推介；喷雾优于常规保湿的结论未建立。",
+    "reading_depth": "已打开并核读与本章相关的正文；未把网页所引研究视为已阅读全文。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "SKIN-S06",
+    "citation": "American Academy of Dermatology Association. How to test skin care products [Internet]. [cited 2026 Oct 29]. Available from: https://www.aad.org/public/everyday-care/skin-care-secrets/prevent-skin-problems/test-skin-care-products/",
+    "url": "https://www.aad.org/public/everyday-care/skin-care-secrets/prevent-skin-problems/test-skin-care-products/",
+    "type": "institutional_guidance",
+    "support": "普通新护肤品可在小范围按正常用量试用7至10天；出现不良反应停止；fragrance-free与unscented不等同。",
+    "limitations": "小范围自行试用不能确诊或排除接触过敏，也不是专业斑贴试验；不用于自行封包测试高浓度剥脱剂或染发剂。",
+    "reading_depth": "已打开并核读与本章相关的正文；未把网页所引研究视为已阅读全文。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "SKIN-S07",
+    "citation": "American Academy of Dermatology Association. American Academy of Dermatology issues updated guidelines for the management of acne [Internet]. 2024 Jan 31. [cited 2026 Oct 29]. Available from: https://www.aad.org/news/updated-guidelines-acne-management",
+    "url": "https://www.aad.org/news/updated-guidelines-acne-management",
+    "type": "institutional_guidance",
+    "support": "2024痤疮指南对过氧化苯甲酰、外用维A类等作出推荐；水杨酸、壬二酸为条件性推荐；限制抗生素疗程并配合过氧化苯甲酰，严重或常规治疗失败考虑专科系统治疗；饮食和多数补充剂不足以作治疗推荐。",
+    "limitations": "读取的是学会发布的指南摘要，不冒充已读JAAD指南全文；推荐强度不直接等同本项目A/B/C证据等级，不据此提供个人处方或中国药品准入结论。",
+    "reading_depth": "已打开并核读与本章相关的正文；未把网页所引研究视为已阅读全文。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "SKIN-S08",
+    "citation": "American Academy of Dermatology Association. Adult acne treatment dermatologists recommend [Internet]. 2023 Jan 10. [cited 2026 Oct 29]. Available from: https://www.aad.org/public/diseases/acne/diy/adult-acne-treatment",
+    "url": "https://www.aad.org/public/diseases/acne/diy/adult-acne-treatment",
+    "type": "institutional_guidance",
+    "support": "区分轻度粉刺小痘与深部疼痛结节；选择对应的过氧化苯甲酰、阿达帕林、壬二酸或水杨酸，通常给耐受方案数周观察；深痛或瘢痕需升级。",
+    "limitations": "美国非处方可得性不能移植为中国自行购药许可；不照抄具体浓度作为处方，不保证所有人在固定周数清痘。",
+    "reading_depth": "已打开并核读与本章相关的正文；未把网页所引研究视为已阅读全文。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "SKIN-S09",
+    "citation": "American Academy of Dermatology Association. Is any acne treatment safe to use during pregnancy? [Internet]. [cited 2026 Oct 29]. Available from: https://www.aad.org/public/diseases/acne/derm-treat/pregnancy",
+    "url": "https://www.aad.org/public/diseases/acne/derm-treat/pregnancy",
+    "type": "institutional_guidance",
+    "support": "妊娠避免异维A酸及外用维A类；壬二酸可作为讨论的替代类别，过氧化苯甲酰和水杨酸需限定方式并与产科或皮肤科确认。",
+    "limitations": "妊娠安全性多非孕妇随机试验；不能把“被认为可用”写成无条件绝对安全，不将所有酸类笼统归为禁用，也不提供自行口服药建议。",
+    "reading_depth": "已打开并核读与本章相关的正文；未把网页所引研究视为已阅读全文。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "SKIN-S10",
+    "citation": "American Academy of Dermatology Association. Acne scars: Consultation and treatment [Internet]. 2023 Dec 8. [cited 2026 Oct 29]. Available from: https://www.aad.org/public/diseases/acne/derm-treat/scars/treatment",
+    "url": "https://www.aad.org/public/diseases/acne/derm-treat/scars/treatment",
+    "type": "institutional_guidance",
+    "support": "先控制活动痤疮；凹陷、隆起等瘢痕按结构选择不同专业治疗，轻微外观有时可受益于外用药。",
+    "limitations": "未采用该页对射频微针安全性的泛化表述，相关风险以FDA2025安全通报补充；不能由部分轻微瘢痕可改善推导护肤品能填平所有深痘坑。",
+    "reading_depth": "已打开并核读与本章相关的正文；未把网页所引研究视为已阅读全文。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "SKIN-S11",
+    "citation": "American Academy of Dermatology Association. How to fade dark spots in darker skin tones [Internet]. 2025 Mar 10. [cited 2026 Oct 29]. Available from: https://www.aad.org/public/everyday-care/skin-care-secrets/routine/fade-dark-spots",
+    "url": "https://www.aad.org/public/everyday-care/skin-care-secrets/routine/fade-dark-spots",
+    "type": "institutional_guidance",
+    "support": "炎症后色素沉着先处理痤疮或刺激源；防晒和部分针对色沉的外用成分可改善；不使用漂白剂与来源不明美白品。",
+    "limitations": "侧重较深肤色，不能保证所有中国人效果相同；不移植“美国制造更好”的地域结论，不把所有斑点都诊断为色沉或给所有人相同消退期限。",
+    "reading_depth": "已打开并核读与本章相关的正文；未把网页所引研究视为已阅读全文。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "SKIN-S12",
+    "citation": "Bissett DL, Oblong JE, Berge CA. Niacinamide: A B vitamin that improves aging facial skin appearance. Dermatol Surg. 2005;31(7 Pt 2):860-865; discussion 865. doi:10.1111/j.1524-4725.2005.31732.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/16029679/",
+    "type": "randomized_trial",
+    "support": "50名白人女性、12周半脸对照中，5%烟酰胺特定配方改善部分细纹、色素等外观指标。",
+    "limitations": "小型、短期、特定人群及配方；作者有宝洁任职背景；没有比较10%与5%，不能推导所有烟酰胺产品或中国年轻男女都有同等效果。",
+    "reading_depth": "已打开PubMed并完整核读题录、作者、摘要与DOI；未阅读全文。页码按PubMed保留860-865; discussion 865，出版商合并显示860-866，未混写。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "SKIN-S13",
+    "citation": "Sitohang IBS, Makes WI, Sandora N, Suryanegara J. Topical tretinoin for treating photoaging: A systematic review of randomized controlled trials. Int J Womens Dermatol. 2022;8(1):e003. doi:10.1097/JW9.0000000000000003.",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9112391/",
+    "type": "systematic_review",
+    "support": "7项随机试验支持外用维A酸对部分光老化指标的改善；研究配方与随访时间不同，可有刺激反应。",
+    "limitations": "试验异质性、女性占多数；不能外推到所有化妆品视黄醇、所有浓度或年轻无光老化人群；未将剥脱治疗浓度写成家庭日常用法。",
+    "reading_depth": "已打开PMC全文，核读摘要、纳入方法、试验结果与局限，并核对题录、DOI。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "SKIN-S14",
+    "citation": "Myung SK, Park Y. Effects of collagen supplements on skin aging: A systematic review and meta-analysis of randomized controlled trials. Am J Med. 2025;138(9):1264-1277. doi:10.1016/j.amjmed.2025.04.034.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40324552/",
+    "type": "systematic_review",
+    "support": "23项随机试验、1474人；合并结果与按质量、资金来源分组的结果不同；高质量及按作者定义的非药企资助子组未见显著获益。",
+    "limitations": "仅核读摘要，未逐一重评每项试验及其资金分类；“未见显著”不是证明所有胶原产品无效；不能把药企资助分类等同全部商业关联。",
+    "reading_depth": "已打开PubMed完整核读题录、摘要与DOI；未阅读全文。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "SKIN-S15",
+    "citation": "Mayo Clinic. Dark circles under eyes: Causes [Internet]. 2025 Dec 25. [cited 2026 Oct 29]. Available from: https://www.mayoclinic.org/symptoms/dark-circles-under-eyes/basics/causes/sym-20050624",
+    "url": "https://www.mayoclinic.org/symptoms/dark-circles-under-eyes/basics/causes/sym-20050624",
+    "type": "institutional_guidance",
+    "support": "黑眼圈可涉及色素、湿疹、接触性皮炎、遗传、血管显露以及眼袋或凹陷阴影；睡眠不足不是唯一成因；单侧持续变化需检查。",
+    "limitations": "临床科普不能支持所有含咖啡因、维生素K或眼贴的产品有效；未采用“眼贴不受FDA监管”等过于宽泛的监管说法。",
+    "reading_depth": "已打开并核读与本章相关的正文；未把网页所引研究视为已阅读全文。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "SKIN-S16",
+    "citation": "American Academy of Dermatology Association. How to shave [Internet]. [cited 2026 Oct 29]. Available from: https://www.aad.org/public/everyday-care/skin-care-basics/hair/how-to-shave",
+    "url": "https://www.aad.org/public/everyday-care/skin-care-basics/hair/how-to-shave",
+    "type": "institutional_guidance",
+    "support": "先湿润软化、使用剃须介质、顺毛轻刮、冲洗并保持工具干净，长痘时避免刀片反复刮痘。",
+    "limitations": "不据此断言一类剃刀最适合所有人，不给所有人统一更换刀片次数；未查证的眼周剃毛操作不纳入。",
+    "reading_depth": "已打开并核读与本章相关的正文；未把网页所引研究视为已阅读全文。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "SKIN-S17",
+    "citation": "American Academy of Dermatology Association. Is red light therapy right for your skin? [Internet]. [cited 2026 Oct 29]. Available from: https://www.aad.org/public/cosmetic/safety/red-light-therapy",
+    "url": "https://www.aad.org/public/cosmetic/safety/red-light-therapy",
+    "type": "institutional_guidance",
+    "support": "家用红光可能改善部分外观指标，但设备参数和研究不同，需要持续使用、遵循说明及眼部防护；光敏疾病或药物需先评估。",
+    "limitations": "未把一种设备研究外推所有LED面罩；未采用该页“FDA只clears从不approves器械”的不准确泛论；境外监管标签不等于在华许可或所有宣传有效。",
+    "reading_depth": "已打开并核读与本章相关的正文；未把网页所引研究视为已阅读全文。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "SKIN-S18",
+    "citation": "U.S. Food and Drug Administration. Potential risks with certain uses of radiofrequency (RF) microneedling: FDA safety communication [Internet]. 2025 Oct 15. [cited 2026 Oct 29]. Available from: https://www.fda.gov/medical-devices/safety-communications/potential-risks-certain-uses-radiofrequency-rf-microneedling-fda-safety-communication",
+    "url": "https://www.fda.gov/medical-devices/safety-communications/potential-risks-certain-uses-radiofrequency-rf-microneedling-fda-safety-communication",
+    "type": "institutional_guidance",
+    "support": "射频微针通过针与能量作用于皮肤；已有烧伤、瘢痕、脂肪流失、神经损伤等严重不良事件报告；应由合资格有经验医疗人员操作，不供居家使用。",
+    "limitations": "安全信号不是所有设备同等风险的发生率；不能将射频微针与表面LED、所有家用射频设备混同。",
+    "reading_depth": "已打开并核读FDA通报全文，包括面向消费者与医务人员建议；未取得事件原始病例清单。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "SKIN-S19",
+    "citation": "中华人民共和国国家卫生健康委员会. 医卫人员及医疗卫生机构查询 [Internet]. [cited 2026 Oct 29]. Available from: https://zwfw.nhc.gov.cn/cxx/",
+    "url": "https://zwfw.nhc.gov.cn/cxx/",
+    "type": "institutional_guidance",
+    "support": "官网提供执业医师、部分机构和卫生许可等查询入口，可作为就医前核验渠道。",
+    "limitations": "仅核读查询入口，未代读者核验任何具体医生或机构；登记和许可不能保证个案效果，不用门户页面推导精确医美执业年限法律标准。",
+    "reading_depth": "已打开国家卫健委查询页并核对执业医师与机构相关入口；未执行个人信息查询。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "SKIN-S20",
+    "citation": "Cleveland Clinic. Sebaceous filaments [Internet]. Last reviewed 2023 Jan 4. [cited 2026 Oct 29]. Available from: https://my.clevelandclinic.org/health/diseases/24571-sebaceous-filaments",
+    "url": "https://my.clevelandclinic.org/health/diseases/24571-sebaceous-filaments",
+    "type": "institutional_guidance",
+    "support": "皮脂丝属于正常毛囊皮脂结构，与形成堵塞的黑头不同；挤压或鼻贴不能永久消除正常皮脂丝。",
+    "limitations": "临床科普而非各类祛黑头产品比较试验；未采用“过度清洗必然反跳性出油”的简化因果解释。",
+    "reading_depth": "已打开并核读与本章相关的正文；未把网页所引研究视为已阅读全文。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "SKIN-S21",
+    "citation": "American Academy of Dermatology Association. Rosacea: Diagnosis and treatment [Internet]. 2024 Apr 3. [cited 2026 Oct 29]. Available from: https://www.aad.org/public/diseases/rosacea/treatment/diagnosis-treat",
+    "url": "https://www.aad.org/public/diseases/rosacea/treatment/diagnosis-treat",
+    "type": "institutional_guidance",
+    "support": "玫瑰痤疮按持续潮红、炎性丘疹、血管和眼部受累等表现分型处理；温和护理、诱因管理，部分病例使用壬二酸、甲硝唑、伊维菌素或血管类专业治疗。",
+    "limitations": "不是读者自诊标准或个人处方；不移植美国药品批准类别，不泛荐口服补充剂或婴儿洗发水清洗眼睑。",
+    "reading_depth": "已打开并核读与本章相关的正文；未把网页所引研究视为已阅读全文。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "SKIN-S22",
+    "citation": "American Academy of Dermatology Association. Seborrheic dermatitis: Diagnosis and treatment [Internet]. [cited 2026 Oct 29]. Available from: https://www.aad.org/public/diseases/a-z/seborrheic-dermatitis-treatment",
+    "url": "https://www.aad.org/public/diseases/a-z/seborrheic-dermatitis-treatment",
+    "type": "institutional_guidance",
+    "support": "脂溢性皮炎可累及面部眉间、鼻旁等处，处理包括抗真菌药和适当短程抗炎方案，需鉴别其他皮肤病。",
+    "limitations": "不把头皮去屑产品用法直接套在脸上，不给面部自行长期用激素或统一疗程，也不将所有脱屑都诊断为真菌感染。",
+    "reading_depth": "已打开并核读与本章相关的正文；未把网页所引研究视为已阅读全文。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "SKIN-S23",
+    "citation": "American Academy of Dermatology Association. Moles: Signs and symptoms [Internet]. [cited 2026 Oct 29]. Available from: https://www.aad.org/public/diseases/a-z/moles-symptoms",
+    "url": "https://www.aad.org/public/diseases/a-z/moles-symptoms",
+    "type": "institutional_guidance",
+    "support": "色素痣的ABCDE和与其他痣不同等变化提示就诊；直径较小也不能排除问题。",
+    "limitations": "筛查警示不是照片远程确诊；不把六毫米设为绝对安全线，不对所有稳定痣要求切除。",
+    "reading_depth": "已打开并核读与本章相关的正文；未把网页所引研究视为已阅读全文。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "SKIN-S24",
+    "citation": "American Academy of Dermatology Association. How to clean your makeup brushes [Internet]. [cited 2026 Oct 29]. Available from: https://www.aad.org/public/everyday-care/skin-care-secrets/routine/clean-your-makeup-brushes",
+    "url": "https://www.aad.org/public/everyday-care/skin-care-secrets/routine/clean-your-makeup-brushes",
+    "type": "institutional_guidance",
+    "support": "化妆刷需定期清洁、充分干燥、不共用；参考7至10天清洁并按使用与污染调整。",
+    "limitations": "卫生建议不是证明一洗刷子就能治好痤疮；未将刷具频率直接规定为所有海绵、眼部工具通用消毒参数。",
+    "reading_depth": "已打开并核读与本章相关的正文；未把网页所引研究视为已阅读全文。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "SKIN-S25",
+    "citation": "U.S. Food and Drug Administration. FDA warns against purchasing or using chemical peel skin products without professional supervision [Internet]. 2024 Jul 30. [cited 2026 Oct 29]. Available from: https://www.fda.gov/drugs/drug-alerts-and-statements/fda-warns-against-purchasing-or-using-chemical-peel-skin-products-without-professional-supervision",
+    "url": "https://www.fda.gov/drugs/drug-alerts-and-statements/fda-warns-against-purchasing-or-using-chemical-peel-skin-products-without-professional-supervision",
+    "type": "institutional_guidance",
+    "support": "高浓度酸剥脱在无专业监督下可致严重烧伤、感染、色素改变和瘢痕；风险受浓度、停留时长和反复次数影响。",
+    "limitations": "不将针对高强度剥脱的警告扩大为所有合规低强度酸类化妆品均危险；不提供家庭专业剥脱配方、浓度阈值或中和操作。",
+    "reading_depth": "已打开并核读与本章相关的正文；未把网页所引研究视为已阅读全文。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "SKIN-S26",
+    "citation": "National Health Service. Acne [Internet]. [cited 2026 Oct 29]. Available from: https://www.nhs.uk/conditions/acne/",
+    "url": "https://www.nhs.uk/conditions/acne/",
+    "type": "institutional_guidance",
+    "support": "不挤痘、选择不易堵塞毛孔的彩妆并睡前卸除；深部疼痛、瘢痕或明显心理困扰需获得治疗。",
+    "limitations": "未采用该页对锌、烟酰胺和维生素A口服补充剂的宽泛推荐；非致痘标签不是对每个人绝不长痘的保证。",
+    "reading_depth": "已打开并核读与本章相关的正文；未把网页所引研究视为已阅读全文。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "SKIN-S27",
+    "citation": "Bassila C, Bassila JC, Slim M. Efficacy and safety of hydrolyzed collagen supplementation on skin health outcomes: a systematic literature review of randomized controlled trials. Eur J Clin Nutr. 2026;80(9):867-885. doi:10.1038/s41430-026-01778-3.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42342959/",
+    "type": "systematic_review",
+    "support": "25项随机试验综述描述了部分保湿、弹性等测量改善，同时指出多数研究偏倚风险高，需更大和更长期的高质量试验。",
+    "limitations": "2026发表但检索截止2023年4月1日，不能因发表晚就称纳入了更新试验；生活质量结果多来自关节炎人群，未外推至年轻人美容；作者利益披露包括Lumanity任职。",
+    "reading_depth": "已打开PubMed完整核读题录、摘要、利益披露与DOI；未阅读全文。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "SKIN-S28",
+    "citation": "Hughes MCB, Williams GM, Baker P, Green AC. Sunscreen and prevention of skin aging: a randomized trial. Ann Intern Med. 2013;158(11):781-790. doi:10.7326/0003-4819-158-11-201306040-00002.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/23732711/",
+    "type": "randomized_trial",
+    "support": "903名55岁以下成人，4.5年随机比较日常与随意防晒，皮肤微表面评分支持规律防晒减少光老化进展。",
+    "limitations": "结局有缺失且统计功效有限；不是所有年轻人、面部部位、品牌和涂法的保证；相对比值不能译成年轻24%、少长24%皱纹或直接绝对收益。",
+    "reading_depth": "已打开PubMed完整核读题录、摘要与DOI；未阅读全文。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "SKIN-S29",
+    "citation": "U.S. Food and Drug Administration. Dermal fillers (soft tissue fillers) [Internet]. [cited 2026 Oct 29]. Available from: https://www.fda.gov/medical-devices/aesthetic-cosmetic-devices/dermal-fillers-soft-tissue-fillers",
+    "url": "https://www.fda.gov/medical-devices/aesthetic-cosmetic-devices/dermal-fillers-soft-tissue-fillers",
+    "type": "institutional_guidance",
+    "support": "填充剂改变组织轮廓，可能需要维持；误入血管可导致坏死、视力损伤和卒中；异常疼痛、局部灰白蓝及视力变化需立即求助；不自行注射。",
+    "limitations": "美国具体批准年龄、部位和产品不直接等于中国许可；监管网页不能给所有注射项目统一并发症发生率，也不证明登记医生个案技术可靠。",
+    "reading_depth": "已打开并核读FDA网页全文，包括患者建议与血管并发症警示；未逐一评估全部填充剂注册试验。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "SKIN-S30",
+    "citation": "National Health Service. Anaphylaxis [Internet]. Last reviewed 2023 Jun 21 [cited 2026 Oct 29]. Available from: https://www.nhs.uk/conditions/anaphylaxis/",
+    "url": "https://www.nhs.uk/conditions/anaphylaxis/",
+    "type": "institutional_guidance",
+    "support": "突发口唇舌咽肿胀、呼吸或吞咽困难等可为严重过敏反应，需要立即急救。",
+    "limitations": "英国999号码不照搬至中国；仅用于紧急分流，不声称所有局部护肤刺激都是全身过敏，也不指导无处方自行注射。网页标示下次审阅2026年6月，已过计划审阅日，引用为仍在官网的急救原则而非假定已更新。",
+    "reading_depth": "已打开并核读NHS症状、紧急求助与急救正文，核对实际最近审阅日期；未把计划审阅日当成实际更新。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "SKIN-ADD-01",
+    "citation": "European Medicines Agency. Updated measures for pregnancy prevention during retinoid use [Internet]. [cited 2026 Oct 29]. Available from: https://www.ema.europa.eu/en/news/updated-measures-pregnancy-prevention-during-retinoid-use",
+    "url": "https://www.ema.europa.eu/en/news/updated-measures-pregnancy-prevention-during-retinoid-use",
+    "type": "监管或专业机构原始指导",
+    "support": "外用维A类药物在妊娠和计划怀孕时避免使用；口服与外用的系统风险和预防要求不同。",
+    "limitations": "监管信息不直接移植为中国法律或统一停药等待时长；外用建议有预防性质，不等于每次暴露必然致畸。",
+    "reading_depth": "独立复核者已打开原页，审读患者及专业人员段；未从无日期摘取中猜年份。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "SKIN-ADD-02",
+    "citation": "American Academy of Dermatology Association. Dermatologist-approved pregnancy skin care [Internet]. 2025 Jun 26 [cited 2026 Oct 29]. Available from: https://www.aad.org/public/everyday-care/skin-care-secrets/routine/pregnancy-skin-care",
+    "url": "https://www.aad.org/public/everyday-care/skin-care-secrets/routine/pregnancy-skin-care",
+    "type": "监管或专业机构原始指导",
+    "support": "妊娠避开维A类及含retinol护肤品，计划怀孕先核对正在用的药与护肤方案。",
+    "limitations": "仅取维A类与专业核对建议；原页把retinol与adapalene举例混杂，不能照抄成两者同一物，也不采其全部防腐剂泛泛限制。",
+    "reading_depth": "已打开原页并核读Ingredients to avoid、trying to become pregnant与Last updated日期。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "SKIN-ADD-03",
+    "citation": "National Health Service. Moles [Internet]. 2023 Jul 4 [cited 2026 Oct 29]. Available from: https://www.nhs.uk/conditions/moles/",
+    "url": "https://www.nhs.uk/conditions/moles/",
+    "type": "监管或专业机构原始指导",
+    "support": "改变大小形色、出血结痂、发炎，或新异常点数周不退应检查。",
+    "limitations": "网页过计划复审日，不假定2026已复审；不复制英国转诊时限、收费或把所有痣判断为癌。",
+    "reading_depth": "已打开原页，审读Signs和See a GP段及实际最近审阅日期。",
+    "content_checked_at": "2026-10-29"
+  },
+  {
+    "id": "SKIN-ADD-04",
+    "citation": "Cleveland Clinic. Milia [Internet]. 2022 Aug 10 [cited 2026 Oct 29]. Available from: https://my.clevelandclinic.org/health/diseases/17868-milia",
+    "url": "https://my.clevelandclinic.org/health/diseases/17868-milia",
+    "type": "学术医疗中心患者指导",
+    "support": "粟丘疹并非粉刺，眼周可见；不要自行挤刮，外观介意可专业处理。",
+    "limitations": "网页包含大量婴儿内容，本文只取成人常见定义与安全动作；不采用婴儿恢复时长，不给眼周自行去角质或用药方案。",
+    "reading_depth": "2026-10-29两位编辑直接打开原页，核读Overview、What causes、treatment、home removal及实际2022更新日；仅取稳定定义和护理安全，不冒称近期比较试验。",
+    "content_checked_at": "2026-10-29"
+  }
+]

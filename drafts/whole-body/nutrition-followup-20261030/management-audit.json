@@ -1,0 +1,18 @@
+{
+  "scope": "营养、体重体型和进食安全；不扩展完整心理健康百科。",
+  "source_access": "仅使用实际核读的官方页面、官方原始PDF与期刊/作者机构公开出版物；记录阅读层次及访问限制。",
+  "clinical_review_status": "not_clinically_reviewed",
+  "entry_ids": [
+    "nutrition-020",
+    "nutrition-021",
+    "nutrition-022",
+    "nutrition-023"
+  ],
+  "do_not_infer": [
+    "中国成人BMI分类不等于每种药说明书门槛",
+    "去脂体重不等于肌肉",
+    "未检出局部减脂优势不等于永久绝无任何局部效应",
+    "FDA器械信息不等于中国注册",
+    "体重正常不排除进食障碍"
+  ]
+}

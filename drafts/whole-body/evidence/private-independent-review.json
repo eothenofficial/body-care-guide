@@ -1,0 +1,430 @@
+{
+  "status": "independent_reviews_merged_not_clinical_review",
+  "blocking_unresolved": [],
+  "clinical_review_status": "not_clinically_reviewed",
+  "baseline": {
+    "status": "passed_after_author_revision_not_clinically_reviewed",
+    "reviewed_on": "2026-10-29",
+    "reviewer": "independent_ai_whole_neck",
+    "chapter_id": "private",
+    "entries_reviewed": 19,
+    "source_records_reviewed": 25,
+    "blocking_unresolved": [],
+    "resolved_findings": [
+      {
+        "entry": "private-001",
+        "severity_original": "blocking",
+        "finding": "原稿非突发持续隐痛泛放预约检查，可能把持续/静息仍痛降级。",
+        "resolution": "已实际重读修订：题名、摘要、首段纳持续不退/静息仍痛急诊，注明超过1小时不是等待门槛；末段新包块若伴上述痛仍优先急诊。",
+        "source": "PRIVATE-S01"
+      },
+      {
+        "entry": "private-004/private-005",
+        "severity_original": "safety_clarification",
+        "finding": "儿童卡住盖不回与肿痛联结可能引入不必要条件。",
+        "resolution": "已重读004/005摘要及005正文：盖不回本身立即就医，不需等肿痛。成人正文也以盖不回为急症。",
+        "source": "PRIVATE-S03"
+      },
+      {
+        "entry": "private-009",
+        "severity_original": "safety_clarification",
+        "finding": "原发热伴其他表现可能被理解为组合才求医。",
+        "resolution": "已实际重读修订后的题名/摘要/正文：高热、明显呕吐腹泻、皮疹或头晕等新异常立即停用求医，不必全齐或一定发热；晕厥/意识/呼吸重症急救。",
+        "source": "PRIVATE-S13/PRIVATE-S14"
+      },
+      {
+        "entry": "PRIVATE-S13",
+        "severity_original": "citation_metadata",
+        "finding": "引用题名沿用旧链接描述。",
+        "resolution": "已核来源表改为当前实际标题The Facts on Tampons and Tampon Safety。"
+      }
+    ],
+    "nonblocking_notes": [
+      {
+        "entry": "private-014",
+        "finding": "现有高风险与肾感染分流正确，可再补同一NHS来源的意识混乱、嗜睡或说话困难急诊，增强儿童/老年入口。",
+        "status": "resolved",
+        "resolution": "已实际重读014：正文加意识混乱/异常嗜睡/说话困难急诊；不把年长者新意识变化自动归UTI；摘要同步，safety_pin=true。"
+      }
+    ],
+    "actually_read": {
+      "local_files": [
+        "drafts/whole-body/chapters/private.json：全部19条，后重读001/004/005/009修订，并重读014末次急症补强",
+        "drafts/whole-body/evidence/private-sources.json：全部25项citation/support/limitations/reading_depth"
+      ],
+      "web_primary_sections": {
+        "PRIVATE-S01": "NHS睾丸痛：突发重痛、伴恶心/腹痛、超过1小时或静息仍痛急诊；肿块及变化及时评估。",
+        "PRIVATE-S02": "NHS骨盆痛：妊娠可能与严重/加重、晕厥、出血等分流。",
+        "PRIVATE-S03": "NHS2026包皮：成人轻回缩与复位、儿童不强翻、嵌顿本身即急症。",
+        "PRIVATE-S04": "AAP2024：自然分离时间差异、不强翻、不用棉签/消毒剂，分离后清洁并盖回。",
+        "PRIVATE-S05": "NHS分泌物：正常变化、异常求助、外部温和无香清洁和不灌洗。",
+        "PRIVATE-S06": "CDC2021：病史/pH不足以确定病原、镜检局限与非感染原因。",
+        "PRIVATE-S07": "CDC2021：无症状定植、自行治疗失败/两月内复发评估、妊娠局部唑类7日且避免口服氟康唑、乳胶相互影响。",
+        "PRIVATE-S08": "NHS硬化性苔藓：各年龄性别、白斑与瘢痕、处方强激素、低但需监测的肿瘤风险。",
+        "PRIVATE-S09": "NHS龟头炎：多病因、取样和血糖、发炎仅水/润肤替代皂及儿童不强翻。",
+        "PRIVATE-S10": "DermNet2018：汗湿摩擦/刺激等原因、鉴别采样和长期强效激素风险；未采用生育推测。",
+        "PRIVATE-S11": "CDC经期：用品更换、体外清洁不灌洗、透气与无香；不采纳其饮水防酵母/年年Pap泛化。",
+        "PRIVATE-S12": "FDA2026经期总览：产品分类、经期使用、标签和卫生；未另读其金属研究全文。",
+        "PRIVATE-S13": "FDA当前棉条页：4–8小时且不超8、最低适合吸收、经期使用，任何相关新全身异常立即停止求医。",
+        "PRIVATE-S14": "NHS TSS：罕见但急症、棉条与杯均可相关、无需症状全部齐、停用和紧急求助。",
+        "PRIVATE-S15": "NHS UTI：儿童/65岁以上/男性/妊娠等及时评估，48小时不改善、意识/嗜睡/说话异常急诊，补剂不治既有感染。",
+        "PRIVATE-S16": "NIDDK2024成人膀胱：发热寒战/呕吐/背侧腹股沟痛提示肾感染需及时处理。",
+        "PRIVATE-S17": "CDC2026STI检测：无症状、按实践与部位选择，血尿与阴道/咽/直肠采样；未采全部美国频率。",
+        "PRIVATE-S18": "CDC安全套：乳胶与水/硅基润滑兼容、油性风险、部分未覆盖皮肤感染保护有限。",
+        "PRIVATE-S19": "CDC PEP：72小时内启动、越早越好、及时接诊、不是反复暴露常规替代；未搬具体组合剂量。",
+        "PRIVATE-S20": "NHS2025干涩：润滑与阴道保湿不同、普通皮肤乳不入阴道、持续/异常出血复评及激素条件。",
+        "PRIVATE-S21": "NIDDK2021凯格尔：男女可用、动作收缩放松、不要反复截断尿流或过度训练。",
+        "PRIVATE-S22": "StGeorge2025四页PDF文本：紧且弱时先处理紧张、排尿和性痛、放松与强化分流；核末页May2025/May2027。",
+        "PRIVATE-S23": "TGA2026原页：有效性/长期安全不足、澳洲对应年轻化用途取消；部分其他用途保留；读Outcomes与市场动作说明，未独立查每条ARTG器械。",
+        "PRIVATE-S24": "Cochrane公开简明及结构化摘要/作者引用DOI：女性研究、方案异质、随访短；未读付费全文和31个试验。",
+        "PRIVATE-S25": "FDA杯原页：倒空/清洁按说明、IUD核对、非感染/近期产后异常引流用途。"
+      },
+      "not_claimed": "没有通读所有指南附件或25页各自全部外链；未替代临床体检、个体药品审方或专家签审。"
+    },
+    "structural_checks": {
+      "all_source_tokens_resolve": true,
+      "all_sources_used": true,
+      "all_summaries_110_170": true,
+      "all_entries_not_clinically_reviewed": true
+    },
+    "clinical_review_status": "not_clinically_reviewed",
+    "conclusion": "按指定高风险重点完成独立AI编辑核对，已提出并核实修复的临床分流点无未决阻断；其余核心建议与相应权威原页范围相符。"
+  },
+  "extension_reviews": {
+    "period": {
+      "extension_id": "period",
+      "reviewer": "independent_AI_editor_whole_chest",
+      "checked_at": "2026-10-29",
+      "status": "passed_after_metadata_corrections_not_clinical_review",
+      "clinical_review_status": "not_clinically_reviewed",
+      "blocking_unresolved": [],
+      "files_read": [
+        "drafts\\whole-body\\extensions\\period-entries.json",
+        "drafts\\whole-body\\extensions\\period-sources.json",
+        "drafts\\whole-body\\extensions\\period-audit.json"
+      ],
+      "actual_reading_scope": {
+        "entries": "全部10条标题、summary、六字段、年龄/性别/急症标识及来源别名。",
+        "source_records": "全部20项引用、支持范围、限制、阅读深度及资助说明。",
+        "original_sources": "独立实际打开全部20项对应原页并核相关段；S20 DOI直连失败，另打开PubMed PMID38431257及PMC11081833正文交叉核。",
+        "pdf": "S07官方163页PDF实际读封面/版次、修订表信息和PDF第98—100页(印刷79—81)13.3—13.5及相关证据段。",
+        "manufacturer_ifu": "S05 Mooncup网页主体及插入/位置/取出FAQ(4—8小时、捏杯底/沿壁解除密封)；S06 Flex网页具体碟插取、可复用/一次性、12小时、清洗和月度煮10分钟、特殊拉环杯解释。未读其外链完整PDF，不以营销FAQ证明独立疗效。",
+        "study": "S20 PubMed核全部作者/题名/2024年134卷110415文章号和DOI；PMC读设计、用杯暴露记录与中途劝停、结果/表2—4、讨论局限及资助利益声明；未重算数据或审全部补充表。"
+      },
+      "checks_passed": [
+        {
+          "focus": "杯/碟结构和取出",
+          "finding": "004明确普通钟形杯先解除密封、不能抓柄硬拽；特殊拉环按型号。碟托前缘、较水平移出，没将两者混同或笼统全部拉柄；碟不避孕/防STI。"
+        },
+        {
+          "focus": "时限/清洗/消毒",
+          "finding": "003棉条最低够用吸收量、4—8小时/最多8小时；005 Mooncup4—8与Flex可复用碟每12小时仅型号示例，以实际说明为准；满前排空，自动漏一点不当取出清洗；一次性不复用、煮洗不泛化。"
+        },
+        {
+          "focus": "IUD合用证据推理",
+          "finding": "006保持可能风险而非统一因果百分比；2024随机的是两种铜IUD，不是用杯。NTCu380-Mini和TCu380A总体差异/意外自拔风险区别被保留，未套激素IUD；碟30人样本不足不等于绝无研究/零风险。"
+        },
+        {
+          "focus": "IUD尾丝与保护",
+          "finding": "006线长/摸不到/摸到硬装置检查位置，确认前屏障或避免无保护，近期无保护及时问EC；不自行剪线，先解除杯密封，未把等几周当永远无风险。"
+        },
+        {
+          "focus": "TSS急症与遗留",
+          "finding": "001标题和summary将发热、呕吐/腹泻、皮疹或头晕按任一可疑情况立即求助，不等症状全齐；意识/呼吸异常/晕厥急救，取不出不拖延，005遗留不用镊钳且全身不适紧急就医。"
+        },
+        {
+          "focus": "经血/用品营销",
+          "finding": "颜色限通常月经内轻量可粉褐；没有颜色诊断炎症/体质或用品草本/负离子/香味防病功效。香型刺激停用，湿厕纸/香味不被描写为疾病预防。"
+        },
+        {
+          "focus": "经量和年龄",
+          "finding": "008结合浸透及功能影响而非卫生性勤换，突增或伴晕弱紧急评估；青少年鼻血/淤青提示凝血评估，成人检查不套所有初潮后人群。绝经后血即使少/一次需查。"
+        },
+        {
+          "focus": "止痛药边界",
+          "finding": "009口服布洛芬限定18+无禁忌按本地说明，解释NSAID；孕备孕哺乳、肾心肝病/溃疡/过敏/抗凝另核，不叠加同类。热敷防烫、不将普通痛经自护覆盖剧痛或妊娠痛。"
+        },
+        {
+          "focus": "宫外孕与早阴性",
+          "finding": "010不以尚无阳性、褐色少量血或症状不全排除；可能妊娠伴痛血及时检查，突发剧痛/明显晕厥及肩尖异常紧急求助，不等大出血或热敷止痛后决定。"
+        },
+        {
+          "focus": "引用与技术",
+          "finding": "20项别名无缺失或孤立；DOI格式10.1016/j.contraception.2024.110415与PubMed一致，6作者后et al正确；summary131—143字符且独立、无引文/表格；cost全部空。"
+        }
+      ],
+      "nonblocking_suggestions": [
+        {
+          "id": "period-meta-01",
+          "location": "PERIOD-S11 citation/limitations",
+          "finding": "独立实读NHS Heavy periods原页页尾有Page last reviewed: 19 September 2024；当前citation没日期且limitations说未核到明确更新日。",
+          "suggestion": "补2024 Sep19，移除未核到日期句；不影响正文治疗与分流结论。",
+          "status": "applied_and_reread_by_independent_reviewer_with_root_authorization"
+        },
+        {
+          "id": "period-meta-02",
+          "location": "PERIOD-S19 citation/reading_depth",
+          "finding": "RCH原页同时写Reviewed August 2026和Updated July 2025。",
+          "suggestion": "可按medical review引用2026Aug，限制中注明页面还列2025July更新，避免冒称整篇首次发布2026。",
+          "status": "applied_and_reread_by_independent_reviewer_with_root_authorization"
+        },
+        {
+          "id": "period-meta-03",
+          "location": "PERIOD-S07 funding_note",
+          "finding": "FSRH PDF封面P1明确FSRH向CEU提供本指南制作资助；现写未核本页专项资助。",
+          "suggestion": "可改记FSRH支持CEU指南制作；未对所有原始研究重做资助审计。",
+          "status": "applied_and_reread_by_independent_reviewer_with_root_authorization"
+        },
+        {
+          "id": "period-language-01",
+          "location": "period-001 plain首句",
+          "finding": "标题及summary已清楚任一风险信号立即求助；正文‘突然发热并明显不适、呕吐腹泻、皮疹或头晕’仍可读出首项并列语感。",
+          "suggestion": "可在编辑整合时写‘突然发热，或出现呕吐腹泻、皮疹、明显头晕等新全身不适’以消除阅读歧义；当前后文明确不等全齐，因此非临床阻断。",
+          "status": "optional_copy_edit"
+        }
+      ],
+      "limits": "本复核为独立AI资料与编辑审核，不是临床医生签审、注册审评、个体诊断或医疗处方。没有审重全部源引用的试验或厂商外链PDF。",
+      "file_sha256": {
+        "period-entries.json": "40ae48beb3c003c84121833180cb49d35f89d5fa862550c9b2208810cbd4c7bf",
+        "period-sources.json": "aad5d0d719ac887264d19668589726dbf6e0aa9599a0379d30b5329b19a3b153",
+        "period-audit.json": "c60770e03cc469a4f0d30d16dfd1bc01b4eda1a1c0f1f4c75ca8c0eb10a4b6ed"
+      }
+    },
+    "contraception": {
+      "status": "independent_ai_editorial_review_passed",
+      "reviewer": "independent_ai_whole_hands",
+      "reviewed_on": "2026-10-29",
+      "extension_id": "contraception",
+      "target_chapter": "private",
+      "entries_reviewed": 11,
+      "source_records_reviewed": 31,
+      "blocking_unresolved": [],
+      "clinical_review_status": "not_clinically_reviewed",
+      "actual_reading_scope": {
+        "local_files": [
+          "drafts/whole-body/extensions/contraception-entries.json",
+          "drafts/whole-body/extensions/contraception-sources.json",
+          "drafts/whole-body/extensions/contraception-audit.json"
+        ],
+        "primary_source_sections": {
+          "CONTRA-S01": "NHS原页全年分母解释、典型/正确使用定义与全表数字、2024Jan31真实复审日。",
+          "CONTRA-S02": "CDC方法选择的自主知情/可逆性/移除、方法定义、LAM三条件；核到其数字不同，正文未混进NHS表。",
+          "CONTRA-S03": "NHS外套全程/接触前、排空气/戴反换新、扶根退出、润滑材料兼容与破滑后紧急求助。",
+          "CONTRA-S04": "NHS内套阴道操作的内外环、阴茎路径、取出转外环及不叠内外套；未把肛交不确定防护外推成保证。",
+          "CONTRA-S05": "CDC复方CHC定义、周期/起始、血压、产后、漏有效片/贴环与呕吐图的相关段；没有把一套漏服规则搬到全部产品。",
+          "CONTRA-S06": "CDC孕激素单方成分、宫颈黏液与抑排卵区别、2天/7天备份与不同漏服定义；原文并不含norgestimate。",
+          "CONTRA-S07": "NHS所述孕激素注射8–13周与停用后可达约一年恢复生育力及真实2024Feb8。",
+          "CONTRA-S08": "NHS复方经皮激素、按周更换、英国对应方法及2024Feb9；不作中国标签。",
+          "CONTRA-S09": "NHS复方阴道环位置、释放激素、对应数周周期及真实日期；不是宫内装置。",
+          "CONTRA-S10": "CDC植入定义、起始与备份、青少年、随访、出血病因排查及尊重任意时点移除意愿；未复核每个出血药物原始试验。",
+          "CONTRA-S11": "CDC两类IUD起始/妊娠排除/铜EC、年轻未育资格、STI筛查同日与现症例外、镇痛讨论、带器妊娠排异位及取器风险。",
+          "CONTRA-S12": "NHS含铜器具原理、即时生效、取出后生育力与英国期限；正文未抄期限。",
+          "CONTRA-S13": "NHS激素IUS原理、经量/痛经收益、取出后生育力及英国期限，不等同国内规格。",
+          "CONTRA-S14": "NHS铜IUD常见经量/痛经变化与痛、热、异常分泌物、大出血、疑孕/尾丝改变及时求助；备用保护和EC咨询。",
+          "CONTRA-S15": "NHS激素IUS早期不规则/月经减轻或闭经、因果不确定的不适、紧急症状与尾丝异常处理。",
+          "CONTRA-S16": "CDC全文相关窗口、最早相关接触/排卵判断、LNG/UPA晚窗比较、5日激素衔接、7日屏障、3周未撤退血验孕与3h内呕吐。",
+          "CONTRA-S17": "NHS英国LNG72h/UPA120h及越早越好，对应页面2024Feb9。",
+          "CONTRA-S18": "WHO2021紧急避孕机制/非流产、LNG与UPA后续、重复使用及铜IUD；未采用旧页所有失误数字/感染限制或未核2025细表。",
+          "CONTRA-S19": "NHS月经迟来可测、周期未知最后无保护≥21天、阴性较不可靠/复查；页面2022与2026视频日期分开。",
+          "CONTRA-S20": "NHS复方早期点滴血、症状报告/因果、血压及血栓；正文未抄没有时间分母的1/1000。",
+          "CONTRA-S21": "NHS体外法不推荐、生育力识别需学习及每日观察、App非官方推荐、易孕日行为、不规则和LAM边界。",
+          "CONTRA-S22": "CDC永久意图、自愿咨询、男性术后8–16周精液确认、继续屏障/禁欲，射精次数不能替代，成功非100%保证。",
+          "CONTRA-S23": "NHS女性绝育为阻断/切断输卵管，非切卵巢，不防STI；不复制英国复通或服务条件。",
+          "CONTRA-S24": "CDC MEC分类含义与年龄、未育、产后/哺乳、吸烟、血压/血栓、偏头痛先兆、乳癌和药物相互作用表；分类须看方法具体说明。",
+          "CONTRA-S25": "牟定县卫健2026May14页实际服务网点和用品类别表，含宫内/皮埋/口服/紧急药；只核入口不核全国库存。",
+          "CONTRA-S26": "花都卫健2023Dec13原文第42–50行，口服/外用/套/宫内/皮埋及部分医疗点注射服务；没有2026现场服务保证。",
+          "CONTRA-S27": "CDC公众PEP2024Dec2页的套破后立即求助、最迟72h且越早越好；另核2026Oct7临床页，未引入具体药物处方。",
+          "CONTRA-S28": "NHS2026Apr30 DVT一侧腿肿痛紧急评估、胸痛/气短即时急诊及含雌激素风险；未采用治疗剂量。",
+          "CONTRA-S29": "NHS2025Nov24骨盆痛的可能妊娠及时检查，严重加重痛/晕厥/肩尖痛/重血/呼吸困难等急诊，不待验孕日。",
+          "CONTRA-S30": "NHS植入上臂/孕激素、可专业随时取出、迅速恢复生育力；正文当前5年未被误写成2024以来全球统一期限。",
+          "CONTRA-S31": "NHS紧急药副反应页2h内呕吐咨询可能补服，与CDC3h不同；正文按成分/制剂及时求助而非自行猜加药。"
+        },
+        "additional_cross_checks": [
+          {
+            "url": "https://www.cdc.gov/hivnexus/hcp/pep/index.html",
+            "scope": "2026Oct7临床页交叉核PEP最早及最迟启动，不采用其海外处方权限/服务或自行开药。"
+          },
+          {
+            "url": "https://www.nmpa.gov.cn/wwwroot/sms0829/073.htm",
+            "scope": "中文药名核对尝试：官方搜索结果显示Norgestrel=炔诺孕酮，但原页412未读全文；未作为临床或国内上市证明。最终S06直接保留CDC英文成分，避免靠失败页面支撑译名。"
+          }
+        ]
+      },
+      "checks": [
+        "表格单一NHS口径、100人首年而非单次；91%例子换算正确，未混用CDC7%失败估计、LAM半年与紧急一次收益。",
+        "外/内套位置与操作、乳胶润滑、接触前/破滑漏补救和PEP72h均有对应；未复制境外认证/未成年法律与服务保证。",
+        "复方/单方、有效/安慰片、漏服/呕吐/腹泻按制剂核，不把每次漏服均判失败或所有剂型共用规则。",
+        "贴片/环/针定义、含雌激素禁忌及停针恢复可延迟明确；未将所有针都写成3月一次或永久不孕。",
+        "IUD与皮埋知情选择、未育/青少年非自动排除、感染例外、镇痛与移除渠道成立；国外期限不冒充国内标签。",
+        "紧急避孕尽早，英国LNG72h/UPA120h与CDC5天区分；超过72h仍当日求助，不自行延长当地用药/加量。",
+        "铜IUD最初相关无保护5天及排卵特殊判断正确，未让读者用App自己延长窗口；不是任意一种环都可替换。",
+        "UPA至少等5天、第6天恢复激素，等待期间与恢复后7天屏障；LNG可立即恢复加7天，未外推所有普通起始。",
+        "CDC允许UPA当天某些医疗方法的例外由接诊者权衡，没有读者自行套例外。",
+        "服后呕吐及时报告并核药物；NHS2h与CDC3h来源分别准确，不任意混成唯一全药品阈值。",
+        "验孕按月经迟来/最后无保护21天复查；早阴性/服后出血不证明成功，严重下腹痛/晕厥不等验孕。",
+        "IUD疑孕要查位置，带器失败妊娠的宫外孕比例不能误当所有使用者绝对风险上升；不自行取器。",
+        "常见适应变化不压过强烈痛/发热/大血/线变化和胸痛气短急诊；不强迫忍够固定月数。",
+        "体外法和日历App不能可靠兜底，规范识别不被说成全部无效，不误把备孕预测反向保证避孕。",
+        "绝育作为成人永久决定；男性8–16周精液医疗确认前继续保护，不靠日历和射精次数，成功非零失败。",
+        "MEC对先兆/血压血栓/35+吸烟/乳癌/孕产/相互作用有正确分支；普通抗生素不一概失效，不自行停抗癫痫原药。",
+        "未核WHO2025完整细表明确承认，没有假称本轮已逐项按2025更新；未核中国注册或库存不当已核。",
+        "全部cost空、11条摘要120–131字、引用/来源图完整、无海外急救号移植、仍未临床签审。"
+      ],
+      "resolved_findings": [
+        {
+          "id": "C-REVIEW-01",
+          "location": "CONTRA-S06 limitations",
+          "finding": "初版将norgestrel误译为诺孕酯，容易与另一孕激素norgestimate混淆。",
+          "resolution": "作者已将三成分保留为CDC英文norethindrone/norgestrel/drospirenone，重新读取核实；正文未曾使用错误中文成分。"
+        },
+        {
+          "id": "C-REVIEW-02",
+          "location": "CONTRA-S02 citation",
+          "finding": "初版来源题名省略Contraception and。",
+          "resolution": "作者已改为Contraception and birth control methods，与原页题名匹配，大小写属Vancouver句式。"
+        }
+      ],
+      "nonblocking_notes": [
+        {
+          "location": "contraception-007",
+          "finding": "CDC的UPA恢复后屏障建议还允许下一次月经先到时结束；正文采用7天并保留接诊具体方案，是更保守的默认，不形成避孕保护缺口。",
+          "suggestion": "以后若产品提供精确日期计算器，需逐制剂实现，而非把当前一般7天当所有起始/漏服规则。"
+        }
+      ],
+      "validation_errors": [],
+      "limitations": "独立AI对11条及31项来源相关原页的编辑/推理核查，非医生临床签审。没有重做各指南系统检索、逐项阅读全部纳入原始试验，也没有完成中国全部制剂注册/库存/说明书核查；已明确限制，不将海外规则当中国处方。",
+      "file_sha256": {
+        "contraception-entries.json": "dd3ada56ecc1c7c3d86a4b2a4268c84e7efb1721d7d7619d35cc90247eaaa461",
+        "contraception-sources.json": "9857a473b0b94d11c9251f32b28386fd5437479375337b53d05f9668c4fe3bd8",
+        "contraception-audit.json": "f853b3188052f979a253f8942698c62885a03ba67d7afe245a2396840f3b4d0d"
+      }
+    },
+    "fertility": {
+      "status": "independent_ai_editorial_review_passed",
+      "blocking_unresolved": [],
+      "clinical_review_status": "not_clinically_reviewed",
+      "reviewed_on": "2026-10-29",
+      "scope": "root独立读9条标题/摘要/正文/阅读范围及12项来源表，实际核CDC2026叶酸、NHS2026孕期补充、ASRM2026评估原文相关段与PubMed42901815先发题录、Cochrane2023公开摘要与资助、EAU男性章相关推荐、HFEA原页风险/收益段、NHS验孕与宫外孕症状。不是对12来源所有全文/附录与其全部引用试验的重审。",
+      "checks": [
+        "400微克=0.4毫克；提前时间与孕早期用途准确，高风险不自开4或5毫克，MTHFR不自动换昂贵制剂",
+        "ASRM2026确有2026Oct20先发版本与DOI，未编卷期页；<35十二月/≥35六月/>40更早，已知风险无需等待，双方同步",
+        "易孕窗口与每2至3天/窗内1至2天分开；排卵试纸信号不是确证，工具获益不推所有产品/年龄/病因",
+        "EAU原文支持男性同步评估、不用睾酮促孕、抗氧化/益生菌不常规用于特发不育；不把精子/AMH指标当活产",
+        "HFEA卵巢PRP特定人群无可靠收益且有安全疑虑，身体保养按摩不借其结论",
+        "家用验孕阴性不排宫外孕，疼痛/异常出血/晕厥分流不等阳性或症状齐全，未抄国外服务热线"
+      ],
+      "limitations": [
+        "NHS验孕/宫外孕原页日期确为2022，网页视频2026不冒充正文更新，只作稳定操作/安全原则；正文不含旧治疗流程",
+        "EAU在线章版本年份未由作者确认时书目不造出版年，本轮核到当前内容与2026总介绍相符",
+        "未发现未决安全或推导阻断，审读不等于持证临床专业签审"
+      ]
+    },
+    "reader": {
+      "status": "passed_after_author_revision_not_clinically_reviewed",
+      "reviewed_on": "2026-10-29",
+      "reviewer": "independent_ai_whole_neck",
+      "extension": "reader",
+      "entries_reviewed": 9,
+      "edits_reviewed": [
+        "private-010"
+      ],
+      "source_records_reviewed": 13,
+      "blocking_unresolved": [],
+      "resolved_findings": [
+        {
+          "entry": "reader-001",
+          "finding": "BV抗菌治疗需避免读成无症状菌群检出一律用药。",
+          "resolution": "已实际重读最终正文，明确有症状且确诊BV；病因检查及不互分药保留。",
+          "status": "resolved"
+        },
+        {
+          "entry": "reader-006",
+          "finding": "EAU对寻求生育者避免含利多卡因/丙胺卡因局麻制剂建议可更明确。",
+          "resolution": "已实际重读，备孕先避免并讨论替代，保留谨慎建议不等于证明一用就不孕，不推广全部局麻药。",
+          "status": "resolved"
+        },
+        {
+          "entry": "reader-004",
+          "finding": "血精伴睾丸持续或突发痛与发热腰侧痛，不宜合并为模糊入口。",
+          "resolution": "已实际重读，睾丸痛直接急诊与发热寒战腰背侧痛当天评估分列。",
+          "status": "resolved"
+        },
+        {
+          "entry": "reader-009",
+          "finding": "NHS痛性标题不单独承担在家不能靠疼痛区分缺血类型的论断。",
+          "resolution": "已重读补入的READER-S13；实际核EAU缺血急症与血气/多普勒鉴别，无家庭自判或等满时长要求。",
+          "status": "resolved"
+        }
+      ],
+      "actually_read": {
+        "local_files": [
+          "reader-entries.json全部9条及001/004/006/009最终修订",
+          "reader-sources.json全部13项与PRIVATE解析上下文",
+          "reader-edits.json private010标题/摘要/表格/正文"
+        ],
+        "primary_sections": {
+          "READER-S01": "CDC2023 BV定义、症状/无症状可能与抗菌处理；旧伴侣一律不治不作为新RCT之后结论。",
+          "READER-S02": "PubMed40043236正式题录/前6作者/392(10):947-957/DOI，完整结构化摘要：开放RCT、单一男性伴侣、口服+局部联合、12周复发及提前停止/澳洲NHMRC资助。未取得付费全文。",
+          "READER-S03": "CDC滴虫相关病因、诊断与治疗、暂停接触到双方治疗完成且症状消退、女性复测/男性不足证据、当前伴侣同步；未用剂量或美国EPT法规。",
+          "READER-S04": "NHS2023尿道炎全页：新流液/尿痛、采样、伴侣、包括口交的暂停，用品清洁/新屏障和页脚日期。",
+          "READER-S05": "NHS2024阴茎皮损：正常变异/皮肤病/STI等可能，检查而非自诊、采样与按因治疗。",
+          "READER-S06": "NHS2023睾丸包块：无痛不排除需检查、超声、突发及持续静息痛急诊，核预计复审日期已过。",
+          "READER-S07": "NHS2025血精：红/褐、通常不严重但需检查、伴随线索、病因决定治疗，非人人抗生素。",
+          "READER-S08": "EAU5.4病史/体检/血糖血脂及晨间睾酮、5.6生活心理和PDE5选择、5.6.3.f.2硝酸酯/NO供体poppers/尼可地尔绝对禁忌。未输出通用处方剂量。",
+          "READER-S09": "EAU射精障碍定义/困扰/分型诊断及6.2.6局麻过敏、伴侣转移和备孕避免利多卡因/丙胺卡因；未重审所有试验。",
+          "READER-S10": "NHS异常勃起全页3至4小时、镰状细胞病痛性超过1小时急诊、不冰敷/继续性活动/酒精。",
+          "READER-S11": "Victoria2026定义、共同活动同意、频率与生活影响、误区不孕/失明、求助及23Apr2026复核；未把广泛益处当RCT治病结论。",
+          "READER-S12": "中国疾控2026Jun22全部11问：男性及具体产品/程序差异、免费资格分开、漏针不重启、预防非清除既感染、接种仍适龄筛查。未另核每款标签，正文亦未给具体品牌准入表。",
+          "READER-S13": "EAU10.1缺血急症时间、10.1.2病史疼痛及血气/超声鉴别；不教家庭穿刺/注射。",
+          "PRIVATE-S01/S15/S16": "本轮重新打开NHS2025睾丸痛/UTI与NIDDK2024成人感染，核急诊与当天求助边界。",
+          "PRIVATE-S02/S05/S06": "本轮重新打开NHS骨盆痛/分泌物和CDC阴道症状：周期正常变化、症状非确诊、pH非特异、镜检阴性不排全部感染、非感染刺激和急症；private010改稿相符。",
+          "PRIVATE-S20": "本轮重读NHS2025干涩异常出血，包括性交后、经期之间与绝经后；有症状不等筛查档期。",
+          "EAU版本": "从章内链接实际打开Introduction-2 1.4/1.5与Summary of Changes，明确2026有限更新2025，射精和priapism相关更新。"
+        },
+        "not_claimed": "未通读13页全部外链、原始试验全集和具体中国药品说明书；AI编辑复核不等于临床签审。"
+      },
+      "evidence_limits": [
+        "BV新RCT限单一稳定男性伴侣与特定联合方案、开放/提前停止/12周复发；没有外推所有阴道炎/伴侣或长期根治。",
+        "预计复审日过期的NHS页仅取稳定分流/检查/防护，不冒充最新处方疗效比较。",
+        "EAU主要成人；儿童只保留一般急症识别，不给予成人治疗。",
+        "自慰/护理为机构C指导；HPV按接种时年龄/具体产品和实际器官核，未宣称所有品牌全人群适用。"
+      ],
+      "structural_checks": {
+        "errors": [],
+        "all_source_tokens_resolve": true,
+        "all_local_sources_used": true,
+        "summary_lengths": {
+          "reader-001": 127,
+          "reader-002": 122,
+          "reader-003": 123,
+          "reader-004": 129,
+          "reader-005": 127,
+          "reader-006": 128,
+          "reader-007": 132,
+          "reader-008": 131,
+          "reader-009": 126
+        },
+        "all_not_clinically_reviewed": true,
+        "all_costs_blank": true
+      },
+      "edit_checks": {
+        "private010_source_tokens_resolve": true,
+        "private010_summary_length": 121,
+        "table_only_in_body": true
+      },
+      "input_sha256": {
+        "reader-entries.json": "e9f3b5560c58512b5309743ef300bd634a11a9cb2d00d04f8b7d8a38a63d1e02",
+        "reader-sources.json": "4daffbdcdccca991f57f08f729a46760872a2ef9d469fffdb420a24c91aa1d78",
+        "reader-edits.json": "a2488296d5eed92ff6a9df52876de8e072b18945dd70f56b03c9f3697c94efde"
+      },
+      "clinical_review_status": "not_clinically_reviewed",
+      "conclusion": "9条加private010改稿关键证据推导已核，所有提出的澄清均由作者采纳并实际重读验证；无未决阻断。"
+    }
+  },
+  "integration_note": "已分别核新增临床分支；随后校验合并后引用、单元、人群与实际输出，不能冒充重新逐篇临床签审。",
+  "root_integration_edits": [
+    "保留private002严重下腹症状，将宫外孕细节合并并删重复分流语句",
+    "private009按独立编辑建议将首句写成发热或其他明显全身异常，不要求合并发热",
+    "private008简短总览链接具体用品操作；既有ID与已核临床条件保留"
+  ]
+}

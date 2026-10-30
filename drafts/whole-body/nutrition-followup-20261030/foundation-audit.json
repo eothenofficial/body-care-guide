@@ -1,0 +1,142 @@
+{
+  "checked_at": "2026-10-30",
+  "entry_ids": [
+    "nutrition-012",
+    "nutrition-013",
+    "nutrition-014"
+  ],
+  "sources": 15,
+  "clinical_review_status": "not_clinically_reviewed",
+  "proposed_unit": {
+    "id": "nutrition-u5",
+    "title": "把日常吃法和购物选择落到实处",
+    "entry_ids": [
+      "nutrition-012",
+      "nutrition-013",
+      "nutrition-014"
+    ]
+  },
+  "nonduplication": "basics-004保留整体食物/补剂框架，basics-005保留个体化饮水；013专门提供中国食物目标及一餐替换示例，不重复蛋白粉/代餐评估；血糖管理nutrition-015另写，不在此扩展控糖产品。",
+  "claim_source_map": [
+    {
+      "entry": "nutrition-012",
+      "claim": "WHO2025 conditional成人适用，儿童/孕妇/排钾障碍不覆盖；家庭共餐与药物分支",
+      "sources": [
+        "NFB-S01",
+        "NFB-S02",
+        "NFB-S05",
+        "NFB-S06"
+      ]
+    },
+    {
+      "entry": "nutrition-012",
+      "claim": "全天钠<2000毫克/约5克盐，1克盐=400毫克钠，全部来源合计",
+      "sources": [
+        "NFB-S03"
+      ]
+    },
+    {
+      "entry": "nutrition-012",
+      "claim": "低钠不等于无碘，我国普遍盐碘政策与特殊例外",
+      "sources": [
+        "NFB-S07"
+      ]
+    },
+    {
+      "entry": "nutrition-012",
+      "claim": "SSaSS老年/卒中高风险人群，不能外推健康青年个人收益",
+      "sources": [
+        "NFB-S04"
+      ]
+    },
+    {
+      "entry": "nutrition-013",
+      "claim": "蔬菜≥300克/深色约半，水果200–350克/非果汁，奶等量≥300毫升及多样食物",
+      "sources": [
+        "NFB-S08",
+        "NFB-S09"
+      ]
+    },
+    {
+      "entry": "nutrition-013",
+      "claim": "纤维逐渐加，饮水个体化；一餐替换为编辑性执行示例",
+      "sources": [
+        "NFB-S10"
+      ]
+    },
+    {
+      "entry": "nutrition-014",
+      "claim": "加工不等于有害，部分包装食品可属健康膳食；NOVA定义不是安全判定",
+      "sources": [
+        "NFB-S09",
+        "NFB-S11",
+        "NFB-S12"
+      ]
+    },
+    {
+      "entry": "nutrition-014",
+      "claim": "2019/2025短期菜单随机试验不是单一添加剂或长期慢病因果",
+      "sources": [
+        "NFB-S13",
+        "NFB-S14",
+        "NFB-S11"
+      ]
+    },
+    {
+      "entry": "nutrition-014",
+      "claim": "新GB28050强制糖/饱和脂肪2027-03-16实施，2026不假定全面已强制",
+      "sources": [
+        "NFB-S15"
+      ]
+    }
+  ],
+  "rejected_inferences": [
+    "低钠钾盐人人必用或可以多吃；WHO未覆盖的儿童孕妇等于已被证明有害。",
+    "SSaSS老年高风险人的相对风险数字就是健康青年个人可获得的降幅。",
+    "不显著高钾事件等于慢性肾病或用药者已证安全；换盐可以停降压药。",
+    "钾盐等于无碘盐，或钾盐可以自己买氯化钾粉按网传比例调配。",
+    "5克盐是烹调用盐额外额度、不含酱料零食外卖；把英国6克套成中国目标。",
+    "所有人必须禁白米白面、猛加纤维；果汁青汁可以代替完整蔬果。",
+    "全谷物+杂豆50–150克与全谷物50–100克是相同口径，或未核原页就统一称干生重。",
+    "加工、精制、NOVA超加工、食品安全是同一个分类；包装冷冻罐装等于有害。",
+    "20人短期整套菜单试验能单独证明乳化剂致胖，或观察性慢病关联已证明因果。",
+    "2025英国供餐研究可忽略2026评论并保证中国所有人的个人减重效果。",
+    "2027实施的新标签项目在2026已全面强制；2026没标糖就说明没有糖。",
+    "机构权威自动等于A级临床疗效；已读摘要等于已审全文、补充材料与原始数据。"
+  ],
+  "reading_limitations": [
+    "WHO指南出版概述、Scope章节及官方发布会slides已直接读；82页全文PDF403、Recommendations章节验证码，未绕过或假称全文已读。",
+    "中国营养学会原页超时、部分卫健委页412，食物目标使用国家食物与营养咨询委员会官方站点刊载2022核心推荐完整正文；未声称读中国DRI或指南全书。",
+    "NHC2025健康膳食核心信息的全谷50–100克与2022全谷+杂豆口径不同，因原页访问受限且无需该数值，本次不采用两者谷物总克数。",
+    "SSaSS、NOVA、Hall、Dicken均核完整摘要与正式题录；Hall与Dicken另外读了页面可见图注/利益申报，未称全部全文。",
+    "Hall原刊2019/2020两项勘误已检出但未完整读取内容，正文不采用精确能量差/体重差；Dicken原刊存在2026 Matters Arising且updated，未审全部争论，正文不用精确减重数字或单一加工因果。",
+    "GB标签实施日期和新增强制项目读中国市场监管部门原始实施说明，未声称完整标准逐条法律审读；不采用未来标准推2026标签均已符合。",
+    "NIDDK2018和NHS2023实际复核日如实保留，未把预定复审或检索日冒充更新；与WHO2026交核原则。"
+  ],
+  "excluded": [
+    "未经可靠核实的商品价格或个体成本数字",
+    "具体品牌疗效和单一添加剂致病认定",
+    "个人每日热量/营养处方",
+    "自配钾盐配方",
+    "对儿童/孕妇推广钾盐",
+    "未经临床签审却标注专家审核"
+  ],
+  "checks": {
+    "summary_lengths": {
+      "nutrition-012": 120,
+      "nutrition-013": 118,
+      "nutrition-014": 129
+    },
+    "six_fields": true,
+    "all_costs_empty": true,
+    "refs_resolved": true,
+    "source_count": 15,
+    "male_female_shared": true,
+    "age_groups": [
+      "adult",
+      "older"
+    ],
+    "external_clinical_review": false,
+    "frozen_for_independent_review": true
+  }
+}

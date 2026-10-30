@@ -1,0 +1,248 @@
+{
+  "checked_on": "2026-10-29",
+  "reviewer": "oral_lips_complete independent editorial/source review",
+  "scope": "只审眼睛工作稿的来源资格、15条DOI题录、摘要与正文一致性，以及省略成本后的临床动作保留；没有修改眼睛正文。",
+  "clinical_review_status": "not_clinically_reviewed",
+  "input_snapshots": {
+    "chapters/eyes.json": "59b0455f07885b04bb6846d3491d7a39b1c89775ed6114fe155032619bc2556a",
+    "evidence/eyes-sources.json": "1bfbbe47064f304f2c6b004699f298898fbff9214680cdad9b3a71578179b832"
+  },
+  "entry_count": 19,
+  "source_count": 47,
+  "doi_count": 15,
+  "screening": {
+    "九龙": 0,
+    "苏州": 0,
+    "haodf": 0,
+    "monetary_price_pattern_count": 0,
+    "hypothetical_price_example": "not_found",
+    "cost_empty_count": 17
+  },
+  "authority_assessment": "未发现商业媒体或个人科普号被用作疗效证据。来源含官方机构、专业学会、专科医院及期刊原研究；DailyMed一项如实说明是政府库所载制造商标签，只支撑具体配方警示；产业资助的试验已披露且未被写成所有成品通用结论。权威域名不是自动高等级，读取范围与结局仍需逐项限制。",
+  "doi_checks": [
+    {
+      "source_id": "src-825af03a95e3",
+      "doi": "10.3760/cma.j.cn112142-20240517-00227",
+      "citation_style": "pass",
+      "metadata_consistency": "pass_with_stated_reading_depth",
+      "verification_url": "https://www.gzzoc.org.cn/sites/zoc.live1.sysucloud2.sysu.edu.cn/files/2025-10/2024_zhongguoganyanlinchuangzhenliaozhuanjiagongshi2024nian.pdf",
+      "independent_reading_depth": "direct_pdf_metadata",
+      "detail": "原PDF首面题名、团体作者、60(12):968–976及DOI已读；不在本独立审阅重读完整9页治疗。"
+    },
+    {
+      "source_id": "src-609e76825b6e",
+      "doi": "10.1167/iovs.66.12.39",
+      "citation_style": "pass",
+      "metadata_consistency": "pass_with_stated_reading_depth",
+      "verification_url": "https://pubmed.ncbi.nlm.nih.gov/40960225/",
+      "independent_reading_depth": "primary_index_metadata_only",
+      "detail": "直接PubMed及PMC遇验证码；原记录搜索索引显示前六作者、年卷期文号及DOI一致。本次不能声称全文复核。"
+    },
+    {
+      "source_id": "src-6275979d29e1",
+      "doi": "10.3760/cma.j.cn112142-20200925-00618",
+      "citation_style": "pass",
+      "metadata_consistency": "pass_with_stated_reading_depth",
+      "verification_url": "https://cmab.yiigle.com/uploads/guide_html/%E4%B8%AD%E5%9B%BD%E5%B9%B2%E7%9C%BC%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86%EF%BC%9A%E6%B2%BB%E7%96%97%EF%BC%882020%E5%B9%B4%EF%BC%89.html",
+      "independent_reading_depth": "direct_journal_metadata",
+      "detail": "原期刊HTML的团体作者、2020;56(12):907–913及DOI已读。"
+    },
+    {
+      "source_id": "src-5930e79bcb41",
+      "doi": "10.1016/j.ajo.2025.05.039",
+      "citation_style": "pass",
+      "metadata_consistency": "pass_with_stated_reading_depth",
+      "verification_url": "https://pubmed.ncbi.nlm.nih.gov/40467022/",
+      "independent_reading_depth": "direct_pubmed_metadata_and_selected_pdf_section",
+      "detail": "PubMed前六作者、2025;279:289–386及DOI匹配；另开Aston原PDF物理第3页读3.1节，不通读其余98页。"
+    },
+    {
+      "source_id": "src-6893a3b22344",
+      "doi": "10.5935/0004-2749.20190097",
+      "citation_style": "pass",
+      "metadata_consistency": "pass_with_stated_reading_depth",
+      "verification_url": "https://pubmed.ncbi.nlm.nih.gov/31508669/",
+      "independent_reading_depth": "direct_pubmed_metadata_and_abstract",
+      "detail": "5位作者、2019;82(5):436–445、DOI核对；仅摘要不重做综述。"
+    },
+    {
+      "source_id": "src-bce6253d9313",
+      "doi": "10.1007/s40123-024-00988-x",
+      "citation_style": "pass",
+      "metadata_consistency": "pass_with_stated_reading_depth",
+      "verification_url": "https://pubmed.ncbi.nlm.nih.gov/38990464/",
+      "independent_reading_depth": "direct_pubmed_metadata_and_abstract",
+      "detail": "单作者Lee G、2024;13(9):2481–2493及DOI核对；摘要说明温敷是缓解而非治愈。"
+    },
+    {
+      "source_id": "src-9edafe35e197",
+      "doi": "10.1002/14651858.CD013244.pub2",
+      "citation_style": "pass",
+      "metadata_consistency": "pass_with_stated_reading_depth",
+      "verification_url": "https://pubmed.ncbi.nlm.nih.gov/37593770/",
+      "independent_reading_depth": "direct_pubmed_metadata_and_abstract",
+      "detail": "前六作者及et al、2023;8(8):CD013244、DOI匹配；读短期疲劳、睡眠和黄斑结论。"
+    },
+    {
+      "source_id": "src-f32084c827ef",
+      "doi": "10.3389/fnut.2025.1522302",
+      "citation_style": "pass",
+      "metadata_consistency": "pass_with_stated_reading_depth",
+      "verification_url": "https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1522302/full",
+      "independent_reading_depth": "direct_journal_metadata_and_selected_sections",
+      "detail": "两作者、2025;12:1522302和DOI核对；读入组、部分结果及资助，未逐项复算所有表格。"
+    },
+    {
+      "source_id": "src-119b6da8cecc",
+      "doi": "10.1097/ICL.0000000000000938",
+      "citation_style": "pass",
+      "metadata_consistency": "pass_with_stated_reading_depth",
+      "verification_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9584055/",
+      "independent_reading_depth": "direct_archived_journal_metadata",
+      "detail": "PMC原文的题名、前六作者、2022;48(11):449–454和DOI核对；不在本次重做全文安全综述。"
+    },
+    {
+      "source_id": "src-c5a29c6f3b99",
+      "doi": "10.1136/bjophthalmol-2018-313739",
+      "citation_style": "pass",
+      "metadata_consistency": "pass_with_stated_reading_depth",
+      "verification_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7041503/",
+      "independent_reading_depth": "direct_archived_journal_metadata",
+      "detail": "前六作者、104(3):363–368及DOI核对；PMC说明2019在线、issue date 2020 Mar，当前2020题录正确。"
+    },
+    {
+      "source_id": "src-887f321d2cd0",
+      "doi": "10.1001/jamaophthalmol.2026.3288",
+      "citation_style": "pass",
+      "metadata_consistency": "pass_with_stated_reading_depth",
+      "verification_url": "https://jamanetwork.com/journals/jamaophthalmology/fullarticle/2852979",
+      "independent_reading_depth": "direct_journal_metadata_and_results",
+      "detail": "4作者、2026;144(10):889–896和DOI核对；159名6–12岁、24个月0.64D及0.24mm与正文一致，不外推全部镜片。"
+    },
+    {
+      "source_id": "src-f806e033b961",
+      "doi": "10.1001/jama.2020.10834",
+      "citation_style": "pass",
+      "metadata_consistency": "pass_with_stated_reading_depth",
+      "verification_url": "https://pubmed.ncbi.nlm.nih.gov/32780139/",
+      "independent_reading_depth": "direct_pubmed_metadata",
+      "detail": "前六作者、2020;324(6):571–580和DOI核对。"
+    },
+    {
+      "source_id": "src-0dba271b9918",
+      "doi": "10.1097/ICL.0000000000001125",
+      "citation_style": "pass",
+      "metadata_consistency": "pass_with_stated_reading_depth",
+      "verification_url": "https://pubmed.ncbi.nlm.nih.gov/39252204/",
+      "independent_reading_depth": "direct_pubmed_metadata_and_abstract",
+      "detail": "6作者全列、2024;50(11):461–466及DOI核对；发生风险与病例内严重度结局有区分，正文未写统一降风险比例。"
+    },
+    {
+      "source_id": "src-7591fd76e514",
+      "doi": "10.1016/j.ophtha.2022.08.002",
+      "citation_style": "pass",
+      "metadata_consistency": "pass_with_stated_reading_depth",
+      "verification_url": "https://pubmed.ncbi.nlm.nih.gov/35952937/",
+      "independent_reading_depth": "primary_index_metadata_only",
+      "detail": "直接原记录正文未返回；原记录搜索索引3作者、2023;130(1):48–55和DOI匹配，本次不声称读全文。"
+    },
+    {
+      "source_id": "src-5fde61fd25a3",
+      "doi": "10.1161/CIR.0000000000001281",
+      "citation_style": "pass",
+      "metadata_consistency": "pass_with_stated_reading_depth",
+      "verification_url": "https://pubmed.ncbi.nlm.nih.gov/39540278/",
+      "independent_reading_depth": "direct_pubmed_and_guideline_metadata",
+      "detail": "AHA原页前六作者及DOI与PubMed卷期页匹配；读9.10节异物分流，不通读其他全部急救。"
+    }
+  ],
+  "summary_review": {
+    "reviewed_entries": 19,
+    "length_range": [
+      113,
+      131
+    ],
+    "plain_text_without_table_or_refs": true,
+    "decision_consistency": "未发现把正文有限证据简写为保证有效；儿童控制、成人便利、日抛护理与感染分别表达；泳后不自行常规抗菌注明为C级实践推导。"
+  },
+  "cost_review": {
+    "preserved_actions": [
+      "OK镜首次及后续复查时间移入正文",
+      "凝胶/眼膏短暂模糊在正文表与摘要",
+      "眼妆感染期停用及相关弃置在正文",
+      "普通护理液新液、双氧水中和在正文",
+      "泳前摘镜与无症状不常规自行抗菌在正文"
+    ],
+    "exception_finding": "EYE-REVIEW-01",
+    "nonempty_cost_entries": [
+      "eyes-015",
+      "eyes-012"
+    ]
+  },
+  "selected_claim_checks": [
+    {
+      "topic": "DEWS III防腐体系",
+      "url": "https://publications.aston.ac.uk/id/document/112699",
+      "read": "物理第3页3.1节，重点防腐体系",
+      "result": "分类支持；分解机制表述见EYE-REVIEW-02。"
+    },
+    {
+      "topic": "泳后抗菌",
+      "urls": [
+        "https://www.who.int/news-room/fact-sheets/detail/antimicrobial-resistance",
+        "https://www.moorfields.nhs.uk/eye-conditions/conjunctivitis/diagnosis-and-treatment",
+        "https://www.cdc.gov/healthy-swimming/prevention/preventing-eye-irritation-from-pool-chemicals.html",
+        "https://health.clevelandclinic.org/how-does-chlorine-affect-your-eyes"
+      ],
+      "read": "WHO真实2026-07-16日期与误用原则；Moorfields抗菌适用；CDC氯胺刺激；医院泳后护理相关正文",
+      "result": "形成限于一般健康且无症状者的实践建议，当前正文没有冒充泳客RCT结论。"
+    }
+  ],
+  "findings": [
+    {
+      "id": "EYE-REVIEW-01",
+      "severity": "action_restore",
+      "entry_id": "eyes-005",
+      "status": "root_notified",
+      "finding": "删空成本字段时，旧成本中的“看不清时不要自己开车”没有迁入正文或备注。",
+      "recommendation": "把不能自行驾车的安全动作加回急诊分流备注，不需要恢复cost。"
+    },
+    {
+      "id": "EYE-REVIEW-02",
+      "severity": "source_scope",
+      "entry_id": "eyes-015",
+      "status": "root_notified",
+      "finding": "DEWS III物理第3页明确区分较温和防腐剂和无防腐包装，但已引这页没有直接说明“入眼后分解”的机制。核心分类结论得到支持。",
+      "recommendation": "删“只是设计成入眼后分解”半句，或再直接核查可支持机制的原文；保留氧化型仍是防腐体系的核心结论。"
+    },
+    {
+      "id": "EYE-REVIEW-03",
+      "severity": "citation_consistency",
+      "status": "root_notified",
+      "finding": "多项网页reading_depth已核真实日期，但citation未呈现日期；并非捏造日期，仍可提高用户要求的统一性。",
+      "recommendation": "已核日期可写进网页题录，如WHO2026 Jul16、CDC2025 May28、Cleveland2025 Jun20；没有明确日期的继续只写访问日。"
+    },
+    {
+      "id": "EYE-REVIEW-04",
+      "severity": "optional_safety_context",
+      "entry_id": "eyes-004",
+      "status": "root_notified",
+      "finding": "旧成本中多维/其他补充剂避免重复摄入的提醒随cost消失；本条没有具体剂量处方。",
+      "recommendation": "可放入notes，保持与具体AREDS配方风险分开。"
+    },
+    {
+      "id": "EYE-REVIEW-05",
+      "severity": "provenance_transparency",
+      "source_id": "src-ef3d7b7a8fb9",
+      "status": "recommendation",
+      "finding": "reading_depth明确NHC入口412、读了景泰县政府完整转载，但没有给出该转载的可点开核查链接。",
+      "recommendation": "把实际读取政府转载URL加到metadata_verification_urls或reading_depth，保留原发布机构入口；本轮没有自行猜测转载URL。"
+    }
+  ],
+  "limitations": [
+    "这是编辑及来源核查，不是持证眼科医生签审。",
+    "15篇题录格式全部检查；13篇本轮直接原记录/原文题录可见，IMI与AK两篇仅原记录索引核对，验证码未绕过。",
+    "其余机构页面未全部重新通读，只对原ledger资格/读取记录作检查，并直接抽查DEWS、泳后护理等关键修订。",
+    "复查时间、OK适应证等父稿已说明官方原PDF读取；本次重开NHC PDF超时，没有冒充独立复核。"
+  ]
+}

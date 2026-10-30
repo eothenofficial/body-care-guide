@@ -1,0 +1,76 @@
+{
+  "status": "author_source_check_passed_not_clinical_review",
+  "content_checked_at": "2026-10-29",
+  "chapter": "anal",
+  "entries": 12,
+  "source_records": 23,
+  "doi_sources": 2,
+  "summary_range": [
+    120,
+    131
+  ],
+  "clinical_review_status": "not_clinically_reviewed",
+  "scope": "肛周外部清洁、厕后洗手与用品、排便习惯、成人便秘基础和泻药选择、肛裂/痔/脓肿分流、肛痒与渗漏；非完整消化病或性健康治疗手册。",
+  "source_policy": "真实打开NHS、NIDDK、ASCRS、CDC、FDA和水务原页。一般护理归C；PEG成人CIC按直接试验综合评A；不是仅按机构名或DOI评级。",
+  "source_conflicts": [
+    {
+      "topic": "湿巾是否适合肛周",
+      "observed": "GSTT允许外出合适无酒精湿巾，NHS强调不要过多擦湿巾；FDA要求按用途和完整皮肤限制。",
+      "resolution": "作为便利选项、非必需；不反复擦，不用消毒桌面湿巾，刺激就停；防腐成分不是一概有毒或一定不过敏。"
+    },
+    {
+      "topic": "自购与长期便秘治疗",
+      "observed": "NHS自购指导要求短期复评；AGA/ACG支持部分药物用于慢性成人CIC并有较长随访。",
+      "resolution": "区分无指导自行加量与医疗长期计划，不写所有泻药长期都不安全或永远依赖；儿童孕哺不外推。"
+    },
+    {
+      "topic": "洗屁屁器与疾病",
+      "observed": "有人体测压和短期术后比较，但症状病种、设置、研究设计不同，观察资料有痒和损伤报告。",
+      "resolution": "只当清洁便利，低压舒适温度短时为谨慎护理；不把测压当治疗痔、肛裂疗效，也不把相关性变因果或病例当发生率。"
+    },
+    {
+      "topic": "便血等待时限",
+      "observed": "NHS部分少量出血页面列3周就医阈值，痔页对无痛便血更谨慎。",
+      "resolution": "大量/全身表现急诊；黑/暗红或血性腹泻及时检查，反复出血和其他危险线索不要求先等3周。"
+    }
+  ],
+  "reading_limits": [
+    {
+      "source": "https://fascrs.org/getattachment/Healthcare-Providers/Education/Clinical-Practice-Guidelines/2022-AnorectalAbscess_FistulainAno_RectovaginalFistula-CPG.pdf",
+      "result": "原链接404，本篇不用其搜索摘要当已读全文；分流与引流结论采用可读ASCRS原始患者说明。"
+    },
+    {
+      "source": "https://gastro.org/clinical-guidance/pharmacological-management-of-chronic-idiopathic-constipation-cic/",
+      "result": "原站403，改读PMC提供的同一指南AJG作者稿；引用AJG实际DOI，不混贴Gastroenterology同时发表版。"
+    },
+    {
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3012853/",
+      "result": "原始测压研究被验证页且出版商403，未冒充直接读全文；仅按综述报告解释不能证明疾病疗效。"
+    },
+    {
+      "source": "https://pubmed.ncbi.nlm.nih.gov/28338537/",
+      "result": "原页未返回可读题录，不引用其检索摘要为致敏发生率；配方安全使用采用FDA。"
+    }
+  ],
+  "population_limits": "如厕卫生、危险信号与儿童蛲虫有对应资料；泻药表限健康成人CIC，排除儿童、孕期和明确继发原因。成人标签、药师及复评不等于给未成年人处方。擦拭按实际解剖而不是性别标签。",
+  "pricing": "不比较未经核实的湿纸、冲洗器或药品价格，所有cost为空。",
+  "checks": {
+    "stable_ids_unique": true,
+    "unit_membership_exact": true,
+    "six_fields_order": true,
+    "summary_110_170_plain": true,
+    "all_refs_resolve_and_used": true,
+    "doi_metadata_checked": true,
+    "no_unfinished_cross_chapter_links": true
+  },
+  "independent_review_resolutions": [
+    {
+      "entry": "anal-001",
+      "action": "按原NHS便血来源补儿童量不大也安排检查，保证独立年龄入口。"
+    },
+    {
+      "entry": "anal-009",
+      "action": "疑脓肿末段明确当天就医，与002一致。"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "checked_at": "2026-10-30",
+  "entry_ids": [
+    "sleep-010"
+  ],
+  "sources": 6,
+  "summary_length": 120,
+  "clinical_review_status": "not_clinically_reviewed",
+  "coverage": [
+    "夜宵/晚餐分量与时点",
+    "大餐与小点心",
+    "反流的具体分支与2–3小时间隔的证据限制",
+    "小型试验矛盾和不外推",
+    "降糖用药的漏餐风险",
+    "孕期反酸及用药边界"
+  ],
+  "nonduplication": "常规饮食/减脂留在nutrition；反流完整药物和检查留在abdomen-006。此条只回答晚餐、夜宵与睡眠的决定，不重复药物清单。",
+  "claim_source_map": [
+    {
+      "claim": "大餐前移而非人人禁止小点心",
+      "sources": [
+        "SLM-S01"
+      ]
+    },
+    {
+      "claim": "反流人群2–3小时为低确定性、有条件；按触发调整",
+      "sources": [
+        "SLM-S02"
+      ]
+    },
+    {
+      "claim": "直接睡眠试验不一致、不能由机制或血糖变化给统一禁食线",
+      "sources": [
+        "SLM-S03",
+        "SLM-S04"
+      ]
+    },
+    {
+      "claim": "用胰岛素/部分降糖药不自行删计划加餐",
+      "sources": [
+        "SLM-S05"
+      ]
+    },
+    {
+      "claim": "孕期反酸与药物选择另核",
+      "sources": [
+        "SLM-S06"
+      ]
+    }
+  ],
+  "rejected_inferences": [
+    "夜宵一律损害睡眠",
+    "八点后绝对禁食",
+    "肠道消化使脑缺血所以失眠",
+    "只有女性研究所以一般睡眠习惯标female-only",
+    "血糖短期变化证明慢病风险",
+    "统计不显著=已证严格等效",
+    "2026小试验覆盖旧研究且无需保留不一致"
+  ],
+  "actual_reading_limits": [
+    "SOP与用户原始style SOP已读取，未改写原文件。",
+    "两篇论文实际读取范围在source.reading_depth中逐项列出；未核原始个体数据或补充DOCX。",
+    "ACG读有关推荐/生活方式与披露，不称完整长篇全文每节皆已审。"
+  ],
+  "potential_extra_topic_not_added": "夜间反复必须起床吃东西、无意识睡食可另作睡眠或进食障碍评估选题；当前没有完成相应专病研究，不先添加诊断结论。",
+  "blocking_unresolved": [],
+  "disposition": "ready_for_independent_ai_editorial_review",
+  "file_sha256": {
+    "meals-entries.json": "bd83a19b15539d9b6ba2fe9c0ef9afd9fa4d60bc287e5c508c065f60ef1271ee",
+    "meals-sources.json": "c17e05095183288fc25456d7643c0bc5808a00ec70c0c3f8677beb6f532669db"
+  }
+}

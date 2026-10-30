@@ -1,0 +1,15 @@
+{
+  "status": "independent_ai_editorial_review_passed",
+  "blocking_unresolved": [],
+  "clinical_review_status": "not_clinically_reviewed",
+  "date": "2026-10-29",
+  "scope": "root独立审读全部标题、胸痛/内衣/营销重点正文，实读NHS2026心肌梗死原页及两篇DOI的PubMed题录与摘要；不冒充重新阅读全文或核遍全部19来源。",
+  "checks": [
+    "胸痛求助不以胃药、按摩或年龄筛选替代",
+    "两篇DOI作者、正式年卷期页匹配；运动研究仅21名、主观短期结局，未推永久防下垂",
+    "钢圈研究为55–74岁病例对照，未写成所有年龄绝对无风险",
+    "机构自护与HS有赞助页面的限制在作者审计中保留",
+    "2023胸痛页与2026心肌梗死主线区分，不冒充旧页最新更新"
+  ],
+  "resolutions": []
+}

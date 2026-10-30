@@ -1,0 +1,187 @@
+{
+  "review_id": "ent-independent-review-2026-10-29",
+  "reviewer_role": "独立内容与证据复核；非临床医师审阅",
+  "checked_at": "2026-10-29",
+  "files_read": [
+    "chapters/nose.json",
+    "chapters/ears.json",
+    "evidence/ent-sources.json"
+  ],
+  "scope": "复核16条的急症分流、鼻喷药类别和妊娠边界、洗鼻安全用水、软化和干耳滴剂禁忌，以及31条来源元数据和3篇期刊引文；未重新检索全部耳鼻喉领域或重做系统综述。",
+  "overall_assessment": "未发现需要阻止草稿整合的重大临床方向错误；关键安全动作与所开权威页一致。建议整合前完成下列两处表述强化和来源类型修正；仍须保留not_clinically_reviewed状态。",
+  "findings": [
+    {
+      "id": "ENT-REVIEW-01",
+      "priority": "P2",
+      "entry_id": "nose-007",
+      "field": "fields.notes",
+      "issue": "妊娠对快速减充血剂的边界可更明确。正文已区分药类，但备注把怀孕与其他需核对事项并列，读者可能误以为只是一般注意。",
+      "evidence": "NHS Decongestants现行页明确列孕期不使用减充血剂，并建议由专业人员推荐其他药；该页2026-10-15确已更新。",
+      "suggested_revision": "明确写“孕期不要自行用快速减充血喷雾或含减充血成分的感冒药，应确认替代方案；鼻用抗炎药是否适用另按具体药物评估”。不要把限制误扩大为所有鼻喷都禁用。",
+      "source_url": "https://www.nhs.uk/medicines/decongestants/"
+    },
+    {
+      "id": "ENT-REVIEW-02",
+      "priority": "P2",
+      "entry_id": "ears-005",
+      "field": "title, summary and first action",
+      "issue": "正文已说明不能等几天，方向正确；标题“尽快”仍可能被理解为排几天后的门诊。",
+      "evidence": "NIDCD将突发听力下降视为medical emergency，并要求立即就医；NHS现行听损分流亦为urgent。",
+      "suggested_revision": "首句或标题明确“突然听不清，立即联系耳鼻喉急诊，争取当天评估”，不等待耳垢滴剂或自测结果；不要把所有激素治疗时间窗写成可等到截止日再处理。",
+      "source_url": "https://www.nidcd.nih.gov/health/sudden-deafness"
+    },
+    {
+      "id": "ENT-REVIEW-03",
+      "priority": "P2",
+      "source_ids": [
+        "ENT-S25",
+        "ENT-S26",
+        "ENT-S27"
+      ],
+      "field": "type",
+      "issue": "三项期刊系统综述仍统一标为“机构原始临床与患者指导”，与真实研究设计不符。引文本身和正文对综述局限的描述正确。",
+      "suggested_revision": "这三条type改为“系统综述”或项目统一的systematic_review，避免机构托管位置掩盖研究设计；不因此提高证据等级。"
+    },
+    {
+      "id": "ENT-REVIEW-04",
+      "priority": "P3",
+      "entry_id": "ears-003",
+      "field": "fields.plain",
+      "issue": "“离耳数英寸”保留了原文单位，但对中国小白读者不够直观。",
+      "suggested_revision": "可改为“最低温、最低风速，与耳口保持距离，不贴近热烘”，不另创造未经验证的固定安全厘米阈值。",
+      "source_url": "https://www.cdc.gov/healthy-swimming/prevention/preventing-swimmers-ear.html"
+    }
+  ],
+  "passed_checks": [
+    {
+      "topic": "鼻出血",
+      "assessment": "前倾、压鼻翼软部10至15分钟、连续不松手与NHS一致；量大、吞血呕吐、头伤、晕弱、呼吸异常优先急诊，未要求等计时完成；正文页脚2023-12-05与视频2026-06-01分开处理。"
+    },
+    {
+      "topic": "鼻用激素",
+      "assessment": "定位为局部抗炎且非立刻通鼻，朝外侧避鼻中隔、轻吸不猛吸，与BSACI PDF第1及3页一致；未复制英国品牌剂量表。"
+    },
+    {
+      "topic": "减充血剂",
+      "assessment": "羟甲唑啉和赛洛唑啉与鼻用激素区分；5天上限与2026-10-15新NHS页吻合，并保留中国成品更短上限；没有把5天规则套到鼻用激素。"
+    },
+    {
+      "topic": "ARIA-EAACI",
+      "assessment": "成人鼻用激素优先于口服H1抗组胺的类级推荐，在官方EtD Recommendation可直接核到；轻症与快速缓解偏好分支存在。未把页内费用调查或孕妇/儿童证据外推入正文。"
+    },
+    {
+      "topic": "洗鼻用水",
+      "assessment": "蒸馏/无菌或煮沸冷却水、滚沸1分钟及海拔6500英尺以上3分钟，与CDC2025-07-16页一致；约2000米为合理近似。未将盐包、直接自来水或普通饮用瓶装水当作杀菌。"
+    },
+    {
+      "topic": "洗鼻效果与感染分流",
+      "assessment": "盐水可能改善部分过敏鼻炎症状，但未保证替代激素或某种水量盐浓度更优；冲后头痛、发热、呕吐、意识异常的立即求助与CDC一致。"
+    },
+    {
+      "topic": "耳垢软化剂禁忌",
+      "assessment": "先确认耳垢及鼓膜状态，已知穿孔、通气管或手术史、疼痛流液出血等不自行滴油冲洗；与NHS穿孔禁忌及专科护理谨慎边界一致。"
+    },
+    {
+      "topic": "泳后干耳滴剂",
+      "assessment": "预防性干燥与治疗抗菌滴剂区别清楚；穿孔、置管、已有游泳耳或流液不自行用，CDC四项条件均覆盖；未出家庭酒精/白醋配方。"
+    },
+    {
+      "topic": "耳鸣急症",
+      "assessment": "搏动性耳鸣尽快评估，伴突发听损、面无力、旋转眩晕或头伤急症，与NHS分流一致；未将补剂当通用疗法。"
+    },
+    {
+      "topic": "期刊引文",
+      "assessment": "ENT-S25、ENT-S26的作者、题名与doi经Cochrane官方引用区核对；ENT-S27前6作者、2024;12(12):3404-3418与doi经作者机构PDF及PubMed/出版商索引交叉核对。未发现DOI拼接、作者截断或卷页错误。"
+    },
+    {
+      "topic": "引用图",
+      "assessment": "16条、31来源，全部来源被引用；未见无法解析别名或source_ids与正文引用不一致；本范围内跨条目链接可解析。"
+    }
+  ],
+  "independently_opened_sources": [
+    {
+      "id": "ENT-S03",
+      "url": "https://www.nhs.uk/conditions/nosebleed/",
+      "reading_depth": "完整止血动作、急诊分流、止血后24小时与页脚"
+    },
+    {
+      "id": "ENT-S06",
+      "url": "https://www.bsaci.org/wp-content/uploads/2023/11/Nasal-corticosteroid-SOP-BSACI.pdf",
+      "reading_depth": "PDF第1页定位及第3页逐步操作文字"
+    },
+    {
+      "id": "ENT-S07",
+      "url": "https://www.nhs.uk/medicines/decongestants/",
+      "reading_depth": "完整药物类别、5天限制、禁忌与页脚2026-10-15"
+    },
+    {
+      "id": "ENT-S08",
+      "url": "https://www.cdc.gov/naegleria/prevention/sinus-rinsing.html",
+      "reading_depth": "完整安全用水、煮沸及立即就诊段；不采用漂白剂家庭配方"
+    },
+    {
+      "id": "ENT-S13",
+      "url": "https://www.nhs.uk/conditions/earwax-build-up/",
+      "reading_depth": "耳垢处理、穿孔禁忌和复查段"
+    },
+    {
+      "id": "ENT-S15",
+      "url": "https://www.cdc.gov/healthy-swimming/prevention/preventing-swimmers-ear.html",
+      "reading_depth": "泳后排水、低温吹风及全部干耳滴剂禁忌"
+    },
+    {
+      "id": "ENT-S17",
+      "url": "https://www.nidcd.nih.gov/health/sudden-deafness",
+      "reading_depth": "急症、排堵塞、纯音测听、早期治疗段及2018实际更新日"
+    },
+    {
+      "id": "ENT-S18",
+      "url": "https://www.nhs.uk/conditions/hearing-loss/",
+      "reading_depth": "听损症状、非急与急症分流及治疗方向"
+    },
+    {
+      "id": "ENT-S20",
+      "url": "https://www.nhs.uk/conditions/tinnitus/",
+      "reading_depth": "搏动性耳鸣与头伤/突发听损等分流、CBT及助听方向"
+    },
+    {
+      "id": "ENT-S25",
+      "url": "https://www.cochrane.org/evidence/CD012171_ear-drops-removal-ear-wax",
+      "reading_depth": "官方通俗与完整摘要、作者题录及DOI；未重读全部全文"
+    },
+    {
+      "id": "ENT-S26",
+      "url": "https://www.cochrane.org/evidence/CD012597_nasal-saline-allergic-rhinitis",
+      "reading_depth": "官方通俗与完整摘要、作者题录及DOI；未重读全部全文"
+    },
+    {
+      "id": "ENT-S27",
+      "url": "https://iris.unito.it/retrieve/7c7b0eb9-ba7a-45be-a578-a46cde615136/1-s2.0-S2213219824008882-main.pdf",
+      "reading_depth": "作者机构PDF题名作者、摘要与研究定位；最终卷期页另与PubMed和ScienceDirect索引核对。直接PubMed页面验证拦截，未伪称直接完整页面审读。"
+    },
+    {
+      "id": "ENT-S31",
+      "url": "https://aria.med.up.pt/etd_oral-04",
+      "reading_depth": "官方EtD证据、Recommendation、Subgroup与Implementation段"
+    }
+  ],
+  "graph_checks": {
+    "entry_count": 16,
+    "source_count": 31,
+    "missing_sources": [],
+    "source_id_mismatches": [],
+    "unused_source_ids": [],
+    "broken_entry_links_within_review_scope": [],
+    "journal_sources": [
+      "ENT-S25",
+      "ENT-S26",
+      "ENT-S27"
+    ]
+  },
+  "limitations": [
+    "本复核不是专科医生签字或已临床审阅。",
+    "未独立逐项阅读全文31个来源；其余来源仅核读文件元数据和正文引用关系。",
+    "review文件仅给root整合建议，未修改nose.json、ears.json或ent-sources.json。"
+  ]
+}
+

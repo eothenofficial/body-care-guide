@@ -1,0 +1,12 @@
+{
+  "part": "feet",
+  "status": "passed_structural_and_export_checks",
+  "entries": 14,
+  "sources": 21,
+  "standalone_html_sha256": "03239590c178f9d1add1d1f8d5e568f69ccd986f69b19bb708b245fb03e18a01",
+  "source_graph_resolves": true,
+  "export_data_equal": true,
+  "all_audience_ranges_retained": true,
+  "canonical_content_unchanged": true,
+  "clinical_review_status": "not_clinically_reviewed"
+}

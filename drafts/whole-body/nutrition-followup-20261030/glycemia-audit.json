@@ -1,0 +1,116 @@
+{
+  "checked_at": "2026-10-30",
+  "entries": 2,
+  "sources": 11,
+  "entry_ids": [
+    "nutrition-015",
+    "nutrition-016"
+  ],
+  "clinical_review_status": "not_clinically_reviewed",
+  "scope": "nutrition-015/016：日常餐后血糖实践，以及中国成人筛查、用药低血糖与CGM消费判断。",
+  "proposed_unit": {
+    "id": "nutrition-u6",
+    "title": "让血糖管理回到餐食、活动和正规检查",
+    "entry_ids": [
+      "nutrition-015",
+      "nutrition-016"
+    ]
+  },
+  "claim_checks": [
+    {
+      "entry": "nutrition-015",
+      "claim": "主食份量、质量、食物组合与限制含糖饮料",
+      "sources": [
+        "NFG-S01",
+        "NFG-S02"
+      ],
+      "boundary": "不提供个人碳水克数，不要求健康人禁止主食、完整水果或全部餐后上升；低GI不等于无限量。"
+    },
+    {
+      "entry": "nutrition-015",
+      "claim": "用短暂轻走打断餐后/工作久坐",
+      "sources": [
+        "NFG-S03"
+      ],
+      "boundary": "只把单日实验结果写成急性餐后指标；没有最优固定分钟数、长期防病或抗老结论。"
+    },
+    {
+      "entry": "nutrition-015",
+      "claim": "先菜后饭可自选，但长期增量收益未确立",
+      "sources": [
+        "NFG-S04"
+      ],
+      "boundary": "综述样本为2型糖尿病；未宣称健康人一定有效或所有进食顺序绝对无效。"
+    },
+    {
+      "entry": "nutrition-015",
+      "claim": "减少碳水和增加活动需核胰岛素/促泌剂低血糖风险",
+      "sources": [
+        "NFG-S05"
+      ],
+      "boundary": "不用简单心慌确诊反应性低血糖，不自行改药；急症与具体处理链接既有001。"
+    },
+    {
+      "entry": "nutrition-016",
+      "claim": "40岁以上年度空腹筛查、高危至少年度、糖前每半年和年度评估",
+      "sources": [
+        "NFG-S06"
+      ],
+      "boundary": "中国2024发文，省级卫健委正式全文转载；不移植美国35岁和三年周期。"
+    },
+    {
+      "entry": "nutrition-016",
+      "claim": "风险线索与症状需正规评估，空腹血糖与HbA1c不同",
+      "sources": [
+        "NFG-S07",
+        "NFG-S11"
+      ],
+      "boundary": "不给健康人设个人波动阈值；无症状不排除，有症状不自诊。不搬外国BMI界值或妊娠筛查安排。"
+    },
+    {
+      "entry": "nutrition-016",
+      "claim": "CGM用途与无糖尿病消费者证据边界",
+      "sources": [
+        "NFG-S08",
+        "NFG-S09"
+      ],
+      "boundary": "组织间液与血液区分；没有否定医疗CGM。JAMA患者页并非新RCT，不用其表述概括所有糖尿病长期结局。"
+    },
+    {
+      "entry": "nutrition-016",
+      "claim": "不以无创独立测糖手表/戒指指导诊疗",
+      "sources": [
+        "NFG-S10"
+      ],
+      "boundary": "区分外部CGM数据显示端；2024美国通告未冒充2026中国或全球审批清单。"
+    }
+  ],
+  "exclusions": [
+    "不把餐后波动小等同延寿、防糖尿病或皮肤抗老；不为健康人要求常规CGM、频繁指尖测试。",
+    "未列诊断阈值表：不能将ADA与中国的糖前空腹界值混用；筛查入口不需要个人自诊表。",
+    "不编控糖产品价格；成本为空，没有品牌、实时采购或中国注册清单结论。",
+    "未新增糖前预防独立条目；相关饮食、活动与体重分支可由整合者交叉链接，不超出指定ID。",
+    "没有临床医生签审；未声称来源或推导百分之百无误。"
+  ],
+  "screened_but_not_used": [
+    {
+      "source": "American Diabetes Association Professional Practice Committee for Diabetes. Diagnosis and Classification of Diabetes: Standards of Care in Diabetes—2026. Diabetes Care. 2026;49(Suppl 1):S27-S49. doi:10.2337/dc26-S002.",
+      "reason": "核到PubMed题录；原刊和PDF返回403，PMC呈校验页。只见官方索引中的CGM诊断相关片段，未据片段承载正文关键结论，也未假称全文审阅。"
+    },
+    {
+      "source": "NHC成人糖尿病食养指南2023原PDF",
+      "reason": "PDF读取失败；改用已实读中国疾控中心相关官方科普，并明确其2023日期和范围。"
+    },
+    {
+      "source": "NIDDK Risk Factors for Type 2 Diabetes（2022审阅）",
+      "reason": "实读风险相关段，但为避免重复来源，最终用已读2024 Symptoms & Causes中的共同风险线索；美国年龄与BMI界值未采用。"
+    }
+  ],
+  "metadata_checks": [
+    "三篇期刊资料逐项核对作者、题名、卷期页/文章号和DOI；不把在线日期与正式卷期混为新证据。",
+    "2023疾控网页URL含202408，未当作更新时间；中国行动方案分别标发文日和转载日。",
+    "所有实际阅读范围与访问失败均按事实保留；系统综述未声称逐读全部底层试验或复算。",
+    "摘要为100–180字符纯文，六字段齐全；adult/older与sexes all不因题内40岁条件误设互斥过滤。",
+    "每段重要医学主张有来源映射，急性症状只做安全分流并链接既有nutrition-001。"
+  ]
+}

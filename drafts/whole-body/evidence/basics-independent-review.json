@@ -1,0 +1,83 @@
+{
+  "status": "independent_ai_editorial_review_passed",
+  "reviewer": "independent_ai_whole_hands",
+  "reviewed_on": "2026-10-29",
+  "chapter_id": "basics",
+  "entries_reviewed": 10,
+  "source_records_reviewed": 20,
+  "blocking_unresolved": [],
+  "clinical_review_status": "not_clinically_reviewed",
+  "actually_read": {
+    "local_files": [
+      "drafts\\whole-body\\chapters\\basics.json",
+      "drafts\\whole-body\\evidence\\basics-sources.json",
+      "drafts\\whole-body\\evidence\\basics-audit.json"
+    ],
+    "primary_source_sections": {
+      "BASICS-S01": "NHLBI成人7–9小时与长于9小时的解释、13–18岁8–10小时表及真实2022更新日。",
+      "BASICS-S02": "NHS2024失眠表现、固定起床/困倦驾驶、自护、影响生活就诊与CBT/短期药物；不将NHS所有概括句当普遍规律。",
+      "BASICS-S03": "NHLBI2025呼吸停顿、气促鼾声、日间疲劳以及需要睡眠检查的相关段。",
+      "BASICS-S04": "NHS2026整夜监测、CPAP原理、生活改变与不控制过度困倦不驾车；未复核所有被引原始试验。",
+      "BASICS-S05": "NHS2023原因对应表：鼻部狭窄对应鼻贴/扩张器；有停顿/憋气/日间困倦则评估OSA。",
+      "BASICS-S06": "PLOS2025期刊原文的作者、年卷期文章号/DOI、摘要、对象/纳排、风险评价与讨论、资助利益声明；实际看到摘要213和正文233不一致。未逐一重读10项纳入研究。",
+      "BASICS-S07": "NHS疲劳可能原因、持续数周或功能受影响就诊、贫血/糖尿病/甲状腺检查说明；不采用其6–9小时代替睡眠专门资料。",
+      "BASICS-S08": "WHO2026四饮食原则、蔬果和天然食物纤维400克/25克、果汁游离糖及日期；不外推为纤维粉或肾病饮食处方。",
+      "BASICS-S09": "ODS运动营养公开页Protein段：常规食物可满足、实际不足粉剂可补、超过需求无额外好处；未逐项核其他运动补剂。",
+      "BASICS-S10": "ODS补剂指导的作用、叠加和过量铁风险、维生素K/华法林、圣约翰草相互作用、孕哺/儿童、质量标识不保证安全有效。",
+      "BASICS-S11": "NHS饮水页一般6–8杯、淡黄尿粗略提示、热/活动需求变化及食物饮料贡献；不作为人人精确水量。",
+      "BASICS-S12": "West Suffolk2025官方PDF第1–2页：液体潴留的部分疾病场景、总液体定义和个体安排；没有用食物含水量表给个体处方。",
+      "BASICS-S13": "NHS2024成人19–64年龄、150/75分钟和力量2天、强度判断、孕产段。另读NHS2026孕期运动页用于核适用边界，未将其具体处方新增到正文。",
+      "BASICS-S14": "NHS2024老年65+的按能力活动、力量/平衡/灵活性、跌倒顾虑和强度；未混用WHO平衡频次。",
+      "BASICS-S15": "NIMH Caring for Your Mental Health实读自护、严重困扰/2周以上求助及2026Apr复核；另读Depression2024册作为身体心理双向和紧急风险的交叉核查，不混写其日期。",
+      "BASICS-S16": "WHO Tobacco and nicotine2026Jun26多器官风险、戒烟支持及新产品段。",
+      "BASICS-S17": "FDA风险连续谱：无安全产品但燃烧一般危害更高；不据此给中国电子烟戒烟适应证或所有品牌排名。",
+      "BASICS-S18": "NHS2026BMI不能分辨所有肌肉脂肪、减重支持、低热量并非人人安全、药物入口及日期；未复制英式BMI/手术条件。",
+      "BASICS-S19": "WHO2024酒精低量非零风险、总量/频次/重度饮酒和个体因素；未推红酒养生或零风险杯数。",
+      "BASICS-S20": "NHS2026Aug17依赖后突然停酒危险、一般戒断提示，以及幻觉/严重震颤/抽搐的急救分流。"
+    },
+    "additional_cross_checks": [
+      {
+        "url": "https://www.nhs.uk/pregnancy/keeping-well/exercise/",
+        "scope": "2026孕期活动量与起步、原本不运动者不突然开始新剧烈活动；本篇保留另行评估。"
+      },
+      {
+        "url": "https://www.nimh.nih.gov/health/publications/depression",
+        "scope": "2024册的身体/心理/环境多因素、身体症状、专业评估；不替代S15的实际2026页面日期。"
+      },
+      {
+        "url": "https://www.cuh.nhs.uk/patient-information/restricting-your-fluid-intake/",
+        "scope": "2023肾科限水患者页仅作交叉核：少尿/液体潴留按个体安排，不把CKD等同人人同量。"
+      }
+    ]
+  },
+  "checks": [
+    "睡眠量是成人参考，不把精确8小时或超过9小时当所有人的健康界线；长期功能受影响有就诊入口",
+    "OSA描述解释名词、症状和整夜监测及CPAP用途，不凭鼾声安静确诊；不网购统一压力或牙套替评估",
+    "贴嘴综述为低质异质研究；未使用有内部矛盾的总人数，未把潜在窒息讨论写成人体观察发生率",
+    "疲劳检查按病史线索，未一概归维生素不足、抑郁或意志薄弱；没有人人全维生素激素检测套餐",
+    "补铁过量、K/华法林和圣约翰草相互作用均有原页直接支持；没有处方剂量或停处方药建议",
+    "400克蔬果和25克天然食物纤维有WHO2026对应；未复制运动员蛋白剂量或把粉剂当完整餐",
+    "运动数值明确NHS19–64和65+，从能力起步，孕产及特殊疾病另评估；未把成人剂量套儿童",
+    "补水按需求，限水以部分液体潴留情境和医疗安排为前提；没有说所有心衰或肾病都必须限同量",
+    "身体心理相互影响但非身体决定论；2周求助不是等待门槛，自伤危险立即联系当地急救并有人陪同",
+    "未复制988、911、111或999为中国急救号码，来源中的海外流程未搬入用户路径",
+    "烟草/电子烟相对风险与无害分开，医学尼古丁替代不混同消费电子烟；酒精依赖不自行突然硬停",
+    "大量或严重戒断表现直接急救；无自购镇静药、减重药剂量、海外肥胖手术门槛外推",
+    "唯一DOI的作者、题名、年卷期、文章号与实际PLOS页匹配；更新日/预定复审日区分"
+  ],
+  "nonblocking_notes": [
+    {
+      "entries": [
+        "basics-001",
+        "basics-006"
+      ],
+      "finding": "项目adult标签从18岁起，而本条睡眠表中的NHLBI仍将13–18岁列为8–10小时，运动数字明确NHS19–64。正文与scope_note已限定年龄，没有跨龄用药，故不阻断。",
+      "suggestion": "以后如要给输入18岁的读者显示精确量化推荐，可单独核18岁分支；不能由编辑adult标签自动把所有数字视为18岁已核。"
+    }
+  ],
+  "limitations": "这是独立AI的来源与推理审读，非医生临床签审；对20项来源均实际打开并读相关段落，未逐项重做系统综述、复核全部参考文献/原始试验或完成各补剂成分专项研究。",
+  "file_hashes": {
+    "drafts\\whole-body\\chapters\\basics.json": "2bc287959cdece0cff09a7d700292f2bb0938117eaca3bdc88e0cb82a35e6f85",
+    "drafts\\whole-body\\evidence\\basics-sources.json": "3c80493690c25ad078fecd8d85210d65adeee139eb14426d12f6342452dfdbf8"
+  }
+}

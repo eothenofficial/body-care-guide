@@ -1,0 +1,157 @@
+{
+  "checked_at": "2026-10-30",
+  "reviewer": "independent_ai_editor_sleep_exercise",
+  "clinical_review_status": "not_clinically_reviewed",
+  "input_sha256": {
+    "meals-entries.json": "bd83a19b15539d9b6ba2fe9c0ef9afd9fa4d60bc287e5c508c065f60ef1271ee",
+    "meals-sources.json": "c17e05095183288fc25456d7643c0bc5808a00ec70c0c3f8677beb6f532669db",
+    "screen-entries.json": "8183e023980f20e5d1830828f8dc38ddd800755976f892d31440331c3c7c51d1",
+    "screen-sources.json": "446b327d90aab302075b14f88ad4b9149517c9e00a62839c920ab61f12269295"
+  },
+  "entries_reviewed": [
+    "sleep-010",
+    "sleep-011",
+    "sleep-014"
+  ],
+  "entry_fields_read": [
+    "title",
+    "summary",
+    "fields.cost",
+    "fields.plain",
+    "fields.benefit",
+    "fields.evidence",
+    "fields.sources",
+    "fields.notes",
+    "audience.age_groups",
+    "audience.sexes",
+    "audience.scope_note",
+    "audience.safety_pin"
+  ],
+  "source_records_read": 14,
+  "original_reading_scope": [
+    {
+      "url": "https://link.springer.com/article/10.1186/s40101-026-00430-0",
+      "read": "原刊摘要、方法Participants/Protocol/Dietary control、睡眠测量和结果/统计相关正文。核13名健康年轻女性、1h/5h、4干预日/每条件6日、709–740kcal、家庭EEG；不把整体6日误当6干预日。未重析个体数据或补充文件。"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8131073/",
+      "read": "完整摘要、Participants and Study Protocol及主要常规睡眠/频谱结果相关正文，核20人10男10女、18–30岁、单晚随机交叉的事后分析。重要对照是35%全天能量正餐与10%点心在18:00和22:00交换，两组均有22:00进食。"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8754510/",
+      "read": "ACG推荐表和Medical Management推荐中餐后2–3h、触发食物与警示症状原文；另以PubMed34807007核正式题名，PMC作者手稿题名略不同不当引用错误。"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33867308/",
+      "read": "完整摘要、四作者/正式卷期页/DOI及利益声明；核167名18–24岁三组七夜、主要结局无显著差异，睡眠时长分层是post-hoc exploratory，正文未夸大为主要预设阳性。未取得原刊全文。"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37593770/",
+      "read": "完整摘要相关方法、睡眠6 RCT共148人/不一致/很低确定性及作者结论；核睡眠不确定≠已证明无效。"
+    },
+    {
+      "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0228756",
+      "read": "原刊完整摘要、Methods纳入排除/干预监督/睡眠测量和资助利益说明；核38人、30min、4周、日记和量表、研究者提醒监督，不能把30min当最佳阈值或归因全是蓝光。"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4313820/",
+      "read": "方法人数/五晚每晚4h/最大亮度条件、相关结果及Discussion限制；原文明言没有长波长自发光对照，不能独立分离光谱与照度。"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12356610/",
+      "read": "刺激控制原始定义、time-based/event-based、何时离床/做什么/何时回床相关完整段。不是20min定时考核；安静活动不应变成必须把自己催眠的任务。PubMed仍显示2025在线先发；后经独立打开Elsevier自有EM-consulte正式页核2026年5月36(2):100542，书目已按正式版更新，阅读方法仍明确PMC作者稿。"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7853203/",
+      "read": "AASM推荐表、刺激控制推荐/质量/安全与相邻睡眠限制安全段；明确单独刺激控制conditional/low evidence，跌倒/行动障碍/镇静催眠药者调整。"
+    },
+    {
+      "url": "https://www.nhs.uk/every-mind-matters/mental-wellbeing-tips/how-to-fall-asleep-faster-and-sleep-better/",
+      "read": "六条建议正文，核不强迫睡觉、约20min操作参考、困后返回、待办担忧与时钟放视线外；未采用视频或假称本站有图。"
+    },
+    {
+      "url": "https://www.nhlbi.nih.gov/health/sleep-deprivation/healthy-sleep-habits",
+      "read": "本代理前一子任务中已直接读全部健康习惯/小睡/轮班段；核大餐与轻点心、一小时安静光线建议，日期2022-03-24。不重复称重新读全部NIH试验。"
+    },
+    {
+      "url": "https://www.niddk.nih.gov/health-information/diabetes/overview/preventing-problems/low-blood-glucose-hypoglycemia",
+      "read": "夜间低血糖表现、胰岛素/促泌药、漏餐/禁食、预防与预定处理相关完整正文，核2021-07真实日期；没有把所有噩梦或饥饿自诊低血糖。"
+    },
+    {
+      "url": "https://www.nhs.uk/pregnancy/common-symptoms/indigestion-and-heartburn/",
+      "read": "生活调整、何时求助、孕期抗酸药及不得自行停处方相关正文，核2023-11-14真实日期与2026计划复审区别。"
+    },
+    {
+      "url": "https://www.em-consulte.com/article/1809190/implementation-of-stimulus-control-and-sleep-restr",
+      "read": "2026-10-30独立实读Elsevier自有正式页面的题名、三作者、DOI、Vol36 No2及Article100542/mai2026，元数据与修订的SLS-S06吻合；订阅全文未访问或绕过。"
+    }
+  ],
+  "clinical_mapping_checks": [
+    "夜宵：大餐/少量点心/GERD/糖尿病既定加餐/孕期反酸分别写，2–3h限定反流且低确定性conditional；未给人人时钟禁食。",
+    "2026晚餐论文支持较近正餐下连续性变差；2021常规分期无明显差异保留，未宣称严格等效、夜宵均安全或晚餐治失眠，也未将血糖或消化机理当已证因果。",
+    "蓝光：先给可执行30–60min收尾再讲机理，说明起步方案而非生理界限；NightShift无总体差异不推出任何设备绝对无效，眼镜睡眠效果保留不确定。",
+    "刺激控制：短暂舒服清醒不机械强迫起身；烦躁清醒离床、困后返回，不盯钟；与完整CBT-I/睡眠限制区分，跌倒/镇静药限制放正文和摘要。",
+    "年龄与男女：三条adult/older、all是共同生活习惯入口，未把年轻试验收益大小普遍移植老年；孕期仅备注分支，无儿童用药或睡眠限制方案。",
+    "摘要100–180字，成本空，备注有新增孕期信息才保留；所有来源别名可解析，正文没有不存在的图示或资源。"
+  ],
+  "findings": [
+    {
+      "id": "MSR-001",
+      "severity": "nonblocking_source_clarification",
+      "target": "SLM-S04.support/limitations",
+      "finding": "原2021晚餐试验两组均在睡前1h吃东西：早正餐组是小点心，晚正餐组是较大正餐。当前正文没有称早组空腹，故不构成方向错误，但来源账本只说1h/5h晚餐容易被后续AI读成完全禁食比较。",
+      "suggestion": "在source支持或限制加“正餐与小点心交换18:00/22:00时点（约35%/10%全天能量），不是睡前吃与完全不吃的比较”。",
+      "status": "resolved",
+      "resolution": "按root明确授权，仅更新meals-sources.json和write_meals.py的SLM-S04设计细节；重新运行生成器并回读，确认18:00正餐/22:00点心与逆序、35%/10%全天能量及两组睡前1h均吃东西。未改临床正文或结论。"
+    },
+    {
+      "id": "MSR-002",
+      "severity": "bibliographic_update",
+      "target": "SLS-S06 citation/reading_depth/limitations",
+      "finding": "PubMed在线先发题录尚未跟上正式卷期。",
+      "resolution": "作者按root要求改为2026;36(2):100542，独立复核者亲自打开Elsevier EM-consulte正式页核三作者、DOI、卷期与文章号；临床读取仍标PMC作者手稿，不称已读订阅全文。",
+      "status": "resolved"
+    },
+    {
+      "id": "MSR-003",
+      "severity": "wording_only",
+      "target": "sleep-011.title",
+      "finding": "旧题名“停下刷屏和工作收尾”可能被读成不要给工作收尾。",
+      "resolution": "改为“睡前先给工作收尾、放下手机，别把夜间模式当助眠保证”，已实读当前JSON标题，两个动作明确并与原正文一致；其他临床字段未改。",
+      "status": "resolved"
+    }
+  ],
+  "blocking_unresolved": [],
+  "remaining_limits": [
+    "复核为独立AI编辑核对，不是临床医生签审。",
+    "没有独立重读所有纳入试验、重算统计或检测现售产品。"
+  ],
+  "disposition": "passed_after_source_metadata_and_title_clarifications",
+  "prior_input_sha256": {
+    "meals-entries.json": "bd83a19b15539d9b6ba2fe9c0ef9afd9fa4d60bc287e5c508c065f60ef1271ee",
+    "meals-sources.json": "db4ba4409df81a04116c75c1848525be44942de441290d7217e3a02b335c0eb7",
+    "screen-entries.json": "1833a6f730f3963cba605ca24783a0b5b92bf0d01f3e62a4d581794084ed4390",
+    "screen-sources.json": "ad2a0f7a8e79e93bdfc649bc84f2c655d6157e7f8b5de59e641c580bd185dbf0"
+  },
+  "post_change_reread": "2026-10-30：回读修订后SLM-S04全部字段、sleep-010全部六字段及生成器对应literal；同原始设计对照一致，entry正文和摘要没有改变。 另独立核正式2026卷期并回读SLS-S06各字段；临床正文未变，书目、阅读范围与限制一致。",
+  "review_revision_history": [
+    {
+      "reason": "screen作者按root意见更新Cuddihy正式2026卷期；独立复核者直接打开EM-consulte原页再次核对，原临床正文未变。",
+      "prior_input_sha256": {
+        "meals-entries.json": "bd83a19b15539d9b6ba2fe9c0ef9afd9fa4d60bc287e5c508c065f60ef1271ee",
+        "meals-sources.json": "c17e05095183288fc25456d7643c0bc5808a00ec70c0c3f8677beb6f532669db",
+        "screen-entries.json": "1833a6f730f3963cba605ca24783a0b5b92bf0d01f3e62a4d581794084ed4390",
+        "screen-sources.json": "446b327d90aab302075b14f88ad4b9149517c9e00a62839c920ab61f12269295"
+      }
+    },
+    {
+      "reason": "sleep-011纯标题消歧：明确给工作收尾与放下手机两个动作；回读新标题，与既有正文/摘要一致，未改变临床建议、人群或证据。",
+      "prior_input_sha256": {
+        "meals-entries.json": "bd83a19b15539d9b6ba2fe9c0ef9afd9fa4d60bc287e5c508c065f60ef1271ee",
+        "meals-sources.json": "c17e05095183288fc25456d7643c0bc5808a00ec70c0c3f8677beb6f532669db",
+        "screen-entries.json": "1833a6f730f3963cba605ca24783a0b5b92bf0d01f3e62a4d581794084ed4390",
+        "screen-sources.json": "446b327d90aab302075b14f88ad4b9149517c9e00a62839c920ab61f12269295"
+      }
+    }
+  ]
+}

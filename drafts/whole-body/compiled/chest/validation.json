@@ -1,0 +1,12 @@
+{
+  "part": "chest",
+  "status": "passed_structural_and_export_checks",
+  "entries": 12,
+  "sources": 19,
+  "standalone_html_sha256": "6796140e23f0d87886f5bc1b541e6579a4902f897f6c1027e4ac38b5e615bc65",
+  "source_graph_resolves": true,
+  "export_data_equal": true,
+  "all_audience_ranges_retained": true,
+  "canonical_content_unchanged": true,
+  "clinical_review_status": "not_clinically_reviewed"
+}

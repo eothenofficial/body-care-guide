@@ -1,0 +1,31 @@
+{
+  "content_version": "2026.10.30-5",
+  "reader_sha256": "4c6ea7d663bf8547fd13d0838682b7ca24c3d694ae0052b1d98df8f4cb2418c9",
+  "method": "Manual browser observations of the loopback-served final build, plus separately recorded automated tests. This file records observations; it is not an automated browser test result.",
+  "observed": {
+    "default_main_prose_px": 20,
+    "reading_settings_visible": true,
+    "font_presets_px": [18, 20, 22, 24],
+    "selected_24px_relaxed_prose_line_height_px": 54,
+    "reset_and_reload_restored_default_20px": true,
+    "topbar_position": "sticky",
+    "reading_settings_button_height_px": 44,
+    "duplicate_chapter_cards_on_home": 0,
+    "old_young_only_home_label_present": false,
+    "mobile_320px_dialog_width_px": 280,
+    "mobile_320px_document_client_and_scroll_width_px": [320, 320],
+    "mobile_320px_24px_nutrition017_table_container_client_width_px": 250,
+    "mobile_320px_24px_nutrition017_table_scroll_width_px": 361,
+    "reading_dialog_locks_background_scrolling": true,
+    "temporary_viewport_override_reset": true
+  },
+  "screenshots": ["阅读首页.png", "阅读设置.png"],
+  "limits": [
+    "The final desktop home and reading-settings screenshots were visually inspected. Not every entry was manually viewed in the browser.",
+    "Mobile width and overflow were inspected; a successful manual horizontal table swipe is not claimed.",
+    "Local file navigation was restricted by the browser. Direct file-mode contracts are covered by tests and the same offline HTML bytes; this is not a manual file-protocol browser pass.",
+    "Age and sex filters, merged-entry aliases, bookmark migration and storage-failure behavior are covered by the 139-test run. Do not describe all of them as manual browser checks.",
+    "Browser and engineering checks do not constitute clinical review."
+  ],
+  "clinical_review_status": "not_clinically_reviewed"
+}

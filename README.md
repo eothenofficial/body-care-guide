@@ -1,72 +1,64 @@
-# 身体护理指南
+# 少走弯路的人体保养指南
 
-写给年轻人的身体护理参考：弄懂日常习惯和常见用品，比较效果、成本与适用条件，也保留结论背后的证据和局限。
+## 从头到脚，学会照顾自己。
 
-当前第一篇是**五官与头部**，含眼睛、鼻子、嘴唇、完整口腔、耳朵、面部皮肤与头发，共66条建议、170项来源。内容为2026年10月28日的研究修订版，经过案头资料与推导复核，**尚未完成临床医生逐条审阅**。
+我们从小认真学过怎么读书、怎么考试，却很少系统学过怎么照顾自己的身体。眼睛干涩、嘴唇起皮、口腔溃疡、肩腰酸痛、皮肤起疙瘩……这些不大不小的困扰，常常被一句“忍忍就好了”带过去。可到底该观察什么、怎么自护、什么时候需要就医，我们未必清楚。
 
-本目录是可独立构建的网站项目，公开仓库为 [eothenofficial/body-care-guide](https://github.com/eothenofficial/body-care-guide)，已通过[首次GitHub Pages发布](https://github.com/eothenofficial/body-care-guide/actions/runs/40822982762)。许可证尚待作者确定。不要将“可运行”或CI通过理解成“所有医学结论已获验证”。
+身体常识没学明白，保养的广告倒看了不少。叶黄素、护眼仪、蒸汽眼罩、漱口水……它们分别能解决什么问题，对谁有用，哪些可有可无？这份指南把日常不适、护理习惯和产品用途逐一查证，让你先弄清自己的需要，再决定怎么做、买不买。用更少的试错，把身体照顾好，少受罪，也少花冤枉钱。
 
-## 直接阅读
+**[在线阅读](https://eothenofficial.github.io/body-care-guide/)** · [下载离线 HTML](https://eothenofficial.github.io/body-care-guide/downloads/guide-offline.html) · [完整 Markdown](https://eothenofficial.github.io/body-care-guide/downloads/guide.md) · [问题与纠错](https://github.com/eothenofficial/body-care-guide/issues)
 
-- 网站入口：[身体护理指南](https://eothenofficial.github.io/body-care-guide/)（已发布；首页、搜索、正文、来源与独立分享页已实际打开核验）。
-- 第一次发布或更新：[不写代码的GitHub操作步骤](docs/GITHUB_MVP.md)。
-- 本地阅读：构建后打开 `dist/index.html`，无需安装前端依赖。
-- 离线分享：发送 `dist/downloads/guide-offline.html`。它包含全部内容、检索和阅读界面。
-- 打印：在网站“项目与下载”选择“打印与另存PDF”，用浏览器打印完整正文。
+当前内容版本 **2026.10.30-8**：**29个专题、341条建议、638项去重来源**。覆盖全年龄段、所有性别；每条适用范围分别标注，不能把全年龄定位理解成所有建议都适合所有人。
 
-离线文件不会自动更新，应同时保留内容版本号。仓库与网站网址已写入 `content/config.json`。
+为自己查，也为家人查。按需选读，不必把护理变成一张任务清单。内容尚未经过临床医生逐条签审，工程检查通过不代表临床认证，也不能代替个人检查、诊断与处方。
 
-## 本地启动
+## 怎样查阅
 
-需要Python 3.11或以上，构建和校验仅使用标准库，不需要npm或数据库。
+- 按身体部位查找，或输入症状、习惯与用品名称；支持年龄和男女条件组合筛选。
+- 标题和摘要先说明行动，正文解释概念、证据、适用条件与具体做法；专业名词就近介绍。
+- 来源有统一书目、链接、DOI、支持范围和局限，可从正文回查。
+- 可以收藏、导出与导入收藏、打印、离线阅读；9条已合并建议的旧链接继续有效。
+
+搜索和收藏在本机浏览器内完成，没有账号、广告追踪或症状上传接口。更换浏览器或清除存储可能影响收藏，请使用导出备份。
+
+## 在本地构建当前版本
+
+需要 **Python 3.12**；完整工程测试另需 **Node.js 24**，不需要 npm、数据库或付费服务。构建使用 Python 标准库。
 
 ```sh
-python scripts/build.py --check
-python -m unittest discover -s tests -v
-python scripts/build.py
+python build.py --check
+python scripts/run_current_checks.py
+python build.py
 python -m http.server 8000 --directory dist
 ```
 
-浏览器打开 `http://localhost:8000`。直接双击离线HTML也能使用。每条建议另有 `read/<id>/` 静态分享页，完整正文和来源无需JavaScript；搜索、筛选与收藏使用阅读界面的JavaScript。
+打开 `http://localhost:8000`。也可以直接打开 `dist/downloads/guide-offline.html`，无需启动服务器。完整源码可用 GitHub 的 `Code → Download ZIP` 下载。
 
-## 已实现的框架
+`python build.py` 与 `python scripts/build_current.py` 是同一个当前发布入口。`--check` 会重新准备 `.draft-preview/current/content` 与 `web`，验证当前内容和资源，不生成新的 `dist`。完整构建先在暂存目录生成，再复制到根 `dist/`。配置和当前已确认来源见 [release/current.json](release/current.json)；版本、条目数、专题数、来源数或书名不符时构建失败，防止自动发布旧版。
 
-| 用途 | 实现 |
+`content/` 和 `python scripts/build.py` 保留第一版七章66条的历史基线及回归测试，**不是当前全书入口**。不要直接编辑生成的 `dist/` 或把旧基线构建当作最新版发布。
+
+## 项目结构与继续维护
+
+| 路径 | 用途 |
 | --- | --- |
-| 阅读 | 部位目录、单元顺序、六字段正文、专业名词就近解释 |
-| 查找 | 中文全文搜索、常用词映射、部位/证据标签/阅读方向组合筛选 |
-| 追溯 | 文内引用、来源详情、支持范围与局限、反查引用条目 |
-| 传播 | 66个稳定条目静态分享页、离线单HTML、Markdown/JSON下载、打印样式 |
-| 日常使用 | 移动端导航、键盘操作、浅色/深色、本机收藏 |
-| 开发 | canonical JSON、显式ID注册表、版本化只读静态API |
-| 协作 | 内容纠错/网站故障表单、PR模板、内容贡献规范 |
-| 自动化 | 构建前校验、测试、Pages发布工作流、每周维护报告 |
+| `release/current.json` | 当前版本、已确认编辑源、正式网址和数量检查 |
+| `drafts/whole-body/` | 从全书资料到逐条修订的可复现编辑源、来源与审核记录 |
+| `drafts/whole-body/approved-home-20261030/home-copy.json` | 已确认书名及两段首页介绍 |
+| `web/` | 网站界面、原字号与布局、抽象插图及同源SVG标志 |
+| `scripts/build_current.py` | 正式网站、API、静态分享页和多格式导出的统一构建入口 |
+| `tests/` | 数据、引用、适用人群、旧链接、实际阅读器和发布回归检查 |
+| `docs/` | 写作SOP、调用Prompt、验收清单和维护规则 |
+| `content/` | 不覆盖的早期公开基线 |
+| `.github/` | CI、Pages发布、只生成报告的定期维护和贡献模板 |
 
-搜索、收藏都在浏览器本地完成。没有广告、第三方统计或症状上传接口。
+完整规范见[全书规划与调用SOP](docs/身体护理指南全书规划与调用SOP.md)、[继续写作Prompt](docs/继续写作Prompt.txt)、[验收清单](docs/身体护理项目验收清单.md)、[发布说明](docs/GITHUB_MVP.md)。后续AI或协作者应先读当前SOP，保留已确认的名字、首页文案、原字号与抽象图，不把历史版本的撤回决定恢复为现行要求。
 
-## 项目结构
+改正文须同时核查来源身份、证据支持范围、年龄与男女适用条件和旧ID；不能让工具静默改写医学结论。编辑源通过后更新当前发布描述并重新运行完整检查，网页、静态分享页、离线HTML、Markdown和JSON均从同一数据生成。既有稳定条目ID、来源ID、分享路由和线上收藏键继续保留。
 
-```text
-content/
-  chapters/          # 每章的元数据、单元与条目，唯一编辑源
-  sources.json       # 稳定来源ID与书目
-  id-registry.json   # 初次迁移后的稳定身份
-  book.json          # 导览和证据说明
-  review-log.json    # 66条案头核查记录
-  config.json        # 标题、仓库与站点网址、后续篇章配置
-web/                 # 阅读界面，无外部运行时依赖
-scripts/             # 构建、校验、链接与到期报告
-tests/               # 数据与维护行为测试
-docs/                # 架构、证据、贡献、发布、后续路线
-.github/             # CI、Pages、维护与贡献模板
-dist/                # 生成结果，不手动编辑、不提交
-```
+## 发布、接口与维护
 
-编辑 `content/` 后构建，网站、数据接口和离线文件一起更新。不要直接改 `dist/`，也不要维护一份独立于数据源的网页正文。
-
-## 给后续开发者的接口
-
-构建后可直接读取：
+`main` 上的推送自动触发 CI 和 GitHub Pages。两者均验证当前版、运行全部测试（有跳过视为不完整）并构建，检查失败不会部署。以对应提交的 Actions 最终结果及线上 `api/v1/manifest.json` 为准，不能仅凭提交成功就声称网站更新。
 
 ```text
 api/v1/manifest.json
@@ -75,25 +67,12 @@ api/v1/entries.json
 api/v1/sources.json
 ```
 
-API有 `schema_version` 与 `content_version`，条目使用稳定ID，例如 `eyes-001`。来源使用从DOI或规范化URL建立的稳定ID，网页显示编号不承担身份。具体字段见 [架构说明](docs/ARCHITECTURE.md)。静态接口是读资料的入口，不提供诊断、处方或自动生成医学结论的服务。
+这些是版本化静态数据，没有在线诊断或处方服务。每条建议有不依赖JavaScript的 `read/<id>/` 完整分享页；打印与PDF由浏览器提供，没有预生成PDF。
 
-## 发布与维护
+每周维护先准备当前全书，再对 `.draft-preview/current` 运行链接和复核报告，不修改医学正文、不创建Issue或PR。链接可达不代表结论正确；到期提醒不证明结论过时。旧发布记录只证明各自历史提交的状态。
 
-本项目已用GitHub保存内容和代码，以GitHub Pages承载公开静态站。仓库的Pages发布来源已设为GitHub Actions，`.github/workflows/pages.yml` 已完成首次构建与部署。后续提交仍须分别确认自动检查和发布结果，首次成功不代表所有后续版本都已验收。
+## 来源、许可与边界
 
-`content/config.json` 已填入实际仓库与HTTPS站点网址，构建会生成分享页的规范网址和站点地图；当前配置不再采用空网址预览的 `noindex, nofollow` 模式。许可证、维护分工、分支保护和专业审阅仍待落实。每周来源与复核报告已配置，尚未完成首次远端运行。[发布步骤与替代托管](docs/PUBLISHING.md)记录了已完成与待验证事项。
+项目参考 [HowToLiveBetter](https://github.com/eternity4719/HowToLiveBetter) 的行动条目、多格式阅读与可追溯维护思路，护理内容和网站代码独立编写。参考项目固定研究版本为 `e2605d3e2242bd6216c9255192b8a8957a08c55a`。
 
-自动化只检查机器能判断的事。链接可达不代表论文可信；到期提醒不代表结论已过时；CI通过不代表临床审核完成。医学更改先说明具体问题、证据与推理，再由维护者审查，不能自动爬取或让LLM静默替换结论。
-
-## 继续参与
-
-- [怎样贡献一条内容](docs/CONTRIBUTING.md)
-- [证据与医学审核政策](docs/EVIDENCE_POLICY.md)
-- [代码与数据结构](docs/ARCHITECTURE.md)
-- [后续篇章与功能路线](docs/ROADMAP.md)
-
-本项目参考了 [HowToLiveBetter](https://github.com/eternity4719/HowToLiveBetter) 的行动条目、多格式阅读和可追溯维护思路；网站代码与护理内容独立编写，没有直接移植其解析器、广告或统计脚本。研究时固定参考版本为 `e2605d3e2242bd6216c9255192b8a8957a08c55a`。
-
-## 许可状态
-
-当前未授予对外再分发许可。建议后续分别选择代码MIT与内容CC BY 4.0，但须由项目所有者确认后加入正式许可证文件与署名方式；仓库公开不等于已经授予这些许可。引用的论文、商标和机构页面各自保留原权利，不能替第三方材料授予许可。
+当前尚未授予对外再分发许可；公开仓库不等于采用MIT或CC许可。代码与原创内容的正式许可证待作者确定，第三方论文、机构页面和商标各自保留权利。临床专业签审、维护分工与分支保护也不能仅凭本次发布视为完成。

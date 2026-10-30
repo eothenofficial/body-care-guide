@@ -1,0 +1,43 @@
+{
+  "checked_at": "2026-10-30",
+  "entries": 2,
+  "sources": 7,
+  "clinical_review_status": "not_clinically_reviewed",
+  "read_style_sop": true,
+  "read_project_sop": true,
+  "coverage": {
+    "sleep-009": "睡前运动：钟点/相对入睡时点、负荷×时长、普通好睡者与失眠、指南分歧、症状记录调整。",
+    "sleep-013": "缺觉后运动：偶发少睡/通宵/明显困倦分流，安全通勤，训练减量与高风险推迟，咖啡不是恢复许可。"
+  },
+  "important_limits": [
+    "2025观察研究与2021实验综述不假装完全一致。4小时作为较重训练调整起点而非普遍禁动阈值；2025约408万夜不当408万人。",
+    "NHS失眠网页的睡前4h禁运动与NHLBI一般睡眠习惯的睡前1h避免intense明确并列，未假称指南一致；良好睡眠成人试验不保证老年失眠患者。",
+    "2022睡少SR的≤6h为研究纳入界定，不写成健身禁线；合并平均−7.56%与每醒1h降0.4%未用于个人预测。",
+    "运动表现下降不等于受伤风险已量化；改轻活动和推迟极限项目明确为基于证据的保守编辑建议，未声称干预安全RCT。",
+    "未建议为晨练再次早起缩短睡眠，也未认定一晚失眠必有长期器官损伤。",
+    "引用的NHLBI认知/安全与NHTSA驾驶资料不冒充运动伤害试验；胸痛晕厥入口稳定链接已有急症。",
+    "sleep-009新增胸痛/晕厥/明显气短时转activity-001，急症依据由该已核条目的NHS来源提供，不把NHLBI一般缺觉安全页冒充胸痛分流来源。",
+    "SLX-S03记录同机构失眠treatment页5–6h口径，正文称一般睡眠习惯页1h，避免把NIH所有页面等同一线。",
+    "sleep-013收益中的兴奋剂改提神产品，便于理解且不改变原临床结论。"
+  ],
+  "reading_limits": [
+    "Nature原刊初次能读摘要/引言/主要结果；后续部分获取受身份跳转限制。PMC直接页为校验页面，未绕过；方法相关定义来自PMC官方搜索索引所返回正文，资金用PubMed实际完整利益声明，均在source阅读深度如实标记。",
+    "2021 Frimpong只核PubMed完整摘要和题录及利益声明，不称全读或全读原试验。",
+    "2022 Craven原刊全文相关方法/结果/讨论限制/资金实际读取；没声称独立重分析。"
+  ],
+  "not_added": [
+    "具体损伤概率或人人同一安全睡眠小时线",
+    "全品类训练前补剂成分评测",
+    "把运动当慢性失眠一线治疗替代CBT-I"
+  ],
+  "summaries": {
+    "sleep-009": 117,
+    "sleep-013": 117
+  },
+  "blocking_unresolved": [],
+  "disposition": "updated_after_independent_ai_editorial_review_ready_for_reread",
+  "input_sha256": {
+    "exercise-entries.json": "19439c50ab7fb86a68699b5183981faa933e6cd7689284d9663b7cffb2aa4c7f",
+    "exercise-sources.json": "18d16ffac3a032cce092c6211bf1d601e454be34ff7db29e6eee088fdb9c21ba"
+  }
+}

@@ -1,0 +1,289 @@
+{
+  "status": "author_self_check_passed_not_clinical_review",
+  "content_checked_at": "2026-10-29",
+  "chapter": "chest",
+  "entries": 12,
+  "sources": 19,
+  "doi_sources": 2,
+  "summary_length_range": [
+    118,
+    130
+  ],
+  "source_graph": "all 19 source aliases cited; six fields and unit membership checked",
+  "clinical_review_status": "not_clinically_reviewed",
+  "important_boundaries": [
+    "乳房共同异常警示男女都保留；male仅用于男性乳房增大独立入口",
+    "文胸贴合只取Royal Marsden一般机械检查，不外推癌症术后压力/夜间/淋巴按摩方案",
+    "运动文胸仅成人短时主观结局，不证明所有中国女性/产品或长期防下垂",
+    "钢圈无关联仅观察资料，不写所有年龄/衣物绝对安全",
+    "止汗与乳腺癌未确立因果，不把成分机制和组织检出当人体风险结论",
+    "HS不是没洗干净；AAD对抗菌洗剂较积极，BAD明确证据薄弱，保留限制而非拼成强疗效"
+  ],
+  "source_dates": [
+    "心脏急症优先交叉核NHS2026-03-31版",
+    "AAD HS自护实际2026-10-20更新，含Incyte/Novartis支持；不称独立无资助",
+    "DermNet医学更新2018/2020copyedit，作为稳定基础护理而非2026新药指南",
+    "NHS部分症状页预定复审已过，如实记录，未伪造更新日期"
+  ],
+  "excluded_or_not_used": [
+    {
+      "source": "Frimley NHS intertrigo page",
+      "reason": "正文将intertrigo一概归Candida且把脚气类比酵母，过于简化；改用DermNet区分病因"
+    },
+    {
+      "source": "2010 sports-bra PubMed PMID20019639",
+      "reason": "搜索能取摘要但打开出现reCAPTCHA；本版不据其结果写正文，改用实际可读2016原题录"
+    },
+    {
+      "source": "East Midlands Cancer Alliance bra-fitting PDF",
+      "reason": "打开401，未声称已读"
+    },
+    {
+      "source": "NICE InterDry technology page",
+      "reason": "本轮打开超时；不引它评定银离子布效果"
+    },
+    {
+      "source": "DailyMed breast enhancement cream label",
+      "reason": "标签收录不是FDA认可疗效，不作为丰胸有效证据"
+    }
+  ],
+  "uncovered": "未展开乳腺癌筛查套餐、孕哺全套诊疗、隆胸植入物与手术全谱，也未把健康护理扩写完整心内科；新症状仍按明确路径就诊。",
+  "checks": [
+    {
+      "id": "chest-001",
+      "summary_characters": 118,
+      "source_ids": [
+        "CHEST-S01",
+        "CHEST-S19"
+      ],
+      "audience": {
+        "age_groups": [
+          "adult",
+          "older"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "急症入口在人群筛选中保留；未成年人也不靠年龄自行排除急症，本条不含跨年龄药物处方。",
+        "safety_pin": true
+      }
+    },
+    {
+      "id": "chest-002",
+      "summary_characters": 126,
+      "source_ids": [
+        "CHEST-S02",
+        "CHEST-S03",
+        "CHEST-S04"
+      ],
+      "audience": {
+        "age_groups": [
+          "teen",
+          "adult",
+          "older"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "青少年、成人和老年均可按变化就诊；男女警示共同保留，不据性别隐藏男性乳房问题。",
+        "safety_pin": false
+      }
+    },
+    {
+      "id": "chest-003",
+      "summary_characters": 120,
+      "source_ids": [
+        "CHEST-S04"
+      ],
+      "audience": {
+        "age_groups": [
+          "adult",
+          "older"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "以成人与老年阅读为主；个体检查、孕哺和产品条件另按正文判断。",
+        "safety_pin": false
+      }
+    },
+    {
+      "id": "chest-004",
+      "summary_characters": 121,
+      "source_ids": [
+        "CHEST-S05",
+        "CHEST-S03"
+      ],
+      "audience": {
+        "age_groups": [
+          "teen",
+          "adult",
+          "older"
+        ],
+        "sexes": [
+          "male"
+        ],
+        "scope_note": "男性青春期、成人及老年的阅读入口；共同乳房危险信号见男女通用条目，不靠本标签诊断。",
+        "safety_pin": false
+      }
+    },
+    {
+      "id": "chest-005",
+      "summary_characters": 120,
+      "source_ids": [
+        "CHEST-S06",
+        "CHEST-S04"
+      ],
+      "audience": {
+        "age_groups": [
+          "teen",
+          "adult",
+          "older"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "给实际穿戴文胸者参考；不按男女标签规定谁应穿，也不提供儿童或术后统一压力方案。",
+        "safety_pin": false
+      }
+    },
+    {
+      "id": "chest-006",
+      "summary_characters": 119,
+      "source_ids": [
+        "CHEST-S07",
+        "CHEST-S04"
+      ],
+      "audience": {
+        "age_groups": [
+          "adult",
+          "older"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "成人运动穿着选择；实验对象是成人女性，其他年龄的效果未在此量化外推。",
+        "safety_pin": false
+      }
+    },
+    {
+      "id": "chest-007",
+      "summary_characters": 129,
+      "source_ids": [
+        "CHEST-S08",
+        "CHEST-S09"
+      ],
+      "audience": {
+        "age_groups": [
+          "adult",
+          "older"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "以成人与老年阅读为主；个体检查、孕哺和产品条件另按正文判断。",
+        "safety_pin": false
+      }
+    },
+    {
+      "id": "chest-008",
+      "summary_characters": 124,
+      "source_ids": [
+        "CHEST-S10",
+        "CHEST-S04"
+      ],
+      "audience": {
+        "age_groups": [
+          "adult",
+          "older"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "以成人与老年阅读为主；个体检查、孕哺和产品条件另按正文判断。",
+        "safety_pin": false
+      }
+    },
+    {
+      "id": "chest-012",
+      "summary_characters": 128,
+      "source_ids": [
+        "CHEST-S16",
+        "CHEST-S18"
+      ],
+      "audience": {
+        "age_groups": [
+          "teen",
+          "adult",
+          "older"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "青春期后、成人及老年皮损识别入口；未提供儿童或孕哺统一药物方案。",
+        "safety_pin": false
+      }
+    },
+    {
+      "id": "chest-009",
+      "summary_characters": 124,
+      "source_ids": [
+        "CHEST-S11",
+        "CHEST-S17",
+        "CHEST-S16",
+        "CHEST-S18"
+      ],
+      "audience": {
+        "age_groups": [
+          "teen",
+          "adult",
+          "older"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "青春期后及成人日常护理；未成年人使用具体产品仍按标签与监护情况判断。",
+        "safety_pin": false
+      }
+    },
+    {
+      "id": "chest-010",
+      "summary_characters": 123,
+      "source_ids": [
+        "CHEST-S12",
+        "CHEST-S13",
+        "CHEST-S15"
+      ],
+      "audience": {
+        "age_groups": [
+          "adult",
+          "older"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "以成人与老年阅读为主；个体检查、孕哺和产品条件另按正文判断。",
+        "safety_pin": false
+      }
+    },
+    {
+      "id": "chest-011",
+      "summary_characters": 130,
+      "source_ids": [
+        "CHEST-S14",
+        "CHEST-S15"
+      ],
+      "audience": {
+        "age_groups": [
+          "adult",
+          "older"
+        ],
+        "sexes": [
+          "all"
+        ],
+        "scope_note": "以成人与老年阅读为主；个体检查、孕哺和产品条件另按正文判断。",
+        "safety_pin": false
+      }
+    }
+  ]
+}

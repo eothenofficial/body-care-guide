@@ -1,0 +1,55 @@
+{
+  "checked_on": "2026-10-29",
+  "status": "author_draft_for_independent_review",
+  "clinical_review_status": "not_clinically_reviewed",
+  "entries": 30,
+  "new_entries": 11,
+  "units": 8,
+  "new_source_records": 18,
+  "new_doi_records": 2,
+  "source_graph_passed": true,
+  "summary_lengths": {
+    "eyes-023": 120,
+    "eyes-020": 119,
+    "eyes-021": 114,
+    "eyes-022": 116,
+    "eyes-026": 111,
+    "eyes-024": 116,
+    "eyes-025": 116,
+    "eyes-030": 126,
+    "eyes-027": 128,
+    "eyes-028": 128,
+    "eyes-029": 118
+  },
+  "doi_checks": [
+    {
+      "doi": "10.1167/iovs.64.6.2",
+      "metadata": "前六作者、2023;64(6):2，与PMC原期刊及IMI机构原页一致。",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10153577/"
+    },
+    {
+      "doi": "10.1002/14651858.CD006768.pub3",
+      "metadata": "六作者全列、2020;12(12):CD006768，PMC原期刊与PubMed原记录索引一致；PubMed正文返回不全。",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8092638/"
+    }
+  ],
+  "important_controls": [
+    "旧19条保留，001融入新视力路径，023在急症单元",
+    "视力/度数/眼轴不能混用；成人不借儿童控制率",
+    "手术比较用于适配和恢复，不作普适排名；FDA及英国许可不当中国规定",
+    "RCO文档2024编号不因URL2026而改日期",
+    "LASIK早复查与ICL长期随访分开；无统一停镜和运动时间表",
+    "所有新增成本为空，无编造价格；临床患者指导按C"
+  ],
+  "limits": [
+    "未临床专业签审，需独立编辑复核",
+    "综述只读相关章节，未重算原始试验或网络模型",
+    "未穷尽所有屈光手术或中国在售器械注册"
+  ],
+  "excluded_sources": [
+    "商业眼镜资讯网站",
+    "Moorfields Private收费页",
+    "NHC新闻实录超时、教育部问答重定向失败，未当作已读全文引用",
+    "AAO PPP和WHO PDF403未采用"
+  ]
+}

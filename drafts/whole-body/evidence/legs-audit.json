@@ -1,0 +1,61 @@
+{
+  "status": "author_checked_not_clinically_reviewed",
+  "checked_on": "2026-10-29",
+  "chapter_id": "legs",
+  "entries": 12,
+  "sources": 17,
+  "doi_sources": 2,
+  "summary_lengths": {
+    "legs-001": 120,
+    "legs-002": 117,
+    "legs-003": 120,
+    "legs-004": 120,
+    "legs-005": 126,
+    "legs-006": 123,
+    "legs-007": 119,
+    "legs-008": 124,
+    "legs-009": 118,
+    "legs-010": 116,
+    "legs-011": 114,
+    "legs-012": 118
+  },
+  "checks": {
+    "entry_count_12": true,
+    "unique_entry_ids": true,
+    "all_source_tokens_resolve": true,
+    "source_ids_match_tokens": true,
+    "all_sources_used": true,
+    "six_fields_order": true,
+    "summary_range_110_170": true,
+    "summary_no_table_or_citations": true,
+    "unit_membership_once": true,
+    "unit_id_matches": true,
+    "not_clinically_reviewed": true,
+    "cost_blank": true,
+    "no_cross_chapter_links": true
+  },
+  "summary_out_of_range": [],
+  "source_scope_notes": [
+    "NICE NG59及NG226网页和PDF原址均403，未把搜索摘要当实读全文；替用WHO官方指南摘要与实际打开的ACR2026已批准摘要、NHS原页。",
+    "ACR2026Sep14是已公开推荐摘要，Sep8批准且完整稿仍拟投刊；未造期刊信息/DOI，未当全部研究已通读。",
+    "2015影像与2023跑步综述只实读PubMed摘要/题录/利益冲突，未声称全文复核。影像不等于个体病因，观察跑步结果不等于随机因果或无限剂量安全。",
+    "当前髋膝OA推荐有机构差异；正文明确采用2026ACR对护膝的条件性肯定、楔形鞋垫的条件性否定与氨糖不推荐，不空泛写全部护具无效。",
+    "NHS2023OA与2022跑步页超过预计复审，只采稳定原则并用2026ACR/返跑交叉核，日期真实注明；不引用旧疼痛页表述的绝对安全或保证。",
+    "儿童髋痛不套成人自护；腿新单侧肿痛走及时评估，胸痛气短急救；腰痛大小便/会阴新变化不等全部出现才行动。"
+  ],
+  "no_fabricated_prices": true,
+  "clinical_review_status": "not_clinically_reviewed",
+  "notes": "作者自检不等于独立AI复核或临床签审。还需整合者审读临床分流、引用和成品页面。",
+  "files_frozen_for_integration": true,
+  "final_safety_check": [
+    "普通腰痛活动/MRI规则排除马尾与重外伤；DVT症状和伴胸痛气短分流单列置顶。",
+    "膝髋OA、成人跑步随访与普通/青少年运动困扰分开；影像无症状资料不用于否认个人痛感。",
+    "止痛药心血管/胃/肾等安全核对补NHS OA来源；压力衣专科适配和动脉供血条件不泛给健康人。",
+    "12条摘要114–126字；17项source aliases全部实际使用；六字段、unit_id和来源解析自检通过。"
+  ],
+  "root_independent_review_edits": [
+    "006髋部热肿不需要合并体温发热才能当天评估；跌倒重痛/不能负重摘要明确急诊",
+    "009局部NSAIDs适用示例明确膝OA，不外推髋深关节",
+    "012静脉出血明确当天；严重持续出血或眩晕虚弱急诊"
+  ]
+}

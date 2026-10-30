@@ -1,0 +1,61 @@
+{
+  "status": "passed_after_revision_not_clinically_reviewed",
+  "reviewed_on": "2026-10-29",
+  "reviewer": "independent_ai_whole_neck",
+  "chapter_id": "abdomen",
+  "blocking_unresolved": [],
+  "actually_read": {
+    "local_files": [
+      "drafts/whole-body/chapters/abdomen.json (全部7条及导览/单元)",
+      "drafts/whole-body/evidence/abdomen-sources.json (全部11项)"
+    ],
+    "primary_source_sections": {
+      "ABD-S01": "NHS2026Oct20:腹痛分流及完整急症列表，含吐血、黑黏便、大量出血、不能排便排气与妊娠/异常出血及时评估。",
+      "ABD-S02": "Cleveland2025Apr28:温和无香清洁、内凹/外凸洗法、擦干、避免强搓、穿孔及疼痛流液就诊。",
+      "ABD-S03": "Cleveland2025Jun25:肚脐封闭瘢痕解剖、解剖变化、污垢与异味；未读所有链接的原病种全文。",
+      "ABD-S04": "Cleveland2022Apr29:念珠菌症状/温湿条件、真菌刮屑或培养、治疗类别和糖尿病/免疫风险。",
+      "ABD-S05": "NHS2026May19:疝定义、位置、鼓包特征、分流与按类型治疗。",
+      "ABD-S06": "NHS2025Nov24:成人不易自行改善、通常考虑修补；儿童自然闭合不同；肠绞窄以及剧痛/呕吐/更肿变色/不能排气排便急救。",
+      "ABD-S07": "NHS2026Jan21:腹胀原因、自护、持续/消瘦/血便等分流与急症。",
+      "ABD-S08": "NIDDK2021Jun:吞气、饮食差异、病因相关治疗，乳糖酶仅针对乳糖不耐受；补充剂和益生菌未全称承诺。",
+      "ABD-S09": "NHS2023Nov20:睡前3–4小时不食、抬床头不堆枕、抗酸/海藻酸盐短期、PPI类别及持续/吞咽/呕吐/消瘦分流。",
+      "ABD-S10": "NCCIH:商业排毒研究有限低质、泻下/清肠和极端饮食风险、医疗解毒范围区分；本次未另打开其每篇被引综述。",
+      "ABD-S11": "NHS2026Mar31:心梗可似烧心/消化不良，胸部紧压放射痛/严重呼吸困难紧急求助。"
+    }
+  },
+  "review_findings": [
+    {
+      "severity": "nonblocking",
+      "entry": "abdomen-004",
+      "finding": "summary已有疼痛呕吐等急诊提醒，正文可更直接列成人脐疝急症并引ABD-S06，避免一般疝的及时评估语气稀释。",
+      "suggestion": "加入持续重痛、呕吐/无法进食、鼓包更肿且变色等直接急诊信号；与普通可计划评估分开。",
+      "resolution": "resolved"
+    },
+    {
+      "severity": "nonblocking",
+      "entry": "abdomen-005",
+      "finding": "没有将所有益生菌全称有效或无效，方向合适；但“不同临床共识口径不一致”没有列具体共识，属可删元评论。",
+      "suggestion": "保留未核菌株、适应证及试用终点不作通用推荐，删无对应引文的共识差异句，或之后另核具体共识。",
+      "resolution": "resolved"
+    }
+  ],
+  "integration_checks_required": [
+    "当前正文source_ids空、unit_id空、ordinal为0，显然仍待根整合编译；发布前需从units与引用token归一化，并检查来源解析。",
+    "保持全部not_clinically_reviewed；本记录是AI独立审读，不是消化科、外科或临床签审。"
+  ],
+  "summary_lengths": {
+    "abdomen-001": 122,
+    "abdomen-002": 120,
+    "abdomen-003": 118,
+    "abdomen-004": 116,
+    "abdomen-005": 122,
+    "abdomen-006": 122,
+    "abdomen-007": 120
+  },
+  "clinical_review_status": "not_clinically_reviewed",
+  "conclusion": "核心临床分流、温和清脐、成人/儿童脐疝差别和反流胸痛边界有相应原始机构依据；药品未越界给固定处方，未使用商业价格。",
+  "resolved_after_author_revision": {
+    "abdomen-004": "已实际重读修订后的正文：补持续重痛/呕吐无法进食/更肿变色急诊，加入ABD-S06直接引用。",
+    "abdomen-005": "已实际重读修订后的正文：删除不同共识口径元评论，改为核具体产品用途、安全条件、试用目标及复评。"
+  }
+}
