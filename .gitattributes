@@ -1,6 +1,7 @@
 # Keep reviewed JSON bytes identical on Windows and Linux (hash-bound review inputs).
 * text=auto eol=lf
 *.json -text
+web/styles.css -text
 **/references/*.md -text
 *.png binary
 *.zip binary
