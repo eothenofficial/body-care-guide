@@ -75,6 +75,8 @@ class N {
   append(...items) { this.children.push(...items); }
   replaceChildren(...items) { this.children=[...items];this.text=''; }
   setAttribute(key,value) { this.attrs[key]=String(value); }
+  getAttribute(key) { return this.attrs[key]??null; }
+  removeAttribute(key) { delete this.attrs[key]; }
   addEventListener() {}
   set textContent(value) { this.text=String(value);this.children=[]; }
   get textContent() { return this.text+this.children.map(n=>n.textContent).join(''); }

@@ -2,7 +2,7 @@
 <html lang="zh-CN">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="theme-color" content="#176b5b">
   <meta name="description" content="按身体部位查找日常护理、症状处理与消费选择。每条建议说明具体做法、证据来源与适用条件。">
   <title>少走弯路的人体保养指南 · 从头到脚，学会照顾自己</title>
@@ -53,6 +53,7 @@
       <symbol id="i-save" viewBox="0 0 24 24"><path d="M6 3h12v19l-6-4-6 4z"/></symbol>
       <symbol id="i-source" viewBox="0 0 24 24"><path d="M5 3h10l4 4v14H5zM14 3v5h5M8 12h8m-8 4h6"/></symbol>
       <symbol id="i-menu" viewBox="0 0 24 24"><path d="M3 6h18M3 12h18M3 18h18"/></symbol>
+      <symbol id="i-filter" viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h16"/><circle cx="8" cy="6" r="2"/><circle cx="16" cy="12" r="2"/><circle cx="10" cy="18" r="2"/></symbol>
       <symbol id="i-close" viewBox="0 0 24 24"><path d="m5 5 14 14M19 5 5 19"/></symbol>
       <symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 1v3m0 16v3M1 12h3m16 0h3M4 4l2 2m12 12 2 2M4 20l2-2M18 6l2-2"/></symbol>
       <symbol id="i-link" viewBox="0 0 24 24"><path d="m9 15 6-6m-7 4-2 2a4 4 0 0 0 6 6l3-3m-6-6 3-3a4 4 0 0 1 6 6l-2 2"/></symbol>
@@ -62,6 +63,7 @@
     </defs>
   </svg>
   <aside id="sidebar" class="sidebar" aria-label="主导航">
+    <div class="sidebar-mobile-head"><strong id="nav-title">全部目录</strong><button id="nav-close" class="icon-button" type="button" aria-label="关闭目录"><svg class="icon" aria-hidden="true"><use href="#i-close"/></svg><span>收起</span></button></div>
     <a id="brand-link" class="brand" href="#/" aria-label="少走弯路的人体保养指南首页"><span class="brand-mark" aria-hidden="true"><svg class="brand-icon" viewBox="0 0 64 64"><use href="#i-brand"/></svg></span><span><strong id="brand-title"><span class="brand-prefix">少走弯路的</span><span>人体保养指南</span></strong><small>BODY CARE GUIDE</small></span></a>
     <div class="edition-label"><span class="status-dot"></span>从头到脚 · 按需查找</div>
     <nav>
@@ -77,6 +79,7 @@
       <div class="nav-secondary">
       <a class="nav-item" data-nav="sources" href="#/sources"><svg class="icon"><use href="#i-source"/></svg>查看证据来源</a>
       <a class="nav-item" data-nav="about" href="#/about"><svg class="icon"><use href="#i-grid"/></svg>项目与下载</a>
+      <button id="mobile-theme-toggle" class="nav-item mobile-theme" type="button"><svg class="icon" aria-hidden="true"><use href="#i-sun"/></svg><span>切换深色模式</span></button>
       </div>
     </nav>
     <div class="sidebar-bottom"><strong>把依据也一起读明白</strong><p>保留研究的条件和局限，<br>让每一次选择有据可查。</p><a href="#/about?section=method">了解证据等级 <span>↗</span></a></div>
@@ -84,8 +87,8 @@
   <button class="nav-shade" id="nav-shade" aria-label="关闭导航" hidden></button>
   <div class="workspace">
     <header class="topbar">
-      <div class="topbar-left"><button id="menu-toggle" class="icon-button mobile-menu" aria-label="打开导航" aria-expanded="false" aria-controls="sidebar"><svg class="icon"><use href="#i-menu"/></svg></button><span class="topbar-label">面向各年龄与所有性别的身体保养指南</span></div>
-      <div class="topbar-right"><button id="audience-toggle" class="button small audience-toggle" type="button" aria-haspopup="dialog" aria-controls="audience-dialog">年龄与男女</button><span class="update-label" id="update-label">内容核对 2026.10.28</span><button id="theme-toggle" class="icon-button" aria-label="切换深色模式" title="切换深色模式"><svg class="icon"><use href="#i-sun"/></svg></button></div>
+      <div class="topbar-left"><a id="mobile-home-link" class="mobile-nav-link" href="#/" aria-label="返回阅读首页"><svg class="icon" aria-hidden="true"><use href="#i-home"/></svg><span>首页</span></a><button id="menu-toggle" class="icon-button mobile-menu" type="button" aria-label="打开目录" aria-expanded="false" aria-controls="sidebar"><svg class="icon" aria-hidden="true"><use href="#i-menu"/></svg><span>目录</span></button><a id="mobile-search-link" class="mobile-nav-link" href="#/read" aria-label="查找护理建议"><svg class="icon" aria-hidden="true"><use href="#i-search"/></svg><span>查找</span></a><span class="topbar-label">面向各年龄与所有性别的身体保养指南</span></div>
+      <div class="topbar-right"><button id="audience-toggle" class="button small audience-toggle" type="button" aria-haspopup="dialog" aria-controls="audience-dialog"><span class="audience-desktop-label">年龄与男女</span><span class="audience-mobile-label"><svg class="icon" aria-hidden="true"><use href="#i-filter"/></svg><span>筛选</span></span></button><span class="update-label" id="update-label">内容核对 2026.10.28</span><button id="theme-toggle" class="icon-button" aria-label="切换深色模式" title="切换深色模式"><svg class="icon"><use href="#i-sun"/></svg></button></div>
     </header>
     <main id="main" class="main" tabindex="-1"><div class="loading-state">正在整理阅读内容…</div></main>
     <footer class="site-footer"><span id="footer-guide-title">少走弯路的人体保养指南</span><span>日常习惯 · 消费选择 · 证据追溯</span><a href="#/about">阅读与维护说明 ↗</a></footer>

@@ -130,7 +130,7 @@ def render_table(headers: list[str], separators: list[str], rows: list[list[str]
             parts.append(f"<{tag}{attrs}>" + render_inline(cell, sources, entry_ids) + f"</{tag}>")
         return "<tr>" + "".join(parts) + "</tr>"
 
-    return ('<div class="table-wrap"><table><thead>' + row_html(headers, True)
+    return ('<div class="table-wrap" tabindex="0" role="region" aria-label="可横向滚动的比较表格"><span class="table-hint">左右滑动查看完整表格</span><table><thead>' + row_html(headers, True)
             + "</thead><tbody>" + "".join(row_html(row) for row in rows)
             + "</tbody></table></div>")
 
@@ -235,11 +235,20 @@ def render_entry_html(data: dict, entry: dict) -> str:
         footnotes.append("\n".join(note))
     interactive = "../../#/entry/" + quote(entry["id"], safe="")
     chapter_link = "../../#/chapter/" + quote(entry["chapter_id"], safe="")
+    mobile_links = [
+        ("../../#/", "首页", '<path d="m3 10 9-7 9 7v10H3zM9 20v-7h6v7"/>'),
+        (chapter_link, "本章目录", '<path d="M3 6h18M3 12h18M3 18h18"/>'),
+        ("../../#/read", "查找", '<circle cx="10" cy="10" r="7"/><path d="m15 15 6 6"/>'),
+        (interactive, "打开指南", '<path d="M4 12h16m-6-6 6 6-6 6"/>'),
+    ]
+    mobile_nav = '<nav class="static-mobile-nav" aria-label="手机阅读导航">' + ''.join(
+        '<a href="' + escape(href) + '"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24">' + paths
+        + '</svg><span>' + label + '</span></a>' for href, label, paths in mobile_links) + '</nav>'
     return "\n".join([
         '<!doctype html>', '<html lang="zh-CN"><head>', '<meta charset="utf-8">',
-        '<meta name="viewport" content="width=device-width,initial-scale=1">',
+        '<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">',
         '<title>' + escape(title) + '</title>', *metadata,
-        '<link rel="stylesheet" href="../../styles.css">',
+        '<link rel="stylesheet" href="../../styles.css' + ('?v=' + escape(manifest['reader_revision']) if manifest.get('reader_revision') else '') + '">',
         '<style>.static-reader .main{max-width:900px;margin:auto;padding:40px 24px 70px}'
         '.static-reader .reading-field{margin:32px 0}.static-reader h2{font-size:20px}'
         '.static-reader .source-list{padding-left:28px;font-size:13px;line-height:1.9;overflow-wrap:anywhere}'
@@ -247,7 +256,7 @@ def render_entry_html(data: dict, entry: dict) -> str:
         '.static-reader .source-list p{margin:6px 0}.static-reader a:not(.button){color:var(--green);text-decoration:underline}'
         '.static-reader .reading-field .prose{font-size:16px}.static-reader :target{scroll-margin-top:20px}'
         '@media print{.static-reader .main{padding:0}.static-reader .source-list{font-size:9pt}}</style>',
-        '</head><body class="static-reader"><main class="main article" id="main">',
+        '</head><body class="static-reader">', mobile_nav, '<main class="main article" id="main">',
         '<nav class="breadcrumb" aria-label="阅读导航"><a href="../../">' + escape(manifest["title"]) + '</a> / '
         + '<a href="' + escape(chapter_link) + '">' + escape(chapter["title"]) + '</a></nav>',
         '<header class="page-head"><h1>' + escape(entry["title"]) + '</h1>',

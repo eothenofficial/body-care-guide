@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import argparse
 import base64
+import hashlib
 import json
 import os
 import re
@@ -158,6 +159,7 @@ def validate_web(root: Path) -> dict[str, str]:
 def build(root: Path = ROOT, check_only=False, output: Path | None = None, built_at=None) -> dict:
     data = pack_data(root, built_at)
     web = validate_web(root)
+    data['manifest']['reader_revision'] = hashlib.sha256((web['styles.css'] + '\n' + web['app.js']).encode('utf-8')).hexdigest()[:16]
     web["index.html"] = preview_index_html(web["index.html"], data["manifest"]["site_url"])
     if check_only:
         return data["manifest"]
@@ -180,6 +182,14 @@ def build(root: Path = ROOT, check_only=False, output: Path | None = None, built
     write_json(api / "manifest.json", data["manifest"])
     script = data_script(data)
     (dist / "data.js").write_text(script, encoding="utf-8")
+    # Each published input gets its actual content hash so a phone cannot keep
+    # an old stylesheet or reader from its previous visit after a deployment.
+    index = web['index.html']
+    for name in ('styles.css', 'app.js', 'data.js'):
+        revision = hashlib.sha256((dist / name).read_bytes()).hexdigest()[:16]
+        index = re.sub(r'(\b(?:href|src)=["\'])(?:\./)?' + re.escape(name) + r'(["\'])',
+                       lambda match: match.group(1) + name + '?v=' + revision + match.group(2), index)
+    (dist / 'index.html').write_text(index, encoding='utf-8')
     (dist / ".nojekyll").write_text("", encoding="utf-8")
     downloads = dist / "downloads"
     downloads.mkdir(parents=True, exist_ok=True)

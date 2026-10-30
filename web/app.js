@@ -44,6 +44,9 @@
   let searchTimer;
   let previousSourceFocus = null;
   let previousAudienceFocus = null;
+  let navOpen = false;
+  let navScrollY = 0;
+  const mobileNavigation = window.matchMedia?.('(max-width: 760px), (max-width: 1024px) and (max-height: 500px)');
   const ageNames = {child:'儿童（0–11岁）',teen:'青少年（12–17岁）',adult:'成人（18–64岁）',older:'老年（65岁起）'};
   let audienceState = audienceFromParams(new URLSearchParams((location.hash.split('?')[1]||'')));
 
@@ -132,7 +135,7 @@
       if(lines.length>1 && /^\|/.test(lines[0]) && /^\|?\s*:?-/.test(lines[1])) {
         const table=node('table'), rows=lines.filter((_,i)=>i!==1);
         rows.forEach((line,i)=>{const tr=node('tr');line.replace(/^\||\|$/g,'').split('|').forEach(cell=>{const td=node(i===0?'th':'td');inline(cell.trim(),td);tr.append(td);});table.append(tr);});
-        box.append(node('div',{class:'table-wrap'},table));continue;
+        box.append(node('div',{class:'table-wrap',tabindex:'0',role:'region','aria-label':'可横向滚动的比较表格'},node('span',{class:'table-hint'},'左右滑动查看完整表格'),table));continue;
       }
       if (lines.every(l=>/^[-•]\s/.test(l))) {
         const ul=node('ul');lines.forEach(line=>{const li=node('li');inline(line.replace(/^[-•]\s/,''),li);ul.append(li);});box.append(ul);continue;
@@ -191,9 +194,9 @@
   function saveButton(id, small=false) {
     return node('button',{class:'button '+(small?'small ':'')+(saved.has(id)?'saved':''),type:'button','aria-pressed':saved.has(id),onclick:()=>{
       saved.has(id)?saved.delete(id):saved.add(id);updateSaved();
-      document.querySelectorAll(`[data-save="${id}"]`).forEach(b=>{b.classList.toggle('saved',saved.has(id));b.setAttribute('aria-pressed',String(saved.has(id)));b.replaceChildren(icon('save'),document.createTextNode(saved.has(id)?'已收藏':'收藏'));});
+      document.querySelectorAll(`[data-save="${id}"]`).forEach(b=>{b.classList.toggle('saved',saved.has(id));b.setAttribute('aria-pressed',String(saved.has(id)));b.replaceChildren(icon('save'),node('span',{},saved.has(id)?'已收藏':'收藏'));});
       if(currentRoute.path==='saved')render();
-    },'data-save':id},icon('save'),saved.has(id)?'已收藏':'收藏');
+    },'data-save':id},icon('save'),node('span',{},saved.has(id)?'已收藏':'收藏'));
   }
   function grades(entry) { return entry.evidence_labels || []; }
   function gradeBadges(entry) { return grades(entry).map(g=>node('span',{class:'grade '+g,title:'本条包含该等级的证据，具体限定见正文'},'证据 '+g)); }
@@ -221,6 +224,10 @@
     document.querySelectorAll('#sidebar a[href^="#/"]').forEach(link=>{
       link.setAttribute('href',audienceHref(link.getAttribute('href')));
     });
+    for(const id of ['mobile-home-link','mobile-search-link']){
+      const link=document.getElementById(id),href=link?.getAttribute('href');
+      if(href)link.setAttribute('href',audienceHref(href));
+    }
   }
   function audienceOf(e) {
     const a=e.audience||{};
@@ -266,6 +273,7 @@
   }
   function closeAudience() { const dialog=document.getElementById('audience-dialog');if(dialog.open)dialog.close(); }
   function showAudience() {
+    closeNav();
     previousAudienceFocus=document.activeElement;
     const dialog=document.getElementById('audience-dialog'),box=document.getElementById('audience-dialog-body');
     const age=node('input',{id:'audience-age',type:'number',min:'0',max:'120',step:'1',inputmode:'numeric',value:audienceState.age,placeholder:'例如 16','aria-describedby':'audience-error audience-scope'});
@@ -291,9 +299,28 @@
     const hash='#/'+path+(p.size?'?'+p.toString():'');
     if(replace){history.replaceState(null,'',hash);render();}else if(location.hash===hash)render();else location.hash=hash;
   }
-  function closeNav(){document.getElementById('sidebar').classList.remove('open');document.getElementById('nav-shade').hidden=true;document.getElementById('menu-toggle').setAttribute('aria-expanded','false');}
+  function setNavOpen(open, restoreFocus=false){
+    const mobile=!!mobileNavigation?.matches,sidebar=document.getElementById('sidebar'),wasOpen=navOpen;
+    navOpen=mobile&&open;
+    if(navOpen&&!wasOpen){navScrollY=window.scrollY||0;document.body.style?.setProperty('--nav-scroll-top',-navScrollY+'px');}
+    sidebar.classList.toggle('open',navOpen);sidebar.inert=mobile&&!navOpen;
+    if(mobile&&!navOpen)sidebar.setAttribute('aria-hidden','true');else sidebar.removeAttribute('aria-hidden');
+    document.body.classList.toggle('nav-open',navOpen);
+    main.inert=navOpen;const footer=document.querySelector('.site-footer');if(footer)footer.inert=navOpen;
+    for(const background of [main,footer].filter(Boolean)){if(navOpen){background.setAttribute('inert','');background.setAttribute('aria-hidden','true');}else{background.removeAttribute('inert');background.removeAttribute('aria-hidden');}}
+    document.getElementById('nav-shade').hidden=!navOpen;
+    const toggle=document.getElementById('menu-toggle');
+    toggle.setAttribute('aria-expanded',String(navOpen));toggle.setAttribute('aria-label',navOpen?'收起目录':'打开目录');
+    toggle.replaceChildren(icon(navOpen?'close':'menu'),node('span',{},navOpen?'收起':'目录'));
+    if(wasOpen&&!navOpen){document.body.style?.removeProperty('--nav-scroll-top');window.scrollTo({top:navScrollY,behavior:'instant'});if(!mobile)main.focus({preventScroll:true});else if(restoreFocus)toggle.focus({preventScroll:true});}
+    if(navOpen&&!wasOpen){const focusClose=()=>{if(navOpen)document.getElementById('nav-close').focus({preventScroll:true});};if(window.requestAnimationFrame)window.requestAnimationFrame(focusClose);else focusClose();}
+  }
+  function closeNav(restoreFocus=false){setNavOpen(false,restoreFocus);}
   function setActive(route) {
     document.querySelectorAll('.nav-item').forEach(a=>a.classList.toggle('active', a.dataset.nav===route.path || (route.path==='chapter'&&a.dataset.chapter===route.id) || (route.path==='entry'&&a.dataset.chapter===byId.get(route.id)?.chapter_id)));
+    for(const [id,active]of [['mobile-home-link',route.path==='home'],['mobile-search-link',route.path==='read']]){
+      const link=document.getElementById(id);if(active)link?.setAttribute('aria-current','page');else link?.removeAttribute('aria-current');
+    }
   }
   function searchForm(value='',onSearch) {
     const input=node('input',{type:'search',value,placeholder:'搜索问题、习惯或用品，如：干眼、牙线、发膜','aria-label':'搜索护理建议'});
@@ -403,7 +430,14 @@
     if(offlineDocument){toast('传播离线版时，请分享完整HTML文件。');return;}
     const url=new URL('read/'+encodeURIComponent(id)+'/',new URL('.',location.href));
     try{await navigator.clipboard.writeText(url.href);toast('已复制这条建议的链接');}
-    catch{const box=node('input',{value:url.href,'aria-label':'可复制的分享链接'});main.prepend(box);box.focus();box.select();toast('已显示链接，可手动复制。');}
+    catch{
+      document.getElementById('share-panel')?.remove();
+      const box=node('input',{id:'share-url',class:'share-url',type:'url',readonly:'',value:url.href,'aria-label':'可复制的分享链接'});
+      const panel=node('section',{id:'share-panel',class:'share-panel',role:'region','aria-label':'手动复制分享链接'},
+        node('div',{class:'share-panel-head'},node('strong',{},'长按下方链接，选择复制'),node('button',{id:'share-close',class:'icon-button',type:'button','aria-label':'关闭分享链接',onclick:()=>{panel.remove();document.getElementById('copy-entry-link')?.focus();}},icon('close'))),box);
+      const actions=document.querySelector('.article-actions');if(actions?.after)actions.after(panel);else main.append(panel);
+      box.focus();box.select();toast('自动复制未成功，可长按链接手动复制。');
+    }
   }
   function entryView(id){
     const e=byId.get(id);if(!e)return notFound();const ch=chapterMap.get(e.chapter_id),u=(ch.units||[]).find(u=>u.id===e.unit_id);
@@ -413,7 +447,7 @@
     }
     const article=node('article',{class:'article'});
     article.append(node('header',{class:'page-head'},node('div',{class:'breadcrumb'},node('a',{href:'#/'},'首页'),'/',node('a',{href:'#/chapter/'+e.chapter_id},titleOf(ch)),u?' / '+u.title:''),node('h1',{},e.title),node('div',{class:'article-meta'},node('span',{},'第 '+e.ordinal+' 条'),...gradeBadges(e),node('span',{},'资料核对 '+(e.content_checked_at||'2026-10-28')))));
-    article.append(node('div',{class:'action-row article-actions'},saveButton(id),node('button',{class:'button small',type:'button',onclick:()=>copyLink(id)},icon('link'),'复制单条链接'),node('a',{class:'button small ghost',href:'#/chapter/'+e.chapter_id},'返回本章')));
+    article.append(node('div',{class:'action-row article-actions'},saveButton(id),node('button',{id:'copy-entry-link',class:'button small',type:'button','aria-label':'复制这条建议的链接',onclick:()=>copyLink(id)},icon('link'),node('span',{class:'copy-full-label'},'复制单条链接'),node('span',{class:'copy-mobile-label'},'复制链接')),node('a',{class:'button small ghost',href:'#/chapter/'+e.chapter_id},'返回本章')));
     const scope=audienceOf(e);article.append(node('aside',{class:'audience-detail'},audienceBadges(e),node('p',{},scope.scope_note),hasAudienceFilter()?node('p',{},'当前阅读筛选：'+audienceLabel()+(audienceMatches(e)?'。':'。本条的阅读侧重不同，以下完整正文仍保留供了解。')):null,node('button',{class:'text-link',type:'button',onclick:showAudience},'调整年龄与男女筛选')));
     for(const key of ['plain','cost','benefit','evidence','sources','notes'])if(e.fields[key]?.trim())article.append(node('section',{class:'reading-field '+(key==='plain'?'plain-field':'')},node('h2',{},fieldLabels[key]),prose(e.fields[key])));
     const linked=node('div',{class:'reading-field'},node('h2',{},'本条引用的来源'));
@@ -479,7 +513,11 @@
   function render(){
     closeNav();const d=document.getElementById('source-dialog');if(d.open)d.close();currentRoute=parseRoute();
     if(currentRoute.path==='entry'&&entryAliases[currentRoute.id]){currentRoute.id=canonicalId(currentRoute.id);const query=currentRoute.params.toString();history.replaceState(null,'','#/entry/'+currentRoute.id+(query?'?'+query:''));}
-    audienceState=audienceFromParams(currentRoute.params);renderChapterNavigation();syncAudienceNavigation();document.getElementById('audience-toggle').textContent=hasAudienceFilter()?'人群：'+audienceLabel():'年龄与男女';main.replaceChildren();setActive(currentRoute);
+    audienceState=audienceFromParams(currentRoute.params);renderChapterNavigation();syncAudienceNavigation();
+    const audienceToggle=document.getElementById('audience-toggle'),fullAudienceLabel=hasAudienceFilter()?'人群：'+audienceLabel():'年龄与男女';
+    audienceToggle.replaceChildren(node('span',{class:'audience-desktop-label'},fullAudienceLabel),node('span',{class:'audience-mobile-label'},icon('filter'),node('span',{},hasAudienceFilter()?'已筛选':'筛选')));
+    audienceToggle.setAttribute('aria-label','按年龄与男女筛选，'+fullAudienceLabel);audienceToggle.setAttribute('title',fullAudienceLabel);
+    main.replaceChildren();setActive(currentRoute);
     if(currentRoute.path==='home')home();else if(currentRoute.path==='read')readList();else if(currentRoute.path==='saved')readList(true);else if(currentRoute.path==='chapter')chapterView(currentRoute.id);else if(currentRoute.path==='entry')entryView(currentRoute.id);else if(currentRoute.path==='sources')sourcesView();else if(currentRoute.path==='about')about();else if(currentRoute.path==='print')printView();else notFound();
     window.scrollTo({top:0,behavior:'instant'});
     updateTopButton();
@@ -498,9 +536,13 @@
   document.getElementById('saved-count').textContent=saved.size;
   document.querySelector('.skip-link').addEventListener('click',ev=>{ev.preventDefault();main.focus();main.scrollIntoView();});
   document.getElementById('update-label').textContent='内容核对 '+String(manifest.content_checked_at||'2026-10-28').replaceAll('-','.');
-  document.getElementById('menu-toggle').addEventListener('click',()=>{const open=document.getElementById('sidebar').classList.toggle('open');document.getElementById('nav-shade').hidden=!open;document.getElementById('menu-toggle').setAttribute('aria-expanded',String(open));});
-  document.getElementById('nav-shade').addEventListener('click',closeNav);
+  document.getElementById('menu-toggle').addEventListener('click',()=>setNavOpen(!navOpen));
+  document.getElementById('nav-close').addEventListener('click',()=>closeNav(true));
+  document.getElementById('nav-shade').addEventListener('click',()=>closeNav(true));
   document.getElementById('sidebar').addEventListener('click',e=>{if(e.target.closest('a'))closeNav();});
+  for(const id of ['mobile-home-link','mobile-search-link'])document.getElementById(id)?.addEventListener('click',event=>{
+    closeNav();if(event.currentTarget.getAttribute('href')===location.hash){event.preventDefault();render();}
+  });
   document.getElementById('source-close').addEventListener('click',()=>document.getElementById('source-dialog').close());
   document.getElementById('source-dialog').addEventListener('click',e=>{if(e.target===e.currentTarget)e.currentTarget.close();});
   document.getElementById('source-dialog').addEventListener('close',()=>{if(previousSourceFocus?.isConnected)previousSourceFocus.focus();});
@@ -508,9 +550,21 @@
   document.getElementById('audience-close').addEventListener('click',closeAudience);
   document.getElementById('audience-dialog').addEventListener('click',event=>{if(event.target===event.currentTarget)closeAudience();});
   document.getElementById('audience-dialog').addEventListener('close',()=>{document.body.classList.toggle('audience-open',false);if(previousAudienceFocus?.isConnected)previousAudienceFocus.focus();});
-  document.getElementById('theme-toggle').addEventListener('click',()=>{const dark=document.body.dataset.theme!=='dark';document.body.dataset.theme=dark?'dark':'light';try{localStorage.setItem('body-care-guide:theme',dark?'dark':'light');}catch{}document.getElementById('theme-toggle').setAttribute('aria-label',dark?'切换浅色模式':'切换深色模式');});
-  try{const theme=localStorage.getItem('body-care-guide:theme');if(theme==='dark'){document.body.dataset.theme='dark';document.getElementById('theme-toggle').setAttribute('aria-label','切换浅色模式');}}catch{}
-  document.addEventListener('keydown',e=>{if(e.key==='Escape'){closeNav();closeAudience();}});
+  function syncThemeControls(){const label=document.body.dataset.theme==='dark'?'切换浅色模式':'切换深色模式';document.getElementById('theme-toggle').setAttribute('aria-label',label);document.getElementById('mobile-theme-toggle').replaceChildren(icon('sun'),node('span',{},label));}
+  function toggleTheme(){const dark=document.body.dataset.theme!=='dark';document.body.dataset.theme=dark?'dark':'light';try{localStorage.setItem('body-care-guide:theme',dark?'dark':'light');}catch{}syncThemeControls();}
+  document.getElementById('theme-toggle').addEventListener('click',toggleTheme);
+  document.getElementById('mobile-theme-toggle').addEventListener('click',toggleTheme);
+  try{if(localStorage.getItem('body-care-guide:theme')==='dark')document.body.dataset.theme='dark';}catch{}
+  syncThemeControls();
+  document.addEventListener('keydown',e=>{
+    if(e.key==='Escape'){closeNav(true);closeAudience();}
+    if(e.key==='Tab'&&navOpen){
+      const controls=[...document.querySelectorAll('.topbar a[href], .topbar button, #sidebar a[href], #sidebar button')].filter(el=>!el.hidden&&!el.disabled&&(!el.getClientRects||el.getClientRects().length));
+      const first=controls[0],last=controls[controls.length-1];
+      if(e.shiftKey&&document.activeElement===first){e.preventDefault();last?.focus();}else if(!e.shiftKey&&document.activeElement===last){e.preventDefault();first?.focus();}
+    }
+  });
+  mobileNavigation?.addEventListener?.('change',()=>closeNav());
   window.addEventListener('hashchange',render);
   function updateTopButton(){document.getElementById('back-to-top').hidden=(window.scrollY||0)<480;}
   window.addEventListener('scroll',updateTopButton,{passive:true});

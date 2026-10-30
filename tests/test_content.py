@@ -220,9 +220,23 @@ class ExportTests(unittest.TestCase):
             data["sources"][0]["url"] = 'javascript:alert(5)'
             html = render_entry_html(data, entry)
             facts = PageFacts(html)
-            self.assertFalse({tag for tag, _ in facts.tags} & {"script", "img", "svg"})
+            self.assertFalse({tag for tag, _ in facts.tags} & {"script", "img"})
+            # The four fixed navigation icons are trusted template markup. User
+            # prose, titles, metadata and source citations must still never emit SVG.
+            navigation = list(re.finditer(r'<nav class="static-mobile-nav" aria-label="手机阅读导航">.*?</nav>', html, re.S))
+            self.assertEqual(len(navigation), 1)
+            allowed = navigation[0]
+            nav_facts = PageFacts(allowed.group(0))
+            svg_attrs = [attrs for tag, attrs in nav_facts.tags if tag == 'svg']
+            self.assertEqual(svg_attrs, [{'class': 'icon', 'aria-hidden': 'true', 'viewbox': '0 0 24 24'}] * 4)
+            self.assertEqual(sum(tag == 'svg' for tag, _ in facts.tags), 4)
+            self.assertTrue({tag for tag, _ in nav_facts.tags} <= {'nav', 'a', 'svg', 'path', 'circle', 'span'})
+            self.assertFalse(any(key.lower().startswith('on') for _, attrs in nav_facts.tags for key in attrs))
+            content_facts = PageFacts(html[:allowed.start()] + html[allowed.end():])
+            self.assertFalse({tag for tag, _ in content_facts.tags} & {'script', 'img', 'svg'})
             self.assertIn('&lt;script&gt;alert(2)&lt;/script&gt;', html)
             self.assertIn('&lt;img src=x onerror=&quot;alert(1)&quot;&gt;', html)
+            self.assertIn('&lt;svg onload=&quot;alert(4)&quot;&gt;恶意书目&lt;/svg&gt;', html)
             self.assertIn('<script>alert(2)</script>', ''.join(facts.text))
             links = [attrs["href"] for tag, attrs in facts.tags if "href" in attrs]
             self.assertIn('https://example.org/?a=1&b=2', links)

@@ -22,7 +22,11 @@ class VisualRestoreTests(unittest.TestCase):
  def test_original_css_is_retained_with_only_scoped_hero_addition(self):
   css=(ROOT/'web/styles.css').read_bytes();baseline,addition=css.split(b'/* Retain the established reading scale;',1)
   self.assertEqual(hashlib.sha256(baseline.rstrip()).hexdigest(),'29be6f0911e293cb2db3827e967d462684a39581e17b92c19b4539bd8eb0b78f')
-  self.assertNotIn(b'--reading-size',css);self.assertNotIn(b'.entry-card',addition)
+  self.assertNotIn(b'--reading-size',css)
+  # The separately authorized mobile design may adjust cards inside its media scope;
+  # the restored desktop additions and the byte-bound original prefix stay intact.
+  desktop_addition=addition.split(b'/* Mobile reading experience:',1)[0]
+  self.assertNotIn(b'.entry-card',desktop_addition)
  def test_offline_and_site_portraits_have_identical_bytes(self):
   # Exercise the current reader and asset from source, without any saved preview.
   with workspace_temp() as root:
