@@ -4,7 +4,7 @@
 
 合并条目使用`book.entry_aliases`，导出到`manifest.entry_aliases`，例如`{"eyes-015":"eyes-007"}`。`entries`仅列完整主条目；客户端收到旧ID应先按别名解析，再按主条目的年龄/性别条件展示。别名不能自指、指向不存在条目或与主条目重名；退休ID不得复用。旧静态分享地址包含完整新文，旧收藏/导入以主ID去重。
 
-`manifest.home_content`保存首页文案与引用。首页只呈现引言、统计与查找，完整导览保留在项目说明的折叠内容和`book.front_matter`导出中。桌面维持原阅读比例。手机目录在主题切换下方提供小、中、大三档（默认中档），以独立的`body-care-guide:mobile-font:v1`键保存枚举值；不读写已废弃的`body-care-guide:reading:v1`键，也不恢复旧阅读面板。字号切换不重绘路由、不关闭目录、不改筛选和收藏；浏览器禁止存储时仍可当次使用。书签、主题和人群URL参数仍按各自规则工作，不改变系统缩放。
+`manifest.home_content`保存首页文案与引用。标题、两段介绍、插图和统计栏维持原布局；统计栏后的`details#home-guide`默认收起，Hero的`button#home-guide-toggle`原地展开导览并同步`aria-expanded`。模块直接使用现有`why_title/why`、`decisions`和`reader_guide`，保留引用与条目链接，不重复Hero文案，也不另存一套医学结论。`#/?section=guide`可直接打开导览；项目页指向此处，原底部三项阅读提示合并移除。`book.front_matter`导出保持完整。桌面维持原阅读比例。手机目录在主题切换下方提供小、中、大三档（默认中档），以独立的`body-care-guide:mobile-font:v1`键保存枚举值；不读写已废弃的`body-care-guide:reading:v1`键，也不恢复旧阅读面板。字号切换不重绘路由、不关闭目录、不改筛选和收藏；浏览器禁止存储时仍可当次使用。书签、主题和人群URL参数仍按各自规则工作，不改变系统缩放。
 
 当前已确认的A抽象插画来自`web/assets/home-portrait-abstract.png`。桌面保留Hero右图；手机在标题旁保留小幅同图，完整介绍占整行，不再执行早期的窄屏隐藏规则。品牌SVG与favicon沿用同一抽象人物。构建器把同一PNG内嵌进离线版，favicon也内嵌。来源与原图生成提示词见`web/assets/abstract-brand-notes.md`；早期被拒绝资产仅作历史材料，不恢复为当前设计。正式主名和两段介绍保持逐字一致。
 

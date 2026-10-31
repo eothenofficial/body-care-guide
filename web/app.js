@@ -331,18 +331,47 @@
     const form=node('form',{class:'search-home',onsubmit:e=>{e.preventDefault();onSearch(input.value);}},icon('search'),input,node('span',{class:'search-shortcut'},'Enter ↵'));
     return form;
   }
+  function syncHomeGuide(){
+    const guide=document.getElementById('home-guide'),toggle=document.getElementById('home-guide-toggle');
+    if(!guide||!toggle)return;
+    toggle.setAttribute('aria-expanded',String(guide.open));
+    toggle.replaceChildren(node('span',{},guide.open?'收起阅读导览':'了解阅读方法'),icon('arrow'));
+  }
+  function setHomeGuideOpen(open,scroll=false){
+    const guide=document.getElementById('home-guide');if(!guide)return;
+    guide.open=open;syncHomeGuide();
+    if(open&&scroll){guide.scrollIntoView?.({block:'start',behavior:'auto'});document.getElementById('home-guide-summary')?.focus({preventScroll:true});}
+  }
+  function homeGuide(){
+    const hc=manifest.home_content||{},structured=hc.why||hc.decisions?.length||hc.reader_guide;
+    if(!structured&&!manifest.book?.front_matter)return null;
+    const content=node('div',{class:'home-guide-content'});
+    // These fields also generate the exported front matter. Keep its wording,
+    // citations and stable entry links, without repeating the visible hero.
+    if(structured){
+      if(hc.audience)content.append(node('p',{class:'home-guide-audience'},hc.audience));
+      if(hc.why)content.append(node('section',{class:'home-guide-section'},node('h2',{},hc.why_title||'为什么要照顾身体'),prose(hc.why)));
+      if(hc.decisions?.length)content.append(node('section',{class:'home-guide-section'},node('h2',{},'读完能做什么'),node('div',{class:'home-guide-outcomes'},...hc.decisions.map(d=>node('div',{},node('h3',{},d.title),node('p',{},d.text))))));
+      if(hc.reader_guide)content.append(node('section',{class:'home-guide-section'},node('h2',{},'怎么使用'),prose(hc.reader_guide)));
+    }else content.append(prose(manifest.book.front_matter));
+    return node('details',{id:'home-guide',class:'home-guide',ontoggle:syncHomeGuide},
+      node('summary',{id:'home-guide-summary'},node('span',{class:'home-guide-title'},'先了解这份指南'),node('span',{class:'home-guide-hint'},'为什么要保养 · 能获得什么 · 怎么查'),icon('arrow')),content);
+  }
   function home(){
     const frag=document.createDocumentFragment();
     const hc=manifest.home_content||{};
+    const guide=homeGuide();
+    const guideControl=guide?node('button',{id:'home-guide-toggle',class:'button ghost',type:'button','aria-controls':'home-guide','aria-expanded':'false',onclick:()=>setHomeGuideOpen(!document.getElementById('home-guide').open,true)},'了解阅读方法',icon('arrow')):node('a',{class:'button ghost',href:'#/about?section=method'},'了解阅读方法',icon('arrow'));
     frag.append(node('section',{class:'hero'},
       node('div',{class:'hero-copy'},node('div',{class:'eyebrow'},guideTitle),
         node('h1',{},hc.headline||'从头到脚，',node('br'),node('em',{},hc.headline_end||'学会照顾自己。')),
         ...String(hc.lead||'从日常不适、护理习惯和用品选择开始，找到适合自己的做法。').split(/\n\s*\n/).map(paragraph=>node('p',{class:'hero-description'},paragraph)),
-        node('div',{class:'hero-actions'},node('a',{class:'button primary',href:'#/read'},'查找我的问题',icon('arrow')),node('a',{class:'button ghost',href:'#/about?section=method'},'了解阅读方法',icon('arrow'))),
+        node('div',{class:'hero-actions'},node('a',{class:'button primary',href:'#/read'},'查找我的问题',icon('arrow')),guideControl),
         node('p',{class:'hero-note'},hc.note||'按需选读，不必把护理变成一张任务清单。')),
       node('figure',{class:'hero-portrait','aria-hidden':'true'},node('img',{src:'assets/home-portrait-abstract.png',alt:'',width:300,height:360,decoding:'async'}))));
     const stats=node('div',{class:'stats'});
     [[chapters.length,'内容专题','按部位与生活场景查找'],[entries.length,'行动建议','按需要挑选阅读'],[data.sources.length,'可追溯来源','效果与局限一起看'],['随需','阅读方式','从你关心的问题开始']].forEach(([n,t,s])=>stats.append(node('div',{class:'stat'},node('span',{class:'stat-number'},n),node('span',{class:'stat-label'},node('strong',{},t),s))));frag.append(stats);
+    if(guide)frag.append(guide);
     frag.append(node('div',{class:'section-heading'},node('div',{},node('h2',{},'今天，从哪里开始'),node('p',{},'选一个部位，顺着日常习惯、常见困扰和消费选择往下读。')),node('a',{class:'text-link',href:'#/read'},'查看全部建议',icon('arrow'))));
     frag.append(searchForm('',q=>navigate('read',{q})));
     const positions=bodyPositionMap();if(positions)frag.append(positions);
@@ -352,11 +381,6 @@
     frag.append(node('div',{class:'section-heading'},node('div',{},node('h2',{},'也许，你也有这些困惑'))));
     const examples=Array.isArray(manifest.search_examples)&&manifest.search_examples.length?manifest.search_examples:['眼睛干涩','美瞳','牙线','电动牙刷','防晒','发膜','掏耳朵'];
     const quick=node('div',{class:'quick-row'});examples.forEach(q=>quick.append(node('a',{class:'chip',href:'#/read?q='+encodeURIComponent(q)},q,icon('arrow'))));frag.append(quick);
-    frag.append(node('div',{class:'method-strip'},...[
-      ['01','先看行动，再弄懂原理','陌生名词就近解释。先知道它是什么，再决定怎么做。'],
-      ['02','把效果和适用条件一起读','研究的人群、比较对象、时间与局限，都影响结论。'],
-      ['03','留住依据，允许持续纠错','查看原始来源与核查状态，让之后的修订也有迹可循。']
-    ].map(([n,t,p])=>node('div',{},node('span',{class:'small-index'},n),node('h3',{},t),node('p',{},p)))));
     main.append(frag);document.title=guideTitle+' · 从头到脚，学会照顾自己';
   }
   function bodyPositionMap(){
@@ -498,7 +522,7 @@
     const method=node('section',{class:'info-panel',id:'method'},node('h2',{},'怎样理解证据等级'),node('p',{},'A、B、C是这份指南的阅读分级，描述特定结论的依据，不是品牌评分，也不是正式GRADE评定。'),...[
       ['A','较可靠的直接人体临床依据','仍要看研究对象、实际改善幅度和风险。'],['B','有限或间接的人体资料','小样本、短随访、方法或人群差异都会限制判断。'],['C','护理规范、机理或实践建议','不等于无用。急症处理也不能因缺少随机试验被忽略。']
     ].map(([g,t,p])=>node('div',{},node('h3',{},node('span',{class:'grade '+g},g),' '+t),node('p',{},p))),node('p',{},'一条建议可能包含不同等级的判断。筛选只帮助定位，完整证据和限定在正文里。'));
-    if(manifest.book?.front_matter)method.append(node('details',{},node('summary',{},'展开完整阅读导览'),prose(manifest.book.front_matter)));
+    if(manifest.book?.front_matter)method.append(node('p',{},node('a',{class:'text-link',href:'#/?section=guide'},'在首页查看阅读导览',icon('arrow'))));
     if(manifest.book?.back_matter)method.append(node('details',{},node('summary',{},'展开证据与引用说明'),prose(manifest.book.back_matter)));
     const roadmap=node('section',{class:'info-panel'},node('h2',{},'按部位继续阅读'),...chapters.filter(ch=>chapterEntries(ch.id).some(e=>audienceMatches(e))).map(ch=>node('a',{class:'roadmap-item done',href:'#/chapter/'+ch.id},icon(iconNames[ch.id]||'book'),node('span',{},titleOf(ch)),node('small',{},chapterEntries(ch.id).filter(e=>audienceMatches(e)).length+' 条匹配建议'))));
     const developer=node('section',{class:'info-panel developer-panel'},node('h2',{},'开发者：Eothen Tsang'),node('a',{class:'developer-profile',href:'https://github.com/eothenofficial',target:'_blank',rel:'noopener noreferrer'},'GitHub · eothenofficial',icon('external')),node('p',{},'欢迎共同维护这份指南，提出建议、补充资料或指出错误，一起把它做得更好。'));
@@ -522,6 +546,7 @@
     main.replaceChildren();setActive(currentRoute);
     if(currentRoute.path==='home')home();else if(currentRoute.path==='read')readList();else if(currentRoute.path==='saved')readList(true);else if(currentRoute.path==='chapter')chapterView(currentRoute.id);else if(currentRoute.path==='entry')entryView(currentRoute.id);else if(currentRoute.path==='sources')sourcesView();else if(currentRoute.path==='about')about();else if(currentRoute.path==='print')printView();else notFound();
     window.scrollTo({top:0,behavior:'instant'});
+    if(currentRoute.path==='home'&&currentRoute.params.get('section')==='guide')setHomeGuideOpen(true,true);
     updateTopButton();
   }
 

@@ -3,6 +3,7 @@ from __future__ import annotations
 
 from html.parser import HTMLParser
 import hashlib
+import importlib.util
 import json
 from pathlib import Path
 import re
@@ -56,6 +57,7 @@ function classes(n){return new Set(String(n.className||'').split(/\s+/).filter(B
 function enhance(n){
  n.style={setProperty(k,v){this[k]=v;},removeProperty(k){delete this[k];}};
  n.classList={contains(c){return classes(n).has(c);},add(...items){const s=classes(n);items.forEach(c=>s.add(c));n.className=[...s].join(' ');},remove(...items){const s=classes(n);items.forEach(c=>s.delete(c));n.className=[...s].join(' ');},toggle(c,force){const s=classes(n),on=force===undefined?!s.has(c):force;if(on)s.add(c);else s.delete(c);n.className=[...s].join(' ');return on;}};
+ if(n.tag==='details'){let open=!!n.open;Object.defineProperty(n,'open',{configurable:true,get(){return open;},set(value){const changed=open!==!!value;open=!!value;if(changed)n.emit('toggle');}});}
  return n;
 }
 function matchSimple(n,selector){
@@ -87,6 +89,7 @@ N.prototype.getClientRects=function(){return this.offsetParent?[{}]:[];};
 N.prototype.emitAsync=async function(kind,extra={}){
  let prevented=false;const event={preventDefault(){prevented=true;},target:this,currentTarget:this,...extra};
  for(let p=this;p;p=p.parentNode){event.currentTarget=p;for(const fn of p.handlers.get(kind)||[])await fn(event);}
+ if(kind==='click'&&!prevented&&this.tag==='summary'&&this.parentNode?.tag==='details')this.parentNode.open=!this.parentNode.open;
  if(kind==='click'&&!prevented&&this.tag==='a'&&(this.getAttribute('href')||'').startsWith('#/')){
   const next=this.getAttribute('href'),changed=location.hash!==next;location.hash=next;if(changed)for(const fn of windowHandlers.get('hashchange')||[])await fn();
  }
@@ -109,15 +112,17 @@ window.scrollTo=options=>{scrollCalls.push(options);window.scrollY=options.top||
 const localStorage={getItem(key){storageReads.push(key);if(input.storageReadBlocked)throw new Error('Storage unavailable');if(key==='body-care-guide:bookmarks:v1')return JSON.stringify(input.saved||[]);if(key==='body-care-guide:mobile-font:v1')return input.mobileFont??null;if(key==='body-care-guide:reading:v1')return JSON.stringify(input.legacyReading||null);return null;},setItem(key,value){if(input.storageBlocked)throw new Error('Storage unavailable');storageWrites.push({key,value});}};
 const navigator={clipboard:{async writeText(text){clipboardWrites.push(text);if(input.clipboardFail)throw new Error('Permission denied');}}};
 vm.runInNewContext(input.app,{window,document:doc,location,history,Node:N,URL:TestURL,URLSearchParams,Blob:TestBlob,navigator,localStorage,setTimeout:()=>0,clearTimeout(){}});
-function state(){const side=doc.getElementById('sidebar'),menu=doc.getElementById('menu-toggle'),share=doc.getElementById('share-panel');return {
+function state(){const side=doc.getElementById('sidebar'),menu=doc.getElementById('menu-toggle'),share=doc.getElementById('share-panel'),guide=doc.getElementById('home-guide'),guideToggle=doc.getElementById('home-guide-toggle');return {
  navOpen:side.classList.contains('open'),locked:doc.body.classList.contains('nav-open'),inert:!!side.inert,ariaHidden:side.getAttribute('aria-hidden'),expanded:menu.getAttribute('aria-expanded'),focus:doc.activeElement?.getAttribute('id'),y:window.scrollY,audienceOpen:doc.getElementById('audience-dialog').open,audienceLocked:doc.body.classList.contains('audience-open'),mainInert:!!doc.getElementById('main').inert,footerInert:!!doc.querySelector('.site-footer').inert,headerInert:!!doc.querySelector('.topbar').inert,pendingFrames:animationFrames.length,
  shareCount:doc.querySelectorAll('#share-panel').length,shareInputs:share?walk(share).filter(n=>n.tag==='input').map(n=>({value:n.value,attrs:n.attrs})):[],
  home:doc.getElementById('mobile-home-link')?.getAttribute('href'),search:doc.getElementById('mobile-search-link')?.getAttribute('href'),hash:location.hash,
  saves:walk(doc.getElementById('main')).filter(n=>n.getAttribute('data-save')).map(n=>({id:n.getAttribute('data-save'),text:n.textContent,pressed:n.getAttribute('aria-pressed'),icons:walk(n).filter(c=>c.tag==='svg').length})),theme:doc.body.dataset.theme,mobileTheme:doc.getElementById('mobile-theme-toggle')?.textContent,mobileThemeLabel:doc.getElementById('mobile-theme-toggle')?.getAttribute('aria-label'),desktopTheme:doc.getElementById('theme-toggle')?.getAttribute('aria-label'),
  mobileFont:doc.body.getAttribute('data-mobile-font')||doc.body.dataset.mobileFont||null,
  legacyReadingSize:doc.body.getAttribute('data-reading-size'),legacyReadingLine:doc.body.getAttribute('data-reading-line'),
- fontButtons:['small','medium','large'].map(size=>({size,pressed:doc.getElementById('mobile-font-'+size)?.getAttribute('aria-pressed'),text:doc.getElementById('mobile-font-'+size)?.textContent}))
+ fontButtons:['small','medium','large'].map(size=>({size,pressed:doc.getElementById('mobile-font-'+size)?.getAttribute('aria-pressed'),text:doc.getElementById('mobile-font-'+size)?.textContent})),
+ guideExists:!!guide,guideOpen:!!guide?.open,guideTag:guide?.tag,guideExpanded:guideToggle?.getAttribute('aria-expanded'),guideLabel:guideToggle?.textContent,savedCount:doc.getElementById('saved-count').textContent,sourceOpen:doc.getElementById('source-dialog').open
 };}
+function visibleText(n){if(n.hidden)return '';if(n.tag==='details'&&!n.open)return n.querySelector('summary')?.textContent||'';return n.text+n.children.map(visibleText).join('');}
 function actionButton(text){return walk(doc.getElementById('main')).find(n=>n.tag==='button'&&n.textContent.includes(text));}
 const snapshots=[];
 (async()=>{
@@ -131,11 +136,18 @@ const snapshots=[];
   else if(step.action==='sidebar'){const link=walk(doc.getElementById('sidebar')).find(n=>n.getAttribute('data-chapter')===step.chapter);await link.emitAsync('click');}
   else if(step.action==='save'){const button=walk(doc.getElementById('main')).find(n=>n.getAttribute('data-save')===step.id);await button.emitAsync('click');}
   else if(step.action==='copy'){await doc.getElementById('copy-entry-link').emitAsync('click');}
+  else if(step.action==='citation'){const scope=doc.getElementById('home-guide')||doc.getElementById('main');const target=walk(scope).filter(n=>n.tag==='button'&&classes(n).has('citation'))[step.index||0];if(!target)throw new Error('Missing rendered citation');target.focus();await target.emitAsync('click');}
   else if(step.action==='frame'){for(const fn of animationFrames.splice(0))fn(0);}
   snapshots.push(state());
  }
- process.stdout.write(JSON.stringify({snapshots,storageWrites,storageReads,clipboardWrites,text:doc.getElementById('main').textContent,headerText:doc.querySelector('.topbar').textContent,
+ const guide=doc.getElementById('home-guide'),guideToggle=doc.getElementById('home-guide-toggle');
+ process.stdout.write(JSON.stringify({snapshots,storageWrites,storageReads,clipboardWrites,text:doc.getElementById('main').textContent,visibleText:visibleText(doc.getElementById('main')),headerText:doc.querySelector('.topbar').textContent,
  links:walk(doc.getElementById('main')).filter(n=>n.tag==='a').map(n=>({href:n.getAttribute('href'),text:n.textContent,icons:walk(n).filter(c=>c.tag==='svg').length,iconUses:walk(n).filter(c=>c.tag==='use').map(c=>c.getAttribute('href'))})),
+ guideText:guide?.textContent||'',guideSummary:guide?.querySelector('summary')?.textContent||'',guideSections:guide?walk(guide).filter(n=>n.tag==='section').length:0,
+ methodControl:guideToggle?{tag:guideToggle.tag,controls:guideToggle.getAttribute('aria-controls'),text:guideToggle.textContent,icons:walk(guideToggle).filter(n=>n.tag==='svg').length,iconUses:walk(guideToggle).filter(n=>n.tag==='use').map(n=>n.getAttribute('href'))}:null,
+ heroParagraphs:doc.querySelectorAll('.hero-description').map(n=>n.textContent),guideCitations:guide?walk(guide).filter(n=>n.tag==='button'&&classes(n).has('citation')).map(n=>({label:n.getAttribute('aria-label'),text:n.textContent})):[],
+ homeLandmarks:walk(doc.getElementById('main')).filter(n=>classes(n).has('hero')||classes(n).has('stats')||n.getAttribute('id')==='home-guide'||classes(n).has('section-heading')).map(n=>n.getAttribute('id')||n.className),
+ sourceDialogText:doc.getElementById('source-dialog-body').textContent,
  fontControlsInSidebar:['small','medium','large'].every(size=>doc.getElementById('sidebar').contains(doc.getElementById('mobile-font-'+size)))}));
 })().catch(error=>{process.stderr.write(error.stack);process.exitCode=1;});
 """
@@ -143,9 +155,19 @@ const snapshots=[];
 
 @unittest.skipUnless(shutil.which('node'), 'Node executes the actual mobile reader')
 class MobileReaderTests(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls):
+        spec = importlib.util.spec_from_file_location('home_disclosure_contracts', ROOT / 'drafts/whole-body/approved-home-20261030/build_release.py')
+        module = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(module)
+        book, chapters, sources, _ = module.make_data()
+        cls.production_data = dict(manifest={**book, 'book': book}, chapters=chapters,
+                                   entries=[e for c in chapters for e in c['entries']], sources=sources)
+
     def run_reader(self, steps=(), route='#/entry/eyes-001', **options):
+        data = options.pop('data', None) or reader_fixture()
         result = subprocess.run([shutil.which('node'), '-e', NODE_MOBILE],
-            input=json.dumps(dict(data=reader_fixture(), hash=route, steps=steps,
+            input=json.dumps(dict(data=data, hash=route, steps=steps,
                 html=BodyTree((ROOT / 'web/index.html').read_text(encoding='utf-8')).root,
                 app=(ROOT / 'web/app.js').read_text(encoding='utf-8'), **options)),
             text=True, encoding='utf-8', capture_output=True)
@@ -319,13 +341,87 @@ class MobileReaderTests(unittest.TestCase):
         self.assertFalse(any((link['href'] or '').startswith('api/v1/') for link in result['links']))
         self.assertTrue(any((link['href'] or '').endswith('downloads/guide.json') for link in result['links']))
 
-    def test_home_reading_method_link_uses_controlled_vector_instead_of_system_arrow_glyph(self):
+    def test_home_reading_method_button_uses_controlled_vector_and_names_its_inline_guide(self):
+        result = self.run_reader(route='#/', data=self.production_data)
+        method = result['methodControl']
+        self.assertIsNotNone(method)
+        self.assertEqual(method['tag'], 'button')
+        self.assertEqual(method['text'], '了解阅读方法')
+        self.assertEqual(method['controls'], 'home-guide')
+        self.assertEqual(method['icons'], 1)
+        self.assertTrue(all((use or '').startswith('#i-') for use in method['iconUses']))
+        self.assertFalse(any('section=method' in (link['href'] or '') for link in result['links']))
+
+    def test_home_guide_is_closed_after_stats_and_does_not_duplicate_the_approved_hero(self):
+        result = self.run_reader(route='#/', data=self.production_data)
+        state = result['snapshots'][0]
+        home = self.production_data['manifest']['home_content']
+        self.assertTrue(state['guideExists']);self.assertEqual(state['guideTag'], 'details')
+        self.assertFalse(state['guideOpen']);self.assertEqual(state['guideExpanded'], 'false')
+        self.assertEqual(result['heroParagraphs'], home['lead'].split('\n\n'))
+        for paragraph in result['heroParagraphs']:
+            self.assertEqual(result['text'].count(paragraph), 1)
+            self.assertNotIn(paragraph, result['guideText'])
+        landmarks = result['homeLandmarks']
+        self.assertLess(landmarks.index('hero'), landmarks.index('stats'))
+        self.assertLess(landmarks.index('stats'), landmarks.index('home-guide'))
+        self.assertLess(landmarks.index('home-guide'), landmarks.index('section-heading'))
+        self.assertIn('先了解这份指南', result['guideSummary'])
+        self.assertNotIn(home['why_title'], result['visibleText'])
+        self.assertIn('今天，从哪里开始', result['visibleText'])
+
+    def test_home_guide_opens_and_closes_inline_without_changing_audience_or_bookmarks(self):
+        route = '#/?band=adult&sex=female'
+        result = self.run_reader([dict(action='click', id='home-guide-toggle'),
+                                  dict(action='click', id='home-guide-summary'),
+                                  dict(action='click', id='home-guide-summary'),
+                                  dict(action='click', id='home-guide-toggle')],
+                                 route=route, data=self.production_data, saved=['eyes-001'])
+        initial, opened, closed, reopened, button_closed = result['snapshots']
+        self.assertFalse(initial['guideOpen']);self.assertTrue(opened['guideOpen']);self.assertFalse(closed['guideOpen'])
+        self.assertTrue(reopened['guideOpen']);self.assertFalse(button_closed['guideOpen'])
+        self.assertEqual([s['guideExpanded'] for s in result['snapshots']], ['false', 'true', 'false', 'true', 'false'])
+        self.assertIn('收起', opened['guideLabel']);self.assertEqual(closed['guideLabel'], '了解阅读方法')
+        for snapshot in result['snapshots']:
+            self.assertEqual(snapshot['hash'], route)
+            self.assertEqual(snapshot['savedCount'], '1')
+            self.assertEqual(snapshot['home'], route)
+        self.assertEqual(result['storageWrites'], [])
+
+    def test_home_guide_renders_all_approved_sections_and_citations_as_reader_controls(self):
+        result = self.run_reader([dict(action='click', id='home-guide-toggle'),
+                                  dict(action='citation')], route='#/', data=self.production_data)
+        home = self.production_data['manifest']['home_content']
+        self.assertEqual(result['guideSections'], 3)
+        for phrase in [home['why_title'], '读完能做什么', '怎么使用',
+                       '如果疲劳持续、原因不明，或已经影响日常生活，就需要评估',
+                       '身体和情绪会彼此影响，但没有一种原因能解释所有不舒服',
+                       '医学内容尚未经过临床医生逐条签审']:
+            self.assertIn(phrase, result['guideText'])
+        for decision in home['decisions']:
+            self.assertIn(decision['title'], result['guideText']);self.assertIn(decision['text'], result['guideText'])
+        self.assertEqual(len(result['guideCitations']), 2)
+        self.assertTrue(all(c['label'] and re.fullmatch(r'\[\d+\]', c['text']) for c in result['guideCitations']))
+        self.assertNotRegex(result['guideText'], r'\[@src-')
+        self.assertTrue(result['snapshots'][-1]['sourceOpen'])
+        self.assertIn('它支持什么', result['sourceDialogText'])
+        for identifier in ['basics-003', 'basics-008']:
+            self.assertTrue(any((link['href'] or '') == '#/entry/' + identifier for link in result['links']))
+
+    def test_home_guide_direct_link_opens_and_about_links_to_the_same_home_content(self):
+        result = self.run_reader(route='#/?section=guide&band=older&sex=female', data=self.production_data)
+        self.assertTrue(result['snapshots'][0]['guideOpen'])
+        self.assertEqual(result['snapshots'][0]['guideExpanded'], 'true')
+        self.assertIn('身体是你做所有事情的底子', result['visibleText'])
+        about = self.run_reader(route='#/about?band=older&sex=female', data=self.production_data)
+        self.assertNotIn(self.production_data['manifest']['home_content']['why_title'], about['text'])
+        self.assertTrue(any('section=guide' in (link['href'] or '') and (link['href'] or '').startswith('#/?') for link in about['links']))
+        self.assertIn('怎样理解证据等级', about['text'])
+
+    def test_minimal_older_book_without_home_guide_still_has_a_working_method_destination(self):
         result = self.run_reader(route='#/')
-        method = [link for link in result['links'] if 'section=method' in (link['href'] or '')]
-        self.assertEqual(len(method), 1)
-        self.assertEqual(method[0]['text'], '了解阅读方法')
-        self.assertEqual(method[0]['icons'], 1)
-        self.assertTrue(all((use or '').startswith('#i-') for use in method[0]['iconUses']))
+        self.assertFalse(result['snapshots'][0]['guideExists'])
+        self.assertTrue(any('section=method' in (link['href'] or '') for link in result['links']))
 
 
 def tree_nodes(node):

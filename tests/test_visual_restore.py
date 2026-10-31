@@ -5,6 +5,7 @@ from scripts.build import build
 from scripts.import_legacy import migrate
 from test_audience_reader import NODE_AUDIENCE
 from test_content import fixture,install_fixture,workspace_temp
+from test_mobile_reader import BodyTree,NODE_MOBILE
 ROOT=Path(__file__).resolve().parents[1]
 HERE=ROOT/'drafts/whole-body/visual-restore-20261030'
 
@@ -57,10 +58,14 @@ class VisualRestoreTests(unittest.TestCase):
  @unittest.skipUnless(shutil.which('node'),'Node runs the actual reader')
  def test_compact_home_keeps_search_near_the_top(self):
   data=dict(manifest={**self.book,'book':self.book},chapters=self.chapters,entries=[e for c in self.chapters for e in c['entries']],sources=self.sources)
-  result=subprocess.run([shutil.which('node'),'-e',NODE_AUDIENCE],input=json.dumps(dict(data=data,hash='#/',app=(ROOT/'web/app.js').read_text(encoding='utf-8'))),text=True,encoding='utf-8',capture_output=True,check=True)
-  text=json.loads(result.stdout)['text']
+  result=subprocess.run([shutil.which('node'),'-e',NODE_MOBILE],input=json.dumps(dict(data=data,hash='#/',html=BodyTree((ROOT/'web/index.html').read_text(encoding='utf-8')).root,app=(ROOT/'web/app.js').read_text(encoding='utf-8'))),text=True,encoding='utf-8',capture_output=True,check=True)
+  view=json.loads(result.stdout);text=view['visibleText']
   self.assertIn('从头到脚，学会照顾自己。',text);self.assertIn('查找我的问题',text)
   self.assertLess(text.index('今天，从哪里开始'),400)
+  self.assertTrue(view['snapshots'][0]['guideExists']);self.assertFalse(view['snapshots'][0]['guideOpen'])
+  # The approved longer guide is now available in a closed disclosure on home.
+  # textContent includes hidden details, so compactness must check visible text.
+  self.assertIn('身体是你做所有事情的底子',view['guideText'])
   for removed in ['字太小？','这本指南，怎么用最省力','身体是你做所有事情的底子']:
    self.assertNotIn(removed,text)
 
