@@ -50,6 +50,7 @@
       <symbol id="i-up" viewBox="0 0 24 24"><path d="M12 20V5m-6 6 6-6 6 6M5 2h14"/></symbol>
       <symbol id="i-search" viewBox="0 0 24 24"><circle cx="10" cy="10" r="7"/><path d="m15 15 6 6"/></symbol>
       <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M4 12h16m-6-6 6 6-6 6"/></symbol>
+      <symbol id="i-external" viewBox="0 0 24 24"><path d="M14 4h6v6m0-6L10 14M10 4H4v16h16v-6"/></symbol>
       <symbol id="i-save" viewBox="0 0 24 24"><path d="M6 3h12v19l-6-4-6 4z"/></symbol>
       <symbol id="i-source" viewBox="0 0 24 24"><path d="M5 3h10l4 4v14H5zM14 3v5h5M8 12h8m-8 4h6"/></symbol>
       <symbol id="i-menu" viewBox="0 0 24 24"><path d="M3 6h18M3 12h18M3 18h18"/></symbol>
@@ -68,21 +69,22 @@
     <div class="edition-label"><span class="status-dot"></span>从头到脚 · 按需查找</div>
     <nav>
       <div class="nav-quick">
-      <a class="nav-item" data-nav="home" href="#/"><svg class="icon"><use href="#i-home"/></svg>阅读首页</a>
-      <a class="nav-item" data-nav="read" href="#/read"><svg class="icon"><use href="#i-search"/></svg>查找一条建议</a>
-      <a class="nav-item" data-nav="saved" href="#/saved"><svg class="icon"><use href="#i-save"/></svg>我的收藏<span id="saved-count" class="nav-count">0</span></a>
+      <a class="nav-item" data-nav="home" href="#/"><svg class="icon" aria-hidden="true"><use href="#i-home"/></svg><span class="nav-desktop-label">阅读首页</span><span class="nav-mobile-label">首页</span></a>
+      <a class="nav-item" data-nav="read" href="#/read"><svg class="icon" aria-hidden="true"><use href="#i-search"/></svg><span class="nav-desktop-label">查找一条建议</span><span class="nav-mobile-label">查找</span></a>
+      <a class="nav-item" data-nav="saved" href="#/saved"><svg class="icon" aria-hidden="true"><use href="#i-save"/></svg><span class="nav-desktop-label">我的收藏</span><span class="nav-mobile-label">收藏</span><span id="saved-count" class="nav-count">0</span></a>
       </div>
       <div class="chapter-nav-scroll" aria-label="身体部位与生活基础目录">
       <div class="nav-label">按部位或生活场景查找</div>
       <div id="chapter-nav"></div>
       </div>
       <div class="nav-secondary">
-      <a class="nav-item" data-nav="sources" href="#/sources"><svg class="icon"><use href="#i-source"/></svg>查看证据来源</a>
-      <a class="nav-item" data-nav="about" href="#/about"><svg class="icon"><use href="#i-grid"/></svg>项目与下载</a>
+      <a class="nav-item" data-nav="sources" href="#/sources"><svg class="icon" aria-hidden="true"><use href="#i-source"/></svg><span class="nav-desktop-label">查看证据来源</span><span class="nav-mobile-label">来源</span></a>
+      <a class="nav-item" data-nav="about" href="#/about"><svg class="icon" aria-hidden="true"><use href="#i-grid"/></svg><span class="nav-desktop-label">项目与下载</span><span class="nav-mobile-label">项目</span></a>
       <button id="mobile-theme-toggle" class="nav-item mobile-theme" type="button"><svg class="icon" aria-hidden="true"><use href="#i-sun"/></svg><span>切换深色模式</span></button>
+      <div id="mobile-font-settings" class="mobile-font-settings" role="group" aria-label="手机字号"><span class="mobile-font-label">字号</span><div class="mobile-font-options"><button id="mobile-font-small" type="button" aria-pressed="false">小</button><button id="mobile-font-medium" type="button" aria-pressed="true">中</button><button id="mobile-font-large" type="button" aria-pressed="false">大</button></div></div>
       </div>
     </nav>
-    <div class="sidebar-bottom"><strong>把依据也一起读明白</strong><p>保留研究的条件和局限，<br>让每一次选择有据可查。</p><a href="#/about?section=method">了解证据等级 <span>↗</span></a></div>
+    <div class="sidebar-bottom"><strong>把依据也一起读明白</strong><p>保留研究的条件和局限，<br>让每一次选择有据可查。</p><a href="#/about?section=method">了解证据等级 <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a></div>
   </aside>
   <button class="nav-shade" id="nav-shade" aria-label="关闭导航" hidden></button>
   <div class="workspace">
@@ -91,7 +93,7 @@
       <div class="topbar-right"><button id="audience-toggle" class="button small audience-toggle" type="button" aria-haspopup="dialog" aria-controls="audience-dialog"><span class="audience-desktop-label">年龄与男女</span><span class="audience-mobile-label"><svg class="icon" aria-hidden="true"><use href="#i-filter"/></svg><span>筛选</span></span></button><span class="update-label" id="update-label">内容核对 2026.10.28</span><button id="theme-toggle" class="icon-button" aria-label="切换深色模式" title="切换深色模式"><svg class="icon"><use href="#i-sun"/></svg></button></div>
     </header>
     <main id="main" class="main" tabindex="-1"><div class="loading-state">正在整理阅读内容…</div></main>
-    <footer class="site-footer"><span id="footer-guide-title">少走弯路的人体保养指南</span><span>日常习惯 · 消费选择 · 证据追溯</span><a href="#/about">阅读与维护说明 ↗</a></footer>
+    <footer class="site-footer"><span id="footer-guide-title">少走弯路的人体保养指南</span><span>日常习惯 · 消费选择 · 证据追溯</span><a href="#/about">阅读与维护说明 <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a></footer>
   </div>
   <button id="back-to-top" class="back-to-top" type="button" aria-label="回到页面顶部" title="回到顶部" hidden><svg class="icon" aria-hidden="true"><use href="#i-up"/></svg><span>回到顶部</span></button>
   <dialog id="source-dialog" class="source-dialog" aria-labelledby="source-dialog-title"><div class="dialog-header"><strong id="source-dialog-title">证据来源</strong><button id="source-close" class="icon-button" aria-label="关闭证据详情"><svg class="icon"><use href="#i-close"/></svg></button></div><div id="source-dialog-body" class="dialog-body"></div></dialog>

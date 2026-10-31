@@ -224,7 +224,7 @@ def render_entry_html(data: dict, entry: dict) -> str:
                 render_prose(source["citation"], source_lookup, entry_ids)]
         url = safe_external_url(source["url"])
         if url:
-            note.append('<p><a href="' + escape(url) + '" target="_blank" rel="noopener noreferrer">查看原始来源 ↗</a></p>')
+            note.append('<p><a href="' + escape(url) + '" target="_blank" rel="noopener noreferrer">查看原始来源</a></p>')
         if source.get("support"):
             note.append('<div><strong>支持范围：</strong>' + render_prose(source["support"], source_lookup, entry_ids) + '</div>')
         if source.get("limitations"):

@@ -191,3 +191,57 @@ body[data-theme="dark"]{--paper:#17231e;--panel:#1d2d25;--ink:#e1e7d9;--muted:#9
   .sidebar{padding-top:6px;padding-bottom:6px}.sidebar-mobile-head{min-height:40px;padding-bottom:2px}.sidebar .nav-quick{display:flex;gap:4px;flex:none;padding-bottom:4px}.sidebar .nav-quick .nav-item{flex:1;font-size:13px;justify-content:center;padding:6px;gap:5px}.sidebar .nav-quick .nav-count{display:none}.nav-secondary{display:flex;gap:6px;padding-top:4px}.nav-secondary>.nav-item{flex:1;justify-content:center;min-height:44px!important;font-size:13px!important}
 }
 @media print{.sidebar-mobile-head,.mobile-nav-link,.mobile-theme,.share-panel,.table-hint,.static-mobile-nav{display:none!important}}
+
+/* Compact mobile directory and reading controls: 2026-10-31. */
+.nav-mobile-label,.mobile-font-settings{display:none}
+.developer-panel h2{font-size:20px;line-height:1.6}.developer-profile{display:inline-flex;align-items:center;gap:8px;color:var(--green);font-size:14px;min-height:44px;line-height:1.6}.developer-profile .icon{width:16px;height:16px}
+.site-footer a{display:inline-flex;align-items:center;gap:6px}.site-footer a .icon,.sidebar-bottom a .icon{width:14px;height:14px}
+.source-domain{display:inline-flex;align-items:center;gap:5px}.source-domain .icon{width:14px;height:14px}
+@media screen and (max-width:760px), screen and (max-width:1024px) and (max-height:500px){
+  body{--mobile-reading-size:16px;--mobile-summary-size:15px;--mobile-lead-size:15px;--mobile-note-size:14px;--mobile-table-size:14px}
+  body[data-mobile-font=small]{--mobile-reading-size:15px;--mobile-summary-size:14px;--mobile-lead-size:14px;--mobile-note-size:13px;--mobile-table-size:13px}
+  body[data-mobile-font=large]{--mobile-reading-size:18px;--mobile-summary-size:17px;--mobile-lead-size:17px;--mobile-note-size:16px;--mobile-table-size:16px}
+  .sidebar{padding:8px 12px calc(8px + env(safe-area-inset-bottom,0px))}
+  .sidebar-mobile-head{min-height:44px;padding:0 2px 6px}.sidebar-mobile-head strong{font-size:16px}
+  .sidebar .nav-quick{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px;padding:0 0 8px}
+  .nav-desktop-label{display:none}.nav-mobile-label{display:inline}
+  .sidebar .nav-quick .nav-item{min-height:44px;height:44px;justify-content:center;font-size:14px;line-height:1.4;padding:8px 6px;gap:6px;background:var(--paper)}
+  .sidebar .nav-quick .nav-item.active{background:var(--sage)}
+  .sidebar .nav-quick .icon{width:18px;height:18px;min-width:18px}
+  .sidebar .nav-quick .nav-count{display:inline;min-width:0;margin:0;font-size:11px;line-height:1.4}
+  .chapter-nav-scroll{padding-right:2px;scrollbar-gutter:stable;touch-action:pan-y;overscroll-behavior-y:contain;min-height:0}
+  .chapter-nav-scroll>.nav-label{margin:10px 10px 6px;font-size:11px}.chapter-nav-scroll .body-group-label{margin-top:14px!important;margin-bottom:6px!important}
+  .sidebar .chapter-nav-scroll .nav-item{min-height:44px;padding:10px;font-size:15px}
+  .nav-secondary{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px;padding-top:8px}
+  .nav-secondary>.nav-item{min-height:44px;height:44px;padding:8px 6px;font-size:14px!important;line-height:1.4;gap:6px;justify-content:center}
+  .nav-secondary .icon{width:18px;height:18px;min-width:18px}
+  .mobile-theme{grid-column:auto;background:var(--paper)}
+  .mobile-font-settings{display:flex;grid-column:1/-1;align-items:center;gap:10px;min-height:48px;padding-top:4px;border-top:1px solid var(--line);margin-top:2px}
+  .mobile-font-label{font-size:13px;color:var(--muted);flex:none;padding-left:4px}
+  .mobile-font-options{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px;flex:1;min-width:0}
+  .mobile-font-options button{min-height:44px;padding:8px;border:1px solid var(--line);border-radius:7px;background:var(--paper);color:var(--ink);font:14px/1.5 var(--sans)}
+  .mobile-font-options button[aria-pressed=true]{background:var(--sage);border-color:var(--green);color:var(--green);font-weight:600}
+  .hero .hero-copy>p{font-size:var(--mobile-lead-size)}
+  .reading-field .prose,.plain-field .prose,.static-reader .reading-field .prose{font-size:var(--mobile-reading-size)}
+  .entry-card p,.entry-card .entry-summary{font-size:var(--mobile-summary-size)}
+  .page-lead,.page-lead p,.unit-heading .prose{font-size:var(--mobile-lead-size)}
+  .audience-detail,.info-panel p,.info-panel li,.source-card .prose{font-size:var(--mobile-note-size)}
+  .dialog-body,.dialog-body .citation-title{font-size:var(--mobile-summary-size)}
+  .source-card h2{font-size:var(--mobile-reading-size)}.prose table{font-size:var(--mobile-table-size)}
+  .search-home,.searchbox{position:relative;display:flex;align-items:center;gap:10px;min-width:0;min-height:50px;padding:0 14px;border:1px solid var(--line);border-radius:8px;background:var(--panel)}
+  .search-home>.icon,.searchbox>.icon{position:static;inset:auto;transform:none;flex:0 0 18px;width:18px;height:18px;margin:0;color:var(--muted)}
+  .search-home input,.searchbox input{flex:1;min-width:0;width:100%;min-height:48px;padding:12px 0;border:0;border-radius:0;background:transparent;color:var(--ink);font:16px/1.5 var(--sans);outline-offset:2px}
+  .search-home input::placeholder,.searchbox input::placeholder{font-size:14px;color:var(--muted);opacity:1}
+  .hero-actions .button.ghost{color:var(--green)}.hero-actions .button.ghost .icon{width:16px;height:16px}
+  .developer-panel h2{font-size:20px}.developer-profile{font-size:15px;min-height:44px}
+}
+@media screen and (max-width:350px){.sidebar .nav-quick .nav-count{display:none}.sidebar .nav-quick .nav-item,.nav-secondary>.nav-item{padding-left:4px;padding-right:4px;gap:5px}}
+@media screen and (min-width:500px) and (max-width:1024px) and (max-height:500px){
+  .sidebar>nav{display:grid;grid-template-columns:minmax(0,1fr) 228px;grid-template-rows:44px minmax(0,1fr);gap:8px 16px}
+  .sidebar .nav-quick{grid-column:2;grid-row:1;padding:0;gap:4px}
+  .sidebar .nav-quick .nav-count{display:none}
+  .chapter-nav-scroll{grid-column:1;grid-row:1/3;height:100%;padding-right:12px;border-right:1px solid var(--line)}
+  .chapter-nav-scroll>.nav-label{margin-top:4px}.chapter-nav-scroll .body-group-label{margin-top:10px!important}
+  .nav-secondary{grid-column:2;grid-row:2;align-content:start;padding:0;border-top:0}
+}
+@media print{.mobile-font-settings{display:none!important}}

@@ -102,18 +102,21 @@ Object.assign(location,{protocol:'https:',pathname:'/body-care-guide/',href:'htt
 const media=new Map();
 window.matchMedia=query=>{if(!media.has(query)){const listeners=[];media.set(query,{media:query,matches:query.includes('760')?input.mobile!==false:false,addEventListener(_,fn){listeners.push(fn);},addListener(fn){listeners.push(fn);},notify(){for(const fn of listeners)fn(this);}});}return media.get(query);};
 window.innerWidth=input.mobile===false?1200:375;window.scrollY=0;
-const scrollCalls=[],storageWrites=[],clipboardWrites=[];
+const scrollCalls=[],storageWrites=[],storageReads=[],clipboardWrites=[];
 const animationFrames=[];
 if(input.animationFrame)window.requestAnimationFrame=fn=>{animationFrames.push(fn);return animationFrames.length;};
 window.scrollTo=options=>{scrollCalls.push(options);window.scrollY=options.top||0;};
-const localStorage={getItem:key=>key==='body-care-guide:bookmarks:v1'?JSON.stringify(input.saved||[]):null,setItem(key,value){storageWrites.push({key,value});}};
+const localStorage={getItem(key){storageReads.push(key);if(input.storageReadBlocked)throw new Error('Storage unavailable');if(key==='body-care-guide:bookmarks:v1')return JSON.stringify(input.saved||[]);if(key==='body-care-guide:mobile-font:v1')return input.mobileFont??null;if(key==='body-care-guide:reading:v1')return JSON.stringify(input.legacyReading||null);return null;},setItem(key,value){if(input.storageBlocked)throw new Error('Storage unavailable');storageWrites.push({key,value});}};
 const navigator={clipboard:{async writeText(text){clipboardWrites.push(text);if(input.clipboardFail)throw new Error('Permission denied');}}};
 vm.runInNewContext(input.app,{window,document:doc,location,history,Node:N,URL:TestURL,URLSearchParams,Blob:TestBlob,navigator,localStorage,setTimeout:()=>0,clearTimeout(){}});
 function state(){const side=doc.getElementById('sidebar'),menu=doc.getElementById('menu-toggle'),share=doc.getElementById('share-panel');return {
  navOpen:side.classList.contains('open'),locked:doc.body.classList.contains('nav-open'),inert:!!side.inert,ariaHidden:side.getAttribute('aria-hidden'),expanded:menu.getAttribute('aria-expanded'),focus:doc.activeElement?.getAttribute('id'),y:window.scrollY,audienceOpen:doc.getElementById('audience-dialog').open,audienceLocked:doc.body.classList.contains('audience-open'),mainInert:!!doc.getElementById('main').inert,footerInert:!!doc.querySelector('.site-footer').inert,headerInert:!!doc.querySelector('.topbar').inert,pendingFrames:animationFrames.length,
  shareCount:doc.querySelectorAll('#share-panel').length,shareInputs:share?walk(share).filter(n=>n.tag==='input').map(n=>({value:n.value,attrs:n.attrs})):[],
  home:doc.getElementById('mobile-home-link')?.getAttribute('href'),search:doc.getElementById('mobile-search-link')?.getAttribute('href'),hash:location.hash,
- saves:walk(doc.getElementById('main')).filter(n=>n.getAttribute('data-save')).map(n=>({id:n.getAttribute('data-save'),text:n.textContent,pressed:n.getAttribute('aria-pressed'),icons:walk(n).filter(c=>c.tag==='svg').length})),theme:doc.body.dataset.theme,mobileTheme:doc.getElementById('mobile-theme-toggle')?.textContent,desktopTheme:doc.getElementById('theme-toggle')?.getAttribute('aria-label')
+ saves:walk(doc.getElementById('main')).filter(n=>n.getAttribute('data-save')).map(n=>({id:n.getAttribute('data-save'),text:n.textContent,pressed:n.getAttribute('aria-pressed'),icons:walk(n).filter(c=>c.tag==='svg').length})),theme:doc.body.dataset.theme,mobileTheme:doc.getElementById('mobile-theme-toggle')?.textContent,mobileThemeLabel:doc.getElementById('mobile-theme-toggle')?.getAttribute('aria-label'),desktopTheme:doc.getElementById('theme-toggle')?.getAttribute('aria-label'),
+ mobileFont:doc.body.getAttribute('data-mobile-font')||doc.body.dataset.mobileFont||null,
+ legacyReadingSize:doc.body.getAttribute('data-reading-size'),legacyReadingLine:doc.body.getAttribute('data-reading-line'),
+ fontButtons:['small','medium','large'].map(size=>({size,pressed:doc.getElementById('mobile-font-'+size)?.getAttribute('aria-pressed'),text:doc.getElementById('mobile-font-'+size)?.textContent}))
 };}
 function actionButton(text){return walk(doc.getElementById('main')).find(n=>n.tag==='button'&&n.textContent.includes(text));}
 const snapshots=[];
@@ -131,7 +134,9 @@ const snapshots=[];
   else if(step.action==='frame'){for(const fn of animationFrames.splice(0))fn(0);}
   snapshots.push(state());
  }
- process.stdout.write(JSON.stringify({snapshots,storageWrites,clipboardWrites,text:doc.getElementById('main').textContent,headerText:doc.querySelector('.topbar').textContent}));
+ process.stdout.write(JSON.stringify({snapshots,storageWrites,storageReads,clipboardWrites,text:doc.getElementById('main').textContent,headerText:doc.querySelector('.topbar').textContent,
+ links:walk(doc.getElementById('main')).filter(n=>n.tag==='a').map(n=>({href:n.getAttribute('href'),text:n.textContent,icons:walk(n).filter(c=>c.tag==='svg').length,iconUses:walk(n).filter(c=>c.tag==='use').map(c=>c.getAttribute('href'))})),
+ fontControlsInSidebar:['small','medium','large'].every(size=>doc.getElementById('sidebar').contains(doc.getElementById('mobile-font-'+size)))}));
 })().catch(error=>{process.stderr.write(error.stack);process.exitCode=1;});
 """
 
@@ -216,8 +221,9 @@ class MobileReaderTests(unittest.TestCase):
         result = self.run_reader([dict(action='click', id='menu-toggle'), dict(action='click', id='mobile-theme-toggle'), dict(action='click', id='mobile-theme-toggle')])
         dark, light = result['snapshots'][2:]
         self.assertEqual(dark['theme'], 'dark');self.assertEqual(light['theme'], 'light')
-        self.assertEqual(dark['mobileTheme'], '切换浅色模式');self.assertEqual(dark['desktopTheme'], '切换浅色模式')
-        self.assertEqual(light['mobileTheme'], '切换深色模式');self.assertEqual(light['desktopTheme'], '切换深色模式')
+        self.assertEqual(dark['mobileTheme'], '浅色');self.assertEqual(light['mobileTheme'], '深色')
+        self.assertEqual(dark['mobileThemeLabel'], '切换浅色模式');self.assertEqual(dark['desktopTheme'], '切换浅色模式')
+        self.assertEqual(light['mobileThemeLabel'], '切换深色模式');self.assertEqual(light['desktopTheme'], '切换深色模式')
         self.assertTrue(dark['navOpen']);self.assertTrue(light['navOpen'])
 
     def test_fixed_home_and_search_links_keep_current_demographic_filters(self):
@@ -251,6 +257,75 @@ class MobileReaderTests(unittest.TestCase):
         result = self.run_reader([dict(action='copy')])
         self.assertEqual(result['clipboardWrites'], ['https://eothenofficial.github.io/body-care-guide/read/eyes-001/'])
         self.assertEqual(result['snapshots'][-1]['shareCount'], 0)
+
+    def test_mobile_font_defaults_to_medium_and_marks_exactly_one_choice(self):
+        result = self.run_reader(route='#/read')
+        state = result['snapshots'][0]
+        self.assertEqual(state['mobileFont'], 'medium')
+        self.assertEqual([b['size'] for b in state['fontButtons'] if b['pressed'] == 'true'], ['medium'])
+        self.assertEqual([b['text'] for b in state['fontButtons']], ['小', '中', '大'])
+        self.assertTrue(result['fontControlsInSidebar'])
+        self.assertFalse(any(w['key'] == 'body-care-guide:mobile-font:v1' for w in result['storageWrites']))
+
+    def test_mobile_font_selection_persists_an_enum_without_changing_reading_context(self):
+        route = '#/entry/eyes-001?band=adult&sex=female'
+        result = self.run_reader([dict(action='click', id='menu-toggle'),
+                                  dict(action='click', id='mobile-font-large'),
+                                  dict(action='click', id='mobile-font-small')],
+                                 route=route, saved=['eyes-001'])
+        large, small = result['snapshots'][2:]
+        self.assertEqual(large['mobileFont'], 'large');self.assertEqual(small['mobileFont'], 'small')
+        self.assertEqual([b['size'] for b in large['fontButtons'] if b['pressed'] == 'true'], ['large'])
+        self.assertEqual([b['size'] for b in small['fontButtons'] if b['pressed'] == 'true'], ['small'])
+        for state in [large, small]:
+            self.assertTrue(state['navOpen'])
+            self.assertEqual(state['hash'], route)
+            self.assertEqual(state['home'], '#/?band=adult&sex=female')
+            self.assertEqual(state['saves'][0]['pressed'], 'true')
+        writes = [w for w in result['storageWrites'] if w['key'] == 'body-care-guide:mobile-font:v1']
+        self.assertEqual([w['value'] for w in writes], ['large', 'small'])
+        self.assertFalse(any(w['key'] == 'body-care-guide:bookmarks:v1' for w in result['storageWrites']))
+
+    def test_mobile_font_reloads_only_valid_preferences_and_ignores_withdrawn_desktop_settings(self):
+        for pref in ['small', 'medium', 'large', '', 'oversized', '24', '{"size":24}', ' LARGE ']:
+            with self.subTest(pref=pref):
+                result = self.run_reader(mobileFont=pref, legacyReading={'size':24,'line':'relaxed'})
+                state = result['snapshots'][0]
+                self.assertEqual(state['mobileFont'], pref if pref in {'small','medium','large'} else 'medium')
+                self.assertIsNone(state['legacyReadingSize']);self.assertIsNone(state['legacyReadingLine'])
+                self.assertNotIn('body-care-guide:reading:v1', result['storageReads'])
+                self.assertFalse(any(w['key'] == 'body-care-guide:reading:v1' for w in result['storageWrites']))
+        desktop = self.run_reader(mobile=False, mobileFont='large', legacyReading={'size':24,'line':'relaxed'})
+        self.assertIsNone(desktop['snapshots'][0]['legacyReadingSize'])
+        self.assertIsNone(desktop['snapshots'][0]['legacyReadingLine'])
+        self.assertNotIn('body-care-guide:reading:v1', desktop['storageReads'])
+
+    def test_mobile_font_unavailable_storage_does_not_break_reading_or_current_selection(self):
+        result = self.run_reader([dict(action='click', id='menu-toggle'), dict(action='click', id='mobile-font-large')],
+                                 storageReadBlocked=True, storageBlocked=True)
+        self.assertEqual(result['snapshots'][0]['mobileFont'], 'medium')
+        self.assertEqual(result['snapshots'][-1]['mobileFont'], 'large')
+        self.assertTrue(result['text'])
+        self.assertFalse(any(w['key'] == 'body-care-guide:mobile-font:v1' for w in result['storageWrites']))
+
+    def test_about_replaces_internal_developer_panel_with_author_profile_and_invitation(self):
+        result = self.run_reader(route='#/about')
+        self.assertIn('开发者', result['text']);self.assertIn('Eothen Tsang', result['text'])
+        self.assertRegex(result['text'], '共同维护|一起维护');self.assertIn('建议', result['text'])
+        profile = [link for link in result['links'] if (link['href'] or '').rstrip('/') == 'https://github.com/eothenofficial']
+        self.assertEqual(len(profile), 1)
+        self.assertNotIn('给维护者与开发者', result['text'])
+        self.assertNotIn('自动检查负责字段、引用、链接与复核期限', result['text'])
+        self.assertFalse(any((link['href'] or '').startswith('api/v1/') for link in result['links']))
+        self.assertTrue(any((link['href'] or '').endswith('downloads/guide.json') for link in result['links']))
+
+    def test_home_reading_method_link_uses_controlled_vector_instead_of_system_arrow_glyph(self):
+        result = self.run_reader(route='#/')
+        method = [link for link in result['links'] if 'section=method' in (link['href'] or '')]
+        self.assertEqual(len(method), 1)
+        self.assertEqual(method[0]['text'], '了解阅读方法')
+        self.assertEqual(method[0]['icons'], 1)
+        self.assertTrue(all((use or '').startswith('#i-') for use in method[0]['iconUses']))
 
 
 def tree_nodes(node):

@@ -47,6 +47,10 @@
   let navOpen = false;
   let navScrollY = 0;
   const mobileNavigation = window.matchMedia?.('(max-width: 760px), (max-width: 1024px) and (max-height: 500px)');
+  const mobileFontKey = 'body-care-guide:mobile-font:v1';
+  const mobileFontSizes = ['small','medium','large'];
+  let mobileFont = 'medium';
+  try{const stored=localStorage.getItem(mobileFontKey);if(mobileFontSizes.includes(stored))mobileFont=stored;}catch{}
   const ageNames = {child:'儿童（0–11岁）',teen:'青少年（12–17岁）',adult:'成人（18–64岁）',older:'老年（65岁起）'};
   let audienceState = audienceFromParams(new URLSearchParams((location.hash.split('?')[1]||'')));
 
@@ -323,7 +327,7 @@
     }
   }
   function searchForm(value='',onSearch) {
-    const input=node('input',{type:'search',value,placeholder:'搜索问题、习惯或用品，如：干眼、牙线、发膜','aria-label':'搜索护理建议'});
+    const input=node('input',{type:'search',value,placeholder:'搜索症状、习惯或用品','aria-label':'搜索护理建议'});
     const form=node('form',{class:'search-home',onsubmit:e=>{e.preventDefault();onSearch(input.value);}},icon('search'),input,node('span',{class:'search-shortcut'},'Enter ↵'));
     return form;
   }
@@ -334,7 +338,7 @@
       node('div',{class:'hero-copy'},node('div',{class:'eyebrow'},guideTitle),
         node('h1',{},hc.headline||'从头到脚，',node('br'),node('em',{},hc.headline_end||'学会照顾自己。')),
         ...String(hc.lead||'从日常不适、护理习惯和用品选择开始，找到适合自己的做法。').split(/\n\s*\n/).map(paragraph=>node('p',{class:'hero-description'},paragraph)),
-        node('div',{class:'hero-actions'},node('a',{class:'button primary',href:'#/read'},'查找我的问题',icon('arrow')),node('a',{class:'button ghost',href:'#/about?section=method'},'了解阅读方法 ↗')),
+        node('div',{class:'hero-actions'},node('a',{class:'button primary',href:'#/read'},'查找我的问题',icon('arrow')),node('a',{class:'button ghost',href:'#/about?section=method'},'了解阅读方法',icon('arrow'))),
         node('p',{class:'hero-note'},hc.note||'按需选读，不必把护理变成一张任务清单。')),
       node('figure',{class:'hero-portrait','aria-hidden':'true'},node('img',{src:'assets/home-portrait-abstract.png',alt:'',width:300,height:360,decoding:'async'}))));
     const stats=node('div',{class:'stats'});
@@ -344,7 +348,7 @@
     const positions=bodyPositionMap();if(positions)frag.append(positions);
     const grid=node('div',{class:'chapter-grid'});
     (positions?[]:chapters).forEach((ch,i)=>{const visible=chapterEntries(ch.id).filter(e=>audienceMatches(e));if(!visible.length)return;const a=node('a',{class:'chapter-card',href:'#/chapter/'+ch.id,style:'--card-color:'+colors[ch.id]},node('div',{class:'chapter-card-top'},node('span',{class:'chapter-card-icon'},icon(iconNames[ch.id]||'book')),node('span',{class:'chapter-number'},String(i+1).padStart(2,'0'))),node('h3',{},titleOf(ch)),node('p',{},descriptions[ch.id]||stripped(ch.intro)),node('div',{class:'chapter-card-footer'},`${visible.length} 条建议 · ${(ch.units||[]).filter(u=>visible.some(e=>e.unit_id===u.id)).length} 个单元`,icon('arrow')));grid.append(a);});
-    grid.append(node('div',{class:'start-card'},node('div',{class:'mini-stack'},node('span'),node('span'),node('span')),node('div',{},node('h3',{},'不必一次全部做到'),node('p',{},'可以先改一个习惯，也可以只查一个想买的用品。收藏有用的那条，需要时再回来。'),node('a',{class:'text-link',href:'#/saved'},'看看我的收藏 ↗'))));frag.append(grid);
+    grid.append(node('div',{class:'start-card'},node('div',{class:'mini-stack'},node('span'),node('span'),node('span')),node('div',{},node('h3',{},'不必一次全部做到'),node('p',{},'可以先改一个习惯，也可以只查一个想买的用品。收藏有用的那条，需要时再回来。'),node('a',{class:'text-link',href:'#/saved'},'看看我的收藏',icon('arrow')))));frag.append(grid);
     frag.append(node('div',{class:'section-heading'},node('div',{},node('h2',{},'也许，你也有这些困惑'))));
     const examples=Array.isArray(manifest.search_examples)&&manifest.search_examples.length?manifest.search_examples:['眼睛干涩','美瞳','牙线','电动牙刷','防晒','发膜','掏耳朵'];
     const quick=node('div',{class:'quick-row'});examples.forEach(q=>quick.append(node('a',{class:'chip',href:'#/read?q='+encodeURIComponent(q)},q,icon('arrow'))));frag.append(quick);
@@ -472,7 +476,7 @@
     if(limitsOf(s))box.append(node('h3',{},'使用这份证据的限制'),prose(limitsOf(s)));
     if(s.reading_depth)box.append(node('h3',{},'原文核读范围'),prose(s.reading_depth));
     if(s.funding_disclosure)box.append(node('h3',{},'资金与利益披露'),prose(s.funding_disclosure));
-    const url=safeUrl(s.url);if(url)box.append(node('a',{class:'button small',href:url,target:'_blank',rel:'noopener noreferrer'},'打开原始来源 ↗'));
+    const url=safeUrl(s.url);if(url)box.append(node('a',{class:'button small',href:url,target:'_blank',rel:'noopener noreferrer'},'打开原始来源',icon('external')));
     const uses=usesOf(id);box.append(node('h3',{},`哪些条目引用了它 · ${uses.length}`),node('div',{class:'source-uses'},...uses.map(e=>node('a',{href:'#/entry/'+e.id,onclick:()=>document.getElementById('source-dialog').close()},`${names[e.chapter_id]} · ${e.title}`))));
     if(JSON.stringify(manifest.home_content||{}).includes('[@'+id+']'))box.append(node('p',{},'首页导览也引用了这份资料。'),node('a',{class:'text-link',href:'#/',onclick:()=>document.getElementById('source-dialog').close()},'返回首页导览'));
     document.getElementById('source-dialog-title').textContent='来源 '+sourceNum(s);
@@ -483,11 +487,11 @@
     const input=node('input',{type:'search','aria-label':'搜索文献、机构或题名',placeholder:'搜索文献、机构或题名，如 Cochrane、牙膏…'}),count=node('p',{class:'muted',style:'font-size:11px','aria-live':'polite'}),list=node('div',{class:'source-grid'});
     function update(){const q=input.value.toLowerCase().trim();const matches=visibleSources().filter(s=>[s.citation,s.type,supportOf(s),s.url].join(' ').toLowerCase().includes(q));count.textContent=`${matches.length} 项来源 · 内容版本 ${manifest.content_version||'2026.10.28-1'}`;list.replaceChildren(...matches.map(s=>{
       let domain='';try{domain=new URL(s.url).hostname;}catch{}
-      return node('article',{class:'source-card'},node('div',{class:'source-card-top'},node('span',{class:'source-number'},'['+sourceNum(s)+']'),node('span',{},s.type||'参考资料')),node('h2',{},s.citation),node('div',{class:'action-row'},node('button',{class:'button small',type:'button',onclick:()=>showSource(s.id)},'查看支持范围 · '+usesOf(s.id).length+' 条引用'),safeUrl(s.url)?node('a',{class:'source-domain',href:s.url,target:'_blank',rel:'noopener noreferrer'},domain+' ↗'):null));}));if(!matches.length)list.append(empty('没有找到这份来源','试试作者、机构或题名中的一个短词。'));}
+      return node('article',{class:'source-card'},node('div',{class:'source-card-top'},node('span',{class:'source-number'},'['+sourceNum(s)+']'),node('span',{},s.type||'参考资料')),node('h2',{},s.citation),node('div',{class:'action-row'},node('button',{class:'button small',type:'button',onclick:()=>showSource(s.id)},'查看支持范围 · '+usesOf(s.id).length+' 条引用'),safeUrl(s.url)?node('a',{class:'source-domain',href:s.url,target:'_blank',rel:'noopener noreferrer'},domain,icon('external')):null));}));if(!matches.length)list.append(empty('没有找到这份来源','试试作者、机构或题名中的一个短词。'));}
     input.addEventListener('input',()=>{clearTimeout(searchTimer);searchTimer=setTimeout(update,120);});main.append(node('div',{class:'searchbox'},icon('search'),input),count,list);update();document.title='证据来源 · '+guideTitle;
   }
   function about(){
-    main.append(node('header',{class:'page-head'},node('div',{class:'eyebrow'},'阅读、保存与追溯依据'),node('h1',{},'项目与下载'),node('p',{class:'page-lead'},'按身体部位、遇到的症状或想买的用品查找建议。这里可以保存完整指南、了解引用方式，也可以找到供维护者使用的数据。')));
+    main.append(node('header',{class:'page-head'},node('div',{class:'eyebrow'},'阅读、保存与追溯依据'),node('h1',{},'项目与下载'),node('p',{class:'page-lead'},'按身体部位、遇到的症状或想买的用品查找建议。这里可以保存完整指南、了解引用方式和阅读方法。')));
     const downloads=node('section',{class:'info-panel'},node('h2',{},'把指南带走'),node('p',{},'以下下载均包含整本内容，不受当前筛选影响；打印页按当前筛选展开。离线文件不会自动更新。内容版本：'+(manifest.content_version||'2026.10.28-1')));
     const dgrid=node('div',{class:'download-grid'});
     [['downloads/guide-offline.html','离线阅读版','单个HTML · 含检索与全部正文'],['downloads/guide.md','完整正文','Markdown · 方便阅读与编辑'],['downloads/guide.json','结构化数据','JSON · 供开发与二次整理'],['#/print','打印与另存PDF','展开全文 · 使用浏览器打印']].forEach(([url,t,p])=>dgrid.append(downloadLink(url,t,p)));downloads.append(dgrid);
@@ -497,10 +501,8 @@
     if(manifest.book?.front_matter)method.append(node('details',{},node('summary',{},'展开完整阅读导览'),prose(manifest.book.front_matter)));
     if(manifest.book?.back_matter)method.append(node('details',{},node('summary',{},'展开证据与引用说明'),prose(manifest.book.back_matter)));
     const roadmap=node('section',{class:'info-panel'},node('h2',{},'按部位继续阅读'),...chapters.filter(ch=>chapterEntries(ch.id).some(e=>audienceMatches(e))).map(ch=>node('a',{class:'roadmap-item done',href:'#/chapter/'+ch.id},icon(iconNames[ch.id]||'book'),node('span',{},titleOf(ch)),node('small',{},chapterEntries(ch.id).filter(e=>audienceMatches(e)).length+' 条匹配建议'))));
-    const api=node('section',{class:'info-panel'},node('h2',{},'给维护者与开发者'),node('p',{},'内容与界面分开保存。稳定条目ID用于链接，数据接口供检索、导出或其他阅读器使用。这里提供的是只读资料，不是诊断或个体治疗接口。'),...['manifest','chapters','entries','sources'].map(x=>{const a=node('a',{class:'api-link',href:offlineDocument?'#':'api/v1/'+x+'.json',...(offlineDocument?{}:{target:'_blank',rel:'noopener'})},'api/v1/'+x+'.json '+(offlineDocument?'↓':'↗'));if(offlineDocument)a.addEventListener('click',ev=>{ev.preventDefault();const value=x==='manifest'?manifest:{schema_version:manifest.schema_version,content_version:manifest.content_version,[x]:data[x]};downloadText(x+'.json',JSON.stringify(value,null,2),'application/json');});return a;}),node('p',{},'自动检查负责字段、引用、链接与复核期限。医学结论、证据等级和临床审核状态，需要人工审查。'));
-    const repo=manifest.repository_url||manifest.config?.repository_url||'';
-    if(safeUrl(repo))api.append(node('a',{class:'button small',href:repo,target:'_blank',rel:'noopener noreferrer'},'在 GitHub 查看源码 ↗'),node('a',{class:'button small ghost',href:repo.replace(/\/$/,'')+'/issues/new/choose',target:'_blank',rel:'noopener noreferrer'},'报告一条问题 ↗'));
-    main.append(node('div',{class:'about-grid'},node('div',{},downloads,method),node('div',{},roadmap,api)),node('div',{class:'provenance-note'},'本指南提供有来源的健康科普，尚未经过临床医生逐条审核，不能代替个人检查、诊断或处方。产品示例不代表品牌背书。有不确定性时，正文保留限制和分流条件。本站不上传搜索词或阅读记录。'));
+    const developer=node('section',{class:'info-panel developer-panel'},node('h2',{},'开发者：Eothen Tsang'),node('a',{class:'developer-profile',href:'https://github.com/eothenofficial',target:'_blank',rel:'noopener noreferrer'},'GitHub · eothenofficial',icon('external')),node('p',{},'欢迎共同维护这份指南，提出建议、补充资料或指出错误，一起把它做得更好。'));
+    main.append(node('div',{class:'about-grid'},node('div',{},downloads,method),node('div',{},roadmap,developer)),node('div',{class:'provenance-note'},'本指南提供有来源的健康科普，尚未经过临床医生逐条审核，不能代替个人检查、诊断或处方。产品示例不代表品牌背书。有不确定性时，正文保留限制和分流条件。本站不上传搜索词或阅读记录。'));
     document.title='项目与下载 · '+guideTitle;if(currentRoute.params.get('section')==='method')requestAnimationFrame(()=>document.getElementById('method')?.scrollIntoView());
   }
   function printView(){
@@ -550,12 +552,17 @@
   document.getElementById('audience-close').addEventListener('click',closeAudience);
   document.getElementById('audience-dialog').addEventListener('click',event=>{if(event.target===event.currentTarget)closeAudience();});
   document.getElementById('audience-dialog').addEventListener('close',()=>{document.body.classList.toggle('audience-open',false);if(previousAudienceFocus?.isConnected)previousAudienceFocus.focus();});
-  function syncThemeControls(){const label=document.body.dataset.theme==='dark'?'切换浅色模式':'切换深色模式';document.getElementById('theme-toggle').setAttribute('aria-label',label);document.getElementById('mobile-theme-toggle').replaceChildren(icon('sun'),node('span',{},label));}
+  function syncThemeControls(){const dark=document.body.dataset.theme==='dark',label=dark?'切换浅色模式':'切换深色模式';document.getElementById('theme-toggle').setAttribute('aria-label',label);const mobile=document.getElementById('mobile-theme-toggle');mobile.replaceChildren(icon('sun'),node('span',{},dark?'浅色':'深色'));mobile.setAttribute('aria-label',label);mobile.setAttribute('title',label);}
   function toggleTheme(){const dark=document.body.dataset.theme!=='dark';document.body.dataset.theme=dark?'dark':'light';try{localStorage.setItem('body-care-guide:theme',dark?'dark':'light');}catch{}syncThemeControls();}
   document.getElementById('theme-toggle').addEventListener('click',toggleTheme);
   document.getElementById('mobile-theme-toggle').addEventListener('click',toggleTheme);
   try{if(localStorage.getItem('body-care-guide:theme')==='dark')document.body.dataset.theme='dark';}catch{}
   syncThemeControls();
+  function syncMobileFont(){document.body.setAttribute('data-mobile-font',mobileFont);for(const size of mobileFontSizes)document.getElementById('mobile-font-'+size)?.setAttribute('aria-pressed',String(size===mobileFont));}
+  for(const size of mobileFontSizes)document.getElementById('mobile-font-'+size)?.addEventListener('click',()=>{
+    mobileFont=size;syncMobileFont();try{localStorage.setItem(mobileFontKey,size);}catch{toast('字号已调整，当前浏览器无法保存，下次需重新选择。');}
+  });
+  syncMobileFont();
   document.addEventListener('keydown',e=>{
     if(e.key==='Escape'){closeNav(true);closeAudience();}
     if(e.key==='Tab'&&navOpen){
