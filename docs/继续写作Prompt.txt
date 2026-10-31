@@ -99,7 +99,7 @@ Vancouver数字顺序引用，同源复用编号；条目和来源永久ID不随
 
 完整项目GitHub更新与本地SOP（2026-10-30第10次迭代，按SOP第37节执行）：
 - 用户已明确要求“把整个项目打包更新到github上，然后再储存一份SOP到本地”。本轮继续使用https://github.com/eothenofficial/body-care-guide与https://eothenofficial.github.io/body-care-guide/，无需再次问同一上传批准或已确定的书名/介绍/A抽象图。它不授权新账户、改访问范围、购买域名、擅定许可证或加入追踪。未来任务仍以届时实际授权为准。
-- 先查真正Git根、branch、remote、工作区和远端最新提交。最新版源码目录未必是正确检出目录；旧同名目录也可能只有66条。保留现有远端历史和合法更改，不上传整个上层工作区，不强推。当前已批准内容基准2026.10.30-8：341条、29专题、638项去重来源、9别名，350个旧入口仍有去向；本次发布不改医学正文、人群、引用和临床状态。
+- 先查真正Git根、branch、remote、工作区和远端最新提交。最新版源码目录未必是正确检出目录；旧同名目录也可能只有66条。保留现有远端历史和合法更改，不上传整个上层工作区，不强推。当前已批准内容基准2026.10.30-8：341条、29专题、638项去重来源、9别名，350个新旧静态分享页仍有去向；本次发布不改医学正文、人群、引用和临床状态。
 - 公共python build.py [--check]已默认当前完整版本，明确入口也可用python scripts/build_current.py [--check]；旧content/及scripts/build.py仍是历史基线，不能由Actions退回66条。release/current.json指定批准来源、预期版本/计数和正式URLs，构建逐项核实际结果。--check重建.draft-preview/current/content与web并校验，不生成dist；完整构建先生成.draft-preview/current/dist再复制root dist。本地approved-home构建曾清空site_url，生产必须保留真实站点及/body-care-guide/子路径，检查canonical、og:url、sitemap和资产路径。
 - 本轮顺序：python build.py --check → python scripts/run_current_checks.py → python build.py。测试器将failure/error/skip均视作失败，写reports/current-tests.json和current-tests.txt。Actions用Python3.12和Node24；冷检出测试自建fixture，不依赖本机旧.draft-preview网页或缓存。核对生产与已批准版本的341条正文、638来源、29专题、9别名一致；正式站点元数据差异说明清楚。保留原生产收藏键，不把本地预览隔离键直接替换上线，验证旧ID、分享URL、章/单元、收藏导入/归并和人群互斥。
 - 跨平台保护所有byte/hash绑定输入，不只JSON。.gitattributes保持* text=auto eol=lf、*.json -text、**/references/*.md -text、web/styles.css -text及PNG binary。8冻结JSON、原稿和CSS视觉基线不得自动换行、格式化或补尾换行。git add后用二进制索引blob重核8份审核hash、原稿字节和CSS前缀hash；按测试同一前缀边界及rstrip()口径，当前CSS基线应为29be6f0911e293cb2db3827e967d462684a39581e17b92c19b4539bd8eb0b78f，不是整文件hash。工作区通过不代表提交字节相同；用Python subprocess直接捕获git cat-file blob :相对路径，不经PowerShell文本管道。改属性后对核明路径定向git add --renormalize -- web/styles.css并重验索引，不只改.gitattributes。失败须修实际字节，不静默改期望hash或削弱门禁，不改医学文；Linux干净检出仍须通过。
@@ -132,4 +132,4 @@ Vancouver数字顺序引用，同源复用编号；条目和来源永久ID不随
 - 手机首页和查找页搜索图标/input/清除区有真实grid/flex空间，不保留absolute图标+input零padding重叠组合，不用placeholder空格假占位。空提示/中文长输入/英文/清除出现/聚焦/提交分别检查，320px及三字号下不重叠；字号舒适，窄屏去无用键盘提示。无整页横滚不能替代重叠检查。
 - 全端公共页移除“给维护者与开发者”与API/构建等技术面板，原位仅留“开发者：Eothen Tsang”、https://github.com/eothenofficial 个人主页、自然的欢迎共同维护/建议一句。账号主页不能错用/body-care-guide仓库URL；不把用户命令、blablabla或交付/校对状态放进读者正文。底层API、JSON/Markdown/离线导出、证据说明、CI和稳定URL继续保留，删除面板不等于删接口。
 - 新增真实验收：320×568、375×667、短横屏目录滚动与快捷目标44px；小/中/大、刷新/坏存储/写入拒绝/旧key零访问；large手机→桌面→手机；搜索边界与SVG；PC/手机作者区和准确个人主页；API/下载/证据回归。Node模型、实际模拟浏览、用户反馈和iOS实机验证分别写，未测不能填通过。本轮实际测试数、构建、CI/Pages与站点结果逐项核，不拿旧162项或旧CI当证明。
-- 医学content_version仍2026.10.30-8，341条/638来源/29专题/9别名和350稳定入口、临床状态不变；只更新reader_revision及实际构建记录。SOP/Prompt/清单/drafts副本与独立本地“SOP_少走弯路的人体保养指南_2026-10-31_目录与阅读优化版”同版；保留第11次目录，带完整用户风格原稿、说明与源/副本哈希，不预填已上线。
+- 医学content_version仍2026.10.30-8，341条/638来源/29专题/9别名和350个新旧静态分享页、临床状态不变；只更新reader_revision及实际构建记录。SOP/Prompt/清单/drafts副本与独立本地“SOP_少走弯路的人体保养指南_2026-10-31_目录与阅读优化版”同版；保留第11次目录，带完整用户风格原稿、说明与源/副本哈希，不预填已上线。
